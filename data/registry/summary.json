@@ -1,0 +1,912 @@
+{
+  "targets": {
+    "markets:euler_v2:1": {
+      "chain": "eth",
+      "rows": 6884,
+      "scanned_to_block": 26101755,
+      "seconds": 168.4,
+      "status": "ok"
+    },
+    "markets:euler_v2:130": {
+      "chain": "unichain",
+      "rows": 308,
+      "scanned_to_block": 60160996,
+      "seconds": 46.9,
+      "status": "ok"
+    },
+    "markets:euler_v2:137": {
+      "chain": "polygon",
+      "rows": 1606,
+      "scanned_to_block": 94802814,
+      "seconds": 52.1,
+      "status": "ok"
+    },
+    "markets:euler_v2:143": {
+      "chain": "monad",
+      "rows": 573,
+      "scanned_to_block": 109779213,
+      "seconds": 1.7,
+      "status": "ok"
+    },
+    "markets:euler_v2:146": {
+      "chain": "sonic",
+      "rows": 532,
+      "scanned_to_block": 80219850,
+      "seconds": 2.7,
+      "status": "ok"
+    },
+    "markets:euler_v2:239": {
+      "chain": "tac",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:euler_v2:42161": {
+      "chain": "arbitrum",
+      "rows": 780,
+      "scanned_to_block": 510855967,
+      "seconds": 3.3,
+      "status": "ok"
+    },
+    "markets:euler_v2:43114": {
+      "chain": "avalanche",
+      "rows": 647,
+      "scanned_to_block": 96572470,
+      "seconds": 2.4,
+      "status": "ok"
+    },
+    "markets:euler_v2:56": {
+      "chain": "bsc",
+      "rows": 507,
+      "scanned_to_block": 125215248,
+      "seconds": 109.9,
+      "status": "ok"
+    },
+    "markets:euler_v2:59144": {
+      "chain": "linea",
+      "rows": 217,
+      "scanned_to_block": 32206628,
+      "seconds": 1.9,
+      "status": "ok"
+    },
+    "markets:euler_v2:60808": {
+      "chain": "60808",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:euler_v2:80094": {
+      "chain": "berachain",
+      "rows": 383,
+      "scanned_to_block": 26947373,
+      "seconds": 58.1,
+      "status": "ok"
+    },
+    "markets:euler_v2:8453": {
+      "chain": "base",
+      "rows": 1397,
+      "scanned_to_block": 52060028,
+      "seconds": 60.8,
+      "status": "ok"
+    },
+    "markets:euler_v2:9745": {
+      "chain": "plasma",
+      "rows": 371,
+      "scanned_to_block": 33968427,
+      "seconds": 50.6,
+      "status": "ok"
+    },
+    "markets:euler_v2:999": {
+      "chain": "hyperliquid",
+      "rows": 509,
+      "scanned_to_block": 47430430,
+      "seconds": 59.4,
+      "status": "ok"
+    },
+    "markets:moolah:56": {
+      "cached": true,
+      "chain": "bsc",
+      "rows": 532,
+      "scanned_to_block": 125213726,
+      "status": "ok"
+    },
+    "markets:morpho:1": {
+      "cached": true,
+      "chain": "eth",
+      "rows": 1802,
+      "scanned_to_block": 26101700,
+      "status": "ok"
+    },
+    "markets:morpho:10": {
+      "cached": true,
+      "chain": "optimism",
+      "rows": 18,
+      "scanned_to_block": 157654953,
+      "status": "ok"
+    },
+    "markets:morpho:1135": {
+      "cached": true,
+      "chain": "lisk",
+      "rows": 31,
+      "scanned_to_block": 38090111,
+      "status": "ok"
+    },
+    "markets:morpho:123420001114": {
+      "chain": "camp",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:130": {
+      "cached": true,
+      "chain": "unichain",
+      "rows": 53,
+      "scanned_to_block": 60160331,
+      "status": "ok"
+    },
+    "markets:morpho:1329": {
+      "cached": true,
+      "chain": "sei",
+      "rows": 41,
+      "scanned_to_block": 235256507,
+      "status": "ok"
+    },
+    "markets:morpho:137": {
+      "cached": true,
+      "chain": "polygon",
+      "rows": 660,
+      "scanned_to_block": 94802367,
+      "status": "ok"
+    },
+    "markets:morpho:14": {
+      "cached": true,
+      "chain": "flare",
+      "rows": 15,
+      "scanned_to_block": 71110843,
+      "status": "ok"
+    },
+    "markets:morpho:143": {
+      "cached": true,
+      "chain": "monad",
+      "rows": 128,
+      "scanned_to_block": 109776859,
+      "status": "ok"
+    },
+    "markets:morpho:146": {
+      "cached": true,
+      "chain": "sonic",
+      "rows": 15,
+      "scanned_to_block": 80219533,
+      "status": "ok"
+    },
+    "markets:morpho:16661": {
+      "chain": "zerog",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:1672": {
+      "chain": "pharos",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:1868": {
+      "cached": true,
+      "chain": "soneium",
+      "rows": 15,
+      "scanned_to_block": 28887268,
+      "status": "ok"
+    },
+    "markets:morpho:200901": {
+      "chain": "bitlayer",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:21000000": {
+      "chain": "corn",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:239": {
+      "chain": "tac",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:25": {
+      "chain": "cronos",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:252": {
+      "cached": true,
+      "chain": "fraxtal",
+      "rows": 11,
+      "scanned_to_block": 42048991,
+      "status": "ok"
+    },
+    "markets:morpho:2741": {
+      "cached": true,
+      "chain": "abstract",
+      "rows": 25,
+      "scanned_to_block": 86426361,
+      "status": "ok"
+    },
+    "markets:morpho:2818": {
+      "cached": true,
+      "chain": "morph",
+      "rows": 5,
+      "scanned_to_block": 27674465,
+      "status": "ok"
+    },
+    "markets:morpho:34443": {
+      "chain": "mode",
+      "rows": 1,
+      "scanned_to_block": 45370884,
+      "seconds": 1.0,
+      "status": "ok"
+    },
+    "markets:morpho:42161": {
+      "chain": "arbitrum",
+      "rows": 258,
+      "scanned_to_block": 510855559,
+      "seconds": 3.1,
+      "status": "ok"
+    },
+    "markets:morpho:4217": {
+      "cached": true,
+      "chain": "tempo",
+      "rows": 19,
+      "scanned_to_block": 42195188,
+      "status": "ok"
+    },
+    "markets:morpho:42220": {
+      "chain": "celo",
+      "rows": 23,
+      "scanned_to_block": 79008594,
+      "seconds": 1.3,
+      "status": "ok"
+    },
+    "markets:morpho:42793": {
+      "chain": "etherlink",
+      "rows": 19,
+      "scanned_to_block": 54715657,
+      "seconds": 0.6,
+      "status": "ok"
+    },
+    "markets:morpho:43111": {
+      "chain": "hemi",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:4326": {
+      "cached": true,
+      "chain": "megaeth",
+      "rows": 5,
+      "scanned_to_block": 28112282,
+      "status": "ok"
+    },
+    "markets:morpho:4663": {
+      "cached": true,
+      "chain": "robinhood",
+      "rows": 303,
+      "scanned_to_block": 77887343,
+      "status": "ok"
+    },
+    "markets:morpho:480": {
+      "cached": true,
+      "chain": "worldchain",
+      "rows": 32,
+      "scanned_to_block": 35786527,
+      "status": "ok"
+    },
+    "markets:morpho:50": {
+      "chain": "xdc",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:5042": {
+      "chain": "arc",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:534352": {
+      "chain": "scroll",
+      "rows": 19,
+      "scanned_to_block": 35245601,
+      "seconds": 0.6,
+      "status": "ok"
+    },
+    "markets:morpho:56": {
+      "cached": true,
+      "chain": "bsc",
+      "rows": 90,
+      "scanned_to_block": 125213760,
+      "status": "ok"
+    },
+    "markets:morpho:57073": {
+      "chain": "ink",
+      "rows": 12,
+      "scanned_to_block": 57410941,
+      "seconds": 0.5,
+      "status": "ok"
+    },
+    "markets:morpho:59144": {
+      "chain": "linea",
+      "rows": 1,
+      "scanned_to_block": 32206609,
+      "seconds": 0.5,
+      "status": "ok"
+    },
+    "markets:morpho:685689": {
+      "chain": "gensyn",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:714": {
+      "chain": "eden",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:747474": {
+      "chain": "katana",
+      "rows": 109,
+      "scanned_to_block": 44166543,
+      "seconds": 0.8,
+      "status": "ok"
+    },
+    "markets:morpho:8217": {
+      "chain": "kaia",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:8453": {
+      "chain": "base",
+      "rows": 4317,
+      "scanned_to_block": 52060002,
+      "seconds": 9.7,
+      "status": "ok"
+    },
+    "markets:morpho:988": {
+      "chain": "stable",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:morpho:98866": {
+      "chain": "plume",
+      "rows": 48,
+      "scanned_to_block": 96787560,
+      "seconds": 0.9,
+      "status": "ok"
+    },
+    "markets:morpho:999": {
+      "cached": true,
+      "chain": "hyperliquid",
+      "rows": 205,
+      "scanned_to_block": 47430030,
+      "status": "ok"
+    },
+    "markets:silo_v2:1": {
+      "chain": "eth",
+      "rows": 252,
+      "scanned_to_block": 26101764,
+      "seconds": 60.2,
+      "status": "ok"
+    },
+    "markets:silo_v2:10": {
+      "chain": "optimism",
+      "rows": 20,
+      "scanned_to_block": 157655344,
+      "seconds": 57.3,
+      "status": "ok"
+    },
+    "markets:silo_v2:146": {
+      "chain": "sonic",
+      "rows": 244,
+      "scanned_to_block": 80219942,
+      "seconds": 2.3,
+      "status": "ok"
+    },
+    "markets:silo_v2:1672": {
+      "chain": "pharos",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:silo_v2:1776": {
+      "chain": "injective",
+      "rows": 18,
+      "scanned_to_block": 185469837,
+      "seconds": 2.4,
+      "status": "ok"
+    },
+    "markets:silo_v2:196": {
+      "chain": "okx",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:silo_v2:42161": {
+      "chain": "arbitrum",
+      "rows": 242,
+      "scanned_to_block": 510856196,
+      "seconds": 58.7,
+      "status": "ok"
+    },
+    "markets:silo_v2:43114": {
+      "chain": "avalanche",
+      "rows": 144,
+      "scanned_to_block": 96572513,
+      "seconds": 58.3,
+      "status": "ok"
+    },
+    "markets:silo_v2:4326": {
+      "chain": "megaeth",
+      "rows": 6,
+      "scanned_to_block": 28112510,
+      "seconds": 1.5,
+      "status": "ok"
+    },
+    "markets:silo_v2:50": {
+      "chain": "xdc",
+      "status": "skipped_no_hypersync"
+    },
+    "markets:silo_v2:5000": {
+      "chain": "mantle",
+      "rows": 2,
+      "scanned_to_block": 101389605,
+      "seconds": 1.5,
+      "status": "ok"
+    },
+    "markets:silo_v2:56": {
+      "chain": "bsc",
+      "rows": 2,
+      "scanned_to_block": 125215496,
+      "seconds": 60.8,
+      "status": "ok"
+    },
+    "markets:silo_v2:57073": {
+      "chain": "ink",
+      "rows": 16,
+      "scanned_to_block": 57411113,
+      "seconds": 57.0,
+      "status": "ok"
+    },
+    "markets:silo_v2:8453": {
+      "chain": "base",
+      "rows": 0,
+      "scanned_to_block": 52060088,
+      "seconds": 0.8,
+      "status": "ok"
+    },
+    "vaults:euler_v2:1": {
+      "chain": "eth",
+      "rows": 54,
+      "scanned_to_block": 26102021,
+      "seconds": 36.8,
+      "status": "ok"
+    },
+    "vaults:euler_v2:130": {
+      "chain": "unichain",
+      "rows": 2,
+      "scanned_to_block": 60164188,
+      "seconds": 1.1,
+      "status": "ok"
+    },
+    "vaults:euler_v2:137": {
+      "chain": "polygon",
+      "rows": 0,
+      "scanned_to_block": 94804938,
+      "seconds": 2.7,
+      "status": "ok"
+    },
+    "vaults:euler_v2:143": {
+      "chain": "monad",
+      "rows": 17,
+      "scanned_to_block": 109789631,
+      "seconds": 6.1,
+      "status": "ok"
+    },
+    "vaults:euler_v2:146": {
+      "chain": "sonic",
+      "rows": 2,
+      "scanned_to_block": 80221352,
+      "seconds": 2.4,
+      "status": "ok"
+    },
+    "vaults:euler_v2:239": {
+      "chain": "tac",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:euler_v2:42161": {
+      "chain": "arbitrum",
+      "rows": 21,
+      "scanned_to_block": 510867052,
+      "seconds": 104.8,
+      "status": "ok"
+    },
+    "vaults:euler_v2:43114": {
+      "chain": "avalanche",
+      "rows": 14,
+      "scanned_to_block": 96574997,
+      "seconds": 29.5,
+      "status": "ok"
+    },
+    "vaults:euler_v2:56": {
+      "chain": "bsc",
+      "rows": 14,
+      "scanned_to_block": 125222342,
+      "seconds": 115.7,
+      "status": "ok"
+    },
+    "vaults:euler_v2:59144": {
+      "chain": "linea",
+      "rows": 12,
+      "scanned_to_block": 32206900,
+      "seconds": 2.1,
+      "status": "ok"
+    },
+    "vaults:euler_v2:60808": {
+      "chain": "60808",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:euler_v2:80094": {
+      "chain": "berachain",
+      "rows": 0,
+      "scanned_to_block": 26948933,
+      "seconds": 1.6,
+      "status": "ok"
+    },
+    "vaults:euler_v2:8453": {
+      "chain": "base",
+      "rows": 95,
+      "scanned_to_block": 52061601,
+      "seconds": 175.0,
+      "status": "ok"
+    },
+    "vaults:euler_v2:9745": {
+      "chain": "plasma",
+      "rows": 20,
+      "scanned_to_block": 33971564,
+      "seconds": 33.5,
+      "status": "ok"
+    },
+    "vaults:euler_v2:999": {
+      "chain": "hyperliquid",
+      "rows": 11,
+      "scanned_to_block": 47433625,
+      "seconds": 4.1,
+      "status": "ok"
+    },
+    "vaults:moolah:56": {
+      "chain": "bsc",
+      "rows": 101,
+      "scanned_to_block": 125220326,
+      "seconds": 781.5,
+      "status": "ok"
+    },
+    "vaults:morpho:1": {
+      "chain": "eth",
+      "rows": 1255,
+      "scanned_to_block": 26102036,
+      "seconds": 106.1,
+      "status": "ok"
+    },
+    "vaults:morpho:10": {
+      "chain": "optimism",
+      "rows": 51,
+      "scanned_to_block": 157656976,
+      "seconds": 31.2,
+      "status": "ok"
+    },
+    "vaults:morpho:1135": {
+      "chain": "lisk",
+      "rows": 8,
+      "scanned_to_block": 38091986,
+      "seconds": 0.9,
+      "status": "ok"
+    },
+    "vaults:morpho:123420001114": {
+      "chain": "camp",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:130": {
+      "chain": "unichain",
+      "rows": 62,
+      "scanned_to_block": 60164372,
+      "seconds": 31.1,
+      "status": "ok"
+    },
+    "vaults:morpho:1329": {
+      "chain": "sei",
+      "rows": 14,
+      "scanned_to_block": 235264332,
+      "seconds": 1.5,
+      "status": "ok"
+    },
+    "vaults:morpho:137": {
+      "chain": "polygon",
+      "rows": 133,
+      "scanned_to_block": 94805061,
+      "seconds": 32.2,
+      "status": "ok"
+    },
+    "vaults:morpho:14": {
+      "chain": "flare",
+      "rows": 6,
+      "scanned_to_block": 71114599,
+      "seconds": 30.7,
+      "status": "ok"
+    },
+    "vaults:morpho:143": {
+      "chain": "monad",
+      "rows": 137,
+      "scanned_to_block": 109790339,
+      "seconds": 2.0,
+      "status": "ok"
+    },
+    "vaults:morpho:146": {
+      "chain": "sonic",
+      "rows": 8,
+      "scanned_to_block": 80221436,
+      "seconds": 1.2,
+      "status": "ok"
+    },
+    "vaults:morpho:16661": {
+      "chain": "zerog",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:1672": {
+      "chain": "pharos",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:1868": {
+      "chain": "soneium",
+      "rows": 9,
+      "scanned_to_block": 28889004,
+      "seconds": 1.1,
+      "status": "ok"
+    },
+    "vaults:morpho:200901": {
+      "chain": "bitlayer",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:21000000": {
+      "chain": "corn",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:239": {
+      "chain": "tac",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:25": {
+      "chain": "cronos",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:252": {
+      "chain": "fraxtal",
+      "rows": 3,
+      "scanned_to_block": 42051025,
+      "seconds": 1.2,
+      "status": "ok"
+    },
+    "vaults:morpho:2741": {
+      "chain": "abstract",
+      "rows": 9,
+      "scanned_to_block": 86431014,
+      "seconds": 1.3,
+      "status": "ok"
+    },
+    "vaults:morpho:2818": {
+      "chain": "morph",
+      "rows": 5,
+      "scanned_to_block": 27676427,
+      "seconds": 57.2,
+      "status": "ok"
+    },
+    "vaults:morpho:34443": {
+      "chain": "mode",
+      "rows": 3,
+      "scanned_to_block": 45372619,
+      "seconds": 1.4,
+      "status": "ok"
+    },
+    "vaults:morpho:42161": {
+      "chain": "arbitrum",
+      "rows": 412,
+      "scanned_to_block": 510868030,
+      "seconds": 12.4,
+      "status": "ok"
+    },
+    "vaults:morpho:4217": {
+      "chain": "tempo",
+      "rows": 113,
+      "scanned_to_block": 42201429,
+      "seconds": 56.3,
+      "status": "ok"
+    },
+    "vaults:morpho:42220": {
+      "chain": "celo",
+      "rows": 8,
+      "scanned_to_block": 79012064,
+      "seconds": 1.8,
+      "status": "ok"
+    },
+    "vaults:morpho:42793": {
+      "chain": "etherlink",
+      "rows": 8,
+      "scanned_to_block": 54718851,
+      "seconds": 1.8,
+      "status": "ok"
+    },
+    "vaults:morpho:43111": {
+      "chain": "hemi",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:4326": {
+      "chain": "megaeth",
+      "rows": 2,
+      "scanned_to_block": 28115752,
+      "seconds": 56.5,
+      "status": "ok"
+    },
+    "vaults:morpho:4663": {
+      "chain": "robinhood",
+      "rows": 78,
+      "scanned_to_block": 77921673,
+      "seconds": 58.1,
+      "status": "ok"
+    },
+    "vaults:morpho:480": {
+      "chain": "worldchain",
+      "rows": 17,
+      "scanned_to_block": 35788561,
+      "seconds": 1.3,
+      "status": "ok"
+    },
+    "vaults:morpho:50": {
+      "chain": "xdc",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:5042": {
+      "chain": "arc",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:534352": {
+      "chain": "scroll",
+      "rows": 12,
+      "scanned_to_block": 35246778,
+      "seconds": 57.1,
+      "status": "ok"
+    },
+    "vaults:morpho:56": {
+      "chain": "bsc",
+      "rows": 18,
+      "scanned_to_block": 125222749,
+      "seconds": 36.3,
+      "status": "ok"
+    },
+    "vaults:morpho:57073": {
+      "chain": "ink",
+      "rows": 8,
+      "scanned_to_block": 57414413,
+      "seconds": 1.3,
+      "status": "ok"
+    },
+    "vaults:morpho:59144": {
+      "chain": "linea",
+      "rows": 2,
+      "scanned_to_block": 32206917,
+      "seconds": 3.8,
+      "status": "ok"
+    },
+    "vaults:morpho:685689": {
+      "chain": "gensyn",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:714": {
+      "chain": "eden",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:747474": {
+      "chain": "katana",
+      "rows": 71,
+      "scanned_to_block": 44170017,
+      "seconds": 4.7,
+      "status": "ok"
+    },
+    "vaults:morpho:8217": {
+      "chain": "kaia",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:8453": {
+      "chain": "base",
+      "rows": 4346,
+      "scanned_to_block": 52061709,
+      "seconds": 134.7,
+      "status": "ok"
+    },
+    "vaults:morpho:988": {
+      "chain": "stable",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:morpho:98866": {
+      "chain": "plume",
+      "rows": 19,
+      "scanned_to_block": 96795564,
+      "seconds": 2.0,
+      "status": "ok"
+    },
+    "vaults:morpho:999": {
+      "chain": "hyperliquid",
+      "rows": 204,
+      "scanned_to_block": 47433843,
+      "seconds": 2.8,
+      "status": "ok"
+    },
+    "vaults:silo_v2:1": {
+      "chain": "eth",
+      "rows": 30,
+      "scanned_to_block": 26102035,
+      "seconds": 0.9,
+      "status": "ok"
+    },
+    "vaults:silo_v2:10": {
+      "chain": "optimism",
+      "rows": 2,
+      "scanned_to_block": 157656974,
+      "seconds": 1.2,
+      "status": "ok"
+    },
+    "vaults:silo_v2:146": {
+      "chain": "sonic",
+      "rows": 150,
+      "scanned_to_block": 80221419,
+      "seconds": 1.5,
+      "status": "ok"
+    },
+    "vaults:silo_v2:1672": {
+      "chain": "pharos",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:silo_v2:1776": {
+      "chain": "injective",
+      "rows": 6,
+      "scanned_to_block": 185475235,
+      "seconds": 1.1,
+      "status": "ok"
+    },
+    "vaults:silo_v2:196": {
+      "chain": "okx",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:silo_v2:42161": {
+      "chain": "arbitrum",
+      "rows": 56,
+      "scanned_to_block": 510867677,
+      "seconds": 0.5,
+      "status": "ok"
+    },
+    "vaults:silo_v2:43114": {
+      "chain": "avalanche",
+      "rows": 24,
+      "scanned_to_block": 96575137,
+      "seconds": 0.6,
+      "status": "ok"
+    },
+    "vaults:silo_v2:4326": {
+      "chain": "megaeth",
+      "rows": 0,
+      "scanned_to_block": 28115713,
+      "seconds": 0.8,
+      "status": "ok"
+    },
+    "vaults:silo_v2:50": {
+      "chain": "xdc",
+      "status": "skipped_no_hypersync"
+    },
+    "vaults:silo_v2:5000": {
+      "chain": "mantle",
+      "rows": 0,
+      "scanned_to_block": 101391207,
+      "seconds": 0.4,
+      "status": "ok"
+    },
+    "vaults:silo_v2:56": {
+      "chain": "bsc",
+      "rows": 2,
+      "scanned_to_block": 125222737,
+      "seconds": 5.3,
+      "status": "ok"
+    },
+    "vaults:silo_v2:57073": {
+      "chain": "ink",
+      "rows": 5,
+      "scanned_to_block": 57414315,
+      "seconds": 0.4,
+      "status": "ok"
+    },
+    "vaults:silo_v2:8453": {
+      "chain": "base",
+      "rows": 0,
+      "scanned_to_block": 52061689,
+      "seconds": 1.0,
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "affected_supply_usd_at_t0": "sum over affected markets of supply at the last panel row at or before t0, times the loan token's close on t0's day; an Euler lending vault serves many collaterals, so it counts with family_debt_share_at_t0, the share of its attributed debt (borrow_distribution.csv, latest day at or before t0) backed by the event's family; affected_supply_usd_at_t0_whole_markets counts every market whole",
+  "collateral_family": "the family of the first depeg-loss hit, else of the first hit; families lists all, and Euler debt shares count all of them",
+  "curator": "joined from data/registry/vault_curators.jsonl",
+  "curator_source": {
+    "file": "data/registry/vault_curators.jsonl",
+    "generator": "code/analysis/curators.py",
+    "rows": 9138,
+    "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+    "written_utc": "2026-10-09T17:40:58+00:00"
+  },
+  "earlier_lockup_episodes": "lock-up episodes of a depeg-loss event that start before t0",
+  "end": "the latest hit end; lock-ups open at the panel head end at the head (ongoing_at_head); census hits end at their window end, which for windows open at the census head (2026-08-20) is that head",
+  "excluded": "self_dealing_loop when every hit is a lock-up kept only by vaults of a self-dealing controller listed in the script (data/resume/king-rss.md); the event stays here and leaves Table 3; those vaults count as self-deposited",
+  "exposed_vaults": "curated vaults with >= 10k USD in the event's markets (same chain) at t0 or at some day end in the 90 days before; position_t0 is exact (shares at t0 x assets per share at the last panel row); group exited_before_t0 when position_t0 < 10% of the 90-day peak, entered_after_t0 when the vault reached 10k USD in the markets only after t0; exit_lead_days = t0 minus the first sample after the last one at >= 50% of the peak (E5); days_locked counts day ends from t0's day to the event end (or the chain's own panel head if earlier) with L(t) < 5% while the vault still holds >= 10k USD in the markets (1% and 10% alongside)",
+  "exposure_third_party_usd_peak_after_t0": "peak over day ends from t0's day to the event end of the daily sum of the guarded, family-weighted third-party positions (Euler lending vaults net of the listed Earn vaults that day)",
+  "first_trigger_any": "the earliest trigger among all the event's hits",
+  "generator": "code/analysis/e2_events.py",
+  "guard": "a pinned market keeps accruing interest nobody pays; from a reference point (t0, or the first row of the pinned run for a market already pinned at t0) every position in the event's markets is valued at min(assets per share, assets per share at the reference x (1 + r x years since)), r = the borrow APR at the reference, at most 100%; guard_capped_days counts the vault-days the cap bound (lookback and post-t0 day ends); L(t) for days_locked uses the capped values",
+  "issuer": "ISSUERS table in the script (registry entities that issue a collateral), or the curator of a collateral that is itself a curated vault",
+  "merge_rules": {
+    "issuer_lineage": "a wrapper, staked version or receipt of an issuer asset is in that asset's family (census unwrap chain at row level or the reviewed LINEAGE_TABLE; not through the base assets of LINEAGE_BASE)",
+    "on": [
+      "issuer_lineage",
+      "same_issuer"
+    ],
+    "same_issuer": "families of one issuer (ISSUERS by label, else FAMILY_ISSUERS) join when each has a depeg-loss hit and those depeg-loss windows overlap or are < 7 days apart",
+    "type": "depeg_loss when any hit is a depeg loss (loss_rule depeg_hit) or the event's priced principal loss is at least 100,000 USD (loss_rule priced_shortfall), else lockup"
+  },
+  "min_market_price": "peg units; the census event minimum when the event has census hits (depth-checked pools), else the Moolah scan's or the lock-up runs' DefiLlama closes of the collateral in its family peg (wrappers through the unwrap terminal); min_market_price_by_hit_source keeps all three",
+  "onset": "t0: for a lock-up event the earliest trigger among its hits (lock-up run start); for a depeg-loss event the earliest trigger (census hit date, Moolah hit date, or a lock-up run start) in the episode after which the collateral did not recover: its first price-trigger episode (a depeg-loss hit, or a close below 0.97 of peg) once recovered dips are split off, else its first trigger; every *_t0 field, exposure and vault group is read at t0",
+  "parameters": {
+    "L_lock": 0.05,
+    "duration_h": 72,
+    "episode_gap_days": 180,
+    "material_usd": 10000.0,
+    "merge_gap_days": 7,
+    "merge_horizon_days": 30,
+    "min_peak_usd": 1000000.0,
+    "self_deposit_share": 0.9,
+    "utilization": 0.99
+  },
+  "priced_loss": "for an event without a depeg-loss hit: summed over its markets, the principal shortfall at the recovery price at T plus the bad debt written off, from each market's first trigger (E5's market_shortfall); a market whose collateral has no recovery price is listed in unpriced_markets and adds nothing; selected when loss_usd >= threshold_usd",
+  "recovered_dip_of": "on a split-off event: the depeg loss it was split from; its number follows the merged events so that the others keep theirs",
+  "recovered_dips": "episodes split off a depeg-loss event because its collateral recovered after them (14 consecutive closes at or above 0.99 of peg after a close below 0.97, before the next price-trigger episode): event_id of the lock-up event they form (null when dropped for holding no lock-up hit) and recovered_utc, the day the run completed",
+  "rows": 69,
+  "self_curated": "true when at least one vault reaches 10k USD of exposure to the family (at t0, in the 90 days before or after t0) and every such vault is curated by the issuer_entity (for an Euler lending vault, its governor)",
+  "third_party": "exposure_third_party_usd_at_t0 sums exposure_t0_usd_counted over vaults with third_party true: curator not the issuer_entity and not self_deposited (unattributed, one address holding >= 90% of net deposits that also holds the owner or curator role); exposure weights each market by family_debt_share (Euler lending vaults, 1 elsewhere) and an Euler lending vault counts net of the Earn vaults listed in the same event",
+  "what": "E2 stress-event set: depeg-loss hits and kept lock-up runs merged by collateral family (overlap or gap < 7 days, across chains; a window still open at the data head counts for the merge up to 30 days after its onset) into episodes; episodes with lock-up runs on the same market, or the same family, chain and protocol, whose onsets are within 180 days of each other form one event (episodes lists them); merge_rules lists the rules on top of the census family identity",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "candidates": 1279,
+  "days": 529,
+  "generator": "code/analysis/e2_events.py",
+  "request_sha256": "57e974bdbb5fe27171fc44f7abb5de3db8bffdd0258f293c76278cc53a8b69ee",
+  "reuse": "a rerun reads every (market, day) sample with the same block from this file and reads only the missing ones from the chain",
+  "rows": 9306,
+  "rpc_requests_this_run": 0,
+  "what": "Moolah I1 evidence: the market oracle's peek(collateral) and peek(loan) (USD, 8 decimals) at each day's last panel block, against DefiLlama daily closes; accounting_over_market = (peek_c / peek_l) / (llama_c / llama_l)",
+  "written_utc": "2026-10-18T22:31:59+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "generator": "code/data/oracles.py --validate",
+  "only": [
+    "silo_v2:43114",
+    "silo_v2:42161",
+    "silo_v2:146",
+    "euler_v2:9745"
+  ],
+  "rpc_calls": 109,
+  "runtime_seconds": 32.309,
+  "skip_crosscheck": true,
+  "written_utc": "2026-10-08T15:14:31+00:00"
+}

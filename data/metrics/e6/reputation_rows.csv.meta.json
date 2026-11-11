@@ -1,0 +1,25 @@
+{
+  "columns": [
+    "event_id",
+    "t0",
+    "type",
+    "entity",
+    "exposed",
+    "segment_usd_t0",
+    "segment_usd_t90",
+    "segment_change",
+    "other_vaults_usd_t0",
+    "other_vaults_usd_t90",
+    "other_vaults_change",
+    "total_usd_t0",
+    "total_usd_t90",
+    "total_change",
+    "segment_change_log",
+    "other_vaults_change_log",
+    "total_change_log"
+  ],
+  "generator": "code/analysis/e6_incentives.py",
+  "rows": 469,
+  "what": "per E2 event with third-party exposure at t0 and curator: segment AUM the day before t0 and 90 days later",
+  "written_utc": "2026-10-18T23:06:46+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "built_at": "2026-10-09T17:40:58+00:00",
+  "generator": "code/analysis/curators.py",
+  "what": "Validation of the curator attribution against vault-level official labels (Morpho API, euler-labels products), a random sample with justifications, and consistency checks",
+  "written_utc": "2026-10-09T17:40:58+00:00"
+}

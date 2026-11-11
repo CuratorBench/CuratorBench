@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "c4f1e434-3386-4f48-b0ac-dc89782dfa55",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/c4f1e434-3386-4f48-b0ac-dc89782dfa55",
+ "symbol": "TBTC",
+ "written_utc": "2026-10-25T19:58:27Z"
+}

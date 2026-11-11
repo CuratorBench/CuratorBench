@@ -1,0 +1,9 @@
+{
+ "chain": "Base",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/7e0661bf-8cf3-45e6-9424-31916d4c7b84",
+ "symbol": "USDC",
+ "written_utc": "2026-10-25T20:02:29Z"
+}

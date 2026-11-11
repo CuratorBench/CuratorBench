@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "e65588a1-27ad-4e20-9232-68a6cfaccf63",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/e65588a1-27ad-4e20-9232-68a6cfaccf63",
+ "symbol": "USDS",
+ "written_utc": "2026-10-25T20:02:28Z"
+}

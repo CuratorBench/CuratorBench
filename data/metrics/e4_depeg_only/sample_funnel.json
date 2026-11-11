@@ -1,0 +1,115 @@
+{
+  "curated_net_usd_days": {
+    "all": 3045122648419.6187,
+    "outside_by_reason": {
+      "fewer_than_30_active_days": 0.0020762501229240372,
+      "holdings_outside_reconstruction": 0.0014656011238188417,
+      "loan_not_pegged:X:AVAX": 8.5786448925325e-05,
+      "loan_not_pegged:X:LINK": 0.00016825561619526492,
+      "loan_not_pegged:X:PAXG": 1.7908536228681072e-05,
+      "loan_not_pegged:X:RPL": 9.62226004762299e-07,
+      "loan_not_pegged:X:S": 0.0011071996893096563,
+      "loan_not_pegged:X:SOL": 1.1395271720174843e-12,
+      "loan_not_pegged:X:USUAL": 7.871075907053958e-05,
+      "loan_not_pegged:X:XAUt": 0.0004106325247749728,
+      "loan_not_pegged:nan": 0.003655822436031466,
+      "loan_unpriced": 3.2839399769956317e-13,
+      "no_positions": 0.0022411223065323255
+    },
+    "sample": 3010687634775.9517,
+    "sample_share": 0.9886917482087172
+  },
+  "definition": "funded: E3 aum_usd > 0 on at least one day (vault_daily.csv or lending_daily.csv); steps in decide()'s order, each vault at its first failing test",
+  "detail": {
+    "fewer_than_30_active_days": {
+      "fewer_than_30_active_days": 2353
+    },
+    "holdings_outside_reconstruction": {
+      "holdings_outside_reconstruction": 17
+    },
+    "loan_not_pegged_by_unit": {
+      "USD": 1,
+      "X:AAVE": 1,
+      "X:AVAX": 2,
+      "X:EUL": 1,
+      "X:LDO": 1,
+      "X:LINK": 2,
+      "X:ONDO": 1,
+      "X:PAXG": 4,
+      "X:RPL": 1,
+      "X:S": 11,
+      "X:SKY": 1,
+      "X:SOL": 1,
+      "X:UNI": 1,
+      "X:USUAL": 3,
+      "X:XAUt": 3,
+      "unknown": 101
+    },
+    "loan_not_pegged_or_unpriced": {
+      "loan_not_pegged": 134,
+      "loan_unpriced": 1
+    },
+    "no_e3_row": {},
+    "no_positions": {
+      "no_positions": 237
+    },
+    "owner_funded_or_self_dealing": {
+      "owner_funded:created_contract": 4,
+      "owner_funded:direct": 424,
+      "owner_funded:safe_signer": 21,
+      "protocol_owned_liquidity": 3,
+      "self_dealing_loop": 4
+    }
+  },
+  "enumerated": 4412,
+  "funded": 4075,
+  "sample": 877,
+  "sample_by_kind": {
+    "euler_earn": 27,
+    "euler_lending": 171,
+    "moolah_vault": 20,
+    "morpho_v1": 361,
+    "morpho_v2": 263,
+    "silo_vault": 35
+  },
+  "sample_by_loan_unit": {
+    "BTC": 46,
+    "ETH": 114,
+    "EUR": 30,
+    "USD": 676,
+    "X:BNB": 5,
+    "X:HYPE": 6
+  },
+  "steps": [
+    {
+      "remaining": 3619,
+      "removed": 456,
+      "step": "owner_funded_or_self_dealing"
+    },
+    {
+      "remaining": 3382,
+      "removed": 237,
+      "step": "no_positions"
+    },
+    {
+      "remaining": 3382,
+      "removed": 0,
+      "step": "no_e3_row"
+    },
+    {
+      "remaining": 3247,
+      "removed": 135,
+      "step": "loan_not_pegged_or_unpriced"
+    },
+    {
+      "remaining": 894,
+      "removed": 2353,
+      "step": "fewer_than_30_active_days"
+    },
+    {
+      "remaining": 877,
+      "removed": 17,
+      "step": "holdings_outside_reconstruction"
+    }
+  ]
+}

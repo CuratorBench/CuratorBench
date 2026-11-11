@@ -1,0 +1,9 @@
+{
+  "chain_id": 8453,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "euler_v2",
+  "rows": 607,
+  "rpc_calls": 193,
+  "written_utc": "2026-10-04T23:23:59+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "alphagrowth": {
+    "addresses": {
+      "0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
+    },
+    "description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alphagrowth.svg",
+    "name": "AlphaGrowth",
+    "social": {
+      "twitter": "alphagrowth1"
+    },
+    "url": "https://alphagrowth.io/"
+  },
+  "alterscope": {
+    "addresses": {
+      "0x2e571f334fe06A6a2741dd0E4cb5Bc7C1F8Af808": "Alterscope Multisig"
+    },
+    "description": "Alterscope is a third-party curator using Euler infrastructure to configure markets informed by risk modeling and monitoring tools. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alterscope_wb.png",
+    "name": "Alterscope",
+    "social": {
+      "twitter": "Alterscope"
+    },
+    "url": "https://www.alterscope.org/"
+  },
+  "apostro": {
+    "addresses": {
+      "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6": "Apostro Multisig",
+      "0xfD4CD4f4e6e7288E5F68af2D282Cfb872Cea144C": "Apostro Timelock"
+    },
+    "description": "Apostro is a third-party curator using Euler infrastructure to configure markets with a focus on oracle-risk management. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "apostro.png",
+    "name": "Apostro",
+    "social": {
+      "twitter": "apostroxyz"
+    },
+    "url": "https://www.apostro.xyz/"
+  },
+  "clearstar": {
+    "addresses": {
+      "0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
+      "0xb3CF59A5f12cA319861376C5e63Eef4790a42B44": "Curator Multisig"
+    },
+    "description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "clearstar.svg",
+    "name": "Clearstar",
+    "social": {
+      "twitter": "ClearstarLabs"
+    },
+    "url": "https://www.clearstar.xyz/"
+  },
+  "edge-capital": {
+    "addresses": {
+      "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
+    },
+    "description": "Edge UltraYield is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "edge.png",
+    "name": "Edge UltraYield",
+    "social": {
+      "twitter": "EdgeCapitalMgmt"
+    },
+    "url": "https://edgecapital.xyz/"
+  },
+  "euler-dao": {
+    "addresses": {
+      "0x1e13B0847808045854Ddd908F2d770Dc902Dcfb8": "Euler DAO Multisig",
+      "0xfe959D7A49EAE5Aaa821b71de315Fb3Adc7a52Ad": "Euler Vault Access Control Governor"
+    },
+    "description": "Euler DAO is responsible for the governance of the Euler protocol.",
+    "logo": "euler.svg",
+    "name": "Euler DAO",
+    "social": {
+      "discord": "https://discord.euler.finance/",
+      "github": "euler-xyz",
+      "telegram": "eulerfinance_official",
+      "twitter": "eulerfinance",
+      "youtube": "EulerFinance"
+    },
+    "url": "https://euler.finance/"
+  },
+  "jpeg-trading": {
+    "addresses": {
+      "0x0f20eA4103975226776E49A116044Fef260B388a": "JPEG Trading Vault & Oracle Router Governor"
+    },
+    "description": "JPEG Trading is a third-party curator using Euler infrastructure to configure isolated lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "jpeg-trading.svg",
+    "name": "JPEG Trading",
+    "social": {
+      "twitter": "JPEGTrading"
+    },
+    "url": "https://jpeg-trading.com/"
+  },
+  "re7-labs": {
+    "addresses": {
+      "0x184d597Be309e11650ca6c935B483DcC05551578": "Re7 Labs Euler Multisig"
+    },
+    "description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "re7labs.png",
+    "name": "Re7 Labs",
+    "social": {
+      "twitter": "Re7Labs"
+    },
+    "url": "https://www.re7labs.xyz/"
+  }
+}

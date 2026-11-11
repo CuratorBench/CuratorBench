@@ -1,0 +1,28 @@
+{
+  "generator": "code/analysis/e5_forecast.py",
+  "inputs": {
+    "metrics/e4/vault_daily.csv": {
+      "path": "data/metrics/e4/vault_daily.csv",
+      "sha256": "38282434eb9ec62adc798b5b5806938a6ee18d7f67c258e5c77f3bb481130a6f",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "metrics/e4/vault_scorecard.csv": {
+      "path": "data/metrics/e4/vault_scorecard.csv",
+      "sha256": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "metrics/e5/event_vault.csv": {
+      "path": "data/metrics/e5/event_vault.csv",
+      "sha256": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db",
+      "written_utc": "2026-10-18T22:50:49+00:00"
+    }
+  },
+  "parameters": {
+    "n_boot": 2000,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "window_days": 30
+  },
+  "what": "Spearman rank tests of pre-onset tail loss (E4 tl_headline on the day before t0, and its 30-day mean) against realized loss per dollar in E5's depeg-loss events, vault-event and curator level (see the script docstring)",
+  "written_utc": "2026-10-22T01:42:29+00:00"
+}

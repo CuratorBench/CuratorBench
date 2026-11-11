@@ -1,0 +1,15 @@
+{
+  "chain": "sonic",
+  "chain_id": 146,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "sonic",
+    "silo_factory": "0xf81d90DF1B63d48536E78564d24d5DD8F2BE58aD",
+    "silo_vaults_factory": "0x4B8Cbf30c9DC9d28ce56EeED40BF23B5FD6457B6"
+  },
+  "rows": 150,
+  "scanned_to_block": 80221419,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:45:26+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "column_rename": "2026-10-09: tl_* (each depth, crash, headline) hold the oracle-aware tail loss with phi = 0.25, adopted as the paper's tail loss, and tl_headline_phi000/phi050 its phi sensitivity; the first-pass formula moved to tl_v1_* (appendix); the columns named tl_v2_* on 2026-10-08 no longer exist. 2026-10-09: tl_crash (and the headlines) use the one-day crash jump for repricing oracles instead of phi times the 7-day depth; 2026-10-09: other/proxy_feed_other_asset oracles whose feed prices the crash's reference asset itself take the repricing branch in the crash; 2026-10-09: the crash jump is the largest one-day drop of the pair (was its 1st-percentile one-day return)",
+  "columns": [
+    "rank_by_aum",
+    "curator_entity",
+    "curator_name",
+    "aum_avg_usd",
+    "axis",
+    "metric",
+    "value",
+    "percentile"
+  ],
+  "generator": "code/analysis/e4_metrics.py",
+  "n_curators_in_pool": 68,
+  "rows": 60,
+  "what": "Fig 3: percentile of each of the 12 largest curators (by average daily net AUM) among all attributed curators on five axes; safety from tl_headline (oracle-aware); event resilience is left for E5",
+  "written_utc": "2026-10-18T22:47:48+00:00"
+}

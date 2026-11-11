@@ -1,0 +1,30 @@
+{
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "e3_by_curator_daily": {
+      "path": "data/aum/by_curator_daily.csv",
+      "sha256": "415aea28cfd005a32e445487e13dc358b2e47808e5aa78443ab3d87f3a35eeca",
+      "written_utc": "2026-10-18T05:05:36+00:00"
+    },
+    "e3_vault_daily": {
+      "path": "data/aum/vault_daily.csv",
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "events": {
+      "path": "data/events/events.jsonl",
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    }
+  },
+  "method": {
+    "groups": "curators of vaults that exited before t0 or entered after are in neither group; both groups need at least 1000000 USD of segment AUM at t0",
+    "log_variants": "log(end / start) with the end floored at 1 percent of the start",
+    "other_vaults_change": "same, without the vaults listed as exposed in the event (spillover to the curator's other vaults)",
+    "pooled": "OLS of the change (relative change: top 1 percent clipped) on an exposed dummy with event fixed effects, CR1 errors clustered by curator; permutation p shuffling the exposed label within events; only events with both groups",
+    "segment_change": "net USD (E3 aum minus holdings of other counted vaults) of the curator's vaults in the segment, day before t0 to 90 days later, minus 1",
+    "total_change": "the curator's whole AUM (by_curator_daily.csv)"
+  },
+  "what": "AUM change over the 90 days after t0 for curators exposed at t0 (third-party vaults present at t0) against curators not exposed, on the same protocols and loan asset symbols as the event's affected markets; pooled with event fixed effects",
+  "written_utc": "2026-10-18T23:06:47+00:00"
+}

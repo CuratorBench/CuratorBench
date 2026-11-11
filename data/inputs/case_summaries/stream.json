@@ -1,0 +1,1092 @@
+{
+  "aggregate": {
+    "abandoned_collateral_booked_usd": 83840431.55,
+    "abandoned_debt_principal_usd": 67919785.86,
+    "abandoned_equity_lost_snapshot_units_usd": 7882371.19,
+    "abandoned_equity_lost_usd": 14355275.06,
+    "abandoned_equity_par_minus_principal_usd": 15920645.68,
+    "abandoned_equity_self_created_snapshot_units_usd": 7776154.93,
+    "abandoned_equity_self_created_usd": 14248222.53,
+    "abandoned_recovery_usd": 1669352.65,
+    "debt_socialized_usd": 7703.1,
+    "extraction_collateral_usd": 33287873.07,
+    "extraction_loan_side_usd": 0.0,
+    "extraction_usd": 33287873.07,
+    "final_debt_usd": 1258781288.95,
+    "lender_flight_usd": 58601879.63,
+    "loan_side_lender_exposure_snapshot_usd": 17009922.68,
+    "loan_side_lender_exposure_usd": 16114806.87,
+    "loan_side_lender_loss_snapshot_usd": 16672610.32,
+    "loan_side_lender_loss_usd": 15795244.95,
+    "position_shortfall_principal_est": 67815803.85,
+    "position_shortfall_usd": 1116750414.9,
+    "recovery_usd": 1669352.65,
+    "snapshot_upper_bound_usd": 3761018.54,
+    "snapshot_upper_liquidity_usd": 9250191.8,
+    "snapshot_upper_ltv_usd": 17485088.09,
+    "true_loss_usd": 1116750414.89,
+    "zombie_interest_usd": 1050499981.73
+  },
+  "aggregate_mainnet_morpho": {
+    "abandoned_collateral_booked_usd": 1.26,
+    "abandoned_debt_principal_usd": 0.09,
+    "abandoned_equity_lost_snapshot_units_usd": 1.17,
+    "abandoned_equity_lost_usd": 1.17,
+    "abandoned_equity_par_minus_principal_usd": 1.17,
+    "abandoned_equity_self_created_snapshot_units_usd": 0.0,
+    "abandoned_equity_self_created_usd": 0.0,
+    "abandoned_recovery_usd": 0.03,
+    "extraction_collateral_usd": 0.0,
+    "extraction_loan_side_usd": 0.0,
+    "extraction_usd": 0.0,
+    "final_debt_usd": 0.09,
+    "lender_flight_usd": 0.0,
+    "position_shortfall_principal_est": 0.07,
+    "position_shortfall_usd": 0.07,
+    "recovery_usd": 0.03,
+    "snapshot_upper_bound_usd": 0.01,
+    "snapshot_upper_liquidity_usd": 0.11,
+    "snapshot_upper_ltv_usd": 0.88,
+    "true_loss_usd": 0.07,
+    "zombie_interest_usd": 0.0
+  },
+  "borrower_ledger": {
+    "note": "per chain and pledged token, from the Morpho replays: units pledged at that chain's snapshot block, the units behind positions abandoned by the end of the window, how much of those units was already pledged at the snapshot, and the borrowers' forfeited over-collateralization (collateral at the oracle's par value, less the recovery and less the depositors' principal shortfall on the same positions, floored at zero per position). The two variants credit the recovery to principal alone (par_minus_principal) and restrict the equity to the units pledged at the snapshot (snapshot_units). The *_self_created fields and self_created_by_address are the part of the abandoned units and equity that belongs to the case's creator addresses (config/created_units.json, hit rules R17), unscaled; s7_partition dedup applies each group's free share and leaves them out.",
+    "rows": [
+      {
+        "abandoned_collateral_booked_usd": 83025872.603629,
+        "abandoned_debt_principal_usd": 67223221.84,
+        "abandoned_equity_lost_snapshot_units_usd": 7776166.29,
+        "abandoned_equity_lost_usd": 14249068.65,
+        "abandoned_equity_par_minus_principal_usd": 15802650.76,
+        "abandoned_equity_self_created_par_minus_principal_usd": 15801682.86,
+        "abandoned_equity_self_created_snapshot_units_usd": 7776154.93,
+        "abandoned_equity_self_created_usd": 14248222.53,
+        "abandoned_recovery_usd": 1653175.78,
+        "abandoned_units_float": 65845263.18,
+        "abandoned_units_pledged_at_snapshot": 35933112.0,
+        "abandoned_units_self_created": 65840102.0,
+        "booked_par_usd_per_unit": 1.260924,
+        "chain_id": "98866",
+        "decimals": 6,
+        "n_markets": 2,
+        "pledged_units_snapshot": 35933112.0,
+        "self_created_by_address": {
+          "0x1597e4b7cf6d2877a1d690b6088668afdb045763": {
+            "equity_par_minus_principal_usd": 15801682.86,
+            "equity_snapshot_units_usd": 7776154.93,
+            "equity_usd": 14248222.53,
+            "units": 65840102.0,
+            "units_pledged_at_snapshot": 35933102.0
+          }
+        },
+        "symbol": "xUSD",
+        "token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+      },
+      {
+        "abandoned_collateral_booked_usd": 814556.1656320001,
+        "abandoned_debt_principal_usd": 696562.85,
+        "abandoned_equity_lost_snapshot_units_usd": 106203.29,
+        "abandoned_equity_lost_usd": 106204.8,
+        "abandoned_equity_par_minus_principal_usd": 117993.31,
+        "abandoned_equity_self_created_par_minus_principal_usd": 0.0,
+        "abandoned_equity_self_created_snapshot_units_usd": 0.0,
+        "abandoned_equity_self_created_usd": 0.0,
+        "abandoned_recovery_usd": 16176.81,
+        "abandoned_units_float": 644315.151759,
+        "abandoned_units_pledged_at_snapshot": 644313.151759,
+        "abandoned_units_self_created": 0.0,
+        "booked_par_usd_per_unit": 1.26422,
+        "chain_id": "42161",
+        "decimals": 6,
+        "n_markets": 2,
+        "pledged_units_snapshot": 21750327.264721002,
+        "self_created_by_address": {},
+        "symbol": "xUSD",
+        "token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+      },
+      {
+        "abandoned_collateral_booked_usd": 1.26309,
+        "abandoned_debt_principal_usd": 0.09,
+        "abandoned_equity_lost_snapshot_units_usd": 1.17,
+        "abandoned_equity_lost_usd": 1.17,
+        "abandoned_equity_par_minus_principal_usd": 1.17,
+        "abandoned_equity_self_created_par_minus_principal_usd": 0.0,
+        "abandoned_equity_self_created_snapshot_units_usd": 0.0,
+        "abandoned_equity_self_created_usd": 0.0,
+        "abandoned_recovery_usd": 0.03,
+        "abandoned_units_float": 1.0,
+        "abandoned_units_pledged_at_snapshot": 1.0,
+        "abandoned_units_self_created": 0.0,
+        "booked_par_usd_per_unit": 1.26309,
+        "chain_id": "1",
+        "decimals": 6,
+        "n_markets": 2,
+        "pledged_units_snapshot": 1.0,
+        "self_created_by_address": {},
+        "symbol": "xUSD",
+        "token": "0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94"
+      },
+      {
+        "abandoned_collateral_booked_usd": 1.516636,
+        "abandoned_debt_principal_usd": 1.08,
+        "abandoned_equity_lost_snapshot_units_usd": 0.44,
+        "abandoned_equity_lost_usd": 0.44,
+        "abandoned_equity_par_minus_principal_usd": 0.44,
+        "abandoned_equity_self_created_par_minus_principal_usd": 0.0,
+        "abandoned_equity_self_created_snapshot_units_usd": 0.0,
+        "abandoned_equity_self_created_usd": 0.0,
+        "abandoned_recovery_usd": 0.03,
+        "abandoned_units_float": 1.19789,
+        "abandoned_units_pledged_at_snapshot": 1.19789,
+        "abandoned_units_self_created": 0.0,
+        "booked_par_usd_per_unit": 1.26609,
+        "chain_id": "1329",
+        "decimals": 6,
+        "n_markets": 1,
+        "pledged_units_snapshot": 1.19789,
+        "self_created_by_address": {},
+        "symbol": "xUSD",
+        "token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+      }
+    ],
+    "totals": {
+      "abandoned_collateral_booked_usd": 83840431.55,
+      "abandoned_debt_principal_usd": 67919785.86,
+      "abandoned_equity_lost_snapshot_units_usd": 7882371.19,
+      "abandoned_equity_lost_usd": 14355275.06,
+      "abandoned_equity_par_minus_principal_usd": 15920645.68,
+      "abandoned_equity_self_created_par_minus_principal_usd": 15801682.86,
+      "abandoned_equity_self_created_snapshot_units_usd": 7776154.93,
+      "abandoned_equity_self_created_usd": 14248222.53,
+      "abandoned_recovery_usd": 1669352.65,
+      "abandoned_units_float": 66489580.53,
+      "abandoned_units_pledged_at_snapshot": 36577427.35,
+      "abandoned_units_self_created": 65840102.0,
+      "pledged_units_snapshot": 57683441.46
+    }
+  },
+  "excluded_markets": [],
+  "excluded_totals": {
+    "issuers": [],
+    "n_lending_the_other_coin": 0,
+    "n_markets": 0,
+    "n_pledging_the_other_coin": 0,
+    "note": "markets of the surface whose family token matched by symbol only; not part of this case (hit rules R9)",
+    "other_coin_extracted_units": 0,
+    "other_coin_lent_at_snapshot_units": 0
+  },
+  "legacy_reconciliation": {
+    "competitor_onchain_usd": 7600000.0,
+    "note": "SSRN 7219718 claims $7.6M on-chain exposure; public cross-chain estimates ~$285M",
+    "public_estimate_usd": 285000000.0
+  },
+  "loan_side_basis": {
+    "claims_read_at": "price onset block per chain",
+    "onset_blocks": {
+      "1": 23722235,
+      "1329": 183863000,
+      "42161": 396526518,
+      "98866": 36858916
+    },
+    "onset_ts": 1762214400,
+    "snapshot_fields": "*_snapshot_usd keep the t0 - 24h reading",
+    "valued_at": "recovery price at the valuation block"
+  },
+  "peg_basis": {
+    "xUSD": {
+      "block": 23722235,
+      "chain_id": "1",
+      "market_uid": "morpho:1:0x39fe55e5102beac5fb3caff54142f26250b97dcdb5bea6122818c7760f38b331",
+      "oracle": "0x2f05ac98d85101b5f826d51337df573cf02a0a38",
+      "rule": "hit rules R21: booked value of the case's Morpho oracle at the mainnet price-onset block",
+      "value": 1.26609
+    }
+  },
+  "per_market": [
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": null,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:1:0xc05394d0261ed1c3c1af310007fdc4e64b3bcf650822b70526763fefc64b729e",
+      "pledged_units_snapshot": 0.0,
+      "position_shortfall_principal_est": null,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0024,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 0.0,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": null,
+      "snapshot_upper_liquidity_usd": 0.1,
+      "snapshot_upper_ltv_usd": null,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": 1.26309,
+      "abandoned_collateral_units": "1000000",
+      "abandoned_debt_principal_usd": 0.09,
+      "abandoned_equity_lost_snapshot_units_usd": 1.17,
+      "abandoned_equity_lost_usd": 1.17,
+      "abandoned_equity_par_minus_principal_usd": 1.17,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 0.03,
+      "abandoned_units_float": 1.0,
+      "abandoned_units_pledged_at_snapshot": 1.0,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.26309,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.093667,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:1:0x39fe55e5102beac5fb3caff54142f26250b97dcdb5bea6122818c7760f38b331",
+      "pledged_units_snapshot": 1.0,
+      "position_shortfall_principal_est": 0.07,
+      "position_shortfall_usd": 0.07,
+      "principal_ratio": 0.965602,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0996,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 0.02510698118559775,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": 0.01,
+      "snapshot_upper_liquidity_usd": 0.01,
+      "snapshot_upper_ltv_usd": 0.882134,
+      "true_loss_usd": 0.06856001881440225,
+      "zombie_interest_usd": 0.003222
+    },
+    {
+      "abandoned_collateral_booked_usd": 1.516636,
+      "abandoned_collateral_units": "1197890",
+      "abandoned_debt_principal_usd": 1.08,
+      "abandoned_equity_lost_snapshot_units_usd": 0.44,
+      "abandoned_equity_lost_usd": 0.44,
+      "abandoned_equity_par_minus_principal_usd": 0.44,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 0.03,
+      "abandoned_units_float": 1.19789,
+      "abandoned_units_pledged_at_snapshot": 1.19789,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.26609,
+      "chain_id": "1329",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 1.08,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:1329:0xb062baaa73b47647816f25996051236022b8e0d03a197a30bafda3a55c63c300",
+      "pledged_units_snapshot": 1.19789,
+      "position_shortfall_principal_est": 1.05,
+      "position_shortfall_usd": 1.05,
+      "principal_ratio": 1.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 0.030075401692415685,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": 0.12,
+      "snapshot_upper_liquidity_usd": 0.12,
+      "snapshot_upper_ltv_usd": 0.307721,
+      "true_loss_usd": 1.0499245983075844,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": 814555.736321,
+      "abandoned_collateral_units": "644314812208",
+      "abandoned_debt_principal_usd": 696562.85,
+      "abandoned_equity_lost_snapshot_units_usd": 106202.87,
+      "abandoned_equity_lost_usd": 106204.38,
+      "abandoned_equity_par_minus_principal_usd": 117992.88,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 16176.8,
+      "abandoned_units_float": 644314.812208,
+      "abandoned_units_pledged_at_snapshot": 644312.812208,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.26422,
+      "chain_id": "42161",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "extraction_collateral_usd": 1.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "1000000",
+      "extraction_usd": 1.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 2567774.9951,
+      "lender_flight_usd": 10808287.645621,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:42161:0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709",
+      "pledged_units_snapshot": 21750326.463541,
+      "position_shortfall_principal_est": 692174.56,
+      "position_shortfall_usd": 2551598.2,
+      "principal_ratio": 0.271271,
+      "protocol": "morpho",
+      "rate_peak_event": 8.0,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 16176.799867708203,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": 12962.845572,
+      "snapshot_upper_liquidity_usd": 12962.845572,
+      "snapshot_upper_ltv_usd": 13737030.935079,
+      "true_loss_usd": 2551598.1952322917,
+      "zombie_interest_usd": 1871212.140742
+    },
+    {
+      "abandoned_collateral_booked_usd": 0.429311,
+      "abandoned_collateral_units": "339551",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.42,
+      "abandoned_equity_lost_usd": 0.42,
+      "abandoned_equity_par_minus_principal_usd": 0.43,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 0.01,
+      "abandoned_units_float": 0.339551,
+      "abandoned_units_pledged_at_snapshot": 0.339551,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.264351,
+      "chain_id": "42161",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 8.548895,
+      "lender_flight_usd": 0.009753,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:42161:0x7c03103c24ccfa9188bf41a8d44423cf5492645805eb1d23d9f862717d3fe5ab",
+      "pledged_units_snapshot": 0.80118,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 8.54,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 6.3493,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 0.008525100568550902,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": 0.009753,
+      "snapshot_upper_liquidity_usd": 0.009753,
+      "snapshot_upper_ltv_usd": 0.413901,
+      "true_loss_usd": 8.540369899431449,
+      "zombie_interest_usd": 8.605852
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_equity_self_created_par_minus_principal_usd": 0,
+      "abandoned_equity_self_created_snapshot_units_usd": 0,
+      "abandoned_equity_self_created_usd": 0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "abandoned_units_self_created": 0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.260923,
+      "chain_id": "98866",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:98866:0x37cd54128e3f569e97c8dcd2bdf60ea7737a188bd9b950adb35089de38813855",
+      "pledged_units_snapshot": 0.0,
+      "position_shortfall_principal_est": null,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 0.0,
+      "self_created_by_address": {},
+      "snapshot_upper_bound_usd": 0.0,
+      "snapshot_upper_liquidity_usd": 0.0,
+      "snapshot_upper_ltv_usd": 0.0,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": 83025872.603629,
+      "abandoned_collateral_units": "65845263180000",
+      "abandoned_debt_principal_usd": 67223221.84,
+      "abandoned_equity_lost_snapshot_units_usd": 7776166.29,
+      "abandoned_equity_lost_usd": 14249068.65,
+      "abandoned_equity_par_minus_principal_usd": 15802650.76,
+      "abandoned_equity_self_created_par_minus_principal_usd": 15801682.86,
+      "abandoned_equity_self_created_snapshot_units_usd": 7776154.93,
+      "abandoned_equity_self_created_usd": 14248222.53,
+      "abandoned_recovery_usd": 1653175.78,
+      "abandoned_units_float": 65845263.18,
+      "abandoned_units_pledged_at_snapshot": 35933112.0,
+      "abandoned_units_self_created": 65840102.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 1.260923,
+      "chain_id": "98866",
+      "channel": "collateral",
+      "collateral_decimals": 6,
+      "collateral_symbol": "xUSD",
+      "collateral_token": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "extraction_collateral_usd": 32005603.36022,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "32005603360220",
+      "extraction_usd": 32005603.36022,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 1115851982.820985,
+      "lender_flight_usd": 4.63478,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:98866:0x82e7ab8ccabaac59b5f397507ed031ebf19a9a5b2657c00c93bc2423cd0a890d",
+      "pledged_units_snapshot": 35933112.0,
+      "position_shortfall_principal_est": 67123628.17,
+      "position_shortfall_usd": 1114198807.04,
+      "principal_ratio": 0.060244,
+      "protocol": "morpho",
+      "rate_peak_event": 8.0,
+      "recovery_price": {
+        "p": 0.02510698118559775,
+        "src": "r11_single_pool_below_floor"
+      },
+      "recovery_usd": 1653175.7838209923,
+      "self_created_by_address": {
+        "0x1597e4b7cf6d2877a1d690b6088668afdb045763": {
+          "equity_par_minus_principal_usd": 15801682.86,
+          "equity_snapshot_units_usd": 7776154.93,
+          "equity_usd": 14248222.53,
+          "units": 65840102.0,
+          "units_pledged_at_snapshot": 35933102.0
+        }
+      },
+      "snapshot_upper_bound_usd": 3748055.554857,
+      "snapshot_upper_liquidity_usd": 9237228.71,
+      "snapshot_upper_ltv_usd": 3748055.554857,
+      "true_loss_usd": 1114198807.037164,
+      "zombie_interest_usd": 1048628760.976669
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:1:0xfc6600b186d5b8b2fe59667efc0a479a7ac3f1b4",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "loan_side",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "loan_side_claims_block": 23722235,
+      "loan_side_lender_exposure_snapshot_usd": 17009922.683312815,
+      "loan_side_lender_exposure_usd": 16114806.872677648,
+      "loan_side_lender_loss_snapshot_usd": 16672610.321017552,
+      "loan_side_lender_loss_usd": 15795244.951359369,
+      "loan_side_price_verified": true,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "xUSD",
+      "market_uid": "eulervault:1:0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 3022.483036,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 3022.483036,
+      "family": [
+        "PT-xUSD-18DEC2025",
+        "xUSD"
+      ],
+      "final_debt_usd": 14387393.129532,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 9402283.007583,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 15234497.243114
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "PT-xUSD-18DEC2025",
+      "market_uid": "eulervault:1:0xf7047bd0d25ce04ae09d9f03ad37835f8b7315cb",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 2820.427231,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 6032452.074267,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 2572111.364947,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:146:0x196f3c7443e940911ee2bb88e019fd71400349d9",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 4575091.559113
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 4882.6756925991,
+      "extraction_collateral_usd": 4884.154815672,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 4884.154815672,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 12336384.819470866,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 934204.2538596372,
+      "loan_symbol": "scUSD",
+      "market_uid": "eulervault:146:0xb38d431e932fea77d1df0ae0dfe4400c97e597b8",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 7207057.415782641
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:146:0x8cc66e2f168dbf6c628e2c13c9105bd353684806",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:146:0x92b2b1f2a6ca5729839787db04f93dab77ec25e6",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "scUSD",
+      "market_uid": "eulervault:146:0x647ca0189fa2689a06b87c9391af4994d2bb1aa5",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:146:0x8cdddfa9c35c715610ef84c5d139e0ab9b858e0d",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "146",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "scUSD",
+      "market_uid": "eulervault:146:0x9015e2635f275a6c67c641010c1571f39db1dea5",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 429425.407996,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 429425.407996,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 90848257.879608,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 11951555.217344,
+      "loan_symbol": "USDT0",
+      "market_uid": "eulervault:9745:0x57c582346b7d49a46af3745a8278917d1c1311b8",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 96908388.579806
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "msUSD",
+      "market_uid": "eulervault:9745:0xdae8065f86783d26c308a851ce28bf56b1384599",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "msUSD",
+      "market_uid": "eulervault:9745:0x843a5f59eb56126277f786c614bfc5deb91fe94b",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 230917.3879405263,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 230917.3879405263,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 279437.18069480796,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 42483.42988643792,
+      "loan_symbol": "msUSD",
+      "market_uid": "eulervault:9745:0xf90cf999de728a582e154f926876b70e93a747b7",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 79487.04651507107
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 116451.025131,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 116451.025131,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 14298948.309868,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 21302794.420377,
+      "loan_symbol": "USDT0",
+      "market_uid": "eulervault:9745:0xf675fbe777e992f5d5d84adf41161dc0f20104a6",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 23957456.640657
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 497568.2521187691,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 497568.2521187691,
+      "family": [
+        "xUSD"
+      ],
+      "final_debt_usd": 2178648.0160451764,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 1588155.6466320057,
+      "loan_symbol": "plUSD",
+      "market_uid": "eulervault:9745:0x27934d4879fc28a74703726edae15f757e45a48a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 1663339.4879367764
+    }
+  ],
+  "recovery_prices": {
+    "xUSD@1": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@1329": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@146": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@42161": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@43114": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@9745": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    },
+    "xUSD@98866": {
+      "depth_usd": 3529.14,
+      "price": 0.02510698118559775,
+      "source": "r11_single_pool_below_floor"
+    }
+  },
+  "valuation": {
+    "blocks": {
+      "1": 25946847,
+      "1329": 231265291,
+      "146": 78982046,
+      "42161": 503701939,
+      "43114": 94935393,
+      "9745": 32101033,
+      "98866": 92520481
+    },
+    "ts": 1789041600,
+    "utc": "2026-09-10 12:00"
+  },
+  "window": {
+    "depeg_onset": {
+      "baseline": 1.25607,
+      "rule": "hit rules section 4: the start of the first six hours with the market price at or below 0.97 of the peg target",
+      "series": "s3/stream/price_4h.json",
+      "ts": 1762214400,
+      "utc": "2025-11-04 00:00"
+    },
+    "pre_case_signals": [
+      {
+        "first_pre": "2025-02-17",
+        "first_pre_ts": 1739824400,
+        "market_uid": "euler:146:0x196f3c7443e940911ee2bb88e019fd71400349d9:0xdebdab749330bb976fd10dc52f9a452aaf029028",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-03-04",
+        "first_pre_ts": 1741059143,
+        "market_uid": "euler:146:0xb38d431e932fea77d1df0ae0dfe4400c97e597b8:0xdebdab749330bb976fd10dc52f9a452aaf029028",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-07-29",
+        "first_pre_ts": 1753754591,
+        "market_uid": "morpho:1:0x39fe55e5102beac5fb3caff54142f26250b97dcdb5bea6122818c7760f38b331",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-08-18",
+        "first_pre_ts": 1755489600,
+        "market_uid": "silo:43114:0x1496796ab5a3ce7192b7cc2f852cbaf2927045ce",
+        "n_pre_signals": 4
+      },
+      {
+        "first_pre": "2025-08-20",
+        "first_pre_ts": 1755676800,
+        "market_uid": "silo:43114:0x76a2c55b5aa5037a374d509651b51ba134a3e186",
+        "n_pre_signals": 4
+      },
+      {
+        "first_pre": "2025-09-22",
+        "first_pre_ts": 1758570950,
+        "market_uid": "morpho:42161:0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-09-25",
+        "first_pre_ts": 1758830400,
+        "market_uid": "silo:1:0xb0b37f551e18c540cf7748589d24589945fc1f61",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-09-26",
+        "first_pre_ts": 1758901085,
+        "market_uid": "morpho:42161:0x7c03103c24ccfa9188bf41a8d44423cf5492645805eb1d23d9f862717d3fe5ab",
+        "n_pre_signals": 27
+      },
+      {
+        "first_pre": "2025-09-30",
+        "first_pre_ts": 1759221014,
+        "market_uid": "morpho:98866:0x82e7ab8ccabaac59b5f397507ed031ebf19a9a5b2657c00c93bc2423cd0a890d",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-10-11",
+        "first_pre_ts": 1760176583,
+        "market_uid": "euler:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd:0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2025-10-11",
+        "first_pre_ts": 1760176583,
+        "market_uid": "euler:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd:0x0f080bf8ba818001ecfb2f461708d8484323d0ce",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2025-10-11",
+        "first_pre_ts": 1760198400,
+        "market_uid": "silo:43114:0x6b13d486027c1b645ad663ba9f9a28744d04b8f8",
+        "n_pre_signals": 3
+      }
+    ],
+    "snapshot_rule": "hit rules section 5: t0 - 24h, per chain",
+    "t0_per_chain": {
+      "1": {
+        "ts": 1761681600,
+        "utc": "2025-10-28 20:00"
+      },
+      "146": {
+        "ts": 1761767795,
+        "utc": "2025-10-29 19:56"
+      },
+      "42161": {
+        "ts": 1761828401,
+        "utc": "2025-10-30 12:46"
+      },
+      "43114": {
+        "ts": 1761696000,
+        "utc": "2025-10-29 00:00"
+      },
+      "9745": {
+        "ts": 1761398911,
+        "utc": "2025-10-25 13:28"
+      },
+      "98866": {
+        "ts": 1761268999,
+        "utc": "2025-10-24 01:23"
+      }
+    }
+  }
+}

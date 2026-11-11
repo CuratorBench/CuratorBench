@@ -1,0 +1,61 @@
+rank_by_aum,curator_entity,curator_name,aum_avg_usd,axis,metric,value,percentile
+1,steakhouse-financial,Steakhouse Financial,840344940.8,Vault APY,vault_apy,0.03417100655,35.29411765
+1,steakhouse-financial,Steakhouse Financial,840344940.8,Net yield,yield_after_fee,0.04891718606,77.94117647
+1,steakhouse-financial,Steakhouse Financial,840344940.8,Safety,tl_headline,0.1314619145,75
+1,steakhouse-financial,Steakhouse Financial,840344940.8,Liquidity,L_p10,0.1952930902,54.41176471
+1,steakhouse-financial,Steakhouse Financial,840344940.8,Event resilience,event_resilience,,
+2,gauntlet,Gauntlet,577341753.2,Vault APY,vault_apy,0.0330762808,32.35294118
+2,gauntlet,Gauntlet,577341753.2,Net yield,yield_after_fee,0.03929404172,55.88235294
+2,gauntlet,Gauntlet,577341753.2,Safety,tl_headline,0.1351886208,72.05882353
+2,gauntlet,Gauntlet,577341753.2,Liquidity,L_p10,0.3694629741,77.94117647
+2,gauntlet,Gauntlet,577341753.2,Event resilience,event_resilience,,
+3,sparkdao,SparkDAO,380237717.4,Vault APY,vault_apy,0.07713796864,85.29411765
+3,sparkdao,SparkDAO,380237717.4,Net yield,yield_after_fee,0.07272441139,98.52941176
+3,sparkdao,SparkDAO,380237717.4,Safety,tl_headline,0.2270973455,42.64705882
+3,sparkdao,SparkDAO,380237717.4,Liquidity,L_p10,0.1297089825,38.23529412
+3,sparkdao,SparkDAO,380237717.4,Event resilience,event_resilience,,
+4,sentora,Sentora,322850974.9,Vault APY,vault_apy,0.02327924991,25
+4,sentora,Sentora,322850974.9,Net yield,yield_after_fee,0.02749261872,33.82352941
+4,sentora,Sentora,322850974.9,Safety,tl_headline,0.1018790137,80.88235294
+4,sentora,Sentora,322850974.9,Liquidity,L_p10,0.1402371668,45.58823529
+4,sentora,Sentora,322850974.9,Event resilience,event_resilience,,
+5,lista-dao,Lista DAO,297558639.5,Vault APY,vault_apy,0.012271034,14.70588235
+5,lista-dao,Lista DAO,297558639.5,Net yield,yield_after_fee,0.01369142013,19.11764706
+5,lista-dao,Lista DAO,297558639.5,Safety,tl_headline,0.1159621716,77.94117647
+5,lista-dao,Lista DAO,297558639.5,Liquidity,L_p10,0.1370763862,44.11764706
+5,lista-dao,Lista DAO,297558639.5,Event resilience,event_resilience,,
+6,mev-capital,MEV Capital,159606204.2,Vault APY,vault_apy,0.1604783149,94.11764706
+6,mev-capital,MEV Capital,159606204.2,Net yield,yield_after_fee,0.04758448319,73.52941176
+6,mev-capital,MEV Capital,159606204.2,Safety,tl_headline,0.2783515398,33.82352941
+6,mev-capital,MEV Capital,159606204.2,Liquidity,L_p10,0.1509025216,48.52941176
+6,mev-capital,MEV Capital,159606204.2,Event resilience,event_resilience,,
+7,euler-dao,Euler DAO,158928102.2,Vault APY,vault_apy,0.04100769469,47.05882353
+7,euler-dao,Euler DAO,158928102.2,Net yield,yield_after_fee,0.0252523144,30.88235294
+7,euler-dao,Euler DAO,158928102.2,Safety,tl_headline,0.1678340522,61.76470588
+7,euler-dao,Euler DAO,158928102.2,Liquidity,L_p10,0.2767065916,66.17647059
+7,euler-dao,Euler DAO,158928102.2,Event resilience,event_resilience,,
+8,usual,Usual,113292574.7,Vault APY,vault_apy,0.01443877797,16.17647059
+8,usual,Usual,113292574.7,Net yield,yield_after_fee,0.0001887651578,8.823529412
+8,usual,Usual,113292574.7,Safety,tl_headline,0.4848089594,1.470588235
+8,usual,Usual,113292574.7,Liquidity,L_p10,0.001814585258,8.823529412
+8,usual,Usual,113292574.7,Event resilience,event_resilience,,
+9,b-protocol,B.Protocol and Block Analitica,75082528.96,Vault APY,vault_apy,0.02314187502,23.52941176
+9,b-protocol,B.Protocol and Block Analitica,75082528.96,Net yield,yield_after_fee,0.02409342685,29.41176471
+9,b-protocol,B.Protocol and Block Analitica,75082528.96,Safety,tl_headline,0.1769656267,58.82352941
+9,b-protocol,B.Protocol and Block Analitica,75082528.96,Liquidity,L_p10,0.2299078046,61.76470588
+9,b-protocol,B.Protocol and Block Analitica,75082528.96,Event resilience,event_resilience,,
+10,felix,Felix,66333802.51,Vault APY,vault_apy,0.03944292953,44.11764706
+10,felix,Felix,66333802.51,Net yield,yield_after_fee,0.05501746399,88.23529412
+10,felix,Felix,66333802.51,Safety,tl_headline,0.1631015379,63.23529412
+10,felix,Felix,66333802.51,Liquidity,L_p10,0.1024289716,27.94117647
+10,felix,Felix,66333802.51,Event resilience,event_resilience,,
+11,re7-labs,RE7 Labs,55439670.12,Vault APY,vault_apy,0.05070090735,69.11764706
+11,re7-labs,RE7 Labs,55439670.12,Net yield,yield_after_fee,0.02132976644,25
+11,re7-labs,RE7 Labs,55439670.12,Safety,tl_headline,0.2082662276,47.05882353
+11,re7-labs,RE7 Labs,55439670.12,Liquidity,L_p10,0.08466010192,19.11764706
+11,re7-labs,RE7 Labs,55439670.12,Event resilience,event_resilience,,
+12,telosc,TelosC,53031218.86,Vault APY,vault_apy,0.002035697562,7.352941176
+12,telosc,TelosC,53031218.86,Net yield,yield_after_fee,0.01320010847,17.64705882
+12,telosc,TelosC,53031218.86,Safety,tl_headline,0.371919855,22.05882353
+12,telosc,TelosC,53031218.86,Liquidity,L_p10,0.09768199603,25
+12,telosc,TelosC,53031218.86,Event resilience,event_resilience,,

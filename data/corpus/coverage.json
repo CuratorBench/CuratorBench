@@ -1,0 +1,4860 @@
+{
+  "assets_without_documents": [],
+  "by_asset": {
+    "0x2416092f": {
+      "by_source_type": {
+        "audit": 6,
+        "docs": 47,
+        "governance_forum": 10,
+        "news": 10,
+        "other": 2
+      },
+      "documents": 75,
+      "rank": 145,
+      "tier": "B"
+    },
+    "0x40858070": {
+      "by_source_type": {
+        "docs": 5,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 2
+      },
+      "documents": 10,
+      "rank": 33,
+      "tier": "B"
+    },
+    "0x48090109": {
+      "by_source_type": {
+        "issuer_announcement": 1,
+        "other": 4
+      },
+      "documents": 5,
+      "rank": 95,
+      "tier": "B"
+    },
+    "0x4e559dbc": {
+      "by_source_type": {
+        "docs": 1,
+        "governance_forum": 2
+      },
+      "documents": 3,
+      "rank": 177,
+      "tier": "B"
+    },
+    "0x528a5bac": {
+      "by_source_type": {
+        "issuer_announcement": 4,
+        "other": 1
+      },
+      "documents": 5,
+      "rank": 235,
+      "tier": "B"
+    },
+    "0x93fec663": {
+      "by_source_type": {
+        "docs": 22,
+        "other": 2
+      },
+      "documents": 24,
+      "rank": 203,
+      "tier": "B"
+    },
+    "0xbeeff1d5": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "other": 2
+      },
+      "documents": 4,
+      "rank": 229,
+      "tier": "B"
+    },
+    "0xc9d24ad0": {
+      "by_source_type": {
+        "docs": 2
+      },
+      "documents": 2,
+      "rank": 225,
+      "tier": "B"
+    },
+    "0xde770c84": {
+      "by_source_type": {
+        "docs": 3,
+        "news": 4,
+        "other": 2
+      },
+      "documents": 9,
+      "rank": 75,
+      "tier": "B"
+    },
+    "0xdf03eed3": {
+      "by_source_type": {
+        "issuer_announcement": 4,
+        "other": 1
+      },
+      "documents": 5,
+      "rank": 265,
+      "tier": "B"
+    },
+    "0xe4eeb461": {
+      "by_source_type": {
+        "other": 1
+      },
+      "documents": 1,
+      "rank": 236,
+      "tier": "B"
+    },
+    "0xfed493f3": {
+      "by_source_type": {
+        "other": 2
+      },
+      "documents": 2,
+      "rank": 72,
+      "tier": "B"
+    },
+    "aa-falconxusdc": {
+      "by_source_type": {
+        "curator_announcement": 7,
+        "docs": 35,
+        "governance_forum": 16,
+        "other": 3
+      },
+      "documents": 61,
+      "rank": 61,
+      "tier": "B"
+    },
+    "aero": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 113
+      },
+      "documents": 115,
+      "rank": 275,
+      "tier": "B"
+    },
+    "ageth": {
+      "by_source_type": {
+        "governance_forum": 2
+      },
+      "documents": 2,
+      "rank": 78,
+      "tier": "B"
+    },
+    "aguausdcgc": {
+      "by_source_type": {
+        "other": 2
+      },
+      "documents": 2,
+      "rank": 248,
+      "tier": "B"
+    },
+    "aidausdc": {
+      "by_source_type": {
+        "curator_announcement": 1
+      },
+      "documents": 1,
+      "rank": 116,
+      "tier": "B"
+    },
+    "aidausdt": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "issuer_announcement": 2,
+        "other": 4
+      },
+      "documents": 7,
+      "rank": 164,
+      "tier": "B"
+    },
+    "amusd": {
+      "by_source_type": {
+        "other": 3
+      },
+      "documents": 3,
+      "rank": 270,
+      "tier": "B"
+    },
+    "ankr": {
+      "by_source_type": {
+        "governance_forum": 6,
+        "news": 13,
+        "other": 1
+      },
+      "documents": 20,
+      "rank": 274,
+      "tier": "A"
+    },
+    "anon": {
+      "by_source_type": {
+        "docs": 2,
+        "news": 1,
+        "other": 1
+      },
+      "documents": 4,
+      "rank": 268,
+      "tier": "B"
+    },
+    "apxeth": {
+      "by_source_type": {
+        "governance_forum": 27
+      },
+      "documents": 27,
+      "rank": 224,
+      "tier": "B"
+    },
+    "apxusd": {
+      "by_source_type": {
+        "docs": 48,
+        "issuer_announcement": 2,
+        "news": 8,
+        "other": 13,
+        "web_archive": 35
+      },
+      "documents": 106,
+      "rank": 143,
+      "tier": "A"
+    },
+    "apyusd": {
+      "by_source_type": {
+        "docs": 36,
+        "issuer_announcement": 2,
+        "news": 8,
+        "other": 13
+      },
+      "documents": 59,
+      "rank": 176,
+      "tier": "B"
+    },
+    "arusd": {
+      "by_source_type": {
+        "audit": 48,
+        "docs": 3,
+        "news": 1
+      },
+      "documents": 52,
+      "rank": 240,
+      "tier": "B"
+    },
+    "asonusdc": {
+      "by_source_type": {
+        "governance_forum": 29,
+        "other": 1
+      },
+      "documents": 30,
+      "rank": 138,
+      "tier": "B"
+    },
+    "astherus-usdf": {
+      "by_source_type": {
+        "docs": 1,
+        "governance_forum": 1,
+        "news": 4
+      },
+      "documents": 6,
+      "rank": 64,
+      "tier": "B"
+    },
+    "asusdf": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 84,
+      "tier": "B"
+    },
+    "ausd": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 20,
+        "governance_forum": 30,
+        "news": 1,
+        "other": 1
+      },
+      "documents": 53,
+      "rank": 178,
+      "tier": "B"
+    },
+    "ausdc": {
+      "by_source_type": {
+        "governance_forum": 206,
+        "other": 1
+      },
+      "documents": 207,
+      "rank": 219,
+      "tier": "B"
+    },
+    "autonomous-alusd": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "governance_forum": 8,
+        "other": 2
+      },
+      "documents": 11,
+      "rank": 108,
+      "tier": "B"
+    },
+    "avlt": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 3,
+        "issuer_announcement": 2,
+        "news": 6,
+        "other": 5,
+        "web_archive": 3
+      },
+      "documents": 20,
+      "rank": 110,
+      "tier": "A"
+    },
+    "avusd": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 15,
+        "other": 4
+      },
+      "documents": 20,
+      "rank": 185,
+      "tier": "B"
+    },
+    "aznd": {
+      "by_source_type": {
+        "docs": 3,
+        "news": 2,
+        "other": 9,
+        "web_archive": 3
+      },
+      "documents": 17,
+      "rank": 146,
+      "tier": "A"
+    },
+    "behype": {
+      "by_source_type": {
+        "governance_forum": 11
+      },
+      "documents": 11,
+      "rank": 222,
+      "tier": "B"
+    },
+    "berastone": {
+      "by_source_type": {
+        "governance_forum": 2
+      },
+      "documents": 2,
+      "rank": 74,
+      "tier": "B"
+    },
+    "bitcoin": {
+      "by_source_type": {
+        "issuer_announcement": 2,
+        "other": 1
+      },
+      "documents": 3,
+      "rank": 286,
+      "tier": "B"
+    },
+    "bsdeth": {
+      "by_source_type": {
+        "curator_announcement": 4,
+        "docs": 1,
+        "governance_forum": 32,
+        "other": 2
+      },
+      "documents": 39,
+      "rank": 103,
+      "tier": "A"
+    },
+    "btc-b": {
+      "by_source_type": {
+        "governance_forum": 89,
+        "news": 1,
+        "other": 4
+      },
+      "documents": 94,
+      "rank": 134,
+      "tier": "B"
+    },
+    "btcb": {
+      "by_source_type": {
+        "governance_forum": 10,
+        "news": 4
+      },
+      "documents": 14,
+      "rank": 12,
+      "tier": "A"
+    },
+    "btcb-solvbtc-smartlp": {
+      "by_source_type": {
+        "audit": 80,
+        "docs": 42,
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 129,
+      "rank": 246,
+      "tier": "B"
+    },
+    "busd0": {
+      "by_source_type": {
+        "audit": 4,
+        "docs": 41,
+        "governance_forum": 59,
+        "issuer_announcement": 8,
+        "news": 16,
+        "other": 8,
+        "web_archive": 38
+      },
+      "documents": 174,
+      "rank": 6,
+      "tier": "A"
+    },
+    "carrytradeusdtryleverage": {
+      "by_source_type": {
+        "other": 2
+      },
+      "documents": 2,
+      "rank": 244,
+      "tier": "B"
+    },
+    "cbada": {
+      "by_source_type": {
+        "curator_announcement": 2
+      },
+      "documents": 2,
+      "rank": 214,
+      "tier": "B"
+    },
+    "cbbtc": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 3,
+        "governance_forum": 2,
+        "issuer_announcement": 2,
+        "news": 19,
+        "other": 2,
+        "web_archive": 3
+      },
+      "documents": 32,
+      "rank": 1,
+      "tier": "A"
+    },
+    "cbdoge": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "news": 9,
+        "other": 1
+      },
+      "documents": 12,
+      "rank": 233,
+      "tier": "B"
+    },
+    "cbeth": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 9,
+        "docs": 5,
+        "governance_forum": 552,
+        "news": 1
+      },
+      "documents": 568,
+      "rank": 34,
+      "tier": "B"
+    },
+    "cbltc": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "news": 9,
+        "other": 1
+      },
+      "documents": 12,
+      "rank": 285,
+      "tier": "B"
+    },
+    "cbxrp": {
+      "by_source_type": {
+        "curator_announcement": 4,
+        "docs": 3,
+        "governance_forum": 1
+      },
+      "documents": 8,
+      "rank": 62,
+      "tier": "B"
+    },
+    "cbzec": {
+      "by_source_type": {
+        "news": 9,
+        "other": 1
+      },
+      "documents": 10,
+      "rank": 280,
+      "tier": "B"
+    },
+    "cmeth": {
+      "by_source_type": {
+        "governance_forum": 19,
+        "other": 1
+      },
+      "documents": 20,
+      "rank": 193,
+      "tier": "B"
+    },
+    "comp": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 3,
+        "docs": 14,
+        "governance_forum": 72
+      },
+      "documents": 90,
+      "rank": 288,
+      "tier": "B"
+    },
+    "corn-ebtc": {
+      "by_source_type": {
+        "governance_forum": 2,
+        "news": 12
+      },
+      "documents": 14,
+      "rank": 125,
+      "tier": "B"
+    },
+    "corn-solvbtc-bbn": {
+      "by_source_type": {
+        "governance_forum": 3
+      },
+      "documents": 3,
+      "rank": 123,
+      "tier": "B"
+    },
+    "csusdc": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 2,
+        "docs": 5,
+        "governance_forum": 5,
+        "other": 1
+      },
+      "documents": 14,
+      "rank": 79,
+      "tier": "B"
+    },
+    "csusdl": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 2,
+        "docs": 17,
+        "governance_forum": 10,
+        "other": 1
+      },
+      "documents": 31,
+      "rank": 47,
+      "tier": "B"
+    },
+    "ctstableusdt": {
+      "by_source_type": {
+        "audit": 32,
+        "docs": 7,
+        "other": 2
+      },
+      "documents": 41,
+      "rank": 129,
+      "tier": "B"
+    },
+    "cult": {
+      "by_source_type": {
+        "issuer_announcement": 2,
+        "other": 2
+      },
+      "documents": 4,
+      "rank": 287,
+      "tier": "B"
+    },
+    "cusd": {
+      "by_source_type": {
+        "audit": 3,
+        "curator_announcement": 5,
+        "docs": 24,
+        "governance_forum": 78,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 116,
+      "rank": 56,
+      "tier": "B"
+    },
+    "cusdo": {
+      "by_source_type": {
+        "audit": 14,
+        "curator_announcement": 5,
+        "docs": 28,
+        "governance_forum": 123,
+        "issuer_announcement": 1,
+        "news": 7,
+        "other": 3
+      },
+      "documents": 181,
+      "rank": 31,
+      "tier": "B"
+    },
+    "cusdousdc": {
+      "by_source_type": {
+        "audit": 13,
+        "docs": 22,
+        "issuer_announcement": 1,
+        "news": 7,
+        "other": 3
+      },
+      "documents": 46,
+      "rank": 181,
+      "tier": "B"
+    },
+    "dai": {
+      "by_source_type": {
+        "curator_announcement": 27,
+        "docs": 2,
+        "governance_forum": 1670,
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 13
+      },
+      "documents": 1716,
+      "rank": 122,
+      "tier": "B"
+    },
+    "dcomp": {
+      "by_source_type": {
+        "docs": 5,
+        "governance_forum": 1,
+        "other": 3,
+        "web_archive": 2
+      },
+      "documents": 11,
+      "rank": 124,
+      "tier": "A"
+    },
+    "deusd": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 10,
+        "docs": 14,
+        "governance_forum": 69,
+        "news": 18,
+        "other": 21,
+        "web_archive": 26
+      },
+      "documents": 159,
+      "rank": 46,
+      "tier": "A"
+    },
+    "dusd": {
+      "by_source_type": {
+        "other": 1
+      },
+      "documents": 1,
+      "rank": 192,
+      "tier": "B"
+    },
+    "ebtc": {
+      "by_source_type": {
+        "governance_forum": 94,
+        "news": 14
+      },
+      "documents": 108,
+      "rank": 100,
+      "tier": "B"
+    },
+    "eeth": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 18,
+        "docs": 62,
+        "governance_forum": 1088,
+        "news": 14,
+        "other": 9,
+        "web_archive": 28
+      },
+      "documents": 1220,
+      "rank": 11,
+      "tier": "A"
+    },
+    "eigen": {
+      "by_source_type": {
+        "audit": 21,
+        "curator_announcement": 3,
+        "docs": 111,
+        "governance_forum": 51
+      },
+      "documents": 186,
+      "rank": 281,
+      "tier": "B"
+    },
+    "enzobtc": {
+      "by_source_type": {
+        "audit": 1,
+        "other": 2
+      },
+      "documents": 3,
+      "rank": 218,
+      "tier": "A"
+    },
+    "eth": {
+      "by_source_type": {
+        "audit": 18,
+        "curator_announcement": 4,
+        "docs": 72,
+        "governance_forum": 51
+      },
+      "documents": 145,
+      "rank": 16,
+      "tier": "B"
+    },
+    "eth-0x2170ed": {
+      "by_source_type": {
+        "governance_forum": 321,
+        "news": 3,
+        "other": 1
+      },
+      "documents": 325,
+      "rank": 179,
+      "tier": "B"
+    },
+    "eth0": {
+      "by_source_type": {
+        "governance_forum": 2
+      },
+      "documents": 2,
+      "rank": 212,
+      "tier": "B"
+    },
+    "ethx": {
+      "by_source_type": {
+        "governance_forum": 204
+      },
+      "documents": 204,
+      "rank": 256,
+      "tier": "B"
+    },
+    "etrusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 7,
+        "news": 2,
+        "other": 6
+      },
+      "documents": 17,
+      "rank": 205,
+      "tier": "B"
+    },
+    "europ": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 1,
+        "news": 8,
+        "other": 1
+      },
+      "documents": 12,
+      "rank": 231,
+      "tier": "B"
+    },
+    "eusde": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 1,
+        "governance_forum": 356,
+        "other": 1
+      },
+      "documents": 359,
+      "rank": 17,
+      "tier": "B"
+    },
+    "eutbl": {
+      "by_source_type": {
+        "curator_announcement": 3
+      },
+      "documents": 3,
+      "rank": 211,
+      "tier": "B"
+    },
+    "ezeth": {
+      "by_source_type": {
+        "audit": 11,
+        "curator_announcement": 4,
+        "docs": 61,
+        "governance_forum": 509,
+        "news": 11,
+        "other": 4,
+        "web_archive": 39
+      },
+      "documents": 639,
+      "rank": 81,
+      "tier": "A"
+    },
+    "frxusd": {
+      "by_source_type": {
+        "docs": 6,
+        "governance_forum": 107,
+        "other": 6
+      },
+      "documents": 119,
+      "rank": 199,
+      "tier": "B"
+    },
+    "fxrp": {
+      "by_source_type": {
+        "news": 5
+      },
+      "documents": 5,
+      "rank": 148,
+      "tier": "B"
+    },
+    "fxsave": {
+      "by_source_type": {
+        "audit": 48,
+        "docs": 3,
+        "governance_forum": 5,
+        "news": 1
+      },
+      "documents": 57,
+      "rank": 69,
+      "tier": "B"
+    },
+    "hbusdt": {
+      "by_source_type": {
+        "docs": 3,
+        "news": 2,
+        "other": 4
+      },
+      "documents": 9,
+      "rank": 96,
+      "tier": "B"
+    },
+    "heth": {
+      "by_source_type": {
+        "governance_forum": 4,
+        "issuer_announcement": 1,
+        "other": 1
+      },
+      "documents": 6,
+      "rank": 237,
+      "tier": "B"
+    },
+    "hwhlp": {
+      "by_source_type": {
+        "governance_forum": 2
+      },
+      "documents": 2,
+      "rank": 139,
+      "tier": "B"
+    },
+    "hybond": {
+      "by_source_type": {
+        "audit": 14,
+        "curator_announcement": 1,
+        "docs": 27,
+        "issuer_announcement": 1,
+        "news": 7,
+        "other": 3
+      },
+      "documents": 53,
+      "rank": 195,
+      "tier": "B"
+    },
+    "hyusd": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "docs": 1,
+        "governance_forum": 20,
+        "issuer_announcement": 1,
+        "other": 1
+      },
+      "documents": 26,
+      "rank": 238,
+      "tier": "B"
+    },
+    "imf": {
+      "by_source_type": {
+        "docs": 1
+      },
+      "documents": 1,
+      "rank": 208,
+      "tier": "B"
+    },
+    "iusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 12,
+        "governance_forum": 3
+      },
+      "documents": 17,
+      "rank": 133,
+      "tier": "B"
+    },
+    "jitosol": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "governance_forum": 1,
+        "news": 1
+      },
+      "documents": 3,
+      "rank": 210,
+      "tier": "B"
+    },
+    "joe": {
+      "by_source_type": {
+        "news": 1,
+        "other": 3
+      },
+      "documents": 4,
+      "rank": 173,
+      "tier": "B"
+    },
+    "jrusde": {
+      "by_source_type": {
+        "governance_forum": 35
+      },
+      "documents": 35,
+      "rank": 153,
+      "tier": "B"
+    },
+    "jtrsy": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 8,
+        "other": 1
+      },
+      "documents": 11,
+      "rank": 213,
+      "tier": "B"
+    },
+    "kbtc": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "docs": 2,
+        "governance_forum": 6,
+        "news": 4,
+        "other": 1
+      },
+      "documents": 16,
+      "rank": 9,
+      "tier": "B"
+    },
+    "khype": {
+      "by_source_type": {
+        "audit": 4,
+        "curator_announcement": 3,
+        "docs": 24,
+        "governance_forum": 1
+      },
+      "documents": 32,
+      "rank": 45,
+      "tier": "B"
+    },
+    "lbtc": {
+      "by_source_type": {
+        "audit": 7,
+        "curator_announcement": 7,
+        "docs": 2,
+        "governance_forum": 275,
+        "news": 13,
+        "other": 4
+      },
+      "documents": 308,
+      "rank": 15,
+      "tier": "A"
+    },
+    "lbtc-scaled18": {
+      "by_source_type": {
+        "audit": 7,
+        "docs": 1,
+        "governance_forum": 11,
+        "news": 10,
+        "other": 3
+      },
+      "documents": 32,
+      "rank": 162,
+      "tier": "B"
+    },
+    "liusd-1w": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "governance_forum": 1
+      },
+      "documents": 4,
+      "rank": 142,
+      "tier": "B"
+    },
+    "lvlusd": {
+      "by_source_type": {
+        "audit": 4,
+        "curator_announcement": 2,
+        "docs": 11,
+        "governance_forum": 17,
+        "other": 1
+      },
+      "documents": 35,
+      "rank": 59,
+      "tier": "B"
+    },
+    "mamo": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 284,
+      "tier": "B"
+    },
+    "mapollo": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 5,
+        "governance_forum": 4,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 55,
+      "rank": 158,
+      "tier": "B"
+    },
+    "mbasis": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 3,
+        "governance_forum": 15,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 64,
+      "rank": 241,
+      "tier": "B"
+    },
+    "medge": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 3,
+        "governance_forum": 78,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 127,
+      "rank": 98,
+      "tier": "B"
+    },
+    "meth": {
+      "by_source_type": {
+        "governance_forum": 152
+      },
+      "documents": 152,
+      "rank": 115,
+      "tier": "B"
+    },
+    "metronome-msusd": {
+      "by_source_type": {
+        "audit": 3,
+        "curator_announcement": 1,
+        "docs": 3,
+        "governance_forum": 1,
+        "news": 9,
+        "other": 4,
+        "web_archive": 2
+      },
+      "documents": 23,
+      "rank": 584,
+      "tier": "A"
+    },
+    "mevbtc": {
+      "by_source_type": {
+        "audit": 8,
+        "governance_forum": 1,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 47,
+      "rank": 175,
+      "tier": "B"
+    },
+    "mf-one": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 5,
+        "docs": 1,
+        "governance_forum": 7,
+        "issuer_announcement": 7,
+        "news": 9,
+        "other": 26
+      },
+      "documents": 63,
+      "rank": 49,
+      "tier": "B"
+    },
+    "mfarm": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 1,
+        "governance_forum": 1,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 48,
+      "rank": 167,
+      "tier": "B"
+    },
+    "mglo": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 3,
+        "docs": 5,
+        "issuer_announcement": 16,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 64,
+      "rank": 70,
+      "tier": "B"
+    },
+    "mglobal": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 3,
+        "docs": 7,
+        "governance_forum": 11,
+        "issuer_announcement": 16,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 77,
+      "rank": 277,
+      "tier": "B"
+    },
+    "mhyper": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 1,
+        "docs": 7,
+        "governance_forum": 40,
+        "issuer_announcement": 12,
+        "news": 9,
+        "other": 23,
+        "web_archive": 27
+      },
+      "documents": 127,
+      "rank": 24,
+      "tier": "A"
+    },
+    "mhyperbtc": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 7,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 53,
+      "rank": 166,
+      "tier": "B"
+    },
+    "mhypereth": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 1,
+        "issuer_announcement": 6,
+        "news": 9,
+        "other": 23,
+        "web_archive": 28
+      },
+      "documents": 75,
+      "rank": 220,
+      "tier": "A"
+    },
+    "mkr": {
+      "by_source_type": {
+        "curator_announcement": 4,
+        "docs": 2,
+        "governance_forum": 247,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 7
+      },
+      "documents": 263,
+      "rank": 97,
+      "tier": "B"
+    },
+    "mm1-usd": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 4,
+        "issuer_announcement": 7,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 51,
+      "rank": 152,
+      "tier": "B"
+    },
+    "mmev": {
+      "by_source_type": {
+        "audit": 8,
+        "docs": 1,
+        "governance_forum": 85,
+        "issuer_announcement": 7,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 133,
+      "rank": 77,
+      "tier": "B"
+    },
+    "mog": {
+      "by_source_type": {
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 7,
+      "rank": 104,
+      "tier": "B"
+    },
+    "msy": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 20,
+        "governance_forum": 1,
+        "news": 14,
+        "other": 4,
+        "web_archive": 14
+      },
+      "documents": 55,
+      "rank": 73,
+      "tier": "A"
+    },
+    "mtbill": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 1,
+        "docs": 5,
+        "governance_forum": 37,
+        "issuer_announcement": 12,
+        "news": 9,
+        "other": 24
+      },
+      "documents": 96,
+      "rank": 197,
+      "tier": "B"
+    },
+    "mubond": {
+      "by_source_type": {
+        "audit": 2,
+        "news": 2,
+        "other": 2
+      },
+      "documents": 6,
+      "rank": 118,
+      "tier": "B"
+    },
+    "musd": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 8,
+        "docs": 20,
+        "governance_forum": 142,
+        "issuer_announcement": 1,
+        "news": 8
+      },
+      "documents": 180,
+      "rank": 41,
+      "tier": "B"
+    },
+    "mwin": {
+      "by_source_type": {
+        "audit": 8,
+        "curator_announcement": 8,
+        "docs": 6,
+        "governance_forum": 11,
+        "issuer_announcement": 13,
+        "news": 9,
+        "other": 23
+      },
+      "documents": 78,
+      "rank": 82,
+      "tier": "B"
+    },
+    "n-st-mapollo": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 20,
+        "issuer_announcement": 10,
+        "other": 1
+      },
+      "documents": 32,
+      "rank": 278,
+      "tier": "B"
+    },
+    "nusd": {
+      "by_source_type": {
+        "docs": 6,
+        "news": 10,
+        "other": 4,
+        "web_archive": 1
+      },
+      "documents": 21,
+      "rank": 111,
+      "tier": "A"
+    },
+    "nvprime": {
+      "by_source_type": {
+        "issuer_announcement": 1,
+        "news": 3,
+        "other": 3
+      },
+      "documents": 7,
+      "rank": 267,
+      "tier": "B"
+    },
+    "oeth": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 1,
+        "docs": 4,
+        "governance_forum": 72,
+        "other": 3,
+        "web_archive": 6
+      },
+      "documents": 88,
+      "rank": 131,
+      "tier": "A"
+    },
+    "oseth": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 72
+      },
+      "documents": 74,
+      "rank": 157,
+      "tier": "B"
+    },
+    "paxg": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 7,
+        "docs": 2,
+        "governance_forum": 121,
+        "issuer_announcement": 1,
+        "news": 5,
+        "other": 2
+      },
+      "documents": 139,
+      "rank": 194,
+      "tier": "B"
+    },
+    "pendle-lpt": {
+      "by_source_type": {
+        "other": 1
+      },
+      "documents": 1,
+      "rank": 272,
+      "tier": "B"
+    },
+    "pendle-lpt-wrapped": {
+      "by_source_type": {
+        "docs": 4,
+        "governance_forum": 22,
+        "other": 4
+      },
+      "documents": 30,
+      "rank": 65,
+      "tier": "B"
+    },
+    "pendleinfinifi-siusd": {
+      "by_source_type": {
+        "audit": 27,
+        "curator_announcement": 2,
+        "docs": 25,
+        "governance_forum": 1,
+        "other": 3
+      },
+      "documents": 58,
+      "rank": 191,
+      "tier": "B"
+    },
+    "pepe": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "governance_forum": 25
+      },
+      "documents": 26,
+      "rank": 80,
+      "tier": "B"
+    },
+    "pfxsave": {
+      "by_source_type": {
+        "audit": 47,
+        "docs": 2,
+        "news": 1
+      },
+      "documents": 50,
+      "rank": 245,
+      "tier": "B"
+    },
+    "plusd": {
+      "by_source_type": {
+        "docs": 5
+      },
+      "documents": 5,
+      "rank": 259,
+      "tier": "B"
+    },
+    "pmusd": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 42,
+        "issuer_announcement": 6,
+        "news": 4,
+        "other": 14,
+        "web_archive": 15
+      },
+      "documents": 83,
+      "rank": 585,
+      "tier": "A"
+    },
+    "prime": {
+      "by_source_type": {
+        "curator_announcement": 8,
+        "governance_forum": 1,
+        "other": 2
+      },
+      "documents": 11,
+      "rank": 18,
+      "tier": "B"
+    },
+    "pst": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 5,
+        "docs": 8,
+        "issuer_announcement": 12,
+        "news": 2,
+        "other": 1
+      },
+      "documents": 29,
+      "rank": 58,
+      "tier": "B"
+    },
+    "pt-sw-avusdx-avusd-2026-05-15": {
+      "by_source_type": {
+        "governance_forum": 2,
+        "other": 1
+      },
+      "documents": 3,
+      "rank": 279,
+      "tier": "B"
+    },
+    "pufeth": {
+      "by_source_type": {
+        "audit": 31,
+        "curator_announcement": 1,
+        "docs": 72,
+        "governance_forum": 103,
+        "news": 3
+      },
+      "documents": 210,
+      "rank": 35,
+      "tier": "B"
+    },
+    "pumpbtc": {
+      "by_source_type": {
+        "governance_forum": 3
+      },
+      "documents": 3,
+      "rank": 215,
+      "tier": "A"
+    },
+    "pusde": {
+      "by_source_type": {
+        "governance_forum": 112,
+        "other": 2
+      },
+      "documents": 114,
+      "rank": 28,
+      "tier": "B"
+    },
+    "pyusd": {
+      "by_source_type": {
+        "audit": 4,
+        "docs": 16,
+        "governance_forum": 11,
+        "issuer_announcement": 2,
+        "news": 5
+      },
+      "documents": 38,
+      "rank": 23,
+      "tier": "B"
+    },
+    "qqqb": {
+      "by_source_type": {
+        "news": 4,
+        "other": 2
+      },
+      "documents": 6,
+      "rank": 253,
+      "tier": "B"
+    },
+    "qqqon": {
+      "by_source_type": {
+        "curator_announcement": 1
+      },
+      "documents": 1,
+      "rank": 252,
+      "tier": "B"
+    },
+    "re7weth": {
+      "by_source_type": {
+        "governance_forum": 22
+      },
+      "documents": 22,
+      "rank": 291,
+      "tier": "B"
+    },
+    "re7wsteth": {
+      "by_source_type": {
+        "other": 2
+      },
+      "documents": 2,
+      "rank": 156,
+      "tier": "B"
+    },
+    "rekt": {
+      "by_source_type": {
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 3
+      },
+      "documents": 5,
+      "rank": 257,
+      "tier": "B"
+    },
+    "reth": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 11,
+        "docs": 46,
+        "governance_forum": 724,
+        "news": 10,
+        "other": 6
+      },
+      "documents": 798,
+      "rank": 186,
+      "tier": "B"
+    },
+    "reusd": {
+      "by_source_type": {
+        "curator_announcement": 4,
+        "docs": 62,
+        "governance_forum": 20,
+        "issuer_announcement": 2,
+        "other": 5
+      },
+      "documents": 93,
+      "rank": 36,
+      "tier": "B"
+    },
+    "reusde": {
+      "by_source_type": {
+        "docs": 59,
+        "governance_forum": 2,
+        "issuer_announcement": 2,
+        "other": 5,
+        "web_archive": 23
+      },
+      "documents": 91,
+      "rank": 201,
+      "tier": "A"
+    },
+    "rlp": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 6,
+        "docs": 7,
+        "governance_forum": 76,
+        "news": 20,
+        "other": 30,
+        "web_archive": 9
+      },
+      "documents": 150,
+      "rank": 26,
+      "tier": "A"
+    },
+    "rlusd": {
+      "by_source_type": {
+        "curator_announcement": 13,
+        "docs": 3,
+        "governance_forum": 248,
+        "news": 41,
+        "other": 1,
+        "web_archive": 10
+      },
+      "documents": 316,
+      "rank": 27,
+      "tier": "A"
+    },
+    "rseth": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 9,
+        "governance_forum": 883,
+        "issuer_announcement": 1,
+        "news": 64,
+        "other": 8,
+        "web_archive": 1
+      },
+      "documents": 968,
+      "rank": 57,
+      "tier": "A"
+    },
+    "rss": {
+      "by_source_type": {
+        "governance_forum": 59
+      },
+      "documents": 59,
+      "rank": 582,
+      "tier": "A"
+    },
+    "rsweth": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "governance_forum": 32
+      },
+      "documents": 33,
+      "rank": 126,
+      "tier": "B"
+    },
+    "rusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 1,
+        "issuer_announcement": 1,
+        "other": 4
+      },
+      "documents": 8,
+      "rank": 151,
+      "tier": "B"
+    },
+    "rzr": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 1,
+        "other": 3
+      },
+      "documents": 6,
+      "rank": 174,
+      "tier": "A"
+    },
+    "s-usdc-weth-sa": {
+      "by_source_type": {
+        "audit": 5
+      },
+      "documents": 5,
+      "rank": 249,
+      "tier": "B"
+    },
+    "s-weth-usdt-sa": {
+      "by_source_type": {
+        "audit": 5
+      },
+      "documents": 5,
+      "rank": 232,
+      "tier": "B"
+    },
+    "samm-usdc-cusdo": {
+      "by_source_type": {
+        "other": 1
+      },
+      "documents": 1,
+      "rank": 269,
+      "tier": "B"
+    },
+    "satusd": {
+      "by_source_type": {
+        "news": 2,
+        "other": 7
+      },
+      "documents": 9,
+      "rank": 89,
+      "tier": "B"
+    },
+    "savbtc": {
+      "by_source_type": {
+        "other": 4
+      },
+      "documents": 4,
+      "rank": 119,
+      "tier": "B"
+    },
+    "saveth": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 21,
+        "other": 4,
+        "web_archive": 27
+      },
+      "documents": 53,
+      "rank": 171,
+      "tier": "A"
+    },
+    "savusd": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 30,
+        "other": 4
+      },
+      "documents": 35,
+      "rank": 66,
+      "tier": "B"
+    },
+    "sbold": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 5,
+        "news": 1,
+        "other": 4
+      },
+      "documents": 12,
+      "rank": 261,
+      "tier": "B"
+    },
+    "sbuidl": {
+      "by_source_type": {
+        "governance_forum": 17
+      },
+      "documents": 17,
+      "rank": 258,
+      "tier": "B"
+    },
+    "sdola": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 202,
+      "tier": "B"
+    },
+    "sigmasp": {
+      "by_source_type": {
+        "docs": 5,
+        "news": 1,
+        "other": 1
+      },
+      "documents": 7,
+      "rank": 264,
+      "tier": "B"
+    },
+    "silo-20-usdc-e": {
+      "by_source_type": {
+        "news": 1,
+        "other": 1
+      },
+      "documents": 2,
+      "rank": 260,
+      "tier": "B"
+    },
+    "siusd": {
+      "by_source_type": {
+        "audit": 27,
+        "curator_announcement": 4,
+        "docs": 31,
+        "governance_forum": 15,
+        "other": 3
+      },
+      "documents": 80,
+      "rank": 38,
+      "tier": "B"
+    },
+    "slisbnb": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 1,
+        "governance_forum": 66,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 1
+      },
+      "documents": 72,
+      "rank": 51,
+      "tier": "A"
+    },
+    "slisbnb-bnb-smartlp": {
+      "by_source_type": {
+        "audit": 80,
+        "docs": 42,
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 129,
+      "rank": 136,
+      "tier": "B"
+    },
+    "sol": {
+      "by_source_type": {
+        "audit": 4,
+        "curator_announcement": 18,
+        "docs": 30,
+        "governance_forum": 208,
+        "news": 1,
+        "other": 10
+      },
+      "documents": 271,
+      "rank": 172,
+      "tier": "B"
+    },
+    "solvbtc": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "governance_forum": 157,
+        "news": 13,
+        "other": 3
+      },
+      "documents": 176,
+      "rank": 43,
+      "tier": "A"
+    },
+    "solvbtc-bbn": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 266,
+      "tier": "B"
+    },
+    "splusd": {
+      "by_source_type": {
+        "docs": 4,
+        "governance_forum": 8,
+        "issuer_announcement": 1,
+        "news": 11,
+        "other": 23,
+        "web_archive": 23
+      },
+      "documents": 70,
+      "rank": 101,
+      "tier": "A"
+    },
+    "spx": {
+      "by_source_type": {
+        "other": 2
+      },
+      "documents": 2,
+      "rank": 190,
+      "tier": "B"
+    },
+    "spyb": {
+      "by_source_type": {
+        "news": 4,
+        "other": 2
+      },
+      "documents": 6,
+      "rank": 247,
+      "tier": "B"
+    },
+    "spyon": {
+      "by_source_type": {
+        "curator_announcement": 3
+      },
+      "documents": 3,
+      "rank": 130,
+      "tier": "B"
+    },
+    "spyx": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "docs": 8,
+        "governance_forum": 1,
+        "issuer_announcement": 2,
+        "news": 1,
+        "other": 2
+      },
+      "documents": 17,
+      "rank": 112,
+      "tier": "B"
+    },
+    "srnusd": {
+      "by_source_type": {
+        "docs": 7,
+        "news": 3,
+        "other": 5
+      },
+      "documents": 15,
+      "rank": 200,
+      "tier": "B"
+    },
+    "srroyusdc": {
+      "by_source_type": {
+        "audit": 15,
+        "docs": 32,
+        "other": 3
+      },
+      "documents": 50,
+      "rank": 230,
+      "tier": "B"
+    },
+    "srusd": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "governance_forum": 7,
+        "issuer_announcement": 1,
+        "other": 4
+      },
+      "documents": 15,
+      "rank": 10,
+      "tier": "B"
+    },
+    "srusdat": {
+      "by_source_type": {
+        "docs": 3,
+        "news": 3,
+        "other": 5
+      },
+      "documents": 11,
+      "rank": 271,
+      "tier": "B"
+    },
+    "srusde": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "governance_forum": 95,
+        "other": 2
+      },
+      "documents": 100,
+      "rank": 55,
+      "tier": "B"
+    },
+    "ssuperusd": {
+      "by_source_type": {
+        "audit": 4,
+        "docs": 14,
+        "other": 3
+      },
+      "documents": 21,
+      "rank": 289,
+      "tier": "B"
+    },
+    "stakedao-crvfrxusd": {
+      "by_source_type": {
+        "news": 3,
+        "other": 1
+      },
+      "documents": 4,
+      "rank": 196,
+      "tier": "B"
+    },
+    "stakedao-frxmsusd": {
+      "by_source_type": {
+        "news": 3,
+        "other": 1
+      },
+      "documents": 4,
+      "rank": 198,
+      "tier": "B"
+    },
+    "stakedao-frxusdousd": {
+      "by_source_type": {
+        "governance_forum": 1,
+        "other": 2
+      },
+      "documents": 3,
+      "rank": 276,
+      "tier": "B"
+    },
+    "staking-usds": {
+      "by_source_type": {
+        "governance_forum": 2,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 8,
+      "rank": 60,
+      "tier": "B"
+    },
+    "stcusd": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 5,
+        "docs": 20,
+        "governance_forum": 101,
+        "issuer_announcement": 1,
+        "other": 3
+      },
+      "documents": 132,
+      "rank": 40,
+      "tier": "B"
+    },
+    "steakeurcv": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 1
+      },
+      "documents": 3,
+      "rank": 120,
+      "tier": "B"
+    },
+    "steakusdc": {
+      "by_source_type": {
+        "curator_announcement": 10,
+        "governance_forum": 23
+      },
+      "documents": 33,
+      "rank": 204,
+      "tier": "B"
+    },
+    "steth": {
+      "by_source_type": {
+        "audit": 125,
+        "curator_announcement": 59,
+        "docs": 143,
+        "governance_forum": 7823,
+        "news": 5,
+        "other": 19,
+        "web_archive": 57
+      },
+      "documents": 8231,
+      "rank": 4,
+      "tier": "A"
+    },
+    "stkcvxcrvcrvusdtbtcwsteth-morpho": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 20,
+        "governance_forum": 120,
+        "news": 3
+      },
+      "documents": 144,
+      "rank": 273,
+      "tier": "B"
+    },
+    "stkcvxcrvusdtwbtcweth-morpho": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 20,
+        "governance_forum": 120,
+        "news": 3
+      },
+      "documents": 144,
+      "rank": 243,
+      "tier": "B"
+    },
+    "stkwell": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 290,
+      "tier": "B"
+    },
+    "stone": {
+      "by_source_type": {
+        "governance_forum": 44
+      },
+      "documents": 44,
+      "rank": 86,
+      "tier": "B"
+    },
+    "strusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 20,
+        "news": 2,
+        "other": 6
+      },
+      "documents": 30,
+      "rank": 113,
+      "tier": "B"
+    },
+    "stusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 1,
+        "governance_forum": 21,
+        "other": 1
+      },
+      "documents": 25,
+      "rank": 187,
+      "tier": "B"
+    },
+    "stusds": {
+      "by_source_type": {
+        "governance_forum": 14,
+        "issuer_announcement": 1,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 20,
+      "rank": 39,
+      "tier": "B"
+    },
+    "superoethb": {
+      "by_source_type": {
+        "docs": 19,
+        "governance_forum": 95,
+        "issuer_announcement": 1
+      },
+      "documents": 115,
+      "rank": 88,
+      "tier": "B"
+    },
+    "susd1": {
+      "by_source_type": {
+        "audit": 18,
+        "docs": 8,
+        "news": 3,
+        "other": 4
+      },
+      "documents": 33,
+      "rank": 83,
+      "tier": "B"
+    },
+    "susdesusds": {
+      "by_source_type": {
+        "docs": 1,
+        "governance_forum": 2,
+        "other": 1
+      },
+      "documents": 4,
+      "rank": 161,
+      "tier": "B"
+    },
+    "susdp": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 223,
+      "tier": "B"
+    },
+    "susdv": {
+      "by_source_type": {
+        "audit": 27,
+        "docs": 20
+      },
+      "documents": 47,
+      "rank": 132,
+      "tier": "B"
+    },
+    "susdx": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 1,
+        "docs": 1,
+        "governance_forum": 104,
+        "news": 11,
+        "other": 6,
+        "web_archive": 1
+      },
+      "documents": 126,
+      "rank": 92,
+      "tier": "A"
+    },
+    "susn": {
+      "by_source_type": {
+        "docs": 5,
+        "other": 6
+      },
+      "documents": 11,
+      "rank": 144,
+      "tier": "B"
+    },
+    "susp": {
+      "by_source_type": {
+        "governance_forum": 1
+      },
+      "documents": 1,
+      "rank": 254,
+      "tier": "B"
+    },
+    "swbtc": {
+      "by_source_type": {
+        "governance_forum": 10,
+        "other": 2
+      },
+      "documents": 12,
+      "rank": 182,
+      "tier": "B"
+    },
+    "syrupusdc": {
+      "by_source_type": {
+        "audit": 5,
+        "curator_announcement": 11,
+        "docs": 28,
+        "governance_forum": 172,
+        "issuer_announcement": 1,
+        "news": 13,
+        "other": 3,
+        "web_archive": 4
+      },
+      "documents": 237,
+      "rank": 8,
+      "tier": "A"
+    },
+    "syrupusdt": {
+      "by_source_type": {
+        "audit": 3,
+        "curator_announcement": 6,
+        "docs": 21,
+        "governance_forum": 49,
+        "issuer_announcement": 1,
+        "news": 12,
+        "other": 3
+      },
+      "documents": 95,
+      "rank": 44,
+      "tier": "B"
+    },
+    "syzusd": {
+      "by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "docs": 3,
+        "governance_forum": 1,
+        "other": 6
+      },
+      "documents": 12,
+      "rank": 90,
+      "tier": "B"
+    },
+    "tacbtc": {
+      "by_source_type": {
+        "docs": 14
+      },
+      "documents": 14,
+      "rank": 109,
+      "tier": "B"
+    },
+    "taceth": {
+      "by_source_type": {
+        "docs": 1,
+        "governance_forum": 3,
+        "news": 1
+      },
+      "documents": 5,
+      "rank": 239,
+      "tier": "B"
+    },
+    "tacusd": {
+      "by_source_type": {
+        "docs": 14,
+        "governance_forum": 1
+      },
+      "documents": 15,
+      "rank": 105,
+      "tier": "B"
+    },
+    "tbtc": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "docs": 3,
+        "governance_forum": 124,
+        "issuer_announcement": 1,
+        "news": 15,
+        "other": 3
+      },
+      "documents": 149,
+      "rank": 165,
+      "tier": "B"
+    },
+    "teth": {
+      "by_source_type": {
+        "audit": 24,
+        "curator_announcement": 2,
+        "docs": 22,
+        "governance_forum": 168,
+        "issuer_announcement": 2,
+        "news": 2
+      },
+      "documents": 220,
+      "rank": 68,
+      "tier": "B"
+    },
+    "thbill": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 1,
+        "governance_forum": 79,
+        "other": 2
+      },
+      "documents": 83,
+      "rank": 42,
+      "tier": "B"
+    },
+    "toshi": {
+      "by_source_type": {
+        "issuer_announcement": 1,
+        "other": 2
+      },
+      "documents": 3,
+      "rank": 283,
+      "tier": "B"
+    },
+    "trusd": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 6,
+        "news": 2,
+        "other": 6
+      },
+      "documents": 16,
+      "rank": 228,
+      "tier": "B"
+    },
+    "tslaon": {
+      "by_source_type": {
+        "curator_announcement": 13,
+        "docs": 1,
+        "governance_forum": 1,
+        "news": 13,
+        "other": 5
+      },
+      "documents": 33,
+      "rank": 184,
+      "tier": "B"
+    },
+    "tusde": {
+      "by_source_type": {
+        "docs": 1,
+        "governance_forum": 110,
+        "news": 1
+      },
+      "documents": 112,
+      "rank": 48,
+      "tier": "A"
+    },
+    "u": {
+      "by_source_type": {
+        "docs": 13,
+        "issuer_announcement": 1,
+        "news": 3,
+        "other": 1
+      },
+      "documents": 18,
+      "rank": 170,
+      "tier": "B"
+    },
+    "u-usdt-smartlp": {
+      "by_source_type": {
+        "audit": 80,
+        "docs": 42,
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 129,
+      "rank": 102,
+      "tier": "B"
+    },
+    "ubtc": {
+      "by_source_type": {
+        "docs": 18,
+        "news": 1,
+        "other": 4
+      },
+      "documents": 23,
+      "rank": 67,
+      "tier": "B"
+    },
+    "ueth": {
+      "by_source_type": {
+        "docs": 19,
+        "news": 1,
+        "other": 4
+      },
+      "documents": 24,
+      "rank": 234,
+      "tier": "B"
+    },
+    "uni": {
+      "by_source_type": {
+        "audit": 5,
+        "curator_announcement": 11,
+        "governance_forum": 362,
+        "other": 1
+      },
+      "documents": 379,
+      "rank": 155,
+      "tier": "B"
+    },
+    "upgammausdc": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 18,
+        "governance_forum": 6,
+        "news": 2,
+        "other": 4
+      },
+      "documents": 32,
+      "rank": 163,
+      "tier": "B"
+    },
+    "upusdc": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "other": 1
+      },
+      "documents": 2,
+      "rank": 135,
+      "tier": "B"
+    },
+    "uscc": {
+      "by_source_type": {
+        "curator_announcement": 5,
+        "governance_forum": 9,
+        "other": 1
+      },
+      "documents": 15,
+      "rank": 137,
+      "tier": "B"
+    },
+    "usd0": {
+      "by_source_type": {
+        "audit": 5,
+        "docs": 75,
+        "governance_forum": 269,
+        "issuer_announcement": 31,
+        "news": 26,
+        "other": 8
+      },
+      "documents": 414,
+      "rank": 251,
+      "tier": "B"
+    },
+    "usd0usd0": {
+      "by_source_type": {
+        "audit": 4,
+        "docs": 3,
+        "governance_forum": 40,
+        "issuer_announcement": 4,
+        "news": 16,
+        "other": 8
+      },
+      "documents": 75,
+      "rank": 30,
+      "tier": "B"
+    },
+    "usd1": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 1,
+        "governance_forum": 69,
+        "other": 2
+      },
+      "documents": 73,
+      "rank": 117,
+      "tier": "B"
+    },
+    "usd3": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 3,
+        "governance_forum": 12,
+        "news": 10,
+        "other": 7,
+        "web_archive": 1
+      },
+      "documents": 34,
+      "rank": 76,
+      "tier": "A"
+    },
+    "usdaf": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 2,
+        "governance_forum": 5,
+        "issuer_announcement": 1,
+        "other": 2
+      },
+      "documents": 12,
+      "rank": 188,
+      "tier": "B"
+    },
+    "usdai": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 4,
+        "docs": 24,
+        "governance_forum": 68,
+        "news": 2,
+        "other": 1
+      },
+      "documents": 101,
+      "rank": 13,
+      "tier": "B"
+    },
+    "usdat": {
+      "by_source_type": {
+        "docs": 7,
+        "governance_forum": 1,
+        "news": 1
+      },
+      "documents": 9,
+      "rank": 87,
+      "tier": "B"
+    },
+    "usdc": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 5,
+        "governance_forum": 219,
+        "issuer_announcement": 4,
+        "news": 12,
+        "other": 3
+      },
+      "documents": 244,
+      "rank": 7,
+      "tier": "B"
+    },
+    "usdc-usdt-smartlp": {
+      "by_source_type": {
+        "audit": 80,
+        "docs": 42,
+        "issuer_announcement": 2,
+        "news": 2,
+        "other": 3
+      },
+      "documents": 129,
+      "rank": 50,
+      "tier": "B"
+    },
+    "usdd": {
+      "by_source_type": {
+        "docs": 20,
+        "news": 2,
+        "other": 1
+      },
+      "documents": 23,
+      "rank": 54,
+      "tier": "B"
+    },
+    "usde": {
+      "by_source_type": {
+        "audit": 5,
+        "curator_announcement": 20,
+        "docs": 10,
+        "governance_forum": 950,
+        "news": 44,
+        "other": 26,
+        "web_archive": 161
+      },
+      "documents": 1216,
+      "rank": 2,
+      "tier": "A"
+    },
+    "usdf": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 24,
+        "governance_forum": 40,
+        "issuer_announcement": 2,
+        "news": 5
+      },
+      "documents": 72,
+      "rank": 14,
+      "tier": "B"
+    },
+    "usdg": {
+      "by_source_type": {
+        "audit": 4,
+        "curator_announcement": 2,
+        "docs": 11,
+        "governance_forum": 55,
+        "issuer_announcement": 2,
+        "news": 3
+      },
+      "documents": 77,
+      "rank": 99,
+      "tier": "B"
+    },
+    "usdm": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 43
+      },
+      "documents": 45,
+      "rank": 207,
+      "tier": "B"
+    },
+    "usds": {
+      "by_source_type": {
+        "curator_announcement": 14,
+        "docs": 3,
+        "governance_forum": 599,
+        "issuer_announcement": 2,
+        "news": 3,
+        "other": 5
+      },
+      "documents": 626,
+      "rank": 5,
+      "tier": "B"
+    },
+    "usdt": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 1,
+        "governance_forum": 91,
+        "issuer_announcement": 9,
+        "news": 1,
+        "other": 2
+      },
+      "documents": 105,
+      "rank": 29,
+      "tier": "B"
+    },
+    "usdt0": {
+      "by_source_type": {
+        "audit": 99,
+        "docs": 28,
+        "governance_forum": 9,
+        "news": 4,
+        "other": 1
+      },
+      "documents": 141,
+      "rank": 32,
+      "tier": "B"
+    },
+    "usdtb": {
+      "by_source_type": {
+        "audit": 5,
+        "curator_announcement": 3,
+        "docs": 17,
+        "governance_forum": 359,
+        "news": 15,
+        "other": 8
+      },
+      "documents": 407,
+      "rank": 107,
+      "tier": "B"
+    },
+    "usn": {
+      "by_source_type": {
+        "docs": 19,
+        "governance_forum": 26,
+        "other": 3
+      },
+      "documents": 48,
+      "rank": 250,
+      "tier": "B"
+    },
+    "usol": {
+      "by_source_type": {
+        "docs": 20,
+        "other": 7
+      },
+      "documents": 27,
+      "rank": 255,
+      "tier": "B"
+    },
+    "usp": {
+      "by_source_type": {
+        "docs": 20,
+        "governance_forum": 25,
+        "other": 2
+      },
+      "documents": 47,
+      "rank": 183,
+      "tier": "B"
+    },
+    "usr": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 11,
+        "docs": 7,
+        "governance_forum": 71,
+        "news": 20,
+        "other": 30,
+        "web_archive": 11
+      },
+      "documents": 152,
+      "rank": 25,
+      "tier": "A"
+    },
+    "usualx": {
+      "by_source_type": {
+        "audit": 4,
+        "docs": 23,
+        "governance_forum": 47,
+        "issuer_announcement": 7,
+        "news": 16,
+        "other": 8,
+        "web_archive": 43
+      },
+      "documents": 148,
+      "rank": 583,
+      "tier": "A"
+    },
+    "usui": {
+      "by_source_type": {
+        "docs": 17,
+        "other": 7
+      },
+      "documents": 24,
+      "rank": 292,
+      "tier": "B"
+    },
+    "usyc": {
+      "by_source_type": {
+        "curator_announcement": 11,
+        "docs": 1,
+        "governance_forum": 30,
+        "news": 1
+      },
+      "documents": 43,
+      "rank": 128,
+      "tier": "B"
+    },
+    "v-wmtusdc": {
+      "by_source_type": {
+        "governance_forum": 4
+      },
+      "documents": 4,
+      "rank": 180,
+      "tier": "B"
+    },
+    "v-wmtusdt": {
+      "by_source_type": {
+        "docs": 1
+      },
+      "documents": 1,
+      "rank": 206,
+      "tier": "B"
+    },
+    "vbeth": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "docs": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 5
+      },
+      "documents": 10,
+      "rank": 52,
+      "tier": "A"
+    },
+    "vbwbtc": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "docs": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 5
+      },
+      "documents": 11,
+      "rank": 22,
+      "tier": "A"
+    },
+    "wbeth": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "governance_forum": 32
+      },
+      "documents": 33,
+      "rank": 221,
+      "tier": "B"
+    },
+    "wbnb": {
+      "by_source_type": {
+        "other": 4
+      },
+      "documents": 4,
+      "rank": 85,
+      "tier": "B"
+    },
+    "wbravusdc": {
+      "by_source_type": {
+        "curator_announcement": 1
+      },
+      "documents": 1,
+      "rank": 147,
+      "tier": "B"
+    },
+    "wbreth": {
+      "by_source_type": {
+        "docs": 3,
+        "other": 2
+      },
+      "documents": 5,
+      "rank": 217,
+      "tier": "B"
+    },
+    "wbtc": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 32,
+        "governance_forum": 54,
+        "issuer_announcement": 1,
+        "news": 52,
+        "other": 3,
+        "web_archive": 2
+      },
+      "documents": 145,
+      "rank": 3,
+      "tier": "A"
+    },
+    "well": {
+      "by_source_type": {
+        "audit": 4,
+        "governance_forum": 14,
+        "news": 4,
+        "other": 3
+      },
+      "documents": 25,
+      "rank": 169,
+      "tier": "A"
+    },
+    "weth": {
+      "by_source_type": {
+        "governance_forum": 139
+      },
+      "documents": 139,
+      "rank": 20,
+      "tier": "A"
+    },
+    "wfalconx": {
+      "by_source_type": {
+        "curator_announcement": 6,
+        "governance_forum": 4,
+        "issuer_announcement": 3,
+        "news": 2,
+        "other": 6
+      },
+      "documents": 21,
+      "rank": 91,
+      "tier": "B"
+    },
+    "whype": {
+      "by_source_type": {
+        "docs": 9
+      },
+      "documents": 9,
+      "rank": 63,
+      "tier": "B"
+    },
+    "wjaaa": {
+      "by_source_type": {
+        "curator_announcement": 2,
+        "governance_forum": 1
+      },
+      "documents": 3,
+      "rank": 159,
+      "tier": "B"
+    },
+    "wmetausd": {
+      "by_source_type": {
+        "audit": 1,
+        "docs": 63,
+        "news": 4,
+        "web_archive": 3
+      },
+      "documents": 71,
+      "rank": 154,
+      "tier": "A"
+    },
+    "wnlp-usdt": {
+      "by_source_type": {
+        "docs": 63,
+        "other": 3,
+        "web_archive": 26
+      },
+      "documents": 92,
+      "rank": 282,
+      "tier": "A"
+    },
+    "ws": {
+      "by_source_type": {
+        "docs": 1,
+        "other": 2
+      },
+      "documents": 3,
+      "rank": 114,
+      "tier": "B"
+    },
+    "wspyx": {
+      "by_source_type": {
+        "docs": 8,
+        "issuer_announcement": 2,
+        "news": 1,
+        "other": 2
+      },
+      "documents": 13,
+      "rank": 242,
+      "tier": "B"
+    },
+    "wsrusd": {
+      "by_source_type": {
+        "curator_announcement": 3,
+        "governance_forum": 15,
+        "issuer_announcement": 1,
+        "other": 4
+      },
+      "documents": 23,
+      "rank": 21,
+      "tier": "B"
+    },
+    "wsthype": {
+      "by_source_type": {
+        "docs": 1,
+        "news": 2,
+        "other": 1
+      },
+      "documents": 4,
+      "rank": 94,
+      "tier": "A"
+    },
+    "wstkscusd": {
+      "by_source_type": {
+        "docs": 3,
+        "governance_forum": 8,
+        "issuer_announcement": 1,
+        "news": 11,
+        "other": 23,
+        "web_archive": 23
+      },
+      "documents": 69,
+      "rank": 140,
+      "tier": "A"
+    },
+    "wstrcx": {
+      "by_source_type": {
+        "docs": 8,
+        "issuer_announcement": 2,
+        "news": 1,
+        "other": 2
+      },
+      "documents": 13,
+      "rank": 263,
+      "tier": "B"
+    },
+    "wstusr": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 7,
+        "docs": 6,
+        "governance_forum": 54,
+        "news": 21,
+        "other": 30,
+        "web_archive": 10
+      },
+      "documents": 130,
+      "rank": 53,
+      "tier": "A"
+    },
+    "wuscc": {
+      "by_source_type": {
+        "news": 2,
+        "other": 4
+      },
+      "documents": 6,
+      "rank": 160,
+      "tier": "B"
+    },
+    "xaut": {
+      "by_source_type": {
+        "curator_announcement": 7,
+        "governance_forum": 115,
+        "news": 10,
+        "other": 1
+      },
+      "documents": 133,
+      "rank": 106,
+      "tier": "B"
+    },
+    "xbtc": {
+      "by_source_type": {
+        "governance_forum": 11,
+        "news": 19,
+        "other": 24,
+        "web_archive": 3
+      },
+      "documents": 57,
+      "rank": 71,
+      "tier": "A"
+    },
+    "xeth": {
+      "by_source_type": {
+        "governance_forum": 12,
+        "news": 19,
+        "other": 24,
+        "web_archive": 3
+      },
+      "documents": 58,
+      "rank": 168,
+      "tier": "A"
+    },
+    "xusd": {
+      "by_source_type": {
+        "curator_announcement": 10,
+        "governance_forum": 65,
+        "news": 21,
+        "other": 25,
+        "web_archive": 3
+      },
+      "documents": 124,
+      "rank": 19,
+      "tier": "A"
+    },
+    "yeth": {
+      "by_source_type": {
+        "governance_forum": 1,
+        "news": 3
+      },
+      "documents": 4,
+      "rank": 150,
+      "tier": "B"
+    },
+    "ynethx": {
+      "by_source_type": {
+        "audit": 2,
+        "curator_announcement": 2,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 10,
+        "web_archive": 1
+      },
+      "documents": 17,
+      "rank": 93,
+      "tier": "A"
+    },
+    "ynrwax": {
+      "by_source_type": {
+        "audit": 2,
+        "docs": 1,
+        "governance_forum": 1,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 10,
+        "web_archive": 1
+      },
+      "documents": 17,
+      "rank": 227,
+      "tier": "A"
+    },
+    "yoeth": {
+      "by_source_type": {
+        "governance_forum": 5
+      },
+      "documents": 5,
+      "rank": 226,
+      "tier": "B"
+    },
+    "yousd": {
+      "by_source_type": {
+        "governance_forum": 7,
+        "other": 1
+      },
+      "documents": 8,
+      "rank": 149,
+      "tier": "B"
+    },
+    "ysusdc": {
+      "by_source_type": {
+        "docs": 3,
+        "news": 2,
+        "other": 2
+      },
+      "documents": 7,
+      "rank": 216,
+      "tier": "B"
+    },
+    "yu": {
+      "by_source_type": {
+        "docs": 3,
+        "governance_forum": 38,
+        "issuer_announcement": 1,
+        "news": 2,
+        "web_archive": 2
+      },
+      "documents": 46,
+      "rank": 189,
+      "tier": "A"
+    },
+    "yusd": {
+      "by_source_type": {
+        "curator_announcement": 1,
+        "docs": 4,
+        "governance_forum": 44,
+        "news": 1
+      },
+      "documents": 50,
+      "rank": 37,
+      "tier": "B"
+    },
+    "yuty": {
+      "by_source_type": {
+        "news": 2
+      },
+      "documents": 2,
+      "rank": 262,
+      "tier": "B"
+    },
+    "yvvbeth": {
+      "by_source_type": {
+        "docs": 22,
+        "other": 2
+      },
+      "documents": 24,
+      "rank": 121,
+      "tier": "B"
+    },
+    "yvvbusdc": {
+      "by_source_type": {
+        "docs": 22,
+        "other": 2
+      },
+      "documents": 24,
+      "rank": 127,
+      "tier": "B"
+    },
+    "yvvbusdt": {
+      "by_source_type": {
+        "docs": 22,
+        "other": 2
+      },
+      "documents": 24,
+      "rank": 141,
+      "tier": "B"
+    },
+    "yvvbwbtc": {
+      "by_source_type": {
+        "docs": 22,
+        "other": 2
+      },
+      "documents": 24,
+      "rank": 209,
+      "tier": "B"
+    }
+  },
+  "by_evidence": {
+    "archive_capture": 776,
+    "body_date": 46,
+    "http_date": 1113,
+    "http_last_modified": 491,
+    "page_metadata": 1172,
+    "platform_api": 11841
+  },
+  "by_month": {
+    "2017-06": 1,
+    "2017-10": 1,
+    "2017-11": 3,
+    "2017-12": 1,
+    "2018-01": 5,
+    "2018-02": 1,
+    "2018-03": 5,
+    "2018-04": 12,
+    "2018-05": 13,
+    "2018-06": 1,
+    "2018-08": 2,
+    "2018-09": 1,
+    "2018-10": 4,
+    "2019-01": 23,
+    "2019-04": 1,
+    "2019-09": 1,
+    "2020-07": 2,
+    "2020-08": 4,
+    "2020-09": 19,
+    "2020-10": 9,
+    "2020-11": 10,
+    "2020-12": 44,
+    "2021-01": 69,
+    "2021-02": 72,
+    "2021-03": 80,
+    "2021-04": 49,
+    "2021-05": 65,
+    "2021-06": 94,
+    "2021-07": 78,
+    "2021-08": 68,
+    "2021-09": 104,
+    "2021-10": 69,
+    "2021-11": 47,
+    "2021-12": 56,
+    "2022-01": 55,
+    "2022-02": 43,
+    "2022-03": 99,
+    "2022-04": 123,
+    "2022-05": 165,
+    "2022-06": 250,
+    "2022-07": 93,
+    "2022-08": 158,
+    "2022-09": 148,
+    "2022-10": 190,
+    "2022-11": 231,
+    "2022-12": 211,
+    "2023-01": 264,
+    "2023-02": 288,
+    "2023-03": 183,
+    "2023-04": 207,
+    "2023-05": 180,
+    "2023-06": 126,
+    "2023-07": 93,
+    "2023-08": 100,
+    "2023-09": 68,
+    "2023-10": 174,
+    "2023-11": 178,
+    "2023-12": 148,
+    "2024-01": 128,
+    "2024-02": 103,
+    "2024-03": 211,
+    "2024-04": 317,
+    "2024-05": 270,
+    "2024-06": 166,
+    "2024-07": 161,
+    "2024-08": 160,
+    "2024-09": 239,
+    "2024-10": 294,
+    "2024-11": 327,
+    "2024-12": 284,
+    "2025-01": 415,
+    "2025-02": 243,
+    "2025-03": 317,
+    "2025-04": 328,
+    "2025-05": 358,
+    "2025-06": 277,
+    "2025-07": 260,
+    "2025-08": 303,
+    "2025-09": 289,
+    "2025-10": 300,
+    "2025-11": 274,
+    "2025-12": 242,
+    "2026-01": 215,
+    "2026-02": 158,
+    "2026-03": 338,
+    "2026-04": 631,
+    "2026-05": 215,
+    "2026-06": 228,
+    "2026-07": 364,
+    "2026-08": 252,
+    "2026-09": 342,
+    "2026-10": 1641
+  },
+  "by_source_type": {
+    "audit": 701,
+    "curator_announcement": 209,
+    "docs": 2016,
+    "governance_forum": 10473,
+    "issuer_announcement": 151,
+    "news": 688,
+    "other": 546,
+    "web_archive": 655
+  },
+  "by_source_type_and_evidence": {
+    "audit": {
+      "archive_capture": 35,
+      "body_date": 1,
+      "http_date": 28,
+      "http_last_modified": 18,
+      "page_metadata": 20,
+      "platform_api": 599
+    },
+    "curator_announcement": {
+      "archive_capture": 1,
+      "http_date": 1,
+      "http_last_modified": 175,
+      "page_metadata": 32
+    },
+    "docs": {
+      "body_date": 31,
+      "http_date": 841,
+      "http_last_modified": 229,
+      "page_metadata": 180,
+      "platform_api": 735
+    },
+    "governance_forum": {
+      "platform_api": 10473
+    },
+    "issuer_announcement": {
+      "archive_capture": 11,
+      "http_date": 23,
+      "http_last_modified": 43,
+      "page_metadata": 74
+    },
+    "news": {
+      "archive_capture": 14,
+      "body_date": 4,
+      "http_date": 19,
+      "http_last_modified": 5,
+      "page_metadata": 646
+    },
+    "other": {
+      "archive_capture": 60,
+      "body_date": 10,
+      "http_date": 201,
+      "http_last_modified": 21,
+      "page_metadata": 220,
+      "platform_api": 34
+    },
+    "web_archive": {
+      "archive_capture": 655
+    }
+  },
+  "documents": 15439,
+  "events": [
+    {
+      "after_onset": 104,
+      "assets": [
+        "wbtc"
+      ],
+      "docs_total": 145,
+      "event_id": "E2-001",
+      "excluded": null,
+      "family": "WBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-02-29 08:43",
+      "type": "lockup",
+      "visible_before_onset": 41,
+      "visible_by_source_type": {
+        "docs": 30,
+        "governance_forum": 7,
+        "issuer_announcement": 1,
+        "news": 1,
+        "web_archive": 2
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 1164,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-002",
+      "excluded": null,
+      "family": "USDe",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-03-29 15:41",
+      "type": "lockup",
+      "visible_before_onset": 52,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 23,
+        "news": 2,
+        "web_archive": 25
+      },
+      "visible_in_30d_before_onset": 45
+    },
+    {
+      "after_onset": 1164,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-003",
+      "excluded": null,
+      "family": "SUSDE",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-03-29 20:49",
+      "type": "lockup",
+      "visible_before_onset": 52,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 23,
+        "news": 2,
+        "web_archive": 25
+      },
+      "visible_in_30d_before_onset": 45
+    },
+    {
+      "after_onset": 4085,
+      "assets": [
+        "steth"
+      ],
+      "docs_total": 8231,
+      "event_id": "E2-004",
+      "excluded": null,
+      "family": "WSTETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-04-14 10:47",
+      "type": "lockup",
+      "visible_before_onset": 4146,
+      "visible_by_source_type": {
+        "audit": 60,
+        "docs": 37,
+        "governance_forum": 4016,
+        "news": 1,
+        "other": 2,
+        "web_archive": 30
+      },
+      "visible_in_30d_before_onset": 141
+    },
+    {
+      "after_onset": 590,
+      "assets": [
+        "ezeth"
+      ],
+      "docs_total": 639,
+      "event_id": "E2-005",
+      "excluded": null,
+      "family": "EZETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-04-29 23:20",
+      "type": "lockup",
+      "visible_before_onset": 49,
+      "visible_by_source_type": {
+        "audit": 2,
+        "docs": 4,
+        "governance_forum": 23,
+        "news": 6,
+        "web_archive": 14
+      },
+      "visible_in_30d_before_onset": 37
+    },
+    {
+      "after_onset": 13,
+      "assets": [
+        "cbbtc"
+      ],
+      "docs_total": 32,
+      "event_id": "E2-006",
+      "excluded": null,
+      "family": "CBBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-11-21 20:46",
+      "type": "lockup",
+      "visible_before_onset": 19,
+      "visible_by_source_type": {
+        "audit": 1,
+        "docs": 2,
+        "governance_forum": 2,
+        "issuer_announcement": 1,
+        "news": 10,
+        "other": 2,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 3009,
+      "assets": [
+        "steth"
+      ],
+      "docs_total": 8231,
+      "event_id": "E2-007",
+      "excluded": null,
+      "family": "STETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-11-24 15:28",
+      "type": "lockup",
+      "visible_before_onset": 5222,
+      "visible_by_source_type": {
+        "audit": 77,
+        "docs": 39,
+        "governance_forum": 5045,
+        "news": 1,
+        "other": 3,
+        "web_archive": 57
+      },
+      "visible_in_30d_before_onset": 187
+    },
+    {
+      "after_onset": 32,
+      "assets": [
+        "bsdeth"
+      ],
+      "docs_total": 39,
+      "event_id": "E2-008",
+      "excluded": null,
+      "family": "bsdETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-11-26 21:36",
+      "type": "lockup",
+      "visible_before_onset": 7,
+      "visible_by_source_type": {
+        "governance_forum": 7
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 20,
+      "assets": [
+        "weth"
+      ],
+      "docs_total": 139,
+      "event_id": "E2-009",
+      "excluded": null,
+      "family": "WETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2024-11-28 13:01",
+      "type": "lockup",
+      "visible_before_onset": 119,
+      "visible_by_source_type": {
+        "governance_forum": 119
+      },
+      "visible_in_30d_before_onset": 3
+    },
+    {
+      "after_onset": 957,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-010",
+      "excluded": null,
+      "family": "USDe",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-01-07 08:55",
+      "type": "lockup",
+      "visible_before_onset": 259,
+      "visible_by_source_type": {
+        "audit": 3,
+        "governance_forum": 168,
+        "news": 9,
+        "web_archive": 79
+      },
+      "visible_in_30d_before_onset": 64
+    },
+    {
+      "after_onset": 101,
+      "assets": [
+        "busd0"
+      ],
+      "docs_total": 174,
+      "event_id": "E2-011",
+      "excluded": null,
+      "family": "bUSD0",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-01-14 06:00",
+      "type": "depeg_loss",
+      "visible_before_onset": 73,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 21,
+        "news": 8,
+        "other": 4,
+        "web_archive": 38
+      },
+      "visible_in_30d_before_onset": 53
+    },
+    {
+      "after_onset": 0,
+      "assets": [
+        "pumpbtc"
+      ],
+      "docs_total": 3,
+      "event_id": "E2-012",
+      "excluded": null,
+      "family": "PUMPBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-01-30 10:53",
+      "type": "lockup",
+      "visible_before_onset": 3,
+      "visible_by_source_type": {
+        "governance_forum": 3
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 233,
+      "assets": [
+        "lbtc"
+      ],
+      "docs_total": 308,
+      "event_id": "E2-013",
+      "excluded": null,
+      "family": "LBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-02-28 06:13",
+      "type": "lockup",
+      "visible_before_onset": 75,
+      "visible_by_source_type": {
+        "governance_forum": 73,
+        "news": 2
+      },
+      "visible_in_30d_before_onset": 10
+    },
+    {
+      "after_onset": 52,
+      "assets": [
+        "usualx"
+      ],
+      "docs_total": 148,
+      "event_id": "E2-014",
+      "excluded": null,
+      "family": "USUAL",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-05-02 18:42",
+      "type": "lockup",
+      "visible_before_onset": 96,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 35,
+        "issuer_announcement": 1,
+        "news": 9,
+        "other": 6,
+        "web_archive": 43
+      },
+      "visible_in_30d_before_onset": 27
+    },
+    {
+      "after_onset": 24,
+      "assets": [
+        "slisbnb"
+      ],
+      "docs_total": 72,
+      "event_id": "E2-015",
+      "excluded": null,
+      "family": "SLISBNB",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-05-22 03:46",
+      "type": "lockup",
+      "visible_before_onset": 48,
+      "visible_by_source_type": {
+        "governance_forum": 47,
+        "news": 1
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 6,
+      "assets": [
+        "btcb"
+      ],
+      "docs_total": 14,
+      "event_id": "E2-016",
+      "excluded": null,
+      "family": "BTCB",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-05-22 11:53",
+      "type": "lockup",
+      "visible_before_onset": 8,
+      "visible_by_source_type": {
+        "governance_forum": 5,
+        "news": 3
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 44,
+      "assets": [
+        "solvbtc"
+      ],
+      "docs_total": 176,
+      "event_id": "E2-017",
+      "excluded": null,
+      "family": "SolvBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-05-22 12:29",
+      "type": "lockup",
+      "visible_before_onset": 132,
+      "visible_by_source_type": {
+        "governance_forum": 131,
+        "news": 1
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 32,
+      "assets": [
+        "usd3"
+      ],
+      "docs_total": 34,
+      "event_id": "E2-018",
+      "excluded": null,
+      "family": "USD3",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-05-28 18:18",
+      "type": "lockup",
+      "visible_before_onset": 2,
+      "visible_by_source_type": {
+        "governance_forum": 1,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 4,
+      "assets": [
+        "wsthype"
+      ],
+      "docs_total": 4,
+      "event_id": "E2-019",
+      "excluded": null,
+      "family": "WSTHYPE",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-06-05 11:33",
+      "type": "lockup",
+      "visible_before_onset": 0,
+      "visible_by_source_type": {},
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 70,
+      "assets": [
+        "susdx"
+      ],
+      "docs_total": 126,
+      "event_id": "E2-020",
+      "excluded": null,
+      "family": "USDX",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-08-13 11:31",
+      "type": "depeg_loss",
+      "visible_before_onset": 56,
+      "visible_by_source_type": {
+        "audit": 1,
+        "governance_forum": 54,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 32,
+      "assets": [
+        "wmetausd"
+      ],
+      "docs_total": 71,
+      "event_id": "E2-021",
+      "excluded": null,
+      "family": "metaUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-08-20 10:19",
+      "type": "lockup",
+      "visible_before_onset": 39,
+      "visible_by_source_type": {
+        "audit": 1,
+        "docs": 32,
+        "news": 3,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 5
+    },
+    {
+      "after_onset": 112,
+      "assets": [
+        "syrupusdc"
+      ],
+      "docs_total": 237,
+      "event_id": "E2-022",
+      "excluded": null,
+      "family": "SYRUPUSDC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-09-06 08:00",
+      "type": "lockup",
+      "visible_before_onset": 125,
+      "visible_by_source_type": {
+        "audit": 4,
+        "docs": 21,
+        "governance_forum": 93,
+        "issuer_announcement": 1,
+        "news": 2,
+        "web_archive": 4
+      },
+      "visible_in_30d_before_onset": 18
+    },
+    {
+      "after_onset": 10,
+      "assets": [
+        "yu"
+      ],
+      "docs_total": 46,
+      "event_id": "E2-023",
+      "excluded": null,
+      "family": "YU",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-09-14 09:29",
+      "type": "lockup",
+      "visible_before_onset": 36,
+      "visible_by_source_type": {
+        "governance_forum": 34,
+        "web_archive": 2
+      },
+      "visible_in_30d_before_onset": 14
+    },
+    {
+      "after_onset": 10,
+      "assets": [
+        "well"
+      ],
+      "docs_total": 25,
+      "event_id": "E2-024",
+      "excluded": null,
+      "family": "WELL",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-09-22 18:26",
+      "type": "lockup",
+      "visible_before_onset": 15,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 13
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 52,
+      "assets": [
+        "msy"
+      ],
+      "docs_total": 55,
+      "event_id": "E2-025",
+      "excluded": null,
+      "family": "MSUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-10-12 09:10",
+      "type": "lockup",
+      "visible_before_onset": 3,
+      "visible_by_source_type": {
+        "audit": 1,
+        "web_archive": 2
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 91,
+      "assets": [
+        "rlusd"
+      ],
+      "docs_total": 316,
+      "event_id": "E2-026",
+      "excluded": null,
+      "family": "RLUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-10-13 14:59",
+      "type": "lockup",
+      "visible_before_onset": 225,
+      "visible_by_source_type": {
+        "governance_forum": 211,
+        "news": 4,
+        "web_archive": 10
+      },
+      "visible_in_30d_before_onset": 8
+    },
+    {
+      "after_onset": 108,
+      "assets": [
+        "xusd"
+      ],
+      "docs_total": 124,
+      "event_id": "E2-027",
+      "excluded": null,
+      "family": "XUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-02 20:24",
+      "type": "depeg_loss",
+      "visible_before_onset": 16,
+      "visible_by_source_type": {
+        "governance_forum": 1,
+        "other": 12,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 13
+    },
+    {
+      "after_onset": 40,
+      "assets": [
+        "xbtc"
+      ],
+      "docs_total": 57,
+      "event_id": "E2-028",
+      "excluded": null,
+      "family": "xBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-02 21:02",
+      "type": "lockup",
+      "visible_before_onset": 17,
+      "visible_by_source_type": {
+        "governance_forum": 2,
+        "other": 12,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 14
+    },
+    {
+      "after_onset": 41,
+      "assets": [
+        "xeth"
+      ],
+      "docs_total": 58,
+      "event_id": "E2-029",
+      "excluded": null,
+      "family": "xETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-03 02:35",
+      "type": "lockup",
+      "visible_before_onset": 17,
+      "visible_by_source_type": {
+        "governance_forum": 2,
+        "other": 12,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 13
+    },
+    {
+      "after_onset": 108,
+      "assets": [
+        "deusd"
+      ],
+      "docs_total": 159,
+      "event_id": "E2-030",
+      "excluded": null,
+      "family": "DEUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-03 13:58",
+      "type": "lockup",
+      "visible_before_onset": 51,
+      "visible_by_source_type": {
+        "audit": 1,
+        "governance_forum": 15,
+        "news": 4,
+        "other": 5,
+        "web_archive": 26
+      },
+      "visible_in_30d_before_onset": 21
+    },
+    {
+      "after_onset": 1,
+      "assets": [
+        "enzobtc"
+      ],
+      "docs_total": 3,
+      "event_id": "E2-031",
+      "excluded": null,
+      "family": "ENZOBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-03 14:45",
+      "type": "lockup",
+      "visible_before_onset": 2,
+      "visible_by_source_type": {
+        "audit": 1,
+        "other": 1
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 30,
+      "assets": [
+        "wstkscusd"
+      ],
+      "docs_total": 69,
+      "event_id": "E2-032",
+      "excluded": null,
+      "family": "stkscUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-03 22:48",
+      "type": "lockup",
+      "visible_before_onset": 39,
+      "visible_by_source_type": {
+        "governance_forum": 8,
+        "other": 8,
+        "web_archive": 23
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 7,
+      "assets": [
+        "oeth"
+      ],
+      "docs_total": 88,
+      "event_id": "E2-033",
+      "excluded": null,
+      "family": "OETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-04 10:49",
+      "type": "lockup",
+      "visible_before_onset": 81,
+      "visible_by_source_type": {
+        "audit": 2,
+        "governance_forum": 70,
+        "other": 3,
+        "web_archive": 6
+      },
+      "visible_in_30d_before_onset": 3
+    },
+    {
+      "after_onset": 5,
+      "assets": [
+        "rzr"
+      ],
+      "docs_total": 6,
+      "event_id": "E2-034",
+      "excluded": null,
+      "family": "RZR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-06 02:32",
+      "type": "lockup",
+      "visible_before_onset": 1,
+      "visible_by_source_type": {
+        "audit": 1
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 28,
+      "assets": [
+        "splusd"
+      ],
+      "docs_total": 70,
+      "event_id": "E2-035",
+      "excluded": null,
+      "family": "splUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-06 11:13",
+      "type": "lockup",
+      "visible_before_onset": 42,
+      "visible_by_source_type": {
+        "governance_forum": 8,
+        "news": 3,
+        "other": 8,
+        "web_archive": 23
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 52,
+      "assets": [
+        "mhyper"
+      ],
+      "docs_total": 127,
+      "event_id": "E2-036",
+      "excluded": null,
+      "family": "mHYPER",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-07 08:45",
+      "type": "lockup",
+      "visible_before_onset": 75,
+      "visible_by_source_type": {
+        "audit": 7,
+        "governance_forum": 37,
+        "news": 2,
+        "other": 2,
+        "web_archive": 27
+      },
+      "visible_in_30d_before_onset": 5
+    },
+    {
+      "after_onset": 26,
+      "assets": [
+        "saveth"
+      ],
+      "docs_total": 53,
+      "event_id": "E2-037",
+      "excluded": null,
+      "family": "avETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-09 15:57",
+      "type": "lockup",
+      "visible_before_onset": 27,
+      "visible_by_source_type": {
+        "web_archive": 27
+      },
+      "visible_in_30d_before_onset": 9
+    },
+    {
+      "after_onset": 0,
+      "assets": [
+        "pumpbtc"
+      ],
+      "docs_total": 3,
+      "event_id": "E2-038",
+      "excluded": null,
+      "family": "PUMPBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-18 08:49",
+      "type": "lockup",
+      "visible_before_onset": 3,
+      "visible_by_source_type": {
+        "governance_forum": 3
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 17,
+      "assets": [
+        "tusde"
+      ],
+      "docs_total": 112,
+      "event_id": "E2-039",
+      "excluded": null,
+      "family": "PT-tUSDe-18DEC2025",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-11-19 11:22",
+      "type": "lockup",
+      "visible_before_onset": 95,
+      "visible_by_source_type": {
+        "governance_forum": 95
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 12,
+      "assets": [
+        "ynethx"
+      ],
+      "docs_total": 17,
+      "event_id": "E2-040",
+      "excluded": null,
+      "family": "YNETHX",
+      "inferred_quarantined": 0,
+      "onset_utc": "2025-12-01 21:38",
+      "type": "lockup",
+      "visible_before_onset": 5,
+      "visible_by_source_type": {
+        "other": 4,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 59,
+      "assets": [
+        "rlp"
+      ],
+      "docs_total": 150,
+      "event_id": "E2-041",
+      "excluded": null,
+      "family": "RLP",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-01-17 10:07",
+      "type": "depeg_loss",
+      "visible_before_onset": 91,
+      "visible_by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "governance_forum": 76,
+        "other": 4,
+        "web_archive": 9
+      },
+      "visible_in_30d_before_onset": 5
+    },
+    {
+      "after_onset": 224,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-042",
+      "excluded": null,
+      "family": "USDe",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-01-29 20:29",
+      "type": "lockup",
+      "visible_before_onset": 992,
+      "visible_by_source_type": {
+        "audit": 3,
+        "governance_forum": 834,
+        "news": 21,
+        "other": 2,
+        "web_archive": 132
+      },
+      "visible_in_30d_before_onset": 63
+    },
+    {
+      "after_onset": 25,
+      "assets": [
+        "solvbtc"
+      ],
+      "docs_total": 176,
+      "event_id": "E2-043",
+      "excluded": null,
+      "family": "SolvBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-02-02 11:44",
+      "type": "lockup",
+      "visible_before_onset": 151,
+      "visible_by_source_type": {
+        "governance_forum": 148,
+        "news": 1,
+        "other": 2
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 64,
+      "assets": [
+        "wnlp-usdt"
+      ],
+      "docs_total": 92,
+      "event_id": "E2-044",
+      "excluded": null,
+      "family": "wNLP-USDT",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-07 07:32",
+      "type": "lockup",
+      "visible_before_onset": 28,
+      "visible_by_source_type": {
+        "docs": 1,
+        "other": 1,
+        "web_archive": 26
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 9,
+      "assets": [
+        "cbbtc"
+      ],
+      "docs_total": 32,
+      "event_id": "E2-045",
+      "excluded": null,
+      "family": "CBBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-19 11:29",
+      "type": "lockup",
+      "visible_before_onset": 23,
+      "visible_by_source_type": {
+        "audit": 1,
+        "docs": 2,
+        "governance_forum": 2,
+        "issuer_announcement": 2,
+        "news": 11,
+        "other": 2,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 3
+    },
+    {
+      "after_onset": 70,
+      "assets": [
+        "wstusr"
+      ],
+      "docs_total": 130,
+      "event_id": "E2-046",
+      "excluded": null,
+      "family": "wstUSR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-22 03:33",
+      "type": "depeg_loss",
+      "visible_before_onset": 60,
+      "visible_by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "governance_forum": 43,
+        "other": 6,
+        "web_archive": 9
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 68,
+      "assets": [
+        "wstusr"
+      ],
+      "docs_total": 130,
+      "event_id": "E2-047",
+      "excluded": null,
+      "family": "WSTUSR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-22 05:04",
+      "type": "lockup",
+      "visible_before_onset": 62,
+      "visible_by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "governance_forum": 43,
+        "other": 8,
+        "web_archive": 9
+      },
+      "visible_in_30d_before_onset": 6
+    },
+    {
+      "after_onset": 11,
+      "assets": [
+        "ankr"
+      ],
+      "docs_total": 20,
+      "event_id": "E2-048",
+      "excluded": null,
+      "family": "ANKR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-22 05:26",
+      "type": "lockup",
+      "visible_before_onset": 9,
+      "visible_by_source_type": {
+        "governance_forum": 6,
+        "news": 3
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 71,
+      "assets": [
+        "usr"
+      ],
+      "docs_total": 152,
+      "event_id": "E2-049",
+      "excluded": null,
+      "family": "USR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-22 06:00",
+      "type": "depeg_loss",
+      "visible_before_onset": 81,
+      "visible_by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "governance_forum": 59,
+        "other": 9,
+        "web_archive": 11
+      },
+      "visible_in_30d_before_onset": 7
+    },
+    {
+      "after_onset": 1,
+      "assets": [
+        "btcb"
+      ],
+      "docs_total": 14,
+      "event_id": "E2-050",
+      "excluded": null,
+      "family": "BTCB",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-27 06:52",
+      "type": "lockup",
+      "visible_before_onset": 13,
+      "visible_by_source_type": {
+        "governance_forum": 10,
+        "news": 3
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 5,
+      "assets": [
+        "dcomp"
+      ],
+      "docs_total": 11,
+      "event_id": "E2-051",
+      "excluded": null,
+      "family": "dCOMP",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-03-28 05:08",
+      "type": "lockup",
+      "visible_before_onset": 6,
+      "visible_by_source_type": {
+        "docs": 3,
+        "governance_forum": 1,
+        "web_archive": 2
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 40,
+      "assets": [
+        "wstusr"
+      ],
+      "docs_total": 130,
+      "event_id": "E2-052",
+      "excluded": null,
+      "family": "WSTUSR",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-03 15:33",
+      "type": "lockup",
+      "visible_before_onset": 90,
+      "visible_by_source_type": {
+        "audit": 1,
+        "curator_announcement": 1,
+        "governance_forum": 43,
+        "news": 9,
+        "other": 26,
+        "web_archive": 10
+      },
+      "visible_in_30d_before_onset": 34
+    },
+    {
+      "after_onset": 26,
+      "assets": [
+        "mhypereth"
+      ],
+      "docs_total": 75,
+      "event_id": "E2-053",
+      "excluded": null,
+      "family": "mHyperETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-18 18:22",
+      "type": "lockup",
+      "visible_before_onset": 49,
+      "visible_by_source_type": {
+        "audit": 7,
+        "issuer_announcement": 4,
+        "news": 8,
+        "other": 2,
+        "web_archive": 28
+      },
+      "visible_in_30d_before_onset": 15
+    },
+    {
+      "after_onset": 548,
+      "assets": [
+        "rseth"
+      ],
+      "docs_total": 968,
+      "event_id": "E2-054",
+      "excluded": null,
+      "family": "RSETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-18 18:59",
+      "type": "lockup",
+      "visible_before_onset": 420,
+      "visible_by_source_type": {
+        "audit": 1,
+        "governance_forum": 415,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 100,
+      "assets": [
+        "ezeth"
+      ],
+      "docs_total": 639,
+      "event_id": "E2-055",
+      "excluded": null,
+      "family": "EZETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-18 19:41",
+      "type": "lockup",
+      "visible_before_onset": 539,
+      "visible_by_source_type": {
+        "audit": 11,
+        "docs": 4,
+        "governance_forum": 474,
+        "news": 8,
+        "other": 3,
+        "web_archive": 39
+      },
+      "visible_in_30d_before_onset": 3
+    },
+    {
+      "after_onset": 539,
+      "assets": [
+        "rseth"
+      ],
+      "docs_total": 968,
+      "event_id": "E2-056",
+      "excluded": null,
+      "family": "wrsETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-19 03:09",
+      "type": "depeg_loss",
+      "visible_before_onset": 427,
+      "visible_by_source_type": {
+        "audit": 1,
+        "governance_forum": 419,
+        "issuer_announcement": 1,
+        "news": 4,
+        "other": 1,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 11
+    },
+    {
+      "after_onset": 141,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-057",
+      "excluded": null,
+      "family": "SUSDE",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-19 14:33",
+      "type": "lockup",
+      "visible_before_onset": 1075,
+      "visible_by_source_type": {
+        "audit": 3,
+        "governance_forum": 873,
+        "news": 22,
+        "other": 20,
+        "web_archive": 157
+      },
+      "visible_in_30d_before_onset": 54
+    },
+    {
+      "after_onset": 530,
+      "assets": [
+        "eeth"
+      ],
+      "docs_total": 1220,
+      "event_id": "E2-058",
+      "excluded": null,
+      "family": "WEETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-19 20:02",
+      "type": "lockup",
+      "visible_before_onset": 690,
+      "visible_by_source_type": {
+        "docs": 1,
+        "governance_forum": 652,
+        "news": 4,
+        "other": 5,
+        "web_archive": 28
+      },
+      "visible_in_30d_before_onset": 54
+    },
+    {
+      "after_onset": 37,
+      "assets": [
+        "lbtc"
+      ],
+      "docs_total": 308,
+      "event_id": "E2-059",
+      "excluded": null,
+      "family": "LBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-20 05:27",
+      "type": "lockup",
+      "visible_before_onset": 271,
+      "visible_by_source_type": {
+        "audit": 6,
+        "docs": 1,
+        "governance_forum": 253,
+        "news": 9,
+        "other": 2
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 3,
+      "assets": [
+        "vbeth"
+      ],
+      "docs_total": 10,
+      "event_id": "E2-060",
+      "excluded": null,
+      "family": "vbETH",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-04-20 14:56",
+      "type": "lockup",
+      "visible_before_onset": 7,
+      "visible_by_source_type": {
+        "news": 1,
+        "other": 1,
+        "web_archive": 5
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 84,
+      "assets": [
+        "apxusd"
+      ],
+      "docs_total": 106,
+      "event_id": "E2-061",
+      "excluded": null,
+      "family": "apxUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-05-01 08:21",
+      "type": "lockup",
+      "visible_before_onset": 22,
+      "visible_by_source_type": {
+        "docs": 10,
+        "news": 1,
+        "web_archive": 11
+      },
+      "visible_in_30d_before_onset": 8
+    },
+    {
+      "after_onset": 53,
+      "assets": [
+        "pmusd"
+      ],
+      "docs_total": 83,
+      "event_id": "E2-062",
+      "excluded": null,
+      "family": "pmUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-05-04 00:00",
+      "type": "depeg_loss",
+      "visible_before_onset": 30,
+      "visible_by_source_type": {
+        "audit": 1,
+        "issuer_announcement": 4,
+        "news": 2,
+        "other": 8,
+        "web_archive": 15
+      },
+      "visible_in_30d_before_onset": 3
+    },
+    {
+      "after_onset": 66,
+      "assets": [
+        "reusde"
+      ],
+      "docs_total": 91,
+      "event_id": "E2-063",
+      "excluded": null,
+      "family": "reUSDe",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-05-06 16:25",
+      "type": "lockup",
+      "visible_before_onset": 25,
+      "visible_by_source_type": {
+        "governance_forum": 1,
+        "other": 1,
+        "web_archive": 23
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 109,
+      "assets": [
+        "usde"
+      ],
+      "docs_total": 1216,
+      "event_id": "E2-064",
+      "excluded": null,
+      "family": "SUSDE",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-05-14 03:18",
+      "type": "lockup",
+      "visible_before_onset": 1107,
+      "visible_by_source_type": {
+        "audit": 3,
+        "governance_forum": 900,
+        "news": 22,
+        "other": 21,
+        "web_archive": 161
+      },
+      "visible_in_30d_before_onset": 35
+    },
+    {
+      "after_onset": 9,
+      "assets": [
+        "ynrwax"
+      ],
+      "docs_total": 17,
+      "event_id": "E2-065",
+      "excluded": null,
+      "family": "ynRWAx",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-05-30 02:47",
+      "type": "depeg_loss",
+      "visible_before_onset": 8,
+      "visible_by_source_type": {
+        "audit": 1,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 4,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 57,
+      "assets": [
+        "apxusd"
+      ],
+      "docs_total": 106,
+      "event_id": "E2-066",
+      "excluded": null,
+      "family": "apxUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-03 06:00",
+      "type": "depeg_loss",
+      "visible_before_onset": 49,
+      "visible_by_source_type": {
+        "docs": 10,
+        "issuer_announcement": 2,
+        "news": 1,
+        "other": 1,
+        "web_archive": 35
+      },
+      "visible_in_30d_before_onset": 27
+    },
+    {
+      "after_onset": 3,
+      "assets": [
+        "vbwbtc"
+      ],
+      "docs_total": 11,
+      "event_id": "E2-067",
+      "excluded": null,
+      "family": "vbWBTC",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-05 11:57",
+      "type": "lockup",
+      "visible_before_onset": 8,
+      "visible_by_source_type": {
+        "docs": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 5
+      },
+      "visible_in_30d_before_onset": 2
+    },
+    {
+      "after_onset": 8,
+      "assets": [
+        "ynethx"
+      ],
+      "docs_total": 17,
+      "event_id": "E2-068",
+      "excluded": null,
+      "family": "YNETHX",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-19 00:49",
+      "type": "lockup",
+      "visible_before_onset": 9,
+      "visible_by_source_type": {
+        "audit": 1,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 5,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 36,
+      "assets": [
+        "msy"
+      ],
+      "docs_total": 55,
+      "event_id": "E2-069",
+      "excluded": null,
+      "family": "msUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-19 12:23",
+      "type": "depeg_loss",
+      "visible_before_onset": 19,
+      "visible_by_source_type": {
+        "audit": 1,
+        "docs": 2,
+        "governance_forum": 1,
+        "news": 1,
+        "web_archive": 14
+      },
+      "visible_in_30d_before_onset": 0
+    },
+    {
+      "after_onset": 13,
+      "assets": [
+        "avlt"
+      ],
+      "docs_total": 20,
+      "event_id": "E2-070",
+      "excluded": null,
+      "family": "AVLT",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-21 21:16",
+      "type": "depeg_loss",
+      "visible_before_onset": 7,
+      "visible_by_source_type": {
+        "audit": 1,
+        "issuer_announcement": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 1
+    },
+    {
+      "after_onset": 9,
+      "assets": [
+        "avlt"
+      ],
+      "docs_total": 20,
+      "event_id": "E2-071",
+      "excluded": null,
+      "family": "AVLT",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-22 13:24",
+      "type": "lockup",
+      "visible_before_onset": 11,
+      "visible_by_source_type": {
+        "audit": 1,
+        "issuer_announcement": 1,
+        "news": 5,
+        "other": 1,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 5
+    },
+    {
+      "after_onset": 11,
+      "assets": [
+        "aznd"
+      ],
+      "docs_total": 17,
+      "event_id": "E2-072",
+      "excluded": null,
+      "family": "AZND",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-06-23 02:27",
+      "type": "lockup",
+      "visible_before_onset": 6,
+      "visible_by_source_type": {
+        "news": 1,
+        "other": 2,
+        "web_archive": 3
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 15,
+      "assets": [
+        "metronome-msusd"
+      ],
+      "docs_total": 23,
+      "event_id": "E2-073",
+      "excluded": null,
+      "family": "msUSD (Metronome)",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-07-05 12:00",
+      "type": "depeg_loss",
+      "visible_before_onset": 8,
+      "visible_by_source_type": {
+        "audit": 1,
+        "docs": 2,
+        "governance_forum": 1,
+        "news": 1,
+        "other": 1,
+        "web_archive": 2
+      },
+      "visible_in_30d_before_onset": 4
+    },
+    {
+      "after_onset": 10,
+      "assets": [
+        "nusd"
+      ],
+      "docs_total": 21,
+      "event_id": "E2-074",
+      "excluded": null,
+      "family": "NUSD",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-08-15 02:30",
+      "type": "lockup",
+      "visible_before_onset": 11,
+      "visible_by_source_type": {
+        "news": 6,
+        "other": 4,
+        "web_archive": 1
+      },
+      "visible_in_30d_before_onset": 7
+    },
+    {
+      "after_onset": 0,
+      "assets": [
+        "rss"
+      ],
+      "docs_total": 59,
+      "event_id": "E2-075",
+      "excluded": "self_dealing_loop",
+      "family": "RSS",
+      "inferred_quarantined": 0,
+      "onset_utc": "2026-08-20 17:33",
+      "type": "lockup",
+      "visible_before_onset": 59,
+      "visible_by_source_type": {
+        "governance_forum": 59
+      },
+      "visible_in_30d_before_onset": 0
+    }
+  ],
+  "tiers": {
+    "A": 56,
+    "B": 240,
+    "C": 290
+  }
+}

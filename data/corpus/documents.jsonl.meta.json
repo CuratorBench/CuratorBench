@@ -1,0 +1,26 @@
+{
+  "by_evidence": {
+    "archive_capture": 324,
+    "body_date": 16,
+    "http_last_modified": 39,
+    "page_metadata": 352,
+    "platform_api": 403
+  },
+  "by_source_type": {
+    "audit": 99,
+    "curator_announcement": 1,
+    "docs": 141,
+    "governance_forum": 289,
+    "issuer_announcement": 38,
+    "news": 186,
+    "other": 102,
+    "web_archive": 278
+  },
+  "excluded": "documents withheld from the benchmark moved to data/corpus_excluded/ (ids and reasons in data/corpus/excluded.jsonl)",
+  "filter": "code/corpus/leakage.py CutoffView",
+  "generator": "code/corpus/crawl.py",
+  "rows": 1134,
+  "schema": "code/corpus/corpus.py",
+  "what": "index of the corpus documents (all fields except text; path points to the document JSON with text, raw_path to the raw payload)",
+  "written_utc": "2026-10-09T13:30:30+00:00"
+}

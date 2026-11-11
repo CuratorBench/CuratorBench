@@ -1,0 +1,546 @@
+{
+  "cases": [
+    {
+      "case": "USD0++ 2025-01",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [
+            "E006"
+          ],
+          "chains": [
+            1
+          ],
+          "end_utc": "2026-08-20 00:01",
+          "event_id": "E2-010",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [
+                "E006"
+              ],
+              "end_ts": 1787184083,
+              "end_utc": "2026-08-20 00:01",
+              "families": [
+                "census:defillama:195"
+              ],
+              "family_id": "census:defillama:195",
+              "hit_ids": [
+                "census:E006:0",
+                "census:E006:1",
+                "census:E006:2",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:21839502:423",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:21890968:182",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:21922790:370",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:21947000:1035",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:21977057:6",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:22044102:597",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:22075876:70",
+                "lockup:euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d:22131285:172"
+              ],
+              "markets": [
+                "euler_v2:1:0x2daca71cb58285212dc05d65cfd4f59a82bc4cf6",
+                "euler_v2:1:0xd001f0a15d272542687b2677ba627f48a4333b5d",
+                "morpho:1:0x64d6a777c466c2eb82a1efb4814aa2eab673a95e66fc229fea54125608e6f342",
+                "morpho:1:0x9ba3a3d0ec2886d41f4c7c93c72aaa77b2454e4d3db3603e37797c429d048cfb"
+              ],
+              "onset_ts": 1736834400,
+              "onset_utc": "2025-01-14 06:00",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 5,
+          "onset_utc": "2025-01-14 06:00",
+          "protocols": [
+            "euler_v2",
+            "morpho"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:coingecko:usd0-liquid-bond",
+        "census:defillama:195",
+        "census:s2:bUSD0"
+      ],
+      "recovered": true,
+      "related_events": []
+    },
+    {
+      "case": "Stream xUSD 2025-11",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [
+            "E014"
+          ],
+          "chains": [
+            1,
+            146,
+            9745,
+            42161,
+            43114
+          ],
+          "end_utc": "2026-10-04 22:49",
+          "event_id": "E2-026",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [
+                "E014"
+              ],
+              "end_ts": 1791154143,
+              "end_utc": "2026-10-04 22:49",
+              "families": [
+                "census:coingecko:staked-stream-usd"
+              ],
+              "family_id": "census:coingecko:staked-stream-usd",
+              "hit_ids": [
+                "lockup:morpho:42161:0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709:396128551:8",
+                "lockup:euler_v2:9745:0xf675fbe777e992f5d5d84adf41161dc0f20104a6:5204135:5",
+                "lockup:euler_v2:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd:23717027:615",
+                "lockup:euler_v2:9745:0x27934d4879fc28a74703726edae15f757e45a48a:5228931:17",
+                "lockup:silo_v2:146:0xa1627a0e1d0ebca9326d2219b84df0c600bed4b1:53340708:7",
+                "lockup:euler_v2:9745:0x57c582346b7d49a46af3745a8278917d1c1311b8:5230027:4",
+                "lockup:silo_v2:43114:0x672b77f0538b53dc117c9ddfeb7377a678d321a6:71341696:103",
+                "lockup:silo_v2:42161:0xacb7432a4bb15402ce2afe0a7c9d5b738604f6f9:396339991:15",
+                "lockup:silo_v2:146:0xb1412442aa998950f2f652667d5eba35fe66e43f:53368196:3",
+                "lockup:silo_v2:43114:0x9c4d4800b489d217724155399cd64d07eae603f3:71347482:119",
+                "lockup:silo_v2:1:0x1de3ba67da79a81bc0c3922689c98550e4bd9bc2:23721993:274",
+                "census:E014:0",
+                "census:E014:1",
+                "lockup:silo_v2:43114:0xe0fc62e685e2b3183b4b88b1fe674cfec55a63f7:71394365:25",
+                "census:E014:2",
+                "census:E014:3",
+                "lockup:silo_v2:43114:0x672b77f0538b53dc117c9ddfeb7377a678d321a6:72275259:65",
+                "lockup:silo_v2:42161:0xacb7432a4bb15402ce2afe0a7c9d5b738604f6f9:402219017:27"
+              ],
+              "markets": [
+                "euler_v2:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd",
+                "euler_v2:9745:0x27934d4879fc28a74703726edae15f757e45a48a",
+                "euler_v2:9745:0x57c582346b7d49a46af3745a8278917d1c1311b8",
+                "euler_v2:9745:0xf675fbe777e992f5d5d84adf41161dc0f20104a6",
+                "morpho:42161:0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709",
+                "silo_v2:146:0xa1627a0e1d0ebca9326d2219b84df0c600bed4b1",
+                "silo_v2:146:0xb1412442aa998950f2f652667d5eba35fe66e43f",
+                "silo_v2:1:0x1de3ba67da79a81bc0c3922689c98550e4bd9bc2",
+                "silo_v2:42161:0xacb7432a4bb15402ce2afe0a7c9d5b738604f6f9",
+                "silo_v2:43114:0x672b77f0538b53dc117c9ddfeb7377a678d321a6",
+                "silo_v2:43114:0x9c4d4800b489d217724155399cd64d07eae603f3",
+                "silo_v2:43114:0xe0fc62e685e2b3183b4b88b1fe674cfec55a63f7"
+              ],
+              "onset_ts": 1762115062,
+              "onset_utc": "2025-11-02 20:24",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 1,
+          "onset_utc": "2025-11-02 20:24",
+          "protocols": [
+            "euler_v2",
+            "morpho",
+            "silo_v2"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:coingecko:staked-stream-usd"
+      ],
+      "recovered": true,
+      "related_events": []
+    },
+    {
+      "case": "deUSD 2025-11",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [],
+          "chains": [
+            1,
+            9745
+          ],
+          "end_utc": "2026-10-04 22:43",
+          "event_id": "E2-029",
+          "hit_kinds": [
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [],
+              "end_ts": 1791153794,
+              "end_utc": "2026-10-04 22:43",
+              "families": [
+                "census:defillama:210"
+              ],
+              "family_id": "census:defillama:210",
+              "hit_ids": [
+                "lockup:morpho:1:0x0f9563442d64ab3bd3bcb27058db0b0d4046a4c46f0acd811dacae9551d2b129:23719252:201",
+                "lockup:euler_v2:9745:0x3799251bd81925cfccf2992f10af27a4e62bf3f7:5250916:46",
+                "lockup:morpho:1:0x0f9563442d64ab3bd3bcb27058db0b0d4046a4c46f0acd811dacae9551d2b129:23790708:154"
+              ],
+              "markets": [
+                "euler_v2:9745:0x3799251bd81925cfccf2992f10af27a4e62bf3f7",
+                "morpho:1:0x0f9563442d64ab3bd3bcb27058db0b0d4046a4c46f0acd811dacae9551d2b129"
+              ],
+              "onset_ts": 1762178339,
+              "onset_utc": "2025-11-03 13:58",
+              "type": "lockup"
+            }
+          ],
+          "n_episodes": 1,
+          "onset_utc": "2025-11-03 13:58",
+          "protocols": [
+            "euler_v2",
+            "morpho"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:defillama:210"
+      ],
+      "recovered": true,
+      "related_events": []
+    },
+    {
+      "case": "USDX 2025-11",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [],
+          "chains": [
+            56
+          ],
+          "end_utc": "2026-10-02 02:37",
+          "event_id": "E2-019",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [],
+              "end_ts": 1790908668,
+              "end_utc": "2026-10-02 02:37",
+              "families": [
+                "census:defillama:214"
+              ],
+              "family_id": "census:defillama:214",
+              "hit_ids": [
+                "lockup:moolah:56:0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6:66619816:379",
+                "lockup:moolah:56:0xe4f13e0f056e811b79ca4598bbf8756c7b5d5483e57373036674bc4d24b32a8d:66910728:703",
+                "lockup:moolah:56:0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6:67244518:610",
+                "moolah:0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6:I2:67244518",
+                "moolah:0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6:I3:67243752",
+                "moolah:0xe4f13e0f056e811b79ca4598bbf8756c7b5d5483e57373036674bc4d24b32a8d:I2:66910728",
+                "moolah:0xe4f13e0f056e811b79ca4598bbf8756c7b5d5483e57373036674bc4d24b32a8d:I3:59922838"
+              ],
+              "markets": [
+                "moolah:56:0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6",
+                "moolah:56:0xe4f13e0f056e811b79ca4598bbf8756c7b5d5483e57373036674bc4d24b32a8d"
+              ],
+              "onset_ts": 1761965772,
+              "onset_utc": "2025-11-01 02:56",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 2,
+          "onset_utc": "2025-11-01 02:56",
+          "protocols": [
+            "moolah"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:defillama:214"
+      ],
+      "recovered": true,
+      "related_events": []
+    },
+    {
+      "case": "USR 2026-03",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [
+            "E002",
+            "E004",
+            "E013"
+          ],
+          "chains": [
+            1,
+            56,
+            999,
+            8453,
+            42161
+          ],
+          "end_utc": "2026-10-04 22:49",
+          "event_id": "E2-040",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [
+                "E002",
+                "E004",
+                "E013"
+              ],
+              "end_ts": 1791154143,
+              "end_utc": "2026-10-04 22:49",
+              "families": [
+                "census:defillama:197",
+                "census:s2:RLP"
+              ],
+              "family_id": "census:defillama:197",
+              "hit_ids": [
+                "lockup:morpho:1:0xd9e34b1eed46d123ac1b69b224de1881dbc88798bc7b70f504920f62f58f28cc:24710385:61",
+                "lockup:moolah:56:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:88016118:204",
+                "census:E002:0",
+                "census:E002:1",
+                "census:E002:2",
+                "census:E002:3",
+                "census:E004:0",
+                "census:E004:1",
+                "census:E004:10",
+                "census:E004:11",
+                "census:E004:12",
+                "census:E004:13",
+                "census:E004:14",
+                "census:E004:2",
+                "census:E004:3",
+                "census:E004:4",
+                "census:E004:5",
+                "census:E004:6",
+                "census:E004:7",
+                "census:E004:8",
+                "census:E004:9",
+                "census:E013:0",
+                "census:E013:1",
+                "census:E013:2",
+                "census:E013:3",
+                "census:E013:4",
+                "lockup:morpho:1:0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77:24716147:105",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I2:88016118",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I3:88092322",
+                "moolah:0xff66db2dcd564ed68063c779e018d25ad1a31af372bd85e4acd770d9b985f5d4:I2:88016712",
+                "lockup:morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33:24725605:169",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I3:88654109",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I3:88875988",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I3:88887202",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I2:88931641",
+                "moolah:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed:I3:88931750",
+                "lockup:morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33:24761969:289",
+                "lockup:silo_v2:42161:0xa9a4bd976dbcfc2b89f554467ac85e2c758e2618:448650923:26",
+                "moolah:0xff66db2dcd564ed68063c779e018d25ad1a31af372bd85e4acd770d9b985f5d4:I3:91238987",
+                "census:E004:16",
+                "lockup:morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33:24988511:652",
+                "census:E002:4",
+                "census:E004:17",
+                "lockup:morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33:25197667:417",
+                "census:E004:18",
+                "lockup:morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33:25585770:455",
+                "census:E002:5",
+                "census:E002:6",
+                "lockup:morpho:1:0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77:25667965:281"
+              ],
+              "markets": [
+                "euler_v2:1:0x3b028b4b6c567ef5f8ca1144da4fbaa0d973f228",
+                "euler_v2:1:0xcbc9b61177444a793b85442d3a953b90f6170b7d",
+                "moolah:56:0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed",
+                "moolah:56:0xff66db2dcd564ed68063c779e018d25ad1a31af372bd85e4acd770d9b985f5d4",
+                "morpho:1:0x010e577cd5d40210ae600cd877710c252a26afd7b50b1280642c76c4612bd6df",
+                "morpho:1:0x0ec590b250f171c22d39958a55a0589091431fe90599d55409c39aeb01363cb0",
+                "morpho:1:0x13dd22c3111106f703052d5f9166812f0bf1f4679f3db7dfd82037971ce5468f",
+                "morpho:1:0x1dca6989b0d2b0a546530b3a739e91402eee2e1536a2d3ded4f5ce589a9cd1c2",
+                "morpho:1:0x1def309fa6c5b6ee7044b67154f15872af6c7e240f1e103f6a46cd82fb351688",
+                "morpho:1:0x308cb8d01d8fe656ceaf4841abc62cee6587f9e46533622e30a0053337953432",
+                "morpho:1:0x4b86442549b52826e0fc11770ec5154450cb3c5c14dc751a761d81dcfbe7a7b2",
+                "morpho:1:0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77",
+                "morpho:1:0xa4a856c3a52f426f59c3a29d0854af473e4d3df84718709ff25a36a1c9e3c0ac",
+                "morpho:1:0xac5e7868966e4ba9173c691a8f7e94a9f5966815121a0493042fb341db8d2d3f",
+                "morpho:1:0xcc39b6c92fd03ac608b9239618db8b80a4a2034b0450bdf47b404229571312da",
+                "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+                "morpho:1:0xd9e34b1eed46d123ac1b69b224de1881dbc88798bc7b70f504920f62f58f28cc",
+                "morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33",
+                "morpho:8453:0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+                "morpho:8453:0xad9a1896d6d8b07981f78601b2c91056658dc104c5f0b799dd52717704bd5221",
+                "morpho:8453:0xff0f2bd52ca786a4f8149f96622885e880222d8bed12bbbf5950296be8d03f89",
+                "morpho:999:0x1da89208e6cb5173e97a83461853b8400de4f7c37542cf010a10579a5f7ca451",
+                "morpho:999:0xc59a3f8a3918d89ebef44ee1dcda435719f543cfd3f37ead7e74852ea5931581",
+                "morpho:999:0xed00791e29eb08c9bc0d8b389fe1f00084699baf2a785ba2a42e915706b17b82",
+                "silo_v2:1:0x19089004ee41ac63bc81d0854bc6cb561a44096b",
+                "silo_v2:1:0xa6f6887ed116f3c41497a837a0319264a2eef3fa",
+                "silo_v2:1:0xce6ab1c71981e79cd30052c521c162674251018a",
+                "silo_v2:1:0xe54661e8db3b106d6d31c3a33cb4a9c57ff62997",
+                "silo_v2:42161:0xa9a4bd976dbcfc2b89f554467ac85e2c758e2618"
+              ],
+              "onset_ts": 1774150391,
+              "onset_utc": "2026-03-22 03:33",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 2,
+          "onset_utc": "2026-03-22 03:33",
+          "protocols": [
+            "euler_v2",
+            "moolah",
+            "morpho",
+            "silo_v2"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:defillama:197"
+      ],
+      "recovered": true,
+      "related_events": [
+        "E2-040"
+      ]
+    },
+    {
+      "case": "rsETH 2026-04",
+      "earlier_events_still_open_in_month": [],
+      "events": [
+        {
+          "census_events": [
+            "E012"
+          ],
+          "chains": [
+            1,
+            8453,
+            42161
+          ],
+          "end_utc": "2026-07-20 17:03",
+          "event_id": "E2-049",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [
+                "E012"
+              ],
+              "end_ts": 1784567015,
+              "end_utc": "2026-07-20 17:03",
+              "families": [
+                "census:coingecko:kelp-dao-restaked-eth"
+              ],
+              "family_id": "census:coingecko:kelp-dao-restaked-eth",
+              "hit_ids": [
+                "lockup:silo_v2:1:0xf1577a529ffc5975a015d4bf1f25bf1e43776405:24908700:1178",
+                "lockup:silo_v2:42161:0xb77ff64638a2cab0a102b3c7964514cb50d577ca:453879102:3",
+                "lockup:morpho:1:0xec97655fab06b53bfad9d8c2358768aed5a1c97b204d3e51e2a7cb0cb786a264:24909350:744",
+                "census:E012:0",
+                "lockup:silo_v2:1:0xf1577a529ffc5975a015d4bf1f25bf1e43776405:25340156:812"
+              ],
+              "markets": [
+                "morpho:1:0xec97655fab06b53bfad9d8c2358768aed5a1c97b204d3e51e2a7cb0cb786a264",
+                "morpho:8453:0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+                "silo_v2:1:0xf1577a529ffc5975a015d4bf1f25bf1e43776405",
+                "silo_v2:42161:0xb77ff64638a2cab0a102b3c7964514cb50d577ca"
+              ],
+              "onset_ts": 1776538763,
+              "onset_utc": "2026-04-18 18:59",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 1,
+          "onset_utc": "2026-04-18 18:59",
+          "protocols": [
+            "morpho",
+            "silo_v2"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:coingecko:kelp-dao-restaked-eth",
+        "census:coingecko:wrapped-rseth"
+      ],
+      "recovered": true,
+      "related_events": []
+    },
+    {
+      "case": "msUSD 2026-06",
+      "earlier_events_still_open_in_month": [
+        {
+          "event_id": "E2-024",
+          "onset_utc": "2025-10-12 09:10",
+          "type": "lockup"
+        }
+      ],
+      "events": [
+        {
+          "census_events": [
+            "E007"
+          ],
+          "chains": [
+            1
+          ],
+          "end_utc": "2026-10-02 02:37",
+          "event_id": "E2-062",
+          "hit_kinds": [
+            "depeg_loss",
+            "lockup"
+          ],
+          "matching_episodes": [
+            {
+              "census_events": [
+                "E007"
+              ],
+              "end_ts": 1790908667,
+              "end_utc": "2026-10-02 02:37",
+              "families": [
+                "census:defillama:297"
+              ],
+              "family_id": "census:defillama:297",
+              "hit_ids": [
+                "lockup:morpho:1:0x23a7d0ff682b323363fb8ba58327ed87001f6306e09b7fd7413bbe4698e749c8:25351603:91",
+                "census:E007:0",
+                "census:E007:1",
+                "census:E007:2",
+                "lockup:morpho:1:0xb317d11c2bc2c0c8e6ea3c6517731cf667c86f2c716624be50319a6d32a97e8d:25359625:23"
+              ],
+              "markets": [
+                "morpho:1:0x23a7d0ff682b323363fb8ba58327ed87001f6306e09b7fd7413bbe4698e749c8",
+                "morpho:1:0xb317d11c2bc2c0c8e6ea3c6517731cf667c86f2c716624be50319a6d32a97e8d",
+                "silo_v2:1:0x9d1b81589054ecd65a2744cc095857c01f7f49fd"
+              ],
+              "onset_ts": 1781871827,
+              "onset_utc": "2026-06-19 12:23",
+              "type": "depeg_loss"
+            }
+          ],
+          "n_episodes": 1,
+          "onset_utc": "2026-06-19 12:23",
+          "protocols": [
+            "morpho",
+            "silo_v2"
+          ],
+          "type": "depeg_loss"
+        }
+      ],
+      "families": [
+        "census:defillama:297"
+      ],
+      "recovered": true,
+      "related_events": [
+        "E2-063"
+      ]
+    }
+  ],
+  "of": 7,
+  "recovered": 7
+}

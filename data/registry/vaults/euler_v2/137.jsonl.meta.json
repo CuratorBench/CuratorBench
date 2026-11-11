@@ -1,0 +1,15 @@
+{
+  "chain": "polygon",
+  "chain_id": 137,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0x0000000000000000000000000000000000000000",
+    "evault_factory": "0xB1771a13e2a13fCafA89B00335915E732B9466b7",
+    "evc": "0x90811DacA4BD23Fc79A87FBdff7522bED2d24B4B"
+  },
+  "rows": 0,
+  "scanned_to_block": 94804938,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:42:30+00:00"
+}

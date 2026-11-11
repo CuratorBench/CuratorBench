@@ -1,0 +1,5 @@
+{
+ "generator": "code/autocurator/replay.py identity",
+ "what": "identity validation of the multi-market replay on the E1 panel",
+ "written_utc": "2026-10-09T16:22:59Z"
+}

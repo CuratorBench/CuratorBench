@@ -1,0 +1,212 @@
+{
+  "columns": [
+    "event_id",
+    "event_type",
+    "t0_utc",
+    "e2_onset_utc",
+    "family",
+    "protocol",
+    "chain_id",
+    "vault",
+    "kind",
+    "name",
+    "asset_symbol",
+    "curator",
+    "curator_name",
+    "curator_confidence",
+    "issuer_curated",
+    "self_deposited",
+    "third_party",
+    "group",
+    "entered_after_t0",
+    "in_e2",
+    "e2_group",
+    "value_t0_usd",
+    "value_t0_usd_counted",
+    "value_source",
+    "exposure_t0_usd",
+    "exposure_t0_usd_counted",
+    "exposure_share_t0",
+    "position_t0_usd",
+    "peak_180d_exposure_usd",
+    "peak_180d_day",
+    "max_exposure_usd_after_t0",
+    "exit_lead_days",
+    "n_realloc_out_before",
+    "first_realloc_out_before_days",
+    "last_realloc_out_before_days",
+    "n_realloc_out_after",
+    "first_realloc_out_after_days",
+    "n_cap_reduction_before",
+    "first_cap_reduction_before_days",
+    "last_cap_reduction_before_days",
+    "n_cap_reduction_after",
+    "first_cap_reduction_after_days",
+    "n_queue_removal_before",
+    "first_queue_removal_before_days",
+    "last_queue_removal_before_days",
+    "n_queue_removal_after",
+    "first_queue_removal_after_days",
+    "realloc_out_usd_before",
+    "days_locked",
+    "days_locked_1pct",
+    "days_locked_10pct",
+    "days_locked_longest",
+    "min_L_after_t0",
+    "written_off",
+    "guard_capped_at_t0",
+    "loss_usd",
+    "loss_usd_counted",
+    "loss_per_dollar",
+    "loss_shortfall_usd",
+    "loss_bad_debt_usd",
+    "position_principal_T_usd",
+    "loss_usd_t0_position",
+    "loss_usd_mult",
+    "loss_usd_counted_mult",
+    "loss_usd_family_backed",
+    "inflow_usd_after_t0",
+    "inflow_mechanism_after_t0",
+    "extracted_usd_onbehalf"
+  ],
+  "days_locked": "count of day ends from t0's day to the event end with L(t) < 5% while the vault holds >= MATERIAL_USD in the markets, not necessarily consecutive (E2's rule); days_locked_longest is the longest run of consecutive such day ends",
+  "entered_after_t0": "never entered and exposure after t0 reached MATERIAL_USD, or exited before t0 and transactions between t0 and the event end raised its position in the event's markets by at least MATERIAL_USD in sum (re-entry; Euler lending vaults: exposure back to 10 percent of the 180-day peak and MATERIAL_USD)",
+  "extracted_usd_onbehalf": "vault withdrawals less deposits in the transactions where a third party supplied into the event's markets on the vault's behalf (donation attacks): cash taken out of the vault that the point-in-time loss does not see; not added to loss_usd",
+  "generator": "code/analysis/e5_events.py",
+  "groups": {
+    "exited_before_t0": 108,
+    "never_entered": 1777,
+    "present_at_t0": 134
+  },
+  "inflow_mechanism_after_t0": "largest component of that inflow: allocator, public_allocator, supply_queue, external_onbehalf, other",
+  "inflow_usd_after_t0": "e5_inflows.py: positive changes of the vault's position in the event's markets in transactions within 30 days after t0, USD; 0 below MATERIAL_USD; depeg-loss rows other than Euler lending vaults only",
+  "inputs": {
+    "aum/excluded_vaults.jsonl": {
+      "sha256": "9934f5e3e4d815c4041e6b357e93cf692b79c6b54f0926745773dda6504c6731",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "aum/lending_daily.csv": {
+      "sha256": "8d3d0b432c92644773a5af5ed7f566769751225e277cb82e65ba7eebd517ffe9",
+      "written_utc": "2026-10-18T05:05:34+00:00"
+    },
+    "aum/vault_daily.csv": {
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "data/inputs/event_sizing.json": {
+      "sha256": "a0a6f4300b544a6a381912907da844d45eb6ffd74f998144521b2b55a52ca428"
+    },
+    "data/inputs/pt_markets.json": {
+      "sha256": "11844c8927136befef7285db162a3b28cc7cbe7ddc37969c061502de23f43d02"
+    },
+    "data/inputs/recovery_prices.json": {
+      "sha256": "852673bcc6845318c86880cf287e4e425fa790dfda2a5161f45c81ee6d3e3c2e"
+    },
+    "events/collateral_families.jsonl": {
+      "sha256": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/events.jsonl": {
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/prices_supplement.csv": {
+      "sha256": "f05a8e0905025bf73b9bc987877db3398040e77f292d475e9fbb5c723b5a0d31",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "events/tokens_supplement.jsonl": {
+      "sha256": "7586849b5a90b4d1e33b2457c1c4c1f7bb4f1a06c5f571387b36998da9e15a04",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "registry/curators.jsonl": {
+      "sha256": "6f9a03148df81f86dcec3fc7267d508c50c66668cf1ffcd61f57e45a86e034c3",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    },
+    "registry/vault_curators.jsonl": {
+      "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    }
+  },
+  "loss_per_dollar": "None when the vault was worth less than 10,000 USD at t0 (left out of every per-dollar ratio; the dollar loss stays in every total)",
+  "loss_usd_family_backed": "part of loss_usd from markets E2 did not hit whose debt the event's families backed at t0 (family_backed_markets)",
+  "panel_heads": {
+    "euler_v2:1": {
+      "block": 26102061,
+      "ts": 1790913023
+    },
+    "euler_v2:59144": {
+      "block": 32265765,
+      "ts": 1791469092
+    },
+    "euler_v2:9745": {
+      "block": 34212585,
+      "ts": 1791153794
+    },
+    "moolah:56": {
+      "block": 125213725,
+      "ts": 1790908668
+    },
+    "morpho:1": {
+      "block": 26101699,
+      "ts": 1790908667
+    },
+    "morpho:42161": {
+      "block": 510855558,
+      "ts": 1790909351
+    },
+    "morpho:4663": {
+      "block": 77887342,
+      "ts": 1790909294
+    },
+    "morpho:747474": {
+      "block": 44166542,
+      "ts": 1790909353
+    },
+    "morpho:8453": {
+      "block": 52060001,
+      "ts": 1790909349
+    },
+    "morpho:999": {
+      "block": 47430029,
+      "ts": 1790909010
+    },
+    "silo_v2:1": {
+      "block": 26122083,
+      "ts": 1791154127
+    },
+    "silo_v2:146": {
+      "block": 80357910,
+      "ts": 1791154141
+    },
+    "silo_v2:42161": {
+      "block": 511745051,
+      "ts": 1791154143
+    },
+    "silo_v2:43114": {
+      "block": 96766610,
+      "ts": 1791154140
+    }
+  },
+  "parameters": {
+    "L_thresholds": [
+      0.05,
+      0.01,
+      0.1
+    ],
+    "exit_fraction": 0.1,
+    "lead_fraction": 0.5,
+    "lookback_days": 180,
+    "material_usd": 10000.0,
+    "path_days": [
+      -90,
+      30
+    ],
+    "valuation_ts": 1789041600,
+    "valuation_utc": "2026-09-10 12:00"
+  },
+  "rows": 2019,
+  "t0": "E2's onset; for a depeg-loss event the onset of the episode after which the collateral did not recover (e2_onset_utc repeats it)",
+  "units": "USD at the day's DefiLlama close (stables carried at 1 when unquoted, E2's rule); losses are loan units times the loan token's price at the valuation time (the recovery price when the loan token is itself depegged, else the DefiLlama close); loss_per_dollar is in the vault's own asset units; days are UTC days; action times in days relative to t0 (negative before)",
+  "what": "one row per (E2 event, curated vault on the same protocol and chain whose asset is the loan asset of an affected market) that was live at t0 or held the markets; groups, exposure, exit lead time, curator actions, days locked, realized loss (see data/resume/e5-events.md)",
+  "written_utc": "2026-10-18T22:50:49+00:00"
+}

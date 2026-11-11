@@ -1,0 +1,89 @@
+{
+  "9summits": {
+    "addresses": {
+      "0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF": "9 Summits vault Admin Multisig",
+      "0x2ca1fac7E626bC2E2122578e07772098f4F4F7Cb": "9 Summits vault Admin MPC"
+    },
+    "description": "9 Summits is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "9summits.png",
+    "name": "9 Summits",
+    "social": {
+      "twitter": "nine_summits"
+    },
+    "url": "https://9summits.io/"
+  },
+  "k3-capital": {
+    "addresses": {
+      "0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B": "K3 Capital Multisig"
+    },
+    "description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "k3.svg",
+    "name": "K3 Capital",
+    "social": {
+      "twitter": "k3_capital"
+    },
+    "url": "https://k3.capital/"
+  },
+  "keyring": {
+    "addresses": {
+      "0x69cC425B1E5f302e7Db4E5d125ab984EC5186364": "Keyring Multisig"
+    },
+    "description": "Keyring provides identity and access-control infrastructure that may be used to configure permissioned market access on Euler.",
+    "logo": "keyring.svg",
+    "name": "Keyring",
+    "social": {
+      "github": "keyring-network",
+      "twitter": "keyringnetwork"
+    },
+    "url": "https://keyring.network/"
+  },
+  "mev-capital": {
+    "addresses": {
+      "0xB672Ea44A1EC692A9Baf851dC90a1Ee3DB25F1C4": "MEV Capital Multisig"
+    },
+    "description": "MEV Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "mev-capital.svg",
+    "name": "MEV Capital",
+    "social": {
+      "twitter": "mevcapital"
+    },
+    "url": "https://mevcapital.com/"
+  },
+  "re7-labs": {
+    "addresses": {
+      "0x3BA1566ED39F865bAf4c1Eb9acE53F3D2062bE65": "Re7 Labs Euler Multisig"
+    },
+    "description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "re7labs.png",
+    "name": "Re7 Labs",
+    "social": {
+      "twitter": "Re7Labs"
+    },
+    "url": "https://www.re7labs.xyz/"
+  },
+  "reservoir-labs": {
+    "addresses": {
+      "0xAcE9D0c885f1c241C336B63D36CDe44e34e8B391": "Reservoir Labs Multisig"
+    },
+    "description": "Reservoir Labs is a third-party curator using Euler infrastructure to configure selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "reservoir-labs.png",
+    "name": "Reservoir Labs",
+    "social": {
+      "github": "reservoir-labs",
+      "twitter": "ReservoirFi"
+    },
+    "url": "https://reservoir.fi"
+  },
+  "turtle": {
+    "addresses": {
+      "0x2631b5260715ec9F1211EF0Fb10c702922038B63": "Turtle MPC wallet"
+    },
+    "description": "Turtle is a third-party curator using Euler infrastructure to configure vaults connected to liquidity distribution strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "turtle.png",
+    "name": "Turtle",
+    "social": {
+      "twitter": "turtledotxyz"
+    },
+    "url": "https://turtle.xyz/"
+  }
+}

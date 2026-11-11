@@ -1,0 +1,15 @@
+{
+  "chain": "bsc",
+  "chain_id": 56,
+  "generator": "code/data/enumerate.py",
+  "protocol": "moolah",
+  "registry_entry": {
+    "chain_name": "bnb",
+    "moolah": "0x8F73b65B4caAf64FBA2aF91cC5D4a2A1318E5D8C",
+    "vault_factory": "0x2a0Cb6401FD3c6196750dc6b46702040761D9671"
+  },
+  "rows": 532,
+  "scanned_to_block": 125213726,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:37:56+00:00"
+}

@@ -1,0 +1,546 @@
+{
+  "curator_top12_yield_after_fee": [
+    {
+      "curator": "Steakhouse Financial",
+      "e4": 0.04891720119,
+      "stuck": 0.04891718606340409
+    },
+    {
+      "curator": "Gauntlet",
+      "e4": 0.0392941118,
+      "stuck": 0.039294041715152425
+    },
+    {
+      "curator": "SparkDAO",
+      "e4": 0.07272441139,
+      "stuck": 0.07272441139129199
+    },
+    {
+      "curator": "Sentora",
+      "e4": 0.02749261872,
+      "stuck": 0.02749261871780384
+    },
+    {
+      "curator": "Lista DAO",
+      "e4": 0.01371108868,
+      "stuck": 0.013691420131861169
+    },
+    {
+      "curator": "MEV Capital",
+      "e4": 0.04759875855,
+      "stuck": 0.04758448318561806
+    },
+    {
+      "curator": "Euler DAO",
+      "e4": 0.02532855675,
+      "stuck": 0.025252314402522565
+    },
+    {
+      "curator": "Usual",
+      "e4": 0.0001887651578,
+      "stuck": 0.00018876515776260162
+    },
+    {
+      "curator": "B.Protocol and Block Analitica",
+      "e4": 0.02409342685,
+      "stuck": 0.024093426850724086
+    },
+    {
+      "curator": "Felix",
+      "e4": 0.05501746399,
+      "stuck": 0.05501746399175336
+    },
+    {
+      "curator": "RE7 Labs",
+      "e4": 0.02132376128,
+      "stuck": 0.021329766444492144
+    },
+    {
+      "curator": "TelosC",
+      "e4": 0.01337007444,
+      "stuck": 0.013200108473965006
+    }
+  ],
+  "frontier_2d_aum_floor_10m": {
+    "e4": [
+      {
+        "aum_mean_usd_e4": 10258098.4,
+        "chain_id": 1,
+        "curator_name": "",
+        "name": "ABRC",
+        "vault": "0x0c36327e93f749a7eec04603410df776150f47de",
+        "yield_after_fee_e4": 0.1037973028,
+        "yield_after_fee_stuck": 0.10379730282339908
+      },
+      {
+        "aum_mean_usd_e4": 67385254.62,
+        "chain_id": 1,
+        "curator_name": "Steakhouse Financial",
+        "name": "Techblock x Steakhouse EURCV",
+        "vault": "0xbeef007ecfbfdf9b919d0050821a9b6dbd634ff0",
+        "yield_after_fee_e4": 0.03428611477,
+        "yield_after_fee_stuck": 0.03428611476790002
+      },
+      {
+        "aum_mean_usd_e4": 24234860.37,
+        "chain_id": 1,
+        "curator_name": "IMF",
+        "name": "IMF USDS",
+        "vault": "0xdef1fce2df6270fdf7e1214343bebbab8583d43d",
+        "yield_after_fee_e4": 0.1019279164,
+        "yield_after_fee_stuck": 0.1019279163888644
+      },
+      {
+        "aum_mean_usd_e4": 12766277.74,
+        "chain_id": 1,
+        "curator_name": "TelosC",
+        "name": null,
+        "vault": "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+        "yield_after_fee_e4": 0.0,
+        "yield_after_fee_stuck": 0.0
+      },
+      {
+        "aum_mean_usd_e4": 26006796.15,
+        "chain_id": 56,
+        "curator_name": "Lista DAO",
+        "name": "Solv-Exclusive BNB Vault",
+        "vault": "0xb798bb56898a86b6fd49fc1eca4150efdc3ee6ea",
+        "yield_after_fee_e4": 0.01702628211,
+        "yield_after_fee_stuck": 0.017026282108803546
+      }
+    ],
+    "entered": [],
+    "left": [],
+    "stuck": [
+      {
+        "aum_mean_usd_e4": 10258098.4,
+        "chain_id": 1,
+        "curator_name": "",
+        "name": "ABRC",
+        "vault": "0x0c36327e93f749a7eec04603410df776150f47de",
+        "yield_after_fee_e4": 0.1037973028,
+        "yield_after_fee_stuck": 0.10379730282339908
+      },
+      {
+        "aum_mean_usd_e4": 67385254.62,
+        "chain_id": 1,
+        "curator_name": "Steakhouse Financial",
+        "name": "Techblock x Steakhouse EURCV",
+        "vault": "0xbeef007ecfbfdf9b919d0050821a9b6dbd634ff0",
+        "yield_after_fee_e4": 0.03428611477,
+        "yield_after_fee_stuck": 0.03428611476790002
+      },
+      {
+        "aum_mean_usd_e4": 24234860.37,
+        "chain_id": 1,
+        "curator_name": "IMF",
+        "name": "IMF USDS",
+        "vault": "0xdef1fce2df6270fdf7e1214343bebbab8583d43d",
+        "yield_after_fee_e4": 0.1019279164,
+        "yield_after_fee_stuck": 0.1019279163888644
+      },
+      {
+        "aum_mean_usd_e4": 12766277.74,
+        "chain_id": 1,
+        "curator_name": "TelosC",
+        "name": null,
+        "vault": "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+        "yield_after_fee_e4": 0.0,
+        "yield_after_fee_stuck": 0.0
+      },
+      {
+        "aum_mean_usd_e4": 26006796.15,
+        "chain_id": 56,
+        "curator_name": "Lista DAO",
+        "name": "Solv-Exclusive BNB Vault",
+        "vault": "0xb798bb56898a86b6fd49fc1eca4150efdc3ee6ea",
+        "yield_after_fee_e4": 0.01702628211,
+        "yield_after_fee_stuck": 0.017026282108803546
+      }
+    ]
+  },
+  "non_dominated_aum_floor_10m": {
+    "e4": 31,
+    "entered": [],
+    "left": [],
+    "stuck": 31
+  },
+  "rank_correlations": {
+    "aum_floor_10m": {
+      "e4": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.7299285926046775,
+            -0.4820531582673947
+          ],
+          "n": 171,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": -0.6074365983567986
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3604107625030147,
+            -0.001285299283447834
+          ],
+          "n": 171,
+          "p_perm_clustered": 0.0466953304669533,
+          "rho": -0.19114093799650925
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.011496892635323197,
+            0.35832255034923427
+          ],
+          "n": 171,
+          "p_perm_clustered": 0.048295170482951705,
+          "rho": 0.17772801756298895
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.44618526347619053,
+            0.8130465773608169
+          ],
+          "n": 171,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.6479729807271478
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.37182307021315963,
+            0.025985643614981676
+          ],
+          "n": 171,
+          "p_perm_clustered": 0.0496950304969503,
+          "rho": -0.19922768432554155
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.06463775736415465,
+            0.2750012279351017
+          ],
+          "n": 171,
+          "p_perm_clustered": 0.20437956204379562,
+          "rho": 0.11780545755633956
+        }
+      },
+      "stuck": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.7157505105477534,
+            -0.4685175086161802
+          ],
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": -0.6001332607379215
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3330416559021004,
+            0.03942530840734645
+          ],
+          "n": 169,
+          "p_perm_clustered": 0.0888911108889111,
+          "rho": -0.16466702426735966
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.04012528516854292,
+            0.3373725644431054
+          ],
+          "n": 169,
+          "p_perm_clustered": 0.0744925507449255,
+          "rho": 0.1609882682006065
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.45396200764403893,
+            0.841591038535123
+          ],
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.6618997746904778
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.37452244131244977,
+            0.023633581852605237
+          ],
+          "n": 169,
+          "p_perm_clustered": 0.05549445055494451,
+          "rho": -0.19905822450020372
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.05839046818672922,
+            0.28569768806916584
+          ],
+          "n": 169,
+          "p_perm_clustered": 0.195980401959804,
+          "rho": 0.12112525483566208
+        }
+      }
+    },
+    "curator_level": {
+      "e4": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.6755358797804802,
+            -0.21589933406320994
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.00029997000299970003,
+          "rho": -0.4693530845499273
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.6067327190489746,
+            -0.14648137658203886
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.0014998500149985001,
+          "rho": -0.39244469112013813
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.09257754208984255,
+            0.4631240888130509
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.12208779122087791,
+          "rho": 0.19037984348158046
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.19020243970323597,
+            0.6546412165755506
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.00029997000299970003,
+          "rho": 0.4401053599175538
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.38758151849182004,
+            0.12179707214499108
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.24877512248775122,
+          "rho": -0.14090744304377778
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.1868397933641971,
+            0.3170358695814452
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.6046395360463953,
+          "rho": 0.06523896782887496
+        }
+      },
+      "stuck": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.6714018046265398,
+            -0.20837187784461622
+          ],
+          "n": 68,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": -0.4626720377143784
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.5776424110652054,
+            -0.11635085780252839
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.0023997600239976003,
+          "rho": -0.3646897136947438
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.08408140505386723,
+            0.45717212838686644
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.12688731126887312,
+          "rho": 0.18847108226760836
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.1880164106479947,
+            0.6641425948602078
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.00029997000299970003,
+          "rho": 0.43468468500140384
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.31954367358198243,
+            0.1736542094861735
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.553044695530447,
+          "rho": -0.07287789454634834
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.17200425733633182,
+            0.32916052778990484
+          ],
+          "n": 68,
+          "p_perm_clustered": 0.5075492450754925,
+          "rho": 0.08222629415061246
+        }
+      }
+    },
+    "vault_level": {
+      "e4": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.49902000090488907,
+            -0.28462957446348475
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": -0.39247963703539807
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.32072415593307657,
+            -0.06873886024993334
+          ],
+          "n": 875,
+          "p_perm_clustered": 0.00019998000199980003,
+          "rho": -0.19602172810603175
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            0.06592773692010581,
+            0.359189559615843
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.21347383285906943
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.6594347109072033,
+            0.803690098302652
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.7391890430841652
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3087111542293955,
+            -0.0036104736323033498
+          ],
+          "n": 875,
+          "p_perm_clustered": 0.00029997000299970003,
+          "rho": -0.1574011706570073
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            0.03219625026853827,
+            0.3139084165226523
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.18707147301601643
+        }
+      },
+      "stuck": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.4983382090924036,
+            -0.2790601022736759
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": -0.3898550605061681
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.30951632396969875,
+            -0.05637097832342716
+          ],
+          "n": 875,
+          "p_perm_clustered": 0.00029997000299970003,
+          "rho": -0.18682561179468052
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            0.06173922085660617,
+            0.35776496354511533
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.2099731178337649
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.6555281185888939,
+            0.7979541962433304
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.7364701876796529
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.2973759274817629,
+            0.005494472212985111
+          ],
+          "n": 875,
+          "p_perm_clustered": 0.0006999300069993001,
+          "rho": -0.14720751216233685
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            0.03645677334962621,
+            0.309878148860562
+          ],
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "rho": 0.18745367460310522
+        }
+      }
+    }
+  },
+  "rule": "a pinned spell (maximal run of days with end-of-day utilization >= 0.99) of at least 30 days in which borrowers repay less than 10% of the debt at its start per 30 days, and that is still pinned on the grid's last day or ends through a write-off; rises of the market's book value per share are dropped from the day after the spell's first day through its exit day, on top of E2's depeg freeze",
+  "sample": {
+    "e4": 877,
+    "entered": [],
+    "left": [
+      {
+        "aum_mean_usd_e4": 30330.91944,
+        "chain_id": 146,
+        "curator_name": null,
+        "name": "VI-USDC-QA_G",
+        "vault": "0xd80c3e98c9093b41645c07c2b6d956136f89559b",
+        "yield_after_fee_e4": 6.202867617e-06,
+        "yield_after_fee_stuck": null
+      },
+      {
+        "aum_mean_usd_e4": 28007831.99,
+        "chain_id": 146,
+        "curator_name": "RE7 Labs",
+        "name": "Re7 USDC",
+        "vault": "0xf75ae954d30217b4ee70dbfb33f04162aa3cf260",
+        "yield_after_fee_e4": 0.01636648644,
+        "yield_after_fee_stuck": null
+      }
+    ],
+    "stuck": 875
+  },
+  "spells": {
+    "stuck": 214,
+    "stuck_adding_frozen_days": 178,
+    "stuck_adding_frozen_days_with_sample_exposure": 104,
+    "stuck_outside_depeg_set": 171,
+    "stuck_with_sample_exposure": 135
+  },
+  "vaults_yield_change_over_0p5pp": 8
+}

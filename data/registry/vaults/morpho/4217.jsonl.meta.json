@@ -1,0 +1,19 @@
+{
+  "chain": "tempo",
+  "chain_id": 4217,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Tempo Mainnet",
+    "listed_by_api": true,
+    "morpho": "0x10EE9AAC980A180dd4DcFc96C746d60B0EA88f97",
+    "vault_v1_factories": [],
+    "vault_v2_factories": [
+      "0x3DE400E3F79113194fa5AF6Ae5C474947E0C82Db"
+    ]
+  },
+  "rows": 113,
+  "scanned_to_block": 42201429,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:47:01+00:00"
+}

@@ -1,0 +1,7 @@
+{
+ "generator": "code/analysis/e6_compat.py",
+ "written_utc": "2026-10-18T23:09:59+00:00",
+ "seed": 20261018,
+ "n_perm": 5000,
+ "rpc_calls": 0
+}

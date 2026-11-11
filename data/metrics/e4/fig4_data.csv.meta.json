@@ -1,0 +1,25 @@
+{
+  "column_rename": "2026-10-09: tl_* (each depth, crash, headline) hold the oracle-aware tail loss with phi = 0.25, adopted as the paper's tail loss, and tl_headline_phi000/phi050 its phi sensitivity; the first-pass formula moved to tl_v1_* (appendix); the columns named tl_v2_* on 2026-10-08 no longer exist. 2026-10-09: tl_crash (and the headlines) use the one-day crash jump for repricing oracles instead of phi times the 7-day depth; 2026-10-09: other/proxy_feed_other_asset oracles whose feed prices the crash's reference asset itself take the repricing branch in the crash; 2026-10-09: the crash jump is the largest one-day drop of the pair (was its 1st-percentile one-day return)",
+  "columns": [
+    "chain_id",
+    "vault",
+    "name",
+    "curator_entity",
+    "curator_name",
+    "protocol",
+    "kind",
+    "tl_headline",
+    "yield_after_fee",
+    "aum_mean_usd",
+    "L_p10",
+    "non_dominated",
+    "frontier_2d",
+    "label",
+    "tl_v1_headline",
+    "non_dominated_v1"
+  ],
+  "generator": "code/analysis/e4_metrics.py",
+  "rows": 875,
+  "what": "Fig 4: one point per sample vault; non_dominated on (yield, tl_headline, liquidity), non_dominated_v1 with tl_v1_headline (appendix), frontier_2d on (tl_headline, yield); labels on the 2D frontier and at the two ends",
+  "written_utc": "2026-10-18T22:42:58+00:00"
+}

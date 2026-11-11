@@ -1,0 +1,15 @@
+{"address": "0xc621d67edecb6b42db39b83337de9589d6657c23", "calls": true, "size": 2132, "sload": true}
+{"address": "0x46e223d4fe80dd89bcbb54d8c9aadb48f0419315", "calls": false, "size": 368, "sload": false}
+{"address": "0x54e7e29554843dcc3f9fd8558d7243ec03912412", "calls": true, "size": 1858, "sload": true}
+{"address": "0x08005c84257df66af89f635d1c6b59d147107771", "calls": true, "size": 774, "sload": false}
+{"address": "0x3d1049925f829ac81476c2239ae4d5fe62b95f15", "calls": false, "size": 150, "sload": false}
+{"address": "0x61a1312af0a251da498e7d968cb51647d18ad46d", "calls": true, "size": 1031, "sload": false}
+{"address": "0xc75a705f24041cae62e78257a7ab296da00f3686", "calls": true, "size": 3308, "sload": false}
+{"address": "0x656a12f161fc64d9b54f8462f23370093fe17aac", "calls": true, "size": 879, "sload": false}
+{"address": "0x0914d9fec4f78d3d6d9d030c9039001d45a506e2", "calls": true, "size": 483, "sload": false}
+{"address": "0xdef381efdc705ebbf2a6dc7fd1882ca7da2645e9", "calls": true, "size": 10207, "sload": true}
+{"address": "0xde921a777218c4f0eba5430e4090852cc76cdc5b", "calls": true, "size": 1527, "sload": true}
+{"address": "0x877311f26191bf5e82c14641295ba1b45631a81c", "calls": true, "size": 1505, "sload": true}
+{"address": "0x0d0c81a27998f198219996a1c46517494b65993f", "calls": true, "size": 1827, "sload": false}
+{"address": "0x9149a27a5ca22af604779214ad1266144a8f3a08", "calls": true, "size": 1734, "sload": false}
+{"address": "0x021b73c3e6b85b13ee9386d7b5259f397f0b78c7", "calls": true, "size": 1527, "sload": true}

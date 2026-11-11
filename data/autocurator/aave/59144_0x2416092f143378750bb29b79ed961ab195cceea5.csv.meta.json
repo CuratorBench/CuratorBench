@@ -1,0 +1,9 @@
+{
+ "chain": "Linea",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "3fdb0a90-f40e-438e-896a-c0b25ee8d1ed",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/3fdb0a90-f40e-438e-896a-c0b25ee8d1ed",
+ "symbol": "EZETH",
+ "written_utc": "2026-10-25T19:58:26Z"
+}

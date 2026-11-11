@@ -1,0 +1,244 @@
+{
+  "what": "Table 1: how each curated product of the four protocols maps onto the curation model of §2.2 (docs/outline.md). Compiled by hand from the E1 notes and the protocols' own code and documentation.",
+  "read_on": "2026-10-09",
+  "generator": "code/tables/table1_protocols.py writes www-27/tables/table1_protocols.tex",
+  "columns": {
+    "object": "the curated object a depositor holds shares of",
+    "allocation": "who moves the deposits across markets",
+    "collateral": "who decides which collateral the deposits are lent against",
+    "instruments": "the curator's instruments and their constraints (caps, timelocks, queues)",
+    "oracle": "who chooses the oracle and when it can change",
+    "fee": "the fee depositors pay and who receives it",
+    "exit": "how a withdrawal is paid and what limits it"
+  },
+  "protocols": [
+    {
+      "protocol": "morpho",
+      "label": "Morpho",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Robinhood",
+        "Arbitrum",
+        "Katana",
+        "Hyperliquid"
+      ],
+      "chains_source": "docs/experiment-result.md §1 (chain rule of docs/experiment.md E1); data/panel/morpho/{1,8453,4663,42161,747474,999}"
+    },
+    {
+      "protocol": "euler_v2",
+      "label": "Euler v2",
+      "chains": [
+        "Ethereum",
+        "Plasma",
+        "Linea"
+      ],
+      "chains_source": "docs/experiment-result.md §1; data/panel/euler_v2/{1,9745,59144}"
+    },
+    {
+      "protocol": "silo_v2",
+      "label": "Silo v2",
+      "chains": [
+        "Avalanche",
+        "Sonic",
+        "Ethereum",
+        "Arbitrum"
+      ],
+      "chains_source": "docs/experiment-result.md §1; data/panel/silo_v2/{43114,146,1,42161}"
+    },
+    {
+      "protocol": "moolah",
+      "label": "Moolah",
+      "chains": [
+        "BNB Chain"
+      ],
+      "chains_source": "docs/experiment-result.md §1; data/panel/moolah/56"
+    }
+  ],
+  "rows": [
+    {
+      "protocol": "morpho",
+      "object": "V1 vault",
+      "allocation": "Allocators, curator, owner: reallocation, supply and withdraw queues",
+      "collateral": "Market creator, fixed at creation; the curator enables markets by cap",
+      "instruments": "Cap per market, ≤ 30 markets; cap raises and removals timelocked (1 day to 2 weeks; V1.1 may start at 0); owner or guardian can revoke",
+      "oracle": "Fixed per market at creation",
+      "fee": "Performance fee ≤ 50% of interest, set by the owner; governance fee switch ≤ 25% per market",
+      "exit": "Withdraw queue, each market up to its idle liquidity; reverts when short",
+      "sources": [
+        {
+          "url": "https://github.com/morpho-org/metamorpho",
+          "used_for": "roles, caps, queues, 30 markets, timelock of at least 24 hours, fee up to 50%, withdrawals up to market liquidity"
+        },
+        {
+          "url": "https://github.com/morpho-org/metamorpho/blob/main/src/MetaMorpho.sol",
+          "used_for": "withdrawal reverts NotEnoughLiquidity when the withdraw queue is short; ConstantsLib: MIN_TIMELOCK 1 day, MAX_TIMELOCK 2 weeks, MAX_QUEUE_LENGTH 30, MAX_FEE 0.5e18"
+        },
+        {
+          "url": "https://github.com/morpho-org/metamorpho-v1.1",
+          "used_for": "initial timelock 0 or 1 day to 2 weeks, later changes 1 day to 2 weeks"
+        },
+        {
+          "url": "https://github.com/morpho-org/morpho-blue",
+          "used_for": "permissionless market creation; MAX_FEE 0.25e18 in src/libraries/ConstantsLib.sol"
+        },
+        {
+          "url": "data/resume/vaults-morpho.md",
+          "used_for": "V1 roles and events observed (owner, curator, guardian, allocator; AccrueInterest fee shares)"
+        }
+      ]
+    },
+    {
+      "protocol": "morpho",
+      "object": "V2 vault",
+      "allocation": "Allocators, through adapters (markets, V1 vaults); they set the liquidity adapter",
+      "collateral": "Market creator; the curator enables adapters and caps each collateral",
+      "instruments": "Absolute and relative caps per risk id (collateral, market, adapter); per-function timelocks, cap cuts immediate; sentinels de-risk",
+      "oracle": "Fixed per market at creation",
+      "fee": "Performance ≤ 50% of interest and management ≤ 5% a year, set by the curator",
+      "exit": "Idle assets, then the liquidity adapter; in kind via forceDeallocate (penalty ≤ 2%)",
+      "sources": [
+        {
+          "url": "https://github.com/morpho-org/vault-v2",
+          "used_for": "adapters, id caps, per-function timelocks, sentinels, fees, liquidity adapter, forceDeallocate and in-kind redemption"
+        },
+        {
+          "url": "data/resume/vaults-morpho.md",
+          "used_for": "V2 roles (owner, curator, allocator, sentinel), adapter types, performance and management fee shares"
+        }
+      ]
+    },
+    {
+      "protocol": "euler_v2",
+      "object": "Earn vault",
+      "allocation": "Allocators, curator, owner, across ERC-4626 strategies (Euler lending vaults)",
+      "collateral": "Governor of each strategy vault",
+      "instruments": "Cap per strategy, ≤ 30 strategies; cap raises and removals timelocked (0 or 1 day to 2 weeks); owner or guardian can revoke",
+      "oracle": "Governor of each strategy vault",
+      "fee": "Performance fee ≤ 50% of interest, set by the owner",
+      "exit": "Withdraw queue, each strategy up to its cash; reverts when short",
+      "sources": [
+        {
+          "url": "https://github.com/euler-xyz/euler-earn",
+          "used_for": "fork of MetaMorpho V1.1 over ERC-4626 strategies; roles, caps, timelock, 30 strategies, fee up to 50%"
+        },
+        {
+          "url": "https://github.com/euler-xyz/euler-earn/blob/master/src/EulerEarn.sol",
+          "used_for": "withdrawal reverts NotEnoughLiquidity when short; ConstantsLib: POST_INITIALIZATION_MIN_TIMELOCK 1 day, MAX_TIMELOCK 2 weeks, MAX_QUEUE_LENGTH 30, MAX_FEE 0.5e18"
+        },
+        {
+          "url": "data/resume/vaults-euler.md",
+          "used_for": "Earn roles observed (owner, curator, guardian, allocator); 2025 caps-and-queues design on every chain (docs/experiment-result.md §1.4)"
+        }
+      ]
+    },
+    {
+      "protocol": "euler_v2",
+      "object": "Governed lending vault",
+      "allocation": "None: depositors supply the vault directly",
+      "collateral": "Governor: accepted collateral vaults and their LTVs",
+      "instruments": "Borrow and liquidation LTV per collateral (cuts can ramp), supply and borrow caps, rate model, hooks; no timelock",
+      "oracle": "Governor, via a reconfigurable router",
+      "fee": "Interest fee set by the governor (10% to 100% without DAO approval); the Euler DAO takes ≤ half of it",
+      "exit": "Withdraw up to the vault's cash",
+      "sources": [
+        {
+          "url": "https://github.com/euler-xyz/euler-vault-kit/blob/master/docs/whitepaper.md",
+          "used_for": "governed vs finalised vaults, setLTV with borrow and liquidation LTV, LTV ramping, supply and borrow caps, interest fee 10% to 100% guaranteed range, protocol fee share capped at 50%, oracle fixed at creation"
+        },
+        {
+          "url": "https://github.com/euler-xyz/euler-price-oracle/blob/master/docs/whitepaper.md",
+          "used_for": "EulerRouter can be reconfigured by its governor"
+        },
+        {
+          "url": "data/resume/panel-euler.md",
+          "used_for": "governance events (GovSetLTV and other Gov*), initial governor from EVaultCreated; 75 of 889 Ethereum vaults renounced governance (docs/experiment-result.md §1.2)"
+        },
+        {
+          "url": "data/resume/oracles.md",
+          "used_for": "an observed router reconfiguration on Plasma (USDe/USD adapter replaced by a fixed rate)"
+        }
+      ]
+    },
+    {
+      "protocol": "silo_v2",
+      "object": "Silo vault",
+      "allocation": "Allocators, curator, owner: reallocation, supply and withdraw queues",
+      "collateral": "Silo deployer, fixed at creation; the curator enables silos by cap",
+      "instruments": "Cap per market, ≤ 30 markets; cap raises and additions timelocked (1 day to 2 weeks); guardian veto",
+      "oracle": "Fixed per silo at creation (solvency and max-LTV oracles)",
+      "fee": "Vault: performance ≤ 50% of interest, set by the owner; silo: deployer fee (DAO-set cap, 15% at launch) and DAO fee on interest",
+      "exit": "Withdraw queue, each silo up to its liquidity; reverts when short",
+      "sources": [
+        {
+          "url": "https://github.com/silo-finance/silo-contracts-v2/blob/develop/silo-vaults/contracts/SiloVault.sol",
+          "used_for": "fork of MetaMorpho; setFee and feeRecipient by the owner; timelock bounds checked in setTimelock; withdrawal reverts NotEnoughLiquidity when short"
+        },
+        {
+          "url": "https://github.com/silo-finance/silo-contracts-v2/blob/develop/silo-vaults/contracts/libraries/ConstantsLib.sol",
+          "used_for": "MIN_TIMELOCK 1 day, MAX_TIMELOCK 2 weeks, MAX_QUEUE_LENGTH 30, MAX_FEE 0.5e18"
+        },
+        {
+          "url": "https://github.com/silo-finance/silo-contracts-v2/blob/develop/silo-core/README.md",
+          "used_for": "permissionless silo creation, market immutable after creation, solvency and maxLtv oracles per token"
+        },
+        {
+          "url": "https://github.com/silo-finance/silo-contracts-v2/blob/develop/silo-core/contracts/interfaces/ISiloConfig.sol",
+          "used_for": "deployerFee (maximum set by the DAO, 15% at deployment) and daoFee on interest"
+        },
+        {
+          "url": "https://docs.silo.finance/docs/vaults/core-concepts/roles",
+          "used_for": "owner, curator, guardian and allocator rights; timelocked actions; guardian veto"
+        },
+        {
+          "url": "data/resume/vaults-silo.md",
+          "used_for": "a vault supplies only to a market with a positive cap set by SetCap; idle vaults"
+        }
+      ]
+    },
+    {
+      "protocol": "moolah",
+      "object": "Moolah vault",
+      "allocation": "Allocator and bot roles: reallocation, supply and withdraw queues",
+      "collateral": "Market creator (Lista's operator role can gate creation), fixed; the curator enables markets by cap",
+      "instruments": "Cap per market set by the curator role, no timelock in the vault (an external one is optional); upgradeable by the admin role",
+      "oracle": "Fixed per market at creation",
+      "fee": "Performance ≤ 50% of interest, set by the manager role; Lista market fee 0 to 25% of interest (10% or 5% in the panel)",
+      "exit": "Withdraw queue, each market up to its idle liquidity; reverts when short",
+      "sources": [
+        {
+          "url": "https://github.com/lista-dao/moolah/blob/master/src/moolah-vault/MoolahVault.sol",
+          "used_for": "MANAGER, CURATOR, ALLOCATOR and BOT roles; setCap by the curator without a pending period; setFee by the manager; UUPS upgrade by DEFAULT_ADMIN_ROLE"
+        },
+        {
+          "url": "https://github.com/lista-dao/moolah/blob/master/src/moolah-vault/libraries/ConstantsLib.sol",
+          "used_for": "MAX_FEE 0.5e18"
+        },
+        {
+          "url": "https://github.com/lista-dao/moolah/blob/master/src/moolah/Moolah.sol",
+          "used_for": "createMarket gated by the OPERATOR role when one is set; manager-enabled IRMs and LLTVs; default market fee at creation"
+        },
+        {
+          "url": "https://docs.bsc.lista.org/introduction/lista-lending/vaults",
+          "used_for": "vault owner decides markets; optional timelocks; vault fee up to 50%"
+        },
+        {
+          "url": "https://docs.bsc.lista.org/introduction/lista-lending/fees",
+          "used_for": "Lista DAO fee adjustable between 0 and 25% of borrow interest"
+        },
+        {
+          "url": "https://docs.bsc.lista.org/introduction/lista-lending/oracle",
+          "used_for": "oracle address immutable once a market is deployed"
+        },
+        {
+          "url": "https://docs.bsc.lista.org/for-developer/lista-lending/vault-reference",
+          "used_for": "withdrawals pull markets in withdraw-queue order and revert NotEnoughLiquidity when short"
+        },
+        {
+          "url": "docs/experiment-result.md §1.2",
+          "used_for": "market fee read at creation: 419 markets at 10%, 113 at 5%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+ "generator": "code/autocurator/evaluate.py",
+ "inputs": "data",
+ "note": "gas: measured per rebalance (code/autocurator/gas.py, data/autocurator/gas/); token and inference columns stay empty for stub runs and are filled from the live runs' API usage",
+ "priced_as": "gpt-4o-2024-08-06",
+ "rows": 8,
+ "written_utc": "2026-10-18T07:36:06Z"
+}

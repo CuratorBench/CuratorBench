@@ -1,0 +1,189 @@
+{
+  "event_loss_correlations": {
+    "curator_exposed": {
+      "L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.6997189141065849,
+          0.040282709906651934
+        ],
+        "clusters": 27,
+        "n": 27,
+        "p_perm_clustered": 0.0633936606339366,
+        "rho": -0.366431554289426
+      },
+      "tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.01579460407090035,
+          0.7469323397751426
+        ],
+        "clusters": 27,
+        "n": 27,
+        "p_perm_clustered": 0.028897110288971104,
+        "rho": 0.416455292437815
+      },
+      "vault_apy": {
+        "ci95_cluster_bootstrap": [
+          0.006466196102858032,
+          0.7511908424656915
+        ],
+        "clusters": 27,
+        "n": 27,
+        "p_perm_clustered": 0.037196280371962806,
+        "rho": 0.40479331667315993
+      },
+      "yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          -0.5044733390041739,
+          0.20497657314078802
+        ],
+        "clusters": 27,
+        "n": 27,
+        "p_perm_clustered": 0.37906209379062095,
+        "rho": -0.173702060073547
+      }
+    },
+    "curator_level": {
+      "L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.36178907344555583,
+          0.1618474655816493
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.39086091390860916,
+        "rho": -0.10604359454271535
+      },
+      "tl_headline": {
+        "ci95_cluster_bootstrap": [
+          -0.016538964464847605,
+          0.42447925526464847
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.0775922407759224,
+        "rho": 0.21487348313548976
+      },
+      "vault_apy": {
+        "ci95_cluster_bootstrap": [
+          0.05047027717065557,
+          0.5411969812746246
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.007999200079992,
+        "rho": 0.3168765887611282
+      },
+      "yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          -0.43500010677178436,
+          0.01999159363010993
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.07239276072392761,
+        "rho": -0.2230737221366473
+      }
+    },
+    "vault_exposed": {
+      "L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.6203765454684372,
+          -0.22937388893125207
+        ],
+        "clusters": 36,
+        "n": 80,
+        "p_perm_clustered": 0.0004999500049995,
+        "rho": -0.466470050267615
+      },
+      "tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.33603015724673363,
+          0.7251898012214136
+        ],
+        "clusters": 36,
+        "n": 80,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "rho": 0.5770060808974613
+      },
+      "vault_apy": {
+        "ci95_cluster_bootstrap": [
+          -0.16897885810135696,
+          0.5269133535312575
+        ],
+        "clusters": 36,
+        "n": 80,
+        "p_perm_clustered": 0.291970802919708,
+        "rho": 0.1674507388089103
+      },
+      "yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          -0.20507816556707278,
+          0.2634652694089862
+        ],
+        "clusters": 36,
+        "n": 80,
+        "p_perm_clustered": 0.7593240675932407,
+        "rho": 0.04980537716203552
+      }
+    },
+    "vault_level": {
+      "L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.37189100530850194,
+          -0.19217356345941447
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "rho": -0.27566982016716934
+      },
+      "tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.195479292797747,
+          0.34149940785870303
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "rho": 0.266775928485994
+      },
+      "vault_apy": {
+        "ci95_cluster_bootstrap": [
+          0.09410257345130651,
+          0.30543724069230505
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "rho": 0.20057973716914823
+      },
+      "yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          -0.15839579967487746,
+          0.08714319341055585
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 0.3564643535646435,
+        "rho": -0.03821038495693506
+      }
+    }
+  },
+  "generator": "code/figures/fig_correlations.py",
+  "inputs": {
+    "data/metrics/e4/curator_scorecard.csv": "c273bc75cd4de1561206c8be64162acd13739f745fa216b620ebd35199dbdef4",
+    "data/metrics/e4/rank_agreement.json": "097685fbc7999104a467baf495494483c67fd47776ed82e80853f98f6b6a4b0e",
+    "data/metrics/e4/vault_scorecard.csv": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+    "data/metrics/e5/curator_summary.csv": "09e5f95082b3889605bd645cde8d8157337447f01af68e099fc7889fe446d19f",
+    "data/metrics/e5/event_vault.csv": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db"
+  },
+  "n_boot": 2000,
+  "n_perm": 10000,
+  "seed": 20261018,
+  "size_in": [
+    3.337,
+    2.297
+  ],
+  "what": "Rank correlations among displayed APY, realized yield, tail loss, liquidity and event loss, across vaults and across named curators",
+  "written_utc": "2026-10-24T05:50:59+00:00"
+}

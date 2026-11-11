@@ -1,0 +1,9 @@
+{
+ "chain": "BSC",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "29be6a85-414f-4a66-b075-98863278912a",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/29be6a85-414f-4a66-b075-98863278912a",
+ "symbol": "USDT",
+ "written_utc": "2026-10-25T19:58:27Z"
+}

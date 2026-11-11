@@ -1,0 +1,3 @@
+The market state panel of this deployment (protocol morpho, chain id 8453) is not in this folder; it is part of the separate state-history download: 4323 files, 2579580 KiB in the source tree.
+The directory exists because code/tables/table2_components.py reads the chain list from the directory names under data/panel/.
+See README.md, section "Separate downloads".

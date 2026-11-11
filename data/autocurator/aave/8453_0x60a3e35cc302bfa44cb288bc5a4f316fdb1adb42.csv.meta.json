@@ -1,0 +1,9 @@
+{
+ "chain": "Base",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "6652ed18-d327-46cd-9bac-08e0e14ea715",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/6652ed18-d327-46cd-9bac-08e0e14ea715",
+ "symbol": "EURC",
+ "written_utc": "2026-10-25T19:58:35Z"
+}

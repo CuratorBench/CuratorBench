@@ -1,0 +1,9 @@
+{
+ "chain": "Base",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "89bc7c4c-d71c-435c-ab28-56c803d51320",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/89bc7c4c-d71c-435c-ab28-56c803d51320",
+ "symbol": "CBBTC",
+ "written_utc": "2026-10-25T19:58:37Z"
+}

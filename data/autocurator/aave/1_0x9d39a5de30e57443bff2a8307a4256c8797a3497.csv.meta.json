@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "29932dea-cd71-44c3-95bd-3e1525f4e3dd",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/29932dea-cd71-44c3-95bd-3e1525f4e3dd",
+ "symbol": "SUSDE",
+ "written_utc": "2026-10-25T19:58:23Z"
+}

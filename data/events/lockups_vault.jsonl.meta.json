@@ -1,0 +1,21 @@
+{
+  "L": "daily at UTC day end: sum over the vault's markets of min(position assets, market supply - borrow) / sum of position assets; positions are share balances (data/vaults/) times the panel's assets per share",
+  "curator": "entity_id of the data/registry/vault_curators.jsonl interval covering the run start (null: unattributed or no registry)",
+  "curator_source": {
+    "file": "data/registry/vault_curators.jsonl",
+    "generator": "code/analysis/curators.py",
+    "rows": 9138,
+    "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+    "written_utc": "2026-10-09T17:40:58+00:00"
+  },
+  "generator": "code/analysis/e2_events.py",
+  "outside_panel_share": "largest share of the vault in holdings the panel does not cover (Silo idle or nested vaults, non-EVault Earn strategies), valued at their last exact conversion and counted as withdrawable",
+  "panel": "data/panel/<protocol>/<chain>/",
+  "position_at_start": "vault shares just before the run's first row x the market's assets per share at that row; share_of_vault_prev_day is the market's share of the vault at the previous day end",
+  "prices": "data/prices/<chain>.csv and data/events/prices_supplement.csv",
+  "rows": 264,
+  "step_one": "utilization >= 0.99 for >= 72 h, peak supply >= 1,000,000 USD",
+  "vault kinds": "morpho_v1, morpho_v2 (market positions through adapters), moolah_vault, silo_vault, euler_earn, euler_lending (a governed Euler lending vault, whose depositors hold the market itself; L = cash / (cash + totalBorrows))",
+  "what": "step two: every curated vault with >= 10k USD in the market of a kept run",
+  "written_utc": "2026-10-18T22:32:32+00:00"
+}

@@ -1,0 +1,55 @@
+[
+  "0x3B4802FDb0E5d74aA37d58FD77d63e93d4f9A4AF",
+  "0x59E03c1Db4F35BFfbA06B0451e199b17eFBC4A86",
+  {
+    "address": "0x283aC2b5f5c830E8a7Aac4ED160c47fA29F5CcC1",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to low activity.",
+    "notExplorable": true
+  },
+  "0xb072b2779F1EF1A6A9D2d5fAa1766F341B92aB3a",
+  "0x84fcb0eb9d7ab4EdFd26CCa8AD20AaB4c5aD49CD",
+  "0x3cd3718f8f047aA32F775E2cb4245A164E1C99fB",
+  "0x32Cf8bd02A916c3cf1E4Ccb9c7A00D4a3f96BfDF",
+  "0xB4a2fC3adAF3BfA8FCBA2A6FDAA200De106B8825",
+  "0xBc79C4DA0452152D2C329ADE328C79705a964CEE",
+  {
+    "address": "0x2B47c128b35DDDcB66Ce2FA5B33c95314a7de245",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to low activity.",
+    "notExplorable": true
+  },
+  {
+    "address": "0xB6D6D89ad4b4D61C15a293e28b74f77F6817fF48",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to low activity.",
+    "description": "Earn yield on WETH through KPK-curated fixed-rate ETH term markets, with borrow rates set monthly from a benchmark ETH staking rate, plus a complementary variable-rate allocation for withdrawal liquidity.\n\nWithdrawals process when liquidity is available; most go through immediately, larger redemptions may need to wait until borrowers unwind at month-end. See the withdrawal mechanics on [docs.kpk.io](https://docs.kpk.io).",
+    "notExplorable": true
+  },
+  {
+    "address": "0x49C5733d71511A78a3E12925ea832f49031c97e9",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+    "notExplorable": true,
+    "portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+  },
+  {
+    "address": "0xd217A07493b6BA272Ff806EE5eaBdFF86C292cc6",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+    "notExplorable": true,
+    "portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+  },
+  {
+    "address": "0xA5cbf5cd429af63EA9989aE1ff4C9d37acFa6767",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to exposure to the insolvent positions held by Stream.",
+    "notExplorable": true,
+    "portfolioNotice": "Stream is collecting and confirming information regarding potential creditors and claimants. If you were exposed through this vault and have not already provided this information, [use Stream's updated form](https://forms.streamsoftrestructuring.com/) promptly and identify Euler/TelosC in your submission. Do not submit again if you already did. Submission does not establish or confirm any claim, entitlement, or right to payment."
+  },
+  {
+    "address": "0x018b86A893F57a632F90c4A8308353Ac938adc01",
+    "description": "Yield-bearing USDC vault curated by JPEG Trading. Deposits are lent into the JPEG Trading x Tenbin RWAs market, collateralized by Tenbin tGLD."
+  },
+  "0xA5A84a76bA96Eb2816D967FA91533cC38064c47A"
+]

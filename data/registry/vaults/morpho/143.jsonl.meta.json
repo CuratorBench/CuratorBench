@@ -1,0 +1,21 @@
+{
+  "chain": "monad",
+  "chain_id": 143,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Monad",
+    "listed_by_api": true,
+    "morpho": "0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee",
+    "vault_v1_factories": [
+      "0x33f20973275B2F574488b18929cd7DCBf1AbF275"
+    ],
+    "vault_v2_factories": [
+      "0x8B2F922162FBb60A6a072cC784A2E4168fB0bb0c"
+    ]
+  },
+  "rows": 137,
+  "scanned_to_block": 109790339,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:46:03+00:00"
+}

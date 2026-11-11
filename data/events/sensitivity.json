@@ -1,0 +1,222 @@
+{
+  "recovery_days": {
+    "changed": {
+      "E2-022": {
+        "14d": "2025-11-11 21:01",
+        "30d": "2025-11-11 21:01",
+        "7d": "2025-11-11 21:01",
+        "no_split": "2025-09-14 09:29"
+      }
+    },
+    "main_days": 14,
+    "recovery_line": 0.99,
+    "t0_by_recovery_days": {
+      "E2-010": {
+        "14d": "2025-01-14 06:00",
+        "30d": "2025-01-14 06:00",
+        "7d": "2025-01-14 06:00",
+        "no_split": "2025-01-14 06:00"
+      },
+      "E2-019": {
+        "14d": "2025-11-01 02:56",
+        "30d": "2025-11-01 02:56",
+        "7d": "2025-11-01 02:56",
+        "no_split": "2025-11-01 02:56"
+      },
+      "E2-022": {
+        "14d": "2025-11-11 21:01",
+        "30d": "2025-11-11 21:01",
+        "7d": "2025-11-11 21:01",
+        "no_split": "2025-09-14 09:29"
+      },
+      "E2-026": {
+        "14d": "2025-11-02 20:24",
+        "30d": "2025-11-02 20:24",
+        "7d": "2025-11-02 20:24",
+        "no_split": "2025-11-02 20:24"
+      },
+      "E2-029": {
+        "14d": "2025-11-03 13:58",
+        "30d": "2025-11-03 13:58",
+        "7d": "2025-11-03 13:58",
+        "no_split": "2025-11-03 13:58"
+      },
+      "E2-033": {
+        "14d": "2025-11-06 02:32",
+        "30d": "2025-11-06 02:32",
+        "7d": "2025-11-06 02:32",
+        "no_split": "2025-11-06 02:32"
+      },
+      "E2-040": {
+        "14d": "2026-03-22 03:33",
+        "30d": "2026-03-22 03:33",
+        "7d": "2026-03-22 03:33",
+        "no_split": "2026-03-22 03:33"
+      },
+      "E2-049": {
+        "14d": "2026-04-18 18:59",
+        "30d": "2026-04-18 18:59",
+        "7d": "2026-04-18 18:59",
+        "no_split": "2026-04-18 18:59"
+      },
+      "E2-056": {
+        "14d": "2026-05-04 00:00",
+        "30d": "2026-05-04 00:00",
+        "7d": "2026-05-04 00:00",
+        "no_split": "2026-05-04 00:00"
+      },
+      "E2-058": {
+        "14d": "2026-05-30 02:47",
+        "30d": "2026-05-30 02:47",
+        "7d": "2026-05-30 02:47",
+        "no_split": "2026-05-30 02:47"
+      },
+      "E2-059": {
+        "14d": "2026-06-03 06:00",
+        "30d": "2026-06-03 06:00",
+        "7d": "2026-06-03 06:00",
+        "no_split": "2026-06-03 06:00"
+      },
+      "E2-062": {
+        "14d": "2026-06-19 12:23",
+        "30d": "2026-06-19 12:23",
+        "7d": "2026-06-19 12:23",
+        "no_split": "2026-06-19 12:23"
+      },
+      "E2-063": {
+        "14d": "2026-06-21 21:16",
+        "30d": "2026-06-21 21:16",
+        "7d": "2026-06-21 21:16",
+        "no_split": "2026-06-21 21:16"
+      },
+      "E2-066": {
+        "14d": "2026-07-05 12:00",
+        "30d": "2026-07-05 12:00",
+        "7d": "2026-07-05 12:00",
+        "no_split": "2026-07-05 12:00"
+      }
+    }
+  },
+  "variants": [
+    {
+      "depeg_loss_events": 15,
+      "duration_h": 48,
+      "episodes": 122,
+      "events": 85,
+      "events_after_exclusions": 84,
+      "kept_runs": 248,
+      "lockup_events": 70,
+      "main": false,
+      "step_one_runs": 1221,
+      "utilization_threshold": 0.98
+    },
+    {
+      "depeg_loss_events": 15,
+      "duration_h": 72,
+      "episodes": 101,
+      "events": 77,
+      "events_after_exclusions": 76,
+      "kept_runs": 192,
+      "lockup_events": 62,
+      "main": false,
+      "step_one_runs": 1090,
+      "utilization_threshold": 0.98
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 96,
+      "episodes": 78,
+      "events": 61,
+      "events_after_exclusions": 60,
+      "kept_runs": 150,
+      "lockup_events": 47,
+      "main": false,
+      "step_one_runs": 1011,
+      "utilization_threshold": 0.98
+    },
+    {
+      "depeg_loss_events": 15,
+      "duration_h": 48,
+      "episodes": 112,
+      "events": 80,
+      "events_after_exclusions": 79,
+      "kept_runs": 227,
+      "lockup_events": 65,
+      "main": false,
+      "step_one_runs": 1149,
+      "utilization_threshold": 0.99
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 72,
+      "episodes": 88,
+      "events": 69,
+      "events_after_exclusions": 68,
+      "kept_runs": 175,
+      "lockup_events": 55,
+      "main": true,
+      "step_one_runs": 1044,
+      "utilization_threshold": 0.99
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 96,
+      "episodes": 66,
+      "events": 54,
+      "events_after_exclusions": 53,
+      "kept_runs": 136,
+      "lockup_events": 40,
+      "main": false,
+      "step_one_runs": 977,
+      "utilization_threshold": 0.99
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 48,
+      "episodes": 95,
+      "events": 72,
+      "events_after_exclusions": 71,
+      "kept_runs": 214,
+      "lockup_events": 58,
+      "main": false,
+      "step_one_runs": 1121,
+      "utilization_threshold": 0.995
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 72,
+      "episodes": 76,
+      "events": 60,
+      "events_after_exclusions": 59,
+      "kept_runs": 159,
+      "lockup_events": 46,
+      "main": false,
+      "step_one_runs": 1015,
+      "utilization_threshold": 0.995
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 96,
+      "episodes": 60,
+      "events": 49,
+      "events_after_exclusions": 48,
+      "kept_runs": 126,
+      "lockup_events": 35,
+      "main": false,
+      "step_one_runs": 955,
+      "utilization_threshold": 0.995
+    },
+    {
+      "depeg_loss_events": 14,
+      "duration_h": 72,
+      "episodes": 82,
+      "events": 68,
+      "events_after_exclusions": 67,
+      "kept_runs": 175,
+      "lockup_events": 54,
+      "main": false,
+      "merge": "census rule without the 30-day horizon for open windows",
+      "utilization_threshold": 0.99
+    }
+  ]
+}

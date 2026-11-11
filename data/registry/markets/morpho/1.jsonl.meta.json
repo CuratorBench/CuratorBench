@@ -1,0 +1,22 @@
+{
+  "chain": "eth",
+  "chain_id": 1,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Ethereum",
+    "listed_by_api": true,
+    "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+    "vault_v1_factories": [
+      "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+      "0x1897A8997241C1cD4bD0698647e4EB7213535c24"
+    ],
+    "vault_v2_factories": [
+      "0xA1D94F746dEfa1928926b84fB2596c06926C0405"
+    ]
+  },
+  "rows": 1802,
+  "scanned_to_block": 26101700,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:10+00:00"
+}

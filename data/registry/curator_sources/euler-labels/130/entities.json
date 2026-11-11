@@ -1,0 +1,31 @@
+{
+  "alphagrowth": {
+    "addresses": {
+      "0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
+    },
+    "description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alphagrowth.svg",
+    "name": "AlphaGrowth",
+    "social": {
+      "twitter": "alphagrowth1"
+    },
+    "url": "https://alphagrowth.io/"
+  },
+  "euler-dao": {
+    "addresses": {
+      "0x09d43F5C713239d6E450CD231EA36e9e78a45c68": "Euler Vault Access Control Governor",
+      "0xf6d781B96b65495f8b0429f3023Df2194AfCF06F": "Euler DAO Multisig"
+    },
+    "description": "Euler DAO is responsible for the governance of the Euler protocol.",
+    "logo": "euler.svg",
+    "name": "Euler DAO",
+    "social": {
+      "discord": "https://discord.euler.finance/",
+      "github": "euler-xyz",
+      "telegram": "eulerfinance_official",
+      "twitter": "eulerfinance",
+      "youtube": "EulerFinance"
+    },
+    "url": "https://euler.finance/"
+  }
+}

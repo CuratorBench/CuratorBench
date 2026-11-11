@@ -1,0 +1,724 @@
+{
+  "events": [
+    {
+      "borrow_against_collateral_units": 0.0,
+      "chains": [
+        "56"
+      ],
+      "detail": [
+        {
+          "block": 67243464,
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "price": null,
+          "price_source": "unpriced (R22); tiered price 0.1169 tier 4 (single_pool_below_floor); lending census last sample 0.0000",
+          "side": "loan",
+          "supplied": 989491,
+          "unpriced": true
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        },
+        {
+          "market": "euler:56:0x5d3b4bcff6a24a20a980702",
+          "same_lending_vault_counted_once": true,
+          "side": "loan"
+        }
+      ],
+      "event_id": "E003",
+      "family": "USDX",
+      "lender_exposure_peg": 0.0,
+      "lender_exposure_unpriced_units": 989491.25,
+      "lender_exposure_usd": 0.0,
+      "lender_loss_est_usd": 0.0,
+      "month": "2025-11",
+      "n_markets": 10,
+      "onset_source": "first run of two lending-census price samples <= 0.97",
+      "onset_ts": 1762433566,
+      "peg_unit": "usd",
+      "peg_unit_usd_at_valuation": 1.0,
+      "state_estimate": {
+        "amm": {
+          "loss_usd": null,
+          "status": "no pool",
+          "tokens": []
+        },
+        "dedup_overlap_bound_usd": 0.0,
+        "dedup_usd": 0.0,
+        "dedup_without_overlap_usd": 0.0,
+        "depositors": {
+          "estimate_usd": 0.0,
+          "markets": [],
+          "pledged_units_drop_usd": 0.0,
+          "pledged_units_onset": 0,
+          "status": "no collateral market"
+        },
+        "holders": {
+          "census_note": "no pool of size",
+          "peak_usd": null,
+          "price_at_valuation": null,
+          "price_census_family": "USDX",
+          "price_census_row_events": [
+            "E003"
+          ],
+          "realized_usd": null,
+          "recovery_readable": null,
+          "status": "no price",
+          "window_onset_utc": "2025-11-06 12:52 UTC",
+          "window_overlaps_event": false
+        },
+        "loan_side_usd": 0.0,
+        "onset_source": "first run of two lending-census price samples <= 0.97",
+        "onset_ts": 1762433566,
+        "onset_utc": "2025-11-06 12:52 UTC",
+        "snapshot_ts_by_chain": {
+          "56": 1762347166
+        }
+      }
+    },
+    {
+      "borrow_against_collateral_units": 50.02,
+      "chains": [
+        "1"
+      ],
+      "detail": [
+        {
+          "accounts_listed": 1,
+          "attribution": "accounts whose one funded collateral is the depegged coin's vault",
+          "block": 25021613,
+          "borrow": 50,
+          "borrow_mixed_collateral": 0,
+          "loan_decimals": 6,
+          "market": "euler:1:0x5108b9a91132a3052963271c",
+          "side": "collateral",
+          "vault_total_borrows": 50
+        }
+      ],
+      "event_id": "E009",
+      "family": "pmUSD",
+      "lender_exposure_peg": 0.0,
+      "lender_exposure_unpriced_units": 0.0,
+      "lender_exposure_usd": 0.0,
+      "lender_loss_est_usd": 0.0,
+      "month": "2026-05",
+      "n_markets": 1,
+      "onset_source": "first run of two lending-census price samples <= 0.97",
+      "onset_ts": 1777897511,
+      "peg_unit": "usd",
+      "peg_unit_usd_at_valuation": 1.0,
+      "state_estimate": {
+        "amm": {
+          "loss_usd": 5305395.59,
+          "status": "measured",
+          "tokens": [
+            {
+              "chain_id": "1",
+              "coin_units_drop_usd": 4873577.27,
+              "counted_under": "E009",
+              "loss_uncapped_usd": 8830609.65,
+              "loss_usd": 5305395.59,
+              "onset_block": 25021613,
+              "onset_utc": "2026-05-04 12:25 UTC",
+              "pools": [
+                {
+                  "cap_usd": 5555343.65,
+                  "coin_units_drop_usd": 4873577.27,
+                  "coin_units_onset": 9720609.8833,
+                  "coin_units_valuation": 4302375.6286,
+                  "counter_symbol": "CRVUSD",
+                  "dex": "curve",
+                  "kind": "curve",
+                  "loss_uncapped_usd": 8830609.65,
+                  "loss_usd": 5305395.59,
+                  "lp_supply_onset": 11033319266962814973767609,
+                  "lp_supply_valuation": 4298326174360571842452136,
+                  "measure": "per LP share",
+                  "pool": "0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb",
+                  "sound_usd_onset": 1359819.41,
+                  "sound_usd_valuation": 104506.22,
+                  "value_onset_peg": 11080429.2981,
+                  "value_valuation_peg": 2249819.653
+                }
+              ],
+              "pools_at_floor": 1,
+              "recovery_price_peg": 0.49863462,
+              "recovery_source": "price census valuation price (P048)",
+              "status": "measured",
+              "token": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf",
+              "univ4_pools_not_measurable": 1,
+              "valuation_block": 25946847
+            }
+          ]
+        },
+        "dedup_overlap_bound_usd": 4873627.41,
+        "dedup_usd": 55542958.37,
+        "dedup_without_overlap_usd": 50669330.96,
+        "depositors": {
+          "estimate_usd": 148.64,
+          "markets": [
+            {
+              "abandonment_test": {
+                "branch": "collateral priced"
+              },
+              "accounts_listed": 8,
+              "blocks": {
+                "onset": 25021613,
+                "snapshot": 25010735,
+                "valuation": 25946847
+              },
+              "chain_id": "1",
+              "collateral_symbol": "pmUSD",
+              "collateral_units_valuation": 505.100000004031,
+              "collateral_value_usd": 251.86,
+              "counted_under": "E009",
+              "debt_at_valuation_usd": 449.94,
+              "depositor_est_positions_usd": 148.64,
+              "depositor_est_usd": 148.64,
+              "loan_price_source": "major at par",
+              "loan_symbol": "USDC",
+              "market_uid": "euler:1:0x5108b9a91132a3052963271cbc5c7c1484da428e:0x99b42158986476dc72d7688861bb9be21993ebbb",
+              "not_attributed_other_collateral": {
+                "accounts": 0,
+                "collateral_units": 0.0,
+                "debt_usd": 0.0
+              },
+              "note": null,
+              "pledged_units_onset": 100.00000000000001,
+              "principal_debt_usd": 400.5,
+              "principal_index_ref": "snap",
+              "principal_ratio": 0.890124,
+              "protocol": "euler_v2",
+              "recovery_price_source": "price census valuation price (P048)",
+              "recovery_price_usd": 0.49863462,
+              "written_off_after_snapshot_usd": 0.0
+            }
+          ],
+          "pledged_units_drop_usd": 50.14,
+          "pledged_units_onset": 100.0,
+          "status": "estimated"
+        },
+        "holders": {
+          "peak_usd": 64108311.24,
+          "price_at_valuation": 0.49863462,
+          "price_census_family": "pmUSD",
+          "price_census_row_events": [
+            "E009"
+          ],
+          "realized_usd": 50237414.14,
+          "recovery_readable": true,
+          "status": "priced",
+          "window_onset_utc": "2026-05-04 00:00 UTC",
+          "window_overlaps_event": true
+        },
+        "loan_side_usd": 0.0,
+        "onset_source": "first run of two lending-census price samples <= 0.97",
+        "onset_ts": 1777897511,
+        "onset_utc": "2026-05-04 12:25 UTC",
+        "snapshot_ts_by_chain": {
+          "1": 1777766400
+        }
+      }
+    },
+    {
+      "borrow_against_collateral_units": 0.0,
+      "chains": [
+        "1"
+      ],
+      "detail": [
+        {
+          "block": 25276084,
+          "market": "morpho:1:0xbec3a93801b559a86525528",
+          "price": 0.9901,
+          "price_source": "ladder_a",
+          "price_tier": 1,
+          "side": "loan",
+          "supplied": 250302
+        },
+        {
+          "block": 25276084,
+          "market": "morpho:1:0xd86df29b48f2d88a0453027",
+          "price": 0.9901,
+          "price_source": "ladder_a",
+          "price_tier": 1,
+          "side": "loan",
+          "supplied": 29
+        },
+        {
+          "block": 25276084,
+          "market": "morpho:1:0xebd23a871b52e0a8c92bd71",
+          "price": 0.9901,
+          "price_source": "ladder_a",
+          "price_tier": 1,
+          "side": "loan",
+          "supplied": 101
+        }
+      ],
+      "event_id": "E005",
+      "family": "apxUSD",
+      "lender_exposure_peg": 250431.78,
+      "lender_exposure_unpriced_units": 0.0,
+      "lender_exposure_usd": 250431.78,
+      "lender_loss_est_usd": 2490.89,
+      "month": "2026-06",
+      "n_markets": 3,
+      "onset_source": "first run of two lending-census price samples <= 0.97",
+      "onset_ts": 1780962515,
+      "peg_unit": "usd",
+      "peg_unit_usd_at_valuation": 1.0,
+      "state_estimate": {
+        "amm": {
+          "loss_usd": 0.0,
+          "status": "no pool at the floor",
+          "tokens": [
+            {
+              "chain_id": "1",
+              "coin_units_drop_usd": 0,
+              "counted_under": "E005",
+              "loss_uncapped_usd": 0,
+              "loss_usd": 0.0,
+              "onset_block": 25276084,
+              "onset_utc": "2026-06-08 23:48 UTC",
+              "pools": [],
+              "pools_at_floor": 0,
+              "recovery_price_peg": 0.99005363,
+              "recovery_source": "price census valuation price (P051)",
+              "status": "no pool at the floor",
+              "token": "0x98a878b1cd98131b271883b390f68d2c90674665",
+              "univ4_pools_not_measurable": 2,
+              "valuation_block": 25946847
+            }
+          ]
+        },
+        "dedup_overlap_bound_usd": 0.0,
+        "dedup_usd": 5120507.78,
+        "dedup_without_overlap_usd": 5120507.78,
+        "depositors": {
+          "estimate_usd": 0.0,
+          "markets": [],
+          "pledged_units_drop_usd": 0.0,
+          "pledged_units_onset": 0,
+          "status": "no collateral market"
+        },
+        "holders": {
+          "peak_usd": 128390675.25,
+          "price_at_valuation": 0.99005363,
+          "price_census_family": "apxUSD",
+          "price_census_row_events": [
+            "E005"
+          ],
+          "realized_usd": 5118016.89,
+          "recovery_readable": true,
+          "status": "priced",
+          "window_onset_utc": "2026-06-03 06:00 UTC",
+          "window_overlaps_event": true
+        },
+        "loan_side_usd": 2490.89,
+        "onset_source": "first run of two lending-census price samples <= 0.97",
+        "onset_ts": 1780962515,
+        "onset_utc": "2026-06-08 23:48 UTC",
+        "snapshot_ts_by_chain": {
+          "1": 1780380000
+        }
+      }
+    },
+    {
+      "borrow_against_collateral_units": 0.0,
+      "chains": [
+        "9745"
+      ],
+      "detail": [
+        {
+          "accounts_listed": 76,
+          "attribution": "accounts whose one funded collateral is the depegged coin's vault",
+          "block": 26312465,
+          "borrow": 0,
+          "borrow_mixed_collateral": 0,
+          "loan_decimals": 6,
+          "market": "euler:9745:0x57c582346b7d49a46af37",
+          "side": "collateral",
+          "vault_total_borrows": 90820844
+        },
+        {
+          "block": 26312465,
+          "market": "euler:9745:0xf90cf999de728a582e154",
+          "price": 0.6648,
+          "price_source": "ladder_a",
+          "price_tier": 1,
+          "side": "loan",
+          "supplied": 914622
+        }
+      ],
+      "event_id": "E008",
+      "family": "msUSD (Metronome)",
+      "lender_exposure_peg": 914621.56,
+      "lender_exposure_unpriced_units": 0.0,
+      "lender_exposure_usd": 914621.56,
+      "lender_loss_est_usd": 306547.72,
+      "month": "2026-07",
+      "n_markets": 2,
+      "onset_source": "first indicator signal (no sustained price drop)",
+      "onset_ts": 1783252800,
+      "peg_unit": "usd",
+      "peg_unit_usd_at_valuation": 1.0,
+      "state_estimate": {
+        "amm": {
+          "loss_usd": null,
+          "status": "no pool",
+          "tokens": []
+        },
+        "dedup_overlap_bound_usd": 0.0,
+        "dedup_usd": 7974023.59,
+        "dedup_without_overlap_usd": 7974023.59,
+        "depositors": {
+          "estimate_usd": null,
+          "markets": [
+            {
+              "abandonment_test": {
+                "branch": "no debt at the valuation block"
+              },
+              "accounts_listed": 76,
+              "blocks": {
+                "onset": 26312457,
+                "snapshot": 26226065,
+                "valuation": 32101033
+              },
+              "chain_id": "9745",
+              "collateral_symbol": "msUSD",
+              "collateral_units_valuation": 0.0,
+              "collateral_value_usd": null,
+              "counted_under": "E008",
+              "debt_at_valuation_usd": 0.0,
+              "depositor_est_positions_usd": null,
+              "depositor_est_usd": null,
+              "loan_price_source": "major at par",
+              "loan_symbol": "USDT0",
+              "market_uid": "euler:9745:0x57c582346b7d49a46af3745a8278917d1c1311b8:0xdae8065f86783d26c308a851ce28bf56b1384599",
+              "not_attributed_other_collateral": {
+                "accounts": 0,
+                "collateral_units": 0.0,
+                "debt_usd": 0.0
+              },
+              "note": null,
+              "pledged_units_onset": 0.0,
+              "principal_debt_usd": 0.0,
+              "principal_index_ref": "snap",
+              "principal_ratio": 0.999628,
+              "protocol": "euler_v2",
+              "recovery_price_source": "no price",
+              "recovery_price_usd": null,
+              "written_off_after_snapshot_usd": 0.0
+            }
+          ],
+          "pledged_units_drop_usd": 0.0,
+          "pledged_units_onset": 0,
+          "status": "no price"
+        },
+        "holders": {
+          "peak_usd": 9150942.86,
+          "price_at_valuation": 0.66483655,
+          "price_census_family": "msUSD (Metronome)",
+          "price_census_row_events": [
+            "E008"
+          ],
+          "realized_usd": 7667475.87,
+          "recovery_readable": true,
+          "status": "priced",
+          "window_onset_utc": "2026-07-05 12:00 UTC",
+          "window_overlaps_event": true
+        },
+        "loan_side_usd": 306547.72,
+        "onset_source": "first indicator signal (no sustained price drop)",
+        "onset_ts": 1783252800,
+        "onset_utc": "2026-07-05 12:00 UTC",
+        "snapshot_ts_by_chain": {
+          "9745": 1783166400
+        }
+      }
+    },
+    {
+      "borrow_against_collateral_units": 5372.14,
+      "chains": [
+        "1"
+      ],
+      "detail": [
+        {
+          "block": 25647495,
+          "borrow": 5372,
+          "loan_decimals": 6,
+          "market": "morpho:1:0x9d582055d36f8d8b3b5924b",
+          "side": "collateral"
+        }
+      ],
+      "event_id": "E015",
+      "family": "ynRWAx",
+      "lender_exposure_peg": 0.0,
+      "lender_exposure_unpriced_units": 0.0,
+      "lender_exposure_usd": 0.0,
+      "lender_loss_est_usd": 0.0,
+      "month": "2026-07",
+      "n_markets": 1,
+      "onset_source": "first run of two lending-census price samples <= 0.97",
+      "onset_ts": 1785436475,
+      "peg_unit": "usd",
+      "peg_unit_usd_at_valuation": 1.0,
+      "state_estimate": {
+        "amm": {
+          "loss_usd": 0.0,
+          "status": "measured",
+          "tokens": [
+            {
+              "chain_id": "1",
+              "coin_units_drop_usd": 0.0,
+              "counted_under": "E015",
+              "loss_uncapped_usd": 227020.24,
+              "loss_usd": 0.0,
+              "onset_block": 25647488,
+              "onset_utc": "2026-07-30 18:34 UTC",
+              "pools": [
+                {
+                  "cap_usd": 0.0,
+                  "coin_units_drop_usd": 0.0,
+                  "coin_units_onset": 267717.3217,
+                  "coin_units_valuation": 70896.9985,
+                  "counter_symbol": "USDC",
+                  "dex": "curve",
+                  "kind": "curve",
+                  "loss_uncapped_usd": 227020.24,
+                  "loss_usd": 0.0,
+                  "lp_supply_onset": 315089369364923273931170,
+                  "lp_supply_valuation": 79808020955687076874049,
+                  "measure": "per LP share",
+                  "pool": "0xf05bc5c38a8f5e3d98c72f11bc59e713f8a32228",
+                  "sound_usd_onset": 45785.09,
+                  "sound_usd_valuation": 8723.19,
+                  "value_onset_peg": 313502.4127,
+                  "value_valuation_peg": 86482.1691
+                }
+              ],
+              "pools_at_floor": 1,
+              "recovery_price_peg": 1.096788,
+              "recovery_source": "R3(a) exchange rate x USDC at par; no own pool passes R7-a",
+              "status": "measured",
+              "token": "0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8",
+              "univ4_pools_not_measurable": 1,
+              "valuation_block": 25946847
+            }
+          ]
+        },
+        "dedup_overlap_bound_usd": 0.0,
+        "dedup_usd": 0.0,
+        "dedup_without_overlap_usd": 0.0,
+        "depositors": {
+          "estimate_usd": 0.0,
+          "markets": [
+            {
+              "abandonment_test": {
+                "branch": "collateral priced"
+              },
+              "blocks": {
+                "onset": 25647488,
+                "snapshot": 25627159,
+                "valuation": 25946847
+              },
+              "borrow_shares_covered": 1.0,
+              "chain_id": "1",
+              "collateral_symbol": "ynRWAx",
+              "collateral_units_valuation": 155.92836201814234,
+              "collateral_value_usd": 171.02,
+              "counted_under": "E015",
+              "debt_at_valuation_usd": 2.08,
+              "depositor_est_positions_usd": 0.0,
+              "depositor_est_usd": 0.0,
+              "loan_price_source": "major at par",
+              "loan_symbol": "USDC",
+              "market_uid": "morpho:1:0x9d582055d36f8d8b3b5924b9be6b8357fd766c635592a1ca8dac5f31c6acca04",
+              "note": null,
+              "pledged_units_onset": 6629.39914362942,
+              "principal_debt_usd": 1.87,
+              "principal_index_ref": "snap",
+              "principal_ratio": 0.89835,
+              "protocol": "morpho",
+              "recovery_price_source": "R3(a) exchange rate x USDC at par; no own pool passes R7-a",
+              "recovery_price_usd": 1.096788,
+              "written_off_after_snapshot_usd": 0.0
+            }
+          ],
+          "pledged_units_drop_usd": 0.0,
+          "pledged_units_onset": 6629.399144,
+          "status": "estimated"
+        },
+        "holders": {
+          "peak_usd": 1163176.4,
+          "price_at_valuation": null,
+          "price_census_family": "ynRWAx",
+          "price_census_row_events": [
+            "E015"
+          ],
+          "realized_usd": null,
+          "recovery_readable": false,
+          "status": "priced",
+          "window_onset_utc": "2026-06-22 00:00 UTC",
+          "window_overlaps_event": false
+        },
+        "loan_side_usd": 0.0,
+        "onset_source": "first run of two lending-census price samples <= 0.97",
+        "onset_ts": 1785436475,
+        "onset_utc": "2026-07-30 18:34 UTC",
+        "snapshot_ts_by_chain": {
+          "1": 1785191675
+        }
+      }
+    }
+  ],
+  "recovery_prices": {
+    "1:0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8": {
+      "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "depth_usd": null,
+      "price": 1.096788,
+      "rate": 1.096788,
+      "source": "wrapper_rate_x_underlying",
+      "tier": 2,
+      "underlying_price": 1.0,
+      "underlying_source": "USDC at par"
+    },
+    "1:0x98a878b1cd98131b271883b390f68d2c90674665": {
+      "depth_usd": 978437.68,
+      "price": 0.9900536303588903,
+      "source": "ladder_a",
+      "tier": 1
+    },
+    "1:0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf": {
+      "depth_usd": 107738.66,
+      "price": 0.49863462385377405,
+      "source": "ladder_a",
+      "tier": 1
+    },
+    "56:0xf3527ef8de265eaa3716fb312c12847bfba66cef": {
+      "chain_id": "1",
+      "depth_usd": 0.12,
+      "pool": "0x3f131bb401c5f322bce82e1f06fb25aca08d3f7e",
+      "price": 0.11689,
+      "source": "single_pool_below_floor",
+      "tier": 4
+    },
+    "9745:0x29ad7fe4516909b9e498b5a65339e54791293234": {
+      "depth_usd": 148815.56,
+      "price": 0.6648365498865533,
+      "source": "ladder_a",
+      "tier": 1
+    }
+  },
+  "state_estimate_method": "State-read estimate for the census events outside the five reconstructed cases (s3/s3_novel_state.py); no position replay. Depositors: per market taking the family token as collateral, the principal debt at the valuation block (debt x borrow index at the hit rules section 5 snapshot / index at valuation) less the pledged collateral at the family's recovery price, floored at zero, netted market by market (the sum over positions is kept as a variant). Recovery price: the price census's valuation price; else the census's valuation rule R7-a on the token's own pools; else R3(a), the wrapper's exchange rate x the wrapped token's price, one level further down where the wrapped token is itself a vault share (ERC-4626, or a BoringVault's accountant rate in its base asset); else no price. With no price, repayment decides: no Repay event from the onset block to the valuation block while the debt stands counts the positions as abandoned (principal less the collateral at its last valid reading, or at zero: an upper bound); repayments seen keep the market out. Q = collateral pledged at the onset block. Holders: the price census's realized (valuation-block) and peak loss of the family row that lists the event. AMMs: the token's price-census pools with $10k of sound side at the onset block; value at onset (coin at par) minus value at valuation (coin at the recovery price), per LP share where the pool is its own LP token, capped per pool at onset value x (1 - recovery/par) so that withdrawals are not counted as loss. Loan side: s3_novel_size's lender_loss_est_usd, unchanged. dedup = depositors + loan side + AMMs + holders (outer). With no holder partition, pledged units are counted in the holders' outer figure and, where abandoned, again in the depositor figure, and pool units in both the holders' and the AMM figure, so dedup is an upper bound; dedup_overlap_bound_usd = min(depositors, Q x drop) + min(AMMs, pool units x drop), counted only where the holders are priced, is the most that double count can be. A market, a token's pools and a price-census row are each counted once: a market under the earliest event that lists it, a token's pools under its earliest event whose onset is a price drop, a census row under the earliest event it lists.",
+  "state_estimate_totals": {
+    "abandonment_test_branches": {
+      "collateral priced": 2,
+      "no debt at the valuation block": 1
+    },
+    "amm_uncapped_usd": 9057629.89,
+    "amm_usd": 5305395.59,
+    "dedup_overlap_bound_usd": 4873627.41,
+    "dedup_usd": 68637489.74,
+    "dedup_without_overlap_usd": 63763862.33,
+    "depositor_by_abandonment_test_usd": 0.0,
+    "depositor_positions_usd": 148.64,
+    "depositor_unpriced_principal_usd": 0.0,
+    "depositor_usd": 148.64,
+    "holder_peak_overlapping_usd": 201649929.35,
+    "holder_peak_usd": 202813105.75,
+    "holder_realized_usd": 63022906.9,
+    "loan_side_usd": 309038.61,
+    "n_events": 5,
+    "priced_families": 4,
+    "priced_family_list": [
+      "apxUSD",
+      "msUSD (Metronome)",
+      "pmUSD",
+      "ynRWAx"
+    ],
+    "realized_families": 3,
+    "realized_family_list": [
+      "apxUSD",
+      "msUSD (Metronome)",
+      "pmUSD"
+    ],
+    "recovery_prices": {
+      "1:0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8": {
+        "exchange_rate": 1.096788,
+        "p_peg": 1.096788,
+        "p_usd": 1.096788,
+        "source": "R3(a) exchange rate x USDC at par; no own pool passes R7-a",
+        "unit": "usd"
+      },
+      "1:0x98a878b1cd98131b271883b390f68d2c90674665": {
+        "p_peg": 0.99005363,
+        "p_usd": 0.99005363,
+        "source": "price census valuation price (P051)",
+        "unit": "usd"
+      },
+      "1:0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf": {
+        "p_peg": 0.49863462,
+        "p_usd": 0.49863462,
+        "source": "price census valuation price (P048)",
+        "unit": "usd"
+      },
+      "9745:0x29ad7fe4516909b9e498b5a65339e54791293234": {
+        "p_peg": null,
+        "p_usd": null,
+        "source": "no price",
+        "unit": "usd"
+      }
+    },
+    "sized_event_ids": [
+      "E005",
+      "E008",
+      "E009"
+    ],
+    "sized_events": 3,
+    "sized_floor_usd": 1000.0,
+    "valuation": {
+      "blocks": {
+        "1": 25946847,
+        "9745": 32101033
+      },
+      "ts": 1789041600,
+      "utc": "2026-09-10 12:00 UTC"
+    },
+    "written_off_after_snapshot_usd": 0.0
+  }
+}

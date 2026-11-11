@@ -1,0 +1,21 @@
+{
+  "chain": "hyperliquid",
+  "chain_id": 999,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "HyperEVM",
+    "listed_by_api": true,
+    "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+    "vault_v1_factories": [
+      "0xec051b19d654C48c357dC974376DeB6272f24e53"
+    ],
+    "vault_v2_factories": [
+      "0xD7217E5687FF1071356C780b5fe4803D9D967da7"
+    ]
+  },
+  "rows": 205,
+  "scanned_to_block": 47430030,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:43:33+00:00"
+}

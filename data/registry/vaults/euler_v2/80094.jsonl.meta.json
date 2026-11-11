@@ -1,0 +1,15 @@
+{
+  "chain": "berachain",
+  "chain_id": 80094,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0x9cbc3030e6d133D1AAa148D598FD82D70263495c",
+    "evault_factory": "0x5C13fb43ae9BAe8470f646ea647784534E9543AF",
+    "evc": "0x45334608ECE7B2775136bC847EB92B5D332806A9"
+  },
+  "rows": 0,
+  "scanned_to_block": 26948933,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:43:05+00:00"
+}

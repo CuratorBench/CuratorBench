@@ -1,0 +1,15 @@
+{
+  "chain": "megaeth",
+  "chain_id": 4326,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "megaeth",
+    "silo_factory": "0x95a7bC57c738C7f64103B93D04f49cbCa566afFD",
+    "silo_vaults_factory": "0x6Af76e1c9a762e6AE01B8144BC078C68636e9B3D"
+  },
+  "rows": 6,
+  "scanned_to_block": 28112510,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:52:04+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "data": "data/metrics/e5/event_vault.csv",
+  "generator": "code/analysis/e5_events.py",
+  "what": "appendix: curator x event matrix",
+  "written_utc": "2026-10-18T22:50:52+00:00"
+}

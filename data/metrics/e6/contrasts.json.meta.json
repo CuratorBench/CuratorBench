@@ -1,0 +1,56 @@
+{
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "classes": {
+      "path": "data/metrics/e6/classes.csv",
+      "sha256": "bdfd050eca2d85e9c175178a4d3582d39711cf77e51b762dead1995335b03bbd",
+      "written_utc": "2026-10-18T23:01:09+00:00"
+    },
+    "e4_vault_daily": {
+      "path": "data/metrics/e4/vault_daily.csv",
+      "sha256": "38282434eb9ec62adc798b5b5806938a6ee18d7f67c258e5c77f3bb481130a6f",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "e4_vault_scorecard": {
+      "path": "data/metrics/e4/vault_scorecard.csv",
+      "sha256": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "fee_history": {
+      "path": "data/metrics/e6/fee_history.csv",
+      "sha256": "4a4bef6bef426019f9b1f9ddc2f243c02e3e913bb679a5326d691b39fc4e4cb5",
+      "written_utc": "2026-10-18T22:58:01+00:00"
+    },
+    "losses": {
+      "path": "data/metrics/e5/event_vault.csv",
+      "sha256": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db",
+      "written_utc": "2026-10-18T22:50:49+00:00"
+    }
+  },
+  "method": {
+    "contrast1": "per class with at least min_class_n vaults, Spearman of fee rate with each metric; pooled = class-size-weighted mean; null: metric shuffled within class by curator (curator means across curators, deviations within curators, as in E4)",
+    "contrast1_group": "rank-biserial of each metric between fee-charging and zero-fee vaults, same pooling and null",
+    "contrast2": "curator x class cells with two or more fee levels: median metric at the highest fee minus at the lowest; mean over cells; null: fees shuffled within cells",
+    "contrast3": "performance-fee changes with no other change within the window; after minus before of daily tail loss and L over active days; Spearman with the fee change and increase minus decrease means; null: clustered shuffle of the fee change",
+    "contrast4": "curator x class cells on two or more protocols: metric median of the protocol with the higher median fee minus the lower, over protocol pairs; null: protocol fee medians permuted within cells",
+    "fee_rate": "mean over the vault's E4 active days of the performance fee in force at day end (fee_history.csv; Euler lending: the interest fee)",
+    "loss_per_dollar": "sum over depeg-loss events of the vault's loss per dollar (e5); 0 when a depeg-loss t0 falls in its active period without loss, NaN otherwise",
+    "tail_loss": "E4's oracle-aware tail loss (tl_d0150 to tl_d1000 and tl_headline) in the main blocks; the first-pass closed form (tl_v1_*) in appendix_v1"
+  },
+  "parameters": {
+    "class_threshold": 0.9,
+    "min_class_n": 10,
+    "min_window_active": 30,
+    "n_perm": 10000,
+    "seed": 20261008,
+    "window_days": 60,
+    "within_classes": [
+      "stable",
+      "mixed",
+      "eth",
+      "btc"
+    ]
+  },
+  "what": "the four fee contrasts of docs/experiment.md E6, within collateral class, with permutation p-values clustered by curator",
+  "written_utc": "2026-10-18T23:06:15+00:00"
+}

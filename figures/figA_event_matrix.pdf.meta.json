@@ -1,0 +1,373 @@
+{
+  "cell_number_pt": 6.0,
+  "cell_pt": [
+    9.35,
+    6.38
+  ],
+  "cells_exited_without_lead": 0,
+  "cells_filled": 156,
+  "cells_with_lead": 54,
+  "columns_curators": [
+    "Steakhouse Financial",
+    "Gauntlet",
+    "SparkDAO",
+    "Lista DAO",
+    "MEV Capital",
+    "Euler DAO",
+    "B.Protocol and Block Analitica",
+    "RE7 Labs",
+    "TelosC",
+    "Yearn",
+    "Hyperithm",
+    "Hakutora",
+    "Relend Network",
+    "AlphaPing",
+    "Clearstar",
+    "Apostro",
+    "Pangolins",
+    "KPK",
+    "Varlamore Capital",
+    "9Summits",
+    "SiloDAO",
+    "Api3",
+    "August Digital",
+    "Avantgarde",
+    "SingularV",
+    "Tulipa Capital",
+    "Greenhouse",
+    "Stake DAO",
+    "Keyrock",
+    "UltraYield",
+    "ZeroLend",
+    "TID Capital",
+    "No named curator"
+  ],
+  "curator_e4_rank": {
+    "9Summits": 27,
+    "AlphaPing": 19,
+    "Api3": 31,
+    "Apostro": 21,
+    "August Digital": 32,
+    "Avantgarde": 33,
+    "B.Protocol and Block Analitica": 9,
+    "Clearstar": 20,
+    "Euler DAO": 7,
+    "Gauntlet": 2,
+    "Greenhouse": 38,
+    "Hakutora": 17,
+    "Hyperithm": 15,
+    "KPK": 25,
+    "Keyrock": 43,
+    "Lista DAO": 5,
+    "MEV Capital": 6,
+    "No named curator": null,
+    "Pangolins": 23,
+    "RE7 Labs": 11,
+    "Relend Network": 18,
+    "SiloDAO": 28,
+    "SingularV": 34,
+    "SparkDAO": 3,
+    "Stake DAO": 40,
+    "Steakhouse Financial": 1,
+    "TID Capital": 58,
+    "TelosC": 12,
+    "Tulipa Capital": 36,
+    "UltraYield": 47,
+    "Varlamore Capital": 26,
+    "Yearn": 13,
+    "ZeroLend": 57
+  },
+  "dense_text_pt": 6.0,
+  "generator": "code/figures/figA_event_matrix.py",
+  "hatched_cells": [
+    {
+      "cell_loss_per_dollar": 0.0265,
+      "curator": "9Summits",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 41096
+      },
+      "late_loss_usd": 18574,
+      "late_vaults": 1,
+      "only_late": true
+    },
+    {
+      "cell_loss_per_dollar": 0.031,
+      "curator": "AlphaPing",
+      "event_id": "E2-063",
+      "inflow_group": "deposits",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 142483,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0815,
+      "curator": "Clearstar",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 999994
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0217,
+      "curator": "Gauntlet",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 938526
+      },
+      "late_loss_usd": 194747,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0587,
+      "curator": "Hyperithm",
+      "event_id": "E2-026",
+      "inflow_group": "curator",
+      "inflow_usd": {
+        "curator": 320601,
+        "deposits": 0,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0081,
+      "curator": "Keyrock",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 36160
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0,
+      "curator": "KPK",
+      "event_id": "E2-040",
+      "inflow_group": "curator",
+      "inflow_usd": {
+        "curator": 149288,
+        "deposits": 0,
+        "outside": 68955
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.3169,
+      "curator": "RE7 Labs",
+      "event_id": "E2-019",
+      "inflow_group": "deposits",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 160767,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0877,
+      "curator": "RE7 Labs",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 416729
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0166,
+      "curator": "SiloDAO",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 392564
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0066,
+      "curator": "SingularV",
+      "event_id": "E2-049",
+      "inflow_group": "curator",
+      "inflow_usd": {
+        "curator": 112697,
+        "deposits": 0,
+        "outside": 0
+      },
+      "late_loss_usd": 1006,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.7099,
+      "curator": "TelosC",
+      "event_id": "E2-026",
+      "inflow_group": "deposits",
+      "inflow_usd": {
+        "curator": 34896,
+        "deposits": 26607791,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.5864,
+      "curator": "TID Capital",
+      "event_id": "E2-026",
+      "inflow_group": "deposits",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 43696,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.0045,
+      "curator": "No named curator",
+      "event_id": "E2-040",
+      "inflow_group": "outside",
+      "inflow_usd": {
+        "curator": 0,
+        "deposits": 0,
+        "outside": 881556
+      },
+      "late_loss_usd": 11079,
+      "late_vaults": 1,
+      "only_late": false
+    },
+    {
+      "cell_loss_per_dollar": 0.8054,
+      "curator": "Varlamore Capital",
+      "event_id": "E2-026",
+      "inflow_group": "deposits",
+      "inflow_usd": {
+        "curator": 39687,
+        "deposits": 2663704,
+        "outside": 0
+      },
+      "late_loss_usd": 0,
+      "late_vaults": 0,
+      "only_late": false
+    }
+  ],
+  "inputs": {
+    "data/events/collateral_families.jsonl": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+    "data/events/events.jsonl": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+    "data/metrics/e4/curator_scorecard.csv": "c273bc75cd4de1561206c8be64162acd13739f745fa216b620ebd35199dbdef4",
+    "data/metrics/e5/event_vault.csv": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db",
+    "data/metrics/e5/post_onset_inflows.csv": "d94167ba72d2d7d7b7645acd3a018b53067e29537f331a0a10e76952558fd6cc"
+  },
+  "late_entry_rule": "third-party vaults that entered only after t0 in a depeg-loss event and lost at least $1,000",
+  "rows_events": [
+    "E2-001",
+    "E2-002",
+    "E2-003",
+    "E2-004",
+    "E2-005",
+    "E2-006",
+    "E2-007",
+    "E2-008",
+    "E2-009",
+    "E2-010",
+    "E2-011",
+    "E2-012",
+    "E2-013",
+    "E2-015",
+    "E2-016",
+    "E2-017",
+    "E2-018",
+    "E2-020",
+    "E2-021",
+    "E2-069",
+    "E2-023",
+    "E2-024",
+    "E2-025",
+    "E2-019",
+    "E2-026",
+    "E2-027",
+    "E2-028",
+    "E2-029",
+    "E2-030",
+    "E2-031",
+    "E2-032",
+    "E2-033",
+    "E2-034",
+    "E2-035",
+    "E2-036",
+    "E2-022",
+    "E2-037",
+    "E2-038",
+    "E2-039",
+    "E2-041",
+    "E2-042",
+    "E2-044",
+    "E2-040",
+    "E2-045",
+    "E2-046",
+    "E2-047",
+    "E2-048",
+    "E2-049",
+    "E2-050",
+    "E2-051",
+    "E2-052",
+    "E2-053",
+    "E2-054",
+    "E2-055",
+    "E2-057",
+    "E2-058",
+    "E2-060",
+    "E2-061",
+    "E2-062",
+    "E2-063",
+    "E2-064",
+    "E2-065",
+    "E2-067"
+  ],
+  "size_in": [
+    5.477,
+    7.45
+  ],
+  "what": "Appendix figure: curator x event matrix (loss per dollar, exit lead time)",
+  "written_utc": "2026-11-11T07:09:07+00:00"
+}

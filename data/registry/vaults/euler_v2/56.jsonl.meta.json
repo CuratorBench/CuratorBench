@@ -1,0 +1,15 @@
+{
+  "chain": "bsc",
+  "chain_id": 56,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0xc456d04E3F43597CC7E5a2AF284fF4C4AdDA0cb1",
+    "evault_factory": "0x7F53E2755eB3c43824E162F7F6F087832B9C9Df6",
+    "evc": "0xb2E5a73CeE08593d1a076a2AE7A6e02925a640ea"
+  },
+  "rows": 14,
+  "scanned_to_block": 125222342,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:44:22+00:00"
+}

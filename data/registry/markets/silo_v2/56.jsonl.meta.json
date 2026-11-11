@@ -1,0 +1,15 @@
+{
+  "chain": "bsc",
+  "chain_id": 56,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "bnb",
+    "silo_factory": "0x977e9b368E5aBEe020B5096A03cE6f78cb3439cf",
+    "silo_vaults_factory": "0x16876aF41E8beDdBF9B67D2B66Bb50Abf3503B1C"
+  },
+  "rows": 2,
+  "scanned_to_block": 125215496,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:52:06+00:00"
+}

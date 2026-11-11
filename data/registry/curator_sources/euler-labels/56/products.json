@@ -1,0 +1,267 @@
+{
+  "apostro-bsc": {
+    "deprecatedVaults": [
+      "0xC6767dd1fFaA730f6fc90b353d5928E6e9d55C1b",
+      "0xa6282FfCDBC1d23dDAd65e97B9d033C4517Ec05E",
+      "0x6078b5dE9d10587cb466ECbBF55C95898AFe99C2",
+      "0xc27d44A8aEA0CDa482600136c0d0876e807f6C1a",
+      "0xC0C13008711cE250699E3A94dCEED5EFd4e8e02a",
+      "0x36AEb594689205878E1B57bFc011e0956D82ed08",
+      "0x9AE0Da6ACc874119470b52f4f5647B74D042b18B",
+      "0xeEC4561f621C3629F2b36a07B207A7E06377e0D5",
+      "0x19C1d7E5a2b821D4e05fd9cFB8ba372C2cAA551B",
+      "0x3135551ce7945c03C18df7985E089DDBC763cEE8"
+    ],
+    "deprecationReason": "Deprecated due to low activity.",
+    "description": "A BSC lending and borrowing market for supported assets, configured by Apostro.",
+    "entity": "apostro",
+    "name": "Apostro BSC",
+    "notExplorable": true,
+    "vaults": []
+  },
+  "k3-bsc-aster": {
+    "entity": "k3-capital",
+    "name": "K3 Capital ASTERLIQUID",
+    "vaults": [
+      "0x93d31b79502265FEBA5ED18e3cAc9ef795a3b0B1",
+      "0x95C5Fd8618C68D6156A739C1EAb5aA7c807ff148"
+    ]
+  },
+  "k3-bsc-stable": {
+    "entity": "k3-capital",
+    "name": "K3 Stablecoin Cluster",
+    "vaults": [
+      "0xca522ECab584b5430ADb946edEE4224A63628362",
+      "0x8CE379f1e092f0afCef665529F0d86acf92E8Cd4",
+      "0x1E55a40c9C7ca76a8671D8366bEC8c5f8754a336",
+      "0x07167e620612069830fdB5289406bB7A1Ddf781c",
+      "0x88A81184243c561026973d25384651E6cc0796A4",
+      "0x10888BD509aC3e1f423D171008288462988827d5",
+      "0x9D30f4226D9aBE940F05acAfD456153BD49ba6D9",
+      "0x470379C4416300068E9Afb938b7A0cfF7735d42f"
+    ]
+  },
+  "k3-bsc-yield": {
+    "entity": "k3-capital",
+    "name": "K3 BNB Yield Hub",
+    "vaults": [
+      "0x8E01DB38a409D6E6B8A81fd21d84E05912e8730A",
+      "0x554a419891bD825e47bC132011821dE1070c35C0",
+      "0xA3031755F95E57E1AC9Bb01dBfEb135d40b6DA96",
+      "0x78F5d9909163695dfB064d55A222E398918e00a3"
+    ]
+  },
+  "k3-isolated-msftb-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for MSFTB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated MSFTB-USDT",
+    "vaults": [
+      "0xDB321d29F388f231419518cD4023Fc57AE9fc668",
+      "0xeD12CE0Ac3EfFfBf3b277AB5B7Abc6E5f5B4DA98"
+    ]
+  },
+  "k3-isolated-mub-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for MUB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated MUB-USDT",
+    "vaults": [
+      "0x2f57F613CfcEDEaaAb893800B4e7202f34B6bC72",
+      "0x63BDBb68592D486DFa2Aefc18875Df285c56B976"
+    ]
+  },
+  "k3-isolated-nvdab-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for NVDAB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated NVDAB-USDT",
+    "vaults": [
+      "0x153cF5099966837ACf384F3d0cBd0dc47c11a8b8",
+      "0xDF4BDe3F4D501E447d899b35Ad4D654B6346fD67"
+    ]
+  },
+  "k3-isolated-qqqb-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for QQQB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated QQQB-USDT",
+    "vaults": [
+      "0x699616E145397400A90fa3d5f394BE6069d35B13",
+      "0xBC85eE10F320787c9F9d5898D8B6e13980a35E22"
+    ]
+  },
+  "k3-isolated-sndkb-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for SNDKB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated SNDKB-USDT",
+    "vaults": [
+      "0x0e6baA80060576405eA99E4cc78Fc9093EF80fA8",
+      "0x110305f4ab2E4D352aE19CC669f74800143FdB06"
+    ]
+  },
+  "k3-isolated-spcxb-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for SPCXB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated SPCXB-USDT",
+    "vaults": [
+      "0x3e998937a4F956e3c93F67dE5f68384609E4046A",
+      "0x8575A2f53c7812D29813E959cbfE6f428A2bFCa5"
+    ]
+  },
+  "k3-isolated-spyb-usdt": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "An isolated market for SPYB and USDT, configured by K3 Capital.",
+    "entity": [
+      "k3-capital"
+    ],
+    "name": "K3 Isolated SPYB-USDT",
+    "vaults": [
+      "0x034b6738E4f1010ce1A7364e3DB32d9948c2e086",
+      "0x1eC4eDF4fB939131Dc1628aD61F24c2d3c60132B"
+    ]
+  },
+  "mev-capital-bob": {
+    "deprecatedVaults": [
+      "0x107a441C473517a37b03dcd8024C5B63E3Cc13DF",
+      "0x7593931d08e3BAA750cA3cB6A0d0fDe6acD65107",
+      "0x216f6D6C2ca15f83B656f3E9a8FcDf615DBC1710",
+      "0xe54DFfd36177975938A3873e522dEE535ADebe01",
+      "0x0dD93eb321A768A274d21062067B52527aBd4506",
+      "0xD98125a23fAeb48180e33cA6Eef8F128E07418d1",
+      "0x777C95b204E2Ed3906885eF09f4531882587B52C",
+      "0xd6F4Ee21c946071Cf13D773E2ab1e31d44a27a54",
+      "0x088241d1C5c951C59Fb66083b291b69E3cC27E8C"
+    ],
+    "deprecationReason": "Deprecated due to low activity.",
+    "description": "A set of BNB Chain collateral markets configured by MEV Capital.",
+    "entity": "mev-capital",
+    "name": "MEV Capital BNB Cluster",
+    "notExplorable": true,
+    "vaults": []
+  },
+  "poppie-ondo-bsc": {
+    "block": [
+      "CA",
+      "US"
+    ],
+    "description": "A set of BSC lending markets for Ondo tokenized equity and ETF assets, configured by Poppie.",
+    "entity": "poppie",
+    "name": "Poppie Ondo Markets",
+    "url": "https://poppie.io",
+    "vaults": [
+      "0xf4940CdE23c164f8CA8D536f3567337349b3208F",
+      "0xfe294c3A13a8D9FC57EC5223082B42A976523597",
+      "0x50D328fa0f29c14DE93c7b860181e776CFba40a0",
+      "0x521F53a39221eC3B8bbFE70A7994D88300a18941",
+      "0xF49769835092E7Ad707B3bfD4A93DBA953bb2Ef4",
+      "0x85d07dF9120F913aE35ba5dC486273957a175f89",
+      "0xaF6c8B20bC6b6f1f411FAa77458d813883e648Cb",
+      "0x0b126aF75849d6A517cc98c6f6346Ab41629Ad87",
+      "0xDA58a3DE061b4DaE35837CD2E2BF07E6eb500E93",
+      "0x054fDd4e7035bC19B1b621F5C3227875F33e8838",
+      "0x7acf37bAFb423C4a393291F0dAa1742ddACaA1a1",
+      "0x0112b1e8119FE8a890Db902941161A5a7aD5EE8f",
+      "0x8eb40369C7Ca9407355b183F8a950265366D214b",
+      "0xEFd2a440A5ADd5fcAEb02f962243cB45028681a5",
+      "0x201481916ade56A08D7a6329c1997072b6eEc3E6",
+      "0xBe6A59ABE1E25320383F2CB36Db57121fCC44d6C",
+      "0xD30DC5317fD5F0035f2cea0DE66CBca48063Cc11",
+      "0xCf6259EF100aA10f0541971B01b45EcE4849738b",
+      "0xF06054ef3E5C8A91Ae843ea9600d640F1d6c8117",
+      "0xdBF4439423e3780a01c2B2df7eAdc3fFF78BBacf",
+      "0xa98e00201149520d7b5b81f28610bc27aC2999AB",
+      "0xaA32B358A9Da7f20B99C8ba28E979FE4E8C7D482",
+      "0x349cff23269D22A1621B9d9D8a6e587Dca8482c5",
+      "0x8f68128438c1101550bF478BBE8F8c80749Eb794",
+      "0xD5A1e0C890354710ef46E6cdd43951CB93Dc62E2",
+      "0x107EAb9ec507EC5e71a8496da10eE8a724De4063",
+      "0x645BADD5D188d5AFBb199a4aFD63e8980719Fcc4",
+      "0x16970910f7BAe824BE6685E5e967C8756F2DB40A",
+      "0x356E756C738544173047cFf6DbA096bda236C654",
+      "0x16f48e26BEF1448e2c68833173e96d0eB17d59F6",
+      "0x0D715a431aaB5398B9c5E0425311d228Ffdf7A1C",
+      "0x2446C3caa98945E74ED5E908662a5251073Cf7BD",
+      "0x49d79a89A571eCF01E6EB74B6bca33087662Ee58",
+      "0x63d14aCE50335B60A16C42D585e981d1a2411af2",
+      "0x746856EC1b57C4a6A8FFE011e4171b5064f0eF1c",
+      "0x7C772E97Ef88B551df3241883bc14D4330228ff9",
+      "0x81a936b64dbbc62903D870763dD8c735b5b6af5C",
+      "0x4D49A899a79c771586956b1BBf57Db734A8436B1"
+    ]
+  },
+  "re7-labs-bsc": {
+    "deprecatedVaults": [
+      "0xF72aB1726e6f379891dDAE8114C75074d972FdAc",
+      "0xcCD520c8cE2aC576429bE0aD8cc14cDc0e3E44fc",
+      "0x69A93DbAB609266af96f05658b2e22d020de2E19",
+      "0xc4dB46B082B415c16C54c91c5750Df8e2f90EF36",
+      "0xC41f2Ba7102e9F9F2d603eb951F955aE205ed272",
+      "0x5d3b4bcff6a24A20a98070263D03D474586c9b29",
+      "0xA00C61ad8c560163c3Ee798a5eAA63EF81BA41e0",
+      "0x7a455f66FD2D2d5C69ae403a971ED513C852F9D7",
+      "0x266D3F3219680624DE4D66c716444512A2B9a72F",
+      "0xa0b6d76452B1f417a94Ae309b835D523a081FbB9",
+      "0x3ac88AfbC38Bb41443457eeB027b60e85B815538",
+      "0xCB9c9FE7d1509955d8b860E6831d91bf3F0B6240",
+      "0xfEb1D6259De6C052A0d0f986b4Df4D8Fd8B371F4"
+    ],
+    "deprecationReason": "Deprecated due to exposure to the insolvent positions held Stables Labs (USDX).",
+    "entity": "re7-labs",
+    "name": "Re7 Labs Cluster",
+    "notExplorable": true,
+    "vaults": []
+  },
+  "tulipa-bsc": {
+    "deprecatedVaults": [
+      "0x5fd02479F938929F6b9fE1b7Af6430cfD4afa6Aa",
+      "0xA9cA5c4bfF689afcFB249AE81565422fa78F82b4",
+      "0xEcD1F58B9DC4bbC3A32409961B8520B0A8fcd483",
+      "0x932FE4797d681a7a82262BC385B534ba069249E1",
+      "0xa6439FD63C19Cc4893EAcaD20320D11cfd0Ad12C",
+      "0xfd30377A3173f709d8224Fee7718E312A0868A34",
+      "0xc33c2A5f3c27bcB5559f17ff97A04F281f898f04"
+    ],
+    "deprecationReason": "Deprecated due to low activity.",
+    "description": "A BSC lending and borrowing market for supported assets, configured by Tulipa Capital.",
+    "entity": "tulipa-capital",
+    "name": "Tulipa",
+    "notExplorable": true,
+    "vaults": []
+  }
+}

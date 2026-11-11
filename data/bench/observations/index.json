@@ -1,0 +1,301 @@
+{
+ "by_group": {
+  "euler_v2_1_PYUSD_6c3ea9": {
+   "days_with_event": 291,
+   "records": 617,
+   "sha256": "b23e011c6579b149ac272dbea84b48503235295f40e003964f3bbfdbabaaf6fa",
+   "table_max": 2,
+   "table_median": 1,
+   "universe": 3
+  },
+  "euler_v2_1_RLUSD_8292bb": {
+   "days_with_event": 322,
+   "records": 475,
+   "sha256": "caa877136e80dfcd2a1be7e206c0b811fc7a060f0b4d94f6e642cc8283a9549a",
+   "table_max": 3,
+   "table_median": 2,
+   "universe": 3
+  },
+  "euler_v2_1_USD0_73a15f": {
+   "days_with_event": 249,
+   "records": 633,
+   "sha256": "43231ad7cd92ce2185431d8e7b7d1840d0d7618b7dbab516bbd634cd700df974",
+   "table_max": 3,
+   "table_median": 1,
+   "universe": 3
+  },
+  "euler_v2_1_USDC_a0b869": {
+   "days_with_event": 694,
+   "records": 773,
+   "sha256": "892a1104bcb074d06398a53f0c463d1ae8a1f94db979c7b997a5d337966c0938",
+   "table_max": 21,
+   "table_median": 10,
+   "universe": 39
+  },
+  "euler_v2_1_WETH_c02aaa": {
+   "days_with_event": 512,
+   "records": 773,
+   "sha256": "9628f2a2e1b3f14401fed031fb65bdcfc746c22e0c3a395b8a2dd97eb767d8e1",
+   "table_max": 8,
+   "table_median": 4,
+   "universe": 13
+  },
+  "euler_v2_9745_USDT0_b8ce59": {
+   "days_with_event": 313,
+   "records": 373,
+   "sha256": "e9808ee10e786f0fb40cd213aad7485e19af62e7b9c771046e0b5788658712e6",
+   "table_max": 18,
+   "table_median": 5,
+   "universe": 27
+  },
+  "moolah_56_USD1_8d0d00": {
+   "days_with_event": 494,
+   "records": 537,
+   "sha256": "022149aab2493920c26841e1f3ed79e9c5ec5ef8b59d80936de76fc05dda0688",
+   "table_max": 26,
+   "table_median": 14,
+   "universe": 57
+  },
+  "moolah_56_U_ce2443": {
+   "days_with_event": 251,
+   "records": 266,
+   "sha256": "9d8f6e44f49ecdf09a4172ee0aa5a5f8f88862612d241cdd6bac626a1f034d6f",
+   "table_max": 18,
+   "table_median": 11,
+   "universe": 33
+  },
+  "moolah_56_WBNB_bb4cdb": {
+   "days_with_event": 378,
+   "records": 539,
+   "sha256": "216051af381394bad5ec27a84e9ef5c05fbfdabd8e4a2c35ad49c4fe39427a88",
+   "table_max": 15,
+   "table_median": 10,
+   "universe": 23
+  },
+  "morpho_1_AUSD_000000": {
+   "days_with_event": 368,
+   "records": 763,
+   "sha256": "9c5e66f14ece0302ad6a1960cd80782fe0d5f5bf7e78d59cb9f410031762e94d",
+   "table_max": 11,
+   "table_median": 2,
+   "universe": 31
+  },
+  "morpho_1_DAI_6b1754": {
+   "days_with_event": 605,
+   "records": 917,
+   "sha256": "5b46fdfcade103d21bc58f5b3fce77379effdc1188a73f3362f502b39e047c2d",
+   "table_max": 14,
+   "table_median": 9,
+   "universe": 22
+  },
+  "morpho_1_EURCV_5f7827": {
+   "days_with_event": 276,
+   "records": 368,
+   "sha256": "6f0b5af46708d544359e12a2280d47dae0c845d36480b78d8af8608be3b2b619",
+   "table_max": 12,
+   "table_median": 7,
+   "universe": 13
+  },
+  "morpho_1_PYUSD_6c3ea9": {
+   "days_with_event": 508,
+   "records": 969,
+   "sha256": "339fb1128104c21e9e1ab1e247b4cd6cb8471ce1ed2e6b324750b3663483896d",
+   "table_max": 13,
+   "table_median": 4,
+   "universe": 21
+  },
+  "morpho_1_RLUSD_8292bb": {
+   "days_with_event": 128,
+   "records": 211,
+   "sha256": "aca5e7582202d701bdd65be5d97f18a3ce0f2f44a9718918065bfa1f12982e30",
+   "table_max": 8,
+   "table_median": 7,
+   "universe": 11
+  },
+  "morpho_1_USDC_a0b869": {
+   "days_with_event": 918,
+   "records": 988,
+   "sha256": "c77101dc3e0a907f21883ed389f1f0a004218f1c72121db2e4368024698098b7",
+   "table_max": 75,
+   "table_median": 50,
+   "universe": 286
+  },
+  "morpho_1_USDS_dc035d": {
+   "days_with_event": 413,
+   "records": 510,
+   "sha256": "d786b69069e399d9e8d8396abe4cc66d6683a209ca8c3f4224f2edac04e0dcf2",
+   "table_max": 14,
+   "table_median": 5,
+   "universe": 25
+  },
+  "morpho_1_USDT_dac17f": {
+   "days_with_event": 871,
+   "records": 966,
+   "sha256": "a74ab2dbe24a79bc805159cca368f93de99664afea6c5818a38d0e2e895f8fe1",
+   "table_max": 23,
+   "table_median": 10,
+   "universe": 69
+  },
+  "morpho_1_WBTC_2260fa": {
+   "days_with_event": 409,
+   "records": 930,
+   "sha256": "9c64a62a94009e21287eeb8b862593323d06938928313eb61210c08b583e703d",
+   "table_max": 9,
+   "table_median": 4,
+   "universe": 19
+  },
+  "morpho_1_WETH_c02aaa": {
+   "days_with_event": 953,
+   "records": 997,
+   "sha256": "962a8c653e265595ddcf6b83f1b4d982be69556a79046bf31ca71f300c242618",
+   "table_max": 23,
+   "table_median": 16,
+   "universe": 58
+  },
+  "morpho_1_rUSD_09d421": {
+   "days_with_event": 200,
+   "records": 568,
+   "sha256": "b7de97f618ab7f843aeb17906d2b007267d8dda45314c889993a51b32e2777b0",
+   "table_max": 4,
+   "table_median": 2,
+   "universe": 7
+  },
+  "morpho_1_wUSDL_7751e2": {
+   "days_with_event": 151,
+   "records": 354,
+   "sha256": "8acb1cdfd41dd4ff5308cd1ae45959e58a239d640a4cce09725b270ecb41fc03",
+   "table_max": 4,
+   "table_median": 3,
+   "universe": 4
+  },
+  "morpho_42161_USD0_fd086b": {
+   "days_with_event": 230,
+   "records": 282,
+   "sha256": "7516c4d88318245ad922d9319e66e35cf8efed8bcaf9aa076deee2133f1a9f33",
+   "table_max": 9,
+   "table_median": 6,
+   "universe": 13
+  },
+  "morpho_42161_USDC_af88d0": {
+   "days_with_event": 406,
+   "records": 426,
+   "sha256": "d5ebe42ec6e43219c8c70eb5102207fdca939c4cea7b8a4f2abccea17b3e69ab",
+   "table_max": 19,
+   "table_median": 11,
+   "universe": 38
+  },
+  "morpho_4663_USDG_5fc536": {
+   "days_with_event": 72,
+   "records": 93,
+   "sha256": "e91931b51ba7cfeef01b03584fb455fe910d9696154413e43faacfebdd805efc",
+   "table_max": 10,
+   "table_median": 3,
+   "universe": 10
+  },
+  "morpho_747474_vbETH_ee7d8b": {
+   "days_with_event": 251,
+   "records": 458,
+   "sha256": "455b2996e536e02b99e4ffd5bbe567746bf9592e1cf57f4eab7a4a357439fecd",
+   "table_max": 4,
+   "table_median": 2,
+   "universe": 4
+  },
+  "morpho_747474_vbUSDC_203a66": {
+   "days_with_event": 409,
+   "records": 458,
+   "sha256": "fcfc32533fa5b4ee4f8537b684d84f2d73c3a76b0c5d6570437169eb7cd9f1ca",
+   "table_max": 13,
+   "table_median": 9,
+   "universe": 20
+  },
+  "morpho_8453_USDC_833589": {
+   "days_with_event": 834,
+   "records": 836,
+   "sha256": "1762219f606d6ea93b41daf8016ebcaa800b53173d33400ba36a127f2c19bf3d",
+   "table_max": 42,
+   "table_median": 17,
+   "universe": 102
+  },
+  "morpho_8453_WETH_420000": {
+   "days_with_event": 787,
+   "records": 836,
+   "sha256": "66d8af86c3c37847712fdb274cfd78e48c1c7a6676c4be8ffef353c19bc541f1",
+   "table_max": 19,
+   "table_median": 11,
+   "universe": 25
+  },
+  "morpho_999_USDC_b88339": {
+   "days_with_event": 328,
+   "records": 379,
+   "sha256": "67fb2dfe96e4a61a35f7a2c08d9b5aad320ebc153e6cb475ca9d4614cd2a7372",
+   "table_max": 8,
+   "table_median": 7,
+   "universe": 12
+  },
+  "morpho_999_WHYPE_555555": {
+   "days_with_event": 388,
+   "records": 499,
+   "sha256": "1578b98593a3e83107ed7a4f1543e14b2d2485eb545934659420428d9dd5abc9",
+   "table_max": 10,
+   "table_median": 6,
+   "universe": 12
+  }
+ },
+ "days_with_event": 13009,
+ "generator": "code/autocurator/observe.py",
+ "groups": 30,
+ "inputs_absent": [
+  "data/panel_ext/public_allocator/euler_v2/1.csv",
+  "data/panel_ext/public_allocator/euler_v2/9745.csv"
+ ],
+ "inputs_present": [
+  "data/panel_ext/borrowers/euler_v2/1.csv",
+  "data/panel_ext/borrowers/euler_v2/9745.csv",
+  "data/panel_ext/borrowers/moolah/56.csv",
+  "data/panel_ext/borrowers/morpho/1.csv",
+  "data/panel_ext/borrowers/morpho/42161.csv",
+  "data/panel_ext/borrowers/morpho/4663.csv",
+  "data/panel_ext/borrowers/morpho/747474.csv",
+  "data/panel_ext/borrowers/morpho/8453.csv",
+  "data/panel_ext/borrowers/morpho/999.csv",
+  "data/panel_ext/public_allocator/moolah/56.csv",
+  "data/panel_ext/public_allocator/morpho/1.csv",
+  "data/panel_ext/public_allocator/morpho/42161.csv",
+  "data/panel_ext/public_allocator/morpho/4663.csv",
+  "data/panel_ext/public_allocator/morpho/747474.csv",
+  "data/panel_ext/public_allocator/morpho/8453.csv",
+  "data/panel_ext/public_allocator/morpho/999.csv",
+  "data/panel_ext/token_supply/1.csv",
+  "data/panel_ext/token_supply/42161.csv",
+  "data/panel_ext/token_supply/4663.csv",
+  "data/panel_ext/token_supply/56.csv",
+  "data/panel_ext/token_supply/747474.csv",
+  "data/panel_ext/token_supply/8453.csv",
+  "data/panel_ext/token_supply/9745.csv",
+  "data/panel_ext/token_supply/999.csv"
+ ],
+ "oracle_flags": {
+  "euler_v2_1_USDC_a0b869": [
+   [
+    "M025",
+    "0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd",
+    "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb"
+   ]
+  ]
+ },
+ "records": 17794,
+ "thresholds": {
+  "allocator_min_usd": 1.0,
+  "bad_debt_min_usd": 1.0,
+  "idle_drop": 0.3,
+  "market_min_usd": 10000.0,
+  "peg_off": 0.02,
+  "price_drop": 0.1,
+  "supply_move": 0.1,
+  "table_min_usd": 100000.0,
+  "top1_move": 0.1,
+  "util_min_days": 30,
+  "util_move": 0.1,
+  "util_pin": 0.99
+ }
+}

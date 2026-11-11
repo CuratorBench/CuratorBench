@@ -1,0 +1,44 @@
+[
+ {
+  "market": "1-0x4239615cec9e6da3a7a2f665b82b625fae50dd8f2e153d28f2b271bc0a01392d",
+  "n_accruals": 200,
+  "checked": 200,
+  "mismatches": []
+ },
+ {
+  "market": "1-0x5021a2692eaffb6f9debf1d829d9d509298caf08e6aa453e2703debef71d2c5b",
+  "n_accruals": 814,
+  "checked": 814,
+  "mismatches": []
+ },
+ {
+  "market": "1-0x34377fc4f617c51818e92c79df31ff270c6a91bc94ad32e367fdf59b9f4ac5dd",
+  "n_accruals": 3232,
+  "checked": 3232,
+  "mismatches": []
+ },
+ {
+  "market": "1-0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64",
+  "n_accruals": 142817,
+  "checked": 25000,
+  "mismatches": []
+ },
+ {
+  "market": "8453-0xaf2657ed859dcac494afc20ba83e26fa153414da971a1f082ebfcb45d73955f1",
+  "n_accruals": 5057,
+  "checked": 5057,
+  "mismatches": []
+ },
+ {
+  "market": "8453-0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836",
+  "n_accruals": 3433232,
+  "checked": 25000,
+  "mismatches": []
+ },
+ {
+  "market": "1-0xbd1ad3b968f5f0552dbd8cf1989a62881407c5cccf9e49fb3657c8731caf0c1f",
+  "n_accruals": 1062,
+  "checked": 1062,
+  "mismatches": []
+ }
+]

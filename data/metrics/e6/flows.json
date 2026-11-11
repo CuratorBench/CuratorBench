@@ -1,0 +1,154 @@
+{
+  "appendix_v1": {
+    "A_curator_fe": {
+      "clusters": 212,
+      "coef": {
+        "apy": 0.10268560707599346,
+        "tail_loss": 0.03238598073800706
+      },
+      "fixed_effects": 212,
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.02226686756374617,
+        "tail_loss": 0.016441674818717056
+      },
+      "t": {
+        "apy": 4.611587453063275,
+        "tail_loss": 1.9697494990680116
+      }
+    },
+    "A_statsmodels_dummies": {
+      "coef": {
+        "apy": 0.10268560707599354,
+        "tail_loss": 0.03238598073800724
+      },
+      "p": {
+        "apy": 3.996054719514093e-06,
+        "tail_loss": 0.048867086950199784
+      },
+      "se_cluster": {
+        "apy": 0.022266867563746122,
+        "tail_loss": 0.01644167481871687
+      }
+    },
+    "B_curator_week_fe_log_size": {
+      "coef": {
+        "apy": 0.07236178994844586,
+        "log_value": -0.016086678582010936,
+        "tail_loss": 0.027940985107844776
+      },
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.02067989093614896,
+        "log_value": 0.0025568259412856215,
+        "tail_loss": 0.020903602705370797
+      }
+    },
+    "C_vault_fe": {
+      "coef": {
+        "apy": 0.1287066690152546,
+        "tail_loss": 0.11113524050953645
+      },
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.029422717168012022,
+        "tail_loss": 0.039982788626894146
+      },
+      "vaults": 704
+    },
+    "what": "the same models with E4's first-pass headline tail loss (tl_v1_headline)"
+  },
+  "headline_tl": {
+    "A_curator_fe": {
+      "clusters": 212,
+      "coef": {
+        "apy": 0.10363750759431295,
+        "tail_loss": 0.0177198069177473
+      },
+      "fixed_effects": 212,
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.02228601593067011,
+        "tail_loss": 0.01960730589243422
+      },
+      "t": {
+        "apy": 4.650338037840427,
+        "tail_loss": 0.9037349146771235
+      }
+    },
+    "A_permutation_apy_within_curator": {
+      "n_perm": 2000,
+      "p_apy": 0.0004997501249375312,
+      "perm_apy_coef_mean": 6.83826118294277e-06,
+      "perm_apy_coef_q025_q975": [
+        -0.02262364344222861,
+        0.023237285026883374
+      ],
+      "perm_apy_coef_sd": 0.01145208643651515
+    },
+    "A_statsmodels_dummies": {
+      "coef": {
+        "apy": 0.10363750759431299,
+        "tail_loss": 0.01771980691774732
+      },
+      "p": {
+        "apy": 3.3139140581474203e-06,
+        "tail_loss": 0.3661359807541633
+      },
+      "se_cluster": {
+        "apy": 0.022286015930670047,
+        "tail_loss": 0.019607305892434496
+      }
+    },
+    "B_curator_week_fe_log_size": {
+      "coef": {
+        "apy": 0.07206003767653026,
+        "log_value": -0.016131622186497885,
+        "tail_loss": 0.029913832954509646
+      },
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.020837960469364182,
+        "log_value": 0.0025685639696802123,
+        "tail_loss": 0.019722829859126042
+      }
+    },
+    "C_vault_fe": {
+      "coef": {
+        "apy": 0.13478119096696092,
+        "tail_loss": 0.030253125433836188
+      },
+      "n": 25431,
+      "se_cluster": {
+        "apy": 0.028834655357933666,
+        "tail_loss": 0.047291832671028496
+      },
+      "vaults": 704
+    }
+  },
+  "sample": {
+    "apy_mean": 0.14571563370435398,
+    "clusters": 212,
+    "flow_rate_mean": 0.025374530725781403,
+    "tl_mean": 0.1941642569676389,
+    "unpriced_flow_rows": 712,
+    "vault_weeks": 25431,
+    "vaults": 704,
+    "weeks": [
+      "2024-01-15",
+      "2026-09-28"
+    ],
+    "winsor_flow_rate_p1_p99": [
+      -0.9452052485622935,
+      2.7707146573469665
+    ]
+  },
+  "two_methods_agree": {
+    "own_ols_apy": 0.10363750759431295,
+    "own_se_apy": 0.02228601593067011,
+    "permutation_p_apy": 0.0004997501249375312,
+    "same_sign": true,
+    "statsmodels_apy": 0.10363750759431299,
+    "statsmodels_se_apy": 0.022286015930670047
+  }
+}

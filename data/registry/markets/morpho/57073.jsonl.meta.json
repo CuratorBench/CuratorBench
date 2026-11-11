@@ -1,0 +1,19 @@
+{
+  "chain": "ink",
+  "chain_id": 57073,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "InkMainnet",
+    "listed_by_api": false,
+    "morpho": "0x857f3EefE8cbda3Bc49367C996cd664A880d3042",
+    "vault_v1_factories": [
+      "0xd3f39505d0c48AFED3549D625982FdC38Ea9904b"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 12,
+  "scanned_to_block": 57410941,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:49:13+00:00"
+}

@@ -1,0 +1,65 @@
+{
+ "chain_id": 1,
+ "days_with_event": 512,
+ "events_by_type": {
+  "bad_debt": 2,
+  "idle_drop": 286,
+  "new_docs": 229,
+  "peg_off": 21,
+  "price_drop": 52,
+  "supply_move": 244,
+  "top1_move": 85,
+  "util_move": 339,
+  "util_pin": 87
+ },
+ "first_day": "2024-08-20",
+ "generator": "code/autocurator/observe.py",
+ "group": "euler_v2_1_WETH_c02aaa",
+ "inputs_absent": [
+  "data/panel_ext/public_allocator/euler_v2/1.csv"
+ ],
+ "inputs_present": [
+  "data/panel_ext/borrowers/euler_v2/1.csv",
+  "data/panel_ext/token_supply/1.csv"
+ ],
+ "last_day": "2026-10-01",
+ "loan_token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+ "oracle_facts": "latest-block classification, not point in time: the Euler router can be reconfigured and the data hold no router configuration history",
+ "oracle_flags": [],
+ "price_lag_days": 2,
+ "protocol": "euler_v2",
+ "records": 773,
+ "sha256": "9628f2a2e1b3f14401fed031fb65bdcfc746c22e0c3a395b8a2dd97eb767d8e1",
+ "snapshot_columns": [
+  "supply_usd",
+  "borrow_usd",
+  "util",
+  "util_min30",
+  "days_pinned",
+  "idle_usd",
+  "borrow_apr",
+  "supply_apy",
+  "fee",
+  "debt_shares",
+  "top1_share",
+  "n_borrowers"
+ ],
+ "table_max": 8,
+ "table_median": 4,
+ "thresholds": {
+  "allocator_min_usd": 1.0,
+  "bad_debt_min_usd": 1.0,
+  "idle_drop": 0.3,
+  "market_min_usd": 10000.0,
+  "peg_off": 0.02,
+  "price_drop": 0.1,
+  "supply_move": 0.1,
+  "table_min_usd": 100000.0,
+  "top1_move": 0.1,
+  "util_min_days": 30,
+  "util_move": 0.1,
+  "util_pin": 0.99
+ },
+ "universe": 13,
+ "written_utc": "2026-10-24T13:02:20Z"
+}

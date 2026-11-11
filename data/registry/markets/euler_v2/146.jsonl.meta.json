@@ -1,0 +1,15 @@
+{
+  "chain": "sonic",
+  "chain_id": 146,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0x3397ec7d28cF645A017869Fe4B41c75f5B0b75a8",
+    "evault_factory": "0xF075cC8660B51D0b8a4474e3f47eDAC5fA034cFB",
+    "evc": "0x4860C903f6Ad709c3eDA46D3D502943f184D4315"
+  },
+  "rows": 532,
+  "scanned_to_block": 80219850,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:50:05+00:00"
+}

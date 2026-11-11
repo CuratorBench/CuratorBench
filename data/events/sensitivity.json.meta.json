@@ -1,0 +1,6 @@
+{
+  "generator": "code/analysis/e2_events.py",
+  "recovery_days": "t0 of every depeg-loss event of the main variant when a recovered dip needs 7, 14 (main) or 30 consecutive closes at or above recovery_line of peg, and without the split (no_split); changed lists the events whose t0 differs between any two",
+  "what": "event counts by lock-up utilization threshold and duration; depeg-loss hits are the same in every variant; min peak supply 1M USD, L < 5% and the merge rules fixed; episodes before and events after the 180-day episode merge and the recovery split; the last row merges the main variant without the 30-day horizon",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

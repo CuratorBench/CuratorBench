@@ -1,0 +1,7 @@
+{
+  "generator": "code/analysis/e5_events.py",
+  "rpc_calls": 10,
+  "seed": 20261008,
+  "what": "independent re-derivations: 20 random rows, the Stream xUSD realized loss against the input tables, consistency with E2, Morpho and Moolah market state at T",
+  "written_utc": "2026-10-18T22:51:10+00:00"
+}

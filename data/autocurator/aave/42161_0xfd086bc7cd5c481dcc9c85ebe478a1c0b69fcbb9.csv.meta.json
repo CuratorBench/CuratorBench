@@ -1,0 +1,9 @@
+{
+ "chain": "Arbitrum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "3a6cc030-738d-4e19-8a40-e63e9c4d5a6f",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/3a6cc030-738d-4e19-8a40-e63e9c4d5a6f",
+ "symbol": "USD\u20ae0",
+ "written_utc": "2026-10-25T20:02:30Z"
+}

@@ -1,0 +1,19 @@
+{
+  "chain": "lisk",
+  "chain_id": 1135,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "LiskMainnet",
+    "listed_by_api": false,
+    "morpho": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+    "vault_v1_factories": [
+      "0x01dD876130690469F685a65C2B295A90a81BaD91"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 8,
+  "scanned_to_block": 38091986,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:46:03+00:00"
+}

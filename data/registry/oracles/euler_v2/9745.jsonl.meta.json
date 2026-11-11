@@ -1,0 +1,17 @@
+{
+  "chain_id": 9745,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "euler_v2",
+  "routescan_calls": 0,
+  "rows": 135,
+  "rpc_calls": 79,
+  "runtime_seconds": 8.407,
+  "trace_fallback": {
+    "command": "code/data/oracles.py --retrace euler_v2:9745",
+    "rows_reclassified": 17,
+    "rpc_calls": 6,
+    "runtime_seconds": 0.619
+  },
+  "written_utc": "2026-10-16T00:47:13+00:00"
+}

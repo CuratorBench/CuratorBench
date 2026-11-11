@@ -1,0 +1,9 @@
+{
+ "chain": "Linea",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "6817bab0-5389-40a0-84d1-78830c1d81aa",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/6817bab0-5389-40a0-84d1-78830c1d81aa",
+ "symbol": "USDT",
+ "written_utc": "2026-10-25T19:58:26Z"
+}

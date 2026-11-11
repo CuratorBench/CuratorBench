@@ -1,0 +1,19 @@
+{
+  "chain": "robinhood",
+  "chain_id": 4663,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Robinhood Chain",
+    "listed_by_api": true,
+    "morpho": "0x9D53d5E3bd5E8d4Cbfa6DB1ca238AEA02E651010",
+    "vault_v1_factories": [],
+    "vault_v2_factories": [
+      "0x0FBad98595b0186dA120E41f77C102beb49f803c"
+    ]
+  },
+  "rows": 78,
+  "scanned_to_block": 77921673,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:47:03+00:00"
+}

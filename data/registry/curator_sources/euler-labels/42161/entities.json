@@ -1,0 +1,44 @@
+{
+  "alphagrowth": {
+    "addresses": {
+      "0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
+    },
+    "description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alphagrowth.svg",
+    "name": "AlphaGrowth",
+    "social": {
+      "twitter": "alphagrowth1"
+    },
+    "url": "https://alphagrowth.io/"
+  },
+  "euler-dao": {
+    "addresses": {
+      "0xaB08F1986685A47eA2bDA6C02f74286517Fb615C": "Euler Vault Access Control Governor",
+      "0xb3dCA151d92c6e40450e67098444DcF60d99Bc3d": "Euler Labs Multisig",
+      "0xe55798d71193bAA789031415b668A992F2e566EE": "Euler DAO Multisig"
+    },
+    "description": "Euler DAO is responsible for the governance of the Euler protocol.",
+    "logo": "euler.svg",
+    "name": "Euler DAO",
+    "social": {
+      "discord": "https://discord.euler.finance/",
+      "github": "euler-xyz",
+      "telegram": "eulerfinance_official",
+      "twitter": "eulerfinance",
+      "youtube": "EulerFinance"
+    },
+    "url": "https://euler.finance/"
+  },
+  "k3-capital": {
+    "addresses": {
+      "0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Capital Multisig"
+    },
+    "description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "k3.svg",
+    "name": "K3 Capital",
+    "social": {
+      "twitter": "k3_capital"
+    },
+    "url": "https://k3.capital/"
+  }
+}

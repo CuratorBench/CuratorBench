@@ -1,0 +1,23 @@
+{
+  "columns": [
+    "chain_id",
+    "vault",
+    "day",
+    "fee_old",
+    "fee_new",
+    "clean",
+    "curator_entity",
+    "d_fee",
+    "d_tl_d0150",
+    "d_tl_d0300",
+    "d_tl_d0500",
+    "d_tl_d1000",
+    "d_tl_headline",
+    "d_L_mean",
+    "d_L_p10"
+  ],
+  "generator": "code/analysis/e6_incentives.py",
+  "rows": 107,
+  "what": "contrast 3: clean performance-fee changes of E4 sample vaults with 30 active days on each side; metric after minus before over 60-day windows",
+  "written_utc": "2026-10-18T23:06:15+00:00"
+}

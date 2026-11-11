@@ -1,0 +1,15 @@
+{
+  "chain": "optimism",
+  "chain_id": 10,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "optimism",
+    "silo_factory": "0x8ab5D81d342f14e594c65a6B33582b57e78E4a9d",
+    "silo_vaults_factory": "0xB2886994d8E7d84759b6e08D465094E71BfBad67"
+  },
+  "rows": 20,
+  "scanned_to_block": 157655344,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:52:02+00:00"
+}

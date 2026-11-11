@@ -1,0 +1,19 @@
+{
+  "chain": "fraxtal",
+  "chain_id": 252,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "FraxtalMainnet",
+    "listed_by_api": false,
+    "morpho": "0xa6030627d724bA78a59aCf43Be7550b4C5a0653b",
+    "vault_v1_factories": [
+      "0x27D4Af0AC9E7FDfA6D0853236f249CC27AE79488"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 3,
+  "scanned_to_block": 42051025,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:46:02+00:00"
+}

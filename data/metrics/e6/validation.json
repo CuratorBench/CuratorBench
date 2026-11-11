@@ -1,0 +1,867 @@
+{
+  "artefact_check": {
+    "L_p10": {
+      "medians_no_control": {
+        "fee_charging": {
+          "median": 0.1765567627,
+          "n": 649
+        },
+        "zero_fee": {
+          "median": 0.5619454759,
+          "n": 226
+        }
+      },
+      "p_no_control": 0.00019998000199980003,
+      "p_within_class": 0.00019998000199980003,
+      "rank_biserial_no_control": -0.2811882133166069,
+      "rank_biserial_within_class": -0.2337781625992479
+    },
+    "appendix_v1_tl_v1_headline": {
+      "p_no_control": 0.0051994800519948,
+      "p_within_class": 0.020497950204979503,
+      "rank_biserial_no_control": 0.20034225561449204,
+      "rank_biserial_within_class": 0.1345679412122088
+    },
+    "share_unpegged_of_value": {
+      "fee_charging": {
+        "median": 0.0063323595551715,
+        "n": 649
+      },
+      "zero_fee": {
+        "median": 0.3475268545524417,
+        "n": 225
+      }
+    },
+    "tl_d0150": {
+      "medians_no_control": {
+        "fee_charging": {
+          "median": 0.01752406584,
+          "n": 649
+        },
+        "zero_fee": {
+          "median": 0.004845081722,
+          "n": 226
+        }
+      },
+      "p_no_control": 0.004399560043995601,
+      "p_within_class": 0.0217978202179782,
+      "rank_biserial_no_control": 0.19808555026794106,
+      "rank_biserial_within_class": 0.13699087583499744
+    },
+    "tl_d1000": {
+      "medians_no_control": {
+        "fee_charging": {
+          "median": 0.4233711414,
+          "n": 649
+        },
+        "zero_fee": {
+          "median": 0.16824981435,
+          "n": 226
+        }
+      },
+      "p_no_control": 0.0015998400159984002,
+      "p_within_class": 0.0031996800319968005,
+      "rank_biserial_no_control": 0.22976123921076663,
+      "rank_biserial_within_class": 0.17443600409472926
+    },
+    "tl_headline": {
+      "medians_no_control": {
+        "fee_charging": {
+          "median": 0.171740848,
+          "n": 649
+        },
+        "zero_fee": {
+          "median": 0.081199345445,
+          "n": 226
+        }
+      },
+      "p_no_control": 0.0301969803019698,
+      "p_within_class": 0.12298770122987701,
+      "rank_biserial_no_control": 0.15805800619059962,
+      "rank_biserial_within_class": 0.09140612688602814
+    },
+    "yield_after_fee": {
+      "medians_no_control": {
+        "fee_charging": {
+          "median": 0.03425366345,
+          "n": 649
+        },
+        "zero_fee": {
+          "median": 0.038174201095,
+          "n": 226
+        }
+      },
+      "p_no_control": 0.5148485151484852,
+      "p_within_class": 0.1862813718628137,
+      "rank_biserial_no_control": -0.0503770266032153,
+      "rank_biserial_within_class": -0.07786537043048403
+    },
+    "zero_fee_by_class": {
+      "btc": {
+        "fee_charging": 60,
+        "zero_fee": 28
+      },
+      "eth": {
+        "fee_charging": 94,
+        "zero_fee": 26
+      },
+      "mixed": {
+        "fee_charging": 209,
+        "zero_fee": 102
+      },
+      "none": {
+        "fee_charging": 14,
+        "zero_fee": 4
+      },
+      "other": {
+        "fee_charging": 17,
+        "zero_fee": 1
+      },
+      "stable": {
+        "fee_charging": 255,
+        "zero_fee": 65
+      }
+    }
+  },
+  "class_unpegged_vs_e4_spearman_usd_vaults": 0.997527900261242,
+  "e4_implied_fee_comparison": [
+    {
+      "chain_id": 8453,
+      "fee_usd_e4_implied": 3449364.5540918834,
+      "fee_usd_e6": 3449187.5676800013,
+      "in_e4_sample": true,
+      "ratio": 0.9999486901401384,
+      "vault": "0xbeef010f9cb27031ad51e3333f9af9c6b1228183"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 2228078.4579359046,
+      "fee_usd_e6": 2227803.988959001,
+      "in_e4_sample": true,
+      "ratio": 0.9998768135942763,
+      "vault": "0xd63070114470f685b75b74d60eec7c1113d33a3d"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 2092269.5902325595,
+      "fee_usd_e6": 2092220.9221440079,
+      "in_e4_sample": true,
+      "ratio": 0.9999767390929072,
+      "vault": "0xb576765fb15505433af24fee2c0325895c559fb2"
+    },
+    {
+      "chain_id": 8453,
+      "fee_usd_e4_implied": 1935042.0139857698,
+      "fee_usd_e6": 1934898.7262930002,
+      "in_e4_sample": true,
+      "ratio": 0.9999259511205782,
+      "vault": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a"
+    },
+    {
+      "chain_id": 8453,
+      "fee_usd_e4_implied": 760415.2379139912,
+      "fee_usd_e6": 760386.383549,
+      "in_e4_sample": true,
+      "ratio": 0.999962054462414,
+      "vault": "0xbeeff2490feffa212fac2f6553682c219e6a8845"
+    },
+    {
+      "chain_id": 56,
+      "fee_usd_e4_implied": 735423.9795966094,
+      "fee_usd_e6": 735557.5562541012,
+      "in_e4_sample": true,
+      "ratio": 1.0001816321757215,
+      "vault": "0x57134a64b7cd9f9eb72f8255a671f5bf2fe3e2d0"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 569816.1524508571,
+      "fee_usd_e6": 569754.3024570004,
+      "in_e4_sample": true,
+      "ratio": 0.9998914562291877,
+      "vault": "0x8eb67a509616cd6a7c1b3c8c21d48ff57df3d458"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 506786.47751971823,
+      "fee_usd_e6": 506772.09083147184,
+      "in_e4_sample": true,
+      "ratio": 0.9999716119334581,
+      "vault": "0x73e65dbd630f90604062f6e02fab9138e713edd9"
+    },
+    {
+      "chain_id": 8453,
+      "fee_usd_e4_implied": 483027.46740736323,
+      "fee_usd_e6": 482995.40918100066,
+      "in_e4_sample": true,
+      "ratio": 0.9999336306348485,
+      "vault": "0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca"
+    },
+    {
+      "chain_id": 56,
+      "fee_usd_e4_implied": 474699.46416581445,
+      "fee_usd_e6": 474689.99988258525,
+      "in_e4_sample": true,
+      "ratio": 0.9999800625786552,
+      "vault": "0xfa27f172e0b6ebcef9c51abf817e2cb142fbe627"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 437851.0090361029,
+      "fee_usd_e6": 437800.1802170006,
+      "in_e4_sample": true,
+      "ratio": 0.9998839129794077,
+      "vault": "0x777791c4d6dc2ce140d00d2828a7c93503c67777"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 415397.0564094578,
+      "fee_usd_e6": 415099.418119901,
+      "in_e4_sample": true,
+      "ratio": 0.9992834848370629,
+      "vault": "0x78fc2c2ed1a4cdb5402365934ae5648adad094d0"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 407470.50709301047,
+      "fee_usd_e6": 407432.5572570006,
+      "in_e4_sample": true,
+      "ratio": 0.9999068648273942,
+      "vault": "0x974c8fbf4fd795f66b85b73ebc988a51f1a040a9"
+    },
+    {
+      "chain_id": 8453,
+      "fee_usd_e4_implied": 383819.7693167124,
+      "fee_usd_e6": 383869.1082660003,
+      "in_e4_sample": true,
+      "ratio": 1.0001285471808181,
+      "vault": "0x616a4e1db48e22028f6bbf20444cd3b8e3273738"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 337992.71495675703,
+      "fee_usd_e6": 337978.21708600235,
+      "in_e4_sample": true,
+      "ratio": 0.9999571059667468,
+      "vault": "0xc21b08c16458202593d4d9b26b9984ee67b38bbd"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 291718.7187994655,
+      "fee_usd_e6": 291709.02766947245,
+      "in_e4_sample": true,
+      "ratio": 0.9999667791973277,
+      "vault": "0x6dc58a0fdfc8d694e571dc59b9a52eeea780e6bf"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 267655.8689922074,
+      "fee_usd_e6": 268182.13743520353,
+      "in_e4_sample": true,
+      "ratio": 1.0019662129770501,
+      "vault": "0x9a8bc3b04b7f3d87cfc09ba407dced575f2d61d8"
+    },
+    {
+      "chain_id": 43114,
+      "fee_usd_e4_implied": 4105374.6651128745,
+      "fee_usd_e6": 236814.51652079483,
+      "in_e4_sample": true,
+      "ratio": 0.05768402054341702,
+      "vault": "0x1f8e769b5b6010b2c2bbcd68629ea1a0a0eda7e3"
+    },
+    {
+      "chain_id": 999,
+      "fee_usd_e4_implied": 229992.41587710654,
+      "fee_usd_e6": 229962.27477112028,
+      "in_e4_sample": true,
+      "ratio": 0.999868947391716,
+      "vault": "0xfc5126377f0efc0041c0969ef9ba903ce67d151e"
+    },
+    {
+      "chain_id": 1,
+      "fee_usd_e4_implied": 229823.59876443553,
+      "fee_usd_e6": 229798.49849900033,
+      "in_e4_sample": true,
+      "ratio": 0.9998907846471374,
+      "vault": "0xbeefff209270748ddd194831b3fa287a5386f5bc"
+    }
+  ],
+  "fee_income_vault_days": {
+    "assets_within_1e-12": 20,
+    "max_rel_diff_assets": 7.174098180654487e-16,
+    "max_rel_diff_usd": 1.1172607988785442e-13,
+    "n": 20,
+    "rows": [
+      {
+        "chain_id": 146,
+        "date": "2025-12-26",
+        "fee_assets": 5.381761410304657e+18,
+        "fee_assets_indep": 5.381761410304656e+18,
+        "fee_shares": "5257814187275396324893848",
+        "fee_shares_indep": "5257814187275396324893848",
+        "fee_usd": 0.3899771939622239,
+        "fee_usd_indep": 0.38997719396222386,
+        "kind": "silo_vault",
+        "rel_diff_assets": 1.9027227740704176e-16,
+        "rel_diff_usd": 1.4234460909689773e-16,
+        "shares_identical": true,
+        "vault": "0xded4ac8645619334186f28b8798e07ca354cfa0e"
+      },
+      {
+        "chain_id": 999,
+        "date": "2026-05-22",
+        "fee_assets": 2.283771365741931e+19,
+        "fee_assets_indep": 2.2837713657419293e+19,
+        "fee_shares": "21225436724349839055",
+        "fee_shares_indep": "21225436724349839055",
+        "fee_usd": 22.83771365741931,
+        "fee_usd_indep": 22.837713657419293,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 7.174098180654487e-16,
+        "rel_diff_usd": 7.7781728330899e-16,
+        "shares_identical": true,
+        "vault": "0x835febf893c6dddee5cf762b0f8e31c5b06938ab"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-08-29",
+        "fee_assets": 199298358.00000003,
+        "fee_assets_indep": 199298358.00000003,
+        "fee_shares": "199017491109578715341",
+        "fee_shares_indep": "199017491109578715341",
+        "fee_usd": 199.29835800000004,
+        "fee_usd_indep": 199.29835800000004,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x8381a156958711e230f325428b5eb4b6555c75d9"
+      },
+      {
+        "chain_id": 8453,
+        "date": "2024-12-16",
+        "fee_assets": 7937165.000030007,
+        "fee_assets_indep": 7937165.000030007,
+        "fee_shares": "3954419299154593735",
+        "fee_shares_indep": "3954419299154593735",
+        "fee_usd": 8.357834745031598,
+        "fee_usd_indep": 8.357834745031598,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x1c155be6bc51f2c37d472d4c2eba7a637806e122"
+      },
+      {
+        "chain_id": 56,
+        "date": "2026-03-05",
+        "fee_assets": 168883306325923.4,
+        "fee_assets_indep": 168883306325923.4,
+        "fee_shares": "166926463888536",
+        "fee_shares_indep": "166926463888536",
+        "fee_usd": 0.1094061827863611,
+        "fee_usd_indep": 0.10940618278636116,
+        "kind": "moolah_vault",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 5.073858699526624e-16,
+        "shares_identical": true,
+        "vault": "0xb798bb56898a86b6fd49fc1eca4150efdc3ee6ea"
+      },
+      {
+        "chain_id": 8453,
+        "date": "2025-06-20",
+        "fee_assets": 1.0417693478635764e+16,
+        "fee_assets_indep": 1.0417693478635766e+16,
+        "fee_shares": "10317596675969631",
+        "fee_shares_indep": "10317596675969631",
+        "fee_usd": 25.06778328683688,
+        "fee_usd_indep": 25.06778328683688,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 1.919810756672318e-16,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x5a32099837d89e3a794a44fb131cbbad41f87a8c"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-02-14",
+        "fee_assets": 120346442.00000057,
+        "fee_assets_indep": 120346442.00000057,
+        "fee_shares": "105365986286444434567",
+        "fee_shares_indep": "105365986286444434567",
+        "fee_usd": 120.34644200000056,
+        "fee_usd_indep": 120.34644200000056,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x8eb67a509616cd6a7c1b3c8c21d48ff57df3d458"
+      },
+      {
+        "chain_id": 8453,
+        "date": "2024-07-19",
+        "fee_assets": 113311795537524.84,
+        "fee_assets_indep": 113311795537524.86,
+        "fee_shares": "113044518954895",
+        "fee_shares_indep": "113044518954895",
+        "fee_usd": 0.397171440774489,
+        "fee_usd_indep": 0.3971714407744891,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 1.378938523203046e-16,
+        "rel_diff_usd": 2.795324413206067e-16,
+        "shares_identical": true,
+        "vault": "0xa2cac0023a4797b4729db94783405189a4203afc"
+      },
+      {
+        "chain_id": 747474,
+        "date": "2026-05-20",
+        "fee_assets": 60258559.0000001,
+        "fee_assets_indep": 60258559.00000009,
+        "fee_shares": "59888880856046147750",
+        "fee_shares_indep": "59888880856046147750",
+        "fee_usd": 60.18834813739566,
+        "fee_usd_indep": 60.18834813739565,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 1.2364352418257822e-16,
+        "rel_diff_usd": 1.1805320427437224e-16,
+        "shares_identical": true,
+        "vault": "0x1ecdc3f2b5e90bfb55ff45a7476ff98a8957388e"
+      },
+      {
+        "chain_id": 8453,
+        "date": "2026-04-26",
+        "fee_assets": 31199088.000003573,
+        "fee_assets_indep": 31199088.000003573,
+        "fee_shares": "29670598670741399322",
+        "fee_shares_indep": "29670598670741399322",
+        "fee_usd": 31.19908800000357,
+        "fee_usd_indep": 31.199088000003574,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 1.1387235674325141e-16,
+        "shares_identical": true,
+        "vault": "0xbeefe1372c0a384acecbe8a0adf3c94c389f6704"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-04-26",
+        "fee_assets": 1433386288207960.0,
+        "fee_assets_indep": 1433386288207960.0,
+        "fee_shares": "1429621533139435",
+        "fee_shares_indep": "1429621533139435",
+        "fee_usd": 3.3977842873909254,
+        "fee_usd_indep": 3.397784287390926,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 1.306996478552403e-16,
+        "shares_identical": true,
+        "vault": "0xd78f89b311c27c4c71487aeb73742665cd13b941"
+      },
+      {
+        "chain_id": 999,
+        "date": "2026-08-18",
+        "fee_assets": 9587048220599.23,
+        "fee_assets_indep": 9587048220599.23,
+        "fee_shares": "9482191163310",
+        "fee_shares_indep": "9482191163310",
+        "fee_usd": 0.0183649534061991,
+        "fee_usd_indep": 0.018364953406199175,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 4.156168069406319e-15,
+        "shares_identical": true,
+        "vault": "0x0571362ba5ea9784a97605f57483f865a37dbeaa"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-09-11",
+        "fee_assets": 2.7232614089745194e+21,
+        "fee_assets_indep": 2.7232614089745205e+21,
+        "fee_shares": "2692302493012254070330",
+        "fee_shares_indep": "2692302493012254070330",
+        "fee_usd": 2723.26140897452,
+        "fee_usd_indep": 2723.2614089745202,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 3.850441961041321e-16,
+        "rel_diff_usd": 1.6698630156761384e-16,
+        "shares_identical": true,
+        "vault": "0x6dc58a0fdfc8d694e571dc59b9a52eeea780e6bf"
+      },
+      {
+        "chain_id": 8453,
+        "date": "2026-09-24",
+        "fee_assets": 8025.000000210312,
+        "fee_assets_indep": 8025.000000210312,
+        "fee_shares": "7960824223192357",
+        "fee_shares_indep": "7960824223192357",
+        "fee_usd": 0.0080250000002103,
+        "fee_usd_indep": 0.008025000000210312,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 1.5131544338341974e-15,
+        "shares_identical": true,
+        "vault": "0xa157a87d41ef25d033082180858db0813ad61d39"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-08-04",
+        "fee_assets": 125083400.00000788,
+        "fee_assets_indep": 125083400.0000079,
+        "fee_shares": "113504141641250432587",
+        "fee_shares_indep": "113504141641250432587",
+        "fee_usd": 125.08340000000788,
+        "fee_usd_indep": 125.0834000000079,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 1.191298061441144e-16,
+        "rel_diff_usd": 1.1361103643809737e-16,
+        "shares_identical": true,
+        "vault": "0x62fe596d59fb077c2df736df212e0affb522dc78"
+      },
+      {
+        "chain_id": 56,
+        "date": "2025-11-02",
+        "fee_assets": 3188536377.5639486,
+        "fee_assets_indep": 3188536377.5639486,
+        "fee_shares": "3188324628",
+        "fee_shares_indep": "3188324628",
+        "fee_usd": 0.0003527443996013,
+        "fee_usd_indep": 0.00035274439960133943,
+        "kind": "moolah_vault",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 1.1172607988785442e-13,
+        "shares_identical": true,
+        "vault": "0xe46b8e65006e6450bdd8cb7d3274ab4f76f4c705"
+      },
+      {
+        "chain_id": 999,
+        "date": "2025-10-28",
+        "fee_assets": 1.8722143321956556e+16,
+        "fee_assets_indep": 1.8722143321956556e+16,
+        "fee_shares": "18634185096653821",
+        "fee_shares_indep": "18634185096653821",
+        "fee_usd": 0.8912515130763418,
+        "fee_usd_indep": 0.8912515130763418,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x264a06fd7a7c9e0bfe75163b475e2a3cc1856578"
+      },
+      {
+        "chain_id": 1,
+        "date": "2024-12-07",
+        "fee_assets": 6353233.000000249,
+        "fee_assets_indep": 6353233.000000249,
+        "fee_shares": "6069828055828512128",
+        "fee_shares_indep": "6069828055828512128",
+        "fee_usd": 6.353233000000248,
+        "fee_usd_indep": 6.353233000000249,
+        "kind": "morpho_v1",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 1.3979944064700454e-16,
+        "shares_identical": true,
+        "vault": "0x2c25f6c25770ffec5959d34b94bf898865e5d6b1"
+      },
+      {
+        "chain_id": 999,
+        "date": "2026-09-10",
+        "fee_assets": 136455150.0,
+        "fee_assets_indep": 136455150.0,
+        "fee_shares": "136395564182774670186",
+        "fee_shares_indep": "136395564182774670186",
+        "fee_usd": 136.45515,
+        "fee_usd_indep": 136.45515,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 0.0,
+        "rel_diff_usd": 0.0,
+        "shares_identical": true,
+        "vault": "0x589a57196c16d0cfab3ed229fcfa959f65ca00bf"
+      },
+      {
+        "chain_id": 999,
+        "date": "2026-06-04",
+        "fee_assets": 173169176.0000003,
+        "fee_assets_indep": 173169176.00000024,
+        "fee_shares": "171579838622692478443",
+        "fee_shares_indep": "171579838622692478443",
+        "fee_usd": 172.9692123573978,
+        "fee_usd_indep": 172.96921235739777,
+        "kind": "morpho_v2",
+        "rel_diff_assets": 3.4419892819372497e-16,
+        "rel_diff_usd": 1.643165800609511e-16,
+        "shares_identical": true,
+        "vault": "0x242572d6f1af7111bca807ecdd0f74108ceaed5d"
+      }
+    ],
+    "shares_identical": 20,
+    "usd_within_1e-9": 20
+  },
+  "fee_rate_vs_e4_perf_fee_mean": {
+    "max_abs_diff": 4.7216022758256315e-11,
+    "n": 875,
+    "vaults_within_1e-9": 875
+  },
+  "flow_regression": {
+    "own_ols_apy": 0.10363750759431295,
+    "own_se_apy": 0.02228601593067011,
+    "permutation_p_apy": 0.0004997501249375312,
+    "same_sign": true,
+    "statsmodels_apy": 0.10363750759431299,
+    "statsmodels_se_apy": 0.022286015930670047
+  },
+  "recipient_transfers": {
+    "balance_checks_matching": 10,
+    "n": 10,
+    "recipients": 11,
+    "recipients_matching": 11,
+    "rpc_calls": 11,
+    "vaults": [
+      {
+        "chain_id": 999,
+        "kind": "morpho_v1",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "0",
+            "balance_from_logs": "0",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "16659752041223887130723",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "16659752041223887130723",
+            "mints_to_recipient": "16659752041223887130723",
+            "recipient": "0x35e42a5ca87a4e4fb235585b36d7c978ea72b290",
+            "transfers_in": "16659752041223887130723",
+            "transfers_out": "16659752041223887130723"
+          },
+          {
+            "balanceOf_at_head": "9352284605113603149",
+            "balance_from_logs": "9352284605113603149",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "4609317100156301111762",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "4609317100156301111762",
+            "mints_to_recipient": "4609317100156301111762",
+            "recipient": "0x514272d916419eb3048d8eadebbdff1b116273cd",
+            "transfers_in": "21269069141380188242485",
+            "transfers_out": "21259716856775074639336"
+          }
+        ],
+        "vault": "0xe5add96840f0b908ddeb3bd144c0283ac5ca7ca0"
+      },
+      {
+        "chain_id": 8453,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "0",
+            "balance_from_logs": "0",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "6914881236127500",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "6914881236127500",
+            "mints_to_recipient": "6914881236127500",
+            "recipient": "0x43a32a014051b6bb8160bf9e0c2c7b4c407679bf",
+            "transfers_in": "6914881236127500",
+            "transfers_out": "6914881236127500"
+          }
+        ],
+        "vault": "0x9cdec254fdca9d739eb4873c145a1b3022a8f5a5"
+      },
+      {
+        "chain_id": 8453,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "35434504077604349548",
+            "balance_from_logs": "35434504077604349548",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "35434504077604349548",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "35434504077604349548",
+            "mints_to_recipient": "35434504077604349548",
+            "recipient": "0x8e534893975f077c355792ef24e752cb2a54634a",
+            "transfers_in": "35434504077604349548",
+            "transfers_out": "0"
+          }
+        ],
+        "vault": "0xa0f5a222146519916e5b196563b5fbcb5ac6d367"
+      },
+      {
+        "chain_id": 1,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "1541238362843012913157",
+            "balance_from_logs": "1541238362843012913157",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "17761836540876278763880",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "17761836540876278763880",
+            "mints_to_recipient": "17761836540876278763880",
+            "recipient": "0xeb4af6fa3afa08b10d593ec8ff87efb03bc04645",
+            "transfers_in": "17761836540876278763880",
+            "transfers_out": "16220598178033265850723"
+          }
+        ],
+        "vault": "0x35cbe8542e70fa2f7f9cdf129f19e593f4b4f560"
+      },
+      {
+        "chain_id": 56,
+        "kind": "moolah_vault",
+        "match": true,
+        "protocol": "moolah",
+        "recipients": [
+          {
+            "balanceOf_at_head": "435528656399221658198",
+            "balance_from_logs": "435528656399221658198",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "43879258717504886852385",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "43879258717504886852385",
+            "mints_to_recipient": "43879258717504886852385",
+            "recipient": "0x2e2eed557fab1d2e11fea1e1a23ff8f1b23551f3",
+            "transfers_in": "43879258717504886852385",
+            "transfers_out": "43443730061105665194187"
+          }
+        ],
+        "vault": "0x9a17fd5cb8efc25d11567e713ae795a89775a759"
+      },
+      {
+        "chain_id": 8453,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "28569717131477550",
+            "balance_from_logs": "28569717131477550",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "28569717131477550",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "28569717131477550",
+            "mints_to_recipient": "28569717131477550",
+            "recipient": "0x09ddb1031a31ac82ef276ab8ea67c0941ef27c02",
+            "transfers_in": "28569717131477550",
+            "transfers_out": "0"
+          }
+        ],
+        "vault": "0xefa40c84f1f2335a8599dd7686a28d2b6263b6ef"
+      },
+      {
+        "chain_id": 42161,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "10802254187288175516",
+            "balance_from_logs": "10802254187288175516",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "10802254187288175516",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "10802254187288175516",
+            "mints_to_recipient": "10802254187288175516",
+            "recipient": "0x92cab9aa02ca9c8694179bf08a2daf7441a3e8a7",
+            "transfers_in": "10802254187288175516",
+            "transfers_out": "0"
+          }
+        ],
+        "vault": "0xfd3b6de1eaeeb3e8cadd125bfc8aec492a5c542f"
+      },
+      {
+        "chain_id": 1,
+        "kind": "morpho_v1",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "1248220404876459781810",
+            "balance_from_logs": "1248220404876459781810",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "1248220404876459781810",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "1248220404876459781810",
+            "mints_to_recipient": "1248220404876459781810",
+            "recipient": "0x255c7705e8bb334dfcae438197f7c4297988085a",
+            "transfers_in": "1248220404876459781810",
+            "transfers_out": "0"
+          }
+        ],
+        "vault": "0xbeef11c63d7173bdcc2037e7220ee9bd0ccda862"
+      },
+      {
+        "chain_id": 1,
+        "kind": "morpho_v1",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "5934355846131954",
+            "balance_from_logs": "5934355846131954",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "140725983379915457552",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "140725983379915457552",
+            "mints_to_recipient": "140725983379915457552",
+            "recipient": "0xe5e2baf96198c56380ddd5e992d7d1ada0e989c0",
+            "transfers_in": "140725983379915457552",
+            "transfers_out": "140720049024069325598"
+          }
+        ],
+        "vault": "0xdc2dd5189f70fe2832d9caf7b17d27aa3d79dbe1"
+      },
+      {
+        "chain_id": 1,
+        "kind": "morpho_v2",
+        "match": true,
+        "protocol": "morpho",
+        "recipients": [
+          {
+            "balanceOf_at_head": "13160910519637541",
+            "balance_from_logs": "13160910519637541",
+            "balance_match": true,
+            "deposit_shares_to_recipient": "0",
+            "fee_shares_from_fees_csv": "13160910519637541",
+            "gap": "0",
+            "match": true,
+            "mints_minus_deposits": "13160910519637541",
+            "mints_to_recipient": "13160910519637541",
+            "recipient": "0x7ddc31cb00bd76b5f0d972f8325f0148446f65ff",
+            "transfers_in": "13160910519637541",
+            "transfers_out": "0"
+          }
+        ],
+        "vault": "0xda64d2440835494ea9a29709a2893f578cc49cc6"
+      }
+    ],
+    "vaults_matching": 10
+  },
+  "rpc_calls": 11
+}

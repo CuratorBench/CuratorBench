@@ -1,0 +1,7 @@
+{
+  "generator": "code/analysis/e2_events.py",
+  "peg_rules": "code/data/prices.py classify (address then symbol rules)",
+  "rows": 235,
+  "what": "symbol, decimals and E1 peg family of tokens E2 uses that data/prices/tokens.jsonl does not list",
+  "written_utc": "2026-10-18T22:31:57+00:00"
+}

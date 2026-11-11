@@ -1,0 +1,1676 @@
+{
+  "tier_order": [
+    "1 ladder",
+    "2 wrapper rate x underlying",
+    "3 >=3 pools within 10%, any size",
+    "4 largest own pool",
+    "5 last ladder-passed sample (only with no readable pool)",
+    "6 issuer redemption, only when no pool of size (tier 1) quotes a price"
+  ],
+  "tokens": {
+    "msusd:AVLT": {
+      "case": "msusd",
+      "chosen": {
+        "depth_usd": 46879.22,
+        "n_pools": 1,
+        "price": 0.27396955504598475,
+        "source": "ladder_a",
+        "tier": 1
+      },
+      "deployments": [
+        [
+          "1",
+          "0x74db7a52773a52699dbc0c01b1254e5301e3e119"
+        ],
+        [
+          "999",
+          "0xd0ee0cf300dfb598270cd7f4d0c6e0d8f6e13f29"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0x49b89ee666acc242de6a2f25ffdbb25dcc693a7f4746d8d4afeb51c440fa938a",
+          "oracle": "0x2c7aa77cc726b35b1f182d90d45292e0be38a841",
+          "value": 1.09449293
+        },
+        "booked_share_value": {
+          "asset": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+          "asset_price": 1.0,
+          "asset_priced_by": "USD\u20ae0 at par",
+          "block": 45531728,
+          "chain_id": "999",
+          "rate": 1.094492,
+          "value": 1.094492
+        },
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "999": 45531728
+        },
+        "by_chain": {
+          "999:0xd0ee0cf3": {
+            "block": 45531728,
+            "n_pools": 1
+          }
+        },
+        "depth_usd": 46879.22,
+        "missing": [
+          [
+            "1",
+            "0x74db7a52773a52699dbc0c01b1254e5301e3e119"
+          ]
+        ],
+        "n_pools": 1,
+        "pools": [
+          {
+            "chain_id": "999",
+            "coin_units": 233482.712115,
+            "counter": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+            "dex": "project-x",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xb0ca298dd776421ee1b9b053c06168971395cd1a",
+            "price": 0.27396955504598475,
+            "sound_usd": 46879.22
+          }
+        ],
+        "price": 0.27396955504598475,
+        "test": "a"
+      },
+      "symbol": "AVLT",
+      "tiers_tried": [
+        {
+          "price": 0.27396955504598475,
+          "test": "a",
+          "tier": 1
+        }
+      ]
+    },
+    "msusd:msUSD": {
+      "case": "msusd",
+      "chosen": {
+        "chain_id": "1",
+        "coin_units": 431898.9936807837,
+        "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "depth_usd": 3424.79,
+        "dex": "uniswap_v3:100",
+        "measured": true,
+        "pool": "0x536a65800167b07b9e5cabb9088b17df3f827fb2",
+        "price": 0.4709447257065563,
+        "sound_usd": 3424.79,
+        "source": "single_pool_below_floor",
+        "tier": 4
+      },
+      "deployments": [
+        [
+          "1",
+          "0x4ba01f22827018b4772cd326c7627fb4956a7c00"
+        ],
+        [
+          "146",
+          "0xe5fb2ed6832def99dde57c0b9d9a56537c89121d"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": null,
+        "booked_share_value": null,
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847,
+          "146": 78982046
+        },
+        "by_chain": {
+          "146:0xe5fb2ed6": {
+            "block": 78982046,
+            "n_pools": 3
+          },
+          "1:0x4ba01f22": {
+            "block": 25946847,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 0,
+        "missing": [],
+        "n_pools": 6,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x544a7c8755f3153ec2a76bb25488ef35ee22b61326a86e4993aa44511fa211e3",
+            "price": 0.3177616908286413,
+            "sound_usd": 3.43
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x30493bb32c27e59c8eef01955cdbcdda7381037ac09664986413e89d506d2a54",
+            "price": 0.28721167010344684,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 431898.9936807837,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap_v3:100",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x536a65800167b07b9e5cabb9088b17df3f827fb2",
+            "price": 0.4709447257065563,
+            "sound_usd": 3424.79
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 10.320021173976613,
+            "counter": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+            "dex": "sushiswap-v3-sonic",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x8c821f4613a6abbd27adbdb6fb9172a4aa27fc03",
+            "price": 0.9901520331176266,
+            "sound_usd": 0.02
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 0.00856234098442676,
+            "counter": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+            "dex": "swapx-algebra",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x299490f77551b6b4a16910014b874776fe72dca9",
+            "price": 0.056142866325807894,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 1565.7050299521634,
+            "counter": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+            "dex": "shadow-exchange",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x6494bcef30adababf79c27b89baaa9bf7cefd3ad",
+            "price": 5.1444708256487176e-08,
+            "sound_usd": 0.0
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "msUSD",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "n_members": 0,
+          "price": null,
+          "tier": 3
+        },
+        {
+          "n_readable": 6,
+          "tier": 4
+        }
+      ]
+    },
+    "msusd:msY": {
+      "case": "msusd",
+      "chosen": {
+        "asset": "0x4ba01f22827018b4772cd326c7627fb4956a7c00",
+        "chain_id": "1",
+        "depth_usd": null,
+        "price": 0.5063499865165505,
+        "rate": 1.0751792277891548,
+        "source": "wrapper_rate_x_underlying",
+        "tier": 2,
+        "token": "0x890a5122aa1da30fec4286de7904ff808f0bd74a",
+        "underlying": "msUSD",
+        "underlying_price": 0.4709447257065563
+      },
+      "deployments": [
+        [
+          "1",
+          "0x890a5122aa1da30fec4286de7904ff808f0bd74a"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": null,
+        "booked_share_value": {
+          "asset": "0x4ba01f22827018b4772cd326c7627fb4956a7c00",
+          "asset_price": 0.4709447257065563,
+          "asset_priced_by": "msUSD (case tiers)",
+          "block": 25946847,
+          "chain_id": "1",
+          "rate": 1.0751792277891548,
+          "value": 0.5063499865165505
+        },
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847
+        },
+        "by_chain": {
+          "1:0x890a5122": {
+            "block": 25946847,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 0,
+        "missing": [],
+        "n_pools": 3,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xbc1c4c89b279816bfd1b76ea565e831b5114475343a6fbd92ac3630d3c16e1b5",
+            "price": 0.2482500507243597,
+            "sound_usd": 14.87
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xce109db7739c6246c0ac06e6e6b59912021be6c39cd9ba78090cc7df1baff954",
+            "price": 0.48073285514665814,
+            "sound_usd": 88.71
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x0a955cfe9ea16fa7491418df50d429463a2d44932f377915902715a703123556",
+            "price": 0.13847947535535374,
+            "sound_usd": 21.38
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "msY",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "rate": 1.0751792277891548,
+          "tier": 2,
+          "under": "msUSD",
+          "under_price": 0.4709447257065563
+        }
+      ]
+    },
+    "msusd:smsUSD": {
+      "case": "msusd",
+      "chosen": {
+        "price": null,
+        "source": "no_deployment_found",
+        "tier": null
+      },
+      "deployments": [],
+      "issuer": null,
+      "ladder": null,
+      "symbol": "smsUSD",
+      "tiers_tried": []
+    },
+    "rseth:rsETH": {
+      "case": "rseth",
+      "chosen": {
+        "depth_usd": 10390.19,
+        "n_pools": 12,
+        "price": 1.0695646437305073,
+        "source": "ladder_a",
+        "tier": 1
+      },
+      "deployments": [
+        [
+          "1",
+          "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7"
+        ],
+        [
+          "8453",
+          "0x1bc71130a0e39942a7658878169764bbd8a45993"
+        ],
+        [
+          "42161",
+          "0x4186bfc76e2e237523cbc30fd220fe055156b41f"
+        ],
+        [
+          "130",
+          "0xc3eacf0612346366db554c991d7858716db09f58"
+        ],
+        [
+          "43111",
+          "0xc3eacf0612346366db554c991d7858716db09f58"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "WETH",
+          "market_uid": "morpho:1:0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+          "oracle": "0x2a2658fc208ed00e11d96d3f7470618924466877",
+          "value": 1.0798002670283613
+        },
+        "booked_share_value": null,
+        "redemption": {
+          "applies": true,
+          "block": 25946847,
+          "kind": "withdrawal_rate",
+          "native_unit": "ETH",
+          "source": "Kelp LRTOracle 0x349a73444b1a310bae67ef67973022020d70020d.rsETHPrice()",
+          "value": 1.0798002670283613
+        }
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847,
+          "42161": 503701064,
+          "8453": 51126126
+        },
+        "by_chain": {
+          "1:0xa1290d69": {
+            "block": 25946847,
+            "n_pools": 5
+          },
+          "42161:0x4186bfc7": {
+            "block": 503701064,
+            "n_pools": 4
+          },
+          "8453:0x1bc71130": {
+            "block": 51126126,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 10390.19,
+        "missing": [
+          [
+            "130",
+            "0xc3eacf0612346366db554c991d7858716db09f58"
+          ],
+          [
+            "43111",
+            "0xc3eacf0612346366db554c991d7858716db09f58"
+          ]
+        ],
+        "n_pools": 12,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0x0000000000000000000000000000000000000000",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": true,
+            "measured": false,
+            "pool": "0x3ffa23dc8cbb32957059d95efdc2722e1206e295fe72c90d4563721937921f5a",
+            "price": 1.0735775234616327,
+            "sound_usd": 43892085.51
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 0.04397052486289476,
+            "counter": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "dex": "uniswap_v3:500",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x059615ebf32c946aaab3d44491f78e4f8e97e1d3",
+            "price": 1.0723706000909514,
+            "sound_usd": 18.55
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": true,
+            "measured": false,
+            "pool": "0x1b9b8b3964d2e180c185b1c5f60d45ea2461a8acb2355d2489052bc76dbd5233",
+            "price": 0.8667602663282533,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 0.42004794034546333,
+            "counter": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+            "dex": "curve",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x6683eafe46cb9ed394f298e14b87ed680c17cedd",
+            "price": 0.1577835103755947,
+            "sound_usd": 434.12
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 0.026795450176561764,
+            "counter": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+            "dex": "uniswap_v3:500",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x7a27c7b7e2536e452c57d3e8b909d9ecba2e2eee",
+            "price": 0.7774325469429787,
+            "sound_usd": 0.88
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": null,
+            "counter": "0x0000000000000000000000000000000000000000",
+            "dex": "uniswap-v4-base",
+            "in_cluster": true,
+            "measured": false,
+            "pool": "0x4b8c48cd2dcb1daab11df302af10374bd204b723ca7a633f76704ab3f52a4bae",
+            "price": 0.996413200585974,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": 2.551079696e-09,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "aerodrome:volatile",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x19488a08bd49083d1a5141992a44ca5b88faa80e",
+            "price": 0.0007534284416961626,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": 2.7270636e-11,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "uniswap_v3:3000",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x23b98bec122879156b3107a1f28f5d811ba6d719",
+            "price": 1.0546386184754226,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "42161",
+            "coin_units": 0.006235317181432396,
+            "counter": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "dex": "pancake_v3:100",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x4b89179dafe5c36ae611208b5590fef9153b7daa",
+            "price": 1.073253041314643,
+            "sound_usd": 7900.07
+          },
+          {
+            "chain_id": "42161",
+            "coin_units": 0.8834825829919776,
+            "counter": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "dex": "camelot-v3",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xb355cce5cbaf411bd56e3b092f5aa10a894083ae",
+            "price": 1.0695646437305073,
+            "sound_usd": 1517.78
+          },
+          {
+            "chain_id": "42161",
+            "coin_units": 1.2744888985263514,
+            "counter": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "dex": "uniswap_v3:3000",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x20384b876fab2848cf9f632e5df8c50fe6f311f8",
+            "price": 1.0696861280708516,
+            "sound_usd": 924.57
+          },
+          {
+            "chain_id": "42161",
+            "coin_units": 0.019317917698139495,
+            "counter": "0x5979d7b546e38e414f7e9822514be443a4800529",
+            "dex": "uniswap_v3_arbitrum",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x5baf59a6e6df0ee95bce8c43daa05b288e340e7d",
+            "price": 0.8623245620049683,
+            "sound_usd": 29.21
+          }
+        ],
+        "price": 1.0695646437305073,
+        "test": "a"
+      },
+      "symbol": "rsETH",
+      "tiers_tried": [
+        {
+          "price": 1.0695646437305073,
+          "test": "a",
+          "tier": 1
+        }
+      ]
+    },
+    "rseth:wrsETH": {
+      "case": "rseth",
+      "chosen": {
+        "depth_usd": 73729.29,
+        "n_pools": 10,
+        "price": 1.0693437464394526,
+        "source": "ladder_b",
+        "tier": 1
+      },
+      "deployments": [
+        [
+          "8453",
+          "0xedfa23602d0ec14714057867a78d01e94176bea0"
+        ],
+        [
+          "10",
+          "0x87eee96d50fb761ad85b1c982d28a042169d61b1"
+        ],
+        [
+          "43114",
+          "0x7bfd4ca2a6cf3a3fddd645d10b323031afe47ff0"
+        ],
+        [
+          "9745",
+          "0xe561fe05c39075312aa9bc6af79ddae981461359"
+        ],
+        [
+          "59144",
+          "0xd2671165570f41bbb3b0097893300b6eb6101e6c"
+        ],
+        [
+          "5000",
+          "0x93e855643e940d025be2e529272e4dbd15a2cf74"
+        ],
+        [
+          "324",
+          "0xd4169e045bcf9a86cc00101225d9ed61d2f51af2"
+        ],
+        [
+          "57073",
+          "0x9f0a74a92287e323eb95c1cd9ecdbeb0e397cae4"
+        ],
+        [
+          "4326",
+          "0x4fc44be15e9b6e30c1e774e2c87a21d3e8b5403f"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 51126126,
+          "loan": "WETH",
+          "market_uid": "morpho:8453:0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+          "oracle": "0x55e6de626d8b937782f08c8d3d9e54e340a78d0e",
+          "value": 1.079697096653986
+        },
+        "booked_share_value": null,
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "10": 156721411,
+          "59144": 31991738,
+          "8453": 51126126
+        },
+        "by_chain": {
+          "10:0x87eee96d": {
+            "block": 156721411,
+            "n_pools": 4
+          },
+          "59144:0xd2671165": {
+            "block": 31991738,
+            "n_pools": 3
+          },
+          "8453:0xedfa2360": {
+            "block": 51126126,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 73729.29,
+        "missing": [
+          [
+            "43114",
+            "0x7bfd4ca2a6cf3a3fddd645d10b323031afe47ff0"
+          ],
+          [
+            "9745",
+            "0xe561fe05c39075312aa9bc6af79ddae981461359"
+          ],
+          [
+            "5000",
+            "0x93e855643e940d025be2e529272e4dbd15a2cf74"
+          ],
+          [
+            "324",
+            "0xd4169e045bcf9a86cc00101225d9ed61d2f51af2"
+          ],
+          [
+            "57073",
+            "0x9f0a74a92287e323eb95c1cd9ecdbeb0e397cae4"
+          ],
+          [
+            "4326",
+            "0x4fc44be15e9b6e30c1e774e2c87a21d3e8b5403f"
+          ]
+        ],
+        "n_pools": 10,
+        "pools": [
+          {
+            "chain_id": "8453",
+            "coin_units": 4.599765765712415,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "aerodrome:volatile",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xa24382874a6fd59de45bbccfa160488647514c28",
+            "price": 1.0693437464394526,
+            "sound_usd": 13499.41
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": 0.7508692543783124,
+            "counter": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+            "dex": "aerodrome-slipstream",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x14dccdd311ab827c42cca448ba87b1ac1039e2a4",
+            "price": 0.8492333251438838,
+            "sound_usd": 6.78
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": 5.0619468579003e-05,
+            "counter": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+            "dex": "aerodrome:volatile",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0xccf0c2ec26823f59dd562a84e6946b3e180b87ea",
+            "price": 0.9767941030138895,
+            "sound_usd": 0.14
+          },
+          {
+            "chain_id": "10",
+            "coin_units": 0.7386828539279361,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "velodrome_v2:volatile",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xe48b4e392e4fc29ac2600c3c8efe0404a15d60d9",
+            "price": 1.0610103364722483,
+            "sound_usd": 2150.99
+          },
+          {
+            "chain_id": "10",
+            "coin_units": 0.017759769191644535,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "velodrome-finance-slipstream",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x2dc721015a85f640e5f38c5a2860b80b31658257",
+            "price": 1.010251681275881,
+            "sound_usd": 459.98
+          },
+          {
+            "chain_id": "10",
+            "coin_units": 0.00998184870570497,
+            "counter": "0x4200000000000000000000000000000000000006",
+            "dex": "uniswap_v3:500",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0xaba4a5feea6310998a0c2523e6f138f8f5b2133a",
+            "price": 1.0593541217823736,
+            "sound_usd": 28.62
+          },
+          {
+            "chain_id": "10",
+            "coin_units": 0.7656629438838453,
+            "counter": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+            "dex": "uniswap_v3_optimism",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x529b8a9e318a89556af561af59cde4095367d8c8",
+            "price": 0.8537248362311238,
+            "sound_usd": 45.73
+          },
+          {
+            "chain_id": "59144",
+            "coin_units": 0.02557048846279387,
+            "counter": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+            "dex": "nile",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xce6f03c4f2d1f23ed1996c85b6ff047fb049b61f",
+            "price": 1.07454440879958,
+            "sound_usd": 58078.88
+          },
+          {
+            "chain_id": "59144",
+            "coin_units": 4.4107928202329125,
+            "counter": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+            "dex": "syncswap-v2-1-linea",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0xfe2243fef13374d76a9ec2d4b9f3e17841bbf914",
+            "price": 1.4628923199983597,
+            "sound_usd": 17708.86
+          },
+          {
+            "chain_id": "59144",
+            "coin_units": 1.013e-15,
+            "counter": "0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6",
+            "dex": "nile-v1",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x54f28a1082aa313f0c0c5c1e2c30a1822b673c95",
+            "price": 0.9802566633761104,
+            "sound_usd": 0.0
+          }
+        ],
+        "price": 1.0693437464394526,
+        "test": "b"
+      },
+      "symbol": "wrsETH",
+      "tiers_tried": [
+        {
+          "price": 1.0693437464394526,
+          "test": "b",
+          "tier": 1
+        }
+      ]
+    },
+    "stream:xUSD": {
+      "case": "stream",
+      "chosen": {
+        "chain_id": "1",
+        "coin_units": null,
+        "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "depth_usd": 3529.14,
+        "dex": "uniswap-v4-ethereum",
+        "measured": false,
+        "pool": "0x6ce7522ac36dd88f82193f031e1f3214c9dff55a8634cdee35d2b163148d9154",
+        "price": 0.02510698118559775,
+        "sound_usd": 3529.14,
+        "source": "single_pool_below_floor",
+        "tier": 4
+      },
+      "deployments": [
+        [
+          "1",
+          "0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94"
+        ],
+        [
+          "42161",
+          "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+        ],
+        [
+          "146",
+          "0x6202b9f02e30e5e1c62cc01e4305450e5d83b926"
+        ],
+        [
+          "43114",
+          "0x94f9bb5c972285728dcee7eaece48bec2ff341ce"
+        ],
+        [
+          "98866",
+          "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+        ],
+        [
+          "9745",
+          "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+        ],
+        [
+          "1329",
+          "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0x39fe55e5102beac5fb3caff54142f26250b97dcdb5bea6122818c7760f38b331",
+          "oracle": "0x2f05ac98d85101b5f826d51337df573cf02a0a38",
+          "value": 1.26609
+        },
+        "booked_share_value": null,
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847,
+          "146": 78982046,
+          "43114": 94935393,
+          "9745": 32101033
+        },
+        "by_chain": {
+          "146:0x6202b9f0": {
+            "block": 78982046,
+            "n_pools": 3
+          },
+          "1:0xe2fc85bf": {
+            "block": 25946847,
+            "n_pools": 3
+          },
+          "43114:0x94f9bb5c": {
+            "block": 94935393,
+            "n_pools": 1
+          },
+          "9745:0x6eaf19b2": {
+            "block": 32101033,
+            "n_pools": 0
+          }
+        },
+        "depth_usd": 0.45,
+        "missing": [
+          [
+            "42161",
+            "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+          ],
+          [
+            "98866",
+            "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+          ],
+          [
+            "1329",
+            "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c"
+          ]
+        ],
+        "n_pools": 7,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x923433f293796ae4fa478193878949409c23ccfbfc2f5acafcdecc4f0b9231d8",
+            "price": 0.05964367377459983,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x6ce7522ac36dd88f82193f031e1f3214c9dff55a8634cdee35d2b163148d9154",
+            "price": 0.02510698118559775,
+            "sound_usd": 3529.14
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x3fd80e8bdbcdb8c8c5d4d279a75934143566183f46f181d32e53406f0a1cca2c",
+            "price": 0.1817287874783348,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 86.154615,
+            "counter": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+            "dex": "shadow-exchange",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x5d47882852688084d94adcf12e30b11d0afb50fa",
+            "price": 0.02090311114204405,
+            "sound_usd": 0.45
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 1.222078,
+            "counter": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+            "dex": "swapx-algebra",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0xa3eb618dd4789f2086deef81c0e2fcb4c2d9b3ba",
+            "price": 2.938956807585584e-39,
+            "sound_usd": 0.12
+          },
+          {
+            "chain_id": "146",
+            "coin_units": 0.077301,
+            "counter": "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
+            "dex": "swapx-algebra",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x512aa29adde642ad6ca71b8f8214113c0bf8bcbe",
+            "price": 2.9389568101428185e-39,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "43114",
+            "coin_units": 1298.024011,
+            "counter": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+            "dex": "blackhole-v3",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x75234dddddea0bbf5a485b146d8274bc1b853908",
+            "price": 0.035033437641600655,
+            "sound_usd": 10.43
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "xUSD",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "n_members": 0,
+          "price": null,
+          "tier": 3
+        },
+        {
+          "n_readable": 7,
+          "tier": 4
+        }
+      ]
+    },
+    "usd0pp:bUSD0": {
+      "case": "usd0pp",
+      "chosen": {
+        "depth_usd": 3009166.29,
+        "n_pools": 6,
+        "price": 0.974319866979208,
+        "source": "ladder_a",
+        "tier": 1
+      },
+      "deployments": [
+        [
+          "1",
+          "0x35d8949372d46b7a3d5a56006ae77b215fc69bc0"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0xbef47159fd478cdd8c34073b71f97ca796aad295a87192fcffc813fad60de9f4",
+          "oracle": "0x3a72f1f8e549c2398c83fb223c178162bac2bdc3",
+          "value": 1.0001082017063425
+        },
+        "booked_share_value": null,
+        "redemption": {
+          "applies": true,
+          "block": 25946847,
+          "kind": "early_redemption_floor",
+          "native_unit": "USD0",
+          "paused": false,
+          "per_unit_native": 0.92,
+          "source": "USD0PP.getFloorPrice()",
+          "usd0_price": 0.99871,
+          "usd0_price_test": "a",
+          "value": 0.9188132
+        }
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847
+        },
+        "by_chain": {
+          "1:0x35d89493": {
+            "block": 25946847,
+            "n_pools": 6
+          }
+        },
+        "depth_usd": 3009166.29,
+        "missing": [],
+        "n_pools": 6,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": true,
+            "measured": false,
+            "pool": "0xf7823899db25b4576112703529d5b6d4b94943b5ca1c08d48116813e820de49c",
+            "price": 0.9412049613451021,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 21.943776760848692,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap_v3:500",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x34f3cf0bc81bc5b2697b3b2b260cda33ffe564ab",
+            "price": 0.9327725639390072,
+            "sound_usd": 148.99
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 1.489849080850237,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap_v3:500",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xb2fedd4a8146f7eb5b5ae5e47c023ec77f1f4167",
+            "price": 1.0004027052480902,
+            "sound_usd": 15.66
+          },
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+            "dex": "bunni-ethereum",
+            "in_cluster": true,
+            "measured": false,
+            "pool": "0x54ff1fd1d62f3bc6224082ecfdb3190a34e8428611b058ade19ce6c083cb608b",
+            "price": 0.92478294,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 708122.4647758394,
+            "counter": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+            "dex": "uniswap_v3:100",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0xabfca96716cf2911bbb50a4cdbcbaffa2ef8ecda",
+            "price": 0.9754053174033562,
+            "sound_usd": 2763223.45
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 1552559.1473221562,
+            "counter": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+            "dex": "curve",
+            "in_cluster": true,
+            "measured": true,
+            "pool": "0x1d08e7adc263cfc70b1babe6dc5bb339c16eec52",
+            "price": 0.974319866979208,
+            "sound_usd": 245778.2
+          }
+        ],
+        "price": 0.974319866979208,
+        "test": "a"
+      },
+      "symbol": "bUSD0",
+      "tiers_tried": [
+        {
+          "price": 0.974319866979208,
+          "test": "a",
+          "tier": 1
+        }
+      ]
+    },
+    "usr:RLP": {
+      "case": "usr",
+      "chosen": {
+        "depth_usd": 1062.12,
+        "issuer_kind": "announced_settlement",
+        "market": {
+          "chain_id": "1",
+          "coin_units": 14438.69060079858,
+          "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "depth_usd": 1062.12,
+          "dex": "curve",
+          "measured": true,
+          "pool": "0x8e001d4bac0eae1eea348dfc22f9b8bda67dd211",
+          "price": 0.135,
+          "sound_usd": 1062.12,
+          "source": "single_pool_below_floor",
+          "tier": 4
+        },
+        "price": 0.71,
+        "source": "issuer_redemption",
+        "tier": 6
+      },
+      "deployments": [
+        [
+          "1",
+          "0x4956b52ae2ff65d74ca2d61207523288e4528f96"
+        ],
+        [
+          "8453",
+          "0xc31389794ffac23331e0d9f611b7953f90aa5fdc"
+        ],
+        [
+          "42161",
+          "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9"
+        ],
+        [
+          "999",
+          "0x0a3d8466f5de586fa5f6de117301e2f90bcc5c48"
+        ],
+        [
+          "9745",
+          "0x35533f54740f1f1aa4179e57ba37039dfa16868b"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33",
+          "oracle": "0x19018450a02bc5c1994ead517498311f64b2626a",
+          "value": 1.28718193
+        },
+        "booked_share_value": null,
+        "redemption": {
+          "applies": true,
+          "config": "issuer_settlements.json",
+          "kind": "announced_settlement",
+          "native_unit": "USD",
+          "rule": "applied uniformly across RLP holders, as the framework states",
+          "source": "same framework: 1 RLP : 0.71 USDC, RLP reset to 55% of the last pre-incident reference price",
+          "value": 0.71
+        }
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847
+        },
+        "by_chain": {
+          "1:0x4956b52a": {
+            "block": 25946847,
+            "n_pools": 1
+          }
+        },
+        "depth_usd": 1062.12,
+        "missing": [
+          [
+            "8453",
+            "0xc31389794ffac23331e0d9f611b7953f90aa5fdc"
+          ],
+          [
+            "42161",
+            "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9"
+          ],
+          [
+            "999",
+            "0x0a3d8466f5de586fa5f6de117301e2f90bcc5c48"
+          ],
+          [
+            "9745",
+            "0x35533f54740f1f1aa4179e57ba37039dfa16868b"
+          ]
+        ],
+        "n_pools": 1,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": 14438.69060079858,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "curve",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x8e001d4bac0eae1eea348dfc22f9b8bda67dd211",
+            "price": 0.135,
+            "sound_usd": 1062.12
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "RLP",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "n_members": 0,
+          "price": null,
+          "tier": 3
+        },
+        {
+          "n_readable": 1,
+          "tier": 4
+        }
+      ]
+    },
+    "usr:USR": {
+      "case": "usr",
+      "chosen": {
+        "depth_usd": 3800.09,
+        "issuer_kind": "announced_settlement",
+        "market": {
+          "depth_usd": 3800.09,
+          "members": [
+            {
+              "chain_id": "1",
+              "coin_units": 25589.714132033452,
+              "counter": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+              "dex": "curve",
+              "measured": true,
+              "pool": "0x4628f13651ead6793f8d838b34b8f8522fb0cc52",
+              "price": 0.11255631570128836,
+              "sound_usd": 96.37
+            },
+            {
+              "chain_id": "1",
+              "coin_units": 27072.165170570577,
+              "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "dex": "uniswap_v3:500",
+              "measured": true,
+              "pool": "0x8bb9cd887dd51c5aa8d7da9e244c94bec035e47c",
+              "price": 0.113493885852628,
+              "sound_usd": 3588.54
+            },
+            {
+              "chain_id": "1",
+              "coin_units": 10007.571783224219,
+              "counter": "0x865377367054516e17014ccded1e7d814edc9ce4",
+              "dex": "curve",
+              "measured": true,
+              "pool": "0x38de22a3175708d45e7c7c64cd78479c8b56f76e",
+              "price": 0.11513661095701312,
+              "sound_usd": 44.45
+            },
+            {
+              "chain_id": "8453",
+              "coin_units": 932.7025624005894,
+              "counter": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "dex": "uniswap_v3:500",
+              "measured": true,
+              "pool": "0xebbe893eab7c830de0e04cb54a974ea279b9d37a",
+              "price": 0.11607646497518405,
+              "sound_usd": 70.73
+            }
+          ],
+          "n_counters": 4,
+          "n_members": 4,
+          "n_venues": 2,
+          "price": 0.11513661095701312,
+          "source": "cluster3_any_size",
+          "tier": 3
+        },
+        "price": 0.5,
+        "source": "issuer_redemption",
+        "tier": 6
+      },
+      "deployments": [
+        [
+          "1",
+          "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110"
+        ],
+        [
+          "8453",
+          "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9"
+        ],
+        [
+          "42161",
+          "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9"
+        ],
+        [
+          "56",
+          "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9"
+        ],
+        [
+          "999",
+          "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77"
+        ],
+        [
+          "9745",
+          "0xb1b385542b6e80f77b94393ba8342c3af699f15c"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77",
+          "oracle": "0x8875ceb24e656fca062759bdcf870f59a2b0187b",
+          "value": 1.0
+        },
+        "booked_share_value": null,
+        "redemption": {
+          "applies": true,
+          "config": "issuer_settlements.json",
+          "kind": "announced_settlement",
+          "native_unit": "USD",
+          "rule": "every USR unit at the lower rate, 0.5, since pre- and post-incident units are not told apart at the onset block; wstUSR follows through its conversion rate (tier 2)",
+          "source": "Resolv recovery framework, published May 2026 (claims 2026-05-26 to 2026-08-26): pre-incident USR and wstUSR 1 USR : 1 USDC; post-incident USR and wstUSR 1 USR : 0.5 USDC; pre-incident USR as collateral or lent 1:1",
+          "value": 0.5
+        }
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847,
+          "42161": 503701064,
+          "8453": 51126126
+        },
+        "by_chain": {
+          "1:0x66a1e37c": {
+            "block": 25946847,
+            "n_pools": 4
+          },
+          "42161:0x2492d000": {
+            "block": 503701064,
+            "n_pools": 1
+          },
+          "8453:0x35e5db67": {
+            "block": 51126126,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 3800.09,
+        "missing": [
+          [
+            "56",
+            "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9"
+          ],
+          [
+            "999",
+            "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77"
+          ],
+          [
+            "9745",
+            "0xb1b385542b6e80f77b94393ba8342c3af699f15c"
+          ]
+        ],
+        "n_pools": 8,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "bunni-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0x77f73405a72f844e46d26a0bfd6f145c1a45ffcf6e4af5c86811405f29d2e615",
+            "price": 1.0007,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 27072.165170570577,
+            "counter": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "dex": "uniswap_v3:500",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x8bb9cd887dd51c5aa8d7da9e244c94bec035e47c",
+            "price": 0.113493885852628,
+            "sound_usd": 3588.54
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 25589.714132033452,
+            "counter": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+            "dex": "curve",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x4628f13651ead6793f8d838b34b8f8522fb0cc52",
+            "price": 0.11255631570128836,
+            "sound_usd": 96.37
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 10007.571783224219,
+            "counter": "0x865377367054516e17014ccded1e7d814edc9ce4",
+            "dex": "curve",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x38de22a3175708d45e7c7c64cd78479c8b56f76e",
+            "price": 0.11513661095701312,
+            "sound_usd": 44.45
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": null,
+            "counter": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "dex": "uniswap-v4-base",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xe803a6ca685c4e9e17ea5747022ee85752505fd1983a4eaaa73b38244c6189f9",
+            "price": 0.12895600686475778,
+            "sound_usd": 29.92
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": null,
+            "counter": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "dex": "uniswap-v4-base",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xb34f83388ca2e2544a45ff772a373b05ae2f592e8c2c9217bf2b071182fb34b1",
+            "price": 0.13077634947239977,
+            "sound_usd": 0.54
+          },
+          {
+            "chain_id": "8453",
+            "coin_units": 932.7025624005894,
+            "counter": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "dex": "uniswap_v3:500",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0xebbe893eab7c830de0e04cb54a974ea279b9d37a",
+            "price": 0.11607646497518405,
+            "sound_usd": 70.73
+          },
+          {
+            "chain_id": "42161",
+            "coin_units": null,
+            "counter": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "dex": "uniswap_v4",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xdfc80e2c987a964ae994dff7cd8b1bebdd9fd6cfd7c996be1c42ea26ae8baea2",
+            "price": 0.9998032507272593,
+            "sound_usd": 159988.47
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "USR",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "n_members": 4,
+          "price": 0.11513661095701312,
+          "tier": 3
+        }
+      ]
+    },
+    "usr:wstUSR": {
+      "case": "usr",
+      "chosen": {
+        "asset": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "chain_id": "1",
+        "depth_usd": null,
+        "price": 0.5664830794591577,
+        "rate": 1.1329661589183153,
+        "source": "wrapper_rate_x_underlying",
+        "tier": 2,
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "underlying": "USR",
+        "underlying_price": 0.5
+      },
+      "deployments": [
+        [
+          "1",
+          "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055"
+        ],
+        [
+          "8453",
+          "0xb67675158b412d53fe6b68946483ba920b135ba1"
+        ],
+        [
+          "8453",
+          "0xc33dcb063e3d9da00c3fa0a7cbf9f6670cd7c132"
+        ],
+        [
+          "42161",
+          "0x66cfbd79257dc5217903a36293120282548e2254"
+        ],
+        [
+          "56",
+          "0x4254813524695def4163a169e901f3d7a1a55429"
+        ],
+        [
+          "9745",
+          "0x2a52b289ba68bbd02676640aa9f605700c9e5699"
+        ]
+      ],
+      "issuer": {
+        "booked_lending_oracle": {
+          "block": 25946847,
+          "loan": "USDC",
+          "market_uid": "morpho:1:0x9a9a96b822945c73eb7395edca049ba942adc597878854e4502148fa6c2480c8",
+          "oracle": "0x874514c2ca3512258c5c8194a7234a06860b080b",
+          "value": 1.1329661589183153
+        },
+        "booked_share_value": {
+          "asset": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+          "asset_price": 0.5,
+          "asset_priced_by": "USR (case tiers)",
+          "block": 25946847,
+          "chain_id": "1",
+          "rate": 1.1329661589183153,
+          "value": 0.5664830794591577
+        },
+        "redemption": null
+      },
+      "ladder": {
+        "blocks": {
+          "1": 25946847
+        },
+        "by_chain": {
+          "1:0x1202f5c7": {
+            "block": 25946847,
+            "n_pools": 3
+          }
+        },
+        "depth_usd": 0,
+        "missing": [
+          [
+            "8453",
+            "0xb67675158b412d53fe6b68946483ba920b135ba1"
+          ],
+          [
+            "8453",
+            "0xc33dcb063e3d9da00c3fa0a7cbf9f6670cd7c132"
+          ],
+          [
+            "42161",
+            "0x66cfbd79257dc5217903a36293120282548e2254"
+          ],
+          [
+            "56",
+            "0x4254813524695def4163a169e901f3d7a1a55429"
+          ],
+          [
+            "9745",
+            "0x2a52b289ba68bbd02676640aa9f605700c9e5699"
+          ]
+        ],
+        "n_pools": 3,
+        "pools": [
+          {
+            "chain_id": "1",
+            "coin_units": null,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap-v4-ethereum",
+            "in_cluster": false,
+            "measured": false,
+            "pool": "0xacc3f40c035708053f91f68a086e6d5d1853e42b61df30f44e6eab5fb9090e34",
+            "price": 0.3207870365518814,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 6e-18,
+            "counter": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "dex": "uniswap_v3:10000",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x312b1f194fd5b37b4810ae4abdb602f687be646f",
+            "price": 0.9915241567476113,
+            "sound_usd": 0.0
+          },
+          {
+            "chain_id": "1",
+            "coin_units": 4022.617800757447,
+            "counter": "0x865377367054516e17014ccded1e7d814edc9ce4",
+            "dex": "curve",
+            "in_cluster": false,
+            "measured": true,
+            "pool": "0x64273624eb57c5ca961d366cbf3968e760bf0452",
+            "price": 0.13785575339100126,
+            "sound_usd": 20.66
+          }
+        ],
+        "price": null,
+        "test": null
+      },
+      "symbol": "wstUSR",
+      "tiers_tried": [
+        {
+          "price": null,
+          "test": null,
+          "tier": 1
+        },
+        {
+          "rate": 1.1329661589183153,
+          "tier": 2,
+          "under": "USR",
+          "under_price": 0.5
+        }
+      ]
+    }
+  },
+  "valuation": {
+    "ts": 1789041600,
+    "utc": "2026-09-10 12:00"
+  },
+  "wrapper_pairs": {
+    "msusd": {
+      "msY": {
+        "asset": "0x4ba01f22827018b4772cd326c7627fb4956a7c00",
+        "block": 25946847,
+        "chain_id": "1",
+        "rate": 1.0751792277891548,
+        "token": "0x890a5122aa1da30fec4286de7904ff808f0bd74a",
+        "under": "msUSD"
+      }
+    },
+    "rseth": {},
+    "stream": {},
+    "usd0pp": {},
+    "usr": {
+      "wstUSR": {
+        "asset": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "block": 25946847,
+        "chain_id": "1",
+        "rate": 1.1329661589183153,
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "under": "USR"
+      }
+    }
+  }
+}

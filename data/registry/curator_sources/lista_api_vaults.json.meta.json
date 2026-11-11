@@ -1,0 +1,11 @@
+{
+  "generator": "code/analysis/curators.py",
+  "retrieved_at": "2026-10-08T17:27:14+00:00",
+  "sdk": "@lista-dao/moolah-sdk-core (LISTA_API_URLS.prod)",
+  "url": [
+    "https://api.lista.org/api/moolah/vault/list",
+    "https://api.lista.org/api/moolah/vault/info"
+  ],
+  "what": "Lista (Moolah) vault list by zone and vault/info for every registry vault; the curator field names the vault's curator",
+  "written_utc": "2026-10-08T17:28:11+00:00"
+}

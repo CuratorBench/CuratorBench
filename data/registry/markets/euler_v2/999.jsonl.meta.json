@@ -1,0 +1,15 @@
+{
+  "chain": "hyperliquid",
+  "chain_id": 999,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0x587DD8285c01526769aB4803e4F02433ddbBc00E",
+    "evault_factory": "0xcF5552580fD364cdBBFcB5Ae345f75674c59273A",
+    "evc": "0xceAA7cdCD7dDBee8601127a9Abb17A974d613db4"
+  },
+  "rows": 509,
+  "scanned_to_block": 47430430,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:51:02+00:00"
+}

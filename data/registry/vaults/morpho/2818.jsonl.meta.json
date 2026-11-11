@@ -1,0 +1,17 @@
+{
+  "chain": "morph",
+  "chain_id": 2818,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "MorphMainnet",
+    "listed_by_api": false,
+    "morpho": "0xAd10d07901Dc3195c3cb5e78E061F4EA8D9B4905",
+    "vault_v1_factories": [],
+    "vault_v2_factories": []
+  },
+  "rows": 5,
+  "scanned_to_block": 27676427,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:47:01+00:00"
+}

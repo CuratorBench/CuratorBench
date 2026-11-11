@@ -1,0 +1,119 @@
+{
+  "aum_head": "2026-10-02",
+  "aum_head_total_usd_billions": 7.009,
+  "aum_peak": {
+    "date": "2025-10-06",
+    "usd_billions": 8.211
+  },
+  "depeg_loss_dates": {
+    "E2-010": {
+      "e2_onset": "2025-01-14",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-01-14"
+    },
+    "E2-019": {
+      "e2_onset": "2025-11-01",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-11-01"
+    },
+    "E2-022": {
+      "e2_onset": "2025-11-11",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-11-11"
+    },
+    "E2-026": {
+      "e2_onset": "2025-11-02",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-11-02"
+    },
+    "E2-029": {
+      "e2_onset": "2025-11-03",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-11-03"
+    },
+    "E2-033": {
+      "e2_onset": "2025-11-06",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2025-11-06"
+    },
+    "E2-040": {
+      "e2_onset": "2026-03-22",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-03-22"
+    },
+    "E2-049": {
+      "e2_onset": "2026-04-18",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-04-18"
+    },
+    "E2-056": {
+      "e2_onset": "2026-05-04",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-05-04"
+    },
+    "E2-058": {
+      "e2_onset": "2026-05-30",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-05-30"
+    },
+    "E2-059": {
+      "e2_onset": "2026-06-03",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-06-03"
+    },
+    "E2-062": {
+      "e2_onset": "2026-06-19",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-06-19"
+    },
+    "E2-063": {
+      "e2_onset": "2026-06-21",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-06-21"
+    },
+    "E2-066": {
+      "e2_onset": "2026-07-05",
+      "source": "e5_t0",
+      "type": "depeg_loss",
+      "x": "2026-07-05"
+    }
+  },
+  "events_labelled": [
+    "E2-012",
+    "E2-015",
+    "E2-016",
+    "E2-026",
+    "E2-027",
+    "E2-041",
+    "E2-042"
+  ],
+  "events_shown": 68,
+  "generator": "code/figures/fig2_aum_events.py",
+  "inputs": {
+    "data/aum/by_protocol_daily.csv": "f024fffcb44bf6ab2ce609c85c53fed7c5c2b238a212c608f8f4c453a0d4a9fd",
+    "data/events/collateral_families.jsonl": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+    "data/events/events.jsonl": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+    "data/events/table3_main.csv": "99bcc2ceefc3b9ef84f7b1475186debb78dc8efa7d2729e83792d74fca71ef72",
+    "data/metrics/e5/event_vault.csv": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db"
+  },
+  "size_in": [
+    3.337,
+    2.87
+  ],
+  "what": "Fig 2: curated AUM by protocol (top) and the stress-event timeline (bottom)",
+  "written_utc": "2026-11-11T05:55:47+00:00",
+  "x_date_rule": "depeg-loss events at E5's t0 (event_vault.csv t0_utc), lock-ups at E2's onset (events.jsonl onset_utc)"
+}

@@ -1,0 +1,15 @@
+{
+  "chain": "base",
+  "chain_id": 8453,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0x75F49a2621b6DeC6a5baB22ce961bF3e676EFAE6",
+    "evault_factory": "0x7F321498A801A191a93C840750ed637149dDf8D0",
+    "evc": "0x5301c7dD20bD945D2013b48ed0DEE3A284ca8989"
+  },
+  "rows": 1397,
+  "scanned_to_block": 52060028,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:51:05+00:00"
+}

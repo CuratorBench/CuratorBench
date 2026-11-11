@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "3b6ebb7e-6f2a-4c19-aadb-1c89625e5a08",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/3b6ebb7e-6f2a-4c19-aadb-1c89625e5a08",
+ "symbol": "TETH",
+ "written_utc": "2026-10-25T19:58:25Z"
+}

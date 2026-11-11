@@ -1,0 +1,31 @@
+{
+  "chain_id": 999,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "morpho",
+  "routescan_calls": 0,
+  "rows": 205,
+  "rpc_calls": 8,
+  "runtime_seconds": 1.463,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace morpho:999",
+      "rows_reclassified": 43,
+      "rpc_calls": 3,
+      "runtime_seconds": 0.445
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:999",
+      "rows_reclassified": 25,
+      "rpc_calls": 5,
+      "runtime_seconds": 0.59
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:999 --historical --reverting",
+      "rows_reclassified": 10,
+      "rpc_calls": 3,
+      "runtime_seconds": 0.322
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:54+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "chain": "soneium",
+  "chain_id": 1868,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "SoneiumMainnet",
+    "listed_by_api": false,
+    "morpho": "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a",
+    "vault_v1_factories": [
+      "0x7026b436f294e560b3C26E731f5cac5992cA2B33"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 15,
+  "scanned_to_block": 28887268,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:48:09+00:00"
+}

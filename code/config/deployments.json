@@ -1,0 +1,571 @@
+{
+ "built": "2026-10-02",
+ "sources": {
+  "morpho": "api.morpho.org GraphQL (morphoBlues, vaultFactories, vaultV2Factories), queried on the build date; singletons on chains the API does not list come from morpho-org/sdks at commit d45fffad3b2d6f5182b1a0d31a7d8a55cf4eaad2",
+  "euler_v2": "euler-xyz/euler-interfaces at commit d938bc264d6e1cee68a559798044d43ade8ac95e",
+  "silo_v2": "silo-finance/silo-contracts-v2: silo_factory at commit 8e2c1b6283ab23c8640a0deaac08520daab3aae1; silo_vaults_factory at commit f896c9da3a4b292f74d8dcb41f1295661cb7441f",
+  "moolah": "docs.bsc.lista.org; both proxies and their creation events confirmed against verified source on BscScan"
+ },
+ "protocols": {
+  "morpho": {
+   "chains": {
+    "1": {
+     "chain_name": "Ethereum",
+     "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+     "vault_v1_factories": [
+      "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+      "0x1897A8997241C1cD4bD0698647e4EB7213535c24"
+     ],
+     "vault_v2_factories": [
+      "0xA1D94F746dEfa1928926b84fB2596c06926C0405"
+     ],
+     "listed_by_api": true
+    },
+    "10": {
+     "chain_name": "OP Mainnet",
+     "morpho": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
+     "vault_v1_factories": [
+      "0x3Bb6A6A0Bc85b367EFE0A5bAc81c5E52C892839a"
+     ],
+     "vault_v2_factories": [
+      "0x6128b680b277Bf4Df80DFE9D8c55A498660870ef"
+     ],
+     "listed_by_api": true
+    },
+    "14": {
+     "chain_name": "FlareMainnet",
+     "morpho": "0xF4346F5132e810f80a28487a79c7559d9797E8B0",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "25": {
+     "chain_name": "CronosMainnet",
+     "morpho": "0xDF9a1DC07e5dEe5ccCCaBeC35e446C70fAF7434e",
+     "vault_v1_factories": [
+      "0xEA67e5566Ca2c0176d9db172A7f9A1e1F22E9D3A"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "50": {
+     "chain_name": "XdcMainnet",
+     "morpho": "0xEa49B0fE898aF913A3826F9f462eE2cDcb854fD9",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "56": {
+     "chain_name": "BscMainnet",
+     "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+     "vault_v1_factories": [
+      "0x92983687e672cA6d96530f9Dbe11a196cE905d72"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "130": {
+     "chain_name": "Unichain",
+     "morpho": "0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A",
+     "vault_v1_factories": [
+      "0xe9EdE3929F43a7062a007C3e8652e4ACa610Bdc0"
+     ],
+     "vault_v2_factories": [
+      "0xC9b34c108014B44e5a189A830e7e04c56704a0c9"
+     ],
+     "listed_by_api": true
+    },
+    "137": {
+     "chain_name": "Polygon",
+     "morpho": "0x1bF0c2541F820E775182832f06c0B7Fc27A25f67",
+     "vault_v1_factories": [
+      "0xa9c87daB340631C34BB738625C70499e29ddDC98"
+     ],
+     "vault_v2_factories": [
+      "0xC11a53eE9B1eCc7a068D8e40F8F17926584F97Cf"
+     ],
+     "listed_by_api": true
+    },
+    "143": {
+     "chain_name": "Monad",
+     "morpho": "0xD5D960E8C380B724a48AC59E2DfF1b2CB4a1eAee",
+     "vault_v1_factories": [
+      "0x33f20973275B2F574488b18929cd7DCBf1AbF275"
+     ],
+     "vault_v2_factories": [
+      "0x8B2F922162FBb60A6a072cC784A2E4168fB0bb0c"
+     ],
+     "listed_by_api": true
+    },
+    "146": {
+     "chain_name": "SonicMainnet",
+     "morpho": "0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f",
+     "vault_v1_factories": [
+      "0x0cE9e3512CB4df8ae7e265e62Fb9258dc14f12e8"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "239": {
+     "chain_name": "TacMainnet",
+     "morpho": "0x918B9F2E4B44E20c6423105BB6cCEB71473aD35c",
+     "vault_v1_factories": [
+      "0xcDA78f4979d17Ec93052A84A12001fe0088AD734"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "252": {
+     "chain_name": "FraxtalMainnet",
+     "morpho": "0xa6030627d724bA78a59aCf43Be7550b4C5a0653b",
+     "vault_v1_factories": [
+      "0x27D4Af0AC9E7FDfA6D0853236f249CC27AE79488"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "480": {
+     "chain_name": "World Chain",
+     "morpho": "0xE741BC7c34758b4caE05062794E8Ae24978AF432",
+     "vault_v1_factories": [
+      "0x4DBB3a642a2146d5413750Cca3647086D9ba5F12"
+     ],
+     "vault_v2_factories": [
+      "0x6846EA318B6B987Ee6b28eBFd87c3409F1d13108"
+     ],
+     "listed_by_api": true
+    },
+    "714": {
+     "chain_name": "EdenMainnet",
+     "morpho": "0xF050a2BB0468FF23cF2964AC182196C94D6815C3",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "988": {
+     "chain_name": "Stable",
+     "morpho": "0xa40103088A899514E3fe474cD3cc5bf811b1102e",
+     "vault_v1_factories": [
+      "0xb4ae5673c48621189E2bEfBA96F31912032DD1AE"
+     ],
+     "vault_v2_factories": [
+      "0x7fc35488803D49D00a94b206A223f7661898BE3a"
+     ],
+     "listed_by_api": true
+    },
+    "999": {
+     "chain_name": "HyperEVM",
+     "morpho": "0x68e37dE8d93d3496ae143F2E900490f6280C57cD",
+     "vault_v1_factories": [
+      "0xec051b19d654C48c357dC974376DeB6272f24e53"
+     ],
+     "vault_v2_factories": [
+      "0xD7217E5687FF1071356C780b5fe4803D9D967da7"
+     ],
+     "listed_by_api": true
+    },
+    "1135": {
+     "chain_name": "LiskMainnet",
+     "morpho": "0x00cD58DEEbd7A2F1C55dAec715faF8aed5b27BF8",
+     "vault_v1_factories": [
+      "0x01dD876130690469F685a65C2B295A90a81BaD91"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "1329": {
+     "chain_name": "SeiMainnet",
+     "morpho": "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c",
+     "vault_v1_factories": [
+      "0x8Dea49ec5bd5AeAc8bcf96B3E187F59354118291"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "1672": {
+     "chain_name": "PharosMainnet",
+     "morpho": "0x18573fA18fd17dDfD790B4a5B5b2977aad3b4Efb",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "1868": {
+     "chain_name": "SoneiumMainnet",
+     "morpho": "0xE75Fc5eA6e74B824954349Ca351eb4e671ADA53a",
+     "vault_v1_factories": [
+      "0x7026b436f294e560b3C26E731f5cac5992cA2B33"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "2741": {
+     "chain_name": "AbstractMainnet",
+     "morpho": "0xc85CE8ffdA27b646D269516B8d0Fa6ec2E958B55",
+     "vault_v1_factories": [
+      "0x83A7f60c9fc57cEf1e8001bda98783AA1A53E4b1"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "2818": {
+     "chain_name": "MorphMainnet",
+     "morpho": "0xAd10d07901Dc3195c3cb5e78E061F4EA8D9B4905",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "4217": {
+     "chain_name": "Tempo Mainnet",
+     "morpho": "0x10EE9AAC980A180dd4DcFc96C746d60B0EA88f97",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [
+      "0x3DE400E3F79113194fa5AF6Ae5C474947E0C82Db"
+     ],
+     "listed_by_api": true
+    },
+    "4326": {
+     "chain_name": "MegaEthMainnet",
+     "morpho": "0x18120312A7cf44DcfEc6dCe5632a431579ED9100",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "4663": {
+     "chain_name": "Robinhood Chain",
+     "morpho": "0x9D53d5E3bd5E8d4Cbfa6DB1ca238AEA02E651010",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [
+      "0x0FBad98595b0186dA120E41f77C102beb49f803c"
+     ],
+     "listed_by_api": true
+    },
+    "5042": {
+     "chain_name": "Arc",
+     "morpho": "0x34CD04070dD72b14E241112F6d83812Df5Af7fCD",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [
+      "0x3b0eefaBfa22ec7CF2c73877ac16e78D76749f12"
+     ],
+     "listed_by_api": true
+    },
+    "8217": {
+     "chain_name": "KaiaMainnet",
+     "morpho": "0xA8BEebdca34d83C697c302A0594f3c41f3994cd2",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "8453": {
+     "chain_name": "Base",
+     "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+     "vault_v1_factories": [
+      "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+      "0xFf62A7c278C62eD665133147129245053Bbf5918"
+     ],
+     "vault_v2_factories": [
+      "0x4501125508079A99ebBebCE205DeC9593C2b5857"
+     ],
+     "listed_by_api": true
+    },
+    "16661": {
+     "chain_name": "ZeroGMainnet",
+     "morpho": "0x9CDD13a2212D94C4f12190cA30783B743E83C89e",
+     "vault_v1_factories": [
+      "0x41528AadC7314658b07Ca6e7213B9b77289B477f"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "34443": {
+     "chain_name": "ModeMainnet",
+     "morpho": "0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564",
+     "vault_v1_factories": [
+      "0xae5b0884bfff430493D6C844B9fd052Af7d79278"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "42161": {
+     "chain_name": "Arbitrum One",
+     "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+     "vault_v1_factories": [
+      "0x878988f5f561081deEa117717052164ea1Ef0c82"
+     ],
+     "vault_v2_factories": [
+      "0x6b46fa3cc9EBF8aB230aBAc664E37F2966Bf7971"
+     ],
+     "listed_by_api": true
+    },
+    "42220": {
+     "chain_name": "CeloMainnet",
+     "morpho": "0xd24ECdD8C1e0E57a4E26B1a7bbeAa3e95466A569",
+     "vault_v1_factories": [
+      "0x6870aA9f66C1e5Efe8Dbe8730e86E9e91f688275"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "42793": {
+     "chain_name": "EtherlinkMainnet",
+     "morpho": "0xbCE7364E63C3B13C73E9977a83c9704E2aCa876e",
+     "vault_v1_factories": [
+      "0x997a79c3C04c5B9eb27d343ae126bcCFb5D74781"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "43111": {
+     "chain_name": "HemiMainnet",
+     "morpho": "0xa4Ca2c2e25b97DA19879201bA49422bc6f181f42",
+     "vault_v1_factories": [
+      "0x8e52179BeB18E882040b01632440d8Ca0f01da82"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "57073": {
+     "chain_name": "InkMainnet",
+     "morpho": "0x857f3EefE8cbda3Bc49367C996cd664A880d3042",
+     "vault_v1_factories": [
+      "0xd3f39505d0c48AFED3549D625982FdC38Ea9904b"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "59144": {
+     "chain_name": "LineaMainnet",
+     "morpho": "0x6B0D716aC0A45536172308e08fC2C40387262c9F",
+     "vault_v1_factories": [
+      "0xA148a8223B622A72dC36472DE1492aBb5c089BA7"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "98866": {
+     "chain_name": "PlumeMainnet",
+     "morpho": "0x42b18785CE0Aed7BF7Ca43a39471ED4C0A3e0bB5",
+     "vault_v1_factories": [
+      "0x2525D453D9BA13921D5aB5D8c12F9202b0e19456"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "200901": {
+     "chain_name": "BitlayerMainnet",
+     "morpho": "0xAeA7eFF1bD3c875c18ef50F0387892dF181431C6",
+     "vault_v1_factories": [
+      "0xb95De4a9C81Ba6240378F383f88592d30937d048"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "534352": {
+     "chain_name": "ScrollMainnet",
+     "morpho": "0x2d012EdbAdc37eDc2BC62791B666f9193FDF5a55",
+     "vault_v1_factories": [
+      "0x56b65742ade55015e6480959808229Ad6dbc9295"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "685689": {
+     "chain_name": "GensynMainnet",
+     "morpho": "0x8c45B34999883FF4B47cD3be095D585682cd9227",
+     "vault_v1_factories": [],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "747474": {
+     "chain_name": "Katana",
+     "morpho": "0xD50F2DffFd62f94Ee4AEd9ca05C61d0753268aBc",
+     "vault_v1_factories": [
+      "0x1c8De6889acee12257899BFeAa2b7e534de32E16"
+     ],
+     "vault_v2_factories": [
+      "0xFcb8b57E56787bB29e130Fca67f3c5a1232975D1"
+     ],
+     "listed_by_api": true
+    },
+    "21000000": {
+     "chain_name": "CornMainnet",
+     "morpho": "0xc2B1E031540e3F3271C5F3819F0cC7479a8DdD90",
+     "vault_v1_factories": [
+      "0xe430821595602eA5DD0cD350f86987437c7362fA"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    },
+    "123420001114": {
+     "chain_name": "CampMainnet",
+     "morpho": "0xea4f2979D7A99B40404b447Cf71c008e3805760F",
+     "vault_v1_factories": [
+      "0x3F4b9246b7Cd3F7671c70BeBd5AAFC08e5bb5f16"
+     ],
+     "vault_v2_factories": [],
+     "listed_by_api": false
+    }
+   }
+  },
+  "euler_v2": {
+   "chains": {
+    "1": {
+     "evault_factory": "0x29a56a1b8214D9Cf7c5561811750D5cBDb45CC8e",
+     "euler_earn_factory": "0x59709B029B140C853FE28d277f83C3a65e308aF4",
+     "evc": "0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383"
+    },
+    "56": {
+     "evault_factory": "0x7F53E2755eB3c43824E162F7F6F087832B9C9Df6",
+     "euler_earn_factory": "0xc456d04E3F43597CC7E5a2AF284fF4C4AdDA0cb1",
+     "evc": "0xb2E5a73CeE08593d1a076a2AE7A6e02925a640ea"
+    },
+    "130": {
+     "evault_factory": "0xbAd8b5BDFB2bcbcd78Cc9f1573D3Aad6E865e752",
+     "euler_earn_factory": "0xD785adD5F081F56616898E45b90dE307e3DC7d3E",
+     "evc": "0x2A1176964F5D7caE5406B627Bf6166664FE83c60"
+    },
+    "137": {
+     "evault_factory": "0xB1771a13e2a13fCafA89B00335915E732B9466b7",
+     "euler_earn_factory": "0x0000000000000000000000000000000000000000",
+     "evc": "0x90811DacA4BD23Fc79A87FBdff7522bED2d24B4B"
+    },
+    "143": {
+     "evault_factory": "0xba4Dd672062dE8FeeDb665DD4410658864483f1E",
+     "euler_earn_factory": "0xF463d4Acb650cc6C4E1D6cD4D0d1b0cb224094cF",
+     "evc": "0x7a9324E8f270413fa2E458f5831226d99C7477CD"
+    },
+    "146": {
+     "evault_factory": "0xF075cC8660B51D0b8a4474e3f47eDAC5fA034cFB",
+     "euler_earn_factory": "0x3397ec7d28cF645A017869Fe4B41c75f5B0b75a8",
+     "evc": "0x4860C903f6Ad709c3eDA46D3D502943f184D4315"
+    },
+    "239": {
+     "evault_factory": "0x2b21621b8Ef1406699a99071ce04ec14cCd50677",
+     "euler_earn_factory": "0x7670572aa76E6140400A948e7AAFAB0210a86d9f",
+     "evc": "0x01F594c66A5561b90Bc782dD0297f294cD668b64"
+    },
+    "999": {
+     "evault_factory": "0xcF5552580fD364cdBBFcB5Ae345f75674c59273A",
+     "euler_earn_factory": "0x587DD8285c01526769aB4803e4F02433ddbBc00E",
+     "evc": "0xceAA7cdCD7dDBee8601127a9Abb17A974d613db4"
+    },
+    "8453": {
+     "evault_factory": "0x7F321498A801A191a93C840750ed637149dDf8D0",
+     "euler_earn_factory": "0x75F49a2621b6DeC6a5baB22ce961bF3e676EFAE6",
+     "evc": "0x5301c7dD20bD945D2013b48ed0DEE3A284ca8989"
+    },
+    "9745": {
+     "evault_factory": "0x42388213C6F56D7E1477632b58Ae6Bba9adeEeA3",
+     "euler_earn_factory": "0xA3843A73e6a9F81309B931237Ca4759B3B02ff0E",
+     "evc": "0x7bdbd0A7114aA42CA957F292145F6a931a345583"
+    },
+    "42161": {
+     "evault_factory": "0x78Df1CF5bf06a7f27f2ACc580B934238C1b80D50",
+     "euler_earn_factory": "0xB9B5d62B9fE9E1B505466e75817aB178A1D2ec9d",
+     "evc": "0x6302ef0F34100CDDFb5489fbcB6eE1AA95CD1066"
+    },
+    "43114": {
+     "evault_factory": "0xaf4B4c18B17F6a2B32F6c398a3910bdCD7f26181",
+     "euler_earn_factory": "0x574B00f5a0C56D370F19fa887a5545d74F52fAC2",
+     "evc": "0xddcbe30A761Edd2e19bba930A977475265F36Fa1"
+    },
+    "59144": {
+     "evault_factory": "0x84711986Fd3BF0bFe4a8e6d7f4E22E67f7f27F04",
+     "euler_earn_factory": "0x377879A039343FEc7564e54616e519328951DA6D",
+     "evc": "0xd8CeCEe9A04eA3d941a959F68fb4486f23271d09"
+    },
+    "60808": {
+     "evault_factory": "0x046a9837A61d6b6263f54F4E27EE072bA4bdC7e4",
+     "euler_earn_factory": "0x8F01c6640A1c0a6085C79843F861fF0F89b9fED6",
+     "evc": "0x59f0FeEc4fA474Ad4ffC357cC8d8595B68abE47d"
+    },
+    "80094": {
+     "evault_factory": "0x5C13fb43ae9BAe8470f646ea647784534E9543AF",
+     "euler_earn_factory": "0x9cbc3030e6d133D1AAa148D598FD82D70263495c",
+     "evc": "0x45334608ECE7B2775136bC847EB92B5D332806A9"
+    }
+   }
+  },
+  "silo_v2": {
+   "chains": {
+    "1": {
+     "chain_name": "mainnet",
+     "silo_factory": "0x1DAb4A310447185144467076b116DAC7aec3b48F",
+     "silo_vaults_factory": "0xFfD3cB64ec6Fb68432792e4E902F62192a420506"
+    },
+    "10": {
+     "chain_name": "optimism",
+     "silo_factory": "0x8ab5D81d342f14e594c65a6B33582b57e78E4a9d",
+     "silo_vaults_factory": "0xB2886994d8E7d84759b6e08D465094E71BfBad67"
+    },
+    "50": {
+     "chain_name": "xdc",
+     "silo_factory": "0xf81d90DF1B63d48536E78564d24d5DD8F2BE58aD",
+     "silo_vaults_factory": "0x2C650C8A97C9D229c391c48ec995792D9A8A0678"
+    },
+    "56": {
+     "chain_name": "bnb",
+     "silo_factory": "0x977e9b368E5aBEe020B5096A03cE6f78cb3439cf",
+     "silo_vaults_factory": "0x16876aF41E8beDdBF9B67D2B66Bb50Abf3503B1C"
+    },
+    "146": {
+     "chain_name": "sonic",
+     "silo_factory": "0xf81d90DF1B63d48536E78564d24d5DD8F2BE58aD",
+     "silo_vaults_factory": "0x4B8Cbf30c9DC9d28ce56EeED40BF23B5FD6457B6"
+    },
+    "196": {
+     "chain_name": "okx",
+     "silo_factory": "0x650b50E16A703e53A7944CCad513ad21670F0D09",
+     "silo_vaults_factory": "0xABcF5A9d5c6E834AAA861eb42961787D03e08F22"
+    },
+    "1672": {
+     "chain_name": "pharos",
+     "silo_vaults_factory": "0x66aBf2252A065851c4c232DD7f2b7514FbE0dc16"
+    },
+    "1776": {
+     "chain_name": "injective",
+     "silo_factory": "0x39021662EF7679845E6851E38E01912f556A861f",
+     "silo_vaults_factory": "0x6Ec69E17E1184Ac8209aE03f21939E7960F46BD7"
+    },
+    "4326": {
+     "chain_name": "megaeth",
+     "silo_factory": "0x95a7bC57c738C7f64103B93D04f49cbCa566afFD",
+     "silo_vaults_factory": "0x6Af76e1c9a762e6AE01B8144BC078C68636e9B3D"
+    },
+    "5000": {
+     "chain_name": "mantle",
+     "silo_factory": "0xe5b39b0b2173caA82BaEa368952c6183cA2DA3Ac",
+     "silo_vaults_factory": "0x4A6c34A6B8F5C1a1Dcdc4be664cbC1259a0737a6"
+    },
+    "8453": {
+     "chain_name": "base",
+     "silo_factory": "0xeB3C9fcE37A355df8f4a01CdaFA75b370607a21f",
+     "silo_vaults_factory": "0x2534b2e33076787142246750E9340696267B96be"
+    },
+    "42161": {
+     "chain_name": "arbitrum_one",
+     "silo_factory": "0xAFd8F792cb025A76C4916652CfC8e20eee3b6fe2",
+     "silo_vaults_factory": "0x2976d3Ea35adcd185bBF79b201424f9607D49D30"
+    },
+    "43114": {
+     "chain_name": "avalanche",
+     "silo_factory": "0x9e64f0CD206cce2Da5dE08E7F482D62F57013D0e",
+     "silo_vaults_factory": "0x6Ec69E17E1184Ac8209aE03f21939E7960F46BD7"
+    },
+    "57073": {
+     "chain_name": "ink",
+     "silo_factory": "0xD13921239e3832FDC4141FDE544D3D058B529A5D",
+     "silo_vaults_factory": "0xf279eeC12a1936b0786A4ce51e71E77132A04ef3"
+    }
+   }
+  },
+  "moolah": {
+   "chains": {
+    "56": {
+     "chain_name": "bnb",
+     "moolah": "0x8F73b65B4caAf64FBA2aF91cC5D4a2A1318E5D8C",
+     "vault_factory": "0x2a0Cb6401FD3c6196750dc6b46702040761D9671"
+    }
+   }
+  }
+ }
+}

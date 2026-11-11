@@ -1,0 +1,834 @@
+{
+  "documents": 15439,
+  "duplicate_sha256": {
+    "n": 0,
+    "shas": []
+  },
+  "empty_text": {
+    "ids": [],
+    "n": 0
+  },
+  "future_reference_flags": [
+    {
+      "claimed_ts": 1734882710,
+      "id": "09db820e17fcfc29",
+      "marker_event_ts": 1736380800,
+      "source": "discourse:forum.morpho.org",
+      "url": "https://forum.morpho.org/t/usual-boosted-usdc-vault-whitelisting/686/6"
+    }
+  ],
+  "sample": {
+    "agree": 40,
+    "disagree": 0,
+    "disagreements": [],
+    "n": 40,
+    "rows": [
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-11-29T17:59:18.203Z",
+        "evidence": "platform_api",
+        "id": "962bf981ea911c12",
+        "published_at": "2023-11-29T17:59:18Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-on-ethereum-node-operator-infstones-platform-vulnerability-investigation-november-22-2023/6001/16"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2021-08-12T21:15:14.325Z",
+        "evidence": "platform_api",
+        "id": "2344ce2e15e4cf4e",
+        "published_at": "2021-08-12T21:15:14Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lego-rfp-lido-validator-dashboard/851/5"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-11-15T00:56:49.557Z",
+        "evidence": "platform_api",
+        "id": "b6a22cb967e97048",
+        "published_at": "2024-11-15T00:56:49Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/hasus-goose-2-submission-a-product-line-approach-to-grow-lido-s-staking-ecosystem/8841/3"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-05-14T06:34:16.375Z",
+        "evidence": "platform_api",
+        "id": "6c38a11d3f4e7cbd",
+        "published_at": "2023-05-14T06:34:16Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lego-proposal-to-improve-security-of-lidos-oracle-with-zksnark-light-client/4583/2"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2022-11-10T15:48:56.429Z",
+        "evidence": "platform_api",
+        "id": "b52a6c553b304484",
+        "published_at": "2022-11-10T15:48:56Z",
+        "source_type": "governance_forum",
+        "url": "https://forum.euler.finance/t/eip-26-promote-cbeth-to-collateral-tier/472/1"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-10-26T22:30:37.388Z",
+        "evidence": "platform_api",
+        "id": "0650ec4ff7ed0fba",
+        "published_at": "2023-10-26T22:30:37Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/wsteth-on-avalanche-and-bnb-and-ownership-acceptance-by-lido-dao/5749/24"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2022-05-06T14:47:04.173Z",
+        "evidence": "platform_api",
+        "id": "5ed7fcec92901e1b",
+        "published_at": "2022-05-06T14:47:04Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/proposal-to-mint-ldo-tokens-into-secured-wallet/1909/26"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2026-02-20T14:00:32.699Z",
+        "evidence": "platform_api",
+        "id": "f64998cbacca74ac",
+        "published_at": "2026-02-20T14:00:32Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-governance-health-perfect-voter-quality-room-for-participation/11160/28"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-03-10T18:43:58.380Z",
+        "evidence": "platform_api",
+        "id": "ba64f62ec5ecb075",
+        "published_at": "2023-03-10T18:43:58Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/sunsetting-of-lido-on-polkadot-and-kusama/4067/5"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-02-02T13:18:50.113Z",
+        "evidence": "platform_api",
+        "id": "0c6a1d39193a3ce8",
+        "published_at": "2024-02-02T13:18:50Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/withdrawals-goerli-network/6539/1"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2026-05-13T15:36:51.889Z",
+        "evidence": "platform_api",
+        "id": "f2c38a502d78b81c",
+        "published_at": "2026-05-13T15:36:51Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/organize-the-lido-alliance-program-as-a-lido-dao-adjacent-borg/8173/49"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2025-11-24T15:34:20.683Z",
+        "evidence": "platform_api",
+        "id": "9234c872dcdd8785",
+        "published_at": "2025-11-24T15:34:20Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-labs-goose-3-lido-s-next-chapter/10927/1"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2026-02-10T08:44:24.983Z",
+        "evidence": "platform_api",
+        "id": "591ebeb984089f62",
+        "published_at": "2026-02-10T08:44:24Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-governance-health-perfect-voter-quality-room-for-participation/11160/12"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-03-21T04:18:04.121Z",
+        "evidence": "platform_api",
+        "id": "6f0b1d73ce949649",
+        "published_at": "2023-03-21T04:18:04Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arfc-increase-supply-cap-for-cbeth-aave-ethereum-v3-20230317/12334/4"
+      },
+      {
+        "agrees": true,
+        "detail": "git commit time 1727332318, blob identical True",
+        "evidence": "platform_api",
+        "id": "3332a6eee921a99d",
+        "published_at": "2024-09-26T06:31:58Z",
+        "source_type": "audit",
+        "url": "https://github.com/treehouse-gaia/audit-report/blob/bb0e022a0a568dd1e1ce527d995ca621e9d6a3b4/Sigma%20Prime%20tETH%20Sep%20Audit%20Report%20vF.pdf"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2022-08-15T09:10:19.640Z",
+        "evidence": "platform_api",
+        "id": "10ca0ad0c22ae8a8",
+        "published_at": "2022-08-15T09:10:19Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-on-l2-first-launches/2786/3"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2025-05-27T10:32:56.688Z",
+        "evidence": "platform_api",
+        "id": "cedc564154488e4b",
+        "published_at": "2025-05-27T10:32:56Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/increasing-lol-et-limits-to-align-with-egg-lido-ecosystem-borg-foundation-grant-funding-request/9881/9"
+      },
+      {
+        "agrees": true,
+        "detail": "raw meta[article:published_time] value 2026-04-19T14:47:06.959Z",
+        "evidence": "page_metadata",
+        "id": "ae71fba75d0544a3",
+        "published_at": "2026-04-19T14:47:06Z",
+        "source_type": "news",
+        "url": "https://thedefiant.io/news/defi/aave-price-crash-kelpdao-exploit-whale-dump-rxi8o9"
+      },
+      {
+        "agrees": true,
+        "detail": "capture id 20241225092308",
+        "evidence": "archive_capture",
+        "id": "9ba026e7862f47b2",
+        "published_at": "2024-12-25T09:23:08Z",
+        "source_type": "web_archive",
+        "url": "https://docs.midas.app/token-mechanics/mbasis%0A"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2021-04-28T16:38:38.654Z",
+        "evidence": "platform_api",
+        "id": "17c08a1b036d71ba",
+        "published_at": "2021-04-28T16:38:38Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/proposal-oracle-v2-reporting-sanity-check-parameter-values/511/1"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-09-05T14:10:30.681Z",
+        "evidence": "platform_api",
+        "id": "2e87533d607935d0",
+        "published_at": "2024-09-05T14:10:30Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/organize-the-lido-alliance-program-as-a-lido-dao-adjacent-borg/8173/21"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-05-31T13:27:46.868Z",
+        "evidence": "platform_api",
+        "id": "c1a6db03fdbdd284",
+        "published_at": "2024-05-31T13:27:46Z",
+        "source_type": "governance_forum",
+        "url": "https://forum.morpho.org/t/origin-morpho-blue-incentives-in-the-woeth-weth-markets/615/4"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-04-05T22:15:42.341Z",
+        "evidence": "platform_api",
+        "id": "2d80ad1b89ad9c3f",
+        "published_at": "2023-04-05T22:15:42Z",
+        "source_type": "governance_forum",
+        "url": "https://forum.euler.finance/t/plan-for-redemption-of-euler-funds/906/16"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-05-08T05:45:54.718Z",
+        "evidence": "platform_api",
+        "id": "721892db339d4a30",
+        "published_at": "2023-05-08T05:45:54Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/a-decision-on-an-outflow-of-40-eth-from-the-lido-dao-treasury-to-aid-in-the-sushi-recovery/4492/4"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-11-14T08:01:06.522Z",
+        "evidence": "platform_api",
+        "id": "1ccbea3f3e09e567",
+        "published_at": "2023-11-14T08:01:06Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/temp-check-onboarding-ethx-to-aave-v3-ethereum-market/15509/6"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-11-29T09:08:09.361Z",
+        "evidence": "platform_api",
+        "id": "c314539963c35562",
+        "published_at": "2024-11-29T09:08:09Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arfc-enable-susde-usdt-liquid-e-mode-on-core-instance/19939/4"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2021-11-15T23:50:25.350Z",
+        "evidence": "platform_api",
+        "id": "74b5d45e5ca5c6ac",
+        "published_at": "2021-11-15T23:50:25Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/lido-treasury-diversification-part-3/1059/43"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-01-31T17:20:56.719Z",
+        "evidence": "platform_api",
+        "id": "c4244adfab77c8b7",
+        "published_at": "2023-01-31T17:20:56Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arc-onboard-reth-rocket-pool-eth-to-aave-v3-ethereum-market/11371/21"
+      },
+      {
+        "agrees": true,
+        "detail": "git commit time 1653711593, blob identical True",
+        "evidence": "platform_api",
+        "id": "9646abeb6131f7b2",
+        "published_at": "2022-05-28T04:19:53Z",
+        "source_type": "docs",
+        "url": "https://github.com/reserve-protocol/protocol/blob/b139d38d01d596ae8971cf7ddb296d04c494a840/README.md"
+      },
+      {
+        "agrees": true,
+        "detail": "git commit time 1746616277, blob identical True",
+        "evidence": "platform_api",
+        "id": "f41e5d01fc7f4765",
+        "published_at": "2025-05-07T11:11:17Z",
+        "source_type": "audit",
+        "url": "https://github.com/AladdinDAO/audit-reports/blob/8b45054852f7ba26170ac9f5099ca7c68fe825c8/SECBIT_Aladdin_aCVX_Report_v1.0_20231018.pdf"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2026-08-22T12:02:36.588Z",
+        "evidence": "platform_api",
+        "id": "4edf6e6a46c0ecc1",
+        "published_at": "2026-08-22T12:02:36Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/utilizing-market-opportunities-steth-ldo-trade/11358/86"
+      },
+      {
+        "agrees": true,
+        "detail": "last-modified 1791469742",
+        "evidence": "http_last_modified",
+        "id": "bfc7020b8df211d9",
+        "published_at": "2026-10-08T14:29:02Z",
+        "source_type": "curator_announcement",
+        "url": "https://sentora.com/research/articles/borrowing-against-your-stocks-on-kamino-liquidity-without-selling"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2023-11-24T00:12:55.770Z",
+        "evidence": "platform_api",
+        "id": "058641e22e71e39b",
+        "published_at": "2023-11-24T00:12:55Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/ldo-steth-dual-governance-continuation/5727/17"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2025-10-29T11:47:02.406Z",
+        "evidence": "platform_api",
+        "id": "fc32c3e1848176b6",
+        "published_at": "2025-10-29T11:47:02Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/ssv-im-x-lido-incentives-distribution/9923/12"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-09-13T18:51:32.991Z",
+        "evidence": "platform_api",
+        "id": "f39a35a6fcb8957a",
+        "published_at": "2024-09-13T18:51:32Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arfc-onboard-usds-and-susds-to-aave-v3/18987/2"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2025-02-04T12:22:01.761Z",
+        "evidence": "platform_api",
+        "id": "f0aa8b770d008eef",
+        "published_at": "2025-02-04T12:22:01Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-sonic/20543/15"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-12-19T15:41:10.862Z",
+        "evidence": "platform_api",
+        "id": "954a075ea944d786",
+        "published_at": "2024-12-19T15:41:10Z",
+        "source_type": "governance_forum",
+        "url": "https://governance.aave.com/t/arfc-temporary-halt-further-susde-cap-increase-and-raise-the-liquidation-penalty/20252/2"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2024-12-18T13:50:22.664Z",
+        "evidence": "platform_api",
+        "id": "e7c5c43a717259b9",
+        "published_at": "2024-12-18T13:50:22Z",
+        "source_type": "governance_forum",
+        "url": "https://gov.instadapp.io/t/deploy-rseth-markets-on-fluid-ethereum/1073/1"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2021-10-26T15:15:36.752Z",
+        "evidence": "platform_api",
+        "id": "040792157521dcdc",
+        "published_at": "2021-10-26T15:15:36Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/candidate-proposal-for-stake-dao-stake-capital-as-an-eth2-and-solana-node-operator-for-lido/1321/2"
+      },
+      {
+        "agrees": true,
+        "detail": "raw created_at 2020-11-19T18:50:43.495Z",
+        "evidence": "platform_api",
+        "id": "f330064c47f14d95",
+        "published_at": "2020-11-19T18:50:43Z",
+        "source_type": "governance_forum",
+        "url": "https://research.lido.fi/t/welcome-to-lido-dao/7/1"
+      }
+    ]
+  },
+  "selfcheck_events": [
+    {
+      "assets": [
+        "busd0"
+      ],
+      "case": "USD0++ 2025-01",
+      "cutoff": "event onset",
+      "documents_about_assets": 174,
+      "event_id": "E2-011",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2025-01-14T06:00:00Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "201310ef429f3ed8",
+          "evidence": "platform_api",
+          "published_at": "2024-09-24T09:06:09Z",
+          "research_event": "E2-011",
+          "source_type": "governance_forum",
+          "title": "[MEV Capital] Usual Boosted USDT Vault Updates (post 1)",
+          "url": "https://forum.morpho.org/t/mev-capital-usual-boosted-usdt-vault-updates/811",
+          "why": "Curator disclosure that the USD0++/USDT market priced a 4-year bond with a hardcoded $1 oracle at 86% LLTV: lenders carry the full discount if USD0++ reprices."
+        },
+        {
+          "doc_id": "5796bbc977ab0040",
+          "evidence": "page_metadata",
+          "published_at": "2025-01-09T22:00:48Z",
+          "research_event": "E2-011",
+          "source_type": "other",
+          "title": "USD0++ Experiences Significant Depeg to $0.9272, Down 7.1% | Flash News Detail",
+          "url": "https://blockchain.news/flashnews/usd0-experiences-significant-depeg-to-0-9272-down-7-1",
+          "why": "PeckShieldAlert flags USD0++ depeg to $0.9272 (-7.1%) before onset."
+        },
+        {
+          "doc_id": "f6bfdc75d68eed9d",
+          "evidence": "page_metadata",
+          "published_at": "2025-01-10T11:17:53Z",
+          "research_event": "E2-011",
+          "source_type": "news",
+          "title": "Usual Money's protocol update sparks community concern as USD0++ drops below 92 cents",
+          "url": "https://www.theblock.co/post/333995/usual-money-protocol-update",
+          "why": "Reports Usual's unannounced switch from 1:1 redemption to a manually set 0.87 USD0 floor and USD0++ trading below $0.92, four days before onset."
+        },
+        {
+          "doc_id": "0acb29d42ba91f4d",
+          "evidence": "page_metadata",
+          "published_at": "2025-01-10T19:06:40Z",
+          "research_event": "E2-011",
+          "source_type": "news",
+          "title": "Usual Money Under Fire For Altering Asset Floor Price | The Defiant",
+          "url": "https://thedefiant.io/news/defi/usual-money-under-fire-for-altering-asset-floor-price",
+          "why": "Documents the 13% principal cut, alleged doc edits and Stani Kulechov's criticism of hardcoded feeds; notes 0.87 floor vs 86% LLTV."
+        }
+      ],
+      "visible_at_onset": 73,
+      "visible_reverified_from_raw": {
+        "True": 73
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "xusd"
+      ],
+      "case": "Stream xUSD 2025-11",
+      "cutoff": "event onset",
+      "documents_about_assets": 124,
+      "event_id": "E2-027",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2025-11-02T20:24:22Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "94f969f7db4355c8",
+          "evidence": "platform_api",
+          "published_at": "2025-10-26T20:52:54Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Togbe0x/status/1982551032053051738",
+          "why": "Thread connecting YieldFi, mHYPER, xUSD and Morpho exposure."
+        },
+        {
+          "doc_id": "65743a95bdcde67d",
+          "evidence": "platform_api",
+          "published_at": "2025-10-27T19:04:40Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Schlagonia/status/1982886179163791674",
+          "why": "Claims Stream controls about 60% of xUSD circulating supply."
+        },
+        {
+          "doc_id": "8ea927be30599667",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T19:49:46Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Cbb0fe/status/1983259917625823321",
+          "why": "CBB0FE tells users to withdraw from Morpho/Euler vaults with xUSD and mHYPER exposure ('max opacity finance')."
+        },
+        {
+          "doc_id": "666639c7e9658bb1",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T20:53:54Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Cbb0fe/status/1983276060600127968",
+          "why": "On-chain estimate: ~$170M backing vs ~$530M borrowing, ~4.1x leverage via recursive looping."
+        },
+        {
+          "doc_id": "de5f5461729dc127",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T20:57:02Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Schlagonia/status/1983276845069152607",
+          "why": "Schlag (Yearn) traces recursive minting loop between Stream xUSD and Elixir deUSD."
+        },
+        {
+          "doc_id": "b140c551d8322156",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T21:04:19Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Schlagonia/status/1983278680785773012",
+          "why": "On-chain transaction evidence for the Stream/Elixir minting loop."
+        },
+        {
+          "doc_id": "479509735c46336d",
+          "evidence": "platform_api",
+          "published_at": "2025-10-29T05:29:35Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/hyperithm/status/1983405835939463568",
+          "why": "Curator Hyperithm announces it removed xUSD and yUSD exposure (curator exit with stated reasons)."
+        },
+        {
+          "doc_id": "9afe1adc9a7d2f16",
+          "evidence": "platform_api",
+          "published_at": "2025-10-30T19:39:32Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/StreamDefi/status/1983982119673331846",
+          "why": "Issuer admits recursive looping of its own asset and gives a $520M asset figure that critics could not trace on-chain."
+        },
+        {
+          "doc_id": "23229be3b438972c",
+          "evidence": "platform_api",
+          "published_at": "2025-10-30T19:46:29Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/chud_eth/status/1983983867808903449",
+          "why": "Alleges an undisclosed insurance fund / ~60% fee kept apart from strategies."
+        }
+      ],
+      "visible_at_onset": 16,
+      "visible_reverified_from_raw": {
+        "True": 16
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "deusd"
+      ],
+      "case": "deUSD 2025-11",
+      "cutoff": "event onset",
+      "documents_about_assets": 159,
+      "event_id": "E2-030",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2025-11-03T13:58:59Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "5684ad88cf60e699",
+          "evidence": "platform_api",
+          "published_at": "2025-05-29T13:57:42Z",
+          "research_event": "E2-030",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/yieldsandmore/status/1928088364898521438",
+          "why": "Yields and More flags a Chainlink deUSD price misreport that caused liquidations on Euler (Avalanche)."
+        },
+        {
+          "doc_id": "8ea927be30599667",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T19:49:46Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Cbb0fe/status/1983259917625823321",
+          "why": "CBB0FE tells users to withdraw from Morpho/Euler vaults with xUSD and mHYPER exposure ('max opacity finance')."
+        },
+        {
+          "doc_id": "de5f5461729dc127",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T20:57:02Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Schlagonia/status/1983276845069152607",
+          "why": "Schlag (Yearn) traces recursive minting loop between Stream xUSD and Elixir deUSD."
+        },
+        {
+          "doc_id": "b140c551d8322156",
+          "evidence": "platform_api",
+          "published_at": "2025-10-28T21:04:19Z",
+          "research_event": "E2-027",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/Schlagonia/status/1983278680785773012",
+          "why": "On-chain transaction evidence for the Stream/Elixir minting loop."
+        }
+      ],
+      "visible_at_onset": 51,
+      "visible_reverified_from_raw": {
+        "True": 51
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "susdx"
+      ],
+      "case": "USDX 2025-11",
+      "cutoff": "event onset",
+      "documents_about_assets": 126,
+      "event_id": "E2-020",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2025-08-13T11:31:09Z",
+      "red_flags_note": "no document the source research marked as a red flag is visible before onset",
+      "red_flags_visible_at_onset": [],
+      "visible_at_onset": 56,
+      "visible_reverified_from_raw": {
+        "True": 56
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "susdx"
+      ],
+      "case": "USDX 2025-11",
+      "cutoff": "case episode onset",
+      "documents_about_assets": 126,
+      "event_id": "E2-020",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2025-11-01T02:56:12Z",
+      "red_flags_note": "no document the source research marked as a red flag is visible before onset",
+      "red_flags_visible_at_onset": [],
+      "visible_at_onset": 56,
+      "visible_reverified_from_raw": {
+        "True": 56
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "usr"
+      ],
+      "case": "USR 2026-03",
+      "cutoff": "event onset",
+      "documents_about_assets": 152,
+      "event_id": "E2-049",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2026-03-22T06:00:00Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "54486c0c35b6891f",
+          "evidence": "platform_api",
+          "published_at": "2025-03-20T17:00:50Z",
+          "research_event": "E2-049",
+          "source_type": "governance_forum",
+          "title": "[ARFC] Add USR to Aave v3 Core Instance (post 2)",
+          "url": "https://governance.aave.com/t/arfc-add-usr-to-aave-v3-core-instance/21444",
+          "why": "LlamaRisk: support conditional on a formal bug bounty; >80% of supply on Pendle; Resolv rehypothecates stETH on Aave (structural flags, not an incident warning)."
+        },
+        {
+          "doc_id": "c8d3ff30dafc42f6",
+          "evidence": "platform_api",
+          "published_at": "2025-03-20T17:05:29Z",
+          "research_event": "E2-046",
+          "source_type": "governance_forum",
+          "title": "[ARFC] Add wstUSR to Aave v3 Core Instance (post 2)",
+          "url": "https://governance.aave.com/t/arfc-add-wstusr-to-aave-v3-core-instance/21443",
+          "why": "LlamaRisk recommends PoR oracle for USR and CAPO on wstUSR exchange rate against rate inflation; lower LTV than proposed."
+        },
+        {
+          "doc_id": "b1cc19777ab81fbb",
+          "evidence": "platform_api",
+          "published_at": "2026-03-22T02:41:28Z",
+          "research_event": "E2-046",
+          "source_type": "other",
+          "title": "",
+          "url": "https://x.com/yieldsandmore/status/2035547381026967779",
+          "why": "First public alert (50M USR minted for 100K USDC, USR at one cent), ~50 minutes before E2-046 onset."
+        },
+        {
+          "doc_id": "913a08b44a8f3b84",
+          "evidence": "platform_api",
+          "published_at": "2026-03-22T03:51:40Z",
+          "research_event": "E2-049",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/PeckShieldAlert/status/2035565047133401563",
+          "why": "PeckShield flags the 50M and 30M unbacked mints, ~2 hours before E2-049 onset."
+        },
+        {
+          "doc_id": "aff331d9df80781d",
+          "evidence": "platform_api",
+          "published_at": "2026-03-22T04:58:57Z",
+          "research_event": "E2-049",
+          "source_type": "other",
+          "title": "JavaScript is not available.",
+          "url": "https://x.com/ResolvLabs/status/2035581976514609437",
+          "why": "Issuer confirms exploit and pause, before E2-047 (05:04) and E2-049 (06:00) onsets."
+        }
+      ],
+      "visible_at_onset": 81,
+      "visible_reverified_from_raw": {
+        "False": 1,
+        "True": 80
+      },
+      "visible_reverify_failures": [
+        {
+          "detail": "raw values ['2025-04'] for json-ld datePublished",
+          "id": "24c3b2ae5a461822",
+          "url": "https://www.cork.tech/blog/resolv"
+        }
+      ]
+    },
+    {
+      "assets": [
+        "rseth"
+      ],
+      "case": "rsETH 2026-04",
+      "cutoff": "event onset",
+      "documents_about_assets": 968,
+      "event_id": "E2-054",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2026-04-18T18:59:23Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "3d04c989acbde99c",
+          "evidence": "platform_api",
+          "published_at": "2024-05-20T09:44:00Z",
+          "research_event": "E2-056",
+          "source_type": "governance_forum",
+          "title": "[ARFC] Add rsETH to Aave V3 Ethereum (post 4)",
+          "url": "https://governance.aave.com/t/arfc-add-rseth-to-aave-v3-ethereum/17696",
+          "why": "LlamaRisk review notes limited development activity and a low bug bounty (structural, weak)."
+        },
+        {
+          "doc_id": "c01100dea7088761",
+          "evidence": "platform_api",
+          "published_at": "2025-04-30T10:36:57Z",
+          "research_event": "E2-054",
+          "source_type": "governance_forum",
+          "title": "rsETH precautionary freezing 30/04/2025 (post 1)",
+          "url": "https://governance.aave.com/t/rseth-precautionary-freezing-30-04-2025/21925",
+          "why": "A Kelp contract upgrade (LRTOracle) over-minted rsETH and Aave froze rsETH: shows privileged-upgrade / operational risk a year before the bridge exploit."
+        }
+      ],
+      "visible_at_onset": 420,
+      "visible_reverified_from_raw": {
+        "True": 420
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "rseth"
+      ],
+      "case": "rsETH 2026-04",
+      "cutoff": "event onset",
+      "documents_about_assets": 968,
+      "event_id": "E2-056",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2026-04-19T03:09:05Z",
+      "red_flags_note": null,
+      "red_flags_visible_at_onset": [
+        {
+          "doc_id": "3d04c989acbde99c",
+          "evidence": "platform_api",
+          "published_at": "2024-05-20T09:44:00Z",
+          "research_event": "E2-056",
+          "source_type": "governance_forum",
+          "title": "[ARFC] Add rsETH to Aave V3 Ethereum (post 4)",
+          "url": "https://governance.aave.com/t/arfc-add-rseth-to-aave-v3-ethereum/17696",
+          "why": "LlamaRisk review notes limited development activity and a low bug bounty (structural, weak)."
+        },
+        {
+          "doc_id": "c01100dea7088761",
+          "evidence": "platform_api",
+          "published_at": "2025-04-30T10:36:57Z",
+          "research_event": "E2-054",
+          "source_type": "governance_forum",
+          "title": "rsETH precautionary freezing 30/04/2025 (post 1)",
+          "url": "https://governance.aave.com/t/rseth-precautionary-freezing-30-04-2025/21925",
+          "why": "A Kelp contract upgrade (LRTOracle) over-minted rsETH and Aave froze rsETH: shows privileged-upgrade / operational risk a year before the bridge exploit."
+        }
+      ],
+      "visible_at_onset": 427,
+      "visible_reverified_from_raw": {
+        "True": 427
+      },
+      "visible_reverify_failures": []
+    },
+    {
+      "assets": [
+        "msy"
+      ],
+      "case": "msUSD 2026-06",
+      "cutoff": "event onset",
+      "documents_about_assets": 55,
+      "event_id": "E2-069",
+      "leak_ids": [],
+      "leaks": 0,
+      "onset_utc": "2026-06-19T12:23:47Z",
+      "red_flags_note": "no document the source research marked as a red flag is visible before onset",
+      "red_flags_visible_at_onset": [],
+      "visible_at_onset": 19,
+      "visible_reverified_from_raw": {
+        "True": 19
+      },
+      "visible_reverify_failures": []
+    }
+  ]
+}

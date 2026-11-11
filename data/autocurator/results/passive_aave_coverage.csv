@@ -1,0 +1,31 @@
+group,protocol,chain_id,loan_token,loan,pool,pool_symbol,days_quoted,days_window,available,reason
+euler_v2_1_PYUSD_6c3ea9,euler_v2,1,0x6c3ea9036406852006290770bedfcaba0e23a0e8,PYUSD,d118f505-e75f-4152-bad3-49a2dc7482bf,PYUSD,617,617,True,
+euler_v2_1_USD0_73a15f,euler_v2,1,0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5,USD0,,,0,633,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+euler_v2_1_RLUSD_8292bb,euler_v2,1,0x8292bb45bf1ee4d140127049757c2e0ff06317ed,RLUSD,85fc6934-c94d-4ebe-9c60-66beb363669f,RLUSD,475,475,True,
+euler_v2_1_USDC_a0b869,euler_v2,1,0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,USDC,aa70268e-4b52-42bf-a116-608b370f9501,USDC,773,773,True,
+euler_v2_1_WETH_c02aaa,euler_v2,1,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,WETH,e880e828-ca59-4ec6-8d4f-27182a4dc23d,WETH,770,773,True,
+euler_v2_9745_USDT0_b8ce59,euler_v2,9745,0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb,USDT0,e338c687-a5d8-4abf-bc04-127990811b0a,USDT0,370,373,True,
+moolah_56_USD1_8d0d00,moolah,56,0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d,USD1,,,0,537,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+moolah_56_WBNB_bb4cdb,moolah,56,0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c,WBNB,9380e5ac-3b75-468c-951c-c24ff6497e80,WBNB,539,539,True,
+moolah_56_U_ce2443,moolah,56,0xce24439f2d9c6a2289f741120fe202248b666666,U,,,0,266,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_1_AUSD_000000,morpho,1,0x00000000efe302beaa2b3e6e1b18d08d69a9012a,AUSD,,,0,763,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_1_rUSD_09d421,morpho,1,0x09d4214c03d01f49544c0448dbe3a27f768f2b34,rUSD,,,0,568,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_1_WBTC_2260fa,morpho,1,0x2260fac5e5542a773aa44fbcfedf7c193bc2c599,WBTC,7e382157-b1bc-406d-b17b-facba43b716e,WBTC,930,930,True,
+morpho_1_EURCV_5f7827,morpho,1,0x5f7827fdeb7c20b443265fc2f40845b715385ff2,EURCV,,,0,368,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_1_DAI_6b1754,morpho,1,0x6b175474e89094c44da98b954eedeac495271d0f,DAI,3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac,DAI,917,917,True,
+morpho_1_PYUSD_6c3ea9,morpho,1,0x6c3ea9036406852006290770bedfcaba0e23a0e8,PYUSD,d118f505-e75f-4152-bad3-49a2dc7482bf,PYUSD,962,969,True,
+morpho_1_wUSDL_7751e2,morpho,1,0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559,wUSDL,,,0,354,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_1_RLUSD_8292bb,morpho,1,0x8292bb45bf1ee4d140127049757c2e0ff06317ed,RLUSD,85fc6934-c94d-4ebe-9c60-66beb363669f,RLUSD,211,211,True,
+morpho_1_USDC_a0b869,morpho,1,0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48,USDC,aa70268e-4b52-42bf-a116-608b370f9501,USDC,988,988,True,
+morpho_1_WETH_c02aaa,morpho,1,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,WETH,e880e828-ca59-4ec6-8d4f-27182a4dc23d,WETH,994,997,True,
+morpho_1_USDT_dac17f,morpho,1,0xdac17f958d2ee523a2206206994597c13d831ec7,USDT,f981a304-bb6c-45b8-b0c5-fd2f515ad23a,USDT,966,966,True,
+morpho_1_USDS_dc035d,morpho,1,0xdc035d45d973e3ec169d2276ddab16f1e407384f,USDS,e65588a1-27ad-4e20-9232-68a6cfaccf63,USDS,510,510,True,
+morpho_999_WHYPE_555555,morpho,999,0x5555555555555555555555555555555555555555,WHYPE,,,0,499,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_999_USDC_b88339,morpho,999,0xb88339cb7199b77e23db6e890353e22632ba630f,USDC,,,0,379,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_4663_USDG_5fc536,morpho,4663,0x5fc5360d0400a0fd4f2af552add042d716f1d168,USDG,,,0,93,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_8453_WETH_420000,morpho,8453,0x4200000000000000000000000000000000000006,WETH,23405eee-97e7-4b8e-8625-19c3a36047e8,WETH,817,836,True,
+morpho_8453_USDC_833589,morpho,8453,0x833589fcd6edb6e08f4c7c32d4f71b54bda02913,USDC,7e0661bf-8cf3-45e6-9424-31916d4c7b84,USDC,836,836,True,
+morpho_42161_USDC_af88d0,morpho,42161,0xaf88d065e77c8cc2239327c5edb3a432268e5831,USDC,d9fa8e14-0447-4207-9ae8-7810199dfa1f,USDC,426,426,True,
+morpho_42161_USD0_fd086b,morpho,42161,0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9,USD₮0,3a6cc030-738d-4e19-8a40-e63e9c4d5a6f,USD₮0,282,282,True,
+morpho_747474_vbUSDC_203a66,morpho,747474,0x203a662b0bd271a6ed5a60edfbd04bfce608fd36,vbUSDC,,,0,458,False,no aave-v3 pool for this chain and token in DefiLlama's pool list
+morpho_747474_vbETH_ee7d8b,morpho,747474,0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62,vbETH,,,0,458,False,no aave-v3 pool for this chain and token in DefiLlama's pool list

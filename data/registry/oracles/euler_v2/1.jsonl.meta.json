@@ -1,0 +1,15 @@
+{
+  "chain_id": 1,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "euler_v2",
+  "rows": 3419,
+  "rpc_calls": 725,
+  "trace_fallback": {
+    "command": "code/data/oracles.py --retrace euler_v2:1",
+    "rows_reclassified": 107,
+    "rpc_calls": 76,
+    "runtime_seconds": 9.1
+  },
+  "written_utc": "2026-10-16T00:47:12+00:00"
+}

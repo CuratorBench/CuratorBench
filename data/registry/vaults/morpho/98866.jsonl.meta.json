@@ -1,0 +1,19 @@
+{
+  "chain": "plume",
+  "chain_id": 98866,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "PlumeMainnet",
+    "listed_by_api": false,
+    "morpho": "0x42b18785CE0Aed7BF7Ca43a39471ED4C0A3e0bB5",
+    "vault_v1_factories": [
+      "0x2525D453D9BA13921D5aB5D8c12F9202b0e19456"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 19,
+  "scanned_to_block": 96795564,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:47:06+00:00"
+}

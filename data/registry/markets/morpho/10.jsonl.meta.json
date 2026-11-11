@@ -1,0 +1,21 @@
+{
+  "chain": "optimism",
+  "chain_id": 10,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "OP Mainnet",
+    "listed_by_api": true,
+    "morpho": "0xce95AfbB8EA029495c66020883F87aaE8864AF92",
+    "vault_v1_factories": [
+      "0x3Bb6A6A0Bc85b367EFE0A5bAc81c5E52C892839a"
+    ],
+    "vault_v2_factories": [
+      "0x6128b680b277Bf4Df80DFE9D8c55A498660870ef"
+    ]
+  },
+  "rows": 18,
+  "scanned_to_block": 157654953,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:05+00:00"
+}

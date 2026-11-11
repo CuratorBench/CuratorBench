@@ -1,0 +1,145 @@
+{
+  "columns": [
+    "event_id",
+    "curator",
+    "day",
+    "exposure_share",
+    "exposure_usd",
+    "value_usd",
+    "group"
+  ],
+  "events": [
+    "E2-015",
+    "E2-026",
+    "E2-041",
+    "E2-042",
+    "E2-016",
+    "E2-012"
+  ],
+  "generator": "code/analysis/e5_events.py",
+  "inputs": {
+    "aum/excluded_vaults.jsonl": {
+      "sha256": "9934f5e3e4d815c4041e6b357e93cf692b79c6b54f0926745773dda6504c6731",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "aum/lending_daily.csv": {
+      "sha256": "8d3d0b432c92644773a5af5ed7f566769751225e277cb82e65ba7eebd517ffe9",
+      "written_utc": "2026-10-18T05:05:34+00:00"
+    },
+    "aum/vault_daily.csv": {
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "data/inputs/event_sizing.json": {
+      "sha256": "a0a6f4300b544a6a381912907da844d45eb6ffd74f998144521b2b55a52ca428"
+    },
+    "data/inputs/pt_markets.json": {
+      "sha256": "11844c8927136befef7285db162a3b28cc7cbe7ddc37969c061502de23f43d02"
+    },
+    "data/inputs/recovery_prices.json": {
+      "sha256": "852673bcc6845318c86880cf287e4e425fa790dfda2a5161f45c81ee6d3e3c2e"
+    },
+    "events/collateral_families.jsonl": {
+      "sha256": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/events.jsonl": {
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/prices_supplement.csv": {
+      "sha256": "f05a8e0905025bf73b9bc987877db3398040e77f292d475e9fbb5c723b5a0d31",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "events/tokens_supplement.jsonl": {
+      "sha256": "7586849b5a90b4d1e33b2457c1c4c1f7bb4f1a06c5f571387b36998da9e15a04",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "registry/curators.jsonl": {
+      "sha256": "6f9a03148df81f86dcec3fc7267d508c50c66668cf1ffcd61f57e45a86e034c3",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    },
+    "registry/vault_curators.jsonl": {
+      "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    }
+  },
+  "panel_heads": {
+    "euler_v2:1": {
+      "block": 26102061,
+      "ts": 1790913023
+    },
+    "euler_v2:59144": {
+      "block": 32265765,
+      "ts": 1791469092
+    },
+    "euler_v2:9745": {
+      "block": 34212585,
+      "ts": 1791153794
+    },
+    "moolah:56": {
+      "block": 125213725,
+      "ts": 1790908668
+    },
+    "morpho:1": {
+      "block": 26101699,
+      "ts": 1790908667
+    },
+    "morpho:42161": {
+      "block": 510855558,
+      "ts": 1790909351
+    },
+    "morpho:4663": {
+      "block": 77887342,
+      "ts": 1790909294
+    },
+    "morpho:747474": {
+      "block": 44166542,
+      "ts": 1790909353
+    },
+    "morpho:8453": {
+      "block": 52060001,
+      "ts": 1790909349
+    },
+    "morpho:999": {
+      "block": 47430029,
+      "ts": 1790909010
+    },
+    "silo_v2:1": {
+      "block": 26122083,
+      "ts": 1791154127
+    },
+    "silo_v2:146": {
+      "block": 80357910,
+      "ts": 1791154141
+    },
+    "silo_v2:42161": {
+      "block": 511745051,
+      "ts": 1791154143
+    },
+    "silo_v2:43114": {
+      "block": 96766610,
+      "ts": 1791154140
+    }
+  },
+  "parameters": {
+    "L_thresholds": [
+      0.05,
+      0.01,
+      0.1
+    ],
+    "exit_fraction": 0.1,
+    "lead_fraction": 0.5,
+    "lookback_days": 180,
+    "material_usd": 10000.0,
+    "path_days": [
+      -90,
+      30
+    ],
+    "valuation_ts": 1789041600,
+    "valuation_utc": "2026-09-10 12:00"
+  },
+  "rows": 1665,
+  "what": "Fig 5 lines: the six largest events by E2's third-party exposure rank (Table 3), one line per curator",
+  "written_utc": "2026-10-18T22:50:49+00:00"
+}

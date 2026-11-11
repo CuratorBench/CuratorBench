@@ -1,0 +1,117 @@
+{
+  "columns": {
+    "excluded_usd": "net AUM the row would have without the vault exclusion (excluded_vaults.jsonl) minus aum_usd",
+    "gross_usd": "sum of aum_usd",
+    "nested_usd": "holdings whose holder and held vault both belong to the row",
+    "unpriced_vaults": "vaults with assets but no price that day (left out)",
+    "vaults": "vaults with positive priced AUM that day"
+  },
+  "dust_supply": 1e-06,
+  "generator": "code/analysis/e3_aum.py",
+  "heads": {
+    "euler_v2:1": {
+      "block": 26102061,
+      "date": "2026-10-02",
+      "timestamp": 1790913023
+    },
+    "euler_v2:59144": {
+      "block": 32265765,
+      "date": "2026-10-08",
+      "timestamp": 1791469092
+    },
+    "euler_v2:9745": {
+      "block": 34212585,
+      "date": "2026-10-04",
+      "timestamp": 1791153794
+    },
+    "moolah:56": {
+      "block": 125220325,
+      "date": "2026-10-02",
+      "timestamp": 1790911639
+    },
+    "morpho:1": {
+      "block": 26102035,
+      "date": "2026-10-02",
+      "timestamp": 1790912711
+    },
+    "morpho:42161": {
+      "block": 510868029,
+      "date": "2026-10-02",
+      "timestamp": 1790912821
+    },
+    "morpho:4663": {
+      "block": 77921672,
+      "date": "2026-10-02",
+      "timestamp": 1790912765
+    },
+    "morpho:747474": {
+      "block": 44170016,
+      "date": "2026-10-02",
+      "timestamp": 1790912827
+    },
+    "morpho:8453": {
+      "block": 52061708,
+      "date": "2026-10-02",
+      "timestamp": 1790912763
+    },
+    "morpho:999": {
+      "block": 47433842,
+      "date": "2026-10-02",
+      "timestamp": 1790912760
+    },
+    "silo_v2:1": {
+      "block": 26122365,
+      "date": "2026-10-04",
+      "timestamp": 1791157511
+    },
+    "silo_v2:146": {
+      "block": 80359962,
+      "date": "2026-10-05",
+      "timestamp": 1791158548
+    },
+    "silo_v2:42161": {
+      "block": 511756937,
+      "date": "2026-10-04",
+      "timestamp": 1791157537
+    },
+    "silo_v2:43114": {
+      "block": 96770004,
+      "date": "2026-10-05",
+      "timestamp": 1791158706
+    }
+  },
+  "inputs": {
+    "lending": "data/panel/euler_v2/<chain>/<vault>.csv, governance.jsonl",
+    "prices": "data/prices/, DefiLlama chart",
+    "registry": "data/registry/vaults/, markets/euler_v2/",
+    "vault_layer": "data/vaults/<protocol>/<chain>/{fees.csv,flows/,adapter_shares.csv,positions/}"
+  },
+  "jump_window_days": 30,
+  "max_jump": 0.1,
+  "rows": 5084,
+  "rows_definition": {
+    "all": "every row above together, all vault-on-vault holdings between counted vaults subtracted (cross-protocol included)",
+    "euler_v2": "Earn plus governed lending, Earn deposits in those lending vaults subtracted",
+    "euler_v2_earn": "Euler Earn vaults",
+    "euler_v2_lending": "governed Euler lending vaults",
+    "morpho, moolah, silo_v2": "the protocol's curated vaults"
+  },
+  "scope": [
+    "morpho:1",
+    "morpho:8453",
+    "morpho:4663",
+    "morpho:42161",
+    "morpho:747474",
+    "morpho:999",
+    "moolah:56",
+    "euler_v2:1",
+    "euler_v2:9745",
+    "euler_v2:59144",
+    "silo_v2:1",
+    "silo_v2:42161",
+    "silo_v2:43114",
+    "silo_v2:146"
+  ],
+  "what": "Daily curated AUM per protocol, net of vault-on-vault holdings",
+  "written_utc": "2026-10-18T05:05:35+00:00"
+}

@@ -1,0 +1,337 @@
+{
+  "columns": [
+    "event_id",
+    "family",
+    "protocol",
+    "chain_id",
+    "vault",
+    "kind",
+    "name",
+    "curator",
+    "curator_name",
+    "group",
+    "t0_utc",
+    "exposure_t0_usd",
+    "max_exposure_usd_after_t0",
+    "inflow_usd_total",
+    "inflow_usd_allocator",
+    "inflow_usd_public_allocator",
+    "inflow_usd_supply_queue",
+    "inflow_usd_external_onbehalf",
+    "inflow_usd_other",
+    "mechanism_main",
+    "outflow_usd_total",
+    "n_tx",
+    "n_tx_by_mechanism",
+    "first_tx_time",
+    "example_tx",
+    "example_tx_usd",
+    "example_tx_mechanism",
+    "realloc_callers",
+    "extracted_usd_onbehalf_tx",
+    "loss_usd"
+  ],
+  "generator": "code/analysis/e5_inflows.py",
+  "inputs": {
+    "events/events.jsonl": {
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "metrics/e5/event_vault.csv": {
+      "sha256": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db",
+      "written_utc": "2026-10-18T22:50:49+00:00"
+    },
+    "vaults/euler_v2/9745/actions.jsonl": {
+      "sha256": "15a1d0a2f18e43d257418779361673f1cbc089aa9767bb0d0d5543036290c81f",
+      "written_utc": null
+    },
+    "vaults/euler_v2/9745/flows/0x66be42a0bda425a8c3b3c2cf4f4cb9edfcaed21d.csv": {
+      "sha256": "856c99ca100cfc59775b9a32e507fb4530194d6afea562ce36bf5b375a1a340d",
+      "written_utc": null
+    },
+    "vaults/euler_v2/9745/flows/0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66.csv": {
+      "sha256": "f40934ad0ac44efab1cf2a3adc655c80635f460daef7050ee02ab44f16d92ce9",
+      "written_utc": null
+    },
+    "vaults/euler_v2/9745/positions/0x66be42a0bda425a8c3b3c2cf4f4cb9edfcaed21d.csv": {
+      "sha256": "cbba4d98a3074de147dff95b792b7b8df221cc061dece09114423565f55cd05e",
+      "written_utc": null
+    },
+    "vaults/euler_v2/9745/positions/0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66.csv": {
+      "sha256": "89ed323ccf27f09b093fd24a077e6ecdfc00728fd8fa055a754893339d0bafb5",
+      "written_utc": null
+    },
+    "vaults/moolah/56/actions.jsonl": {
+      "sha256": "267a55fd07d581b57361994647624845bc04b1929babc6af2b062ae37ed27ec4",
+      "written_utc": null
+    },
+    "vaults/moolah/56/flows/0x02a5ca3a749855d1002a78813e679584a96646d0.csv": {
+      "sha256": "0af44ef8d1213ed29387645d641310658d043f148e84709f0b3814d7293eb45a",
+      "written_utc": null
+    },
+    "vaults/moolah/56/positions/0x02a5ca3a749855d1002a78813e679584a96646d0.csv": {
+      "sha256": "6bbae4a4bb570d61d5609aee3fdde728cfd6ae39464c5cee14961884b5cb3e42",
+      "written_utc": null
+    },
+    "vaults/morpho/1/actions.jsonl": {
+      "sha256": "6895b42d2403e400551956b2d8492f91a13819fff359797faea493fd20be5000",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x09c4c7b1d2e9aa7506db8b76f1dbbd61c08c114b.csv": {
+      "sha256": "b99b6153c92fc30e0f8f85cf7b9eb817978ee4457dceba267375a2ce90a13ddb",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x0b6c8ef0de1be5ed1b59e6e7a67fb9442fb9e49c.csv": {
+      "sha256": "ff2ebe75f38c8a185bba7cf74d3d5c52f00ab14c30a924fb97b830d1aface715",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x1e2aaadcf528b9cc08f43d4fd7db488ce89f5741.csv": {
+      "sha256": "7881743cb9fd1de350dba18c6848a8ef56198e0a5700ca0a24354f6f9b4c2f1c",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x21ed44c18c926c60092b1b2985e2c999421a5a69.csv": {
+      "sha256": "0b57edb87d4cb2530b22de61f853d0b146511052f5da9ec133b3dd94e8678a41",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x69a61a331d56a6fe6ea1226de89744982ffca4c4.csv": {
+      "sha256": "badc24658e3e1f90ccd3778932e024e89c258018be1a19b33509babafad72eb7",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x6c26793c7f1e2785c09b460676e797b716f0bc8e.csv": {
+      "sha256": "0355a6225ea50a34d82e99c9daff6880542a8a3a7e668ff1f4be8251c4bbecb9",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x7193794ec82f527efb618ac50c078d348ecba4b6.csv": {
+      "sha256": "b2bf1e27f15c3fce2071e88d63bb4f77b001789efc92f81f535fa702019150e0",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x739d8a60ed4b14e4cb6dcaeaf79d2ec0ca092237.csv": {
+      "sha256": "2848133132dfe0e6b1bf93351b16c2e220ba256f1f97d98652612d782d775635",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x9178ebe0691593184c1d785a864b62a326cc3509.csv": {
+      "sha256": "16bfbe6534ab303a83df4d631074426f005cf3ec18c5124ad53e9f3fb05f8c17",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0x9b5e92fd227876b4c07a8c02367e2cb23c639dfa.csv": {
+      "sha256": "caf4336a170ed9f727da4b4929467d9a67907b0f17eb167b953dc93ad7285e39",
+      "written_utc": null
+    },
+    "vaults/morpho/1/flows/0xb5a4d705bb345d8c5753878aafc6969547afc061.csv": {
+      "sha256": "00078ee5ba179f552df221f155fdd37cdd56141b750bc6555dfbc0a01ea3d5cb",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x09c4c7b1d2e9aa7506db8b76f1dbbd61c08c114b.csv": {
+      "sha256": "2ae63ea8f502885c3008011f8265124596870c032e0f393355ba1f7ec84265c8",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x0b6c8ef0de1be5ed1b59e6e7a67fb9442fb9e49c.csv": {
+      "sha256": "c83d4062cfb49ba4c4f1de80902b46a0ebc665ae20f140a3e1bded8874b498e8",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x1e2aaadcf528b9cc08f43d4fd7db488ce89f5741.csv": {
+      "sha256": "f9e1f87d3e1b4f8ebf054bf55a2c43ea031cd2d669b70a38d51523b341b38c07",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x21ed44c18c926c60092b1b2985e2c999421a5a69.csv": {
+      "sha256": "af00ba18c074bf0a6991b44ff8c005bc199b9a7e4d1de7b4f8b60b251f51c47a",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x69a61a331d56a6fe6ea1226de89744982ffca4c4.csv": {
+      "sha256": "e35d4a3225e96258032311c78722de961628ed4dc249365a5444af5c44b9571c",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x6c26793c7f1e2785c09b460676e797b716f0bc8e.csv": {
+      "sha256": "450a74e10114640124b05db962f411429f98c505e26bfd464fc3683363217c4b",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x7193794ec82f527efb618ac50c078d348ecba4b6.csv": {
+      "sha256": "3c5bff217a53369b8b59a661dd3d56e01da5d6ca59b45b216ac6c8c43063b4aa",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x739d8a60ed4b14e4cb6dcaeaf79d2ec0ca092237.csv": {
+      "sha256": "f84b6244a37d605f7abc6c4b1f0d6d13f50c3d9c4103bafdfb3b412d9b9ba2b0",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x9178ebe0691593184c1d785a864b62a326cc3509.csv": {
+      "sha256": "5d8e9d04be042292f2330f482f27b308cac5695436805904d0c563d80cf70ac5",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0x9b5e92fd227876b4c07a8c02367e2cb23c639dfa.csv": {
+      "sha256": "d13361e2d69dd39045011dd65162c5fe54cf185bc1a9997df24bb50bef3d7a4a",
+      "written_utc": null
+    },
+    "vaults/morpho/1/positions/0xb5a4d705bb345d8c5753878aafc6969547afc061.csv": {
+      "sha256": "12d87c3bd03ae955de3a2b45b138b78f6d6805062a0a882de4bd622286301335",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/actions.jsonl": {
+      "sha256": "92dcd6f6cad0663100fa254149c26b26bd8fd48529cc3546291db62547536669",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/flows/0x12afdefb2237a5963e7bab3e2d46ad0eee70406e.csv": {
+      "sha256": "123d57498199ef462a2fd5a5a4e5a0ed43f2b7724acf19c6f696c125fd13e58e",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/flows/0x23479229e52ab6aad312d0b03df9f33b46753b5e.csv": {
+      "sha256": "c63d213c2507fe38868ed6ae6e494e293a43011b3889173346e54069c6640da8",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/flows/0x58efa4a930f06b04ea9b1f1cf6b7c620b5c93ea1.csv": {
+      "sha256": "d714aa9481c538b100f2906ad6c16dd749b5ef49d3f32c38ee9a7f85ac77225e",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/flows/0x616a4e1db48e22028f6bbf20444cd3b8e3273738.csv": {
+      "sha256": "51043a408c0a45208e1c2d7e01de8a58593fc12d06242fca09b25085e22d4abf",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/flows/0xc0c5689e6f4d256e861f65465b691aeecc0deb12.csv": {
+      "sha256": "58c48b350844700050fbe13fb2b55014ee44d902ce12c76e52d856302eb646bf",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/positions/0x12afdefb2237a5963e7bab3e2d46ad0eee70406e.csv": {
+      "sha256": "0f8ae08768ea87b01334c2604761fa15e6773f79d384c9f1d66ae93d7c3ac1db",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/positions/0x23479229e52ab6aad312d0b03df9f33b46753b5e.csv": {
+      "sha256": "b7aa6864f2b9ed7b1cb2d0bd32b219b4327ad248350a9fc263a14fad24898c83",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/positions/0x58efa4a930f06b04ea9b1f1cf6b7c620b5c93ea1.csv": {
+      "sha256": "37b98f5e93c179f2df3418ade5b30a2380e8bed615693a8df45837aaf082bd46",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/positions/0x616a4e1db48e22028f6bbf20444cd3b8e3273738.csv": {
+      "sha256": "a0eefdc63c71affad032b1643ef4d346970de7208e0bc98f59d491f92907c265",
+      "written_utc": null
+    },
+    "vaults/morpho/8453/positions/0xc0c5689e6f4d256e861f65465b691aeecc0deb12.csv": {
+      "sha256": "0c924afd9693fe97d5bd1b899aaffe3a3e2824aa9ef84c06e886fc4e127c9ce9",
+      "written_utc": null
+    },
+    "vaults/morpho/999/actions.jsonl": {
+      "sha256": "250db78d2771706a3ae3be1a76a5875b712de9361e370f6f6b83f28901dd7d4d",
+      "written_utc": null
+    },
+    "vaults/morpho/999/flows/0x242572d6f1af7111bca807ecdd0f74108ceaed5d.csv": {
+      "sha256": "b014bd822727c32fdd86b1d295600f3bda4247ef9d2e67ed4a373d351ab6970d",
+      "written_utc": null
+    },
+    "vaults/morpho/999/positions/0x242572d6f1af7111bca807ecdd0f74108ceaed5d.csv": {
+      "sha256": "f0c34953ad23f0fa7d38271b7144c2b55fbfb2ce743d2dceaa925b094dd807bb",
+      "written_utc": null
+    },
+    "vaults/silo_v2/1/actions.jsonl": {
+      "sha256": "9e703ec8e5f61abce197828748042fd484993bcd9f97a92564fc1bc3d9bebc34",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/1/flows/0x8399c8fc273bd165c346af74a02e65f10e4fd78f.csv": {
+      "sha256": "c06ad59aa63d9d92846be20e7bc6779f70599423c54caa8ce475b866dd45ee79",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/1/positions/0x8399c8fc273bd165c346af74a02e65f10e4fd78f.csv": {
+      "sha256": "d2cb72af2e1c0ff4ed517bb4085825d99ee84b52e6f76c881a2ea3a1bef0030f",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/146/actions.jsonl": {
+      "sha256": "8eb4c79466d1c4eebfe3b562cd2b5cca6f8d83995fb4a33abe3b07203286c6fc",
+      "written_utc": "2026-10-08T14:53:07+00:00"
+    },
+    "vaults/silo_v2/146/flows/0xf6f87073cf8929c206a77b0694619dc776f89885.csv": {
+      "sha256": "1101035907d03307e8ffd73ed6fcfe8266873f90117c55bdd1092afced2a6ffc",
+      "written_utc": "2026-10-08T14:53:07+00:00"
+    },
+    "vaults/silo_v2/146/positions/0xf6f87073cf8929c206a77b0694619dc776f89885.csv": {
+      "sha256": "b987fcae6345fb60271828c196ccf78524c2a693c3644547b135864fd065f6aa",
+      "written_utc": "2026-10-08T14:53:07+00:00"
+    },
+    "vaults/silo_v2/42161/actions.jsonl": {
+      "sha256": "8448241c9daea8211cddb033c0a84ba939bc35800e10e25d2323b6ffd79a06e1",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/flows/0x2514a2ce842705ead703d02fabfd8250bfcfb8bd.csv": {
+      "sha256": "eec45cf01afb3eab1f51cbf3a6801e0db24bca626f9e57ae30808cd173ed75af",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/flows/0x2ba39e5388ac6c702cb29aea78d52aa66832f1ee.csv": {
+      "sha256": "92b6435370ccb1a60cf1d293a9545904835f3ed23e5aeaf4b4a57d5786a1fbb4",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/flows/0xac69cfe6bb269cebf8ab4764d7e678c3658b99f2.csv": {
+      "sha256": "b60b5e92b4561d5e69441031567f98428c533ef6a95187e01466608a6377779a",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/positions/0x2514a2ce842705ead703d02fabfd8250bfcfb8bd.csv": {
+      "sha256": "d50840dfaaaabc157fd9d016bb2742717d3c9fe9a9879e58dc0f57880feef889",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/positions/0x2ba39e5388ac6c702cb29aea78d52aa66832f1ee.csv": {
+      "sha256": "43be8fcb9d071c03f792f31fea78b9383890e62b628e8cd59bda27841d01dc60",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/42161/positions/0xac69cfe6bb269cebf8ab4764d7e678c3658b99f2.csv": {
+      "sha256": "10b348a02a786e7aafb67a941926d8285e0e41a50cf9b1454fef6893111b09e7",
+      "written_utc": "2026-10-08T14:53:04+00:00"
+    },
+    "vaults/silo_v2/43114/actions.jsonl": {
+      "sha256": "5d23ad43149704f4a0fabdda3151666b8029ff93c99f3c69189080992548e919",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/flows/0x36e2aa296e798ca6262dc5fad5f5660e638d5402.csv": {
+      "sha256": "b51956b1512e27a3fcd67ebe09ee327fcece5fc77ce170173aa87452a70cc097",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/flows/0x3d7b0c3997e48fa3fc96cd057d1fb4e5f891835b.csv": {
+      "sha256": "b455e8f9d3d1210cf1538f86abdf3ca8efcc091eabeaebe51b898527fdf32edb",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/flows/0x6c09bfdc1df45d6c4ff78dc9f1c13af29eb335d4.csv": {
+      "sha256": "d6b02e6f986715bc76ede9bb5349b1e1d038e4a9a653735eb0545157afe07bfc",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/positions/0x36e2aa296e798ca6262dc5fad5f5660e638d5402.csv": {
+      "sha256": "70bbdc9fe370d0388ea67041c7ea9fcfbd95245226f27f1c831232ce18d7c95e",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/positions/0x3d7b0c3997e48fa3fc96cd057d1fb4e5f891835b.csv": {
+      "sha256": "d085fac917ed5aa56acafeb0212713affd1e4a6ec8b3df5f7296c8d3667b4f51",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    },
+    "vaults/silo_v2/43114/positions/0x6c09bfdc1df45d6c4ff78dc9f1c13af29eb335d4.csv": {
+      "sha256": "6ce81ada25e6279f5bd6f156eb1e912ad44ecf6c40934e401bdf217dbddbb72a",
+      "written_utc": "2026-10-08T14:53:05+00:00"
+    }
+  },
+  "parameters": {
+    "force": [
+      "E2-026:0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66"
+    ],
+    "material_usd": 10000.0,
+    "public_allocator": {
+      "morpho:1": "0xfd32fa2ca22c76dd6e550706ad913fc6ce91c75d",
+      "morpho:42161": "0x769583af5e9d03589f159ebec31cc2c23e8c355e",
+      "morpho:747474": "0x39eb6da5e88194c82b13491df2e8b3e213ed2412",
+      "morpho:8453": "0xa090dd1a701408df1d4d0b85b716c87565f90467",
+      "morpho:999": "0x517505be22d9068687334e69ae7a02fc77edf4fc"
+    },
+    "window_days": 30
+  },
+  "rows": 28,
+  "rpc_calls": 6,
+  "rules": {
+    "allocator": "ReallocateSupply into an event market by any other caller; Vault V2 Allocate on an adapter covering an event market by a sender that did not deposit in the same tx",
+    "external_onbehalf": "residual = change of all the vault's positions in the tx - (vault deposits - withdrawals), if positive (MetaMorpho forks hold no idle cash); Silo: market Deposit with owner = vault and sender != vault; Vault V2: adapter increase no Allocate covers",
+    "extracted_usd_onbehalf_tx": "vault withdrawals less deposits (floored at 0) in the transactions with an external_onbehalf part: the cash the third party took out of the vault in the same transaction (donation attacks), USD at the inflow's price; not part of E5's loss",
+    "floor": "inflow_usd_total >= 10,000, except FORCE rows",
+    "inflow": "per tx, change of the vault's assets in the event's markets summed over them (Morpho/Moolah supply - withdraw, Vault V2 via its adapters; Silo/Euler Earn Deposit - Withdraw plus non-mint share transfers at the last conversion); a tx with a positive change is an inflow tx",
+    "mechanism_main": "the largest component in USD",
+    "order": "reallocations first (logged amounts, scaled pro rata to the tx change), then external_onbehalf, then supply_queue, then other",
+    "other": "the remainder",
+    "public_allocator": "ReallocateSupply into an event market with caller = the chain's Morpho Public Allocator",
+    "supply_queue": "Vault V2 Allocate whose sender deposited in the same tx; else the remainder up to the vault's deposits in the tx (supply-queue routing, including same-tx deposit/withdraw loops)",
+    "usd": "vault asset at the DefiLlama close of the tx day (E2 Prices)"
+  },
+  "units": "USD; times UTC",
+  "what": "one row per (depeg-loss event, curated vault in E5's event_vault.csv, not an Euler lending vault) whose position in the event's markets rose in transactions within 30 days after E5's t0 by at least 10,000 USD in sum, split by the mechanism of each rise",
+  "written_utc": "2026-10-18T22:52:04+00:00"
+}

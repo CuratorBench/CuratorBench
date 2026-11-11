@@ -1,0 +1,15 @@
+[
+  "0x8bF41Ad2b816F7c220b22F4BCD63fC2A35Ab4247",
+  "0x6370c6445073b8df18368e3E11Bfecf0cEd13b01",
+  {
+    "address": "0x67f062a12f82c3b42d4CA7a35fb26CbAac28008B",
+    "deprecated": true,
+    "deprecationReason": "Deprecated due to low activity.",
+    "notExplorable": true
+  },
+  "0xC72F073A311e037d4bc909FedAE94De38494EE5b",
+  {
+    "address": "0x5D780CFaf3c1fAeA843FDfb79aC1288C94785D29",
+    "description": "USDC Earn vault managed by JPEG Trading. Its configured strategies include the JPEG Trading x Yieldpoint market, collateralized by Yieldpoint yUTY."
+  }
+]

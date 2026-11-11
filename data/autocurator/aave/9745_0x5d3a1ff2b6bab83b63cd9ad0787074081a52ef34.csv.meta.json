@@ -1,0 +1,9 @@
+{
+ "chain": "Plasma",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "42eaf290-24c3-4ce0-82ab-c1276444871b",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/42eaf290-24c3-4ce0-82ab-c1276444871b",
+ "symbol": "USDE",
+ "written_utc": "2026-10-25T19:58:26Z"
+}

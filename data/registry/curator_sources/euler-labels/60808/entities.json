@@ -1,0 +1,50 @@
+{
+  "k3-capital": {
+    "addresses": {
+      "0x3518b4c4539337369b10e0d93427e6Ba1AC44d95": "K3 Fireblocks wallet"
+    },
+    "description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "k3.svg",
+    "name": "K3 Capital",
+    "social": {
+      "twitter": "k3_capital"
+    },
+    "url": "https://k3.capital/"
+  },
+  "mev-capital": {
+    "addresses": {
+      "0xF9686A9Eef4a771Ea7D209766A4165d59dAA6C20": "MEV Capital Multisig"
+    },
+    "description": "MEV Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "mev-capital.svg",
+    "name": "MEV Capital",
+    "social": {
+      "twitter": "mevcapital"
+    },
+    "url": "https://mevcapital.com/"
+  },
+  "re7-labs": {
+    "addresses": {
+      "0xb1DC040D7DC52EEE3c0737633C914e849f7D9b8b": "Re7 Labs Euler BOB Multisig"
+    },
+    "description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "re7labs.png",
+    "name": "Re7 Labs",
+    "social": {
+      "twitter": "Re7Labs"
+    },
+    "url": "https://www.re7labs.xyz/"
+  },
+  "tulipa-capital": {
+    "addresses": {
+      "0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig"
+    },
+    "description": "Tulipa Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "tulipacapital.png",
+    "name": "Tulipa Capital",
+    "social": {
+      "twitter": "tulipacapital"
+    },
+    "url": "https://www.tulipa.capital/"
+  }
+}

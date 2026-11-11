@@ -1,0 +1,24 @@
+{
+  "kind": "schematic overview; no measured values or model results",
+  "dimensions_pt": [
+    504,
+    142
+  ],
+  "source_sha256": {
+    "code/figures/fig_www27_overview.py": "94a487d70c683094e77d19f91a1c9fdd37419929fdc4bf55dd24125040ef909d",
+    "code/figures/fig_www27_redesign.py": "e5278e2d40666f1474b3cfefa3c5c287da8cedca2857b832e4b540b12b791a08",
+    "code/figures/style.py": "d2311895f7bcc462e89eac094c325fe4c050c7e4bba060e42c3ef33d28ae674e",
+    "figures/assets/token-icons/sources.json": "0030e2c6a66d1f41e2c659195a95ff9dc5e68efc3f65873d502e90fce613a459",
+    "figures/assets/token-icons/btc.svg": "a772587201b7603cc316fc28fbd974d07bf47d22d0e4a25d8f076d7900f3469b",
+    "figures/assets/token-icons/eth.svg": "4611f65a00cff2e61dd7815aa59cb1bed0e0a266acca7eafc8212e78c7c7d10e",
+    "figures/assets/token-icons/susde.svg": "93a91b8f8f791169d7caa9c79f83f06a6f5b7f891ff55ad6584bffb457a47ec4",
+    "figures/assets/token-icons/usdc.svg": "fe4f9d5f34ef4ebeb5d80e1f5ff63dcaf5a0d5495f4adf206e4c3011d1f5c57d",
+    "figures/assets/token-icons/btc.png": "4b259b7a8b76bf5cd9ff7d34066772af90a4f353e3afa5dfdb4de6cfd90b03f0",
+    "figures/assets/token-icons/eth.png": "25c6f0806a567485f5afcd9a1ab339fcf9584cd59270f506c6471d96d64ef8b6",
+    "figures/assets/token-icons/susde.png": "eb6a414e67a242f2a72f7d95447e113be377be19f62ec6c8cc2ff1cf024422a9",
+    "figures/assets/token-icons/usdc.png": "ce792e279df18492cc898788c5162ad7b6bb143c8cb22fe36e5593f33f31e795"
+  },
+  "human_path": "recorded holdings enter the shared metrics directly",
+  "policy_path": "baseline and AutoCurator allocations use historical replay",
+  "token_artwork": "original sources and asset hashes in figures/assets/token-icons/sources.json"
+}

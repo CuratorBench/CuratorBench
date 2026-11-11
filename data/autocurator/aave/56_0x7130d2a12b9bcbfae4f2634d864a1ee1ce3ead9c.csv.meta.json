@@ -1,0 +1,9 @@
+{
+ "chain": "BSC",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "45bfb85f-deb5-4990-b9c4-cfb99629e6e8",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/45bfb85f-deb5-4990-b9c4-cfb99629e6e8",
+ "symbol": "BTCB",
+ "written_utc": "2026-10-25T19:58:27Z"
+}

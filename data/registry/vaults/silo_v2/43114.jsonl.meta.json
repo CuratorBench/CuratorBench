@@ -1,0 +1,15 @@
+{
+  "chain": "avalanche",
+  "chain_id": 43114,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "avalanche",
+    "silo_factory": "0x9e64f0CD206cce2Da5dE08E7F482D62F57013D0e",
+    "silo_vaults_factory": "0x6Ec69E17E1184Ac8209aE03f21939E7960F46BD7"
+  },
+  "rows": 24,
+  "scanned_to_block": 96575137,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:45:26+00:00"
+}

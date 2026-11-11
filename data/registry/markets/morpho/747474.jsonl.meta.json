@@ -1,0 +1,21 @@
+{
+  "chain": "katana",
+  "chain_id": 747474,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Katana",
+    "listed_by_api": true,
+    "morpho": "0xD50F2DffFd62f94Ee4AEd9ca05C61d0753268aBc",
+    "vault_v1_factories": [
+      "0x1c8De6889acee12257899BFeAa2b7e534de32E16"
+    ],
+    "vault_v2_factories": [
+      "0xFcb8b57E56787bB29e130Fca67f3c5a1232975D1"
+    ]
+  },
+  "rows": 109,
+  "scanned_to_block": 44166543,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:49:15+00:00"
+}

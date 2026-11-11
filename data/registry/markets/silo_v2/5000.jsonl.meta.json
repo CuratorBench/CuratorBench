@@ -1,0 +1,15 @@
+{
+  "chain": "mantle",
+  "chain_id": 5000,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "mantle",
+    "silo_factory": "0xe5b39b0b2173caA82BaEa368952c6183cA2DA3Ac",
+    "silo_vaults_factory": "0x4A6c34A6B8F5C1a1Dcdc4be664cbC1259a0737a6"
+  },
+  "rows": 2,
+  "scanned_to_block": 101389605,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:52:04+00:00"
+}

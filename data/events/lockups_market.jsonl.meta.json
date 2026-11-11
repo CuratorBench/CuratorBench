@@ -1,0 +1,17 @@
+{
+  "collateral": "Euler: the collateral vault with the most attributed debt at the run start (data/vaults/euler_v2/*/borrow_distribution.csv); Silo: the paired silo's token",
+  "generator": "code/analysis/e2_events.py",
+  "kept": "step two: some curated vault holding >= 10k USD in the market had L(t) < 5% on a day end inside the run while L(t) with this market liquid would be >= 5%",
+  "opened_in_creation_block": "the run starts in the block that created the market (one-block supply-and-borrow loops such as the 720 Base cbBTC/GMORPHO markets)",
+  "oracle": "data/registry/oracles/ (Silo: the paired silo's solvency oracle)",
+  "panel": "data/panel/<protocol>/<chain>/",
+  "peak_supply_usd": "max over the run's days of supply x the loan token's daily close",
+  "pinned_share_prior_180d": "share of the 180 day ends before the run with end-of-day utilization >= 99% (markets pinned by design score high)",
+  "prices": "data/prices/<chain>.csv and data/events/prices_supplement.csv",
+  "rows": 1044,
+  "run": "starts at the first panel row with utilization >= threshold, ends at the first later row below it; open at the head = ongoing_at_head",
+  "step_one": "utilization >= 0.99 for >= 72 h, peak supply >= 1,000,000 USD",
+  "utilization": "Morpho/Moolah totalBorrowAssets / totalSupplyAssets; Euler totalBorrows / (cash + totalBorrows); Silo debt / collateral (protected excluded)",
+  "what": "every step-one lock-up run on the 14 pairs, with the step-two outcome (kept)",
+  "written_utc": "2026-10-18T22:32:32+00:00"
+}

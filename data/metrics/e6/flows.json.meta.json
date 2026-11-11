@@ -1,0 +1,24 @@
+{
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "e3_vault_daily": {
+      "path": "data/aum/vault_daily.csv",
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "e4_vault_daily": {
+      "path": "data/metrics/e4/vault_daily.csv",
+      "sha256": "38282434eb9ec62adc798b5b5806938a6ee18d7f67c258e5c77f3bb481130a6f",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "e4_vault_scorecard": {
+      "path": "data/metrics/e4/vault_scorecard.csv",
+      "sha256": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    }
+  },
+  "sample_rule": "E4 sample allocator vaults (Euler lending vaults have no depositor flow events); previous week with at least 4 active days, active at its end, value at least 10k USD; flow rate winsorized at the 1st and 99th percentiles",
+  "units": "flow rate per week as a fraction of value; APY and tail loss as fractions",
+  "what": "weekly net inflow per vault (flows/, USD at the E3 price of the day) over the vault's E4 USD value at the end of the previous week, regressed on the previous week's mean vault APY (capped at 1) and oracle-aware headline tail loss (E4 vault_daily tl_headline) with curator fixed effects; CR1 standard errors clustered by curator (an unattributed vault is its own curator)",
+  "written_utc": "2026-10-18T23:06:40+00:00"
+}

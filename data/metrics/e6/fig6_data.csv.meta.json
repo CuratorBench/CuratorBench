@@ -1,0 +1,38 @@
+{
+  "columns": [
+    "chain_id",
+    "vault",
+    "protocol",
+    "kind",
+    "name",
+    "curator_entity",
+    "class",
+    "fee_rate",
+    "yield_after_fee",
+    "tl_headline",
+    "L_p10",
+    "loss_per_dollar",
+    "tl_v1_headline"
+  ],
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "contrasts": {
+      "path": "data/metrics/e6/contrasts.json",
+      "sha256": "f9ee745f1e5a4bc9170c90e87bbfda3a62a257988a295fbb5335e4b169afb07e",
+      "written_utc": "2026-10-18T23:06:15+00:00"
+    },
+    "e4_vault_daily": {
+      "path": "data/metrics/e4/vault_daily.csv",
+      "sha256": "38282434eb9ec62adc798b5b5806938a6ee18d7f67c258e5c77f3bb481130a6f",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "e4_vault_scorecard": {
+      "path": "data/metrics/e4/vault_scorecard.csv",
+      "sha256": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    }
+  },
+  "rows": 875,
+  "what": "Fig 6 data: one row per E4 sample vault; tl_headline is E4's oracle-aware headline tail loss, tl_v1_headline the first pass (appendix)",
+  "written_utc": "2026-10-18T23:06:50+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "package": "@lobehub/icons-static-png@1.62.0",
+  "license": "MIT (https://github.com/lobehub/lobe-icons); the marks belong to their vendors and identify the models only",
+  "url_pattern": "https://unpkg.com/@lobehub/icons-static-png@1.62.0/light/<name>.png",
+  "files": ["claude-color.png", "openai.png", "gemini-color.png", "deepseek-color.png", "qwen-color.png", "kimi-color.png", "zhipu-color.png", "meta-color.png"],
+  "downloaded": "2026-10-25"
+}

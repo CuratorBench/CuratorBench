@@ -1,0 +1,429 @@
+{
+  "columns": [
+    "event_id",
+    "protocol",
+    "chain_id",
+    "market",
+    "loan_symbol",
+    "collateral_symbols",
+    "reference_utc",
+    "valuation_utc",
+    "state_T_row_utc",
+    "supply_book_T",
+    "debt_book_T",
+    "cash_T",
+    "family_debt_share_T",
+    "debt_family_book_T",
+    "debt_family_principal_T",
+    "phantom_interest_usd",
+    "collateral_units",
+    "recovery_price_usd",
+    "recovery_source",
+    "recoverable_collateral_loan_units",
+    "principal_shortfall",
+    "principal_shortfall_usd",
+    "supply_principal_T",
+    "shortfall_ratio",
+    "bad_debt_usd",
+    "market_loss_usd",
+    "principal_shortfall_mult_usd",
+    "market_loss_mult_usd",
+    "principal_rule",
+    "collateral_rule",
+    "ref_file",
+    "ref_key",
+    "ref_principal_shortfall_usd",
+    "ref_principal_subtract_usd",
+    "ref_written_off_usd",
+    "ref_depositor_loss_usd",
+    "ref_market_total_usd"
+  ],
+  "definition": "principal shortfall = max(principal debt - collateral x recovery price, 0); shortfall ratio = principal shortfall / (book supply less the interest accrued after the market's onset); the state rule of data/inputs/hit_rules.md",
+  "definition_mult": "principal_shortfall_mult_usd = max(book debt - collateral x recovery price, 0) x principal debt / book debt, the input tables' multiplicative estimate; market_loss_mult_usd adds the written-off bad debt",
+  "generator": "code/analysis/e5_events.py",
+  "inputs": {
+    "aum/excluded_vaults.jsonl": {
+      "sha256": "9934f5e3e4d815c4041e6b357e93cf692b79c6b54f0926745773dda6504c6731",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "aum/lending_daily.csv": {
+      "sha256": "8d3d0b432c92644773a5af5ed7f566769751225e277cb82e65ba7eebd517ffe9",
+      "written_utc": "2026-10-18T05:05:34+00:00"
+    },
+    "aum/vault_daily.csv": {
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "data/inputs/event_sizing.json": {
+      "sha256": "a0a6f4300b544a6a381912907da844d45eb6ffd74f998144521b2b55a52ca428"
+    },
+    "data/inputs/pt_markets.json": {
+      "sha256": "11844c8927136befef7285db162a3b28cc7cbe7ddc37969c061502de23f43d02"
+    },
+    "data/inputs/recovery_prices.json": {
+      "sha256": "852673bcc6845318c86880cf287e4e425fa790dfda2a5161f45c81ee6d3e3c2e"
+    },
+    "events/collateral_families.jsonl": {
+      "sha256": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/events.jsonl": {
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "events/prices_supplement.csv": {
+      "sha256": "f05a8e0905025bf73b9bc987877db3398040e77f292d475e9fbb5c723b5a0d31",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "events/tokens_supplement.jsonl": {
+      "sha256": "7586849b5a90b4d1e33b2457c1c4c1f7bb4f1a06c5f571387b36998da9e15a04",
+      "written_utc": "2026-10-18T22:31:57+00:00"
+    },
+    "registry/curators.jsonl": {
+      "sha256": "6f9a03148df81f86dcec3fc7267d508c50c66668cf1ffcd61f57e45a86e034c3",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    },
+    "registry/vault_curators.jsonl": {
+      "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    }
+  },
+  "panel_heads": {
+    "euler_v2:1": {
+      "block": 26102061,
+      "ts": 1790913023
+    },
+    "euler_v2:59144": {
+      "block": 32265765,
+      "ts": 1791469092
+    },
+    "euler_v2:9745": {
+      "block": 34212585,
+      "ts": 1791153794
+    },
+    "moolah:56": {
+      "block": 125213725,
+      "ts": 1790908668
+    },
+    "morpho:1": {
+      "block": 26101699,
+      "ts": 1790908667
+    },
+    "morpho:42161": {
+      "block": 510855558,
+      "ts": 1790909351
+    },
+    "morpho:4663": {
+      "block": 77887342,
+      "ts": 1790909294
+    },
+    "morpho:747474": {
+      "block": 44166542,
+      "ts": 1790909353
+    },
+    "morpho:8453": {
+      "block": 52060001,
+      "ts": 1790909349
+    },
+    "morpho:999": {
+      "block": 47430029,
+      "ts": 1790909010
+    },
+    "silo_v2:1": {
+      "block": 26122083,
+      "ts": 1791154127
+    },
+    "silo_v2:146": {
+      "block": 80357910,
+      "ts": 1791154141
+    },
+    "silo_v2:42161": {
+      "block": 511745051,
+      "ts": 1791154143
+    },
+    "silo_v2:43114": {
+      "block": 96766610,
+      "ts": 1791154140
+    }
+  },
+  "parameters": {
+    "L_thresholds": [
+      0.05,
+      0.01,
+      0.1
+    ],
+    "exit_fraction": 0.1,
+    "lead_fraction": 0.5,
+    "lookback_days": 180,
+    "material_usd": 10000.0,
+    "path_days": [
+      -90,
+      30
+    ],
+    "valuation_ts": 1789041600,
+    "valuation_utc": "2026-09-10 12:00"
+  },
+  "recovery_used": {
+    "146:0x5ee17fd12ede62b508f9615db384ce7b834ba657": {
+      "price_usd": 0.6537503721005514,
+      "source": "data/inputs/pt_markets.json pt.markets uid silo:146:0xcb2dcdc5e4016d0be706df5e312fb3e7c2341497 val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.6537503721005514
+    },
+    "146:0x6202b9f02e30e5e1c62cc01e4305450e5d83b926": {
+      "price_usd": 0.02510698118559775,
+      "source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+      "unit": "USD",
+      "unit_price": 0.02510698118559775
+    },
+    "146:0xc7990369da608c2f4903715e3bd22f2970536c29": {
+      "price_usd": 0.4484932241572736,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 0.4484932241572736
+    },
+    "1:0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8": {
+      "price_usd": 1.096788,
+      "source": "data/inputs/event_sizing.json recovery_prices['1:0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8'] (wrapper_rate_x_underlying, tier 2, depth_usd None)",
+      "unit": "USD",
+      "unit_price": 1.096788
+    },
+    "1:0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055": {
+      "price_usd": 0.5664830794591577,
+      "source": "data/inputs/recovery_prices.json tokens['usr:wstUSR'].chosen (wrapper_rate_x_underlying, tier 2, depth_usd None)",
+      "unit": "USD",
+      "unit_price": 0.5664830794591577
+    },
+    "1:0x29fd7180e5cced14ad148c7997e6b6857a8be86e": {
+      "price_usd": 0.5515929772114412,
+      "source": "data/inputs/pt_markets.json pt.markets uid morpho:1:0x4d476977cc953c75516f56df0ce6a07d5fffc1de039f56178057576db20452a7 val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.5515929772114412
+    },
+    "1:0x35d8949372d46b7a3d5a56006ae77b215fc69bc0": {
+      "price_usd": 0.974319866979208,
+      "source": "data/inputs/recovery_prices.json tokens['usd0pp:bUSD0'].chosen (ladder_a, tier 1, depth_usd 3009166.29)",
+      "unit": "USD",
+      "unit_price": 0.974319866979208
+    },
+    "1:0x3a70f0c696dcb3a4ab3833cd9726397dd61ac85e": {
+      "price_usd": 0.5611494870619477,
+      "source": "data/inputs/pt_markets.json pt.markets uid eulervault:1:0x3a8992754e2ef51d8f90620d2766278af5c59b90 val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.5611494870619477
+    },
+    "1:0x4956b52ae2ff65d74ca2d61207523288e4528f96": {
+      "price_usd": 0.71,
+      "source": "data/inputs/recovery_prices.json tokens['usr:RLP'].chosen (issuer_redemption, tier 6, depth_usd 1062.12)",
+      "unit": "USD",
+      "unit_price": 0.71
+    },
+    "1:0x5085dd6fad07c12e38fae01bc2a4938d2c08b1bc": {
+      "price_usd": 0.5491441822401917,
+      "source": "vault share 0x5085dd6fad07c12e38fae01bc2a4938d2c08b1bc: E3 total assets / share supply on 2026-09-10 (1.098288) x recovery price of its asset (data/inputs/recovery_prices.json tokens['usr:USR'].chosen (issuer_redemption, tier 6, depth_usd 3800.09))",
+      "unit": "USD",
+      "unit_price": 0.5491441822401917
+    },
+    "1:0x5c5b196abe0d54485975d1ec29617d42d9198326": {
+      "price_usd": 1.0705667284549919e-08,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 1.0705667284549919e-08
+    },
+    "1:0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110": {
+      "price_usd": 0.5,
+      "source": "data/inputs/recovery_prices.json tokens['usr:USR'].chosen (issuer_redemption, tier 6, depth_usd 3800.09)",
+      "unit": "USD",
+      "unit_price": 0.5
+    },
+    "1:0x890a5122aa1da30fec4286de7904ff808f0bd74a": {
+      "price_usd": 0.5063499865165505,
+      "source": "data/inputs/recovery_prices.json tokens['msusd:msY'].chosen (wrapper_rate_x_underlying, tier 2, depth_usd None)",
+      "unit": "USD",
+      "unit_price": 0.5063499865165505
+    },
+    "1:0x98a878b1cd98131b271883b390f68d2c90674665": {
+      "price_usd": 0.9900536303588903,
+      "source": "data/inputs/event_sizing.json recovery_prices['1:0x98a878b1cd98131b271883b390f68d2c90674665'] (ladder_a, tier 1, depth_usd 978437.68)",
+      "unit": "USD",
+      "unit_price": 0.9900536303588903
+    },
+    "1:0xaf687b5ecb525ccea96115088999b4ed80c388b6": {
+      "price_usd": 0.9759340963349581,
+      "source": "data/inputs/pt_markets.json pt.markets uid morpho:1:0xd86df29b48f2d88a0453027212247a29e68ff52c6589c46054f57285da2fa7e3 val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.9759340963349581
+    },
+    "1:0xb33f4b9c6f0624edeae8881c97381837760d52cb": {
+      "price_usd": 0.9102209390858258,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 0.9102209390858258
+    },
+    "1:0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5": {
+      "price_usd": 0.6102170064318899,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 0.6102170064318899
+    },
+    "1:0xb5be35d8ff83d431899b95851cb17a2b4bcef150": {
+      "price_usd": 0.9363339361915413,
+      "source": "data/inputs/pt_markets.json pt.markets uid morpho:1:0xebd23a871b52e0a8c92bd719f4413600101b69e946cb72923b3a33fb5bc6ec85 val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.9363339361915413
+    },
+    "1:0xba1edf4a4c7eb8cb0dae0594326179f9c7d909d2": {
+      "price_usd": 0.019830328954179993,
+      "source": "data/inputs/pt_markets.json pt.markets uid eulervault:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd val.pt_value_usd_per_pt",
+      "unit": "USD",
+      "unit_price": 0.019830328954179993
+    },
+    "1:0xbd373c9d3d8976a4fecc504a93c768bbe8c3227c": {
+      "price_usd": 0.7479239288446785,
+      "source": "wrapper of apxUSD 0x98a878b1cd98131b271883b390f68d2c90674665: recovery price of the underlying (data/inputs/event_sizing.json recovery_prices['1:0x98a878b1cd98131b271883b390f68d2c90674665'] (ladder_a, tier 1, depth_usd 978437.68)) x convertToAssets at block 25946847 (the valuation block) = 0.755438",
+      "unit": "USD",
+      "unit_price": 0.7479239288446785
+    },
+    "1:0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf": {
+      "price_usd": 0.49863462385377405,
+      "source": "data/inputs/event_sizing.json recovery_prices['1:0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf'] (ladder_a, tier 1, depth_usd 107738.66)",
+      "unit": "USD",
+      "unit_price": 0.49863462385377405
+    },
+    "1:0xc824a08db624942c5e5f330d56530cd1598859fd": {
+      "price_usd": 2603.523122313697,
+      "source": "wrapper of rsETH 0xa1290d69c65a6fe4df752f95823fae25cb99e5a7: recovery price of the underlying (data/inputs/recovery_prices.json tokens['rseth:rsETH'].chosen (ladder_a, tier 1, depth_usd 10390.19)) x convertToAssets at block 25946847 (the valuation block) = 0.998134",
+      "unit": "ETH",
+      "unit_price": 1.067569099090634
+    },
+    "1:0xd50da5f859811a91fd1876c9461fd39c23c747ad": {
+      "price_usd": 0.5267233344335884,
+      "source": "vault share 0xd50da5f859811a91fd1876c9461fd39c23c747ad: E3 total assets / share supply on 2026-09-10 (1.053447) x recovery price of its asset (data/inputs/recovery_prices.json tokens['usr:USR'].chosen (issuer_redemption, tier 6, depth_usd 3800.09))",
+      "unit": "USD",
+      "unit_price": 0.5267233344335884
+    },
+    "1:0xd7158ee345dab25b4fc95266c2bd8d062f243a13": {
+      "price_usd": 0.008003312477987305,
+      "source": "PT-YU-4DEC2025 matured on 2025-12-04: redeems for YU 0xe868084cf08f3c3db11f4b73a95473762d9463f7 (last DefiLlama close at or before T, on 2026-09-02 (after the market's trigger; no close at T))",
+      "unit": "USD",
+      "unit_price": 0.008003312477987305
+    },
+    "1:0xe2fc85bfb48c4cf147921fbe110cf92ef9f26f94": {
+      "price_usd": 0.02510698118559775,
+      "source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+      "unit": "USD",
+      "unit_price": 0.02510698118559775
+    },
+    "1:0xe868084cf08f3c3db11f4b73a95473762d9463f7": {
+      "price_usd": 0.008003312477987305,
+      "source": "last DefiLlama close at or before T, on 2026-09-02 (after the market's trigger; no close at T)",
+      "unit": "USD",
+      "unit_price": 0.008003312477987305
+    },
+    "42161:0x4186bfc76e2e237523cbc30fd220fe055156b41f": {
+      "price_usd": 2608.3897362087087,
+      "source": "data/inputs/recovery_prices.json tokens['rseth:rsETH'].chosen (ladder_a, tier 1, depth_usd 10390.19)",
+      "unit": "ETH",
+      "unit_price": 1.0695646437305073
+    },
+    "42161:0x66cfbd79257dc5217903a36293120282548e2254": {
+      "price_usd": 0.5664830794591577,
+      "source": "data/inputs/recovery_prices.json tokens['usr:wstUSR'].chosen (wrapper_rate_x_underlying, tier 2, depth_usd None)",
+      "unit": "USD",
+      "unit_price": 0.5664830794591577
+    },
+    "42161:0x6eaf19b2fc24552925db245f9ff613157a7dbb4c": {
+      "price_usd": 0.02510698118559775,
+      "source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+      "unit": "USD",
+      "unit_price": 0.02510698118559775
+    },
+    "42161:0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92": {
+      "price_usd": 0.00976930174844937,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 0.00976930174844937
+    },
+    "43114:0x94f9bb5c972285728dcee7eaece48bec2ff341ce": {
+      "price_usd": 0.02510698118559775,
+      "source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+      "unit": "USD",
+      "unit_price": 0.02510698118559775
+    },
+    "56:0x4254813524695def4163a169e901f3d7a1a55429": {
+      "price_usd": 0.5664830794591577,
+      "source": "data/inputs/recovery_prices.json tokens['usr:wstUSR'].chosen (wrapper_rate_x_underlying, tier 2, depth_usd None)",
+      "unit": "USD",
+      "unit_price": 0.5664830794591577
+    },
+    "56:0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92": {
+      "price_usd": 0.00976929316127329,
+      "source": "wrapper of USDX 0xf3527ef8de265eaa3716fb312c12847bfba66cef: recovery price of the underlying (DefiLlama close on 2026-09-10; the input table's 0.11689 USD rests on a single pool with 0.12 USD of depth (data/inputs/event_sizing.json recovery_prices['56:0xf3527ef8de265eaa3716fb312c12847bfba66cef'] (single_pool_below_floor, tier 4, depth_usd 0.12))) x convertToAssets at block 121066328 (the valuation block) = 1.115325",
+      "unit": "USD",
+      "unit_price": 0.00976929316127329
+    },
+    "56:0xf3527ef8de265eaa3716fb312c12847bfba66cef": {
+      "price_usd": 0.008759144597712563,
+      "source": "DefiLlama close on 2026-09-10; the input table's 0.11689 USD rests on a single pool with 0.12 USD of depth (data/inputs/event_sizing.json recovery_prices['56:0xf3527ef8de265eaa3716fb312c12847bfba66cef'] (single_pool_below_floor, tier 4, depth_usd 0.12))",
+      "unit": "USD",
+      "unit_price": 0.008759144597712563
+    },
+    "8453:0x35e5db674d8e93a03d814fa0ada70731efe8a4b9": {
+      "price_usd": 0.5,
+      "source": "data/inputs/recovery_prices.json tokens['usr:USR'].chosen (issuer_redemption, tier 6, depth_usd 3800.09)",
+      "unit": "USD",
+      "unit_price": 0.5
+    },
+    "8453:0xedfa23602d0ec14714057867a78d01e94176bea0": {
+      "price_usd": 2607.851025219971,
+      "source": "data/inputs/recovery_prices.json tokens['rseth:wrsETH'].chosen (ladder_b, tier 1, depth_usd 73729.29)",
+      "unit": "ETH",
+      "unit_price": 1.0693437464394526
+    },
+    "9745:0x29ad7fe4516909b9e498b5a65339e54791293234": {
+      "price_usd": 0.6648365498865533,
+      "source": "data/inputs/event_sizing.json recovery_prices['9745:0x29ad7fe4516909b9e498b5a65339e54791293234'] (ladder_a, tier 1, depth_usd 148815.56)",
+      "unit": "USD",
+      "unit_price": 0.6648365498865533
+    },
+    "9745:0x6eaf19b2fc24552925db245f9ff613157a7dbb4c": {
+      "price_usd": 0.02510698118559775,
+      "source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+      "unit": "USD",
+      "unit_price": 0.02510698118559775
+    },
+    "9745:0x7884a8457f0e63e82c89a87fe48e8ba8223db069": {
+      "price_usd": 1.0705667284549919e-08,
+      "source": "Plasma deployment of Elixir's sdeUSD (same symbol and issuer; no Plasma quote): recovery price of 1:0x5c5b196abe0d54485975d1ec29617d42d9198326 (DefiLlama close on 2026-09-10 (no input-table price))",
+      "unit": "USD",
+      "unit_price": 1.0705667284549919e-08
+    },
+    "999:0x0a3d8466f5de586fa5f6de117301e2f90bcc5c48": {
+      "price_usd": 0.71,
+      "source": "data/inputs/recovery_prices.json tokens['usr:RLP'].chosen (issuer_redemption, tier 6, depth_usd 1062.12)",
+      "unit": "USD",
+      "unit_price": 0.71
+    },
+    "999:0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77": {
+      "price_usd": 0.5,
+      "source": "data/inputs/recovery_prices.json tokens['usr:USR'].chosen (issuer_redemption, tier 6, depth_usd 3800.09)",
+      "unit": "USD",
+      "unit_price": 0.5
+    },
+    "999:0x5e105266db42f78fa814322bce7f388b4c2e61eb": {
+      "price_usd": 1.1286800362652414,
+      "source": "DefiLlama close on 2026-09-10 (no input-table price)",
+      "unit": "USD",
+      "unit_price": 1.1286800362652414
+    },
+    "999:0xd0ee0cf300dfb598270cd7f4d0c6e0d8f6e13f29": {
+      "price_usd": 0.27396955504598475,
+      "source": "data/inputs/recovery_prices.json tokens['msusd:AVLT'].chosen (ladder_a, tier 1, depth_usd 46879.22)",
+      "unit": "USD",
+      "unit_price": 0.27396955504598475
+    }
+  },
+  "rows": 73,
+  "what": "principal shortfall of every affected market of a depeg-loss event at the valuation time, with the input tables' figure for the same market",
+  "written_utc": "2026-10-18T22:50:49+00:00"
+}

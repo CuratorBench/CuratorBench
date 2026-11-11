@@ -1,0 +1,79 @@
+{
+  "census_universe_sha256": "dabd2acd2c722e7aebbb5a266482e4bf725b433cf6f7d2a546abb970aff1cbf4",
+  "census_unwrap_sha256": "ef341fcdf91817c6b1d23e2325fcec2c3a305f6782b213cc112cdc9acb579798",
+  "family_issuers": {
+    "census:defillama:197": [
+      "resolv",
+      "USR, Resolv's stablecoin"
+    ],
+    "census:s2:RLP": [
+      "resolv",
+      "RLP, Resolv's liquidity pool token that backs USR"
+    ],
+    "symbol:MHYPER": [
+      "midas",
+      "mHYPER, a Midas tokenized strategy"
+    ],
+    "symbol:MHYPERETH": [
+      "midas",
+      "mHyperETH, a Midas tokenized strategy"
+    ],
+    "symbol:VBETH": [
+      "agglayer-vault-bridge",
+      "vbETH, Vault Bridge ETH on Katana"
+    ],
+    "symbol:VBWBTC": [
+      "agglayer-vault-bridge",
+      "vbWBTC, Vault Bridge WBTC on Katana"
+    ]
+  },
+  "generator": "code/analysis/e2_events.py",
+  "lineage_base": {
+    "coingecko:usdt0": "USDT0",
+    "coingecko:vaultbridge-bridged-usdc-katana": "vbUSDC (Katana bridged USDC)",
+    "coingecko:weth": "WETH",
+    "coingecko:wrapped-bitcoin": "WBTC",
+    "defillama:1": "USDT",
+    "defillama:2": "USDC"
+  },
+  "lineage_from": "per member: the families issuer lineage lifted the token through, in order",
+  "lineage_table": {
+    "coingecko:arbitrum-bridged-wrapped-eeth": [
+      "coingecko:ether-fi-staked-eth",
+      "bridged ether.fi weETH, which wraps eETH"
+    ],
+    "coingecko:usd0-liquid-bond": [
+      "defillama:195",
+      "Usual USD0++ / bUSD0 is locked USD0"
+    ],
+    "coingecko:wrapped-eeth": [
+      "coingecko:ether-fi-staked-eth",
+      "ether.fi weETH wraps eETH"
+    ],
+    "coingecko:wrapped-rseth": [
+      "coingecko:kelp-dao-restaked-eth",
+      "Kelp wrsETH wraps rsETH"
+    ],
+    "coingecko:wrapped-steth": [
+      "coingecko:staked-ether",
+      "Lido wstETH wraps stETH"
+    ],
+    "s2:bUSD0": [
+      "defillama:195",
+      "Usual USD0++ / bUSD0 is locked USD0"
+    ]
+  },
+  "merge_rules": [
+    "issuer_lineage",
+    "same_issuer"
+  ],
+  "rows": 56,
+  "rules": "Collateral family of a token, decided by the first rule that applies:\n\n0. the token is the hit token of a census lending event: that event's\n   family (census s2 identity, R16);\n1. the census price universe (s9/universe.jsonl) lists the contract:\n   that row, an audit or out-of-scope row joining the in-scope row with\n   the same name and symbol (census R9(3)(a));\n2. the census unwrap chain (s1/tokens/tokens.jsonl) leads to a contract\n   rule 1 resolves: that row (wrappers join their underlying, R9(3)(b));\n   this also wins over rule 1 when rule 1 finds only an audit row and\n   the underlying's row is in scope (Sonic smsUSD -> Main Street msUSD);\n3. the same address is a census row's contract on another chain and the\n   symbols agree (same-address bridged deployments): that row;\n4. a Pendle PT whose underlying symbol names exactly one token on the\n   same chain takes that token's family; otherwise the underlying\n   symbol after the E1 wrapper rules of code/data/prices.py\n   (wstETH -> stETH, sX -> X, PT-X-date -> X), as\n   \"symbol:<SYMBOL>\"; a symbol two census issuers share is marked\n   ambiguous instead of joined.\nThe peg unit is the census row's, else the E1 peg family.\n\nIssuer lineage (when \"issuer_lineage\" is in MERGE_RULES): a family that\nis a census row which wraps, stakes or is a receipt of another census\nrow's issuer asset takes that row's family, followed to the end of the\nchain (wstUSR -> USR, sUSDe -> USDe, wstETH -> stETH, wrsETH -> rsETH).\nThe link is the census unwrap chain at row level, or the reviewed\nLINEAGE_TABLE; a link to a base asset (LINEAGE_BASE) is not followed.",
+  "sources": {
+    "census_universe": "data/inputs/token_universe.jsonl",
+    "census_unwrap": "data/inputs/token_wrappers.jsonl",
+    "e1_peg_rules": "code/data/prices.py classify; data/prices/tokens.jsonl"
+  },
+  "what": "collateral family of every collateral token in a main-variant hit; events lists every event with a hit of the family",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

@@ -1,0 +1,5 @@
+{
+  "generator": "code/analysis/e2_events.py",
+  "what": "independent checks of the E2 outputs (pandas over the CSVs; no shared code with the pipeline's readers, run logic, prices or vault series)",
+  "written_utc": "2026-10-18T22:34:30+00:00"
+}

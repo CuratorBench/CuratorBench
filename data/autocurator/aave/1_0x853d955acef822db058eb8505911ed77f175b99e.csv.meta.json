@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "4ef4eb9a-e22e-4190-b8f3-8c75373ad0d6",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/4ef4eb9a-e22e-4190-b8f3-8c75373ad0d6",
+ "symbol": "FRAX",
+ "written_utc": "2026-10-18T07:35:53Z"
+}

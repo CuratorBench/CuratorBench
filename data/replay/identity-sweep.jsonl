@@ -1,0 +1,159 @@
+{"vault": "1-0xbeefa1abfebe621df50ceaef9f54fdb73648c92c", "name": "Steakhouse USDA", "skipped": "no events"}
+{"vault": "8453-0xe51f91e68d01530fbbcd3d2c9724e841c06ec827", "name": "Re7 cbBTC", "skipped": "no events"}
+{"vault": "8453-0x43338cc9c514952ebc9c36a842acec986ec7cedb", "name": "Re7 wstETH", "skipped": "no events"}
+{"vault": "1-0x20b8020cc34f7105be5605300fcca00728f0a5d1", "name": "MEV Capital USD0", "skipped": "no events"}
+{"vault": "1-0xbeefa260c2ce39122367ceab0b4f94e6068cacb6", "name": "Steakhouse EURA", "skipped": "no events"}
+{"vault": "8453-0xbd596239f71ce6ba9993100fbd5aff366c9366a1", "name": "Re7 eUSD", "skipped": "no events"}
+{"vault": "1-0xbeef06e7027eb8a1f0ab6cef743542ea31b8492b", "name": "Steakhouse EURe", "skipped": "no events"}
+{"vault": "1-0x225c119ffaf1caddcfcdb493283edf4b816bf773", "name": "MEV Capital Usual Boosted USDT", "skipped": "no events"}
+{"vault": "8453-0x1108ba213483911f063e5a649199c87fa7ba8429", "name": "MEV Capital USDC", "skipped": "no events"}
+{"vault": "1-0xf94fc6a60f1fad0fb9652df0e261be7d9064c370", "name": "Gauntlet USDT Prime", "skipped": "no events"}
+{"vault": "8453-0x8dc4d84f58ccd12c2cade1823ef320ed48187790", "name": "MEV Capital wETH", "skipped": "no events"}
+{"vault": "8453-0xdd195bc052f172a996d721b25d587a1ea5b8385d", "name": "Re7 USDA", "skipped": "no events"}
+{"vault": "1-0x53675a75a0d6e5c13dbfb0d691ea679357ca5dda", "name": "Gauntlet MKR Blended", "skipped": "no events"}
+{"vault": "1-0x8e3c0a68f8065dc666065f16cf902596a60d540e", "name": "MEV Capital WBTC", "skipped": "no events"}
+{"vault": "8453-0x004ff85f887aa612cfdaf4b7a19b10eacfab32f2", "name": "Re7 cdxUSD", "skipped": "no events"}
+{"vault": "1-0xfbdee8670b273e12b019210426e70091464b02ab", "name": "MEV Capital M^0 Vault", "events": 22, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x43fd147d5319b8cf39a6e57143684efca9cf3613", "name": "Re7 tBTC", "events": 51, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef796ae50ba5423857cac27dd36369cfc8241b", "name": "Steakhouse PAXG", "events": 51, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef7959ae71d4e45e1863dae0b94c35244af816", "name": "Steakhouse PAXG", "events": 41, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef033b4520267c5acfcb45414117b633fcb3dd", "name": "Steakhouse USDM", "events": 65, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xc0a14627d6a23f70c809777ced873238581c1032", "name": "MEV Capital USD0", "events": 71, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef8833f9ff8e9d950df3cefb78da88931c0450", "name": "Steakhouse Resolv USR", "events": 101, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xa5aa40f27daede9748822ef836170f202e196b5a", "name": "Steakhouse M", "events": 295, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef0075e03a5ce0d84d4accf3481363e0584f5c", "name": "Steakhouse M", "events": 387, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x74b6ea9bfee07c3756969b0139cfacbba5845969", "name": "Re7 cdxUSD", "events": 291, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbe40491f3261fd42724f1aeb465796eb11c06ddf", "name": "Re7 FRAX", "events": 450, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x45f8cc9a58285b7e7000eb14738346569963179d", "name": "MEV Capital LCAP Vault", "events": 663, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x3365184e87d2bd75961780454a5810bec956f0dd", "name": "Gauntlet Olympus sUSDS Vault", "events": 955, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef087c8430c0f9dcba39ba866eb7c22200599b", "name": "Steakhouse EURC", "events": 2664, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x6e37c95b43566e538d8c278eb69b00fc717a001b", "name": "Re7 RWA", "events": 1714, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x30881baa943777f92dc934d53d3bfdf33382cab3", "name": "Steakhouse USDR", "events": 2241, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x1265a81d42d513df40d0031f8f2e1346954d665a", "name": "MEV Capital Elixir USDC", "events": 2078, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefc4adbe58173fca2c042097fe33095e68c3d6", "name": "Steakhouse USDC RWA", "events": 2317, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x1b4cd53a1a8e5f50ab6320ef34e5fb4d3df7b6f6", "name": "Gauntlet AUSD Core", "events": 2451, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xa1b60d96e5c50da627095b9381dc5a46af1a9a42", "name": "Steakhouse USDQ", "events": 3256, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef8df2ce4bab5420123f9bf80dea4c65673257", "name": "Smokehouse cbBTC", "events": 1955, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x98cf0b67da0f16e1f8f1a1d23ad8dc64c0c70e0b", "name": "MEV Capital cbBTC", "events": 3206, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xa02f5e93f783baf150aa1f8b341ae90fe0a772f7", "name": "Re7 cbBTC", "events": 3306, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xe87ed29896b91421ff43f69257abf78300e40c7a", "name": "Re7 wstETH", "events": 2816, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xf587f2e8aff7d76618d3b6b4626621860fbd54e3", "name": "Gauntlet cbBTC Core", "events": 3621, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x78b18e07dc43017fceaabad0751d6464c0f56b25", "name": "Metronome msETH Vault", "events": 2305, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef0c8333b3de8f0450565834db4eb05def7a5f", "name": "Steakhouse Prime XSGD", "events": 3617, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x66320aff501d091d0929e7208977a0a94b823b43", "name": "Hyperithm cbBTC Apex", "events": 1907, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x4d52545235a3df246a8928c583e47ae7eec4acfe", "name": "Re7 Falcon USDf", "events": 3070, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xdc94785959b73f7a168452b3654e44fec6a750e4", "name": "Gauntlet LBTC Core", "events": 4507, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefda19bc6114633fc17e6d074a6a2b472c756f", "name": "Steakhouse USDS", "events": 4443, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x0d05e6ec0a10f9ffe9229eaa785c11606a1d13fb", "name": "Gauntlet LBTC Core", "events": 5253, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x00dfdb8c7295a03dcf1adff4d21eb5d9d19fb330", "name": "Re7 Resolv USR", "events": 2969, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x749794e985af5a9a384b9cee6d88dab4ce1576a1", "name": "MEV Capital USD0", "events": 3143, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x6859b34a9379122d25a9fa46f0882d434fee36c3", "name": "Metronome msUSD Vault", "events": 3105, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xda4063ec62c3f3c1d2bdbf7dbfb2b2c906f8e8b2", "name": "MEV Capital USDT", "events": 7139, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef094333aedd535c130958c204e84f681fd9fa", "name": "Steakhouse WBTC", "events": 8916, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefa28d5e56d41d35df760ab53b94d9ffd7051f", "name": "Steakhouse EURA", "events": 4864, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x1c530d6de70c05a81bf1670157b9d928e9699089", "name": "MEV Capital WBTC", "events": 8010, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x43cd00de63485618a5ceebe0de364cd6cbeb26e7", "name": "Metronome msETH Vault", "events": 5897, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef11a6ca3c67bbea90e5601bedbe78832dd789", "name": "Steakhouse USDCV", "events": 7081, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefd1c0c6c1f7c94dc6b989dba2e983a47a26a8", "name": "Steakhouse USDL", "events": 8229, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x89d80f5e9bc88d8021b352064ae73f0eaf79ebd8", "name": "Re7 USDA", "events": 6942, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x125d41a6e5dbf455cd9df8f80bcc6fd172d52cc6", "name": "Gauntlet USDA Core", "events": 7056, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xb17b070a56043e1a5a1ab7443afafdebcc1168d7", "name": "Steakhouse sUSDS", "events": 7292, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x0fe5b4af0337fd5b2e1675d5f5e8c9101e4d3c7e", "name": "Gauntlet sUSDS Core", "events": 7165, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeeffff0629438ad198c47f80d66fa4be5c0caf6", "name": "Grove x Steakhouse High Yield AUSD", "events": 10919, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeeff900ec6fab1465252d2fbe731db8d1ad5fd9", "name": "Safe x Smokehouse WBTC", "events": 10395, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x812b2c6ab3f4471c0e43d4bb61098a9211017427", "name": "Vault Bridge WBTC", "events": 10016, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xe0c98605f279e4d7946d25b75869c69802823763", "name": "Re7 WBTC", "events": 16529, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefa1abfebe621df50ceaef9f54fdb73648c92c", "name": "Steakhouse USDA", "events": 10046, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x2f1abb81ed86be95bcf8178ba62c8e72d6834775", "name": "Pendle WBTC", "events": 15707, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x443df5eee3196e9b2dd77cabd3ea76c3dee8f9b2", "name": "Gauntlet WBTC Core", "events": 20181, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef03f0bf3cb2e348393008a826538aadd7d183", "name": "Steakhouse USDM", "events": 11487, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xd50da5f859811a91fd1876c9461fd39c23c747ad", "name": "MEV Capital Resolv USR", "events": 11187, "markets": 10, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefc1cdafc5b4a649b54d07afc6bf0f75c6f4e2", "name": "Steakhouse Ethena USDtb", "events": 13709, "markets": 10, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xc080f56504e0278828a403269db945f6c6d6e014", "name": "Gauntlet eUSD Core", "events": 15305, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef02e5e13584ab96848af90261f0c8ee04722a", "name": "Steakhouse PYUSD", "events": 25514, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeeff2b772fa2f443cbd1dd6d33b0c4bebf4aeb7", "name": "Steakhouse High Yield AUSD", "events": 25249, "markets": 23, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefff79ffa3ee2d1bfcc32de9cfd8129528d0e4", "name": "Safe x Smokehouse wstETH", "events": 17142, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x833adaef212c5cd3f78906b44bbfb18258f238f0", "name": "Smokehouse WSTETH", "events": 19140, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef6806363b51a90ffd1a632a8de32873b63a9e", "name": "Steakhouse USDC RWA", "events": 43633, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef07e929f84466a591de130e4154667214f491", "name": "Steakhouse EURCV", "events": 27969, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x95eef579155cd2c5510f312c8fa39208c3be01a8", "name": "Re7 USDT", "events": 35230, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef11ecb698f4b5378685c05a210bdf71093521", "name": "Steakhouse RUSD", "events": 22563, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x6d4e530b8431a52ffda4516ba4aadc0951897f8c", "name": "Steakhouse USDC RWA", "events": 52479, "markets": 2, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefddbd3bef4726bcf9627a9ba3b901d4958745", "name": "Steakhouse Ethena USDT", "events": 34036, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x2ed10624315b74a78f11fabedaa1a228c198aefb", "name": "Gauntlet EURC Core", "events": 43872, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefbedc6ff26a7c4234434e2944dbdb6d4fbf37", "name": "Steakhouse Prime EURC", "events": 22538, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x60d715515d4411f7f43e4206dc5d4a3677f0ec78", "name": "Re7 USDC", "events": 85130, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x34ece536d2ae03192b06c0a67030d1faf4c0ba43", "name": "EURCV Prime", "events": 63294, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbb819d845b573b5d7c538f5b85057160cfb5f313", "name": "Morpho eUSD", "events": 68923, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef11c63d7173bdcc2037e7220ee9bd0ccda862", "name": "Steakhouse Level USDC", "events": 122381, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x75741a12b36d181f44f389e0c6b1e0210311e3ff", "name": "Steakhouse EURCV", "events": 90028, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x0b2d98bbf3e38df1d1b7be7343732e32e8b1f818", "name": "Cap Ecosystem USDC", "events": 87710, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x08995ec16f3fad0c357b3da68eee09a88932dec0", "name": "Steakhouse USDC Lite", "events": 122125, "markets": 1, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefff68cc520d68f82641eff84330c631e2490e", "name": "Smokehouse DAI", "events": 72535, "markets": 14, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x500331c9ff24d9d11aee6b07734aa72343ea74a5", "name": "Gauntlet DAI Core", "events": 103496, "markets": 18, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xebfa750279defa89b8d99bdd145a016f6292757b", "name": "Gauntlet MKR Blended", "events": 191275, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef96b330ef1fe7ebe41ece0bd4a41a94bc03dc", "name": "Cronos USDC", "events": 158721, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x2c25f6c25770ffec5959d34b94bf898865e5d6b1", "name": "Flagship USDT", "events": 220742, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x097ffedb80d4b2ca6105a07a4d90eb739c45a666", "name": "Steakhouse USDT Lite", "events": 208297, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefb45b6f9acb175e70acf16dc20d6120044c70", "name": "Safe x Steakhouse ETH", "events": 145662, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x31a5684983eee865d943a696aac155363ba024f9", "name": "Vault Bridge WETH", "events": 148192, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef050ecd6a16c4e7bffbb52ebba7846c4b8cd4", "name": "Steakhouse ETH", "events": 188069, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef0c18715acddc14a3123a608f491319f1c28c", "name": "Safe x Smokehouse USDT", "events": 240650, "markets": 23, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x83b779e6ec421a676a9a20743679914680a928f9", "name": "Hyperithm Bastion USDT", "events": 229124, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xc54b4e08c1dcc199fdd35c6b5ab589ffd3428a8d", "name": "Vault Bridge USDT", "events": 269035, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x8cb3649114051ca5119141a34c200d65dc0faa73", "name": "Gauntlet USDT Prime", "events": 292912, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef47b9f76c9672b967a7b88d0afff245be13ad", "name": "Safe x Steakhouse USDT", "events": 278029, "markets": 6, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x6d6d386c4855d9b604d7e14c70526407f6272394", "name": "Hyperithm ETH Apex", "events": 155227, "markets": 8, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x2371e134e3455e0593363cbf89d3b6cf53740618", "name": "Gauntlet WETH Prime", "events": 230193, "markets": 9, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef047a543e45807105e51a8bbefcc5950fcfba", "name": "Steakhouse USDT", "events": 326128, "markets": 12, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x888883f0eddf69ca4bfd00af93714ff97f188888", "name": "Hyperithm USDT Core", "events": 313851, "markets": 13, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xd41830d88dfd08678b0b886e0122193d54b02acc", "name": "MEV Capital PTs USDC", "events": 346343, "markets": 34, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x341193ed21711472e71aeca4a942123452bd0dda", "name": "Re7 USDC Core", "events": 362727, "markets": 17, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x79fd640000f8563a866322483524a4b48f1ed702", "name": "Gauntlet USDT Frontier", "events": 387377, "markets": 27, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xa0804346780b4c2e3be118ac957d1db82f9d7484", "name": "Smokehouse USDT", "events": 437579, "markets": 50, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef1898443d2eb9c9c471e073f46a3928db21de", "name": "Steakhouse High Yield Term USDC", "events": 242252, "markets": 18, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x78fc2c2ed1a4cdb5402365934ae5648adad094d0", "name": "Re7 WETH", "events": 355363, "markets": 25, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x4881ef0bf6d2365d3dd6499ccd7532bcdbce0658", "name": "Gauntlet LRT Core", "events": 386434, "markets": 29, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef390d2e65d6e43a67875106d4a48f700f2832", "name": "Safe x Smokehouse USDC", "events": 543960, "markets": 26, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefce6c76c7d7a8066562fe9ff0e343a52dd92f", "name": "Safe x Steakhouse USDC", "events": 507818, "markets": 3, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefb9f61cc44895d8aec381373555a64191a9c4", "name": "Vault Bridge USDC", "events": 525267, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xf1fd8ac6346ec7bc4116ba7adc81102b2bc4c52d", "name": "MEV Capital USDC Prime", "events": 552697, "markets": 4, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xdd0f28e19c1780eb6396170735d45153d261490d", "name": "Gauntlet USDC Prime", "events": 616904, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x64964e162aa18d32f91ea5b24a09529f811aeb8e", "name": "Re7 USDC Prime", "events": 561346, "markets": 5, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef01735c132ada46aa9aa4c54623caa92a64cb", "name": "Steakhouse USDC", "events": 674937, "markets": 13, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x4ff4186188f8406917293a9e01a1ca16d3cf9e59", "name": "SwissBorg Morpho USDC", "events": 713018, "markets": 7, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef2b5fd3d94469b7782aebe6364e6e6fb1b709", "name": "Grove x Steakhouse USDC High Yield", "events": 573796, "markets": 13, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xcdaea3dde6ce5969aa1414a82a3a681ced51ce72", "name": "Hyperithm USDC Core", "events": 840595, "markets": 19, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xa2cac0023a4797b4729db94783405189a4203afc", "name": "Re7 WETH", "events": 1174493, "markets": 12, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xc582f04d8a82795aa2ff9c8bb4c1c889fe7b754e", "name": "Gauntlet USDC Frontier", "events": 1549677, "markets": 61, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x5a32099837d89e3a794a44fb131cbbad41f87a8c", "name": "Extrafi XLend WETH", "events": 1041885, "markets": 12, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeefff209270748ddd194831b3fa287a5386f5bc", "name": "Smokehouse USDC", "events": 2053972, "markets": 86, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x777791c4d6dc2ce140d00d2828a7c93503c67777", "name": "Hyperithm USDC Apex", "events": 2066134, "markets": 84, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x4f460bb11cf958606c69a963b4a17f9daeeea8b6", "name": "f(x) Protocol Morpho USDC", "events": 74991, "markets": 4, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xbeef36a5c1372f8d7d211527fce9f83fe02d8a73", "name": "Smokehouse ETH", "events": 80985, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x1e6ffa4e9f63d10b8820a3ab52566af881dab53c", "name": "Gauntlet WETH Ecosystem", "events": 90185, "markets": 1, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x701907283a57ff77e255c3f1aad790466b8ce4ef", "name": "Index Coop hyETH", "events": 182363, "markets": 11, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x6770216ac60f634483ec073cbabc4011c94307cb", "name": "Gauntlet cbBTC Core", "events": 420416, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xa8875aaebc4f830524e35d57f9772ffacbdd6c45", "name": "Gauntlet USDC RWA", "events": 414667, "markets": 13, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x9a8bc3b04b7f3d87cfc09ba407dced575f2d61d8", "name": "MEV Capital wETH", "events": 312178, "markets": 22, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef086b8807dc5e5a1740c5e3a7c4c366ea6ab5", "name": "Steakhouse EURC", "events": 588627, "markets": 5, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x1c155be6bc51f2c37d472d4c2eba7a637806e122", "name": "Gauntlet EURC Core", "events": 588702, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef2dc30633221fa51a1c3e5299bff8c69fc0a8", "name": "Safe x Steakhouse ETH", "events": 508383, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef050a7485865a7a8d8ca0cc5f7536b7a3443e", "name": "Steakhouse ETH", "events": 1044542, "markets": 7, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x6b13c060f13af1fdb319f52315bbbf3fb1d88844", "name": "Gauntlet WETH Core", "events": 1309689, "markets": 14, "post_panel_events": 10, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0xd63070114470f685b75b74d60eec7c1113d33a3d", "name": " Usual Boosted USDC", "events": 1665517, "markets": 71, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "1-0x8eb67a509616cd6a7c1b3c8c21d48ff57df3d458", "name": "Gauntlet USDC Core", "events": 1768331, "markets": 60, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x687dfecd7950a17236c51b517fae2f9279ffc88d", "name": "Not Gauntlet", "events": 1648656, "markets": 14, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xb7890cee6cf4792cdcc13489d36d9d42726ab863", "name": "Universal USDC", "events": 8650465, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef0069cfec71fcc928049fbeefed8a9f5b9ffb", "name": "Tron x Steakhouse USDC V1.1", "events": 5383464, "markets": 3, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x12afdefb2237a5963e7bab3e2d46ad0eee70406e", "name": "Re7 USDC", "events": 9589185, "markets": 13, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef2d50b428675a1921bc6bbf4bfb9d8cf1461a", "name": "Grove x Steakhouse USDC High Yield", "events": 7061741, "markets": 5, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefe1372c0a384acecbe8a0adf3c94c389f6704", "name": "Safe x Steakhouse USDC", "events": 9279174, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xcbeef01994e24a60f7dcb8de98e75ad8bd4ad60d", "name": "Steakhouse High Yield USDC", "events": 8106608, "markets": 11, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefa74640a5f7c28966cba82466eed5609444e0", "name": "Smokehouse USDC", "events": 9665577, "markets": 18, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xee8f4ec5672f09119b96ab6fb59c27e1b7e44b61", "name": "Gauntlet USDC Prime", "events": 10302462, "markets": 8, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeef010f9cb27031ad51e3333f9af9c6b1228183", "name": "Steakhouse USDC", "events": 10307516, "markets": 9, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0x236919f11ff9ea9550a4287696c2fc9e18e6e890", "name": "Gauntlet USDC Frontier", "events": 9710509, "markets": 19, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xc0c5689e6f4d256e861f65465b691aeecc0deb12", "name": "Gauntlet USDC Core", "events": 10635602, "markets": 22, "post_panel_events": 23, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefa7b88064feef0cee02aaebbd95d30df3878f", "name": "Steakhouse High Yield USDC v1.1", "events": 8842777, "markets": 28, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}
+{"vault": "8453-0xbeefe94c8ad530842bfe7d8b397938ffc1cb83b2", "name": "Steakhouse Prime USDC", "events": 8187750, "markets": 6, "post_panel_events": 0, "state_mismatches": [], "share_mismatches": 0, "pass": true}

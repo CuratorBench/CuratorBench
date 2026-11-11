@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac",
+ "symbol": "DAI",
+ "written_utc": "2026-10-25T20:02:24Z"
+}

@@ -1,0 +1,1245 @@
+{
+  "column_rename": "2026-10-09: tl_* (each depth, crash, headline) hold the oracle-aware tail loss with phi = 0.25, adopted as the paper's tail loss, and tl_headline_phi000/phi050 its phi sensitivity; the first-pass formula moved to tl_v1_* (appendix); the columns named tl_v2_* on 2026-10-08 no longer exist. 2026-10-09: tl_crash (and the headlines) use the one-day crash jump for repricing oracles instead of phi times the 7-day depth; 2026-10-09: other/proxy_feed_other_asset oracles whose feed prices the crash's reference asset itself take the repricing branch in the crash; 2026-10-09: the crash jump is the largest one-day drop of the pair (was its 1st-percentile one-day return)",
+  "columns": [
+    "rank_by_aum",
+    "curator_entity",
+    "curator_name",
+    "vaults",
+    "protocols",
+    "chains",
+    "kinds",
+    "aum_avg_usd",
+    "aum_peak_usd",
+    "aum_latest_usd",
+    "active_days",
+    "vault_apy",
+    "vault_apy_with_rewards",
+    "yield_before_fee",
+    "yield_after_fee",
+    "tl_d0150",
+    "tl_d0300",
+    "tl_d0500",
+    "tl_d1000",
+    "tl_crash",
+    "tl_headline",
+    "tl_headline_phi000",
+    "tl_headline_phi050",
+    "tl_v1_d0150",
+    "tl_v1_d0300",
+    "tl_v1_d0500",
+    "tl_v1_d1000",
+    "tl_v1_crash",
+    "tl_v1_headline",
+    "L_p10",
+    "L_median",
+    "perf_fee_mean",
+    "net_usd_days",
+    "vaults_with_api_apy"
+  ],
+  "freeze_stuck": {
+    "baseline": "metrics/e4_depeg_only_wrapper_d0500",
+    "max_repaid_share_per_30d": 0.1,
+    "n_days": 30,
+    "rule": "a pinned spell (maximal run of days with end-of-day utilization >= 0.99) of at least 30 days in which borrowers repay less than 10% of the debt at its start per 30 days, and that is still pinned on the grid's last day or ends through a write-off; rises of the market's book value per share are dropped from the day after the spell's first day through its exit day, on top of E2's depeg freeze",
+    "stuck_exits": [
+      "end",
+      "write_off"
+    ],
+    "utilization": 0.99
+  },
+  "generator": "code/analysis/e4_metrics.py",
+  "inputs": {
+    "collateral_families": {
+      "path": "data/events/collateral_families.jsonl",
+      "sha256": "3831ea9342d4df83556b732bf34994a8f0936fd94590ba0563f41744d6261a91",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "e3_lending_daily": {
+      "path": "data/aum/lending_daily.csv",
+      "sha256": "8d3d0b432c92644773a5af5ed7f566769751225e277cb82e65ba7eebd517ffe9",
+      "written_utc": "2026-10-18T05:05:34+00:00"
+    },
+    "e3_vault_daily": {
+      "path": "data/aum/vault_daily.csv",
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "events": {
+      "path": "data/events/events.jsonl",
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "excluded_vaults": {
+      "path": "data/aum/excluded_vaults.jsonl",
+      "sha256": "9934f5e3e4d815c4041e6b357e93cf692b79c6b54f0926745773dda6504c6731",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "tokens": {
+      "path": "data/prices/tokens.jsonl",
+      "sha256": "30c9aff2f0a5456b51e5068c8638e249bcb2b508ca0d39cea7bcc04cea9ba2fd",
+      "written_utc": "2026-10-05T00:10:41+00:00"
+    },
+    "vault_curators": {
+      "path": "data/registry/vault_curators.jsonl",
+      "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    }
+  },
+  "parameters": {
+    "apy_cap": 1.0,
+    "crash_depths": {
+      "BTC|ETH": {
+        "depth": 0.17439692951706667,
+        "fallback": false,
+        "jump": 0.1247761140175303,
+        "jump_date": "2025-05-08",
+        "jump_fallback": false,
+        "jump_n_returns": 991,
+        "n_returns": 985
+      },
+      "BTC|EUR": {
+        "depth": 0.1341589842334763,
+        "fallback": false,
+        "jump": 0.1360725247727138,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "BTC|USD": {
+        "depth": 0.14595292490704187,
+        "fallback": false,
+        "jump": 0.13907935806726412,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 991,
+        "n_returns": 985
+      },
+      "BTC|X:BNB": {
+        "depth": 0.11918728419493393,
+        "fallback": false,
+        "jump": 0.10081042166714371,
+        "jump_date": "2026-05-30",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "BTC|X:HYPE": {
+        "depth": 0.3094925976372171,
+        "fallback": false,
+        "jump": 0.18589900515798596,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "ETH|BTC": {
+        "depth": 0.12434048983624714,
+        "fallback": false,
+        "jump": 0.06860477149315458,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 991,
+        "n_returns": 985
+      },
+      "ETH|EUR": {
+        "depth": 0.20336585426308132,
+        "fallback": false,
+        "jump": 0.15572270047041015,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "ETH|USD": {
+        "depth": 0.20705637047463096,
+        "fallback": false,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 1006,
+        "n_returns": 1000
+      },
+      "ETH|X:BNB": {
+        "depth": 0.14459171589465117,
+        "fallback": false,
+        "jump": 0.11197798108612145,
+        "jump_date": "2025-10-07",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "ETH|X:HYPE": {
+        "depth": 0.33850959487885585,
+        "fallback": false,
+        "jump": 0.16626239295214051,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "EUR|BTC": {
+        "depth": 0.16945921949863316,
+        "fallback": false,
+        "jump": 0.10699593429711785,
+        "jump_date": "2026-02-06",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "EUR|ETH": {
+        "depth": 0.2398448933818456,
+        "fallback": false,
+        "jump": 0.18267868116521202,
+        "jump_date": "2025-05-08",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "EUR|USD": {
+        "depth": 0.020188134780682678,
+        "fallback": false,
+        "jump": 0.016949152542372947,
+        "jump_date": "2025-07-28",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "EUR|X:BNB": {
+        "depth": 0.1438615839444709,
+        "fallback": false,
+        "jump": 0.11895084304986192,
+        "jump_date": "2025-10-12",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "EUR|X:HYPE": {
+        "depth": 0.2917086117918402,
+        "fallback": false,
+        "jump": 0.1820334598503346,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "USD|BTC": {
+        "depth": 0.17065181213726016,
+        "fallback": false,
+        "jump": 0.1103162528728191,
+        "jump_date": "2024-08-08",
+        "jump_fallback": false,
+        "jump_n_returns": 991,
+        "n_returns": 985
+      },
+      "USD|ETH": {
+        "depth": 0.23056822595190227,
+        "fallback": false,
+        "jump": 0.17538116938990145,
+        "jump_date": "2025-05-08",
+        "jump_fallback": false,
+        "jump_n_returns": 1006,
+        "n_returns": 1000
+      },
+      "USD|EUR": {
+        "depth": 0.0319344235553198,
+        "fallback": false,
+        "jump": 0.03185840707964582,
+        "jump_date": "2025-04-10",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "USD|X:BNB": {
+        "depth": 0.14573871302639047,
+        "fallback": false,
+        "jump": 0.12760919610450006,
+        "jump_date": "2025-10-12",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "USD|X:HYPE": {
+        "depth": 0.2904651130889772,
+        "fallback": false,
+        "jump": 0.19275715621648593,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|BTC": {
+        "depth": 0.3217021846169361,
+        "fallback": false,
+        "jump": 0.48749319974027616,
+        "jump_date": "2025-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|ETH": {
+        "depth": 0.2972621380576467,
+        "fallback": false,
+        "jump": 0.47975829891615285,
+        "jump_date": "2025-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|EUR": {
+        "depth": 0.34052934603478646,
+        "fallback": false,
+        "jump": 0.5052141203340883,
+        "jump_date": "2025-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|USD": {
+        "depth": 0.35008121389672603,
+        "fallback": false,
+        "jump": 0.5028615142219919,
+        "jump_date": "2025-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|X:BNB": {
+        "depth": 0.3636752567696342,
+        "fallback": false,
+        "jump": 0.4968930362362707,
+        "jump_date": "2025-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e|X:HYPE": {
+        "depth": 0.44720536621864493,
+        "fallback": false,
+        "jump": 0.49533108129505266,
+        "jump_date": "2026-03-06",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|BTC": {
+        "depth": 0.1859323098533017,
+        "fallback": false,
+        "jump": 0.2008836183784629,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 843,
+        "n_returns": 837
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|ETH": {
+        "depth": 0.16034121183598027,
+        "fallback": false,
+        "jump": 0.15554635322490162,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 843,
+        "n_returns": 837
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|EUR": {
+        "depth": 0.22772657136820276,
+        "fallback": false,
+        "jump": 0.25551931196386624,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|USD": {
+        "depth": 0.23035527656784527,
+        "fallback": false,
+        "jump": 0.2581056785629716,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 843,
+        "n_returns": 837
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|X:BNB": {
+        "depth": 0.21059808831081697,
+        "fallback": false,
+        "jump": 0.15514901168178097,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984|X:HYPE": {
+        "depth": 0.3348845493412044,
+        "fallback": false,
+        "jump": 0.17769479058648874,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|BTC": {
+        "depth": 0.1484087537457715,
+        "fallback": false,
+        "jump": 0.11128876363759033,
+        "jump_date": "2024-11-06",
+        "jump_fallback": false,
+        "jump_n_returns": 765,
+        "n_returns": 759
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|ETH": {
+        "depth": 0.23992407509956704,
+        "fallback": false,
+        "jump": 0.19040990148676817,
+        "jump_date": "2025-05-08",
+        "jump_fallback": false,
+        "jump_n_returns": 765,
+        "n_returns": 759
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|EUR": {
+        "depth": 0.08508706389049621,
+        "fallback": false,
+        "jump": 0.09209345597582352,
+        "jump_date": "2026-01-30",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|USD": {
+        "depth": 0.08926447287647533,
+        "fallback": false,
+        "jump": 0.10109756303834183,
+        "jump_date": "2026-01-30",
+        "jump_fallback": false,
+        "jump_n_returns": 765,
+        "n_returns": 759
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|X:BNB": {
+        "depth": 0.1270067215039493,
+        "fallback": false,
+        "jump": 0.1175314539921054,
+        "jump_date": "2025-10-12",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x45804880de22913dafe09f4980848ece6ecbaf78|X:HYPE": {
+        "depth": 0.28262690147271835,
+        "fallback": false,
+        "jump": 0.17235223485876905,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|BTC": {
+        "depth": 0.1608970140179621,
+        "fallback": false,
+        "jump": 0.15079593077147135,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 887,
+        "n_returns": 881
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|ETH": {
+        "depth": 0.13520253047281008,
+        "fallback": false,
+        "jump": 0.12383445519443192,
+        "jump_date": "2024-05-20",
+        "jump_fallback": false,
+        "jump_n_returns": 887,
+        "n_returns": 881
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|EUR": {
+        "depth": 0.22425213456921075,
+        "fallback": false,
+        "jump": 0.2088561262384956,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|USD": {
+        "depth": 0.23069820716537986,
+        "fallback": false,
+        "jump": 0.21160460329514175,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 887,
+        "n_returns": 881
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|X:BNB": {
+        "depth": 0.16572851427285315,
+        "fallback": false,
+        "jump": 0.12609478906264826,
+        "jump_date": "2025-10-07",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x514910771af9ca656af840dff83e8264ecf986ca|X:HYPE": {
+        "depth": 0.3358516553334724,
+        "fallback": false,
+        "jump": 0.18664441822853783,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|BTC": {
+        "depth": 0.17758010671539798,
+        "fallback": false,
+        "jump": 0.1432977323157809,
+        "jump_date": "2025-03-02",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|ETH": {
+        "depth": 0.18594969321906266,
+        "fallback": false,
+        "jump": 0.17349301718411225,
+        "jump_date": "2025-03-02",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|EUR": {
+        "depth": 0.19555880093379566,
+        "fallback": false,
+        "jump": 0.15336848163255679,
+        "jump_date": "2025-04-06",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|USD": {
+        "depth": 0.19119970187578209,
+        "fallback": false,
+        "jump": 0.15330838065737395,
+        "jump_date": "2024-12-09",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|X:BNB": {
+        "depth": 0.17948346645747326,
+        "fallback": false,
+        "jump": 0.12643982448661195,
+        "jump_date": "2026-05-30",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x56072c95faa701256059aa122697b133aded9279|X:HYPE": {
+        "depth": 0.3082550488702505,
+        "fallback": false,
+        "jump": 0.2076584603601248,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|BTC": {
+        "depth": 0.2643861838718286,
+        "fallback": false,
+        "jump": 0.17956775998040497,
+        "jump_date": "2025-05-30",
+        "jump_fallback": false,
+        "jump_n_returns": 758,
+        "n_returns": 752
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|ETH": {
+        "depth": 0.23057906437842862,
+        "fallback": false,
+        "jump": 0.15975708788824594,
+        "jump_date": "2025-05-30",
+        "jump_fallback": false,
+        "jump_n_returns": 758,
+        "n_returns": 752
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|EUR": {
+        "depth": 0.2964410884615194,
+        "fallback": false,
+        "jump": 0.24117107630328494,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 758,
+        "n_returns": 752
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|USD": {
+        "depth": 0.29742974050566484,
+        "fallback": false,
+        "jump": 0.2353339307363872,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 758,
+        "n_returns": 752
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|X:BNB": {
+        "depth": 0.24469804564628095,
+        "fallback": false,
+        "jump": 0.18445483852441313,
+        "jump_date": "2025-10-11",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x57e114b691db790c35207b2e685d4a43181e6061|X:HYPE": {
+        "depth": 0.35249215602382034,
+        "fallback": false,
+        "jump": 0.22310161658929606,
+        "jump_date": "2025-05-30",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|BTC": {
+        "depth": 0.14060519120654455,
+        "fallback": false,
+        "jump": 0.1133978857746949,
+        "jump_date": "2026-08-24",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|ETH": {
+        "depth": 0.1581746748572253,
+        "fallback": false,
+        "jump": 0.12409091478468193,
+        "jump_date": "2026-03-16",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|EUR": {
+        "depth": 0.18590088980918737,
+        "fallback": false,
+        "jump": 0.1408153775937243,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|USD": {
+        "depth": 0.19513767799009957,
+        "fallback": false,
+        "jump": 0.14380570375291624,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|X:BNB": {
+        "depth": 0.16778626600217436,
+        "fallback": false,
+        "jump": 0.10213440126380813,
+        "jump_date": "2026-08-24",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x58d97b57bb95320f9a05dc918aef65434969c2b2|X:HYPE": {
+        "depth": 0.3075011457342471,
+        "fallback": false,
+        "jump": 0.22516051322268182,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|BTC": {
+        "depth": 0.24096012785872337,
+        "fallback": false,
+        "jump": 0.22434627502898108,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 938,
+        "n_returns": 932
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|ETH": {
+        "depth": 0.187620026113747,
+        "fallback": false,
+        "jump": 0.1821031025911991,
+        "jump_date": "2024-06-28",
+        "jump_fallback": false,
+        "jump_n_returns": 938,
+        "n_returns": 932
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|EUR": {
+        "depth": 0.26174959671395726,
+        "fallback": false,
+        "jump": 0.27737782365009755,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|USD": {
+        "depth": 0.29884290670202984,
+        "fallback": false,
+        "jump": 0.2798882525849492,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 938,
+        "n_returns": 932
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|X:BNB": {
+        "depth": 0.2230353128047418,
+        "fallback": false,
+        "jump": 0.17995447070583237,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x5a98fcbea516cf06857215779fd812ca3bef1b32|X:HYPE": {
+        "depth": 0.3483465388109668,
+        "fallback": false,
+        "jump": 0.17865222608773623,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|BTC": {
+        "depth": 0.11489795372190452,
+        "fallback": false,
+        "jump": 0.0962345689734937,
+        "jump_date": "2026-01-30",
+        "jump_fallback": false,
+        "jump_n_returns": 615,
+        "n_returns": 609
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|ETH": {
+        "depth": 0.22039485618293758,
+        "fallback": false,
+        "jump": 0.19079624673593343,
+        "jump_date": "2025-05-08",
+        "jump_fallback": false,
+        "jump_n_returns": 615,
+        "n_returns": 609
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|EUR": {
+        "depth": 0.08995613677027631,
+        "fallback": false,
+        "jump": 0.0927645410731619,
+        "jump_date": "2026-01-30",
+        "jump_fallback": false,
+        "jump_n_returns": 615,
+        "n_returns": 609
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|USD": {
+        "depth": 0.08752079636728176,
+        "fallback": false,
+        "jump": 0.10176199269068498,
+        "jump_date": "2026-01-30",
+        "jump_fallback": false,
+        "jump_n_returns": 615,
+        "n_returns": 609
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|X:BNB": {
+        "depth": 0.12654832587739137,
+        "fallback": false,
+        "jump": 0.12134770237749748,
+        "jump_date": "2025-10-12",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x68749665ff8d2d112fa859aa293f07a622782f38|X:HYPE": {
+        "depth": 0.2830405552106002,
+        "fallback": false,
+        "jump": 0.17264407170795615,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|BTC": {
+        "depth": 0.19631190694345832,
+        "fallback": false,
+        "jump": 0.1149040900438627,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|ETH": {
+        "depth": 0.1726477560584956,
+        "fallback": false,
+        "jump": 0.0937318313585157,
+        "jump_date": "2026-04-18",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|EUR": {
+        "depth": 0.23442348594573953,
+        "fallback": false,
+        "jump": 0.19769141841061044,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|USD": {
+        "depth": 0.2320672718210621,
+        "fallback": false,
+        "jump": 0.19151981393684592,
+        "jump_date": "2025-03-03",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|X:BNB": {
+        "depth": 0.18411162459647226,
+        "fallback": false,
+        "jump": 0.13064306450810848,
+        "jump_date": "2025-10-07",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9|X:HYPE": {
+        "depth": 0.3506306292477108,
+        "fallback": false,
+        "jump": 0.1685931645386083,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|BTC": {
+        "depth": 0.19414710920156916,
+        "fallback": false,
+        "jump": 0.25754798738981843,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 940,
+        "n_returns": 934
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|ETH": {
+        "depth": 0.18981902118270236,
+        "fallback": false,
+        "jump": 0.257000308055512,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 940,
+        "n_returns": 934
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|EUR": {
+        "depth": 0.19257615924001428,
+        "fallback": false,
+        "jump": 0.26022814713718045,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 761,
+        "n_returns": 755
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|USD": {
+        "depth": 0.21888524274918988,
+        "fallback": false,
+        "jump": 0.2596503590273276,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 940,
+        "n_returns": 934
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|X:BNB": {
+        "depth": 0.18290841610500305,
+        "fallback": false,
+        "jump": 0.2542733071125386,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2|X:HYPE": {
+        "depth": 0.3153207295308304,
+        "fallback": false,
+        "jump": 0.26320085292313,
+        "jump_date": "2026-08-16",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|BTC": {
+        "depth": 0.5280403694606332,
+        "fallback": false,
+        "jump": 0.4102571478773397,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|ETH": {
+        "depth": 0.47643409655368696,
+        "fallback": false,
+        "jump": 0.4154809277010325,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|EUR": {
+        "depth": 0.5860409095256883,
+        "fallback": false,
+        "jump": 0.39324415841756255,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|USD": {
+        "depth": 0.5898261161958097,
+        "fallback": false,
+        "jump": 0.3960179582800286,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|X:BNB": {
+        "depth": 0.49775780657517715,
+        "fallback": false,
+        "jump": 0.4075943607184548,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xba100000625a3754423978a60c9317c58a424e3d|X:HYPE": {
+        "depth": 0.6161183010258803,
+        "fallback": false,
+        "jump": 0.4445881874385679,
+        "jump_date": "2026-02-02",
+        "jump_fallback": false,
+        "jump_n_returns": 255,
+        "n_returns": 249
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|BTC": {
+        "depth": 0.15935099646132625,
+        "fallback": false,
+        "jump": 0.1255157803438811,
+        "jump_date": "2026-04-21",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|ETH": {
+        "depth": 0.14718535375398892,
+        "fallback": false,
+        "jump": 0.12447916843327922,
+        "jump_date": "2026-04-21",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|EUR": {
+        "depth": 0.19730727338867873,
+        "fallback": false,
+        "jump": 0.15648164632293315,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|USD": {
+        "depth": 0.2001843813985629,
+        "fallback": false,
+        "jump": 0.1594174472357739,
+        "jump_date": "2026-02-05",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|X:BNB": {
+        "depth": 0.17164972507152876,
+        "fallback": false,
+        "jump": 0.1230484173312667,
+        "jump_date": "2026-04-21",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc00e94cb662c3520282e6f5717214004a7f26888|X:HYPE": {
+        "depth": 0.37875857602565455,
+        "fallback": false,
+        "jump": 0.19386453417669713,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 278,
+        "n_returns": 272
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|BTC": {
+        "depth": 0.2916401841181464,
+        "fallback": false,
+        "jump": 0.2741262259718096,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|ETH": {
+        "depth": 0.28007801436233676,
+        "fallback": false,
+        "jump": 0.2621067196949597,
+        "jump_date": "2025-11-26",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|EUR": {
+        "depth": 0.33507547660207865,
+        "fallback": false,
+        "jump": 0.3237543127080753,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|USD": {
+        "depth": 0.34368984190680163,
+        "fallback": false,
+        "jump": 0.32610362718527774,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|X:BNB": {
+        "depth": 0.2905686788930315,
+        "fallback": false,
+        "jump": 0.2688686914698467,
+        "jump_date": "2025-11-26",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e|X:HYPE": {
+        "depth": 0.42453135454614643,
+        "fallback": false,
+        "jump": 0.2957210756143549,
+        "jump_date": "2025-11-26",
+        "jump_fallback": false,
+        "jump_n_returns": 531,
+        "n_returns": 525
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|BTC": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|ETH": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|EUR": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|USD": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|X:BNB": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd33526068d116ce69f19a9ee46f0bd304f21a51f|X:HYPE": {
+        "depth": 0.20705637047463096,
+        "fallback": true,
+        "jump": 0.15022789288192406,
+        "jump_date": "2026-02-05",
+        "jump_fallback": true,
+        "jump_n_returns": 59,
+        "n_returns": 53
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|BTC": {
+        "depth": 0.30943037236302967,
+        "fallback": false,
+        "jump": 0.2679592116794348,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|ETH": {
+        "depth": 0.31113291911865526,
+        "fallback": false,
+        "jump": 0.26148264998608883,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|EUR": {
+        "depth": 0.38676670423067844,
+        "fallback": false,
+        "jump": 0.2839017878926957,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|USD": {
+        "depth": 0.387384426357776,
+        "fallback": false,
+        "jump": 0.2856441409768147,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|X:BNB": {
+        "depth": 0.2773550587731991,
+        "fallback": false,
+        "jump": 0.2742576595910021,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xd9fcd98c322942075a5c3860693e9f4f03aae07b|X:HYPE": {
+        "depth": 0.4263615456085044,
+        "fallback": false,
+        "jump": 0.23988739986482954,
+        "jump_date": "2026-07-27",
+        "jump_fallback": false,
+        "jump_n_returns": 462,
+        "n_returns": 456
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|BTC": {
+        "depth": 0.16548260549642457,
+        "fallback": false,
+        "jump": 0.14183960844746513,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|ETH": {
+        "depth": 0.1647347186462942,
+        "fallback": false,
+        "jump": 0.11596657206238825,
+        "jump_date": "2026-09-28",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|EUR": {
+        "depth": 0.22121850202056925,
+        "fallback": false,
+        "jump": 0.20051214886623914,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|USD": {
+        "depth": 0.22201690894689322,
+        "fallback": false,
+        "jump": 0.20328961335630857,
+        "jump_date": "2025-10-10",
+        "jump_fallback": false,
+        "jump_n_returns": 710,
+        "n_returns": 704
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|X:BNB": {
+        "depth": 0.2033557676319677,
+        "fallback": false,
+        "jump": 0.11633064161701145,
+        "jump_date": "2025-10-07",
+        "jump_fallback": false,
+        "jump_n_returns": 544,
+        "n_returns": 538
+      },
+      "tok:1:0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3|X:HYPE": {
+        "depth": 0.331791377113422,
+        "fallback": false,
+        "jump": 0.1716128349158592,
+        "jump_date": "2026-01-27",
+        "jump_fallback": false,
+        "jump_n_returns": 591,
+        "n_returns": 585
+      }
+    },
+    "crash_horizon_days": 7,
+    "crash_jump_days": 1,
+    "crash_percentile": 1.0,
+    "depths": [
+      0.15,
+      0.3,
+      0.5,
+      1.0
+    ],
+    "eta": 0.05,
+    "event_median_depth": 0.6397999999999999,
+    "headline_depth": 0.5,
+    "max_daily_return": 0.03,
+    "max_outside_share": 0.05,
+    "min_active_days": 30,
+    "min_usd": 10000.0,
+    "n_boot": 2000,
+    "n_perm": 10000,
+    "peak_fraction": 0.01,
+    "reference_symbols": {
+      "BTC": [
+        "BTC",
+        "WBTC"
+      ],
+      "ETH": [
+        "ETH",
+        "WETH"
+      ],
+      "EUR": [
+        "EURC"
+      ],
+      "X:AVAX": [
+        "AVAX",
+        "WAVAX"
+      ],
+      "X:BNB": [
+        "BNB",
+        "WBNB"
+      ],
+      "X:HYPE": [
+        "HYPE",
+        "WHYPE"
+      ],
+      "X:S": [
+        "S",
+        "WS"
+      ]
+    },
+    "rho": 0.9,
+    "seed": 20261008,
+    "wrapper_depeg": 0.5
+  },
+  "rows": 68,
+  "what": "per curator entity: its sample vaults combined each day with net USD weights, then whole-period values as for vaults (Table 4 without the E5 columns); aum_avg_usd is net USD-days over the window from 2024-01-01",
+  "written_utc": "2026-10-18T22:47:48+00:00"
+}

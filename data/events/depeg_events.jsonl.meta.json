@@ -1,0 +1,26 @@
+{
+  "census_hits_out_of_scope": {
+    "compound_v3:10": 1,
+    "euler_v2:56": 10,
+    "euler_v2:8453": 1,
+    "morpho:130": 2
+  },
+  "census_provenance": {
+    "file": "data/inputs/hit_events.jsonl",
+    "generator": "s2/s2_events.py",
+    "n_events_in_file": 15,
+    "rule_version": "hit_rules.md R19 (2026-09-24): hit = market x pinned window with a depeg window and I1 in [window start - 30 d, window end]; R4 filter 0.97; 7-day family merge",
+    "rules_file": "data/inputs/hit_rules.md",
+    "rules_sha256": "83fe7ab159da563ec8ddcb3b2147c6e7ebb5ee28d4f5d2f1a3d096299a3a50b3",
+    "sha256": "a1a7e8d743aaef69105a09e3c02cb43fd6418e217b5b7ec1806163846615f21b",
+    "written_utc": "2026-09-24T15:13:47+00:00"
+  },
+  "family": "see collateral_families.jsonl",
+  "generator": "code/analysis/e2_events.py",
+  "market_mapping": "morpho:<cid>:<id> -> id; euler:<cid>:<lending>:<collateral> -> lending vault; silo:<cid>:<silo config> -> the silo of that config whose paired silo holds the family token",
+  "moolah_rpc_requests_last_run": 0,
+  "moolah_rules": "I1: oracle peek(collateral)/peek(loan) over the DefiLlama close ratio >= 1.08 on two consecutive day ends; I2: utilization >= 99% for >= 72 h; I3: borrow APR >= 50% of the market's rate cap (30% APR IRM maximum where none is set); depeg: a daily close <= 0.97 of the family peg (wrappers through their unwrap terminal); all within [window start - 30 d, window end] (R19); onset = max(window start, first depeg close); I4 not scanned (as in the census)",
+  "rows": 63,
+  "what": "depeg-loss hits on the 14 pairs: the census table imported hit by hit (Morpho, Euler, Silo) and the Moolah scan by the same rules",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

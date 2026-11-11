@@ -1,0 +1,47 @@
+{
+  "aum_floor_total_usd": 9349063096.57,
+  "aum_floor_usd": 10000000.0,
+  "generator": "code/figures/fig4_frontier.py",
+  "inputs": {
+    "data/metrics/e4/fig4_data.csv": "a695f35be3d1c917f1b41c8cc233ec52bf069ba045bf70de94ca0b9f349f4aa7",
+    "data/metrics/e4/rank_agreement.json": "097685fbc7999104a467baf495494483c67fd47776ed82e80853f98f6b6a4b0e"
+  },
+  "margin_quantiles_5_25_50_75_95": {
+    "liquidity_pct": [
+      4.991387649600005e-07,
+      8.970283251,
+      24.39033078,
+      88.52240227,
+      100.0
+    ],
+    "realized_yield_pct": [
+      0.0,
+      1.7279692655,
+      3.631529698,
+      5.2442588555,
+      9.067237916299996
+    ],
+    "tail_loss_pct": [
+      0.0,
+      4.9048686605,
+      14.344787100000001,
+      34.11532321,
+      44.49336529
+    ]
+  },
+  "non_dominated_floor": 31,
+  "non_dominated_floor_aum_share": 0.2292003380231304,
+  "size_in": [
+    3.337,
+    2.35
+  ],
+  "vaults": 875,
+  "vaults_at_or_above_floor": 169,
+  "vaults_clipped_y": 46,
+  "what": "Realized yield against tail loss and liquidity, one mark per sample vault; non-dominated vaults ringed",
+  "written_utc": "2026-10-24T05:44:57+00:00",
+  "y_range_pct": [
+    -2.0,
+    12.0
+  ]
+}

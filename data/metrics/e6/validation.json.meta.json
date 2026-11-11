@@ -1,0 +1,6 @@
+{
+  "dRPC_calls": 11,
+  "generator": "code/analysis/e6_incentives.py",
+  "what": "E6 validation: independent fee recomputation, recipient Transfer logs, the first-pass artefact, the flow regression by two methods, consistency with E4",
+  "written_utc": "2026-10-18T23:08:36+00:00"
+}

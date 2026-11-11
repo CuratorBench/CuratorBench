@@ -1,0 +1,78 @@
+{
+  "check_vs_e4_share_unpegged_spearman_usd_vaults": 0.997527900261242,
+  "class_counts": {
+    "btc": 88,
+    "eth": 120,
+    "mixed": 311,
+    "none": 18,
+    "other": 18,
+    "stable": 320
+  },
+  "class_loan_counts": {
+    "BTC:btc": 38,
+    "BTC:eth": 2,
+    "BTC:mixed": 5,
+    "BTC:none": 1,
+    "ETH:eth": 103,
+    "ETH:mixed": 5,
+    "ETH:none": 6,
+    "EUR:btc": 1,
+    "EUR:mixed": 25,
+    "EUR:none": 3,
+    "EUR:other": 1,
+    "USD:btc": 48,
+    "USD:eth": 15,
+    "USD:mixed": 275,
+    "USD:none": 8,
+    "USD:other": 8,
+    "USD:stable": 320,
+    "X:BNB:btc": 1,
+    "X:BNB:mixed": 1,
+    "X:BNB:other": 3,
+    "X:HYPE:other": 6
+  },
+  "columns": [
+    "chain_id",
+    "vault",
+    "protocol",
+    "kind",
+    "loan_unit",
+    "curator_entity",
+    "share_USD",
+    "share_ETH",
+    "share_BTC",
+    "share_EUR",
+    "share_other",
+    "share_unknown",
+    "share_none_of_value",
+    "share_outside_of_value",
+    "share_unpegged_of_value",
+    "e4_share_unpegged_mean",
+    "active_days",
+    "collateral_days",
+    "class",
+    "class_loan"
+  ],
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "e3_vault_daily": {
+      "path": "data/aum/vault_daily.csv",
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "e4_vault_daily": {
+      "path": "data/metrics/e4/vault_daily.csv",
+      "sha256": "38282434eb9ec62adc798b5b5806938a6ee18d7f67c258e5c77f3bb481130a6f",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    },
+    "e4_vault_scorecard": {
+      "path": "data/metrics/e4/vault_scorecard.csv",
+      "sha256": "4e1b216f34af80e2d01a6ca2b69ddd6b72f6eb86066ae94f6d8b10c331bb431a",
+      "written_utc": "2026-10-18T22:42:57+00:00"
+    }
+  },
+  "method": "Daily value of a chain's vaults by collateral unit, in raw loan units.\n\nA market position is valued at the vault's share balance times the\nmarket's last observed assets per share (pooled over every vault's\nSupply, Withdraw, Deposit events in that market). Its collateral unit is\nE4's unit of the market's collateral token: Morpho and Moolah the market\ncollateral, Silo the paired silo's token, an Euler EVault (held by Euler\nEarn, or scored itself) its attributed borrows split by collateral\nvault asset (borrow_distribution.csv; no borrows counts as none).\nMorpho idle markets and Silo idle vaults are none; vault shares held by\nanother vault look through to the held vault; anything else is outside. Shares are means over active days of the day's collateral value by unit over the day's collateralized value. Class: the dominant unit, unknown units counted as the loan's unit, when it holds at least 0.9 (stable for USD, eth, btc, other for EUR and other assets), else mixed; none when the vault never held collateralized markets on an active day.",
+  "rows": 875,
+  "what": "collateral class of every E4 sample vault from its position-weighted collateral units over E4 active days",
+  "written_utc": "2026-10-18T23:01:09+00:00"
+}

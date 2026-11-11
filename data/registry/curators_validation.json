@@ -1,0 +1,979 @@
+{
+  "cluster_rules_on_known_addresses": {
+    "by_test": {
+      "contract_controlled_by_entity on official addresses": {
+        "correct": {
+          "addresses": 7,
+          "chain_address_pairs": 7
+        }
+      },
+      "eoa_signs_entity_safe on official addresses": {
+        "correct": {
+          "addresses": 5,
+          "chain_address_pairs": 8
+        }
+      },
+      "safe_shares_signers on listing addresses": {
+        "no_prediction": {
+          "addresses": 2,
+          "chain_address_pairs": 3
+        }
+      },
+      "safe_shares_signers on official addresses": {
+        "correct": {
+          "addresses": 93,
+          "chain_address_pairs": 135
+        },
+        "no_prediction": {
+          "addresses": 42,
+          "chain_address_pairs": 63
+        },
+        "wrong": {
+          "addresses": 7,
+          "chain_address_pairs": 13
+        }
+      },
+      "same_address_other_chain between Morpho chain listings": {
+        "correct": {
+          "addresses": 33,
+          "chain_address_pairs": 92
+        }
+      }
+    },
+    "method": "Precision of the clustering rules on addresses whose entity is known without them: addresses from an official address list, and addresses linked through a Lista or Silo vault listing. Each is treated as unknown and the rule's prediction, made only from official anchors and never from an anchor at the same address, is compared with the known entity. The same-address rule is tested only between Morpho's per-chain listings, because euler-labels lists an address once for every chain.",
+    "wrong": [
+      {
+        "address": "0x0a0e559bc3b0950a7e448f0d4894db195b9cf8dd",
+        "chain_id": 1,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x005398827d00c2951ffb52bd91164ef402bcf105",
+            "0x21c1e5be991bf1544ca9759a601f66dc60083f7d",
+            "0x2e8c25a6f7f7f34666b998813abf97d8b617f111",
+            "0x32e5cb1a68761a0cff88d4baa21e398422b5166e",
+            "0x394e6ef80c6f4ad14a891a3987d8bd1387afa0b1",
+            "0x5571a6fef340a9d26f1428684b9e893ea84b46ac",
+            "0x9a86713145f38cd688969c0ecc87b314b23254b2",
+            "0xbc27046213d34d4a153cf57a48c74d74239e8968",
+            "0xc04f9610694a9e07e0d6a361bec53abeadf9cf9e"
+          ]
+        }
+      },
+      {
+        "address": "0x34a0d3333ff6028b5fad62879a9d24d3c071e343",
+        "chain_id": 1,
+        "known": "infinifi",
+        "predicted": "cassa",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "cassa": [
+            "0x63be8f7b635d4b6918ac15dd34d79a16f6c1211e",
+            "0xf3d3f4281cea79aba34acbf6460b9f7c5767c506"
+          ]
+        }
+      },
+      {
+        "address": "0x827e86072b06674a077f592a531dce4590adecdb",
+        "chain_id": 1,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x1710932cf538f38e7bcfc30aaae389b24dd004f6",
+            "0x1936552b58be97ffd9c7c1dd28e675b7b022f16d",
+            "0x1dc4354b39554251d4a2c4b571906e7ebae535a3",
+            "0x44e6e4152a60d594c175bfed42e68ad62ffb5871",
+            "0x4c23e86a9d8506a43046c15be1b7fa0b6f3427de",
+            "0x5868aaa8d66023137365adae9634a9d8834d488d",
+            "0x7307bf07641a794fdbc2391d0983a7f1cfa36e4b",
+            "0xd824031d4a115590e6ff26e4e23fc346ab4cb2db",
+            "0xfb3e98b5d59505ceb259e9874b4553fd27fcce3c"
+          ]
+        }
+      },
+      {
+        "address": "0xc5fa35a7da6798211d4acd6b1d36f2f3e8c6dbdb",
+        "chain_id": 1,
+        "known": "waterline",
+        "predicted": "steakhouse-financial",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "steakhouse-financial": [
+            "0x1710932cf538f38e7bcfc30aaae389b24dd004f6",
+            "0x1936552b58be97ffd9c7c1dd28e675b7b022f16d",
+            "0x1dc4354b39554251d4a2c4b571906e7ebae535a3",
+            "0x44e6e4152a60d594c175bfed42e68ad62ffb5871",
+            "0x4c23e86a9d8506a43046c15be1b7fa0b6f3427de",
+            "0x5868aaa8d66023137365adae9634a9d8834d488d",
+            "0x7307bf07641a794fdbc2391d0983a7f1cfa36e4b",
+            "0xd824031d4a115590e6ff26e4e23fc346ab4cb2db",
+            "0xfb3e98b5d59505ceb259e9874b4553fd27fcce3c"
+          ]
+        }
+      },
+      {
+        "address": "0xd6086925eabda100409da2adadfdea08eab1081a",
+        "chain_id": 1,
+        "known": "waterline",
+        "predicted": "steakhouse-financial",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "steakhouse-financial": [
+            "0x005398827d00c2951ffb52bd91164ef402bcf105",
+            "0x21c1e5be991bf1544ca9759a601f66dc60083f7d",
+            "0x2e8c25a6f7f7f34666b998813abf97d8b617f111",
+            "0x32e5cb1a68761a0cff88d4baa21e398422b5166e",
+            "0x394e6ef80c6f4ad14a891a3987d8bd1387afa0b1",
+            "0x5571a6fef340a9d26f1428684b9e893ea84b46ac",
+            "0x86bd534a95fb2cc36d526ba149464c4477315c32",
+            "0x9a86713145f38cd688969c0ecc87b314b23254b2",
+            "0xbc27046213d34d4a153cf57a48c74d74239e8968",
+            "0xc04f9610694a9e07e0d6a361bec53abeadf9cf9e"
+          ]
+        }
+      },
+      {
+        "address": "0xeef44faf5fe0cc1fab04bb052bff750cf37a7fc4",
+        "chain_id": 1,
+        "known": "cassa",
+        "predicted": "infinifi",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "infinifi": [
+            "0x63be8f7b635d4b6918ac15dd34d79a16f6c1211e",
+            "0xf3d3f4281cea79aba34acbf6460b9f7c5767c506"
+          ]
+        }
+      },
+      {
+        "address": "0xf53eaeb7e6f15cbb6db990eaf2a26702e1d986d8",
+        "chain_id": 1,
+        "known": "tulipa-capital",
+        "predicted": "9summits",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "9summits": [
+            "0x7c615e12d1163fc0dddaa01b51922587034f5c93",
+            "0xc577d4b9a6fa86b8a32ded1c61f8bd2c92eca93b"
+          ]
+        }
+      },
+      {
+        "address": "0x0a0e559bc3b0950a7e448f0d4894db195b9cf8dd",
+        "chain_id": 8453,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x005398827d00c2951ffb52bd91164ef402bcf105",
+            "0x21c1e5be991bf1544ca9759a601f66dc60083f7d",
+            "0x2e8c25a6f7f7f34666b998813abf97d8b617f111",
+            "0x32e5cb1a68761a0cff88d4baa21e398422b5166e",
+            "0x394e6ef80c6f4ad14a891a3987d8bd1387afa0b1",
+            "0x5571a6fef340a9d26f1428684b9e893ea84b46ac",
+            "0x9a86713145f38cd688969c0ecc87b314b23254b2",
+            "0xbc27046213d34d4a153cf57a48c74d74239e8968",
+            "0xc04f9610694a9e07e0d6a361bec53abeadf9cf9e"
+          ]
+        }
+      },
+      {
+        "address": "0xf53eaeb7e6f15cbb6db990eaf2a26702e1d986d8",
+        "chain_id": 9745,
+        "known": "tulipa-capital",
+        "predicted": "9summits",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "9summits": [
+            "0x7c615e12d1163fc0dddaa01b51922587034f5c93",
+            "0xc577d4b9a6fa86b8a32ded1c61f8bd2c92eca93b"
+          ]
+        }
+      },
+      {
+        "address": "0x0a0e559bc3b0950a7e448f0d4894db195b9cf8dd",
+        "chain_id": 42161,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x005398827d00c2951ffb52bd91164ef402bcf105",
+            "0x21c1e5be991bf1544ca9759a601f66dc60083f7d",
+            "0x2e8c25a6f7f7f34666b998813abf97d8b617f111",
+            "0x32e5cb1a68761a0cff88d4baa21e398422b5166e",
+            "0x394e6ef80c6f4ad14a891a3987d8bd1387afa0b1",
+            "0x5571a6fef340a9d26f1428684b9e893ea84b46ac",
+            "0x9a86713145f38cd688969c0ecc87b314b23254b2",
+            "0xbc27046213d34d4a153cf57a48c74d74239e8968",
+            "0xc04f9610694a9e07e0d6a361bec53abeadf9cf9e"
+          ]
+        }
+      },
+      {
+        "address": "0x827e86072b06674a077f592a531dce4590adecdb",
+        "chain_id": 42161,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x1710932cf538f38e7bcfc30aaae389b24dd004f6",
+            "0x1936552b58be97ffd9c7c1dd28e675b7b022f16d",
+            "0x1dc4354b39554251d4a2c4b571906e7ebae535a3",
+            "0x44e6e4152a60d594c175bfed42e68ad62ffb5871",
+            "0x4c23e86a9d8506a43046c15be1b7fa0b6f3427de",
+            "0x5868aaa8d66023137365adae9634a9d8834d488d",
+            "0x7307bf07641a794fdbc2391d0983a7f1cfa36e4b",
+            "0xd824031d4a115590e6ff26e4e23fc346ab4cb2db",
+            "0xfb3e98b5d59505ceb259e9874b4553fd27fcce3c"
+          ]
+        }
+      },
+      {
+        "address": "0xf53eaeb7e6f15cbb6db990eaf2a26702e1d986d8",
+        "chain_id": 59144,
+        "known": "tulipa-capital",
+        "predicted": "9summits",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "9summits": [
+            "0x7c615e12d1163fc0dddaa01b51922587034f5c93",
+            "0xc577d4b9a6fa86b8a32ded1c61f8bd2c92eca93b"
+          ]
+        }
+      },
+      {
+        "address": "0x0a0e559bc3b0950a7e448f0d4894db195b9cf8dd",
+        "chain_id": 747474,
+        "known": "steakhouse-financial",
+        "predicted": "waterline",
+        "test": "safe_shares_signers on official addresses",
+        "why": {
+          "waterline": [
+            "0x005398827d00c2951ffb52bd91164ef402bcf105",
+            "0x21c1e5be991bf1544ca9759a601f66dc60083f7d",
+            "0x2e8c25a6f7f7f34666b998813abf97d8b617f111",
+            "0x32e5cb1a68761a0cff88d4baa21e398422b5166e",
+            "0x394e6ef80c6f4ad14a891a3987d8bd1387afa0b1",
+            "0x5571a6fef340a9d26f1428684b9e893ea84b46ac",
+            "0x9a86713145f38cd688969c0ecc87b314b23254b2",
+            "0xbc27046213d34d4a153cf57a48c74d74239e8968",
+            "0xc04f9610694a9e07e0d6a361bec53abeadf9cf9e"
+          ]
+        }
+      }
+    ]
+  },
+  "consistency": {
+    "address_to_multiple_entities_across_chains": [
+      {
+        "address": "0xbbacdcfb9691dfa1066ab29edfcc4a73f6def918",
+        "entities": [
+          "rockawayx",
+          "y10k-capital"
+        ]
+      }
+    ],
+    "chain_address_to_multiple_entities": [],
+    "entity_ids_missing_from_curators": [],
+    "interval_chain_breaks": 0,
+    "listings_disagreeing_with_address_evidence": [
+      {
+        "chain_id": 56,
+        "entity_id": "lista-dao",
+        "evidence": "holds the top controlling role on 23 listed vault(s), 22 of them naming lista-dao: CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 listed as 'Lista DAO' by lista; CURATOR of 0x2fa11fc42e7fdff98e1d043992db5e10123a41b0 listed as 'Lista DAO' by lista; CURATOR of 0x34a436478d34cee558db242e7a0f1676bd84ca45 listed as 'Lista DAO' by lista; lista lists the vault as curated by 'Pangolins' (disagrees)",
+        "protocol": "moolah",
+        "vault": "0xcb995fb56ec7fc42e0c9a075dfa3a0b56de72484"
+      }
+    ],
+    "names_joined_across_sources": [
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x23e6aecb76675462ad8f2b31ec7c492060c2faef",
+          "0x2ca1fac7e626bc2e2122578e07772098f4f4f7cb"
+        ],
+        "aliases": [
+          "9 Summits",
+          "9Summits"
+        ],
+        "entity_id": "9summits",
+        "listed_vaults": 1,
+        "listed_vaults_controlled_by_official_address": [
+          "43114:0xf8c100ab4b2d416609b0ef18105ebf601b2ec84a"
+        ],
+        "sources": [
+          "Morpho",
+          "Silo",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0xf726311f85d45a7fecffbc94bd8508a0a39958c6"
+        ],
+        "aliases": [
+          "Apostro"
+        ],
+        "entity_id": "apostro",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x30988479c2e6a03e7fb65138b94762d41a733458",
+          "0x72882eb5d27c7088dfa6dde941dd42e5d184f0ef"
+        ],
+        "aliases": [
+          "Clearstar"
+        ],
+        "entity_id": "clearstar",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "Gauntlet"
+        ],
+        "entity_id": "gauntlet",
+        "listed_vaults": 4,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Lista",
+          "Morpho"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x75178137d3b4b9a0f771e0e149b00fb8167ba325",
+          "0xee7e9bb21d5589bf657b94083db2fa349a3918c8"
+        ],
+        "aliases": [
+          "Hyperithm"
+        ],
+        "entity_id": "hyperithm",
+        "listed_vaults": 1,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Lista",
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x060db084bf41872861f175d83f3cb1b5566dfea3",
+          "0xdd84a24eedde63f10ec3e928f1c8302a47538b6b"
+        ],
+        "aliases": [
+          "K3 Capital"
+        ],
+        "entity_id": "k3-capital",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "KPK"
+        ],
+        "entity_id": "kpk",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x38afc3aa2c76b4ca1f8e1daba68e998e1f4782db",
+          "0xb672ea44a1ec692a9baf851dc90a1ee3db25f1c4"
+        ],
+        "aliases": [
+          "MEV Capital"
+        ],
+        "entity_id": "mev-capital",
+        "listed_vaults": 2,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Lista",
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "Pangolins"
+        ],
+        "entity_id": "pangolins",
+        "listed_vaults": 2,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Lista",
+          "Morpho"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "RE7 Labs",
+          "Re7",
+          "Re7 Labs"
+        ],
+        "entity_id": "re7-labs",
+        "listed_vaults": 5,
+        "listed_vaults_controlled_by_official_address": [
+          "146:0x011777671e371e38c3d198ea315a4885f33eca8f",
+          "146:0x592d1e187729c76efacc6dffb9355bd7bf47b2a7",
+          "146:0xf136c06d23492ff143afd9f5dc4e886224ba7050",
+          "146:0xf75ae954d30217b4ee70dbfb33f04162aa3cf260"
+        ],
+        "sources": [
+          "Lista",
+          "Morpho",
+          "Silo",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "RockawayX"
+        ],
+        "entity_id": "rockawayx",
+        "listed_vaults": 1,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Lista",
+          "Morpho"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [],
+        "aliases": [
+          "Sentora"
+        ],
+        "entity_id": "sentora",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      },
+      {
+        "addresses_shared_by_morpho_and_euler": [
+          "0x1280e86cd7787ffa55d37759c0342f8cd3c7594a"
+        ],
+        "aliases": [
+          "Edge UltraYield",
+          "UltraYield"
+        ],
+        "entity_id": "ultrayield",
+        "listed_vaults": 0,
+        "listed_vaults_controlled_by_official_address": [],
+        "sources": [
+          "Morpho",
+          "euler-labels"
+        ]
+      }
+    ],
+    "official_source_files_cited": 42,
+    "official_source_files_missing": []
+  },
+  "euler_labels": {
+    "agreement_rate_among_attributed": 1.0,
+    "commit": "ead9d22dbad6a32e7cf696f483c5a64ea71d7c01",
+    "compared": "product governing entity (first entry of products.json 'entity') against our current interval for lending vaults",
+    "disagreements": [],
+    "earn_vaults_listed_by_confidence": {
+      "cluster": 1,
+      "official": 30
+    },
+    "left_unattributed": [
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x0e43df9f40cc6eed3ec70ea41d6f34329fe75986 unresolved",
+          "from_block": 23886138,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 4018806,
+        "product": "rezerve-vaults",
+        "product_entities": [
+          "zerolend"
+        ],
+        "vault": "0x1ab9e92cfde84f38868753d30ffc43f812b803c5"
+      },
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x7c615e12d1163fc0dddaa01b51922587034f5c93 unresolved",
+          "from_block": 22173813,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 0,
+        "product": "tulipa-tac",
+        "product_entities": [
+          "tulipa-capital"
+        ],
+        "vault": "0x7c6eee35be1f1f25cef65e01d1a63c994c7b6978"
+      },
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x7c615e12d1163fc0dddaa01b51922587034f5c93 unresolved",
+          "from_block": 22173819,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 0,
+        "product": "tulipa-tac",
+        "product_entities": [
+          "tulipa-capital"
+        ],
+        "vault": "0x9d1c3a8a70c1f586256117399304e6a48f657838"
+      },
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x0e43df9f40cc6eed3ec70ea41d6f34329fe75986 unresolved",
+          "from_block": 23886138,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 5361097,
+        "product": "rezerve-vaults",
+        "product_entities": [
+          "zerolend"
+        ],
+        "vault": "0xc42d337861878baa4dc820d9e6b6c667c2b57e8a"
+      },
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x7c615e12d1163fc0dddaa01b51922587034f5c93 unresolved",
+          "from_block": 22173824,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 0,
+        "product": "tulipa-tac",
+        "product_entities": [
+          "tulipa-capital"
+        ],
+        "vault": "0xcc029ae7dff547fa893f831bb4a0e99b6bcb6ae0"
+      },
+      {
+        "chain_id": 1,
+        "deprecated": true,
+        "mine": {
+          "confidence": "unattributed",
+          "entity_id": null,
+          "evidence": "governorAdmin 0x7c615e12d1163fc0dddaa01b51922587034f5c93 unresolved",
+          "from_block": 22173807,
+          "rule": null,
+          "via_address": null,
+          "via_role": null
+        },
+        "peak_usd": 0,
+        "product": "tulipa-tac",
+        "product_entities": [
+          "tulipa-capital"
+        ],
+        "vault": "0xf6066fafd24880879448867cfd683337146f4335"
+      }
+    ],
+    "name_only": [],
+    "product_vaults_outside_lending_set": 169,
+    "source": "data/registry/curator_sources/euler-labels/*/products.json",
+    "tally": {
+      "agree": 264,
+      "unattributed": 6
+    },
+    "tally_by_our_rule": {
+      "euler_labels_entity_address": {
+        "agree": 224
+      },
+      "morpho_api_curator_address": {
+        "agree": 40
+      },
+      "none": {
+        "unattributed": 6
+      }
+    }
+  },
+  "morpho_api": {
+    "agreement_rate_among_attributed": 1.0,
+    "api_labelled_vaults_not_in_registry": [
+      [
+        4663,
+        "0x9e3a02c5b5af0844e3dcd62c388db6cb89e7aace"
+      ],
+      [
+        42161,
+        "0xbeeff72b77e7584a450e887125f25e8d8819016a"
+      ]
+    ],
+    "compared": "API vault-level curator labels (V1 state.curators, V2 curators) against our current interval",
+    "disagreements": [],
+    "independence": "the API derives vault labels by matching the vault's current curator and owner against its own curator registry, the same registry our official rule uses; agreement under other rules is the independent part",
+    "left_unattributed": [],
+    "name_only": [],
+    "retrieved_at": "2026-10-08T17:27:05+00:00",
+    "source": "data/registry/curator_sources/morpho_api_vaults.json",
+    "tally": {
+      "agree": 474
+    },
+    "tally_by_our_rule": {
+      "morpho_api_curator_address": {
+        "agree": 474
+      }
+    },
+    "vaults_with_api_label": 474
+  },
+  "random_sample": [
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeefc1cdafc5b4a649b54d07afc6bf0f75c6f4e2 on chain 1 is 0x827e86072b06674a077f592a531dce4590adecdb since block 22494318; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 1",
+      "kind": "morpho_v1",
+      "name": "Steakhouse Ethena USDtb",
+      "protocol": "morpho",
+      "vault": "0xbeefc1cdafc5b4a649b54d07afc6bf0f75c6f4e2"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "yearn",
+      "justification": "curator of 0x2bb005127069a0f0325fb7370967e8a2b64fb77e on chain 1 is 0x90d0f26025571295d18a6c041e47450b81886b51 since block 24995485; Morpho API curator registry lists 0x90d0f26025571295d18a6c041e47450b81886b51 for yearn on chain 1",
+      "kind": "morpho_v1",
+      "name": "Yearn WBTC",
+      "protocol": "morpho",
+      "vault": "0x2bb005127069a0f0325fb7370967e8a2b64fb77e"
+    },
+    {
+      "chain_id": 999,
+      "confidence": "official",
+      "entity_id": "hyperithm",
+      "justification": "curator of 0xe5add96840f0b908ddeb3bd144c0283ac5ca7ca0 on chain 999 is 0x75178137d3b4b9a0f771e0e149b00fb8167ba325 since block 8026862; Morpho API curator registry lists 0x75178137d3b4b9a0f771e0e149b00fb8167ba325 for hyperithm on chain 999",
+      "kind": "morpho_v1",
+      "name": "Hyperithm USDT0",
+      "protocol": "morpho",
+      "vault": "0xe5add96840f0b908ddeb3bd144c0283ac5ca7ca0"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeef047a543e45807105e51a8bbefcc5950fcfba on chain 1 is 0x827e86072b06674a077f592a531dce4590adecdb since block 22074414; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 1",
+      "kind": "morpho_v1",
+      "name": "Steakhouse USDT",
+      "protocol": "morpho",
+      "vault": "0xbeef047a543e45807105e51a8bbefcc5950fcfba"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "gauntlet",
+      "justification": "curator of 0x78b18e07dc43017fceaabad0751d6464c0f56b25 on chain 1 is 0x9e33faae38ff641094fa68c65c2ce600b3410585 since block 21374199; Morpho API curator registry lists 0x9e33faae38ff641094fa68c65c2ce600b3410585 for gauntlet on chain 1",
+      "kind": "morpho_v1",
+      "name": "Metronome msETH Vault",
+      "protocol": "morpho",
+      "vault": "0x78b18e07dc43017fceaabad0751d6464c0f56b25"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeef96b330ef1fe7ebe41ece0bd4a41a94bc03dc on chain 1 is 0x827e86072b06674a077f592a531dce4590adecdb since block 23191413; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 1",
+      "kind": "morpho_v1",
+      "name": "Cronos USDC",
+      "protocol": "morpho",
+      "vault": "0xbeef96b330ef1fe7ebe41ece0bd4a41a94bc03dc"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "re7-labs",
+      "justification": "curator of 0x5181cd56c2c71d20094d23d43f4d6362834643ae on chain 1 is 0xe86399fe6d7007fdecb08a2ee1434ee677a04433 since block 23658141; Morpho API curator registry lists 0xe86399fe6d7007fdecb08a2ee1434ee677a04433 for re7-labs on chain 1",
+      "kind": "morpho_v2",
+      "name": "Re7 WETH",
+      "protocol": "morpho",
+      "vault": "0x5181cd56c2c71d20094d23d43f4d6362834643ae"
+    },
+    {
+      "chain_id": 8453,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xc2fc7e2023c7c0624d4c64c761498b6530778026 on chain 8453 is 0x827e86072b06674a077f592a531dce4590adecdb since block 41977124; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 8453",
+      "kind": "morpho_v2",
+      "name": "Test RWA",
+      "protocol": "morpho",
+      "vault": "0xc2fc7e2023c7c0624d4c64c761498b6530778026"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "sparkdao",
+      "justification": "curator of 0xb0c424116172b55cbb6dd3136f5989f7959e5b91 on chain 1 is 0x0f963a8a8c01042b69054e787e5763abbb0646a3 since block 24794709; Morpho API curator registry lists 0x0f963a8a8c01042b69054e787e5763abbb0646a3 for sparkdao on chain 1",
+      "kind": "morpho_v2",
+      "name": "Spark Blue Chip USDT Vault",
+      "protocol": "morpho",
+      "vault": "0xb0c424116172b55cbb6dd3136f5989f7959e5b91"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeeff0d672ab7f5018dfb614c93981045d4aa98a on chain 1 is 0x827e86072b06674a077f592a531dce4590adecdb since block 24290448; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 1",
+      "kind": "morpho_v2",
+      "name": "Grove x Steakhouse AUSD",
+      "protocol": "morpho",
+      "vault": "0xbeeff0d672ab7f5018dfb614c93981045d4aa98a"
+    },
+    {
+      "chain_id": 42161,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeeff77ce5c059445714e6a3490e273fe7f2492f on chain 42161 is 0x827e86072b06674a077f592a531dce4590adecdb since block 410928945; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 42161",
+      "kind": "morpho_v2",
+      "name": "Bitget x Steakhouse USDT",
+      "protocol": "morpho",
+      "vault": "0xbeeff77ce5c059445714e6a3490e273fe7f2492f"
+    },
+    {
+      "chain_id": 8453,
+      "confidence": "official",
+      "entity_id": "steakhouse-financial",
+      "justification": "curator of 0xbeef00f0a818894a2cf111644a5098421611100e on chain 8453 is 0x827e86072b06674a077f592a531dce4590adecdb since block 41140996; Morpho API curator registry lists 0x827e86072b06674a077f592a531dce4590adecdb for steakhouse-financial on chain 8453",
+      "kind": "morpho_v2",
+      "name": "Steakhouse Prime ETH",
+      "protocol": "morpho",
+      "vault": "0xbeef00f0a818894a2cf111644a5098421611100e"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "infinifi",
+      "justification": "governorAdmin of 0x8be237254c0832ff642ad0cb2bdfb8f79d7c7b1a on chain 1 is 0x34a0d3333ff6028b5fad62879a9d24d3c071e343 since block 24844156; euler-labels 1/entities.json @ ead9d22dbad6 lists 0x34a0d3333ff6028b5fad62879a9d24d3c071e343 as 'InfiniFi Multisig' under infinifi",
+      "kind": "euler_lending",
+      "name": null,
+      "protocol": "euler_v2",
+      "vault": "0x8be237254c0832ff642ad0cb2bdfb8f79d7c7b1a"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "alterscope",
+      "justification": "governorAdmin of 0xf69ff7901e199ae4fc354048da09c23c7699716c on chain 1 is 0x2e571f334fe06a6a2741dd0e4cb5bc7c1f8af808 since block 21073943; euler-labels 8453/entities.json @ ead9d22dbad6 lists 0x2e571f334fe06a6a2741dd0e4cb5bc7c1f8af808 as 'Alterscope Multisig' under alterscope; euler-labels addresses hold on every chain",
+      "kind": "euler_lending",
+      "name": null,
+      "protocol": "euler_v2",
+      "vault": "0xf69ff7901e199ae4fc354048da09c23c7699716c"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "euler-dao",
+      "justification": "governorAdmin of 0x48afe17cb6363fd1aaea50a8cb652c5978972c96 on chain 1 is 0x35400831044167e9e2de613d26515eee37e30a1b since block 22039926; euler-labels 1/entities.json @ ead9d22dbad6 lists 0x35400831044167e9e2de613d26515eee37e30a1b as 'Euler Vault Access Control Governor' under euler-dao",
+      "kind": "euler_lending",
+      "name": null,
+      "protocol": "euler_v2",
+      "vault": "0x48afe17cb6363fd1aaea50a8cb652c5978972c96"
+    },
+    {
+      "chain_id": 9745,
+      "confidence": "official",
+      "entity_id": "k3-capital",
+      "justification": "governorAdmin of 0x9d86b4fc23d8438fc4aba58642dc35d5f64fe941 on chain 9745 is 0x060db084bf41872861f175d83f3cb1b5566dfea3 since block 3497127; euler-labels 9745/entities.json @ ead9d22dbad6 lists 0x060db084bf41872861f175d83f3cb1b5566dfea3 as 'K3 Capital Multisig' under k3-capital",
+      "kind": "euler_lending",
+      "name": null,
+      "protocol": "euler_v2",
+      "vault": "0x9d86b4fc23d8438fc4aba58642dc35d5f64fe941"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "k3-capital",
+      "justification": "governorAdmin of 0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9 on chain 1 is 0x060db084bf41872861f175d83f3cb1b5566dfea3 since block 25201160; Morpho API curator registry lists 0x060db084bf41872861f175d83f3cb1b5566dfea3 for k3-capital on chain 1",
+      "kind": "euler_lending",
+      "name": null,
+      "protocol": "euler_v2",
+      "vault": "0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9"
+    },
+    {
+      "chain_id": 9745,
+      "confidence": "official",
+      "entity_id": "k3-capital",
+      "justification": "owner of 0xe818ad0d20d504c55601b9d5e0e137314414dec4 on chain 9745 is 0x060db084bf41872861f175d83f3cb1b5566dfea3 since block 1441188; euler-labels 9745/entities.json @ ead9d22dbad6 lists 0x060db084bf41872861f175d83f3cb1b5566dfea3 as 'K3 Capital Multisig' under k3-capital",
+      "kind": "euler_earn",
+      "name": "K3 Capital USDT0 Vault",
+      "protocol": "euler_v2",
+      "vault": "0xe818ad0d20d504c55601b9d5e0e137314414dec4"
+    },
+    {
+      "chain_id": 9745,
+      "confidence": "official",
+      "entity_id": "telosc",
+      "justification": "curator of 0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66 on chain 9745 is 0x7d07bfdd01422d7b655b333157eb551b9712dcd8 since block 1870092; euler-labels 9745/entities.json @ ead9d22dbad6 lists 0x7d07bfdd01422d7b655b333157eb551b9712dcd8 as 'TelosC Multisig' under telosc",
+      "kind": "euler_earn",
+      "name": "TelosC Earn USDT0",
+      "protocol": "euler_v2",
+      "vault": "0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "kpk",
+      "justification": "curator of 0xb6d6d89ad4b4d61c15a293e28b74f77f6817ff48 on chain 1 is 0x715f757146846e6d63929bd2c1b334b18b8a1841 since block 25071648; euler-labels 1/entities.json @ ead9d22dbad6 lists 0x715f757146846e6d63929bd2c1b334b18b8a1841 as 'KPK Euler ETH Yield Term Curator Safe' under kpk",
+      "kind": "euler_earn",
+      "name": "KPK ETH Cyclical",
+      "protocol": "euler_v2",
+      "vault": "0xb6d6d89ad4b4d61c15a293e28b74f77f6817ff48"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "telosc",
+      "justification": "curator of 0xbc79c4da0452152d2c329ade328c79705a964cee on chain 1 is 0x7d07bfdd01422d7b655b333157eb551b9712dcd8 since block 24986206; euler-labels 9745/entities.json @ ead9d22dbad6 lists 0x7d07bfdd01422d7b655b333157eb551b9712dcd8 as 'TelosC Multisig' under telosc; euler-labels addresses hold on every chain",
+      "kind": "euler_earn",
+      "name": "Cassa RWAs, Equities & Commodities",
+      "protocol": "euler_v2",
+      "vault": "0xbc79c4da0452152d2c329ade328c79705a964cee"
+    },
+    {
+      "chain_id": 56,
+      "confidence": "official",
+      "entity_id": "lista-dao",
+      "justification": "CURATOR of 0x9a17fd5cb8efc25d11567e713ae795a89775a759 on chain 56 is 0x2e2807f88c381cb0cc55c808a751fc1e3fccbb85 since block 72029419; holds the top controlling role on 23 listed vault(s), 22 of them naming lista-dao: CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 listed as 'Lista DAO' by lista; CURATOR of 0x2fa11fc42e7fdff98e1d043992db5e10123a41b0 listed as 'Lista DAO' by lista; CURATOR of 0x34a436478d34cee558db242e7a0f1676bd84ca45 listed as 'Lista DAO' by lista; lista lists the vault as curated by 'Gauntlet x Lista DAO'",
+      "kind": "moolah_vault",
+      "name": "Gauntlet x Lista U Vault",
+      "protocol": "moolah",
+      "vault": "0x9a17fd5cb8efc25d11567e713ae795a89775a759"
+    },
+    {
+      "chain_id": 56,
+      "confidence": "official",
+      "entity_id": "lista-dao",
+      "justification": "CURATOR of 0xe27433ee40cfc59b4881b3c37b8e908ea0550aa7 on chain 56 is 0x2e2807f88c381cb0cc55c808a751fc1e3fccbb85 since block 52589095; holds the top controlling role on 23 listed vault(s), 22 of them naming lista-dao: CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 listed as 'Lista DAO' by lista; CURATOR of 0x2fa11fc42e7fdff98e1d043992db5e10123a41b0 listed as 'Lista DAO' by lista; CURATOR of 0x34a436478d34cee558db242e7a0f1676bd84ca45 listed as 'Lista DAO' by lista; lista lists the vault as curated by 'Lista DAO'",
+      "kind": "moolah_vault",
+      "name": "B Vault",
+      "protocol": "moolah",
+      "vault": "0xe27433ee40cfc59b4881b3c37b8e908ea0550aa7"
+    },
+    {
+      "chain_id": 56,
+      "confidence": "official",
+      "entity_id": "lista-dao",
+      "justification": "CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 on chain 56 is 0x2e2807f88c381cb0cc55c808a751fc1e3fccbb85 since block 67902309; holds the top controlling role on 23 listed vault(s), 22 of them naming lista-dao: CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 listed as 'Lista DAO' by lista; CURATOR of 0x2fa11fc42e7fdff98e1d043992db5e10123a41b0 listed as 'Lista DAO' by lista; CURATOR of 0x34a436478d34cee558db242e7a0f1676bd84ca45 listed as 'Lista DAO' by lista; lista lists the vault as curated by 'Lista DAO'",
+      "kind": "moolah_vault",
+      "name": "APRO Vault",
+      "protocol": "moolah",
+      "vault": "0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6"
+    },
+    {
+      "chain_id": 56,
+      "confidence": "official",
+      "entity_id": "lista-dao",
+      "justification": "CURATOR of 0x60eed309f259050b40b234d105329a4fd2f91163 on chain 56 is 0x2e2807f88c381cb0cc55c808a751fc1e3fccbb85 since block 52589095; holds the top controlling role on 23 listed vault(s), 22 of them naming lista-dao: CURATOR of 0x2cb60a0e6c2a5ff4249eb890e267b660c6676cc6 listed as 'Lista DAO' by lista; CURATOR of 0x2fa11fc42e7fdff98e1d043992db5e10123a41b0 listed as 'Lista DAO' by lista; CURATOR of 0x34a436478d34cee558db242e7a0f1676bd84ca45 listed as 'Lista DAO' by lista; lista lists the vault as curated by 'Lista DAO'",
+      "kind": "moolah_vault",
+      "name": "AB Vault",
+      "protocol": "moolah",
+      "vault": "0x60eed309f259050b40b234d105329a4fd2f91163"
+    },
+    {
+      "chain_id": 1,
+      "confidence": "official",
+      "entity_id": "silo-dao",
+      "justification": "curator of 0x5362d5086fdef73450145492a66f8ebf210c5b9c on chain 1 is 0x1ff60e85852ac73cd05b69a8b6641fc24a3fc011 since block 24842444; holds the top controlling role on 1 listed vault(s), 1 of them naming silo-dao: curator of 0x5362d5086fdef73450145492a66f8ebf210c5b9c listed as 'SiloDAO' by silo; silo lists the vault as curated by 'SiloDAO'",
+      "kind": "silo_vault",
+      "name": "Optima",
+      "protocol": "silo_v2",
+      "vault": "0x5362d5086fdef73450145492a66f8ebf210c5b9c"
+    },
+    {
+      "chain_id": 42161,
+      "confidence": "cluster",
+      "entity_id": "greenhouse",
+      "justification": "owner of 0x01a0ff4b5463c49184cdd05d39ad4a9f77b6ed80 on chain 42161 is 0x1b35727072435bb97fbe8cc378eb6973c98faab3 since block 342352143; Safe 0x1b35727072435bb97fbe8cc378eb6973c98faab3 (3/4) shares 4 signers ['0x214212f65ad152956582be9cc2cc88d443a0ab7e', '0x4d9aa2aac04ce1ba557d6008b28210f4187930a2', '0x75389aa0446f098a529ac07c1af4682292a3132b', '0xc65423a320916d7daf86341de6278d02c7e1d3b1'] with greenhouse Safes ['1:0x1b35727072435bb97fbe8cc378eb6973c98faab3']; curator 0xdc47b44e97806e22166a5710e3a60f92c0c9e085 unresolved",
+      "kind": "silo_vault",
+      "name": "Greenhouse ETH",
+      "protocol": "silo_v2",
+      "vault": "0x01a0ff4b5463c49184cdd05d39ad4a9f77b6ed80"
+    },
+    {
+      "chain_id": 43114,
+      "confidence": "cluster",
+      "entity_id": "mev-capital",
+      "justification": "curator of 0x4c9edf85b8b33198f0c29a799965b6df1ae67435 on chain 43114 is 0x82362918071ec32823cd0144257663f52f022b47 since block 91047845; EOA 0x82362918071ec32823cd0144257663f52f022b47 signs mev-capital Safes ['1:0x38afc3aa2c76b4ca1f8e1daba68e998e1f4782db', '42161:0xbb4b5bdc1a77971b6c35d87d30bb30f79543a2ef', '43114:0xb672ea44a1ec692a9baf851dc90a1ee3db25f1c4', '4663:0x1b6eaff09be2c263b9848708dd08809c44af09ee']",
+      "kind": "silo_vault",
+      "name": "MEV AVAX",
+      "protocol": "silo_v2",
+      "vault": "0x4c9edf85b8b33198f0c29a799965b6df1ae67435"
+    },
+    {
+      "chain_id": 43114,
+      "confidence": "cluster",
+      "entity_id": "mev-capital",
+      "justification": "curator of 0x4dc1ce9b9f9ef00c144bfad305f16c62293dc0e8 on chain 43114 is 0x82362918071ec32823cd0144257663f52f022b47 since block 91047881; EOA 0x82362918071ec32823cd0144257663f52f022b47 signs mev-capital Safes ['1:0x38afc3aa2c76b4ca1f8e1daba68e998e1f4782db', '42161:0xbb4b5bdc1a77971b6c35d87d30bb30f79543a2ef', '43114:0xb672ea44a1ec692a9baf851dc90a1ee3db25f1c4', '4663:0x1b6eaff09be2c263b9848708dd08809c44af09ee']",
+      "kind": "silo_vault",
+      "name": "MEV USDC",
+      "protocol": "silo_v2",
+      "vault": "0x4dc1ce9b9f9ef00c144bfad305f16c62293dc0e8"
+    },
+    {
+      "chain_id": 146,
+      "confidence": "cluster",
+      "entity_id": "apostro",
+      "justification": "owner of 0x53f2b31fbe5def59c8d6a33ad056a0261da40c83 on chain 146 is 0x0bf34484963766bf1d6bd0a15fe7ec6f72f3bd32 since block 23197774; Safe 0x0bf34484963766bf1d6bd0a15fe7ec6f72f3bd32 (2/3) shares 3 signers ['0x0f01e9688b181b424fdfa0c18301c9aedc6ea454', '0x182a1ecc5df72054ef075227dbfddc282eba58c2', '0x7063d2bb154c640c5fdc81767c2ccd1b96132865'] with apostro Safes ['146:0xf726311f85d45a7fecffbc94bd8508a0a39958c6', '1:0xc91578e51bce35844e345cc7f733b4bbf6721734', '1:0xf726311f85d45a7fecffbc94bd8508a0a39958c6', '8453:0xc91578e51bce35844e345cc7f733b4bbf6721734']",
+      "kind": "silo_vault",
+      "name": "Apostro S",
+      "protocol": "silo_v2",
+      "vault": "0x53f2b31fbe5def59c8d6a33ad056a0261da40c83"
+    }
+  ]
+}

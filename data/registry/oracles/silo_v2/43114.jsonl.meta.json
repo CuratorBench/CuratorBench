@@ -1,0 +1,17 @@
+{
+  "chain_id": 43114,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "silo_v2",
+  "routescan_calls": 0,
+  "rows": 144,
+  "rpc_calls": 398,
+  "runtime_seconds": 42.57,
+  "trace_fallback": {
+    "command": "code/data/oracles.py --retrace silo_v2:43114",
+    "rows_reclassified": 10,
+    "rpc_calls": 39,
+    "runtime_seconds": 3.557
+  },
+  "written_utc": "2026-10-16T00:54:51+00:00"
+}

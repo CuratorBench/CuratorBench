@@ -1,0 +1,62 @@
+{
+ "chain_id": 1,
+ "days_with_event": 276,
+ "events_by_type": {
+  "allocator_in": 330,
+  "idle_drop": 195,
+  "new_docs": 42,
+  "supply_move": 45,
+  "top1_move": 92,
+  "util_move": 130,
+  "util_pin": 56
+ },
+ "first_day": "2025-09-29",
+ "generator": "code/autocurator/observe.py",
+ "group": "morpho_1_EURCV_5f7827",
+ "inputs_absent": [],
+ "inputs_present": [
+  "data/panel_ext/borrowers/morpho/1.csv",
+  "data/panel_ext/token_supply/1.csv",
+  "data/panel_ext/public_allocator/morpho/1.csv"
+ ],
+ "last_day": "2026-10-01",
+ "loan_token": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+ "oracle_facts": "latest-block classification of an oracle fixed at market creation",
+ "oracle_flags": [],
+ "price_lag_days": 2,
+ "protocol": "morpho",
+ "records": 368,
+ "sha256": "6f0b5af46708d544359e12a2280d47dae0c845d36480b78d8af8608be3b2b619",
+ "snapshot_columns": [
+  "supply_usd",
+  "borrow_usd",
+  "util",
+  "util_min30",
+  "days_pinned",
+  "idle_usd",
+  "borrow_apr",
+  "supply_apy",
+  "fee",
+  "debt_shares",
+  "top1_share",
+  "n_borrowers"
+ ],
+ "table_max": 12,
+ "table_median": 7,
+ "thresholds": {
+  "allocator_min_usd": 1.0,
+  "bad_debt_min_usd": 1.0,
+  "idle_drop": 0.3,
+  "market_min_usd": 10000.0,
+  "peg_off": 0.02,
+  "price_drop": 0.1,
+  "supply_move": 0.1,
+  "table_min_usd": 100000.0,
+  "top1_move": 0.1,
+  "util_min_days": 30,
+  "util_move": 0.1,
+  "util_pin": 0.99
+ },
+ "universe": 13,
+ "written_utc": "2026-10-24T13:02:27Z"
+}

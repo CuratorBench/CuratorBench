@@ -1,0 +1,31 @@
+{
+  "usdc": {
+    "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Pressroom/brandkit/logo-downloads/usdc.zip",
+    "source_page": "https://www.circle.com/pressroom",
+    "provider": "Circle",
+    "archive_member": "Token Logo/USDC Token.svg",
+    "svg_sha256": "fe4f9d5f34ef4ebeb5d80e1f5ff63dcaf5a0d5495f4adf206e4c3011d1f5c57d",
+    "rendering": "CairoSVG 2.9.1, 384 px width, original viewBox, colours and transparency; no artwork edits"
+  },
+  "btc": {
+    "source_url": "https://bitcoin.design/assets/images/guide/getting-started/visual-language/bitcoin-symbol.svg",
+    "source_page": "https://bitcoin.design/guide/getting-started/visual-language/",
+    "provider": "Bitcoin Design (Bitboy symbol)",
+    "svg_sha256": "a772587201b7603cc316fc28fbd974d07bf47d22d0e4a25d8f076d7900f3469b",
+    "rendering": "CairoSVG 2.9.1, 384 px width, original viewBox, colours and transparency; no artwork edits"
+  },
+  "eth": {
+    "source_url": "https://ethereum.org/images/assets/svgs/eth-diamond-black.svg",
+    "source_page": "https://ethereum.org/assets/",
+    "provider": "ethereum.org",
+    "svg_sha256": "4611f65a00cff2e61dd7815aa59cb1bed0e0a266acca7eafc8212e78c7c7d10e",
+    "rendering": "CairoSVG 2.9.1, 384 px width, original viewBox, colours and transparency; no artwork edits"
+  },
+  "susde": {
+    "source_url": "https://app.ethena.fi/shared/sUSDe.svg",
+    "source_page": "https://app.ethena.fi/",
+    "provider": "Ethena app",
+    "svg_sha256": "93a91b8f8f791169d7caa9c79f83f06a6f5b7f891ff55ad6584bffb457a47ec4",
+    "rendering": "CairoSVG 2.9.1, 384 px width, original viewBox, colours and transparency; no artwork edits"
+  }
+}

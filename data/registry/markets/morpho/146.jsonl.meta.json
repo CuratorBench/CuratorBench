@@ -1,0 +1,19 @@
+{
+  "chain": "sonic",
+  "chain_id": 146,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "SonicMainnet",
+    "listed_by_api": false,
+    "morpho": "0xd6c916eB7542D0Ad3f18AEd0FCBD50C582cfa95f",
+    "vault_v1_factories": [
+      "0x0cE9e3512CB4df8ae7e265e62Fb9258dc14f12e8"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 15,
+  "scanned_to_block": 80219533,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:12+00:00"
+}

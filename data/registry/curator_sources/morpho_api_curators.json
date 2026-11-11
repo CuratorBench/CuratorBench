@@ -1,0 +1,2120 @@
+{
+  "items": [
+    {
+      "addresses": [
+        {
+          "address": "0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF",
+          "chainId": 1
+        },
+        {
+          "address": "0x2ca1fac7E626bC2E2122578e07772098f4F4F7Cb",
+          "chainId": 1
+        },
+        {
+          "address": "0x30a38f1a27036aE7b1a3679646739Fb913B9B244",
+          "chainId": 1
+        },
+        {
+          "address": "0x59e608E4842162480591032f3c8b0aE55C98d104",
+          "chainId": 1
+        },
+        {
+          "address": "0x9999Fe836737373F8A58e61354a4EA2f9421121B",
+          "chainId": 1
+        },
+        {
+          "address": "0xB65b8CF358A2A4C62e1153eC88fc0eD43fB73bC4",
+          "chainId": 1
+        },
+        {
+          "address": "0xC868BFb240Ed207449Afe71D2ecC781D5E10C85C",
+          "chainId": 1
+        },
+        {
+          "address": "0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF",
+          "chainId": 130
+        },
+        {
+          "address": "0xC868BFb240Ed207449Afe71D2ecC781D5E10C85C",
+          "chainId": 130
+        },
+        {
+          "address": "0x23E6aecB76675462Ad8f2B31eC7C492060c2fAEF",
+          "chainId": 8453
+        },
+        {
+          "address": "0x2ca1fac7E626bC2E2122578e07772098f4F4F7Cb",
+          "chainId": 8453
+        },
+        {
+          "address": "0x59e608E4842162480591032f3c8b0aE55C98d104",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "9summits",
+      "name": "9Summits",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://9summits.io/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/nine_summits"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x08eDEbFFaE68970DCf751baa826182b3a4aCFC05",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "anthias-labs",
+      "name": "Anthias Labs",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://anthias.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/anthiasxyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x24DB7c6F689e480d6E5d45DaD400CC4456C832F0",
+          "chainId": 1
+        },
+        {
+          "address": "0xBBE0dE9757F93e3306aDBfeBE906AB285EDD13DA",
+          "chainId": 1
+        },
+        {
+          "address": "0x370EC5d1809B27F1fB18e002cf79837c46F5134c",
+          "chainId": 4663
+        },
+        {
+          "address": "0x82B4a86c796d9508350D129BA150B5D625ec98A4",
+          "chainId": 4663
+        },
+        {
+          "address": "0x26d9aa12b8909E4628F8a78FFAf19D2Ee08BB068",
+          "chainId": 8453
+        },
+        {
+          "address": "0x7D02b68dEb9956F211083dA811f4856C901884C9",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "api3",
+      "name": "Api3",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://api3.org/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Api3DAO"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xC91578e51BCE35844E345CC7F733b4bBf6721734",
+          "chainId": 1
+        },
+        {
+          "address": "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6",
+          "chainId": 1
+        },
+        {
+          "address": "0xC91578e51BCE35844E345CC7F733b4bBf6721734",
+          "chainId": 8453
+        },
+        {
+          "address": "0xf726311F85D45a7fECfFbC94bD8508a0A39958c6",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "apostro",
+      "name": "Apostro",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://apostro.xyz"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/apostroxyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x2386061893E481FdcFb987835D89BFD189ff6f42",
+          "chainId": 8453
+        },
+        {
+          "address": "0xc74b0F8AfbC66ee960c98Dda1C909dF9D16691CB",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "architect",
+      "name": "Architect",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://architect.systems/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/xxi_eth"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x4687E45bB5518a995913a24BB2816fe2031d74D8",
+          "chainId": 1
+        },
+        {
+          "address": "0xB83A77677c51aAf6c45b0b64199eAe6938559E5e",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "armitage",
+      "name": "Armitage by Wintermute",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://armitage.wintermute.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/wintermute_t"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x2a155ed454Dc5861a755F9C6bc7334a23B80cdAF",
+          "chainId": 1
+        },
+        {
+          "address": "0x7AE0c0A7800466A6738e8a41DFC0CDd854aBF017",
+          "chainId": 1
+        },
+        {
+          "address": "0xA81AE7d57D68Fd6eF76a3082134BD2F3019aec24",
+          "chainId": 1
+        },
+        {
+          "address": "0xB392a71Ce96ecA72CA3B135071038B56553b18f6",
+          "chainId": 1
+        },
+        {
+          "address": "0xc68733779a1738fDd743667f8714ad33d4a92453",
+          "chainId": 1
+        },
+        {
+          "address": "0x2a155ed454Dc5861a755F9C6bc7334a23B80cdAF",
+          "chainId": 143
+        },
+        {
+          "address": "0x7AE0c0A7800466A6738e8a41DFC0CDd854aBF017",
+          "chainId": 143
+        },
+        {
+          "address": "0xA81AE7d57D68Fd6eF76a3082134BD2F3019aec24",
+          "chainId": 143
+        },
+        {
+          "address": "0xB392a71Ce96ecA72CA3B135071038B56553b18f6",
+          "chainId": 143
+        }
+      ],
+      "description": null,
+      "id": "august-digital",
+      "name": "August Digital",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://augustdigital.io/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/august_digital"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x8257dd8e97aa1e903339e3FF45240162Fe342132",
+          "chainId": 1
+        },
+        {
+          "address": "0xA2c3BDDfE910dDC8e5FC1B35dBb7766b943143eb",
+          "chainId": 1
+        },
+        {
+          "address": "0x8257dd8e97aa1e903339e3FF45240162Fe342132",
+          "chainId": 8453
+        },
+        {
+          "address": "0xA2c3BDDfE910dDC8e5FC1B35dBb7766b943143eb",
+          "chainId": 8453
+        },
+        {
+          "address": "0x8257dd8e97aa1e903339e3FF45240162Fe342132",
+          "chainId": 42161
+        },
+        {
+          "address": "0xA2c3BDDfE910dDC8e5FC1B35dBb7766b943143eb",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "avantgarde",
+      "name": "Avantgarde",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://avantgarde.finance/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/avantgardefi"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xbdB3b057abe626033E7e2e93D5d460d08008D966",
+          "chainId": 8453
+        },
+        {
+          "address": "0xDD3D8b713fcFC70Fce3b4567d1a758c0E77e900c",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "birch-hill",
+      "name": "Birch Hill",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://birchhill.io"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/BirchHill_io"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x510F3b6621D9eA392d4F7632d02aBCf8ba92Bd6F",
+          "chainId": 1
+        },
+        {
+          "address": "0xB5933F4E9F29e9E92dBA92b643B37a270204dE82",
+          "chainId": 1
+        },
+        {
+          "address": "0x42aFEE002Ca3B06f3697028d00B4FC4A94A70aaC",
+          "chainId": 5042
+        },
+        {
+          "address": "0x510F3b6621D9eA392d4F7632d02aBCf8ba92Bd6F",
+          "chainId": 5042
+        },
+        {
+          "address": "0x9bc7CB5eb55D7305997bB759D2934E695f320dd4",
+          "chainId": 5042
+        },
+        {
+          "address": "0xB5933F4E9F29e9E92dBA92b643B37a270204dE82",
+          "chainId": 5042
+        },
+        {
+          "address": "0x510F3b6621D9eA392d4F7632d02aBCf8ba92Bd6F",
+          "chainId": 8453
+        },
+        {
+          "address": "0xB5933F4E9F29e9E92dBA92b643B37a270204dE82",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "bitwise",
+      "name": "Bitwise",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://bitwiseinvestments.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Bitwise"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 1
+        },
+        {
+          "address": "0x5634520dd1C044fD8E589A7113C2d8f8f279fc24",
+          "chainId": 1
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 1
+        },
+        {
+          "address": "0xb3CF59A5f12cA319861376C5e63Eef4790a42B44",
+          "chainId": 1
+        },
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 130
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 130
+        },
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 137
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 137
+        },
+        {
+          "address": "0x5634520dd1C044fD8E589A7113C2d8f8f279fc24",
+          "chainId": 143
+        },
+        {
+          "address": "0xb3CF59A5f12cA319861376C5e63Eef4790a42B44",
+          "chainId": 143
+        },
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 8453
+        },
+        {
+          "address": "0x5634520dd1C044fD8E589A7113C2d8f8f279fc24",
+          "chainId": 8453
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 8453
+        },
+        {
+          "address": "0xb3CF59A5f12cA319861376C5e63Eef4790a42B44",
+          "chainId": 8453
+        },
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 42161
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 42161
+        },
+        {
+          "address": "0x30988479C2E6a03E7fB65138b94762D41a733458",
+          "chainId": 747474
+        },
+        {
+          "address": "0x5634520dd1C044fD8E589A7113C2d8f8f279fc24",
+          "chainId": 747474
+        },
+        {
+          "address": "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef",
+          "chainId": 747474
+        },
+        {
+          "address": "0xb3CF59A5f12cA319861376C5e63Eef4790a42B44",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "clearstar",
+      "name": "Clearstar",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.clearstar.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/ClearstarLabs"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xCC3E7c85Bb0EE4f09380e041fee95a0caeDD4a02",
+          "chainId": 137
+        }
+      ],
+      "description": null,
+      "id": "compound-dao",
+      "name": "Compound DAO",
+      "ownerOnly": true,
+      "socials": [],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x36BA7c92Cd68051fB304Bd4580C4A51c1d376532",
+          "chainId": 1
+        },
+        {
+          "address": "0x4BE1d3D4db67962286b0886D5C238b13E56ea494",
+          "chainId": 1
+        },
+        {
+          "address": "0x36BA7c92Cd68051fB304Bd4580C4A51c1d376532",
+          "chainId": 10
+        },
+        {
+          "address": "0x4BE1d3D4db67962286b0886D5C238b13E56ea494",
+          "chainId": 10
+        },
+        {
+          "address": "0x36BA7c92Cd68051fB304Bd4580C4A51c1d376532",
+          "chainId": 5042
+        },
+        {
+          "address": "0x4BE1d3D4db67962286b0886D5C238b13E56ea494",
+          "chainId": 5042
+        }
+      ],
+      "description": null,
+      "id": "dialectic",
+      "name": "Dialectic Meccanico",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "http://www.dialectic.com"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Dialectic_Group"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x5c48Cffd30a4001916992f464078c47B6e0A92FC",
+          "chainId": 1
+        },
+        {
+          "address": "0xC5fA35a7DA6798211d4AcD6b1D36F2f3E8c6dBdB",
+          "chainId": 1
+        },
+        {
+          "address": "0xd6086925EABDA100409Da2adaDFDea08EAB1081A",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "eco-vaults-shf",
+      "name": "Waterline",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.waterline.build"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x66d702C8f95A2E5A2A018e1Cb0edc4aea4E58A27",
+          "chainId": 1
+        },
+        {
+          "address": "0x81c76F62f7E05DEC75800150bA5A23f62e2f091F",
+          "chainId": 1
+        },
+        {
+          "address": "0x66d702C8f95A2E5A2A018e1Cb0edc4aea4E58A27",
+          "chainId": 137
+        },
+        {
+          "address": "0x81c76F62f7E05DEC75800150bA5A23f62e2f091F",
+          "chainId": 137
+        }
+      ],
+      "description": null,
+      "id": "feather",
+      "name": "Feather",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://feather.zone/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Featherlend"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x18e4961454B3E487B3f47c70b703684D894Ff979",
+          "chainId": 999
+        },
+        {
+          "address": "0x4A827418D632C415E19825fd011283A4ba020B3A",
+          "chainId": 999
+        }
+      ],
+      "description": null,
+      "id": "felix",
+      "name": "Felix",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.usefelix.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/felixprotocol"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x02FD75Ac6474ed143F0a12A484e017AF4F410466",
+          "chainId": 1
+        },
+        {
+          "address": "0x20e81490EF909143d9d6715150Cb234E5597e350",
+          "chainId": 1
+        },
+        {
+          "address": "0x3BDA489E8f82f771E3acF4510b36a4df8FD457eA",
+          "chainId": 1
+        },
+        {
+          "address": "0x69d40EefA555311b2f6997BCaebB7Ce8ddf6B534",
+          "chainId": 1
+        },
+        {
+          "address": "0x96a943e7Faf7C5ac1Ab2Bc61cF5Ebc7BE9DbA660",
+          "chainId": 1
+        },
+        {
+          "address": "0xA817e31C4b9B3a5A596bB2E81D5068030b1778eC",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "flowdesk",
+      "name": "Flowdesk",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.flowdesk.co/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/flowdesk_co"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x1610142C98156A13970B55B900876Da776865B55",
+          "chainId": 1
+        },
+        {
+          "address": "0xe5F7d857C129a6349f2A150665DCFF4FeF979744",
+          "chainId": 1
+        },
+        {
+          "address": "0x1610142C98156A13970B55B900876Da776865B55",
+          "chainId": 5042
+        },
+        {
+          "address": "0xe5F7d857C129a6349f2A150665DCFF4FeF979744",
+          "chainId": 5042
+        }
+      ],
+      "description": null,
+      "id": "flowmark",
+      "name": "Flowmark",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://flowmark.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Flowmark_xyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x42D510eDeb9257f8D920d5B9f5109D95cB22419d",
+          "chainId": 1
+        },
+        {
+          "address": "0xA13094eCEd689b7419BAbA12851374424c1486f1",
+          "chainId": 1
+        },
+        {
+          "address": "0x42D510eDeb9257f8D920d5B9f5109D95cB22419d",
+          "chainId": 4663
+        },
+        {
+          "address": "0xA13094eCEd689b7419BAbA12851374424c1486f1",
+          "chainId": 4663
+        },
+        {
+          "address": "0x032a292DE0127FdEf849EfF31b5b4DF7E5f069C0",
+          "chainId": 5042
+        },
+        {
+          "address": "0xec1a7a08b538C685f5D188D81e3545D69f1B4178",
+          "chainId": 5042
+        },
+        {
+          "address": "0x42D510eDeb9257f8D920d5B9f5109D95cB22419d",
+          "chainId": 8453
+        },
+        {
+          "address": "0xA13094eCEd689b7419BAbA12851374424c1486f1",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "galaxy",
+      "name": "Galaxy Curation",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://galaxy.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/galaxyhq"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 1
+        },
+        {
+          "address": "0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec",
+          "chainId": 1
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 10
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 10
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 130
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 130
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 137
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 988
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 988
+        },
+        {
+          "address": "0x09346F40e324458A8E211C5317981C78FAcDEc57",
+          "chainId": 999
+        },
+        {
+          "address": "0xe3ea927a0f41B4a84fA9900812E52F8BcB84f396",
+          "chainId": 999
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 4217
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 4217
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 5042
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 5042
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 8453
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 8453
+        },
+        {
+          "address": "0xCe3b5E1f18951054FA0A7e48aDb3A18A5E957F30",
+          "chainId": 8453
+        },
+        {
+          "address": "0x5a4E19842e09000a582c20A4f524C26Fb48Dd4D0",
+          "chainId": 42161
+        },
+        {
+          "address": "0x9E33faAE38ff641094fa68c65c2cE600b3410585",
+          "chainId": 42161
+        },
+        {
+          "address": "0x5D8C96b76A342c640d9605187daB780f8365F69f",
+          "chainId": 747474
+        },
+        {
+          "address": "0xb5c5b5D7a64d43bb91Dab63Ff3095F7FcB869b4e",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "gauntlet",
+      "name": "Gauntlet",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.gauntlet.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/gauntlet_xyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x2413A57FBD695f6B13C1D8d7D30EE10fa61b1b02",
+          "chainId": 1
+        },
+        {
+          "address": "0x345023d92f3051bB2B68DF79dFf760EccFEE80ED",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "hakutora",
+      "name": "Hakutora",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://hakutora.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/0xhakutora"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 1
+        },
+        {
+          "address": "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8",
+          "chainId": 1
+        },
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 143
+        },
+        {
+          "address": "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8",
+          "chainId": 143
+        },
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 988
+        },
+        {
+          "address": "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8",
+          "chainId": 988
+        },
+        {
+          "address": "0x35e42A5cA87A4E4Fb235585B36d7c978eA72B290",
+          "chainId": 999
+        },
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 999
+        },
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 42161
+        },
+        {
+          "address": "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8",
+          "chainId": 42161
+        },
+        {
+          "address": "0x75178137D3B4B9A0F771E0e149b00fB8167BA325",
+          "chainId": 747474
+        },
+        {
+          "address": "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "hyperithm",
+      "name": "Hyperithm",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.hyperithm.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/hyperithm"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x060DB084bF41872861f175d83f3cb1B5566dfEA3",
+          "chainId": 1
+        },
+        {
+          "address": "0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B",
+          "chainId": 1
+        },
+        {
+          "address": "0xdD84A24eeddE63F10Ec3e928f1c8302A47538b6B",
+          "chainId": 130
+        },
+        {
+          "address": "0x060DB084bF41872861f175d83f3cb1B5566dfEA3",
+          "chainId": 143
+        },
+        {
+          "address": "0x060DB084bF41872861f175d83f3cb1B5566dfEA3",
+          "chainId": 999
+        },
+        {
+          "address": "0x060DB084bF41872861f175d83f3cb1B5566dfEA3",
+          "chainId": 8453
+        },
+        {
+          "address": "0x060DB084bF41872861f175d83f3cb1B5566dfEA3",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "k3-capital",
+      "name": "K3 Capital",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.k3.capital/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/k3_capital"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x9ea3709E1A3f0B9501DD4a66163861D9BcCe7A08",
+          "chainId": 1
+        },
+        {
+          "address": "0xbA75546ACD56b3a9142f94F179b03970eE4283Fd",
+          "chainId": 1
+        },
+        {
+          "address": "0x26a17b96e9CA28D84C4E78f22B83a1ccEa28Ad21",
+          "chainId": 5042
+        },
+        {
+          "address": "0x3ab74ECC34760C0A81F55e0001Be6068Dcf1Cc04",
+          "chainId": 5042
+        }
+      ],
+      "description": null,
+      "id": "keyrock",
+      "name": "Keyrock",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://keyrock.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/keyrock"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x354C92aF243d53A24feb3dFF20372Af7b7c47478",
+          "chainId": 1
+        },
+        {
+          "address": "0x7a2CE012Fe37dB488C24e31f5e38816cAd82b45E",
+          "chainId": 1
+        },
+        {
+          "address": "0x7E43Df1c1c5A2245858b60D4655fDA83704e4171",
+          "chainId": 1
+        },
+        {
+          "address": "0x834e1c1ea40173B82106F9177646b66d96AE7De8",
+          "chainId": 1
+        },
+        {
+          "address": "0x8b884f80B3B839F52b6cE168f133e7a5D1f0A537",
+          "chainId": 1
+        },
+        {
+          "address": "0xb3E0fe1ac9AcaBC64132171CD88A91312Da71C25",
+          "chainId": 1
+        },
+        {
+          "address": "0xC266b1181A80E84EDC2c6596718E88E8115c1eaa",
+          "chainId": 1
+        },
+        {
+          "address": "0xd15f11B334e1e233127302E5F759C17DA1260df5",
+          "chainId": 1
+        },
+        {
+          "address": "0xE5aEC7D0E795456F90ceBefBa56470F0E5dfC075",
+          "chainId": 1
+        },
+        {
+          "address": "0xEaCFA855d172F1B40D9b04245960b2c12266C5f5",
+          "chainId": 1
+        },
+        {
+          "address": "0xf8182E5827c06a47A985eC565A3bcd56437a97bE",
+          "chainId": 1
+        },
+        {
+          "address": "0xFfbCF26270A90FCdAAF56AcF6e235730B04546c4",
+          "chainId": 1
+        },
+        {
+          "address": "0x89f810ec64e472bDDA2740dD85D56C051A895eFF",
+          "chainId": 5042
+        },
+        {
+          "address": "0x8b884f80B3B839F52b6cE168f133e7a5D1f0A537",
+          "chainId": 5042
+        },
+        {
+          "address": "0x58C83Ce55164537F9C73d5B65C426691bC26Ffa0",
+          "chainId": 8453
+        },
+        {
+          "address": "0x8b884f80B3B839F52b6cE168f133e7a5D1f0A537",
+          "chainId": 8453
+        },
+        {
+          "address": "0x354C92aF243d53A24feb3dFF20372Af7b7c47478",
+          "chainId": 42161
+        },
+        {
+          "address": "0x8b884f80B3B839F52b6cE168f133e7a5D1f0A537",
+          "chainId": 42161
+        },
+        {
+          "address": "0xb3E0fe1ac9AcaBC64132171CD88A91312Da71C25",
+          "chainId": 42161
+        },
+        {
+          "address": "0xE8bED28828f4DD93FB98232F8e85c8880D1f7e1d",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "kpk",
+      "name": "KPK",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://kpk.io"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/kpk_io"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x06590Fef209Ebc1f8eEF83dA05984cD4eFf0d0E3",
+          "chainId": 1
+        },
+        {
+          "address": "0x38afC3aA2c76b4cA1F8e1DabA68e998e1F4782DB",
+          "chainId": 1
+        },
+        {
+          "address": "0x6fA5d361Ab8165347F636217001E22a7cEF09B48",
+          "chainId": 1
+        },
+        {
+          "address": "0xeEAa598C011A29b6713251dD0CE24DB8D80E60Eb",
+          "chainId": 130
+        },
+        {
+          "address": "0xB672Ea44A1EC692A9Baf851dC90a1Ee3DB25F1C4",
+          "chainId": 137
+        },
+        {
+          "address": "0x6293e97900aA987Cf3Cbd419e0D5Ba43ebfA91c1",
+          "chainId": 999
+        },
+        {
+          "address": "0xb830B8B1A41c38603dBC6E4b562Ff599eDB415C4",
+          "chainId": 999
+        },
+        {
+          "address": "0x1B6EaFf09bE2c263B9848708DD08809C44AF09EE",
+          "chainId": 4663
+        },
+        {
+          "address": "0xB672Ea44A1EC692A9Baf851dC90a1Ee3DB25F1C4",
+          "chainId": 8453
+        },
+        {
+          "address": "0xBB4B5BdC1a77971B6C35D87D30BB30F79543a2EF",
+          "chainId": 42161
+        },
+        {
+          "address": "0x3D9403F9bC4615D6986EC31fC287cD5131Eaf9c7",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "mev-capital",
+      "name": "MEV Capital",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://mevcapital.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/MEVCapital"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x17C9ba3fDa7EC71CcfD75f978Ef31E21927aFF3d",
+          "chainId": 10
+        },
+        {
+          "address": "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "moonwell",
+      "name": "Moonwell",
+      "ownerOnly": true,
+      "socials": [],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x9855475778aa3B492C14E4E12ca0d44c253C9884",
+          "chainId": 1
+        },
+        {
+          "address": "0xF5854811ddccbf9D1767e35f6Cb28A6FEB25f9d9",
+          "chainId": 1
+        },
+        {
+          "address": "0xF5854811ddccbf9D1767e35f6Cb28A6FEB25f9d9",
+          "chainId": 130
+        },
+        {
+          "address": "0x9855475778aa3B492C14E4E12ca0d44c253C9884",
+          "chainId": 5042
+        },
+        {
+          "address": "0xF5854811ddccbf9D1767e35f6Cb28A6FEB25f9d9",
+          "chainId": 5042
+        },
+        {
+          "address": "0x9855475778aa3B492C14E4E12ca0d44c253C9884",
+          "chainId": 8453
+        },
+        {
+          "address": "0xF5854811ddccbf9D1767e35f6Cb28A6FEB25f9d9",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "pangolins",
+      "name": "Pangolins",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://pangolins.io/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/PangolinsVault"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x1378006F3e864e58deD34e9E2625e7b86B942e22",
+          "chainId": 1
+        },
+        {
+          "address": "0x1457AcC027D96C57B63deF06261cAe76aa8f4472",
+          "chainId": 1
+        },
+        {
+          "address": "0x21d7f2430E33054151AC3963aCBD4813e78cB3C9",
+          "chainId": 1
+        },
+        {
+          "address": "0xb41437827266a20aB30bf457A81561f7b5e1bE6D",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "presto",
+      "name": "Presto",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.prestolabs.io"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Presto_Labs"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xa58f41ddFD3E8e601349DbF5ac0213F614150f0f",
+          "chainId": 1
+        },
+        {
+          "address": "0xE86399fE6d7007FdEcb08A2ee1434Ee677a04433",
+          "chainId": 1
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 10
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 130
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 137
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 480
+        },
+        {
+          "address": "0x036845F9BE6DF938Da01Abe33e056D3CcaA836a2",
+          "chainId": 999
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 8453
+        },
+        {
+          "address": "0x8fafb5243f3787c67cAe318983a5Cc7E2E81F5bB",
+          "chainId": 42161
+        },
+        {
+          "address": "0xD8B0F4e54a8dac04E0A57392f5A630cEdb99C940",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "re7-labs",
+      "name": "RE7 Labs",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.re7labs.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Re7Labs"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xbBacDCFB9691DFA1066aB29edfcc4A73f6DEf918",
+          "chainId": 1
+        },
+        {
+          "address": "0xbBacDCFB9691DFA1066aB29edfcc4A73f6DEf918",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "rockawayx",
+      "name": "RockawayX",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://rockawayx.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/RockawayX"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x9e396dE3312D373b87F9BD8763fb48184b42aac0",
+          "chainId": 1
+        },
+        {
+          "address": "0xe8C9C99EcaD0686A14A00d8521c572281E938008",
+          "chainId": 1
+        },
+        {
+          "address": "0xff070333654aaE76A0A77465E4F0fd101C57c03F",
+          "chainId": 1
+        },
+        {
+          "address": "0x9e396dE3312D373b87F9BD8763fb48184b42aac0",
+          "chainId": 4217
+        },
+        {
+          "address": "0xe8C9C99EcaD0686A14A00d8521c572281E938008",
+          "chainId": 4217
+        }
+      ],
+      "description": null,
+      "id": "sentora",
+      "name": "Sentora",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://sentora.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/SentoraHQ"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x07A1eC352EF67BB5b8b75A7fF9540b27f9a53d71",
+          "chainId": 1
+        },
+        {
+          "address": "0x73fceD2CB2432ff354ab29E9dDc1FbDB203D8fDA",
+          "chainId": 1
+        },
+        {
+          "address": "0x07A1eC352EF67BB5b8b75A7fF9540b27f9a53d71",
+          "chainId": 143
+        },
+        {
+          "address": "0x73fceD2CB2432ff354ab29E9dDc1FbDB203D8fDA",
+          "chainId": 143
+        }
+      ],
+      "description": null,
+      "id": "sharpbyte",
+      "name": "SharpByte",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.sharpbyte.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/sharpbytexyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x46057881E0B9d190920FB823F840B837f65745d5",
+          "chainId": 1
+        },
+        {
+          "address": "0x46057881E0B9d190920FB823F840B837f65745d5",
+          "chainId": 130
+        },
+        {
+          "address": "0x46057881E0B9d190920FB823F840B837f65745d5",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "singularv",
+      "name": "SingularV",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.singularv.xyz/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/singularv_xyz"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x3F32bC09d41eE699844F8296e806417D6bf61Bba",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "sky-money",
+      "name": "Sky Money",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://sky.money/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/SkyEcosystem"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x0f963A8A8c01042B69054e787E5763ABbB0646A3",
+          "chainId": 1
+        },
+        {
+          "address": "0x3300f198988e4C9C63F75dF86De36421f06af8c4",
+          "chainId": 1
+        },
+        {
+          "address": "0xff070333654aaE76A0A77465E4F0fd101C57c03F",
+          "chainId": 1
+        },
+        {
+          "address": "0x0f963A8A8c01042B69054e787E5763ABbB0646A3",
+          "chainId": 8453
+        },
+        {
+          "address": "0xF93B7122450A50AF3e5A76E1d546e95Ac1d0F579",
+          "chainId": 8453
+        }
+      ],
+      "description": null,
+      "id": "sparkdao",
+      "name": "SparkDAO",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://spark.fi/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/sparkdotfi"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0xB0552b6860CE5C0202976Db056b5e3Cc4f9CC765",
+          "chainId": 1
+        },
+        {
+          "address": "0xF930EBBd05eF8b25B1797b9b2109DDC9B0d43063",
+          "chainId": 1
+        },
+        {
+          "address": "0xB0552b6860CE5C0202976Db056b5e3Cc4f9CC765",
+          "chainId": 10
+        },
+        {
+          "address": "0xB0552b6860CE5C0202976Db056b5e3Cc4f9CC765",
+          "chainId": 137
+        },
+        {
+          "address": "0xB0552b6860CE5C0202976Db056b5e3Cc4f9CC765",
+          "chainId": 8453
+        },
+        {
+          "address": "0xB0552b6860CE5C0202976Db056b5e3Cc4f9CC765",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "stake-dao",
+      "name": "Stake DAO",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://stakedao.org/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/StakeDAOHQ"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x043a816DcE5478eff35d665f985dc4540E9fFD03",
+          "chainId": 1
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 1
+        },
+        {
+          "address": "0x1369f7b2b38c76B6478c0f0E66D94923421891Ba",
+          "chainId": 1
+        },
+        {
+          "address": "0x255c7705e8BB334DfCae438197f7C4297988085a",
+          "chainId": 1
+        },
+        {
+          "address": "0x29a08239ca7D303F02D219119a024e9773CB1486",
+          "chainId": 1
+        },
+        {
+          "address": "0x2Ab528040534e121e6AA300a99F5941396150BcD",
+          "chainId": 1
+        },
+        {
+          "address": "0x433d49211C6D5121669D643b674d4B22b0185c12",
+          "chainId": 1
+        },
+        {
+          "address": "0x4D7bd498Bb24098Ca281C05519629c605407f71d",
+          "chainId": 1
+        },
+        {
+          "address": "0x51B6FBE8Ab2501BeedB767eb1852E179D29f7a58",
+          "chainId": 1
+        },
+        {
+          "address": "0x622E19d6903BD4507cfc70b31d5B99535114C0FC",
+          "chainId": 1
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 1
+        },
+        {
+          "address": "0x9b359EF8133bDCa81c3a815Fd5348c8d7b41dDce",
+          "chainId": 1
+        },
+        {
+          "address": "0xa18315d7E05220795562c67964034800995eB786",
+          "chainId": 1
+        },
+        {
+          "address": "0xbC309ccda84C4Af31F40aBc06c1E87E5482192ab",
+          "chainId": 1
+        },
+        {
+          "address": "0xc01Ba42d4Bd241892B813FA8bD4589EAA4C60672",
+          "chainId": 1
+        },
+        {
+          "address": "0xD700038b3f8d2F1a8193F35d7dD25c02e7155427",
+          "chainId": 1
+        },
+        {
+          "address": "0xe3Acb3A0cC24C7b176101900715e38E8e789DAd4",
+          "chainId": 1
+        },
+        {
+          "address": "0xE67d850dE6E6Fc913fb613573dc00d3Ba863C099",
+          "chainId": 1
+        },
+        {
+          "address": "0xEB4FC6AB5323Dd245EbF26B0EcD9030c68Cb39a2",
+          "chainId": 1
+        },
+        {
+          "address": "0xFb345Ae28cCe3C55481190771e8c6D18c0f3D279",
+          "chainId": 1
+        },
+        {
+          "address": "0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8",
+          "chainId": 130
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 130
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 130
+        },
+        {
+          "address": "0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8",
+          "chainId": 137
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 137
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 137
+        },
+        {
+          "address": "0x975941D89F3b5ca3fA01aa91fFD325611Da59773",
+          "chainId": 137
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 143
+        },
+        {
+          "address": "0x5D6563FB0364124c8ACa4bbbdefd2486e477dB11",
+          "chainId": 143
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 143
+        },
+        {
+          "address": "0x337feFE49514fb901eB455A501b8Be76CDeF7660",
+          "chainId": 4663
+        },
+        {
+          "address": "0x5ff98717a18833de1A49e11B498866d6Fa1c9296",
+          "chainId": 4663
+        },
+        {
+          "address": "0x622E19d6903BD4507cfc70b31d5B99535114C0FC",
+          "chainId": 4663
+        },
+        {
+          "address": "0x9023FBD6A08C666491A2d1648737E400cF42D2Fb",
+          "chainId": 4663
+        },
+        {
+          "address": "0xCa50D23F1c18C1Dfaff5d3cae3aa4B9dC5C8db73",
+          "chainId": 4663
+        },
+        {
+          "address": "0x5fe1AbFA41018f00B19A01E72Dce1C4361207852",
+          "chainId": 5042
+        },
+        {
+          "address": "0xCbd84Fa686C0236C4A0c66A49E5A12063afa48e6",
+          "chainId": 5042
+        },
+        {
+          "address": "0xE1582BCc8cf5530BeF799Af5Ee4Ba7e5F518517a",
+          "chainId": 5042
+        },
+        {
+          "address": "0x0000aeB716a0DF7A9A1AAd119b772644Bc089dA8",
+          "chainId": 8453
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 8453
+        },
+        {
+          "address": "0x2f06934AfC376f41d4CCFe1D000496107bCf6e21",
+          "chainId": 8453
+        },
+        {
+          "address": "0x491EDFB0B8b608044e227225C715981a30F3A44E",
+          "chainId": 8453
+        },
+        {
+          "address": "0x4e3e778bE779Cd55484A4A405f35C7d66b748e4e",
+          "chainId": 8453
+        },
+        {
+          "address": "0x59f7d7D34dB803961ce5882BbA168fD711292392",
+          "chainId": 8453
+        },
+        {
+          "address": "0x622E19d6903BD4507cfc70b31d5B99535114C0FC",
+          "chainId": 8453
+        },
+        {
+          "address": "0x639bfA26472906Ccd40513408284a8aD292bC5D6",
+          "chainId": 8453
+        },
+        {
+          "address": "0x74E9c67ddB0Ef85D6EcC8dD03A3Cf8Ed1e0c827B",
+          "chainId": 8453
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 8453
+        },
+        {
+          "address": "0xC8661595aD2bA61B3223e053EE20F3cAb2468659",
+          "chainId": 8453
+        },
+        {
+          "address": "0xDE40458958799E8b955cc3cDDfe551a6E72DBF63",
+          "chainId": 8453
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 42161
+        },
+        {
+          "address": "0x218fD0dfdeBB594b00bB7380843125Cc012E572a",
+          "chainId": 42161
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 42161
+        },
+        {
+          "address": "0xca9f621aAFD28d0F2decFb69Db0d9e6393A9f5ee",
+          "chainId": 42161
+        },
+        {
+          "address": "0xdb580693b031f50dEbE541371Db92490f33463b2",
+          "chainId": 42161
+        },
+        {
+          "address": "0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD",
+          "chainId": 747474
+        },
+        {
+          "address": "0x827e86072B06674a077f592A531dcE4590aDeCdB",
+          "chainId": 747474
+        },
+        {
+          "address": "0xcd849A2D15BAa0B3A85C455d527018A9a5671017",
+          "chainId": 747474
+        },
+        {
+          "address": "0xe6FC2a011153DD5a230725a9F0c89a9c81aB4887",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "steakhouse-financial",
+      "name": "Steakhouse Financial",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://www.steakhouse.financial"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/SteakhouseFi"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x259c444b50e3Ab173c4f850BB40d85A9EA0230F3",
+          "chainId": 1
+        },
+        {
+          "address": "0xAC15982Ca8A8e8BAc738FE492b84D8761B4384a3",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "swissborg",
+      "name": "Swissborg",
+      "ownerOnly": true,
+      "socials": [],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x0324Cd101Ecd78F0667A25668Ef05842c9136Eff",
+          "chainId": 1
+        },
+        {
+          "address": "0xAd4393979Cbb7Dc7BE20a90d2276Ab0af15b9467",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "touchstone",
+      "name": "Touchstone",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://xaue.com/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/Xaue_Protocol"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a",
+          "chainId": 1
+        },
+        {
+          "address": "0xCC217D03d9Ad82C80101B9F0579Fd5A0b141EDcc",
+          "chainId": 1
+        },
+        {
+          "address": "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a",
+          "chainId": 10
+        },
+        {
+          "address": "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a",
+          "chainId": 143
+        },
+        {
+          "address": "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a",
+          "chainId": 8453
+        },
+        {
+          "address": "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "ultrayield",
+      "name": "UltraYield",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://ultrayield.app/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/ultrayieldapp"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x75B3C335B85C931B1eE7BEeB3c0e40429F002373",
+          "chainId": 1
+        },
+        {
+          "address": "0xE776512dE9912E8A7AbD4bFD1E48746C59f59fF4",
+          "chainId": 1
+        },
+        {
+          "address": "0x75B3C335B85C931B1eE7BEeB3c0e40429F002373",
+          "chainId": 137
+        },
+        {
+          "address": "0xE776512dE9912E8A7AbD4bFD1E48746C59f59fF4",
+          "chainId": 137
+        },
+        {
+          "address": "0x75B3C335B85C931B1eE7BEeB3c0e40429F002373",
+          "chainId": 143
+        },
+        {
+          "address": "0xE776512dE9912E8A7AbD4bFD1E48746C59f59fF4",
+          "chainId": 143
+        },
+        {
+          "address": "0x01Ac3e5759bf459D2A98bC91a700E2C2a2A25466",
+          "chainId": 8453
+        },
+        {
+          "address": "0xF5B0Df8A864a915C6143641b5DA80c04218937B0",
+          "chainId": 8453
+        },
+        {
+          "address": "0x75B3C335B85C931B1eE7BEeB3c0e40429F002373",
+          "chainId": 42161
+        },
+        {
+          "address": "0xE776512dE9912E8A7AbD4bFD1E48746C59f59fF4",
+          "chainId": 42161
+        }
+      ],
+      "description": null,
+      "id": "unified-labs",
+      "name": "Unified Labs",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://unifiedlabs.io/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/unifiedlabs_"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x1a9C8182C09F50C8318d769245beA52c32BE35BC",
+          "chainId": 1
+        }
+      ],
+      "description": null,
+      "id": "uniswap-dao",
+      "name": "Uniswap DAO",
+      "ownerOnly": true,
+      "socials": [],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x9FD682F8a12A7829b91eAB9D83eCeB7146ba303C",
+          "chainId": 143
+        },
+        {
+          "address": "0xbBacDCFB9691DFA1066aB29edfcc4A73f6DEf918",
+          "chainId": 143
+        }
+      ],
+      "description": null,
+      "id": "y10k-capital",
+      "name": "Y10k Capital",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://y10k.capital"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/y10kcapital"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "addresses": [
+        {
+          "address": "0x90D0f26025571295D18a6c041E47450B81886B51",
+          "chainId": 1
+        },
+        {
+          "address": "0xe5e2Baf96198c56380dDD5E992D7d1ADa0e989c0",
+          "chainId": 1
+        },
+        {
+          "address": "0x518C21DC88D9780c0A1Be566433c571461A70149",
+          "chainId": 4663
+        },
+        {
+          "address": "0x90D0f26025571295D18a6c041E47450B81886B51",
+          "chainId": 4663
+        },
+        {
+          "address": "0x90D0f26025571295D18a6c041E47450B81886B51",
+          "chainId": 8453
+        },
+        {
+          "address": "0xFEaE2F855250c36A77b8C68dB07C4dD9711fE36F",
+          "chainId": 8453
+        },
+        {
+          "address": "0x90D0f26025571295D18a6c041E47450B81886B51",
+          "chainId": 42161
+        },
+        {
+          "address": "0xfd99a19Fcf577Be92fDAB4ef162c1644BB056885",
+          "chainId": 42161
+        },
+        {
+          "address": "0x518C21DC88D9780c0A1Be566433c571461A70149",
+          "chainId": 747474
+        },
+        {
+          "address": "0x90D0f26025571295D18a6c041E47450B81886B51",
+          "chainId": 747474
+        }
+      ],
+      "description": null,
+      "id": "yearn",
+      "name": "Yearn",
+      "ownerOnly": false,
+      "socials": [
+        {
+          "type": "url",
+          "url": "https://yearn.fi/apps"
+        },
+        {
+          "type": "twitter",
+          "url": "https://x.com/yearnfi"
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "retrieved_at": "2026-10-08T17:25:59+00:00"
+}

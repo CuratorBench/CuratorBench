@@ -1,0 +1,9 @@
+{
+ "chain": "Avalanche",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "94e3f442-ab03-4138-a7a8-910bac548058",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/94e3f442-ab03-4138-a7a8-910bac548058",
+ "symbol": "BTC.B",
+ "written_utc": "2026-10-25T19:58:38Z"
+}

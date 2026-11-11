@@ -1,0 +1,8 @@
+{
+  "generator": "code/analysis/curators.py",
+  "query": "{ curators(first: 1000) { items { id name verified\n ownerOnly description socials { type url } addresses { chainId address } } } }",
+  "retrieved_at": "2026-10-08T17:25:59+00:00",
+  "url": "https://api.morpho.org/graphql",
+  "what": "Morpho API curator registry: curator id, name, ownerOnly flag and the addresses Morpho attributes to each curator per chain",
+  "written_utc": "2026-10-08T17:25:59+00:00"
+}

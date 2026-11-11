@@ -1,0 +1,19 @@
+{
+  "chain": "bsc",
+  "chain_id": 56,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "BscMainnet",
+    "listed_by_api": false,
+    "morpho": "0x01b0Bd309AA75547f7a37Ad7B1219A898E67a83a",
+    "vault_v1_factories": [
+      "0x92983687e672cA6d96530f9Dbe11a196cE905d72"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 90,
+  "scanned_to_block": 125213760,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:10+00:00"
+}

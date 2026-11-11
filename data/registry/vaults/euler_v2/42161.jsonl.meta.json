@@ -1,0 +1,15 @@
+{
+  "chain": "arbitrum",
+  "chain_id": 42161,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0xB9B5d62B9fE9E1B505466e75817aB178A1D2ec9d",
+    "evault_factory": "0x78Df1CF5bf06a7f27f2ACc580B934238C1b80D50",
+    "evc": "0x6302ef0F34100CDDFb5489fbcB6eE1AA95CD1066"
+  },
+  "rows": 21,
+  "scanned_to_block": 510867052,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:44:17+00:00"
+}

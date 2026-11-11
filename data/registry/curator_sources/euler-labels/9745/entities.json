@@ -1,0 +1,106 @@
+{
+  "alphaping": {
+    "addresses": {
+      "0xEB4Af6fA3AFA08B10d593EC8fF87efB03BC04645": "Alphaping Multisig"
+    },
+    "description": "AlphaPing is a third-party curator using Euler infrastructure to configure vaults focused on USDT markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alphaping.svg",
+    "name": "AlphaPing",
+    "social": {
+      "twitter": "0xAlphaping"
+    },
+    "url": "https://alphaping.ch/"
+  },
+  "clearstar": {
+    "addresses": {
+      "0x30988479C2E6a03E7fB65138b94762D41a733458": "Curator Wallet (ForDeFi MPC)",
+      "0x72882eb5D27C7088DFA6DDE941DD42e5d184F0ef": "Curator Wallet 2 (ForDeFi MPC)"
+    },
+    "description": "Clearstar is a third-party curator using Euler infrastructure to configure vaults across selected decentralized markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "clearstar.svg",
+    "name": "Clearstar",
+    "social": {
+      "twitter": "ClearstarLabs"
+    },
+    "url": "https://www.clearstar.xyz/"
+  },
+  "edge-capital": {
+    "addresses": {
+      "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
+    },
+    "description": "Edge UltraYield is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "edge.png",
+    "name": "Edge UltraYield",
+    "social": {
+      "twitter": "EdgeCapitalMgmt"
+    },
+    "url": "https://edgecapital.xyz/"
+  },
+  "euler-dao": {
+    "addresses": {
+      "0x9b3CeB22Cab2F1b9Ace4CD3132C8a123552eDa2c": "Euler Vault Access Control Governor",
+      "0xbe7623D35700700DdC7A92fEe1fe7B0E9E6f1013": "Euler Labs Multisig",
+      "0xfD30738fcB5eb5Ba418a84e672007912F991E539": "Euler DAO Multisig"
+    },
+    "description": "Euler DAO is responsible for the governance of the Euler protocol.",
+    "logo": "euler.svg",
+    "name": "Euler DAO",
+    "social": {
+      "discord": "https://discord.euler.finance/",
+      "github": "euler-xyz",
+      "telegram": "eulerfinance_official",
+      "twitter": "eulerfinance",
+      "youtube": "EulerFinance"
+    },
+    "url": "https://euler.finance/"
+  },
+  "hyperithm": {
+    "addresses": {
+      "0x75178137D3B4B9A0F771E0e149b00fB8167BA325": "Hyperithm MPC wallet",
+      "0xEe7E9bb21D5589BF657b94083dB2fA349a3918C8": "Hyperithm Multisig"
+    },
+    "description": "Hyperithm is a third-party curator using Euler infrastructure to configure markets involving selected collateral assets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "hyperithm.png",
+    "name": "Hyperithm",
+    "social": {
+      "twitter": "hyperithm"
+    },
+    "url": "https://www.hyperithm.com/"
+  },
+  "k3-capital": {
+    "addresses": {
+      "0x060DB084bF41872861f175d83f3cb1B5566dfEA3": "K3 Capital Multisig"
+    },
+    "description": "K3 Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "k3.svg",
+    "name": "K3 Capital",
+    "social": {
+      "twitter": "k3_capital"
+    },
+    "url": "https://k3.capital/"
+  },
+  "re7-labs": {
+    "addresses": {
+      "0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Euler Multisig"
+    },
+    "description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "re7labs.png",
+    "name": "Re7 Labs",
+    "social": {
+      "twitter": "Re7Labs"
+    },
+    "url": "https://www.re7labs.xyz/"
+  },
+  "telosc": {
+    "addresses": {
+      "0x7d07BFdd01422D7b655B333157eB551B9712dCd8": "TelosC Multisig"
+    },
+    "description": "TelosC is a third-party curator using Euler infrastructure to configure markets and incentive-related DeFi strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "telosc.svg",
+    "name": "TelosC",
+    "social": {
+      "twitter": "TelosConsilium"
+    },
+    "url": "https://telosc.com/"
+  }
+}

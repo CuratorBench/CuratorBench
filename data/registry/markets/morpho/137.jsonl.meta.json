@@ -1,0 +1,21 @@
+{
+  "chain": "polygon",
+  "chain_id": 137,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Polygon",
+    "listed_by_api": true,
+    "morpho": "0x1bF0c2541F820E775182832f06c0B7Fc27A25f67",
+    "vault_v1_factories": [
+      "0xa9c87daB340631C34BB738625C70499e29ddDC98"
+    ],
+    "vault_v2_factories": [
+      "0xC11a53eE9B1eCc7a068D8e40F8F17926584F97Cf"
+    ]
+  },
+  "rows": 660,
+  "scanned_to_block": 94802367,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:16+00:00"
+}

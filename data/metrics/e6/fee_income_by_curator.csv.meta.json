@@ -1,0 +1,50 @@
+{
+  "columns": [
+    "entity",
+    "name",
+    "fee_usd_curator",
+    "fee_usd_total",
+    "vaults",
+    "fee_usd_euler_v2_earn",
+    "fee_usd_euler_v2_lending",
+    "fee_usd_moolah",
+    "fee_usd_morpho",
+    "fee_usd_silo_v2"
+  ],
+  "curator_share": "V1, V2 (performance and management), Moolah, Silo, Euler Earn feeShares go to curator-set recipients; AmpleEarn protocolFeeShares go to the protocol; Euler lending governor receives 1 - protocolFeeShare() (read at the E3 head block) when a fee receiver is set, else nothing",
+  "dRPC_calls": 6,
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "e2_events": {
+      "path": "data/events/events.jsonl",
+      "sha256": "2e6518705e565fb5e25b2fa37ef3008bc0bdae4bdb8f72dc67af3a605fdde99b",
+      "written_utc": "2026-10-18T22:33:27+00:00"
+    },
+    "e3_lending_daily": {
+      "path": "data/aum/lending_daily.csv",
+      "sha256": "8d3d0b432c92644773a5af5ed7f566769751225e277cb82e65ba7eebd517ffe9",
+      "written_utc": "2026-10-18T05:05:34+00:00"
+    },
+    "e3_vault_daily": {
+      "path": "data/aum/vault_daily.csv",
+      "sha256": "64cd4555444094c7bd2666080c43aa0caee3e3b5f720804cd9c5f37217610c17",
+      "written_utc": "2026-10-18T05:05:33+00:00"
+    },
+    "fee_history": {
+      "path": "data/metrics/e6/fee_history.csv",
+      "sha256": "4a4bef6bef426019f9b1f9ddc2f243c02e3e913bb679a5326d691b39fc4e4cb5",
+      "written_utc": "2026-10-18T22:58:01+00:00"
+    },
+    "vault_curators": {
+      "path": "data/registry/vault_curators.jsonl",
+      "sha256": "90f1547a230dbe25dc3215484a5e0a5f7dbdbee90de1559d5d93da2113b38f1c",
+      "written_utc": "2026-10-09T17:40:58+00:00"
+    }
+  },
+  "phantom": "accruals on E3 guard days or on event days whose share price grew more than 0.03 per day since the vault's previous event day compound on unrecoverable debt; their fee shares are reported as fee_usd_curator_phantom and left out of the income columns",
+  "rows": 68,
+  "unattributed_fee_usd_curator": 456753.1946798979,
+  "valuation": "fee shares x newTotalAssets / (supply before the accrual + all shares minted in it); supply replayed from flows/ deposit and withdraw shares and fees.csv fee shares; USD at the vault's E3 price of that UTC day (peg family or own price) over 10^decimals. Euler lending: accumulatedFees increments x (cash + totalBorrows + 1e6) / (totalShares + 1e6).",
+  "what": "whole-period fee income per curator entity (the entity holding the vault at each accrual block), split by protocol group",
+  "written_utc": "2026-10-18T23:00:45+00:00"
+}

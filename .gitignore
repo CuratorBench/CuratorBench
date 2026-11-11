@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+rebuilt/
+code/.env
+data/aum/vault_daily.csv
+data/metrics/e4/vault_daily.csv
+data/metrics/e4_depeg_only/vault_daily.csv
+data/vaults/
+data/panel_ext/

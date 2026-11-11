@@ -1,0 +1,9 @@
+{
+ "chain": "Linea",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "310f13c2-508a-4db1-bb6d-012b711d8887",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/310f13c2-508a-4db1-bb6d-012b711d8887",
+ "symbol": "WEETH",
+ "written_utc": "2026-10-25T19:58:26Z"
+}

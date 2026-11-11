@@ -1,0 +1,325 @@
+{
+  "1": {
+    "defillama": "ethereum",
+    "drpc": "ethereum",
+    "hypersync": "eth",
+    "name": "eth"
+  },
+  "10": {
+    "defillama": "optimism",
+    "drpc": "optimism",
+    "hypersync": "optimism",
+    "name": "optimism"
+  },
+  "100": {
+    "drpc": "gnosis",
+    "hypersync": "gnosis",
+    "name": "gnosis"
+  },
+  "1088": {
+    "drpc": "metis",
+    "hypersync": null,
+    "name": "metis"
+  },
+  "1135": {
+    "defillama": "lisk",
+    "drpc": "lisk",
+    "hypersync": "lisk",
+    "name": "lisk"
+  },
+  "123420001114": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "camp"
+  },
+  "130": {
+    "defillama": "unichain",
+    "drpc": "unichain",
+    "hypersync": "unichain",
+    "name": "unichain"
+  },
+  "1329": {
+    "defillama": "sei",
+    "drpc": "sei",
+    "hypersync": "sei",
+    "name": "sei"
+  },
+  "137": {
+    "defillama": "polygon",
+    "drpc": "polygon",
+    "hypersync": "polygon",
+    "name": "polygon"
+  },
+  "14": {
+    "defillama": "flare",
+    "drpc": "flare",
+    "hypersync": "flare",
+    "name": "flare"
+  },
+  "143": {
+    "defillama": "monad",
+    "drpc": "monad",
+    "hypersync": "monad",
+    "name": "monad"
+  },
+  "146": {
+    "defillama": "sonic",
+    "drpc": "sonic",
+    "hypersync": "sonic",
+    "name": "sonic"
+  },
+  "16661": {
+    "drpc": "0g",
+    "hypersync": null,
+    "name": "zerog"
+  },
+  "1666600000": {
+    "drpc": "harmony-0",
+    "hypersync": "harmony-shard-0",
+    "name": "harmony"
+  },
+  "1672": {
+    "drpc": "pharos",
+    "hypersync": null,
+    "name": "pharos"
+  },
+  "1776": {
+    "defillama": "injective",
+    "drpc": null,
+    "hypersync": "injective",
+    "name": "injective",
+    "rpc_url": "https://sentry.evm-rpc.injective.network"
+  },
+  "1868": {
+    "defillama": "soneium",
+    "drpc": "soneium",
+    "hypersync": "soneium",
+    "name": "soneium"
+  },
+  "196": {
+    "drpc": "xlayer",
+    "hypersync": null,
+    "name": "okx"
+  },
+  "200901": {
+    "drpc": "bitlayer",
+    "hypersync": null,
+    "name": "bitlayer"
+  },
+  "2020": {
+    "drpc": "ronin",
+    "hypersync": null,
+    "name": "ronin"
+  },
+  "21000000": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "corn"
+  },
+  "239": {
+    "drpc": "tac",
+    "hypersync": null,
+    "name": "tac"
+  },
+  "25": {
+    "drpc": "cronos",
+    "hypersync": null,
+    "name": "cronos"
+  },
+  "250": {
+    "drpc": "fantom",
+    "hypersync": "fantom",
+    "name": "fantom"
+  },
+  "252": {
+    "defillama": "fraxtal",
+    "drpc": "fraxtal",
+    "hypersync": "fraxtal",
+    "name": "fraxtal"
+  },
+  "2741": {
+    "defillama": "abstract",
+    "drpc": "abstract",
+    "hypersync": "abstract",
+    "name": "abstract"
+  },
+  "2818": {
+    "defillama": "morph",
+    "drpc": "morph",
+    "hypersync": "morph",
+    "name": "morph"
+  },
+  "324": {
+    "drpc": "zksync",
+    "hypersync": "zksync",
+    "name": "zksync"
+  },
+  "34443": {
+    "defillama": "mode",
+    "drpc": "mode",
+    "hypersync": "mode",
+    "name": "mode"
+  },
+  "42161": {
+    "defillama": "arbitrum",
+    "drpc": "arbitrum",
+    "hypersync": "arbitrum",
+    "name": "arbitrum"
+  },
+  "4217": {
+    "defillama": "tempo",
+    "drpc": "tempo",
+    "hypersync": "tempo",
+    "name": "tempo"
+  },
+  "42220": {
+    "defillama": "celo",
+    "drpc": "celo",
+    "hypersync": "celo",
+    "name": "celo"
+  },
+  "42793": {
+    "defillama": "etherlink",
+    "drpc": "etherlink",
+    "hypersync": "etherlink",
+    "name": "etherlink"
+  },
+  "43111": {
+    "drpc": "hemi",
+    "hypersync": null,
+    "name": "hemi"
+  },
+  "43114": {
+    "defillama": "avax",
+    "drpc": "avalanche",
+    "hypersync": "avalanche",
+    "name": "avalanche"
+  },
+  "4326": {
+    "defillama": "megaeth",
+    "drpc": "megaeth",
+    "hypersync": "megaeth",
+    "name": "megaeth"
+  },
+  "4663": {
+    "defillama": "robinhood",
+    "drpc": "robinhood",
+    "hypersync": "robinhood",
+    "name": "robinhood"
+  },
+  "480": {
+    "defillama": "wc",
+    "drpc": "worldchain",
+    "hypersync": "worldchain",
+    "name": "worldchain"
+  },
+  "50": {
+    "drpc": "xdc",
+    "hypersync": null,
+    "name": "xdc"
+  },
+  "5000": {
+    "defillama": "mantle",
+    "drpc": "mantle",
+    "hypersync": "mantle",
+    "name": "mantle"
+  },
+  "5031": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "somnia",
+    "rpc_url": "https://api.infra.mainnet.somnia.network"
+  },
+  "5042": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "arc"
+  },
+  "534352": {
+    "defillama": "scroll",
+    "drpc": "scroll",
+    "hypersync": "scroll",
+    "name": "scroll"
+  },
+  "56": {
+    "defillama": "bsc",
+    "drpc": "bsc",
+    "hypersync": "bsc",
+    "name": "bsc"
+  },
+  "57073": {
+    "defillama": "ink",
+    "drpc": "ink",
+    "hypersync": "ink",
+    "name": "ink"
+  },
+  "59144": {
+    "defillama": "linea",
+    "drpc": "linea",
+    "hypersync": "linea",
+    "name": "linea"
+  },
+  "60808": {
+    "drpc": "bob",
+    "hypersync": null,
+    "name": "60808"
+  },
+  "685689": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "gensyn",
+    "rpc_url": "https://gensyn-mainnet.g.alchemy.com/public"
+  },
+  "714": {
+    "drpc": null,
+    "hypersync": null,
+    "name": "eden",
+    "rpc_url": "https://rpc.eden.gateway.fm"
+  },
+  "747474": {
+    "defillama": "katana",
+    "drpc": "katana",
+    "hypersync": "katana",
+    "name": "katana"
+  },
+  "80094": {
+    "defillama": "berachain",
+    "drpc": "berachain",
+    "hypersync": "berachain",
+    "name": "berachain"
+  },
+  "8217": {
+    "drpc": "kaia",
+    "hypersync": null,
+    "name": "kaia"
+  },
+  "8453": {
+    "defillama": "base",
+    "drpc": "base",
+    "hypersync": "base",
+    "name": "base"
+  },
+  "9745": {
+    "defillama": "plasma",
+    "drpc": "plasma",
+    "hypersync": "plasma",
+    "name": "plasma"
+  },
+  "988": {
+    "drpc": "stable",
+    "hypersync": null,
+    "name": "stable"
+  },
+  "98866": {
+    "defillama": "plume_mainnet",
+    "drpc": "plume",
+    "hypersync": "plume",
+    "name": "plume"
+  },
+  "999": {
+    "defillama": "hyperliquid",
+    "drpc": "hyperliquid",
+    "hypersync": "hyperliquid",
+    "name": "hyperliquid"
+  }
+}

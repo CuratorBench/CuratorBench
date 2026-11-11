@@ -1,0 +1,29 @@
+{
+  "columns": {
+    "affected_supply_usd": "supply at t0 in USD; an Euler lending vault weighted by the share of its debt backed by the event's family",
+    "collateral": "collateral family label",
+    "date": "UTC day of t0: for a depeg-loss event the onset of the episode after which the collateral did not recover, for a lock-up the first trigger",
+    "episodes": "episodes merged into the event",
+    "exposed_curators": "distinct curator entities of those vaults (blank: no curator registry)",
+    "exposed_vaults": "curated vaults with >= 10k USD in the markets at t0",
+    "exposure_third_party_peak_date": "day of that peak",
+    "exposure_third_party_usd": "positions at t0 of curated vaults whose curator is not the collateral's issuer and that are not self-deposited, each market weighted by the share of its debt backed by the family (Euler lending vaults net of the Earn vaults that supply them)",
+    "exposure_third_party_usd_peak_after_t0": "peak over day ends from t0's day to the event end of the daily sum of the same positions, guarded against phantom accrual",
+    "first_trigger": "UTC day of the earliest trigger of any hit (first_trigger_any); earlier than date only for depeg-loss events with a lock-up episode before the loss",
+    "main_text_rank": "rank among events that are not self-curated (first 15)",
+    "markets": "affected markets",
+    "min_market_price": "minimum collateral price in peg units",
+    "self_curated": "every vault exposed to the family is curated by its issuer"
+  },
+  "excluded_events": [
+    {
+      "description": "RSS (elephanToken), Morpho Base, market 0x41c0\u20267d88, 2026-08-20: flash-loan-funded self-loop; depositor, borrower, market creator, oracle deployer and collateral holder are one controller; no third-party funds; excluded.",
+      "event_id": "E2-068",
+      "reason": "self_dealing_loop"
+    }
+  ],
+  "generator": "code/analysis/e2_events.py",
+  "rows": 68,
+  "what": "Table 3, every event (appendix), sorted by the larger of third-party curated exposure at t0 and its peak after t0",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "chain": "ink",
+  "chain_id": 57073,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "ink",
+    "silo_factory": "0xD13921239e3832FDC4141FDE544D3D058B529A5D",
+    "silo_vaults_factory": "0xf279eeC12a1936b0786A4ce51e71E77132A04ef3"
+  },
+  "rows": 5,
+  "scanned_to_block": 57414315,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:45:26+00:00"
+}

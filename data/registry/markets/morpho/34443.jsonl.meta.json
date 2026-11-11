@@ -1,0 +1,19 @@
+{
+  "chain": "mode",
+  "chain_id": 34443,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "ModeMainnet",
+    "listed_by_api": false,
+    "morpho": "0xd85cE6BD68487E0AaFb0858FDE1Cd18c76840564",
+    "vault_v1_factories": [
+      "0xae5b0884bfff430493D6C844B9fd052Af7d79278"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 1,
+  "scanned_to_block": 45370884,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:49:12+00:00"
+}

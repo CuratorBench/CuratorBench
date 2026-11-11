@@ -1,0 +1,21 @@
+{
+  "chain": "unichain",
+  "chain_id": 130,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Unichain",
+    "listed_by_api": true,
+    "morpho": "0x8f5ae9CddB9f68de460C77730b018Ae7E04a140A",
+    "vault_v1_factories": [
+      "0xe9EdE3929F43a7062a007C3e8652e4ACa610Bdc0"
+    ],
+    "vault_v2_factories": [
+      "0xC9b34c108014B44e5a189A830e7e04c56704a0c9"
+    ]
+  },
+  "rows": 53,
+  "scanned_to_block": 60160331,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:10+00:00"
+}

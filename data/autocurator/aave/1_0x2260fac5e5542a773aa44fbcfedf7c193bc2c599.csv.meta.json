@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "7e382157-b1bc-406d-b17b-facba43b716e",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/7e382157-b1bc-406d-b17b-facba43b716e",
+ "symbol": "WBTC",
+ "written_utc": "2026-10-25T20:02:24Z"
+}

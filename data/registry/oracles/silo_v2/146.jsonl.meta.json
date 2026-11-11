@@ -1,0 +1,25 @@
+{
+  "chain_id": 146,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "silo_v2",
+  "routescan_calls": 0,
+  "rows": 244,
+  "rpc_calls": 601,
+  "runtime_seconds": 61.481,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace silo_v2:146",
+      "rows_reclassified": 61,
+      "rpc_calls": 241,
+      "runtime_seconds": 24.299
+    },
+    {
+      "command": "code/data/oracles.py --retrace silo_v2:146 --historical --reverting",
+      "rows_reclassified": 14,
+      "rpc_calls": 63,
+      "runtime_seconds": 6.071
+    }
+  ],
+  "written_utc": "2026-10-16T01:18:11+00:00"
+}

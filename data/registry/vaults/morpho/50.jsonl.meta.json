@@ -1,0 +1,17 @@
+{
+  "chain": "xdc",
+  "chain_id": 50,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "XdcMainnet",
+    "listed_by_api": false,
+    "morpho": "0xEa49B0fE898aF913A3826F9f462eE2cDcb854fD9",
+    "vault_v1_factories": [],
+    "vault_v2_factories": []
+  },
+  "rows": 11,
+  "scanned_to_block": 107900598,
+  "source": "rpc",
+  "written_utc": "2026-10-02T02:43:36+00:00"
+}

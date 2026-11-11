@@ -1,0 +1,10 @@
+{
+  "generator": "code/analysis/curators.py",
+  "retrieved_at": "2026-10-08T17:28:11+00:00",
+  "url": [
+    "https://app.silo.finance/api/earn-vaults",
+    "https://app.silo.finance/api/lending-vault"
+  ],
+  "what": "Silo earn-vaults list and lending-vault records; vaultManagerInfo names the vault's manager (curator)",
+  "written_utc": "2026-10-08T17:30:01+00:00"
+}

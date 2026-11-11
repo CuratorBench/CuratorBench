@@ -1,0 +1,73 @@
+{
+  "built_utc": "2026-10-05T00:10:41+00:00",
+  "chain_id": 8453,
+  "confidence_semantics": "Per-point confidence if present, otherwise token-level chart confidence",
+  "csv_sha256": "4eca9e473523e7d2d605d39f864879309b1483729dacb6f0acd5edf34afb4f11",
+  "date_semantics": "UTC day, nearest quote to 23:59:59 within 12h",
+  "generator": "code/data/prices.py",
+  "generator_sha256": "f2262f6548b2354f9482b18609c30d47c596f704a06ce71b2dbcb9963f87b3c3",
+  "inputs": [
+    {
+      "path": "data/registry/markets/morpho/1.jsonl",
+      "sha256": "fc6066a038e4091724280d06b636f97641d5ac8fa061d7559a6f084eb8393dfd"
+    },
+    {
+      "path": "data/registry/markets/morpho/8453.jsonl",
+      "sha256": "4b310103fa3000d1a084f2adf8f47fde362d9e8fb360db5ff453ccf4bb5fab41"
+    },
+    {
+      "path": "data/registry/markets/moolah/56.jsonl",
+      "sha256": "a5f99c5cfba07fc61155b67c06d6e662459acba18a9404769120414a3d5c4fd0"
+    },
+    {
+      "path": "data/registry/markets/euler_v2/1.jsonl",
+      "sha256": "aa5ab511986341d2c27598edbc50bcc0fd3e7f1383a03ce0bf46ac1b2a182e45"
+    },
+    {
+      "path": "data/registry/markets/euler_v2/9745.jsonl",
+      "sha256": "917fd3f2745d8c2a1fc138eac61fba7255da1e0fa9d1618605dd04ad1df6e814"
+    },
+    {
+      "path": "data/registry/markets/silo_v2/1.jsonl",
+      "sha256": "35dd1e99bc7fd52cefe80c8931422a17f796ae543ec43e2d71ea614f1b36a37d"
+    },
+    {
+      "path": "data/panel/silo_v2/1/configs.jsonl",
+      "sha256": "4113484911cb7667a85a9eec3a31ba73f1f8a1c4f8b84f205a08085ed7b237a4"
+    },
+    {
+      "path": "data/registry/markets/silo_v2/42161.jsonl",
+      "sha256": "88b4a12bc540ccd0b7cd507aa8ae83388171ac5c36f43fa43379c7a85d4c3f79"
+    },
+    {
+      "path": "data/panel/silo_v2/42161/configs.jsonl",
+      "sha256": "4076d03275dd931c1acbd76677102915448d44f7dcf2b1d7a4ab2117fa2d5994"
+    },
+    {
+      "path": "data/registry/markets/silo_v2/43114.jsonl",
+      "sha256": "fef196bee5468d1d0c3c308a665b5e796615ad3fa4c8f0a25f1206054f982b7e"
+    },
+    {
+      "path": "data/panel/silo_v2/43114/configs.jsonl",
+      "sha256": "f279c0cf7b5467a3dce65e6b4215035f6095cdacc1334a742532692c1ad891cc"
+    },
+    {
+      "path": "data/registry/markets/silo_v2/146.jsonl",
+      "sha256": "ac994074463699f945fc063ee19235ddd28b729ff748c65bc7d736770150c26b"
+    },
+    {
+      "path": "data/panel/silo_v2/146/configs.jsonl",
+      "sha256": "4d617b15f4d6c0ca8b3c70c8096e94f6d5c3113969b5883655ecce994fafb233"
+    }
+  ],
+  "missing_price": "blank; no fill, interpolation or assumed peg",
+  "priced_rows": 59295,
+  "rows": 764129,
+  "source": "https://coins.llama.fi/chart/{chain}:{address}",
+  "time_range": {
+    "end": "2026-10-04",
+    "start": "2024-01-01"
+  },
+  "what": "Daily token market prices in USD",
+  "written_utc": "2026-10-05T00:10:41+00:00"
+}

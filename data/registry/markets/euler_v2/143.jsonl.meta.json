@@ -1,0 +1,15 @@
+{
+  "chain": "monad",
+  "chain_id": 143,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0xF463d4Acb650cc6C4E1D6cD4D0d1b0cb224094cF",
+    "evault_factory": "0xba4Dd672062dE8FeeDb665DD4410658864483f1E",
+    "evc": "0x7a9324E8f270413fa2E458f5831226d99C7477CD"
+  },
+  "rows": 573,
+  "scanned_to_block": 109779213,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:50:03+00:00"
+}

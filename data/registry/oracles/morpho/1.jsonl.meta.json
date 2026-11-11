@@ -1,0 +1,49 @@
+{
+  "chain_id": 1,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "manual_patch": {
+    "date": "2026-10-16",
+    "market_oracle": "0xc346ee27a56a9e95481d460cdc0ad49e752e3881 (CRNC collateral)",
+    "rows": 1,
+    "why": "the retrace rerun resolved this unverified UsdcToCrncOracle twin to no contract name, so the stored-input rule (now also keyed by skeleton fb7eaba3e2565f0c in TRACE_STORED_SKELETON) did not apply; the row is set to the verdict that rule gives, without a further RPC run"
+  },
+  "manual_patch_reverted": {
+    "date": "2026-10-16",
+    "market_ids": [
+      "0x4987abb1971947da9be3a47a58cb846a57b8a33bb3db1b0b2c6a3599c8b3a576"
+    ],
+    "rows": 1,
+    "why": "reverted to their pass-1 content: the rules added after their pass-2 run (Chainlink aggregators read directly are market feeds named by their proxy; a rate read on a contract with no symbol converts the current asset) would change them, and rerunning needed RPC beyond the pass budget; the next --retrace reclassifies them"
+  },
+  "protocol": "morpho",
+  "rows": 1802,
+  "rpc_calls": 124,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace morpho:1",
+      "rows_reclassified": 25,
+      "rpc_calls": 3,
+      "runtime_seconds": 0.343
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:1",
+      "rows_reclassified": 240,
+      "rpc_calls": 38,
+      "runtime_seconds": 7.223
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:1",
+      "rows_reclassified": 88,
+      "rpc_calls": 10,
+      "runtime_seconds": 2.905
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:1 --historical --reverting",
+      "rows_reclassified": 56,
+      "rpc_calls": 10,
+      "runtime_seconds": 2.034
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:50+00:00"
+}

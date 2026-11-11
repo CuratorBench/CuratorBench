@@ -1,0 +1,9 @@
+{
+ "chain": "Arbitrum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "e302de4d-952e-4e18-9749-0a9dc86e98bc",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/e302de4d-952e-4e18-9749-0a9dc86e98bc",
+ "symbol": "WETH",
+ "written_utc": "2026-10-25T19:58:38Z"
+}

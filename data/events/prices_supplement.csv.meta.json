@@ -1,0 +1,14 @@
+{
+  "date_semantics": "UTC day, nearest quote to 23:59:59 within 12 h (as data/prices/)",
+  "defillama_requests": 0,
+  "first_date": "2024-01-01",
+  "generator": "code/analysis/e2_events.py",
+  "last_date": "2026-10-08",
+  "request_sha256": "07ed9def34d4d89d5ad99b2f39a9f277a3b1e80dade7adc7ce239c9118bb7735",
+  "rows": 77905,
+  "source": "https://coins.llama.fi/chart/{chain}:{token}",
+  "tokens_quoted": 160,
+  "tokens_requested": 235,
+  "what": "DefiLlama daily USD closes for tokens of the E2 scan that data/prices/ does not cover (chains 4663, 747474, 999, 59144 and Morpho tokens on 42161, plus a few others)",
+  "written_utc": "2026-10-18T22:31:57+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "chain": "flare",
+  "chain_id": 14,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "FlareMainnet",
+    "listed_by_api": false,
+    "morpho": "0xF4346F5132e810f80a28487a79c7559d9797E8B0",
+    "vault_v1_factories": [],
+    "vault_v2_factories": []
+  },
+  "rows": 15,
+  "scanned_to_block": 71110843,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:04+00:00"
+}

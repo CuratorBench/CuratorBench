@@ -1,0 +1,56 @@
+{
+  "columns": [
+    "rank_by_aum",
+    "entity",
+    "name",
+    "aum_avg_usd",
+    "avg_fee_rate",
+    "fee_income_usd",
+    "fees_paid_by_depositors_usd",
+    "depositor_loss_usd",
+    "fee_income_over_loss",
+    "loss_events",
+    "events_present_at_t0",
+    "fee_income_affected_vaults_365d_before_usd",
+    "fee_income_affected_vaults_365d_before_sum_over_events_usd",
+    "aum_change_90d_after_segment_mean",
+    "aum_change_90d_after_total_mean",
+    "events_in_reputation_test"
+  ],
+  "columns_note": {
+    "aum_change_90d_after_segment_mean": "mean over the curator's exposed events of the relative change of its segment AUM (reputation_rows.csv)",
+    "avg_fee_rate": "net-USD-weighted mean over the curator's vault-days of the performance fee in force (Euler lending: interest fee)",
+    "depositor_loss_usd": "sum of loss_usd_counted over the curator's vaults that are not self-deposited (e5); Euler lending vaults net of the Earn vaults that supply them",
+    "fee_income_affected_vaults_365d_before_sum_over_events_usd": "the same summed event by event",
+    "fee_income_affected_vaults_365d_before_usd": "fee income of the curator's third-party vaults present at t0 over the union of the 365-day windows before its events (a vault-day counted once)",
+    "fee_income_usd": "fee_income_by_curator.csv fee_usd_curator (phantom accruals left out)",
+    "fees_paid_by_depositors_usd": "all fee shares minted in the curator's vaults, including the protocol's part (an Euler lending vault without a fee receiver sends the whole interest fee to the protocol)"
+  },
+  "generator": "code/analysis/e6_incentives.py",
+  "inputs": {
+    "fee_income_by_curator": {
+      "path": "data/metrics/e6/fee_income_by_curator.csv",
+      "sha256": "e44f98cd2723ced7c6d1d55d13e61cab254a1e047c87117a6111d9bc8a6caf4d",
+      "written_utc": "2026-10-18T23:00:45+00:00"
+    },
+    "fee_income_events": {
+      "path": "data/metrics/e6/fee_income_events.csv",
+      "sha256": "25fad71d0271b2e0e5ac13aa360e9b3593407206bc0cbef51a54de02576308a5",
+      "written_utc": "2026-10-18T23:00:46+00:00"
+    },
+    "losses": {
+      "path": "data/metrics/e5/event_vault.csv",
+      "sha256": "39495ad3ef778bfeb2cf3d13f6525c6b6d37f2a2f2354adc761ea8cae69717db",
+      "written_utc": "2026-10-18T22:50:49+00:00"
+    },
+    "reputation_rows": {
+      "path": "data/metrics/e6/reputation_rows.csv",
+      "sha256": "2877d405180c8778beff75bcf9bf6a0ab246e425b1e645a7ddb7bfe822302d72",
+      "written_utc": "2026-10-18T23:06:46+00:00"
+    }
+  },
+  "loss_source": "e5",
+  "rows": 76,
+  "what": "Table 5: fee income against depositor losses per curator, ranked by average daily net AUM 2024-01-01 to 2026-10-01 (E3, attributed vault-days)",
+  "written_utc": "2026-10-18T23:06:50+00:00"
+}

@@ -1,0 +1,9 @@
+{
+ "chain": "Avalanche",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "c4b05318-88af-4536-a834-f5fc8940d2d3",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/c4b05318-88af-4536-a834-f5fc8940d2d3",
+ "symbol": "USDC",
+ "written_utc": "2026-10-25T19:58:38Z"
+}

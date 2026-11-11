@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "f1a22245-a1f1-4389-8ff2-dde4914b272d",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/f1a22245-a1f1-4389-8ff2-dde4914b272d",
+ "symbol": "RETH",
+ "written_utc": "2026-10-25T19:58:24Z"
+}

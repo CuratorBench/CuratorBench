@@ -1,0 +1,71 @@
+{
+ "chain_id": 1,
+ "days_with_event": 694,
+ "events_by_type": {
+  "bad_debt": 8,
+  "idle_drop": 993,
+  "new_docs": 484,
+  "peg_off": 47,
+  "price_drop": 156,
+  "supply_move": 1883,
+  "top1_move": 390,
+  "util_move": 978,
+  "util_pin": 228
+ },
+ "first_day": "2024-08-20",
+ "generator": "code/autocurator/observe.py",
+ "group": "euler_v2_1_USDC_a0b869",
+ "inputs_absent": [
+  "data/panel_ext/public_allocator/euler_v2/1.csv"
+ ],
+ "inputs_present": [
+  "data/panel_ext/borrowers/euler_v2/1.csv",
+  "data/panel_ext/token_supply/1.csv"
+ ],
+ "last_day": "2026-10-01",
+ "loan_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+ "oracle_facts": "latest-block classification, not point in time: the Euler router can be reconfigured and the data hold no router configuration history",
+ "oracle_flags": [
+  [
+   "M025",
+   "0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd",
+   "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb"
+  ]
+ ],
+ "price_lag_days": 2,
+ "protocol": "euler_v2",
+ "records": 773,
+ "sha256": "892a1104bcb074d06398a53f0c463d1ae8a1f94db979c7b997a5d337966c0938",
+ "snapshot_columns": [
+  "supply_usd",
+  "borrow_usd",
+  "util",
+  "util_min30",
+  "days_pinned",
+  "idle_usd",
+  "borrow_apr",
+  "supply_apy",
+  "fee",
+  "debt_shares",
+  "top1_share",
+  "n_borrowers"
+ ],
+ "table_max": 21,
+ "table_median": 10,
+ "thresholds": {
+  "allocator_min_usd": 1.0,
+  "bad_debt_min_usd": 1.0,
+  "idle_drop": 0.3,
+  "market_min_usd": 10000.0,
+  "peg_off": 0.02,
+  "price_drop": 0.1,
+  "supply_move": 0.1,
+  "table_min_usd": 100000.0,
+  "top1_move": 0.1,
+  "util_min_days": 30,
+  "util_move": 0.1,
+  "util_pin": 0.99
+ },
+ "universe": 39,
+ "written_utc": "2026-10-24T13:02:21Z"
+}

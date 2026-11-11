@@ -1,0 +1,35 @@
+{
+  "chain_id": 56,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "manual_patch_reverted": {
+    "date": "2026-10-16",
+    "market_ids": [
+      "0x2a89ccbb362848532f189cf2b51e794a16db53d2a06ec863827cf2eea48c2da4",
+      "0xed20ae46f7f909622225cdf9f301854bd46d74f639ab07bba723e5431ab27653",
+      "0x4f9f51fb2cedc44d94fadafb0ebf56ce429a66e72a1d3a80e8903c7bfe09a233",
+      "0xd973dcab7fdd6d27d8c7387423814b56dba95ade38a0048961702a524ebf3f8f",
+      "0x9319da23231d59ad29394c0392cb8109d0ddd7ac57ba6d83dfe4ab060f5dc4cf"
+    ],
+    "rows": 5,
+    "why": "reverted to their pass-1 content: the rules added after their pass-2 run (Chainlink aggregators read directly are market feeds named by their proxy; a rate read on a contract with no symbol converts the current asset) would change them, and rerunning needed RPC beyond the pass budget; the next --retrace reclassifies them"
+  },
+  "protocol": "moolah",
+  "rows": 532,
+  "rpc_calls": 47,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace moolah:56",
+      "rows_reclassified": 56,
+      "rpc_calls": 104,
+      "runtime_seconds": 11.583
+    },
+    {
+      "command": "code/data/oracles.py --retrace moolah:56 --historical --reverting",
+      "rows_reclassified": 1,
+      "rpc_calls": 6,
+      "runtime_seconds": 0.606
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:55+00:00"
+}

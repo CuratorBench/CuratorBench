@@ -1,0 +1,6 @@
+{
+  "data": "fig6_data.csv",
+  "generator": "code/analysis/e6_incentives.py",
+  "what": "Fig 6, fees and performance; y values clipped to the 2nd and 98th percentiles of each panel; colours by collateral class; grey lines join a curator's vaults",
+  "written_utc": "2026-10-18T23:06:51+00:00"
+}

@@ -1,0 +1,14 @@
+{
+ "advertised_supply_apr": 0.14,
+ "check_backsolved_apr": 0.14,
+ "rate_at_target_apr": 0.095108695621344,
+ "u_before": 0.92,
+ "u_after_inject": 0.63448,
+ "impact_supply_apr": 0.04699,
+ "a1_30d_avg_apr": 0.02728,
+ "a1_30d_end_apr": 0.01433,
+ "a2_ceiling_apr": 0.14,
+ "bias_pp_impact": 9.3,
+ "bias_ratio_impact": 2.98,
+ "bias_ratio_30d": 5.13
+}

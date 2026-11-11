@@ -1,0 +1,15 @@
+{
+  "chain": "unichain",
+  "chain_id": 130,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0xD785adD5F081F56616898E45b90dE307e3DC7d3E",
+    "evault_factory": "0xbAd8b5BDFB2bcbcd78Cc9f1573D3Aad6E865e752",
+    "evc": "0x2A1176964F5D7caE5406B627Bf6166664FE83c60"
+  },
+  "rows": 308,
+  "scanned_to_block": 60160996,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:50:02+00:00"
+}

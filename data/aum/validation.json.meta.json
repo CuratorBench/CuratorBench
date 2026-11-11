@@ -1,0 +1,6 @@
+{
+  "generator": "code/analysis/e3_aum.py",
+  "rpc_calls": 3317,
+  "what": "E3 AUM validation: monthly file, archive totalAssets, wrapper nesting",
+  "written_utc": "2026-10-18T05:14:13+00:00"
+}

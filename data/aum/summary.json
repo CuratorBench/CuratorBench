@@ -1,0 +1,2015 @@
+{
+  "curators": {
+    "coverage": {
+      "latest": {
+        "date": "2026-10-02",
+        "net_usd": 7009391996,
+        "share_by_confidence": {
+          "cluster": 0.005832501812280972,
+          "hand": 0.013295242742286058,
+          "name_only": 0.00672042213238736,
+          "official": 0.9666174542064606,
+          "unattributed": 0.007534379106585043
+        }
+      },
+      "peak": {
+        "date": "2025-10-06",
+        "net_usd": 8211093136,
+        "share_by_confidence": {
+          "cluster": 0.02410537564235406,
+          "hand": 0.02895410641461188,
+          "name_only": 0.00018235133050729108,
+          "official": 0.9426473249870462,
+          "unattributed": 0.0041108416254805645
+        }
+      }
+    },
+    "entities": 76,
+    "top_by_peak": [
+      {
+        "entity": "steakhouse-financial",
+        "latest_usd": 2429767185,
+        "peak_date": "2026-09-26",
+        "peak_usd": 2430328168
+      },
+      {
+        "entity": "gauntlet",
+        "latest_usd": 946006807,
+        "peak_date": "2025-10-29",
+        "peak_usd": 1868625576
+      },
+      {
+        "entity": "sparkdao",
+        "latest_usd": 690856044,
+        "peak_date": "2025-09-17",
+        "peak_usd": 1563604508
+      },
+      {
+        "entity": "sentora",
+        "latest_usd": 1125254623,
+        "peak_date": "2026-04-16",
+        "peak_usd": 1493508110
+      },
+      {
+        "entity": "euler-dao",
+        "latest_usd": 4674533,
+        "peak_date": "2025-09-22",
+        "peak_usd": 1031071781
+      },
+      {
+        "entity": "lista-dao",
+        "latest_usd": 629328113,
+        "peak_date": "2026-03-05",
+        "peak_usd": 845731276
+      },
+      {
+        "entity": "mev-capital",
+        "latest_usd": 41464715,
+        "peak_date": "2025-01-10",
+        "peak_usd": 679695602
+      },
+      {
+        "entity": "usual",
+        "latest_usd": 17378619,
+        "peak_date": "2026-01-11",
+        "peak_usd": 426373159
+      },
+      {
+        "entity": "re7-labs",
+        "latest_usd": 24804753,
+        "peak_date": "2025-10-09",
+        "peak_usd": 416090312
+      },
+      {
+        "entity": "telosc",
+        "latest_usd": 139005884,
+        "peak_date": "2025-10-08",
+        "peak_usd": 395053043
+      },
+      {
+        "entity": "hyperithm",
+        "latest_usd": 28488329,
+        "peak_date": "2025-10-19",
+        "peak_usd": 394759575
+      },
+      {
+        "entity": "sky-money",
+        "latest_usd": 108974364,
+        "peak_date": "2026-03-21",
+        "peak_usd": 306061450
+      },
+      {
+        "entity": "k3-capital",
+        "latest_usd": 21414053,
+        "peak_date": "2025-10-16",
+        "peak_usd": 276572441
+      },
+      {
+        "entity": "felix",
+        "latest_usd": 43866217,
+        "peak_date": "2025-09-10",
+        "peak_usd": 263304224
+      },
+      {
+        "entity": "b-protocol",
+        "latest_usd": 130242,
+        "peak_date": "2024-12-14",
+        "peak_usd": 237079896
+      },
+      {
+        "entity": "yearn",
+        "latest_usd": 48453948,
+        "peak_date": "2025-10-01",
+        "peak_usd": 188339919
+      },
+      {
+        "entity": "armitage",
+        "latest_usd": 134123564,
+        "peak_date": "2026-09-26",
+        "peak_usd": 145884080
+      },
+      {
+        "entity": "galaxy",
+        "latest_usd": 36871362,
+        "peak_date": "2026-04-15",
+        "peak_usd": 139643976
+      },
+      {
+        "entity": "alphaping",
+        "latest_usd": 10614519,
+        "peak_date": "2026-06-18",
+        "peak_usd": 111420637
+      },
+      {
+        "entity": "clearstar",
+        "latest_usd": 84950314,
+        "peak_date": "2025-11-01",
+        "peak_usd": 107123143
+      }
+    ]
+  },
+  "defillama_chart_windows": 114,
+  "exclusion": {
+    "by_protocol": {
+      "euler_v2": 5,
+      "moolah": 1,
+      "morpho": 459,
+      "silo_v2": 31
+    },
+    "by_reason": {
+      "owner_funded:created_contract": 4,
+      "owner_funded:direct": 459,
+      "owner_funded:direct;protocol_owned_liquidity:data/resume/excluded-vaults.md": 2,
+      "owner_funded:direct;self_dealing_loop:data/resume/king-rss.md": 2,
+      "owner_funded:safe_signer": 23,
+      "owner_funded:safe_signer;protocol_owned_liquidity:data/resume/excluded-vaults.md": 1,
+      "self_dealing_loop:data/resume/king-rss.md": 5
+    },
+    "largest_by_peak": [
+      {
+        "chain_id": 8453,
+        "name": "King RSS USDC Vault",
+        "peak_book_usd": 219649876,
+        "peak_date": "2026-10-02",
+        "reasons": "owner_funded:direct;self_dealing_loop:data/resume/king-rss.md",
+        "vault": "0xf80c0529bd94c773844e459853cd91b9263dd525"
+      },
+      {
+        "chain_id": 8453,
+        "name": "Froge's USDC",
+        "peak_book_usd": 37830845,
+        "peak_date": "2025-11-24",
+        "reasons": "owner_funded:direct",
+        "vault": "0x2c6d169782bf18cc634d076fe639092227b82fda"
+      },
+      {
+        "chain_id": 8453,
+        "name": "King Elepan USDC Vault",
+        "peak_book_usd": 13999009,
+        "peak_date": "2026-07-23",
+        "reasons": "self_dealing_loop:data/resume/king-rss.md",
+        "vault": "0x61bfd6f7df1f72427f472144d043c25d742d145e"
+      },
+      {
+        "chain_id": 999,
+        "name": "Gauntlent rUSDC Vault",
+        "peak_book_usd": 10255037,
+        "peak_date": "2025-10-01",
+        "reasons": "owner_funded:direct;protocol_owned_liquidity:data/resume/excluded-vaults.md",
+        "vault": "0x4346c98e690c17efbb999ae8e1da96b089be320b"
+      },
+      {
+        "chain_id": 43114,
+        "name": "ASY",
+        "peak_book_usd": 5782366,
+        "peak_date": "2025-10-13",
+        "reasons": "owner_funded:direct",
+        "vault": "0xddee006f6f0b2eab40531b82be9e5c7cf7ec4ca9"
+      },
+      {
+        "chain_id": 8453,
+        "name": "yieldfarming",
+        "peak_book_usd": 5014896,
+        "peak_date": "2026-06-01",
+        "reasons": "owner_funded:direct",
+        "vault": "0xe101c3f6f5910b69c3e0e75cff0ce7d9fd83461e"
+      },
+      {
+        "chain_id": 1,
+        "name": "Syntropia USDC",
+        "peak_book_usd": 1321237,
+        "peak_date": "2025-11-13",
+        "reasons": "owner_funded:direct",
+        "vault": "0xc004b0c1eaea96d3ea0a08c2f0efaa0df93b6450"
+      },
+      {
+        "chain_id": 1,
+        "name": "Pocky High Yield USDS",
+        "peak_book_usd": 911621,
+        "peak_date": "2025-11-03",
+        "reasons": "owner_funded:direct",
+        "vault": "0x2e87d6bfa3f2a932e0c70a32607c0b839404984d"
+      },
+      {
+        "chain_id": 1,
+        "name": "Morph WETH",
+        "peak_book_usd": 798032,
+        "peak_date": "2025-11-28",
+        "reasons": "owner_funded:direct",
+        "vault": "0xc02aabef00f0571e27bb66cc37c7057e1a850cc2"
+      },
+      {
+        "chain_id": 1,
+        "name": "Blue Chip USDC Vault (Prime)",
+        "peak_book_usd": 750734,
+        "peak_date": "2025-12-03",
+        "reasons": "owner_funded:direct",
+        "vault": "0x3f604074f3f12ff70c29e6bcc9232c707dc4d970"
+      },
+      {
+        "chain_id": 8453,
+        "name": "Blue Chip USDC Vault (Prime)",
+        "peak_book_usd": 629000,
+        "peak_date": "2025-10-12",
+        "reasons": "owner_funded:direct",
+        "vault": "0x8a034f069d59d62a4643ad42e49b846d036468d7"
+      },
+      {
+        "chain_id": 1,
+        "name": "Blue Chip USDC Vault (Prime)",
+        "peak_book_usd": 617450,
+        "peak_date": "2026-02-04",
+        "reasons": "owner_funded:direct",
+        "vault": "0x74847d0d124ce5c89ca8f4e7547aecd09e86b2e0"
+      },
+      {
+        "chain_id": 1,
+        "name": "Pocky's High Yield EURC",
+        "peak_book_usd": 494959,
+        "peak_date": "2025-12-22",
+        "reasons": "owner_funded:direct",
+        "vault": "0xbc0b65e3c2f78320c2d72b1a2d6ef85cdd9e702f"
+      },
+      {
+        "chain_id": 747474,
+        "name": "Pocky High Yield USDC - Personal Vault",
+        "peak_book_usd": 460990,
+        "peak_date": "2025-12-04",
+        "reasons": "owner_funded:direct",
+        "vault": "0x18dd7a95f7cd18211ad003b3f4b8f5f2af7852bf"
+      },
+      {
+        "chain_id": 8453,
+        "name": "Morph WETH",
+        "peak_book_usd": 450334,
+        "peak_date": "2025-10-03",
+        "reasons": "owner_funded:direct",
+        "vault": "0x42000000377415b0a59953e22ad945fe047479fe"
+      },
+      {
+        "chain_id": 1,
+        "name": "Everstone",
+        "peak_book_usd": 412059,
+        "peak_date": "2026-04-19",
+        "reasons": "owner_funded:direct",
+        "vault": "0x09c4c7b1d2e9aa7506db8b76f1dbbd61c08c114b"
+      },
+      {
+        "chain_id": 8453,
+        "name": "Julian Capital USDC Liquid",
+        "peak_book_usd": 395317,
+        "peak_date": "2026-05-27",
+        "reasons": "owner_funded:direct",
+        "vault": "0x813862f7276d673a5079ef174bc1a35e4b970f95"
+      },
+      {
+        "chain_id": 1,
+        "name": "Pocky's High Yield USDC",
+        "peak_book_usd": 342151,
+        "peak_date": "2026-06-18",
+        "reasons": "owner_funded:direct",
+        "vault": "0x3bc4697f484f48f219b3f1fdd2ad39cb3e986923"
+      },
+      {
+        "chain_id": 8453,
+        "name": "Pocky's High Yield WETH",
+        "peak_book_usd": 329493,
+        "peak_date": "2025-11-09",
+        "reasons": "owner_funded:direct",
+        "vault": "0x58efa4a930f06b04ea9b1f1cf6b7c620b5c93ea1"
+      },
+      {
+        "chain_id": 8453,
+        "name": "0xf99 Prudent",
+        "peak_book_usd": 307836,
+        "peak_date": "2025-05-19",
+        "reasons": "owner_funded:direct",
+        "vault": "0x6e6e070eeaeca296d797083f2bf3f207cce91dfa"
+      }
+    ],
+    "removed_net_usd": {
+      "all": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 220511208
+        },
+        "max": {
+          "date": "2026-10-01",
+          "usd": 220514698
+        },
+        "on_peak_day": {
+          "date": "2025-10-06",
+          "usd": 13169749
+        }
+      },
+      "euler_v2": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 51
+        },
+        "max": {
+          "date": "2026-09-27",
+          "usd": 51
+        },
+        "on_peak_day": {
+          "date": "2025-10-06",
+          "usd": 0
+        }
+      },
+      "euler_v2_earn": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 51
+        },
+        "max": {
+          "date": "2026-04-08",
+          "usd": 52
+        },
+        "on_peak_day": {
+          "date": "2025-10-08",
+          "usd": 0
+        }
+      },
+      "euler_v2_lending": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 0
+        },
+        "max": {
+          "date": "2024-08-18",
+          "usd": 0
+        },
+        "on_peak_day": {
+          "date": "2025-10-06",
+          "usd": 0
+        }
+      },
+      "moolah": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 0
+        },
+        "max": {
+          "date": "2026-01-21",
+          "usd": 20
+        },
+        "on_peak_day": {
+          "date": "2025-10-08",
+          "usd": 0
+        }
+      },
+      "morpho": {
+        "latest": {
+          "date": "2026-10-02",
+          "usd": 220511133
+        },
+        "max": {
+          "date": "2026-10-01",
+          "usd": 220514623
+        },
+        "on_peak_day": {
+          "date": "2026-10-02",
+          "usd": 220511133
+        }
+      },
+      "silo_v2": {
+        "latest": {
+          "date": "2026-10-04",
+          "usd": 24
+        },
+        "max": {
+          "date": "2025-10-13",
+          "usd": 5782391
+        },
+        "on_peak_day": {
+          "date": "2025-07-19",
+          "usd": 39
+        }
+      }
+    },
+    "vaults": 496
+  },
+  "fill": {
+    "all": {
+      "max_fill": 841,
+      "median_fill": 32,
+      "share_fill_0": 0.19229580040500655,
+      "share_fill_gt_30": 0.5077260433561726,
+      "share_fill_le_1": 0.2326729904531156,
+      "share_fill_le_7": 0.3373573692091609,
+      "usd_weighted_share_fill_0": 0.8663972930123535,
+      "usd_weighted_share_fill_gt_7": 0.04090172255550859,
+      "usd_weighted_share_fill_le_1": 0.9008585315516885,
+      "vault_days": 947639
+    },
+    "euler_v2_earn": {
+      "max_fill": 361,
+      "median_fill": 24.0,
+      "share_fill_0": 0.16474605206999574,
+      "share_fill_gt_30": 0.467705221226348,
+      "share_fill_le_1": 0.21774078816332337,
+      "share_fill_le_7": 0.3600085360648741,
+      "usd_weighted_share_fill_0": 0.4083072153727103,
+      "usd_weighted_share_fill_gt_7": 0.5537962750402114,
+      "usd_weighted_share_fill_le_1": 0.4216562606549851,
+      "vault_days": 14058
+    },
+    "euler_v2_lending": {
+      "max_fill": 715,
+      "median_fill": 11.0,
+      "share_fill_0": 0.2575212896834907,
+      "share_fill_gt_30": 0.3728290913738836,
+      "share_fill_le_1": 0.3199843422965697,
+      "share_fill_le_7": 0.46220581891386664,
+      "usd_weighted_share_fill_0": 0.8633701187652814,
+      "usd_weighted_share_fill_gt_7": 0.08632271144168716,
+      "usd_weighted_share_fill_le_1": 0.888916445591169,
+      "vault_days": 125178
+    },
+    "moolah": {
+      "max_fill": 392,
+      "median_fill": 0.0,
+      "share_fill_0": 0.5117316827407514,
+      "share_fill_gt_30": 0.1716568302864546,
+      "share_fill_le_1": 0.5694544407657982,
+      "share_fill_le_7": 0.7378724629336404,
+      "usd_weighted_share_fill_0": 0.9060389635073923,
+      "usd_weighted_share_fill_gt_7": 0.023885083111947245,
+      "usd_weighted_share_fill_le_1": 0.9459247889075005,
+      "vault_days": 13894
+    },
+    "morpho": {
+      "max_fill": 841,
+      "median_fill": 37,
+      "share_fill_0": 0.17922270781125788,
+      "share_fill_gt_30": 0.5294642244631954,
+      "share_fill_le_1": 0.2161637928135513,
+      "share_fill_le_7": 0.3141922475239667,
+      "usd_weighted_share_fill_0": 0.8779080113663806,
+      "usd_weighted_share_fill_gt_7": 0.018653940771879457,
+      "usd_weighted_share_fill_le_1": 0.9136105141481202,
+      "vault_days": 743427
+    },
+    "silo_v2": {
+      "max_fill": 563,
+      "median_fill": 79.0,
+      "share_fill_0": 0.14341646764026467,
+      "share_fill_gt_30": 0.624349085783642,
+      "share_fill_le_1": 0.17148897850514858,
+      "share_fill_le_7": 0.253376923378098,
+      "usd_weighted_share_fill_0": 0.6204847855514266,
+      "usd_weighted_share_fill_gt_7": 0.16301327624117617,
+      "usd_weighted_share_fill_le_1": 0.6872661122972858,
+      "vault_days": 51082
+    }
+  },
+  "guard": {
+    "largest": [
+      {
+        "chain_id": 8453,
+        "date": "2026-09-26",
+        "excluded": "owner_funded:direct;self_dealing_loop:data/resume/king-rss.md",
+        "guard_days": 7,
+        "kind": "morpho_v1",
+        "max_counted_usd_on_guard_days": 219649876,
+        "max_usd_removed": 979579,
+        "name": "King RSS USDC Vault",
+        "protocol": "morpho",
+        "vault": "0xf80c0529bd94c773844e459853cd91b9263dd525"
+      },
+      {
+        "chain_id": 43114,
+        "date": "2026-01-14",
+        "excluded": null,
+        "guard_days": 280,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 18311081,
+        "max_usd_removed": 688693916,
+        "name": "MEV BTC",
+        "protocol": "silo_v2",
+        "vault": "0x1f8e769b5b6010b2c2bbcd68629ea1a0a0eda7e3"
+      },
+      {
+        "chain_id": 42161,
+        "date": "2025-11-21",
+        "excluded": null,
+        "guard_days": 318,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 14207854,
+        "max_usd_removed": 22082513473,
+        "name": "Varlamore USDC Growth",
+        "protocol": "silo_v2",
+        "vault": "0x2ba39e5388ac6c702cb29aea78d52aa66832f1ee"
+      },
+      {
+        "chain_id": 43114,
+        "date": "2026-06-27",
+        "excluded": null,
+        "guard_days": 319,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 7621137,
+        "max_usd_removed": 26502214945,
+        "name": "MEV USDC",
+        "protocol": "silo_v2",
+        "vault": "0x4dc1ce9b9f9ef00c144bfad305f16c62293dc0e8"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-09-17",
+        "excluded": null,
+        "guard_days": 3,
+        "kind": "euler_lending",
+        "max_counted_usd_on_guard_days": 4359767,
+        "max_usd_removed": 32831,
+        "name": null,
+        "protocol": "euler_v2",
+        "vault": "0x481d4909d7ca2eb27c4975f08dce07dbef0d3fa7"
+      },
+      {
+        "chain_id": 146,
+        "date": "2026-02-01",
+        "excluded": null,
+        "guard_days": 265,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 2645716,
+        "max_usd_removed": 568859477,
+        "name": "Mithras",
+        "protocol": "silo_v2",
+        "vault": "0x391b3f70e254d582588b27e97e48d1cfcdf0be7e"
+      },
+      {
+        "chain_id": 43114,
+        "date": "2026-03-25",
+        "excluded": null,
+        "guard_days": 314,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 1940094,
+        "max_usd_removed": 610517558,
+        "name": "Varlamore USDT Growth",
+        "protocol": "silo_v2",
+        "vault": "0x6c09bfdc1df45d6c4ff78dc9f1c13af29eb335d4"
+      },
+      {
+        "chain_id": 146,
+        "date": "2026-04-30",
+        "excluded": null,
+        "guard_days": 319,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 1739677,
+        "max_usd_removed": 3013921711655,
+        "name": "Varlamore USDC Growth",
+        "protocol": "silo_v2",
+        "vault": "0xf6f87073cf8929c206a77b0694619dc776f89885"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-04-23",
+        "excluded": null,
+        "guard_days": 163,
+        "kind": "morpho_v1",
+        "max_counted_usd_on_guard_days": 1074467,
+        "max_usd_removed": 2029792,
+        "name": "Clearstar High Yield USDC",
+        "protocol": "morpho",
+        "vault": "0x9b5e92fd227876b4c07a8c02367e2cb23c639dfa"
+      },
+      {
+        "chain_id": 1,
+        "date": "2025-12-19",
+        "excluded": null,
+        "guard_days": 320,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 933005,
+        "max_usd_removed": 1482267859,
+        "name": "Varlamore USDC Growth",
+        "protocol": "silo_v2",
+        "vault": "0x8399c8fc273bd165c346af74a02e65f10e4fd78f"
+      },
+      {
+        "chain_id": 146,
+        "date": "2025-11-20",
+        "excluded": null,
+        "guard_days": 320,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 652208,
+        "max_usd_removed": 1192872686898,
+        "name": "Greenhouse USDC",
+        "protocol": "silo_v2",
+        "vault": "0xf6bc16b79c469b94cdd25f3e2334dd4fee47a581"
+      },
+      {
+        "chain_id": 43114,
+        "date": "2026-05-21",
+        "excluded": null,
+        "guard_days": 252,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 589071,
+        "max_usd_removed": 183647354,
+        "name": "Varlamore AUSD Growth",
+        "protocol": "silo_v2",
+        "vault": "0x3d7b0c3997e48fa3fc96cd057d1fb4e5f891835b"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-08-15",
+        "excluded": null,
+        "guard_days": 126,
+        "kind": "morpho_v1",
+        "max_counted_usd_on_guard_days": 538380,
+        "max_usd_removed": 76694,
+        "name": "Hybrid Tandem Propulsion USDC",
+        "protocol": "morpho",
+        "vault": "0x62578b2c9676e951c476d77406f8914e5446b661"
+      },
+      {
+        "chain_id": 146,
+        "date": "2025-11-28",
+        "excluded": null,
+        "guard_days": 312,
+        "kind": "silo_vault",
+        "max_counted_usd_on_guard_days": 418937,
+        "max_usd_removed": 156944577,
+        "name": "Apostro USDC",
+        "protocol": "silo_v2",
+        "vault": "0xcca902f2d3d265151f123d8ce8fdac38ba9745ed"
+      },
+      {
+        "chain_id": 1,
+        "date": "2026-04-20",
+        "excluded": "owner_funded:direct",
+        "guard_days": 160,
+        "kind": "morpho_v1",
+        "max_counted_usd_on_guard_days": 412038,
+        "max_usd_removed": 91196,
+        "name": "Everstone",
+        "protocol": "morpho",
+        "vault": "0x09c4c7b1d2e9aa7506db8b76f1dbbd61c08c114b"
+      }
+    ],
+    "vaults": 93
+  },
+  "nesting": {
+    "asset_wrap": {
+      "holding_days": 3773,
+      "latest_date": "2026-10-02",
+      "latest_usd": 353,
+      "max_date": "2025-12-07",
+      "max_usd": 449441
+    },
+    "earn_strategy": {
+      "holding_days": 20178,
+      "latest_date": "2026-10-08",
+      "latest_usd": 13823,
+      "max_date": "2025-10-08",
+      "max_usd": 698229248
+    },
+    "silo_market": {
+      "holding_days": 1013,
+      "latest_date": "2026-10-05",
+      "latest_usd": 0,
+      "max_date": "2026-01-11",
+      "max_usd": 7596
+    },
+    "wrapper_ledger": {
+      "holding_days": 256233,
+      "latest_date": "2026-10-02",
+      "latest_usd": 207259766,
+      "max_date": "2026-04-11",
+      "max_usd": 1336339029
+    }
+  },
+  "pairs": {
+    "euler_v2:1": {
+      "days_with_flows_after_last_accrual": 1091,
+      "head_date": "2026-10-02",
+      "lending_vaults": 279,
+      "vaults_with_deposits": 28,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "euler_v2:59144": {
+      "days_with_flows_after_last_accrual": 583,
+      "head_date": "2026-10-08",
+      "lending_vaults": 17,
+      "vaults_with_deposits": 8,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "euler_v2:9745": {
+      "days_with_flows_after_last_accrual": 633,
+      "head_date": "2026-10-04",
+      "lending_vaults": 44,
+      "vaults_with_deposits": 13,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "moolah:56": {
+      "days_with_flows_after_last_accrual": 7160,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 37,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:1": {
+      "days_with_flows_after_last_accrual": 50386,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 896,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:42161": {
+      "days_with_flows_after_last_accrual": 6385,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 186,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:4663": {
+      "days_with_flows_after_last_accrual": 235,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 58,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:747474": {
+      "days_with_flows_after_last_accrual": 5181,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 50,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:8453": {
+      "days_with_flows_after_last_accrual": 34659,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 2529,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "morpho:999": {
+      "days_with_flows_after_last_accrual": 9961,
+      "head_date": "2026-10-02",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 152,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "silo_v2:1": {
+      "days_with_flows_after_last_accrual": 583,
+      "head_date": "2026-10-04",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 10,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "silo_v2:146": {
+      "days_with_flows_after_last_accrual": 3016,
+      "head_date": "2026-10-05",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 79,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "silo_v2:42161": {
+      "days_with_flows_after_last_accrual": 729,
+      "head_date": "2026-10-04",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 10,
+      "vaults_with_deposits_without_accrual": []
+    },
+    "silo_v2:43114": {
+      "days_with_flows_after_last_accrual": 1338,
+      "head_date": "2026-10-05",
+      "lending_vaults": 0,
+      "vaults_with_deposits": 15,
+      "vaults_with_deposits_without_accrual": []
+    }
+  },
+  "prices": {
+    "vault_days": {
+      "all": {
+        "guard_days": 13743,
+        "priced": 947639,
+        "share_priced": 0.9801992589849625,
+        "vault_days_with_assets": 966782
+      },
+      "euler_v2_earn": {
+        "guard_days": 0,
+        "priced": 14058,
+        "share_priced": 0.9797881237803178,
+        "vault_days_with_assets": 14348
+      },
+      "euler_v2_lending": {
+        "guard_days": 648,
+        "priced": 125178,
+        "share_priced": 0.9595272041576599,
+        "vault_days_with_assets": 130458
+      },
+      "moolah": {
+        "guard_days": 0,
+        "priced": 13894,
+        "share_priced": 1.0,
+        "vault_days_with_assets": 13894
+      },
+      "morpho": {
+        "guard_days": 6565,
+        "priced": 743427,
+        "share_priced": 0.9823035860574509,
+        "vault_days_with_assets": 756820
+      },
+      "silo_v2": {
+        "guard_days": 6530,
+        "priced": 51082,
+        "share_priced": 0.9964886270531778,
+        "vault_days_with_assets": 51262
+      }
+    },
+    "vault_days_by_rule": {
+      "btc_ref": 29149,
+      "eth_ref": 99159,
+      "own": 155436,
+      "own_carried": 729,
+      "unpriced": 19143,
+      "usd_peg": 659207,
+      "via_vault": 3959
+    },
+    "vaults_by_rule": {
+      "btc_ref": 70,
+      "eth_ref": 326,
+      "own": 570,
+      "usd_peg": 3431,
+      "via_vault": 14
+    }
+  },
+  "pricing_sensitivity": {
+    "btc_ref": {
+      "date": "2025-01-31",
+      "max_abs_usd": 2691663,
+      "meaning": "own-price value minus counted value"
+    },
+    "eth_ref": {
+      "date": "2025-08-14",
+      "max_abs_usd": 9694864,
+      "meaning": "own-price value minus counted value"
+    },
+    "usd_peg_below_0.97": {
+      "date": "2026-09-03",
+      "max_abs_usd": 17817933,
+      "meaning": "counted minus own-price value"
+    },
+    "vault_days": {
+      "btc_ref_without_own_price": 77,
+      "eth_ref_without_own_price": 522,
+      "usd_peg_below_0.97": 2866,
+      "usd_peg_without_own_price": 1977
+    }
+  },
+  "protocols": {
+    "all": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 7009391996,
+      "max_nested_usd": 1462594827,
+      "nested_at_peak_usd": 647656024,
+      "nested_latest_usd": 325919307,
+      "peak_date": "2025-10-06",
+      "peak_usd": 8211093136
+    },
+    "euler_v2": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 210671711,
+      "max_nested_usd": 698229248,
+      "nested_at_peak_usd": 647330433,
+      "nested_latest_usd": 118659188,
+      "peak_date": "2025-10-06",
+      "peak_usd": 2292724366
+    },
+    "euler_v2_earn": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 124811714,
+      "max_nested_usd": 805311,
+      "nested_at_peak_usd": 0,
+      "nested_latest_usd": 0,
+      "peak_date": "2025-10-08",
+      "peak_usd": 698229489
+    },
+    "euler_v2_lending": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 204519185,
+      "max_nested_usd": 0,
+      "nested_at_peak_usd": 0,
+      "nested_latest_usd": 0,
+      "peak_date": "2025-10-06",
+      "peak_usd": 2292682391
+    },
+    "moolah": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 645176255,
+      "max_nested_usd": 0,
+      "nested_at_peak_usd": 0,
+      "nested_latest_usd": 0,
+      "peak_date": "2025-10-08",
+      "peak_usd": 888408118
+    },
+    "morpho": {
+      "latest_date": "2026-10-02",
+      "latest_usd": 6105251636,
+      "max_nested_usd": 1336339382,
+      "nested_at_peak_usd": 207260120,
+      "nested_latest_usd": 207260120,
+      "peak_date": "2026-10-02",
+      "peak_usd": 6105251636
+    },
+    "silo_v2": {
+      "latest_date": "2026-10-04",
+      "latest_usd": 48665588,
+      "max_nested_usd": 7596,
+      "nested_at_peak_usd": 0,
+      "nested_latest_usd": 0,
+      "peak_date": "2025-07-19",
+      "peak_usd": 178385694
+    }
+  },
+  "review": {
+    "largest_by_peak": [
+      {
+        "chain_id": 8453,
+        "largest_holder": "0x538b37bb107f526fdc9e3bfb8db8f46d52978183",
+        "last_day_usd": 22255.41,
+        "name": "Custom",
+        "peak_book_usd": 24569.42,
+        "vault": "0xddf2020de2c8315ee296b59e13deb2f72d67cc6a"
+      },
+      {
+        "chain_id": 999,
+        "largest_holder": "0x3cebf9ce168a3f6895905565f4bee3748218824e",
+        "last_day_usd": 1014.09,
+        "name": "MYRMIDONS USDT0",
+        "peak_book_usd": 1014.09,
+        "vault": "0xb851d568d123077e787860a34da286255249d983"
+      },
+      {
+        "chain_id": 1,
+        "largest_holder": "0xf4998a148bb5cd89a8b023923eac6bb2c83f343e",
+        "last_day_usd": 0.0,
+        "name": "CurveYield scrvUSD Earn",
+        "peak_book_usd": 301.95,
+        "vault": "0x719d2ef37ce4b66d0c2180ae4915c0f31bc0261e"
+      },
+      {
+        "chain_id": 8453,
+        "largest_holder": "0x78312a98d03f61dbaf1a41214f9ae74a0db97d13",
+        "last_day_usd": 1.33,
+        "name": "Kvass ETH",
+        "peak_book_usd": 2.42,
+        "vault": "0x07eac93b30187093e3c3f654047924cc760c9669"
+      },
+      {
+        "chain_id": 1,
+        "largest_holder": "0x340f07c2736f5022ea5e1afa8d09b04ceb7378ea",
+        "last_day_usd": 2.01,
+        "name": "USX Mainnet USDC",
+        "peak_book_usd": 2.01,
+        "vault": "0x5034518e0ae0479ed595d4a013d67c00886e14f4"
+      },
+      {
+        "chain_id": 42161,
+        "largest_holder": "0x1fda9d2b3758773d8aed8d45d43bfb8d0e71bc46",
+        "last_day_usd": 1.5,
+        "name": "Mesa Prime USDC",
+        "peak_book_usd": 1.5,
+        "vault": "0x4a16a3e2dd76d45821821260c64d92bb6f66cc84"
+      },
+      {
+        "chain_id": 8453,
+        "largest_holder": "0x71aae5325315488a97f90fd7ab45e77c77fa27cd",
+        "last_day_usd": 1.0,
+        "name": "",
+        "peak_book_usd": 1.0,
+        "vault": "0x8bbaac77a24ba6c7cf960812a207378a4d5cdab2"
+      },
+      {
+        "chain_id": 1,
+        "largest_holder": "0xb57a30e93134a436253b56a8cfb100077b570080",
+        "last_day_usd": 0.1,
+        "name": "SageFlow DAI",
+        "peak_book_usd": 0.1,
+        "vault": "0xde0a65391f73aa130b7543af2ce547fd00ec372a"
+      },
+      {
+        "chain_id": 8453,
+        "largest_holder": "0x9f2b20a772246960810045905b7daccf960ee288",
+        "last_day_usd": null,
+        "name": "Lending Staked CurveYield USD",
+        "peak_book_usd": null,
+        "vault": "0x3a429f60539fb9c6a0cec21d3885c07248cc9347"
+      }
+    ],
+    "vaults": 9
+  },
+  "top_vaults_by_peak": [
+    {
+      "asset_symbol": "DAI",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 1069,
+      "name": "Spark DAI Vault",
+      "peak_date": "2024-12-04",
+      "peak_usd": 750000000,
+      "protocol": "morpho",
+      "vault": "0x73e65dbd630f90604062f6e02fab9138e713edd9"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 335409189,
+      "name": "Spark USDC Vault",
+      "peak_date": "2025-09-24",
+      "peak_usd": 747802804,
+      "protocol": "morpho",
+      "vault": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a"
+    },
+    {
+      "asset_symbol": "WBNB",
+      "chain_id": 56,
+      "guard_days": 0,
+      "kind": "moolah_vault",
+      "latest_usd": 374339796,
+      "name": "Gauntlet x Lista BNB Vault",
+      "peak_date": "2025-10-07",
+      "peak_usd": 637115847,
+      "protocol": "moolah",
+      "vault": "0x57134a64b7cd9f9eb72f8255a671f5bf2fe3e2d0"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v2",
+      "latest_usd": 386736458,
+      "name": "Steakhouse Prime USDC",
+      "peak_date": "2026-08-09",
+      "peak_usd": 598674423,
+      "protocol": "morpho",
+      "vault": "0xbeef0e0834849acc03f0089f01f4f1eeb06873c9"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 2005888,
+      "name": " Usual Boosted USDC",
+      "peak_date": "2025-01-10",
+      "peak_usd": 594237534,
+      "protocol": "morpho",
+      "vault": "0xd63070114470f685b75b74d60eec7c1113d33a3d"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 14111423,
+      "name": "Steakhouse Prime USDC",
+      "peak_date": "2026-04-21",
+      "peak_usd": 572768880,
+      "protocol": "morpho",
+      "vault": "0xbeefe94c8ad530842bfe7d8b397938ffc1cb83b2"
+    },
+    {
+      "asset_symbol": "USDG",
+      "chain_id": 4663,
+      "guard_days": 0,
+      "kind": "morpho_v2",
+      "latest_usd": 517818548,
+      "name": "Steakhouse USDG",
+      "peak_date": "2026-10-02",
+      "peak_usd": 517818548,
+      "protocol": "morpho",
+      "vault": "0xbeeff033f34c046626b8d0a041844c5d1a5409dd"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 63204823,
+      "name": "Steakhouse USDC",
+      "peak_date": "2026-01-09",
+      "peak_usd": 508836158,
+      "protocol": "morpho",
+      "vault": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 123998045,
+      "name": "Steakhouse USDC",
+      "peak_date": "2026-01-11",
+      "peak_usd": 506585419,
+      "protocol": "morpho",
+      "vault": "0xbeef010f9cb27031ad51e3333f9af9c6b1228183"
+    },
+    {
+      "asset_symbol": "USDT",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 9570427,
+      "name": "",
+      "peak_date": "2025-11-04",
+      "peak_usd": 470853435,
+      "protocol": "morpho",
+      "vault": "0x79fd640000f8563a866322483524a4b48f1ed702"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v2",
+      "latest_usd": 442812502,
+      "name": "Steakhouse High Yield USDC Edition",
+      "peak_date": "2026-09-30",
+      "peak_usd": 444843508,
+      "protocol": "morpho",
+      "vault": "0xbeeff2490feffa212fac2f6553682c219e6a8845"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 8453,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 414918091,
+      "name": "Gauntlet USDC Prime",
+      "peak_date": "2026-06-10",
+      "peak_usd": 442563291,
+      "protocol": "morpho",
+      "vault": "0xee8f4ec5672f09119b96ab6fb59c27e1b7e44b61"
+    },
+    {
+      "asset_symbol": "PYUSD",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v2",
+      "latest_usd": 395133175,
+      "name": "Paypal USD Main",
+      "peak_date": "2026-09-19",
+      "peak_usd": 436168574,
+      "protocol": "morpho",
+      "vault": "0xb576765fb15505433af24fee2c0325895c559fb2"
+    },
+    {
+      "asset_symbol": "RLUSD",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v2",
+      "latest_usd": 430357690,
+      "name": "Sentora RLUSD Main",
+      "peak_date": "2026-10-02",
+      "peak_usd": 430357690,
+      "protocol": "morpho",
+      "vault": "0x6dc58a0fdfc8d694e571dc59b9a52eeea780e6bf"
+    },
+    {
+      "asset_symbol": "USD0",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "euler_lending",
+      "latest_usd": 17378597,
+      "name": null,
+      "peak_date": "2026-01-11",
+      "peak_usd": 426357713,
+      "protocol": "euler_v2",
+      "vault": "0xd001f0a15d272542687b2677ba627f48a4333b5d"
+    },
+    {
+      "asset_symbol": "PYUSD",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 3,
+      "name": "Sentora PYUSD",
+      "peak_date": "2026-04-17",
+      "peak_usd": 424479111,
+      "protocol": "morpho",
+      "vault": "0x19b3cd7032b8c062e8d44eacad661a0970dd8c55"
+    },
+    {
+      "asset_symbol": "USDT0",
+      "chain_id": 9745,
+      "guard_days": 0,
+      "kind": "euler_earn",
+      "latest_usd": 99733178,
+      "name": "TelosC Earn USDT0",
+      "peak_date": "2025-10-08",
+      "peak_usd": 334780142,
+      "protocol": "euler_v2",
+      "vault": "0xa9c251f8304b1b3fc2b9e8fcae78d94eff82ac66"
+    },
+    {
+      "asset_symbol": "USDS",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 1214,
+      "name": "Spark USDS Vault",
+      "peak_date": "2025-09-17",
+      "peak_usd": 329089547,
+      "protocol": "morpho",
+      "vault": "0xe41a0583334f0dc4e023acd0bfef3667f6fe0597"
+    },
+    {
+      "asset_symbol": "USDT",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 2956981,
+      "name": "Gauntlet USDT Prime",
+      "peak_date": "2025-10-29",
+      "peak_usd": 313786004,
+      "protocol": "morpho",
+      "vault": "0x8cb3649114051ca5119141a34c200d65dc0faa73"
+    },
+    {
+      "asset_symbol": "USDC",
+      "chain_id": 1,
+      "guard_days": 0,
+      "kind": "morpho_v1",
+      "latest_usd": 13611073,
+      "name": "Smokehouse USDC",
+      "peak_date": "2025-10-26",
+      "peak_usd": 311548505,
+      "protocol": "morpho",
+      "vault": "0xbeefff209270748ddd194831b3fa287a5386f5bc"
+    }
+  ],
+  "unpriced_assets": [
+    {
+      "asset": "0x8ff0dd9f9c40a0d76ef1bcfaf5f98c1610c74bd8",
+      "chain_id": 999,
+      "max_whole_units_in_one_vault": 93922.78,
+      "rule": "own",
+      "symbol": "USH",
+      "vault_days": 2909,
+      "vaults": 10
+    },
+    {
+      "asset": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 303457.95,
+      "rule": "own",
+      "symbol": "wUSDM",
+      "vault_days": 1645,
+      "vaults": 3
+    },
+    {
+      "asset": "0xf91c31299e998c5127bc5f11e4a657fc0cf358cd",
+      "chain_id": 9745,
+      "max_whole_units_in_one_vault": 5002312.62,
+      "rule": "own",
+      "symbol": "plUSD",
+      "vault_days": 870,
+      "vaults": 3
+    },
+    {
+      "asset": "0xfeafd68f913664c87340390f1eb13d288dc19fd0",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 215250.95,
+      "rule": "own",
+      "symbol": "test_USDC",
+      "vault_days": 852,
+      "vaults": 4
+    },
+    {
+      "asset": "0x437cc33344a0b27a429f795ff6b469c72698b291",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1593201.16,
+      "rule": "own",
+      "symbol": "wM",
+      "vault_days": 798,
+      "vaults": 6
+    },
+    {
+      "asset": "0x0a27e060c0406f8ab7b64e3bee036a37e5a62853",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1000000.1,
+      "rule": "own",
+      "symbol": "xUSDz",
+      "vault_days": 760,
+      "vaults": 1
+    },
+    {
+      "asset": "0xb48bcf35acd74e69bbdef17cdbea9de9983e786b",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 10000.0,
+      "rule": "own",
+      "symbol": "USDC",
+      "vault_days": 698,
+      "vaults": 2
+    },
+    {
+      "asset": "0x69000dfd5025e82f48eb28325a2b88a241182ced",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1.0,
+      "rule": "own",
+      "symbol": "ZAI",
+      "vault_days": 657,
+      "vaults": 1
+    },
+    {
+      "asset": "0x5d81e33bf04162c8fde897f543b265f3c5b51712",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 200000.03,
+      "rule": "own",
+      "symbol": "BLC",
+      "vault_days": 531,
+      "vaults": 2
+    },
+    {
+      "asset": "0xfe6cf90bebfb5578ed415a09028241bc93ca31c3",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 145098.04,
+      "rule": "own",
+      "symbol": "TEST",
+      "vault_days": 449,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9fd7466f987fd4c45a5bbde22ed8aba5bc8d72d1",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 2264780.98,
+      "rule": "own",
+      "symbol": "hwHLP",
+      "vault_days": 429,
+      "vaults": 1
+    },
+    {
+      "asset": "0x88563b651abf39d5e24d8210bcab62014a504108",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 10.0,
+      "rule": "own",
+      "symbol": "HilBTC",
+      "vault_days": 380,
+      "vaults": 1
+    },
+    {
+      "asset": "0x7e586fbaf3084c0be7ab5c82c04ffd7592723153",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1832.09,
+      "rule": "own",
+      "symbol": "xETH",
+      "vault_days": 366,
+      "vaults": 1
+    },
+    {
+      "asset": "0x12fd502e2052cafb41eccc5b596023d9978057d6",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 87.09,
+      "rule": "own",
+      "symbol": "xBTC",
+      "vault_days": 366,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9b3924f9652cabf3db48b7b4c92e474c571b3ab4",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 10.75,
+      "rule": "own",
+      "symbol": "PT-thBILL-19FEB2026",
+      "vault_days": 312,
+      "vaults": 2
+    },
+    {
+      "asset": "0xa19f6e0df08a7917f2f8a33db66d0af31ff5eca6",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 353667.22,
+      "rule": "own",
+      "symbol": "mFARM",
+      "vault_days": 312,
+      "vaults": 1
+    },
+    {
+      "asset": "0x669abe85f96a9e3b34723f7be9bc6f250abc0cc1",
+      "chain_id": 999,
+      "max_whole_units_in_one_vault": 834455.49,
+      "rule": "own",
+      "symbol": "beatUSD",
+      "vault_days": 290,
+      "vaults": 1
+    },
+    {
+      "asset": "0x64351fc9810adad17a690e4e1717df5e7e085160",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 2360.58,
+      "rule": "own",
+      "symbol": "msETH",
+      "vault_days": 286,
+      "vaults": 1
+    },
+    {
+      "asset": "0xab7c5de616fe66ce2ca8592889a0deb992b8b7d3",
+      "chain_id": 4663,
+      "max_whole_units_in_one_vault": 2155.03,
+      "rule": "own",
+      "symbol": "E20M",
+      "vault_days": 270,
+      "vaults": 2
+    },
+    {
+      "asset": "0x7ba6f01772924a82d9626c126347a28299e98c98",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1993.48,
+      "rule": "own",
+      "symbol": "msETH",
+      "vault_days": 264,
+      "vaults": 1
+    },
+    {
+      "asset": "0xa6784d8c96c20c0429f5231bbdcbb4c67ad3f24e",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1000097.01,
+      "rule": "own",
+      "symbol": "vTAO-Test",
+      "vault_days": 263,
+      "vaults": 2
+    },
+    {
+      "asset": "0x5a791652f3b140d357df072d355a98ab754877d1",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 2.67,
+      "rule": "own",
+      "symbol": "PT-thBILL-27NOV2025",
+      "vault_days": 258,
+      "vaults": 1
+    },
+    {
+      "asset": "0xb6a9c3375b3a57da78f7c467bd7b91cb8665a61e",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 100000.0,
+      "rule": "own",
+      "symbol": "USDC",
+      "vault_days": 249,
+      "vaults": 1
+    },
+    {
+      "asset": "0x89e93172aef8261db8437b90c3dcb61545a05317",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 309745.8,
+      "rule": "own",
+      "symbol": "sUSDaf",
+      "vault_days": 238,
+      "vaults": 1
+    },
+    {
+      "asset": "0x564fa4e3eee769b911643ddc637e8fb8489cc1a2",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1000.0,
+      "rule": "own",
+      "symbol": "USDC",
+      "vault_days": 214,
+      "vaults": 1
+    },
+    {
+      "asset": "0x59863989d080b22476db95656d0c3cc18be92214",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 12520445234.0,
+      "rule": "own",
+      "symbol": "ARGt",
+      "vault_days": 208,
+      "vaults": 2
+    },
+    {
+      "asset": "0x5b1820dacf20f10f8772ffef50b913a7fa94daa8",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 0.01,
+      "rule": "own",
+      "symbol": "ArUSDC",
+      "vault_days": 207,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9ab96a4668456896d45c301bc3a15cee76aa7b8d",
+      "chain_id": 999,
+      "max_whole_units_in_one_vault": 10000000.05,
+      "rule": "own",
+      "symbol": "rUSDC",
+      "vault_days": 192,
+      "vaults": 1
+    },
+    {
+      "asset": "0xf016413834e6d1a14f3d628b11d6ef725a6bdbdd",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 11.0,
+      "rule": "own",
+      "symbol": "ARGt",
+      "vault_days": 190,
+      "vaults": 1
+    },
+    {
+      "asset": "0x47d13fb0803409c7fe169a210d4e906165f1a432",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 25000.0,
+      "rule": "own",
+      "symbol": "CRNC",
+      "vault_days": 181,
+      "vaults": 2
+    },
+    {
+      "asset": "0x19403c915f5559da95c02e2d9fa9695771755f2b",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 10.0,
+      "rule": "own",
+      "symbol": "TT18",
+      "vault_days": 180,
+      "vaults": 1
+    },
+    {
+      "asset": "0x960717277e6ca67ad9e8cb262b787fed0e03bbc7",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 10.0,
+      "rule": "own",
+      "symbol": "VTAO",
+      "vault_days": 176,
+      "vaults": 1
+    },
+    {
+      "asset": "0x12b004719fb632f1e7c010c6f5d6009fb4258442",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 0.76,
+      "rule": "own",
+      "symbol": "liUSD-1w",
+      "vault_days": 174,
+      "vaults": 1
+    },
+    {
+      "asset": "0x57f5e098cad7a3d1eed53991d4d66c45c9af7812",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 503248.88,
+      "rule": "own",
+      "symbol": "wUSDM",
+      "vault_days": 162,
+      "vaults": 1
+    },
+    {
+      "asset": "0x845f64673a2407320c2cc12e23b669dc16f7a473",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1000000.0,
+      "rule": "own",
+      "symbol": "GRAM",
+      "vault_days": 142,
+      "vaults": 1
+    },
+    {
+      "asset": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1517814.34,
+      "rule": "own",
+      "symbol": "wUSDL",
+      "vault_days": 140,
+      "vaults": 4
+    },
+    {
+      "asset": "0x02d4dc2f9dbf90b1250bb6f637460d77ac2e08dd",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1000.0,
+      "rule": "own",
+      "symbol": "ov1",
+      "vault_days": 137,
+      "vaults": 1
+    },
+    {
+      "asset": "0x50b95dbfce8bfdd9f660967b7fd75fe107a58a13",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 9711.31,
+      "rule": "own",
+      "symbol": "mUSDC",
+      "vault_days": 136,
+      "vaults": 1
+    },
+    {
+      "asset": "0xd993935e13851dd7517af10687ec7e5022127228",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1.0,
+      "rule": "own",
+      "symbol": "apxUSD",
+      "vault_days": 116,
+      "vaults": 1
+    },
+    {
+      "asset": "0xaf5d2cf39f2d4e2f5900d6cf37ab3596866347e4",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1013.0,
+      "rule": "own",
+      "symbol": "JPYR",
+      "vault_days": 109,
+      "vaults": 1
+    },
+    {
+      "asset": "0x59d5c6f5fdf8fa53c6fe44bb053b41ab1eaaaa23",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1000000.0,
+      "rule": "own",
+      "symbol": "USDC",
+      "vault_days": 106,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9c8cd8d3961f445d653713de65c6578be11668e7",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 0.01,
+      "rule": "own",
+      "symbol": "SINC",
+      "vault_days": 101,
+      "vaults": 1
+    },
+    {
+      "asset": "0x66bcf6151d5558afb47c38b20663589843156078",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 43.18,
+      "rule": "own",
+      "symbol": "liUSD-4w",
+      "vault_days": 101,
+      "vaults": 1
+    },
+    {
+      "asset": "0xba9f0f6f2b6d1e639cbe93327e588c01ce28a2d9",
+      "chain_id": 999,
+      "max_whole_units_in_one_vault": 32.17,
+      "rule": "own",
+      "symbol": "HYPE2S",
+      "vault_days": 100,
+      "vaults": 1
+    },
+    {
+      "asset": "0x98a878b1cd98131b271883b390f68d2c90674665",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 2967696.07,
+      "rule": "own",
+      "symbol": "apxUSD",
+      "vault_days": 91,
+      "vaults": 2
+    },
+    {
+      "asset": "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 35000.0,
+      "rule": "own",
+      "symbol": "syrupUSDC",
+      "vault_days": 85,
+      "vaults": 1
+    },
+    {
+      "asset": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 851372.92,
+      "rule": "own",
+      "symbol": "wstUSR",
+      "vault_days": 83,
+      "vaults": 1
+    },
+    {
+      "asset": "0x494dd5f33b810fda9faaf80593ff4180079762e8",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 701.0,
+      "rule": "own",
+      "symbol": "scyUSD",
+      "vault_days": 77,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9bc2c28df6560c343d3fa9c152bed80d4511dead",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "USDeAD",
+      "vault_days": 67,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9bc2c28df6560c343d3fa9c152bed80d4511dead",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "USDeAD",
+      "vault_days": 65,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9bf45ab47747f4b4dd09b3c2c73953484b4eb375",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 3.04,
+      "rule": "own",
+      "symbol": "PT-srUSDe-2APR2026",
+      "vault_days": 63,
+      "vaults": 1
+    },
+    {
+      "asset": "0xc4ed6aba5373d78e160f4df39e011f078be54df8",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 573371.87,
+      "rule": "own",
+      "symbol": "BRAt",
+      "vault_days": 61,
+      "vaults": 1
+    },
+    {
+      "asset": "0x19c529229d3bb8340abfe0e7e90e11bbadc5008a",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 404.06,
+      "rule": "own",
+      "symbol": "uUSDC",
+      "vault_days": 59,
+      "vaults": 1
+    },
+    {
+      "asset": "0xe4f45861cdf5d7a6b8e4a7a0ffd78b2f95484b6b",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 302.67,
+      "rule": "own",
+      "symbol": "uUSDT",
+      "vault_days": 59,
+      "vaults": 1
+    },
+    {
+      "asset": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "GEM",
+      "vault_days": 56,
+      "vaults": 1
+    },
+    {
+      "asset": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 8001.0,
+      "rule": "own",
+      "symbol": "EURCV",
+      "vault_days": 55,
+      "vaults": 2
+    },
+    {
+      "asset": "0xa16d5db80a45157e0e451750b81ff0cc0b61d558",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 60123625.75,
+      "rule": "own",
+      "symbol": "COLt",
+      "vault_days": 54,
+      "vaults": 1
+    },
+    {
+      "asset": "0xf801d09336deb9ab076ee0728fb90b3b32edb858",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1000.0,
+      "rule": "own",
+      "symbol": "LFG-AUD",
+      "vault_days": 49,
+      "vaults": 1
+    },
+    {
+      "asset": "0xfe1b89a891e97a964291e43e89097e0ddf90e266",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 1.0,
+      "rule": "own",
+      "symbol": "wmooBalancerArbitrumwaArbUSDCn/EURe",
+      "vault_days": 49,
+      "vaults": 1
+    },
+    {
+      "asset": "0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "ynRWAx",
+      "vault_days": 49,
+      "vaults": 1
+    },
+    {
+      "asset": "0x1ce163acb4e5133e5333cced1b6d82fe7dab42f4",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 1.0,
+      "rule": "own",
+      "symbol": "wmooBalancerBasewaBasGHO/waBasUSDC",
+      "vault_days": 48,
+      "vaults": 1
+    },
+    {
+      "asset": "0xd1ba96b9593916463abbddef048fa204ed4ad13c",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "ucbBTC",
+      "vault_days": 47,
+      "vaults": 1
+    },
+    {
+      "asset": "0xdf995c79a100320fd31c53405b671e386c09e023",
+      "chain_id": 8453,
+      "max_whole_units_in_one_vault": 0.18,
+      "rule": "own",
+      "symbol": "uWETH",
+      "vault_days": 47,
+      "vaults": 1
+    },
+    {
+      "asset": "0x9a1bfb2b9e3d1959ed11636bc56db0ab7b4473a9",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 0.0,
+      "rule": "own",
+      "symbol": "ARSs",
+      "vault_days": 46,
+      "vaults": 3
+    },
+    {
+      "asset": "0xb96aa6babccd738d6644add4912fe5efbebf5a25",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 425499.16,
+      "rule": "own",
+      "symbol": "MEXt",
+      "vault_days": 45,
+      "vaults": 1
+    },
+    {
+      "asset": "0xd48e565561416de59da1050ed70b8d75e8ef28f9",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 101.0,
+      "rule": "own",
+      "symbol": "USDnr",
+      "vault_days": 43,
+      "vaults": 1
+    },
+    {
+      "asset": "0x899438713f62b04d6cd8e8709986f7256fb6e3d9",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 52860.02,
+      "rule": "own",
+      "symbol": "PERt",
+      "vault_days": 40,
+      "vaults": 1
+    },
+    {
+      "asset": "0xe8dbc4680235ccaeff48e4c0b0eaceebb89e5e17",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 19593006.91,
+      "rule": "own",
+      "symbol": "CHLt",
+      "vault_days": 38,
+      "vaults": 1
+    },
+    {
+      "asset": "0xc8cf6d7991f15525488b2a83df53468d682ba4b0",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 119170.4,
+      "rule": "own",
+      "symbol": "sUSDf",
+      "vault_days": 38,
+      "vaults": 1
+    },
+    {
+      "asset": "0x7b43e3875440b44613dc3bc08e7763e6da63c8f8",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1618.71,
+      "rule": "own",
+      "symbol": "USDR",
+      "vault_days": 33,
+      "vaults": 1
+    },
+    {
+      "asset": "0x1edf5e61b6a4fe19fef3a695328f61aaa07728ea",
+      "chain_id": 42161,
+      "max_whole_units_in_one_vault": 183793.05,
+      "rule": "own",
+      "symbol": "BOLt",
+      "vault_days": 31,
+      "vaults": 1
+    },
+    {
+      "asset": "0x2c537e5624e4af88a7ae4060c022609376c8d0eb",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 2074.64,
+      "rule": "own",
+      "symbol": "TRYB",
+      "vault_days": 30,
+      "vaults": 1
+    },
+    {
+      "asset": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "chain_id": 747474,
+      "max_whole_units_in_one_vault": 27896896.55,
+      "rule": "own",
+      "symbol": "vbUSDC",
+      "vault_days": 28,
+      "vaults": 4
+    },
+    {
+      "asset": "0xe868084cf08f3c3db11f4b73a95473762d9463f7",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 3097241.01,
+      "rule": "own",
+      "symbol": "YU",
+      "vault_days": 25,
+      "vaults": 1
+    },
+    {
+      "asset": "0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62",
+      "chain_id": 747474,
+      "max_whole_units_in_one_vault": 11200.86,
+      "rule": "own",
+      "symbol": "vbETH",
+      "vault_days": 15,
+      "vaults": 3
+    },
+    {
+      "asset": "0xd0609ac13000d88b0bebf5bb21074916edd92bb1",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 4.36,
+      "rule": "own",
+      "symbol": "PT-jrUSDe-2APR2026",
+      "vault_days": 11,
+      "vaults": 1
+    },
+    {
+      "asset": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "chain_id": 747474,
+      "max_whole_units_in_one_vault": 10329190.4,
+      "rule": "own",
+      "symbol": "vbUSDT",
+      "vault_days": 8,
+      "vaults": 2
+    },
+    {
+      "asset": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 581.11,
+      "rule": "own",
+      "symbol": "mTBILL",
+      "vault_days": 8,
+      "vaults": 1
+    },
+    {
+      "asset": "0x5422374b27757da72d5265cc745ea906e0446634",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 1167214.0,
+      "rule": "own",
+      "symbol": "USDCV",
+      "vault_days": 7,
+      "vaults": 1
+    },
+    {
+      "asset": "0x0913da6da4b42f538b445599b46bb4622342cf52",
+      "chain_id": 747474,
+      "max_whole_units_in_one_vault": 179.9,
+      "rule": "own",
+      "symbol": "vbWBTC",
+      "vault_days": 7,
+      "vaults": 2
+    },
+    {
+      "asset": "0xa62b204099277762d1669d283732dcc1b3aa96ce",
+      "chain_id": 1,
+      "max_whole_units_in_one_vault": 649203.81,
+      "rule": "own",
+      "symbol": "pUSDe",
+      "vault_days": 2,
+      "vaults": 1
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "generator": "code/corpus/crawl.py",
+  "seed": 20261008,
+  "what": "E7 corpus validation: independent re-parse of 40 random documents' timestamps from their raw payloads; cutoff filter at the onset of the 7 self-check events (leaks, re-verification, red flags); empty texts; duplicate payloads",
+  "written_utc": "2026-10-09T13:30:32+00:00"
+}

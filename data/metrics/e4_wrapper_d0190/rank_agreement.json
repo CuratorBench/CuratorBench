@@ -1,0 +1,2087 @@
+{
+  "appendix_v1": {
+    "aum_floor_usd": null,
+    "curator_level": {
+      "n_curators": 68,
+      "note": "curators are the units; naive and clustered p coincide",
+      "pairs": {
+        "tl_v1_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.7724319455720992,
+            -0.4334909015617943
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.6264483030687812
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.5832857720926591,
+            -0.1026953341880668
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 0.0017998200179982,
+          "p_perm_naive": 0.0023997600239976003,
+          "rho": -0.3646897136947438
+        },
+        "vault_apy|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.03615436245290856,
+            0.47286986890851057
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 0.06629337066293371,
+          "p_perm_naive": 0.0688931106889311,
+          "rho": 0.22266758299931405
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.19210893028259338,
+            0.6501644114927156
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 0.00039996000399960006,
+          "p_perm_naive": 0.00029997000299970003,
+          "rho": 0.43468468500140384
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3329963189854161,
+            0.18867764345678753
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 0.5553444655534446,
+          "p_perm_naive": 0.5569443055694431,
+          "rho": -0.07287789454634834
+        },
+        "yield_after_fee|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.18959767369251912,
+            0.3107075072273234
+          ],
+          "clusters": 68,
+          "n": 68,
+          "p_perm_clustered": 0.5887411258874112,
+          "p_perm_naive": 0.5843415658434157,
+          "rho": 0.06661068061228385
+        }
+      }
+    },
+    "non_dominated": {
+      "count": 6,
+      "criteria": "no other vault has yield_after_fee >= , tl_v1_headline <= and L_p10 >= with one strict",
+      "of": 875,
+      "vaults": [
+        {
+          "L_p10": 0.004029493779614348,
+          "aum_mean_usd": 18871.963044243086,
+          "chain_id": 1,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "MaxEarn USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.4010380736457555,
+          "vault": "0x51056b3f809f4cfe17e1a8715b82f5dbbca5a5a1",
+          "vault_apy": 0.24329896977664014,
+          "yield_after_fee": 1.4589824113338112
+        },
+        {
+          "L_p10": 0.15516118113328417,
+          "aum_mean_usd": 63468.44955134926,
+          "chain_id": 8453,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "Pocky High Yield USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.29201779830356156,
+          "vault": "0xebc997b855b9a4e0b6cd06e4758801e6ff068e07",
+          "vault_apy": 0.19910637874277126,
+          "yield_after_fee": 0.49639126124176297
+        },
+        {
+          "L_p10": 4.9788673099563196e-14,
+          "aum_mean_usd": 3491568.220054092,
+          "chain_id": 8453,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "Lunar Labs Treasury USDC Vault",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.005019906645788122,
+          "vault": "0xf4d4fcdde388408c7a295e1c34c7b204bc0b4bac",
+          "vault_apy": 1.0,
+          "yield_after_fee": 0.41716146430266554
+        },
+        {
+          "L_p10": 0.39239851659311636,
+          "aum_mean_usd": 60243.78991830641,
+          "chain_id": 8453,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "Max USD",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.13623686322899697,
+          "vault": "0x3094b241aade60f91f1c82b0628a10d9501462f9",
+          "vault_apy": 0.12842909840749958,
+          "yield_after_fee": 0.4098589744527726
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 558599.004146332,
+          "chain_id": 999,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "GOATed Vault",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.075985990336706,
+          "vault": "0x4a0388a8e1b79a0830fcc5da68e955406d171787",
+          "vault_apy": 0.12425687206798591,
+          "yield_after_fee": 0.13674749595375785
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 26623.474311745867,
+          "chain_id": 999,
+          "curator_name": "",
+          "kind": "morpho_v1",
+          "name": "Vaultik USDHL",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.0,
+          "vault": "0xc09bbb2a09f302ae5586cd3f3e8554a575956ac9",
+          "vault_apy": 0.07447984007314218,
+          "yield_after_fee": 0.11075019298116028
+        }
+      ]
+    },
+    "tail_loss_column": "tl_v1_headline",
+    "top_decile": {
+      "L_p10": {
+        "n": 88,
+        "on_other_metrics": {
+          "tl_v1_headline": {
+            "median_percentile": 68.97142857142856,
+            "share_in_bottom_half": 0.23863636363636365,
+            "share_in_top_decile": 0.11363636363636363
+          },
+          "vault_apy": {
+            "median_percentile": 54.114285714285714,
+            "share_in_bottom_half": 0.4318181818181818,
+            "share_in_top_decile": 0.0
+          },
+          "yield_after_fee": {
+            "median_percentile": 51.2,
+            "share_in_bottom_half": 0.45454545454545453,
+            "share_in_top_decile": 0.022727272727272728
+          }
+        }
+      },
+      "tl_v1_headline": {
+        "n": 88,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 74.57142857142857,
+            "share_in_bottom_half": 0.3068181818181818,
+            "share_in_top_decile": 0.2727272727272727
+          },
+          "vault_apy": {
+            "median_percentile": 7.257142857142857,
+            "share_in_bottom_half": 0.8295454545454546,
+            "share_in_top_decile": 0.056818181818181816
+          },
+          "yield_after_fee": {
+            "median_percentile": 10.057142857142857,
+            "share_in_bottom_half": 0.7954545454545454,
+            "share_in_top_decile": 0.09090909090909091
+          }
+        }
+      },
+      "vault_apy": {
+        "n": 88,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 14.228571428571428,
+            "share_in_bottom_half": 0.8295454545454546,
+            "share_in_top_decile": 0.011363636363636364
+          },
+          "tl_v1_headline": {
+            "median_percentile": 31.2,
+            "share_in_bottom_half": 0.7386363636363636,
+            "share_in_top_decile": 0.056818181818181816
+          },
+          "yield_after_fee": {
+            "median_percentile": 91.14285714285714,
+            "share_in_bottom_half": 0.2727272727272727,
+            "share_in_top_decile": 0.5113636363636364
+          }
+        }
+      },
+      "yield_after_fee": {
+        "n": 88,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 20.799999999999997,
+            "share_in_bottom_half": 0.7727272727272727,
+            "share_in_top_decile": 0.06818181818181818
+          },
+          "tl_v1_headline": {
+            "median_percentile": 32.05714285714286,
+            "share_in_bottom_half": 0.7386363636363636,
+            "share_in_top_decile": 0.09090909090909091
+          },
+          "vault_apy": {
+            "median_percentile": 90.11428571428571,
+            "share_in_bottom_half": 0.056818181818181816,
+            "share_in_top_decile": 0.5113636363636364
+          }
+        }
+      }
+    },
+    "vault_level": {
+      "n_vaults": 875,
+      "note": "p_perm_clustered permutes curator means of the second metric's ranks across curators and the deviations within curators; vaults without an attributed curator are their own clusters",
+      "pairs": {
+        "tl_v1_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.5803729165350495,
+            -0.3910022405307872
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.48934597251698186
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3181093668349074,
+            -0.05281325296145671
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.18682561179468052
+        },
+        "vault_apy|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            0.0809956468198118,
+            0.34144271071061877
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.2160227539661947
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.6644037454166207,
+            0.7967748548820005
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.7364701876796529
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.29566277557560017,
+            0.005084987406709518
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 0.0005999400059994001,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.14720751216233685
+        },
+        "yield_after_fee|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            0.04859634016608612,
+            0.300645261197083
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.18666522141557318
+        }
+      }
+    },
+    "vault_level_allocator_vaults_only": {
+      "n_vaults": 704,
+      "pairs": {
+        "tl_v1_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.5157253646936261,
+            -0.31906830483361104
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.40642681181646656
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.233752655066408,
+            -0.0023916669661472
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 0.1090890910908909,
+          "p_perm_naive": 0.0059994000599940004,
+          "rho": -0.10499286867639891
+        },
+        "vault_apy|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            0.018580991898979764,
+            0.24037387848085465
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 0.0374962503749625,
+          "p_perm_naive": 0.000999900009999,
+          "rho": 0.12592715546471042
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.6382149013817765,
+            0.7810719504669023
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.7155942644230777
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.09990395039355582,
+            0.08614817141109773
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 0.8463153684631537,
+          "p_perm_naive": 0.7526247375262474,
+          "rho": -0.012133727024352765
+        },
+        "yield_after_fee|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.0394839432991803,
+            0.1922683640662916
+          ],
+          "clusters": 212,
+          "n": 704,
+          "p_perm_clustered": 0.12938706129387062,
+          "p_perm_naive": 0.026497350264973504,
+          "rho": 0.08335177361997764
+        }
+      }
+    },
+    "vault_level_apy_with_rewards": {
+      "n_vaults": 875,
+      "pairs": {
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.336128210865904,
+            -0.10281323107625094
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.2204480309779761
+        },
+        "vault_apy|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            0.06468417382227543,
+            0.3410744116059572
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.20223821415743418
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.6101747794125387,
+            0.7627121182187395
+          ],
+          "clusters": 224,
+          "n": 875,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.6886499090395134
+        }
+      }
+    }
+  },
+  "appendix_v1_aum_floor_10m": {
+    "aum_floor_usd": 10000000.0,
+    "non_dominated": {
+      "aum_share": 0.2128947582440794,
+      "count": 27,
+      "criteria": "no other vault has yield_after_fee >= , tl_v1_headline <= and L_p10 >= with one strict",
+      "min_active_days": 90,
+      "of": 150,
+      "vaults": [
+        {
+          "L_p10": 0.06173885051,
+          "aum_mean_usd": 24234860.37,
+          "chain_id": 1,
+          "curator_name": "IMF",
+          "kind": "morpho_v1",
+          "name": "IMF USDS",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1291211535,
+          "vault": "0xdef1fce2df6270fdf7e1214343bebbab8583d43d",
+          "vault_apy": 0.3655968251,
+          "yield_after_fee": 0.1019279164
+        },
+        {
+          "L_p10": 0.08608748207,
+          "aum_mean_usd": 32826080.66,
+          "chain_id": 1,
+          "curator_name": "Euler DAO",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_v1_headline": 0.4401037107,
+          "vault": "0x3573a84bee11d49a1cbce2b291538de7a7dd81c6",
+          "vault_apy": 0.08307751741,
+          "yield_after_fee": 0.0938656692
+        },
+        {
+          "L_p10": 0.1106375607,
+          "aum_mean_usd": 422885058.2,
+          "chain_id": 1,
+          "curator_name": "SparkDAO",
+          "kind": "morpho_v1",
+          "name": "Spark DAI Vault",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.391632852,
+          "vault": "0x73e65dbd630f90604062f6e02fab9138e713edd9",
+          "vault_apy": 0.1009238891,
+          "yield_after_fee": 0.09338898106
+        },
+        {
+          "L_p10": 0.06762622348,
+          "aum_mean_usd": 13101253.36,
+          "chain_id": 1,
+          "curator_name": "Apostro",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_v1_headline": 0.2977605446,
+          "vault": "0x3a8992754e2ef51d8f90620d2766278af5c59b90",
+          "vault_apy": 0.0697732186,
+          "yield_after_fee": 0.08436209193
+        },
+        {
+          "L_p10": 0.1470146621,
+          "aum_mean_usd": 14186091.56,
+          "chain_id": 1,
+          "curator_name": "AlphaPing",
+          "kind": "morpho_v1",
+          "name": "Falcon USDC Core",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.3061519935,
+          "vault": "0xb0f05e4de970a1aaf77f8c2f823953a367504ba9",
+          "vault_apy": 0.0656769404,
+          "yield_after_fee": 0.08165911493
+        },
+        {
+          "L_p10": 0.06833326538,
+          "aum_mean_usd": 21124124.46,
+          "chain_id": 9745,
+          "curator_name": "K3 Capital",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_v1_headline": 0.2974172189,
+          "vault": "0xaadea03f6d6f198bdc9229bd8113aced19031773",
+          "vault_apy": 0.04037061722,
+          "yield_after_fee": 0.07961922899
+        },
+        {
+          "L_p10": 0.1276478586,
+          "aum_mean_usd": 11438428.94,
+          "chain_id": 1,
+          "curator_name": "Clearstar",
+          "kind": "morpho_v1",
+          "name": "Clearstar USDC Core",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.2623036916,
+          "vault": "0x62fe596d59fb077c2df736df212e0affb522dc78",
+          "vault_apy": 0.06776589202,
+          "yield_after_fee": 0.07862405456
+        },
+        {
+          "L_p10": 0.2358737648,
+          "aum_mean_usd": 34696850.74,
+          "chain_id": 1,
+          "curator_name": "Hyperithm",
+          "kind": "morpho_v1",
+          "name": "Hyperithm USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1752379761,
+          "vault": "0x777791c4d6dc2ce140d00d2828a7c93503c67777",
+          "vault_apy": 0.07282468886,
+          "yield_after_fee": 0.07330506703
+        },
+        {
+          "L_p10": 0.08929375648,
+          "aum_mean_usd": 25520059.86,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDT0",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.08437840786,
+          "vault": "0xfc5126377f0efc0041c0969ef9ba903ce67d151e",
+          "vault_apy": 0.05704236793,
+          "yield_after_fee": 0.07106996532
+        },
+        {
+          "L_p10": 0.2605606735,
+          "aum_mean_usd": 86197124.82,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Smokehouse USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1784507159,
+          "vault": "0xbeefff209270748ddd194831b3fa287a5386f5bc",
+          "vault_apy": 0.05265010444,
+          "yield_after_fee": 0.06834458312
+        },
+        {
+          "L_p10": 0.1053760984,
+          "aum_mean_usd": 24372981.67,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1672773886,
+          "vault": "0x8a862fd6c12f9ad34c9c2ff45ab2b6712e8cea27",
+          "vault_apy": 0.05433455027,
+          "yield_after_fee": 0.06236942947
+        },
+        {
+          "L_p10": 0.2149151238,
+          "aum_mean_usd": 17571157.3,
+          "chain_id": 1,
+          "curator_name": "Euler DAO",
+          "kind": "euler_earn",
+          "name": "Euler Earn USDC",
+          "protocol": "euler_v2",
+          "tl_v1_headline": 0.1476547112,
+          "vault": "0x3b4802fdb0e5d74aa37d58fd77d63e93d4f9a4af",
+          "vault_apy": 0.05316182611,
+          "yield_after_fee": 0.06048118911
+        },
+        {
+          "L_p10": 0.521347037,
+          "aum_mean_usd": 10914982.06,
+          "chain_id": 1,
+          "curator_name": "RockawayX",
+          "kind": "morpho_v2",
+          "name": "RockawayX USDC Yield",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.2538333264,
+          "vault": "0xe0181090c22579b6a217f1522cbf8c9f1f0c1965",
+          "vault_apy": 0.06049278245,
+          "yield_after_fee": 0.05806959976
+        },
+        {
+          "L_p10": 0.406633351,
+          "aum_mean_usd": 22417614.45,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Steakhouse High Yield USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1484906729,
+          "vault": "0xbeeff2c5bf38f90e3482a8b19f12e5a6d2fca757",
+          "vault_apy": 0.0516855117,
+          "yield_after_fee": 0.0527030519
+        },
+        {
+          "L_p10": 0.1666185549,
+          "aum_mean_usd": 17532153.43,
+          "chain_id": 8453,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Steakhouse High Yield USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1356365733,
+          "vault": "0xbeeff7ae5e00aae3db302e4b0d8c883810a58100",
+          "vault_apy": 0.05174354813,
+          "yield_after_fee": 0.05215980373
+        },
+        {
+          "L_p10": 0.1332331219,
+          "aum_mean_usd": 153908826.2,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Steakhouse USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.07422676495,
+          "vault": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb",
+          "vault_apy": 0.03509524274,
+          "yield_after_fee": 0.05017552593
+        },
+        {
+          "L_p10": 0.3425262772,
+          "aum_mean_usd": 212496265.6,
+          "chain_id": 8453,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v1",
+          "name": "Gauntlet USDC Prime",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.06212725834,
+          "vault": "0xee8f4ec5672f09119b96ab6fb59c27e1b7e44b61",
+          "vault_apy": 0.04418605736,
+          "yield_after_fee": 0.04960743562
+        },
+        {
+          "L_p10": 0.6764564064,
+          "aum_mean_usd": 26798747.6,
+          "chain_id": 1,
+          "curator_name": "Hakutora",
+          "kind": "morpho_v1",
+          "name": "Hakutora USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.1382130439,
+          "vault": "0x974c8fbf4fd795f66b85b73ebc988a51f1a040a9",
+          "vault_apy": 0.03485133359,
+          "yield_after_fee": 0.04760674854
+        },
+        {
+          "L_p10": 0.2789725046,
+          "aum_mean_usd": 219371805.1,
+          "chain_id": 8453,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Steakhouse Prime USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.05704395015,
+          "vault": "0xbeefe94c8ad530842bfe7d8b397938ffc1cb83b2",
+          "vault_apy": 0.04200005187,
+          "yield_after_fee": 0.04691012531
+        },
+        {
+          "L_p10": 0.7173369333,
+          "aum_mean_usd": 31538852.26,
+          "chain_id": 1,
+          "curator_name": "Armitage by Wintermute",
+          "kind": "morpho_v2",
+          "name": "Wintermute USDC Select",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.08303836318,
+          "vault": "0xa2eaad0d586cf9fd73bb2c09cf6a7e3e187d68cd",
+          "vault_apy": 0.04555307083,
+          "yield_after_fee": 0.04554092997
+        },
+        {
+          "L_p10": 0.3431577617,
+          "aum_mean_usd": 221487389.9,
+          "chain_id": 8453,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Steakhouse Prime USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.05693283899,
+          "vault": "0xbeef0e0834849acc03f0089f01f4f1eeb06873c9",
+          "vault_apy": 0.04244466336,
+          "yield_after_fee": 0.04218203138
+        },
+        {
+          "L_p10": 0.8937373662,
+          "aum_mean_usd": 74054476.74,
+          "chain_id": 8453,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v2",
+          "name": "Gauntlet USDC Prime",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.05977008929,
+          "vault": "0x050ce30b927da55177a4914ec73480238bad56f0",
+          "vault_apy": 0.04237769728,
+          "yield_after_fee": 0.04212753484
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 19966421.16,
+          "chain_id": 8453,
+          "curator_name": "Pangolins",
+          "kind": "morpho_v1",
+          "name": "Pangolins USDC",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.05584694785,
+          "vault": "0x1401d1271c47648ac70cbcdfa3776d4a87ce006b",
+          "vault_apy": 0.03945986443,
+          "yield_after_fee": 0.04108067172
+        },
+        {
+          "L_p10": 0.9712410855,
+          "aum_mean_usd": 67385254.62,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Techblock x Steakhouse EURCV",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.01534904732,
+          "vault": "0xbeef007ecfbfdf9b919d0050821a9b6dbd634ff0",
+          "vault_apy": 0.003040540987,
+          "yield_after_fee": 0.03428611477
+        },
+        {
+          "L_p10": 0.100015175,
+          "aum_mean_usd": 26006796.15,
+          "chain_id": 56,
+          "curator_name": "Lista DAO",
+          "kind": "moolah_vault",
+          "name": "Solv-Exclusive BNB Vault",
+          "protocol": "moolah",
+          "tl_v1_headline": 0.001274458375,
+          "vault": "0xb798bb56898a86b6fd49fc1eca4150efdc3ee6ea",
+          "vault_apy": 0.01901507246,
+          "yield_after_fee": 0.01702628211
+        },
+        {
+          "L_p10": 0.9998068511,
+          "aum_mean_usd": 17208168.07,
+          "chain_id": 747474,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v1",
+          "name": "Gauntlet BTCK Core",
+          "protocol": "morpho",
+          "tl_v1_headline": 0.001531025533,
+          "vault": "0x5bd1d75d45edb622d0ea50946f2f741ce8dc5b75",
+          "vault_apy": 4.345345534e-08,
+          "yield_after_fee": 1.790695002e-07
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 12766277.74,
+          "chain_id": 1,
+          "curator_name": "TelosC",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_v1_headline": 0.0,
+          "vault": "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+          "vault_apy": 0.0,
+          "yield_after_fee": 0.0
+        }
+      ]
+    },
+    "tail_loss_column": "tl_v1_headline",
+    "top_decile": {
+      "L_p10": {
+        "n": 17,
+        "on_other_metrics": {
+          "tl_v1_headline": {
+            "median_percentile": 89.94082840236686,
+            "share_in_bottom_half": 0.0,
+            "share_in_top_decile": 0.47058823529411764
+          },
+          "vault_apy": {
+            "median_percentile": 56.213017751479285,
+            "share_in_bottom_half": 0.47058823529411764,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 55.02958579881657,
+            "share_in_bottom_half": 0.4117647058823529,
+            "share_in_top_decile": 0.0
+          }
+        }
+      },
+      "tl_v1_headline": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 87.57396449704143,
+            "share_in_bottom_half": 0.11764705882352941,
+            "share_in_top_decile": 0.47058823529411764
+          },
+          "vault_apy": {
+            "median_percentile": 27.218934911242602,
+            "share_in_bottom_half": 0.6470588235294118,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 25.443786982248522,
+            "share_in_bottom_half": 0.6470588235294118,
+            "share_in_top_decile": 0.0
+          }
+        }
+      },
+      "vault_apy": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 37.278106508875744,
+            "share_in_bottom_half": 0.5882352941176471,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "tl_v1_headline": {
+            "median_percentile": 38.46153846153847,
+            "share_in_bottom_half": 0.5882352941176471,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 85.20710059171599,
+            "share_in_bottom_half": 0.29411764705882354,
+            "share_in_top_decile": 0.47058823529411764
+          }
+        }
+      },
+      "yield_after_fee": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 23.668639053254438,
+            "share_in_bottom_half": 0.8235294117647058,
+            "share_in_top_decile": 0.0
+          },
+          "tl_v1_headline": {
+            "median_percentile": 38.46153846153847,
+            "share_in_bottom_half": 0.6470588235294118,
+            "share_in_top_decile": 0.0
+          },
+          "vault_apy": {
+            "median_percentile": 89.94082840236686,
+            "share_in_bottom_half": 0.0,
+            "share_in_top_decile": 0.47058823529411764
+          }
+        }
+      }
+    },
+    "vault_level": {
+      "n_vaults": 169,
+      "note": "p_perm_clustered permutes curator means of the second metric's ranks across curators and the deviations within curators; vaults without an attributed curator are their own clusters",
+      "pairs": {
+        "tl_v1_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.7544860736775747,
+            -0.4920163630969166
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.6401139677658085
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.32966293371886246,
+            0.03260482741209852
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.08849115088491151,
+          "p_perm_naive": 0.03469653034696531,
+          "rho": -0.16466702426735966
+        },
+        "vault_apy|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.0727693092891496,
+            0.2559243150715309
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.31366863313668636,
+          "p_perm_naive": 0.2425757424257574,
+          "rho": 0.08943516432332832
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.4517581922492604,
+            0.8427691943734134
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.6618997746904778
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3757361441651936,
+            0.02270968289312886
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.050294970502949704,
+          "p_perm_naive": 0.009299070092990702,
+          "rho": -0.19905822450020372
+        },
+        "yield_after_fee|tl_v1_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.05663316174920182,
+            0.24121988228346902
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.27997200279972,
+          "p_perm_naive": 0.18048195180481952,
+          "rho": 0.10231216747053852
+        }
+      }
+    }
+  },
+  "aum_floor_10m": {
+    "aum_floor_usd": 10000000.0,
+    "non_dominated": {
+      "aum_share": 0.1845474060783091,
+      "count": 30,
+      "criteria": "no other vault has yield_after_fee >= , tl_headline <= and L_p10 >= with one strict",
+      "min_active_days": 90,
+      "of": 150,
+      "vaults": [
+        {
+          "L_p10": 0.06173885051,
+          "aum_mean_usd": 24234860.37,
+          "chain_id": 1,
+          "curator_name": "IMF",
+          "kind": "morpho_v1",
+          "name": "IMF USDS",
+          "protocol": "morpho",
+          "tl_headline": 0.01861702413,
+          "vault": "0xdef1fce2df6270fdf7e1214343bebbab8583d43d",
+          "vault_apy": 0.3655968251,
+          "yield_after_fee": 0.1019279164
+        },
+        {
+          "L_p10": 0.08608748207,
+          "aum_mean_usd": 32826080.66,
+          "chain_id": 1,
+          "curator_name": "Euler DAO",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_headline": 0.4401037107,
+          "vault": "0x3573a84bee11d49a1cbce2b291538de7a7dd81c6",
+          "vault_apy": 0.08307751741,
+          "yield_after_fee": 0.0938656692
+        },
+        {
+          "L_p10": 0.1106375607,
+          "aum_mean_usd": 422885058.2,
+          "chain_id": 1,
+          "curator_name": "SparkDAO",
+          "kind": "morpho_v1",
+          "name": "Spark DAI Vault",
+          "protocol": "morpho",
+          "tl_headline": 0.391632852,
+          "vault": "0x73e65dbd630f90604062f6e02fab9138e713edd9",
+          "vault_apy": 0.1009238891,
+          "yield_after_fee": 0.09338898106
+        },
+        {
+          "L_p10": 0.06762622348,
+          "aum_mean_usd": 13101253.36,
+          "chain_id": 1,
+          "curator_name": "Apostro",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_headline": 0.2762824623,
+          "vault": "0x3a8992754e2ef51d8f90620d2766278af5c59b90",
+          "vault_apy": 0.0697732186,
+          "yield_after_fee": 0.08436209193
+        },
+        {
+          "L_p10": 0.1470146621,
+          "aum_mean_usd": 14186091.56,
+          "chain_id": 1,
+          "curator_name": "AlphaPing",
+          "kind": "morpho_v1",
+          "name": "Falcon USDC Core",
+          "protocol": "morpho",
+          "tl_headline": 0.3061519935,
+          "vault": "0xb0f05e4de970a1aaf77f8c2f823953a367504ba9",
+          "vault_apy": 0.0656769404,
+          "yield_after_fee": 0.08165911493
+        },
+        {
+          "L_p10": 0.06833326538,
+          "aum_mean_usd": 21124124.46,
+          "chain_id": 9745,
+          "curator_name": "K3 Capital",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_headline": 0.2974172189,
+          "vault": "0xaadea03f6d6f198bdc9229bd8113aced19031773",
+          "vault_apy": 0.04037061722,
+          "yield_after_fee": 0.07961922899
+        },
+        {
+          "L_p10": 0.1276478586,
+          "aum_mean_usd": 11438428.94,
+          "chain_id": 1,
+          "curator_name": "Clearstar",
+          "kind": "morpho_v1",
+          "name": "Clearstar USDC Core",
+          "protocol": "morpho",
+          "tl_headline": 0.2500829391,
+          "vault": "0x62fe596d59fb077c2df736df212e0affb522dc78",
+          "vault_apy": 0.06776589202,
+          "yield_after_fee": 0.07862405456
+        },
+        {
+          "L_p10": 0.2358737648,
+          "aum_mean_usd": 34696850.74,
+          "chain_id": 1,
+          "curator_name": "Hyperithm",
+          "kind": "morpho_v1",
+          "name": "Hyperithm USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.1751836574,
+          "vault": "0x777791c4d6dc2ce140d00d2828a7c93503c67777",
+          "vault_apy": 0.07282468886,
+          "yield_after_fee": 0.07330506703
+        },
+        {
+          "L_p10": 0.08929375648,
+          "aum_mean_usd": 25520059.86,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDT0",
+          "protocol": "morpho",
+          "tl_headline": 0.07737877172,
+          "vault": "0xfc5126377f0efc0041c0969ef9ba903ce67d151e",
+          "vault_apy": 0.05704236793,
+          "yield_after_fee": 0.07106996532
+        },
+        {
+          "L_p10": 0.2605606735,
+          "aum_mean_usd": 86197124.82,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Smokehouse USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.1718099469,
+          "vault": "0xbeefff209270748ddd194831b3fa287a5386f5bc",
+          "vault_apy": 0.05265010444,
+          "yield_after_fee": 0.06834458312
+        },
+        {
+          "L_p10": 0.06911145459,
+          "aum_mean_usd": 14192510.01,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDH (Frontier)",
+          "protocol": "morpho",
+          "tl_headline": 0.03417887477,
+          "vault": "0x274f854b2042db1aa4d6c6e45af73588bed4fc9d",
+          "vault_apy": 0.06085889304,
+          "yield_after_fee": 0.06818145653
+        },
+        {
+          "L_p10": 0.1053760984,
+          "aum_mean_usd": 24372981.67,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.1560463152,
+          "vault": "0x8a862fd6c12f9ad34c9c2ff45ab2b6712e8cea27",
+          "vault_apy": 0.05433455027,
+          "yield_after_fee": 0.06236942947
+        },
+        {
+          "L_p10": 0.2149151238,
+          "aum_mean_usd": 17571157.3,
+          "chain_id": 1,
+          "curator_name": "Euler DAO",
+          "kind": "euler_earn",
+          "name": "Euler Earn USDC",
+          "protocol": "euler_v2",
+          "tl_headline": 0.08571147071,
+          "vault": "0x3b4802fdb0e5d74aa37d58fd77d63e93d4f9a4af",
+          "vault_apy": 0.05316182611,
+          "yield_after_fee": 0.06048118911
+        },
+        {
+          "L_p10": 0.08412613048,
+          "aum_mean_usd": 25087627.11,
+          "chain_id": 999,
+          "curator_name": "Felix",
+          "kind": "morpho_v1",
+          "name": "Felix USDC (Frontier)",
+          "protocol": "morpho",
+          "tl_headline": 0.05978649488,
+          "vault": "0x808f72b6ff632fba005c88b49c2a76ab01cab545",
+          "vault_apy": 0.05630408475,
+          "yield_after_fee": 0.05886950075
+        },
+        {
+          "L_p10": 0.521347037,
+          "aum_mean_usd": 10914982.06,
+          "chain_id": 1,
+          "curator_name": "RockawayX",
+          "kind": "morpho_v2",
+          "name": "RockawayX USDC Yield",
+          "protocol": "morpho",
+          "tl_headline": 0.1714412284,
+          "vault": "0xe0181090c22579b6a217f1522cbf8c9f1f0c1965",
+          "vault_apy": 0.06049278245,
+          "yield_after_fee": 0.05806959976
+        },
+        {
+          "L_p10": 0.406633351,
+          "aum_mean_usd": 22417614.45,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Steakhouse High Yield USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.143447871,
+          "vault": "0xbeeff2c5bf38f90e3482a8b19f12e5a6d2fca757",
+          "vault_apy": 0.0516855117,
+          "yield_after_fee": 0.0527030519
+        },
+        {
+          "L_p10": 0.1332331219,
+          "aum_mean_usd": 153908826.2,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Steakhouse USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.05117450505,
+          "vault": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb",
+          "vault_apy": 0.03509524274,
+          "yield_after_fee": 0.05017552593
+        },
+        {
+          "L_p10": 0.3425262772,
+          "aum_mean_usd": 212496265.6,
+          "chain_id": 8453,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v1",
+          "name": "Gauntlet USDC Prime",
+          "protocol": "morpho",
+          "tl_headline": 0.05407996822,
+          "vault": "0xee8f4ec5672f09119b96ab6fb59c27e1b7e44b61",
+          "vault_apy": 0.04418605736,
+          "yield_after_fee": 0.04960743562
+        },
+        {
+          "L_p10": 0.3296986851,
+          "aum_mean_usd": 59199881.82,
+          "chain_id": 1,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v1",
+          "name": "Gauntlet USDC Prime",
+          "protocol": "morpho",
+          "tl_headline": 0.05229587174,
+          "vault": "0xdd0f28e19c1780eb6396170735d45153d261490d",
+          "vault_apy": 0.03474951336,
+          "yield_after_fee": 0.04957323085
+        },
+        {
+          "L_p10": 0.6764564064,
+          "aum_mean_usd": 26798747.6,
+          "chain_id": 1,
+          "curator_name": "Hakutora",
+          "kind": "morpho_v1",
+          "name": "Hakutora USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.1389397147,
+          "vault": "0x974c8fbf4fd795f66b85b73ebc988a51f1a040a9",
+          "vault_apy": 0.03485133359,
+          "yield_after_fee": 0.04760674854
+        },
+        {
+          "L_p10": 0.7173369333,
+          "aum_mean_usd": 31538852.26,
+          "chain_id": 1,
+          "curator_name": "Armitage by Wintermute",
+          "kind": "morpho_v2",
+          "name": "Wintermute USDC Select",
+          "protocol": "morpho",
+          "tl_headline": 0.05769256844,
+          "vault": "0xa2eaad0d586cf9fd73bb2c09cf6a7e3e187d68cd",
+          "vault_apy": 0.04555307083,
+          "yield_after_fee": 0.04554092997
+        },
+        {
+          "L_p10": 0.6349909558,
+          "aum_mean_usd": 53635124.0,
+          "chain_id": 8453,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v1",
+          "name": "Grove x Steakhouse USDC High Yield",
+          "protocol": "morpho",
+          "tl_headline": 0.05443142515,
+          "vault": "0xbeef2d50b428675a1921bc6bbf4bfb9d8cf1461a",
+          "vault_apy": 0.04340880156,
+          "yield_after_fee": 0.0438826986
+        },
+        {
+          "L_p10": 0.8937373662,
+          "aum_mean_usd": 74054476.74,
+          "chain_id": 8453,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v2",
+          "name": "Gauntlet USDC Prime",
+          "protocol": "morpho",
+          "tl_headline": 0.0541994451,
+          "vault": "0x050ce30b927da55177a4914ec73480238bad56f0",
+          "vault_apy": 0.04237769728,
+          "yield_after_fee": 0.04212753484
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 19966421.16,
+          "chain_id": 8453,
+          "curator_name": "Pangolins",
+          "kind": "morpho_v1",
+          "name": "Pangolins USDC",
+          "protocol": "morpho",
+          "tl_headline": 0.05739043058,
+          "vault": "0x1401d1271c47648ac70cbcdfa3776d4a87ce006b",
+          "vault_apy": 0.03945986443,
+          "yield_after_fee": 0.04108067172
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 17446320.06,
+          "chain_id": 1,
+          "curator_name": "Armitage by Wintermute",
+          "kind": "morpho_v2",
+          "name": "Wintermute USDC Prime",
+          "protocol": "morpho",
+          "tl_headline": 0.04949977267,
+          "vault": "0x5dc53a23adc9f2bed98de6f59f7f309a7c71ff2b",
+          "vault_apy": 0.03989065184,
+          "yield_after_fee": 0.03926363326
+        },
+        {
+          "L_p10": 0.9712410855,
+          "aum_mean_usd": 67385254.62,
+          "chain_id": 1,
+          "curator_name": "Steakhouse Financial",
+          "kind": "morpho_v2",
+          "name": "Techblock x Steakhouse EURCV",
+          "protocol": "morpho",
+          "tl_headline": 0.01501073656,
+          "vault": "0xbeef007ecfbfdf9b919d0050821a9b6dbd634ff0",
+          "vault_apy": 0.003040540987,
+          "yield_after_fee": 0.03428611477
+        },
+        {
+          "L_p10": 0.100015175,
+          "aum_mean_usd": 26006796.15,
+          "chain_id": 56,
+          "curator_name": "Lista DAO",
+          "kind": "moolah_vault",
+          "name": "Solv-Exclusive BNB Vault",
+          "protocol": "moolah",
+          "tl_headline": 0.001132851888,
+          "vault": "0xb798bb56898a86b6fd49fc1eca4150efdc3ee6ea",
+          "vault_apy": 0.01901507246,
+          "yield_after_fee": 0.01702628211
+        },
+        {
+          "L_p10": 0.7981216537,
+          "aum_mean_usd": 40899875.94,
+          "chain_id": 1,
+          "curator_name": "Sky Money",
+          "kind": "morpho_v2",
+          "name": "sky.money USDS Flagship",
+          "protocol": "morpho",
+          "tl_headline": 0.01419814127,
+          "vault": "0xe15fcc81118895b67b6647bbd393182df44e11e0",
+          "vault_apy": 0.005226630963,
+          "yield_after_fee": 0.005055060581
+        },
+        {
+          "L_p10": 0.9998068511,
+          "aum_mean_usd": 17208168.07,
+          "chain_id": 747474,
+          "curator_name": "Gauntlet",
+          "kind": "morpho_v1",
+          "name": "Gauntlet BTCK Core",
+          "protocol": "morpho",
+          "tl_headline": 0.001531025533,
+          "vault": "0x5bd1d75d45edb622d0ea50946f2f741ce8dc5b75",
+          "vault_apy": 4.345345534e-08,
+          "yield_after_fee": 1.790695002e-07
+        },
+        {
+          "L_p10": 1.0,
+          "aum_mean_usd": 12766277.74,
+          "chain_id": 1,
+          "curator_name": "TelosC",
+          "kind": "euler_lending",
+          "name": null,
+          "protocol": "euler_v2",
+          "tl_headline": 0.0,
+          "vault": "0xf1ba8c5ca5ab011d06f31e64dad313d204acb9eb",
+          "vault_apy": 0.0,
+          "yield_after_fee": 0.0
+        }
+      ]
+    },
+    "tail_loss_column": "tl_headline",
+    "top_decile": {
+      "L_p10": {
+        "n": 17,
+        "on_other_metrics": {
+          "tl_headline": {
+            "median_percentile": 86.98224852071006,
+            "share_in_bottom_half": 0.0,
+            "share_in_top_decile": 0.35294117647058826
+          },
+          "vault_apy": {
+            "median_percentile": 56.213017751479285,
+            "share_in_bottom_half": 0.47058823529411764,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 55.02958579881657,
+            "share_in_bottom_half": 0.4117647058823529,
+            "share_in_top_decile": 0.0
+          }
+        }
+      },
+      "tl_headline": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 85.20710059171599,
+            "share_in_bottom_half": 0.17647058823529413,
+            "share_in_top_decile": 0.35294117647058826
+          },
+          "vault_apy": {
+            "median_percentile": 10.650887573964498,
+            "share_in_bottom_half": 0.8235294117647058,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 19.526627218934912,
+            "share_in_bottom_half": 0.8235294117647058,
+            "share_in_top_decile": 0.11764705882352941
+          }
+        }
+      },
+      "vault_apy": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 37.278106508875744,
+            "share_in_bottom_half": 0.5882352941176471,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "tl_headline": {
+            "median_percentile": 34.9112426035503,
+            "share_in_bottom_half": 0.8823529411764706,
+            "share_in_top_decile": 0.058823529411764705
+          },
+          "yield_after_fee": {
+            "median_percentile": 85.20710059171599,
+            "share_in_bottom_half": 0.29411764705882354,
+            "share_in_top_decile": 0.47058823529411764
+          }
+        }
+      },
+      "yield_after_fee": {
+        "n": 17,
+        "on_other_metrics": {
+          "L_p10": {
+            "median_percentile": 23.668639053254438,
+            "share_in_bottom_half": 0.8235294117647058,
+            "share_in_top_decile": 0.0
+          },
+          "tl_headline": {
+            "median_percentile": 32.544378698224854,
+            "share_in_bottom_half": 0.7647058823529411,
+            "share_in_top_decile": 0.11764705882352941
+          },
+          "vault_apy": {
+            "median_percentile": 89.94082840236686,
+            "share_in_bottom_half": 0.0,
+            "share_in_top_decile": 0.47058823529411764
+          }
+        }
+      }
+    },
+    "vault_level": {
+      "n_vaults": 169,
+      "note": "p_perm_clustered permutes curator means of the second metric's ranks across curators and the deviations within curators; vaults without an attributed curator are their own clusters",
+      "pairs": {
+        "tl_headline|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.7154362432457144,
+            -0.46667068307702597
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": -0.6000238675963738
+        },
+        "vault_apy|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.3330416559021004,
+            0.03942530840734645
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.0888911108889111,
+          "p_perm_naive": 0.032096790320967905,
+          "rho": -0.16466702426735966
+        },
+        "vault_apy|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.03745242035921186,
+            0.3402085917551481
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.0674932506749325,
+          "p_perm_naive": 0.033996600339966,
+          "rho": 0.16468277523193503
+        },
+        "vault_apy|yield_after_fee": {
+          "ci95_cluster_bootstrap": [
+            0.45396200764403893,
+            0.841591038535123
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 9.999000099990002e-05,
+          "p_perm_naive": 9.999000099990002e-05,
+          "rho": 0.6618997746904778
+        },
+        "yield_after_fee|L_p10": {
+          "ci95_cluster_bootstrap": [
+            -0.37452244131244977,
+            0.023633581852605237
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.05549445055494451,
+          "p_perm_naive": 0.009099090090990901,
+          "rho": -0.19905822450020372
+        },
+        "yield_after_fee|tl_headline": {
+          "ci95_cluster_bootstrap": [
+            -0.05954773536950462,
+            0.28598510109714337
+          ],
+          "clusters": 36,
+          "n": 169,
+          "p_perm_clustered": 0.19988001199880012,
+          "p_perm_naive": 0.11658834116588342,
+          "rho": 0.12022524986325893
+        }
+      }
+    }
+  },
+  "aum_floor_usd": null,
+  "curator_level": {
+    "n_curators": 68,
+    "note": "curators are the units; naive and clustered p coincide",
+    "pairs": {
+      "tl_headline|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.6713591496787727,
+          -0.2083704116490876
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.4624429732514454
+      },
+      "vault_apy|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.5776424110652054,
+          -0.11635085780252839
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.0023997600239976003,
+        "p_perm_naive": 0.0030996900309969004,
+        "rho": -0.3646897136947438
+      },
+      "vault_apy|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          -0.08407947717620609,
+          0.4572093883467404
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.12638736126387362,
+        "p_perm_naive": 0.12468753124687532,
+        "rho": 0.18850925749188777
+      },
+      "vault_apy|yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          0.1880164106479947,
+          0.6641425948602078
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.00029997000299970003,
+        "p_perm_naive": 0.00029997000299970003,
+        "rho": 0.43468468500140384
+      },
+      "yield_after_fee|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.31954367358198243,
+          0.1736542094861735
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.553044695530447,
+        "p_perm_naive": 0.5514448555144486,
+        "rho": -0.07287789454634834
+      },
+      "yield_after_fee|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          -0.1717028078116532,
+          0.3292025449978784
+        ],
+        "clusters": 68,
+        "n": 68,
+        "p_perm_clustered": 0.5053494650534947,
+        "p_perm_naive": 0.50994900509949,
+        "rho": 0.08256985805374871
+      }
+    }
+  },
+  "depths": [
+    0.15,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "event_depths": [
+    0.09079999999999999,
+    0.13380000000000003,
+    0.24950000000000006,
+    0.4,
+    0.41979999999999995,
+    0.49539999999999995,
+    0.6397999999999999,
+    0.8341000000000001,
+    0.8426,
+    0.9397,
+    0.9923825148724971,
+    0.992628818208281,
+    0.99999999
+  ],
+  "event_median_depth": 0.6397999999999999,
+  "headline_depth": 0.5,
+  "headline_depth_rule": "fixed parameter HEADLINE_DEPTH; event_median_depth, the median of 1 - min_market_price over the E2 depeg-loss events, is its justification",
+  "metrics": {
+    "L_p10": {
+      "better": "higher",
+      "label": "liquidity (10th percentile of L)"
+    },
+    "tl_headline": {
+      "better": "lower",
+      "label": "tail loss (headline)"
+    },
+    "vault_apy": {
+      "better": "higher",
+      "label": "vault APY"
+    },
+    "yield_after_fee": {
+      "better": "higher",
+      "label": "net realized yield (after fee)"
+    }
+  },
+  "non_dominated": {
+    "count": 9,
+    "criteria": "no other vault has yield_after_fee >= , tl_headline <= and L_p10 >= with one strict",
+    "of": 875,
+    "vaults": [
+      {
+        "L_p10": 0.004029493779614348,
+        "aum_mean_usd": 18871.963044243086,
+        "chain_id": 1,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "MaxEarn USDC",
+        "protocol": "morpho",
+        "tl_headline": 0.4010380736457555,
+        "vault": "0x51056b3f809f4cfe17e1a8715b82f5dbbca5a5a1",
+        "vault_apy": 0.24329896977664014,
+        "yield_after_fee": 1.4589824113338112
+      },
+      {
+        "L_p10": 0.15516118113328417,
+        "aum_mean_usd": 63468.44955134926,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Pocky High Yield USDC",
+        "protocol": "morpho",
+        "tl_headline": 0.04054891695654942,
+        "vault": "0xebc997b855b9a4e0b6cd06e4758801e6ff068e07",
+        "vault_apy": 0.19910637874277126,
+        "yield_after_fee": 0.49639126124176297
+      },
+      {
+        "L_p10": 4.9788673099563196e-14,
+        "aum_mean_usd": 3491568.220054092,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Lunar Labs Treasury USDC Vault",
+        "protocol": "morpho",
+        "tl_headline": 0.0,
+        "vault": "0xf4d4fcdde388408c7a295e1c34c7b204bc0b4bac",
+        "vault_apy": 1.0,
+        "yield_after_fee": 0.41716146430266554
+      },
+      {
+        "L_p10": 0.39239851659311636,
+        "aum_mean_usd": 60243.78991830641,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Max USD",
+        "protocol": "morpho",
+        "tl_headline": 0.042856667946028035,
+        "vault": "0x3094b241aade60f91f1c82b0628a10d9501462f9",
+        "vault_apy": 0.12842909840749958,
+        "yield_after_fee": 0.4098589744527726
+      },
+      {
+        "L_p10": 0.27749992322691924,
+        "aum_mean_usd": 44569.2011251387,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "CPT48 Selection",
+        "protocol": "morpho",
+        "tl_headline": 0.033030375602069006,
+        "vault": "0xc8adbfcfac975583c8684c4e12633907315ca610",
+        "vault_apy": 0.15394216356105142,
+        "yield_after_fee": 0.3917091645499087
+      },
+      {
+        "L_p10": 0.09716239361932741,
+        "aum_mean_usd": 507061.9733440921,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Macro USDC Vault",
+        "protocol": "morpho",
+        "tl_headline": 0.007334684643267685,
+        "vault": "0x68aa3790a192e46810a8b423980b96924662bba8",
+        "vault_apy": 0.2618694085874395,
+        "yield_after_fee": 0.21421309950095638
+      },
+      {
+        "L_p10": 0.11876040804865678,
+        "aum_mean_usd": 97847.51129276895,
+        "chain_id": 8453,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Longtail Strategy USDC",
+        "protocol": "morpho",
+        "tl_headline": 0.0,
+        "vault": "0x0f7a0b454dc4071f3c94c97798d5f74366c3c1d7",
+        "vault_apy": 0.09120122170423564,
+        "yield_after_fee": 0.14167306313048936
+      },
+      {
+        "L_p10": 1.0,
+        "aum_mean_usd": 558599.004146332,
+        "chain_id": 999,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "GOATed Vault",
+        "protocol": "morpho",
+        "tl_headline": 0.0212524559786703,
+        "vault": "0x4a0388a8e1b79a0830fcc5da68e955406d171787",
+        "vault_apy": 0.12425687206798591,
+        "yield_after_fee": 0.13674749595375785
+      },
+      {
+        "L_p10": 1.0,
+        "aum_mean_usd": 26623.474311745867,
+        "chain_id": 999,
+        "curator_name": "",
+        "kind": "morpho_v1",
+        "name": "Vaultik USDHL",
+        "protocol": "morpho",
+        "tl_headline": 0.0,
+        "vault": "0xc09bbb2a09f302ae5586cd3f3e8554a575956ac9",
+        "vault_apy": 0.07447984007314218,
+        "yield_after_fee": 0.11075019298116028
+      }
+    ]
+  },
+  "phi_sensitivity": {
+    "tl_headline_phi000": {
+      "L_p10|tl_headline_phi000": {
+        "ci95_cluster_bootstrap": [
+          -0.4468486606231663,
+          -0.23346224670253538
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.34026482894135496
+      },
+      "vault_apy|tl_headline_phi000": {
+        "ci95_cluster_bootstrap": [
+          0.052839837298608444,
+          0.3589929905743992
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.21093329280786943
+      },
+      "yield_after_fee|tl_headline_phi000": {
+        "ci95_cluster_bootstrap": [
+          0.03981142690877682,
+          0.3142850661251477
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 0.00019998000199980003,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.18843373375451644
+      }
+    },
+    "tl_headline_phi050": {
+      "L_p10|tl_headline_phi050": {
+        "ci95_cluster_bootstrap": [
+          -0.5330675200753409,
+          -0.32965253641943854
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.4329168533907615
+      },
+      "vault_apy|tl_headline_phi050": {
+        "ci95_cluster_bootstrap": [
+          0.06027901585953077,
+          0.3443962044767445
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.20645432677584036
+      },
+      "yield_after_fee|tl_headline_phi050": {
+        "ci95_cluster_bootstrap": [
+          0.034808480978713315,
+          0.3029543113406121
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.18424040372935013
+      }
+    }
+  },
+  "tail_loss_column": "tl_headline",
+  "top_decile": {
+    "L_p10": {
+      "n": 88,
+      "on_other_metrics": {
+        "tl_headline": {
+          "median_percentile": 66.0,
+          "share_in_bottom_half": 0.2840909090909091,
+          "share_in_top_decile": 0.125
+        },
+        "vault_apy": {
+          "median_percentile": 54.114285714285714,
+          "share_in_bottom_half": 0.4318181818181818,
+          "share_in_top_decile": 0.0
+        },
+        "yield_after_fee": {
+          "median_percentile": 51.2,
+          "share_in_bottom_half": 0.45454545454545453,
+          "share_in_top_decile": 0.022727272727272728
+        }
+      }
+    },
+    "tl_headline": {
+      "n": 88,
+      "on_other_metrics": {
+        "L_p10": {
+          "median_percentile": 75.19999999999999,
+          "share_in_bottom_half": 0.3409090909090909,
+          "share_in_top_decile": 0.2840909090909091
+        },
+        "vault_apy": {
+          "median_percentile": 7.542857142857143,
+          "share_in_bottom_half": 0.7272727272727273,
+          "share_in_top_decile": 0.13636363636363635
+        },
+        "yield_after_fee": {
+          "median_percentile": 10.057142857142857,
+          "share_in_bottom_half": 0.75,
+          "share_in_top_decile": 0.11363636363636363
+        }
+      }
+    },
+    "vault_apy": {
+      "n": 88,
+      "on_other_metrics": {
+        "L_p10": {
+          "median_percentile": 14.228571428571428,
+          "share_in_bottom_half": 0.8295454545454546,
+          "share_in_top_decile": 0.011363636363636364
+        },
+        "tl_headline": {
+          "median_percentile": 32.05714285714286,
+          "share_in_bottom_half": 0.6931818181818182,
+          "share_in_top_decile": 0.13636363636363635
+        },
+        "yield_after_fee": {
+          "median_percentile": 91.14285714285714,
+          "share_in_bottom_half": 0.2727272727272727,
+          "share_in_top_decile": 0.5113636363636364
+        }
+      }
+    },
+    "yield_after_fee": {
+      "n": 88,
+      "on_other_metrics": {
+        "L_p10": {
+          "median_percentile": 20.799999999999997,
+          "share_in_bottom_half": 0.7727272727272727,
+          "share_in_top_decile": 0.06818181818181818
+        },
+        "tl_headline": {
+          "median_percentile": 33.77142857142857,
+          "share_in_bottom_half": 0.6931818181818182,
+          "share_in_top_decile": 0.11363636363636363
+        },
+        "vault_apy": {
+          "median_percentile": 90.11428571428571,
+          "share_in_bottom_half": 0.056818181818181816,
+          "share_in_top_decile": 0.5113636363636364
+        }
+      }
+    }
+  },
+  "v1_vs_v2": {
+    "curator_level_spearman_headline": 0.8489845784167227,
+    "note": "v2 is the oracle-aware tail loss in tl_*, v1 the first-pass formula in tl_v1_*",
+    "vault_level_spearman_by_depth": {
+      "d0150": 0.8223678274949636,
+      "d0300": 0.8367662532882228,
+      "d0500": 0.8765711303701791,
+      "d1000": 0.9028661625326195
+    },
+    "vault_level_spearman_headline": 0.8798139019002585
+  },
+  "vault_level": {
+    "n_vaults": 875,
+    "note": "p_perm_clustered permutes curator means of the second metric's ranks across curators and the deviations within curators; vaults without an attributed curator are their own clusters",
+    "pairs": {
+      "tl_headline|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.4992810218793201,
+          -0.2747602660520019
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.38780508063863006
+      },
+      "vault_apy|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.30951632396969875,
+          -0.05637097832342716
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 0.00029997000299970003,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.18682561179468052
+      },
+      "vault_apy|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.06268136030506723,
+          0.3591804470909534
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.21133105047729753
+      },
+      "vault_apy|yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          0.6555281185888939,
+          0.7979541962433304
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.7364701876796529
+      },
+      "yield_after_fee|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.2973759274817629,
+          0.005494472212985111
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 0.0006999300069993001,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.14720751216233685
+      },
+      "yield_after_fee|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.03563323496265921,
+          0.3107756113253256
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.18759368258179301
+      }
+    }
+  },
+  "vault_level_allocator_vaults_only": {
+    "n_vaults": 704,
+    "pairs": {
+      "tl_headline|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.4315633795247831,
+          -0.220574678373277
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.3215670131292096
+      },
+      "vault_apy|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.23517445244125296,
+          0.003987438358303615
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 0.11308869113088692,
+        "p_perm_naive": 0.0047995200479952005,
+        "rho": -0.10499286867639891
+      },
+      "vault_apy|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.000605076572467794,
+          0.2268096993611889
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 0.06359364063593641,
+        "p_perm_naive": 0.0028997100289971,
+        "rho": 0.11307731647217364
+      },
+      "vault_apy|yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          0.6368877322809674,
+          0.7830200127245732
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.7155942644230777
+      },
+      "yield_after_fee|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.10497675794477691,
+          0.08704853520131224
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 0.8384161583841616,
+        "p_perm_naive": 0.7546245375462454,
+        "rho": -0.012133727024352765
+      },
+      "yield_after_fee|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          -0.03934598150177846,
+          0.18993409470297976
+        ],
+        "clusters": 212,
+        "n": 704,
+        "p_perm_clustered": 0.11328867113288671,
+        "p_perm_naive": 0.019498050194980503,
+        "rho": 0.08730108822777037
+      }
+    }
+  },
+  "vault_level_apy_with_rewards": {
+    "n_vaults": 875,
+    "pairs": {
+      "vault_apy|L_p10": {
+        "ci95_cluster_bootstrap": [
+          -0.3466552690008359,
+          -0.09702096461599606
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": -0.2204480309779761
+      },
+      "vault_apy|tl_headline": {
+        "ci95_cluster_bootstrap": [
+          0.044107778893326684,
+          0.33524923225173825
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 0.00019998000199980003,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.1928116974583342
+      },
+      "vault_apy|yield_after_fee": {
+        "ci95_cluster_bootstrap": [
+          0.604779260452574,
+          0.759830210110354
+        ],
+        "clusters": 224,
+        "n": 875,
+        "p_perm_clustered": 9.999000099990002e-05,
+        "p_perm_naive": 9.999000099990002e-05,
+        "rho": 0.6886499090395134
+      }
+    }
+  }
+}

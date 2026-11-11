@@ -1,0 +1,40 @@
+{
+  "chain_id": 4663,
+  "etherscan_calls": 63,
+  "generator": "code/data/oracles.py",
+  "manual_patch_reverted": {
+    "date": "2026-10-16",
+    "market_ids": [
+      "0x6d7da35d1e6b24bdd5a67cb0adbe9eb758d20471b849ba25039f06f48182ac49",
+      "0xee04847a312224d551d2267bb5c2c2695777af5fd1f05347bdcca397e8f54336"
+    ],
+    "rows": 2,
+    "why": "reverted to their pass-1 content: the rules added after their pass-2 run (Chainlink aggregators read directly are market feeds named by their proxy; a rate read on a contract with no symbol converts the current asset) would change them, and rerunning needed RPC beyond the pass budget; the next --retrace reclassifies them"
+  },
+  "protocol": "morpho",
+  "routescan_calls": 1,
+  "rows": 303,
+  "rpc_calls": 541,
+  "runtime_seconds": 46.214,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace morpho:4663",
+      "rows_reclassified": 135,
+      "rpc_calls": 2,
+      "runtime_seconds": 1.01
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:4663",
+      "rows_reclassified": 107,
+      "rpc_calls": 4,
+      "runtime_seconds": 0.98
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:4663 --historical --reverting",
+      "rows_reclassified": 52,
+      "rpc_calls": 2,
+      "runtime_seconds": 0.531
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:53+00:00"
+}

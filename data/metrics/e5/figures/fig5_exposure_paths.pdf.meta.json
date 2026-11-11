@@ -1,0 +1,6 @@
+{
+  "data": "data/metrics/e5/fig5_data.csv",
+  "generator": "code/analysis/e5_events.py",
+  "what": "Fig 5: exposure paths in the six largest events, one line per curator",
+  "written_utc": "2026-10-18T22:50:52+00:00"
+}

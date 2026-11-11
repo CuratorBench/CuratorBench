@@ -1,0 +1,37 @@
+{
+  "chain_id": 42161,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "morpho",
+  "routescan_calls": 0,
+  "rows": 258,
+  "rpc_calls": 19,
+  "runtime_seconds": 2.582,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace morpho:42161",
+      "rows_reclassified": 29,
+      "rpc_calls": 2,
+      "runtime_seconds": 0.277
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:42161",
+      "rows_reclassified": 70,
+      "rpc_calls": 7,
+      "runtime_seconds": 1.005
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:42161",
+      "rows_reclassified": 48,
+      "rpc_calls": 6,
+      "runtime_seconds": 0.737
+    },
+    {
+      "command": "code/data/oracles.py --retrace morpho:42161 --historical --reverting",
+      "rows_reclassified": 19,
+      "rpc_calls": 2,
+      "runtime_seconds": 0.374
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:52+00:00"
+}

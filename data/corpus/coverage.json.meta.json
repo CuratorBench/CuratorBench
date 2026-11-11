@@ -1,0 +1,6 @@
+{
+  "generator": "code/corpus/crawl.py",
+  "month_basis": "visible_from (max of published and modified)",
+  "what": "corpus coverage by source type, evidence, asset and month; per E2 event the documents about its collateral visible to the cutoff filter at onset, in the 30 days before onset, and after onset",
+  "written_utc": "2026-10-09T13:30:31+00:00"
+}

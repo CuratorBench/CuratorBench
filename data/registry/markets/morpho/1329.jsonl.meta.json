@@ -1,0 +1,19 @@
+{
+  "chain": "sei",
+  "chain_id": 1329,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "SeiMainnet",
+    "listed_by_api": false,
+    "morpho": "0xc9cDAc20FCeAAF616f7EB0bb6Cd2c69dcfa9094c",
+    "vault_v1_factories": [
+      "0x8Dea49ec5bd5AeAc8bcf96B3E187F59354118291"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 41,
+  "scanned_to_block": 235256507,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:43:35+00:00"
+}

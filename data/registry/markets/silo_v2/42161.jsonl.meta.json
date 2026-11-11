@@ -1,0 +1,15 @@
+{
+  "chain": "arbitrum",
+  "chain_id": 42161,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "arbitrum_one",
+    "silo_factory": "0xAFd8F792cb025A76C4916652CfC8e20eee3b6fe2",
+    "silo_vaults_factory": "0x2976d3Ea35adcd185bBF79b201424f9607D49D30"
+  },
+  "rows": 242,
+  "scanned_to_block": 510856196,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:53:02+00:00"
+}

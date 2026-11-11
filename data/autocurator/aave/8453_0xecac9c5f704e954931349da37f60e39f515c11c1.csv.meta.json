@@ -1,0 +1,9 @@
+{
+ "chain": "Base",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "247badef-51c2-4f50-b484-9d39226b4a4c",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/247badef-51c2-4f50-b484-9d39226b4a4c",
+ "symbol": "LBTC",
+ "written_utc": "2026-10-25T19:58:37Z"
+}

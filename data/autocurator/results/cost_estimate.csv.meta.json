@@ -1,0 +1,193 @@
+{
+ "call_rates": {
+  "all": {
+   "2025-10-02": {
+    "calls": 5157,
+    "days": 7540,
+    "rate": 0.6839522546419098
+   },
+   "2026-03-04": {
+    "calls": 3940,
+    "days": 5874,
+    "rate": 0.6707524685052775
+   },
+   "all": {
+    "calls": 5157,
+    "days": 7540,
+    "rate": 0.6839522546419098
+   }
+  },
+  "daily": {
+   "2025-10-02": {
+    "calls": 7540,
+    "days": 7540,
+    "rate": 1.0
+   },
+   "2026-03-04": {
+    "calls": 5874,
+    "days": 5874,
+    "rate": 1.0
+   },
+   "all": {
+    "calls": 7540,
+    "days": 7540,
+    "rate": 1.0
+   }
+  },
+  "severe": {
+   "2025-10-02": {
+    "calls": 1769,
+    "days": 9862,
+    "rate": 0.1793753802474143
+   },
+   "2026-03-04": {
+    "calls": 1026,
+    "days": 5874,
+    "rate": 0.17466802860061287
+   },
+   "all": {
+    "calls": 3169,
+    "days": 17794,
+    "rate": 0.17809373946274024
+   }
+  }
+ },
+ "generator": "code/autocurator/evaluate.py",
+ "inputs": "data",
+ "latency_s": {
+  "base": 3.0,
+  "per_1k_in": 0.313,
+  "per_out": 0.0497
+ },
+ "layers": {
+  "all": {
+   "calls": 5151,
+   "calls_with_tools": 1047,
+   "facts": {
+    "max": 4449,
+    "mean": 562.4,
+    "median": 366,
+    "p90": 1411
+   },
+   "mechanics": {
+    "max": 1090,
+    "mean": 1052.2,
+    "median": 1047,
+    "p90": 1090
+   },
+   "system": {
+    "max": 897,
+    "mean": 897.0,
+    "median": 897,
+    "p90": 897
+   },
+   "table": {
+    "max": 87,
+    "mean": 12.2,
+    "median": 9,
+    "p90": 20
+   },
+   "tail": {
+    "max": 8838,
+    "mean": 1436.2,
+    "median": 1237,
+    "p90": 2516
+   },
+   "total": {
+    "max": 13546,
+    "mean": 3947.8,
+    "median": 3574,
+    "p90": 5515
+   }
+  },
+  "daily": {
+   "calls": 7495,
+   "calls_with_tools": 1504,
+   "facts": {
+    "max": 4449,
+    "mean": 543.3,
+    "median": 343,
+    "p90": 1392
+   },
+   "mechanics": {
+    "max": 1090,
+    "mean": 1054.6,
+    "median": 1047,
+    "p90": 1090
+   },
+   "system": {
+    "max": 869,
+    "mean": 869.0,
+    "median": 869,
+    "p90": 869
+   },
+   "table": {
+    "max": 88,
+    "mean": 11.4,
+    "median": 8,
+    "p90": 19
+   },
+   "tail": {
+    "max": 9049,
+    "mean": 1259.7,
+    "median": 1015,
+    "p90": 2365
+   },
+   "total": {
+    "max": 13760,
+    "mean": 3726.6,
+    "median": 3342,
+    "p90": 5369
+   }
+  },
+  "severe": {
+   "calls": 3094,
+   "calls_with_tools": 595,
+   "facts": {
+    "max": 5651,
+    "mean": 598.8,
+    "median": 366.0,
+    "p90": 1443
+   },
+   "mechanics": {
+    "max": 1090,
+    "mean": 1053.7,
+    "median": 1046.0,
+    "p90": 1090
+   },
+   "system": {
+    "max": 1008,
+    "mean": 1008.0,
+    "median": 1008.0,
+    "p90": 1008
+   },
+   "table": {
+    "max": 87,
+    "mean": 10.5,
+    "median": 7.0,
+    "p90": 19
+   },
+   "tail": {
+    "max": 9116,
+    "mean": 1045.4,
+    "median": 745.0,
+    "p90": 1969
+   },
+   "total": {
+    "max": 13709,
+    "mean": 3705.9,
+    "median": 3195.5,
+    "p90": 5102
+   }
+  }
+ },
+ "list_tokens": 1200,
+ "ops_assumed": 6,
+ "out_tokens_base": 60,
+ "out_tokens_per_op": 45,
+ "out_tokens_tool": 40,
+ "prices": "docs/d6-llm-selection.md section 1; cache multiples and minimums: models.CACHE (assumptions)",
+ "rows": 369,
+ "thinking_tokens": 1000,
+ "written_utc": "2026-10-24T05:00:24Z"
+}

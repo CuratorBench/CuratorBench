@@ -1,0 +1,7 @@
+{
+  "generator": "code/corpus/crawl.py",
+  "resolved": 53,
+  "rows": 64,
+  "what": "public red flags named by the source research (seeds/issuers.jsonl red_flags), with the event they precede and the corpus documents they resolved to",
+  "written_utc": "2026-10-09T13:30:23+00:00"
+}

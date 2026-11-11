@@ -1,0 +1,21 @@
+{
+  "chain": "worldchain",
+  "chain_id": 480,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "World Chain",
+    "listed_by_api": true,
+    "morpho": "0xE741BC7c34758b4caE05062794E8Ae24978AF432",
+    "vault_v1_factories": [
+      "0x4DBB3a642a2146d5413750Cca3647086D9ba5F12"
+    ],
+    "vault_v2_factories": [
+      "0x6846EA318B6B987Ee6b28eBFd87c3409F1d13108"
+    ]
+  },
+  "rows": 32,
+  "scanned_to_block": 35786527,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:38:15+00:00"
+}

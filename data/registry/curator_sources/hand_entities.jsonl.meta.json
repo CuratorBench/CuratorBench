@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-09",
+  "generator": "hand (supervised check; Etherscan v2 getsourcecode, Etherscan address pages, getOwners() at the head, forward-verified ENS, DefiLlama-Adapters registries/curators.js at commit b446f08e, Morpho forum and blog posts)",
+  "notes": "Alchemix: evidence in data/resume/excluded-vaults.md section 2. B.Protocol and Block Analitica, Relend Network, Varlamore Capital, Vesper Finance, IMF, Ellen Capital: data/resume/gaps-2026-10-09.md section 1",
+  "rows": 27,
+  "what": "Hand-verified curator addresses: one row per (entity, chain, address) with the roles seen in data/vaults/<protocol>/<chain>/roles.jsonl, the evidence and a source URL. Read by code/analysis/curators.py as confidence 'hand', ranked after the official lists and before clustering"
+}

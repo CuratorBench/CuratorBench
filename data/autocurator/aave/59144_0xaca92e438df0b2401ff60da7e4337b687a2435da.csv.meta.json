@@ -1,0 +1,9 @@
+{
+ "chain": "Linea",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "742a82e6-927a-45e3-9684-0ec63fed1700",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/742a82e6-927a-45e3-9684-0ec63fed1700",
+ "symbol": "MUSD",
+ "written_utc": "2026-10-25T19:58:26Z"
+}

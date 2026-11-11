@@ -1,0 +1,2815 @@
+{
+  "generator": "s2/s2_events.py",
+  "merge_gap_secs": 604800,
+  "n_events_before_filters": 92,
+  "n_false_positive_events_filtered": 39,
+  "n_hits": 64,
+  "r16_symbol_split_by_contract": [
+    {
+      "hits_by_family": {
+        "defillama:297": 4,
+        "defillama:326": 2
+      },
+      "kept": "defillama:297",
+      "symbol": "msUSD"
+    }
+  ],
+  "r19": {
+    "floor_usd": 100.0,
+    "legacy_map": [
+      {
+        "family_key": "AVLT",
+        "from_utc": "2026-06-19 09:16",
+        "legacy_id": "E001",
+        "legacy_min_collateral_price": 0.5802,
+        "n_hits": 2,
+        "n_hits_supported": 2,
+        "now": [
+          "E001"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-08-20 04:13"
+      },
+      {
+        "family_key": "DETH",
+        "from_utc": "2026-04-18 16:00",
+        "legacy_id": "E002",
+        "legacy_min_collateral_price": 0.5779,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-04-29 16:00"
+      },
+      {
+        "family_key": "MUSD",
+        "from_utc": "2026-04-06 22:34",
+        "legacy_id": "E003",
+        "legacy_min_collateral_price": 0.9538,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-06-10 03:08"
+      },
+      {
+        "family_key": "MUSD",
+        "from_utc": "2026-06-18 21:36",
+        "legacy_id": "E004",
+        "legacy_min_collateral_price": 0.9538,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 00:01"
+      },
+      {
+        "family_key": "RLP",
+        "from_utc": "2024-12-30 18:17",
+        "legacy_id": "E005",
+        "legacy_min_collateral_price": 0.166,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-01-10 15:46"
+      },
+      {
+        "family_key": "RLP",
+        "from_utc": "2025-01-21 16:05",
+        "legacy_id": "E006",
+        "legacy_min_collateral_price": 0.166,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-02-01 12:58"
+      },
+      {
+        "family_key": "RLP",
+        "from_utc": "2025-08-01 15:21",
+        "legacy_id": "E007",
+        "legacy_min_collateral_price": 0.166,
+        "n_hits": 2,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-08-29 00:00"
+      },
+      {
+        "family_key": "RLP",
+        "from_utc": "2026-01-10 07:58",
+        "legacy_id": "E008",
+        "legacy_min_collateral_price": 0.166,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-01-30 21:15"
+      },
+      {
+        "family_key": "RLP",
+        "from_utc": "2026-02-24 04:00",
+        "legacy_id": "E009",
+        "legacy_min_collateral_price": 0.166,
+        "n_hits": 7,
+        "n_hits_supported": 7,
+        "now": [
+          "E002"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-08-20 00:01"
+      },
+      {
+        "family_key": "USDX",
+        "from_utc": "2025-07-03 14:08",
+        "legacy_id": "E010",
+        "legacy_min_collateral_price": 0.9204,
+        "n_hits": 10,
+        "n_hits_supported": 10,
+        "now": [
+          "E003"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2025-11-09 08:49"
+      },
+      {
+        "family_key": "USR",
+        "from_utc": "2024-12-30 04:10",
+        "legacy_id": "E011",
+        "legacy_min_collateral_price": 0.2076,
+        "n_hits": 3,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-02-01 12:58"
+      },
+      {
+        "family_key": "USR",
+        "from_utc": "2025-02-20 22:36",
+        "legacy_id": "E012",
+        "legacy_min_collateral_price": 0.0165,
+        "n_hits": 46,
+        "n_hits_supported": 19,
+        "now": [
+          "E004"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+          "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it"
+        ],
+        "to_utc": "2026-08-20 06:43"
+      },
+      {
+        "family_key": "apxUSD",
+        "from_utc": "2026-05-30 19:54",
+        "legacy_id": "E013",
+        "legacy_min_collateral_price": 0.5303,
+        "n_hits": 3,
+        "n_hits_supported": 3,
+        "now": [
+          "E005"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-06-16 10:10"
+      },
+      {
+        "family_key": "bUSD0",
+        "from_utc": "2024-12-26 19:12",
+        "legacy_id": "E014",
+        "legacy_min_collateral_price": 0.9078,
+        "n_hits": 4,
+        "n_hits_supported": 3,
+        "now": [
+          "E006"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it"
+        ],
+        "to_utc": "2026-08-20 00:01"
+      },
+      {
+        "family_key": "crvPlain3andSUSD",
+        "from_utc": "2025-11-02 12:00",
+        "legacy_id": "E015",
+        "legacy_min_collateral_price": 0.7841,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-11-12 04:00"
+      },
+      {
+        "family_key": "eUSDe",
+        "from_utc": "2025-01-05 11:04",
+        "legacy_id": "E016",
+        "legacy_min_collateral_price": 0.829,
+        "n_hits": 2,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-03-21 16:14"
+      },
+      {
+        "family_key": "eUSDe",
+        "from_utc": "2025-11-16 11:22",
+        "legacy_id": "E017",
+        "legacy_min_collateral_price": 0.829,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-11-26 21:57"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2024-11-07 09:00",
+        "legacy_id": "E018",
+        "legacy_min_collateral_price": 0.7009,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-11-26 18:56"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2024-12-05 16:13",
+        "legacy_id": "E019",
+        "legacy_min_collateral_price": 0.4574,
+        "n_hits": 3,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-12-24 13:42"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2025-01-28 16:52",
+        "legacy_id": "E020",
+        "legacy_min_collateral_price": 0.7599,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-03-19 20:24"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2025-04-24 17:43",
+        "legacy_id": "E021",
+        "legacy_min_collateral_price": 0.4574,
+        "n_hits": 7,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-08-13 20:57"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2025-08-31 19:36",
+        "legacy_id": "E022",
+        "legacy_min_collateral_price": 0.4574,
+        "n_hits": 3,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-09-13 08:48"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2025-09-21 14:37",
+        "legacy_id": "E023",
+        "legacy_min_collateral_price": 0.4574,
+        "n_hits": 3,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-11-07 22:30"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2025-12-09 09:34",
+        "legacy_id": "E024",
+        "legacy_min_collateral_price": 0.4574,
+        "n_hits": 2,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-12-31 14:20"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2026-01-12 22:39",
+        "legacy_id": "E025",
+        "legacy_min_collateral_price": 0.7009,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-01-24 13:06"
+      },
+      {
+        "family_key": "jEUR",
+        "from_utc": "2026-07-15 20:39",
+        "legacy_id": "E026",
+        "legacy_min_collateral_price": 0.7599,
+        "n_hits": 3,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 04:42"
+      },
+      {
+        "family_key": "msUSD",
+        "from_utc": "2025-10-08 04:00",
+        "legacy_id": "E027",
+        "legacy_min_collateral_price": 0.1574,
+        "n_hits": 4,
+        "n_hits_supported": 3,
+        "now": [
+          "E007"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 00:01"
+      },
+      {
+        "family_key": "msUSD (Metronome)",
+        "from_utc": "2025-10-31 08:43",
+        "legacy_id": "E028",
+        "legacy_min_collateral_price": 0.7356,
+        "n_hits": 2,
+        "n_hits_supported": 2,
+        "now": [
+          "E008"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-08-19 07:55"
+      },
+      {
+        "family_key": "plUSD",
+        "from_utc": "2025-10-31 08:25",
+        "legacy_id": "E029",
+        "legacy_min_collateral_price": 0.5369,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it"
+        ],
+        "to_utc": "2026-08-19 07:55"
+      },
+      {
+        "family_key": "pmUSD",
+        "from_utc": "2026-05-01 16:25",
+        "legacy_id": "E030",
+        "legacy_min_collateral_price": 0.3584,
+        "n_hits": 1,
+        "n_hits_supported": 1,
+        "now": [
+          "E009"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-08-19 23:50"
+      },
+      {
+        "family_key": "rsETH",
+        "from_utc": "2025-07-15 04:52",
+        "legacy_id": "E031",
+        "legacy_min_collateral_price": 0.4121,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-07-28 21:23"
+      },
+      {
+        "family_key": "rsETH",
+        "from_utc": "2026-04-10 22:37",
+        "legacy_id": "E032",
+        "legacy_min_collateral_price": 0.4003,
+        "n_hits": 6,
+        "n_hits_supported": 2,
+        "now": [
+          "E010",
+          "E011"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 06:11"
+      },
+      {
+        "family_key": "rswETH",
+        "from_utc": "2024-05-06 16:26",
+        "legacy_id": "E033",
+        "legacy_min_collateral_price": 0.5321,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-05-22 16:05"
+      },
+      {
+        "family_key": "rswETH",
+        "from_utc": "2024-09-16 18:08",
+        "legacy_id": "E034",
+        "legacy_min_collateral_price": 0.5321,
+        "n_hits": 4,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-12-20 08:48"
+      },
+      {
+        "family_key": "rswETH",
+        "from_utc": "2025-03-27 02:53",
+        "legacy_id": "E035",
+        "legacy_min_collateral_price": 0.6037,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-04-05 20:39"
+      },
+      {
+        "family_key": "sUSDS",
+        "from_utc": "2024-11-05 18:11",
+        "legacy_id": "E036",
+        "legacy_min_collateral_price": 0.8848,
+        "n_hits": 2,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-11-16 02:07"
+      },
+      {
+        "family_key": "sUSDat",
+        "from_utc": "2026-07-05 06:13",
+        "legacy_id": "E037",
+        "legacy_min_collateral_price": 0.8487,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-07-16 12:25"
+      },
+      {
+        "family_key": "sUSDe",
+        "from_utc": "2024-11-05 18:11",
+        "legacy_id": "E038",
+        "legacy_min_collateral_price": 0.8917,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2024-11-16 02:07"
+      },
+      {
+        "family_key": "stkscUSD",
+        "from_utc": "2025-05-01 10:35",
+        "legacy_id": "E039",
+        "legacy_min_collateral_price": 0.2349,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-05-10 14:37"
+      },
+      {
+        "family_key": "stkscUSD",
+        "from_utc": "2025-10-05 20:00",
+        "legacy_id": "E040",
+        "legacy_min_collateral_price": 0.2349,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-10-16 00:00"
+      },
+      {
+        "family_key": "stkscUSD",
+        "from_utc": "2025-10-31 12:17",
+        "legacy_id": "E041",
+        "legacy_min_collateral_price": 0.2349,
+        "n_hits": 8,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 00:00"
+      },
+      {
+        "family_key": "wrsETH",
+        "from_utc": "2025-12-14 08:22",
+        "legacy_id": "E042",
+        "legacy_min_collateral_price": 0.5267,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-12-24 01:37"
+      },
+      {
+        "family_key": "wrsETH",
+        "from_utc": "2026-04-19 03:09",
+        "legacy_id": "E043",
+        "legacy_min_collateral_price": 0.5267,
+        "n_hits": 2,
+        "n_hits_supported": 2,
+        "now": [
+          "E012"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-05-20 08:00"
+      },
+      {
+        "family_key": "wstUSR",
+        "from_utc": "2024-12-30 04:04",
+        "legacy_id": "E044",
+        "legacy_min_collateral_price": 0.6265,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-01-10 15:47"
+      },
+      {
+        "family_key": "wstUSR",
+        "from_utc": "2025-07-14 08:50",
+        "legacy_id": "E045",
+        "legacy_min_collateral_price": 0.6265,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-07-25 08:43"
+      },
+      {
+        "family_key": "wstUSR",
+        "from_utc": "2025-10-08 13:40",
+        "legacy_id": "E046",
+        "legacy_min_collateral_price": 0.6265,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-10-21 21:25"
+      },
+      {
+        "family_key": "wstUSR",
+        "from_utc": "2025-12-28 19:39",
+        "legacy_id": "E047",
+        "legacy_min_collateral_price": 0.6265,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-01-17 04:09"
+      },
+      {
+        "family_key": "wstUSR",
+        "from_utc": "2026-01-27 15:36",
+        "legacy_id": "E048",
+        "legacy_min_collateral_price": 0.6265,
+        "n_hits": 8,
+        "n_hits_supported": 5,
+        "now": [
+          "E013"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 00:01"
+      },
+      {
+        "family_key": "xUSD",
+        "from_utc": "2025-09-02 20:00",
+        "legacy_id": "E049",
+        "legacy_min_collateral_price": 0.0564,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2025-09-19 00:00"
+      },
+      {
+        "family_key": "xUSD",
+        "from_utc": "2025-10-30 20:00",
+        "legacy_id": "E050",
+        "legacy_min_collateral_price": 0.0564,
+        "n_hits": 8,
+        "n_hits_supported": 4,
+        "now": [
+          "E014"
+        ],
+        "reasons_dropped": [
+          "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-08-20 04:00"
+      },
+      {
+        "family_key": "ynRWAx",
+        "from_utc": "2025-12-19 14:57",
+        "legacy_id": "E051",
+        "legacy_min_collateral_price": 0.7422,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-01-01 13:30"
+      },
+      {
+        "family_key": "ynRWAx",
+        "from_utc": "2026-04-26 12:25",
+        "legacy_id": "E052",
+        "legacy_min_collateral_price": 0.7422,
+        "n_hits": 1,
+        "n_hits_supported": 0,
+        "now": null,
+        "reasons_dropped": [
+          "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end"
+        ],
+        "to_utc": "2026-05-06 15:51"
+      },
+      {
+        "family_key": "ynRWAx",
+        "from_utc": "2026-07-28 22:34",
+        "legacy_id": "E053",
+        "legacy_min_collateral_price": 0.7422,
+        "n_hits": 1,
+        "n_hits_supported": 1,
+        "now": [
+          "E015"
+        ],
+        "reasons_dropped": [],
+        "to_utc": "2026-08-12 08:56"
+      }
+    ],
+    "lookback_days": 30,
+    "n_events_after_r4_before_r19": 53,
+    "n_events_removed": 39,
+    "n_hits_all": 237,
+    "n_hits_supported": 64,
+    "pinned_without_depeg": [
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E035",
+        "market_uid": "euler:1:0x1987c2dcf5674cf90becebad502714c357ce126a:0x5009fe8cf8c4af5dd88edd0a628519b5b31ba169",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2025-03-27 02:53",
+          "2025-04-05 20:39"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "bUSD0",
+        "legacy_event": "E014",
+        "market_uid": "euler:1:0x2daca71cb58285212dc05d65cfd4f59a82bc4cf6:0x6d671b9c618d5486814feb777552ba723f1a235c",
+        "reason": "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+        "token": "0x35d8949372d46b7a3d5a56006ae77b215fc69bc0",
+        "window_utc": [
+          "2025-11-16 11:22",
+          "2025-11-26 21:57"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "eUSDe",
+        "legacy_event": "E016",
+        "market_uid": "euler:1:0x2daca71cb58285212dc05d65cfd4f59a82bc4cf6:0x61aac438453d6e3513c0c8dbb69f13860e2b5028",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
+        "window_utc": [
+          "2025-01-05 11:04",
+          "2025-03-20 00:51"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "eUSDe",
+        "legacy_event": "E017",
+        "market_uid": "euler:1:0x2daca71cb58285212dc05d65cfd4f59a82bc4cf6:0x61aac438453d6e3513c0c8dbb69f13860e2b5028",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
+        "window_utc": [
+          "2025-11-16 11:22",
+          "2025-11-26 21:57"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "sUSDS",
+        "legacy_event": "E036",
+        "market_uid": "euler:1:0x313603fa690301b0caeef8069c065862f9162162:0x1e548cfce5fcf17247e024ef06d32a01841ff404",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+        "window_utc": [
+          "2024-11-05 18:11",
+          "2024-11-16 02:07"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "sUSDS",
+        "legacy_event": "E036",
+        "market_uid": "euler:1:0x313603fa690301b0caeef8069c065862f9162162:0xe3ca8369346a35b0633da9a4eb48394478c8bec2",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+        "window_utc": [
+          "2024-11-05 18:11",
+          "2024-11-16 02:07"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "sUSDe",
+        "legacy_event": "E038",
+        "market_uid": "euler:1:0x313603fa690301b0caeef8069c065862f9162162:0x6be9e82b25987ce66acd89130fee494edd0473ae",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+        "window_utc": [
+          "2024-11-05 18:11",
+          "2024-11-16 02:07"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "euler:1:0xe1ce9af672f8854845e5474400b6ddc7ae458a10:0xffe871d5e03c318fe81e8f01b6e9c85047f8e87a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2026-04-17 17:25",
+          "2026-04-26 17:48"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "DETH",
+        "legacy_event": "E002",
+        "market_uid": "gearbox:1:0x29350a3c2627fb78c7e915cd59af754edf8998c5",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x871ab8e36cae9af35c6a3488b049965233deb7ed",
+        "window_utc": [
+          "2026-04-18 16:00",
+          "2026-04-29 16:00"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "crvPlain3andSUSD",
+        "legacy_event": "E015",
+        "market_uid": "gearbox:1:0xc62bf8a7889adf1c5dc4665486c7683ae6e74e0f",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xc25a3a3b969415c80451098fa907ec722572917f",
+        "window_utc": [
+          "2025-11-02 12:00",
+          "2025-11-12 04:00"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDT",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x5d09770b08517329e25b7dff8f32ad7098c8b6fd075660cdabec3e717ca8068f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x95eef579155cd2c5510f312c8fa39208c3be01a8",
+        "window_utc": [
+          "2024-04-16 09:37",
+          "2024-04-29 16:43"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDT",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x5d09770b08517329e25b7dff8f32ad7098c8b6fd075660cdabec3e717ca8068f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x95eef579155cd2c5510f312c8fa39208c3be01a8",
+        "window_utc": [
+          "2024-06-08 18:06",
+          "2024-06-22 14:28"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDT",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x5d09770b08517329e25b7dff8f32ad7098c8b6fd075660cdabec3e717ca8068f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x95eef579155cd2c5510f312c8fa39208c3be01a8",
+        "window_utc": [
+          "2024-06-27 11:30",
+          "2024-07-07 00:09"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDT",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x5d09770b08517329e25b7dff8f32ad7098c8b6fd075660cdabec3e717ca8068f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x95eef579155cd2c5510f312c8fa39208c3be01a8",
+        "window_utc": [
+          "2024-07-13 09:13",
+          "2024-08-31 15:57"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E033",
+        "market_uid": "morpho:1:0x2b1800a3b96cc786e4ae6d8f0c8047c0000fc2587939a3fbf14301a170d76537",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2024-05-06 16:26",
+          "2024-05-22 16:05"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E034",
+        "market_uid": "morpho:1:0x2b1800a3b96cc786e4ae6d8f0c8047c0000fc2587939a3fbf14301a170d76537",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2024-09-16 18:08",
+          "2024-09-27 03:35"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E034",
+        "market_uid": "morpho:1:0x2b1800a3b96cc786e4ae6d8f0c8047c0000fc2587939a3fbf14301a170d76537",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2024-10-02 23:52",
+          "2024-10-19 06:12"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E034",
+        "market_uid": "morpho:1:0x2b1800a3b96cc786e4ae6d8f0c8047c0000fc2587939a3fbf14301a170d76537",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2024-10-22 13:51",
+          "2024-11-02 14:04"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "rswETH",
+        "legacy_event": "E034",
+        "market_uid": "morpho:1:0x2b1800a3b96cc786e4ae6d8f0c8047c0000fc2587939a3fbf14301a170d76537",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+        "window_utc": [
+          "2024-11-02 16:56",
+          "2024-12-20 08:48"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0xfd3e5c20340aeba93f78f7dc4657dc1e11b553c68c545acc836321a14b47e457",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2024-11-24 10:11",
+          "2024-12-10 17:00"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0xfd3e5c20340aeba93f78f7dc4657dc1e11b553c68c545acc836321a14b47e457",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2025-10-27 21:36",
+          "2025-11-16 21:30"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0xfd3e5c20340aeba93f78f7dc4657dc1e11b553c68c545acc836321a14b47e457",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2026-07-02 01:43",
+          "2026-08-20 00:01"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x50e26162f35945381884ea34bf5c1d5d9f15c9305febbc1f890c916963ba0f2b",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2024-11-24 10:11",
+          "2024-12-11 10:30"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x50e26162f35945381884ea34bf5c1d5d9f15c9305febbc1f890c916963ba0f2b",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2025-10-27 21:36",
+          "2026-08-20 00:01"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x8d18658cd2688b702222c11467133c1c2237bd058ba2467e47bc360067ebe038",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2025-11-04 13:14",
+          "2025-11-22 01:18"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x8d18658cd2688b702222c11467133c1c2237bd058ba2467e47bc360067ebe038",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2025-11-24 18:14",
+          "2026-08-20 00:01"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "RLP",
+        "legacy_event": "E005",
+        "market_uid": "morpho:1:0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+        "window_utc": [
+          "2024-12-30 18:17",
+          "2025-01-10 15:46"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E011",
+        "market_uid": "morpho:1:0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2024-12-30 04:10",
+          "2025-01-10 15:45"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E044",
+        "market_uid": "morpho:1:0xd9e34b1eed46d123ac1b69b224de1881dbc88798bc7b70f504920f62f58f28cc",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2024-12-30 04:04",
+          "2025-01-10 15:47"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E011",
+        "market_uid": "morpho:1:0x0ec590b250f171c22d39958a55a0589091431fe90599d55409c39aeb01363cb0",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2025-01-14 17:04",
+          "2025-01-23 21:03"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0xa9d6a0caea685bb0099ba2d52a58fb7ed33a6447616c25df93bdb8330337a9c3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x7204b7dbf9412567835633b6f00c3edc3a8d6330",
+        "window_utc": [
+          "2025-01-18 14:13",
+          "2025-02-06 10:06"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0xa9d6a0caea685bb0099ba2d52a58fb7ed33a6447616c25df93bdb8330337a9c3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x7204b7dbf9412567835633b6f00c3edc3a8d6330",
+        "window_utc": [
+          "2025-10-27 21:36",
+          "2025-12-01 14:37"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E045",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2025-07-14 08:50",
+          "2025-07-25 08:43"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E046",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2025-10-08 13:40",
+          "2025-10-21 21:25"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E047",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2025-12-28 19:39",
+          "2026-01-17 04:09"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E048",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2026-02-07 16:19",
+          "2026-02-21 14:09"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2025-07-14 08:50",
+          "2025-07-25 08:43"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2025-10-08 13:40",
+          "2025-10-21 21:25"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2025-12-28 19:39",
+          "2026-01-17 04:09"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2026-02-07 16:19",
+          "2026-02-21 14:09"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "RLP",
+        "legacy_event": "E006",
+        "market_uid": "morpho:1:0x308cb8d01d8fe656ceaf4841abc62cee6587f9e46533622e30a0053337953432",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+        "window_utc": [
+          "2025-01-21 16:05",
+          "2025-02-01 12:58"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E011",
+        "market_uid": "morpho:1:0x308cb8d01d8fe656ceaf4841abc62cee6587f9e46533622e30a0053337953432",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+        "window_utc": [
+          "2025-01-21 16:05",
+          "2025-02-01 12:58"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0x1def309fa6c5b6ee7044b67154f15872af6c7e240f1e103f6a46cd82fb351688",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x5085dd6fad07c12e38fae01bc2a4938d2c08b1bc",
+        "window_utc": [
+          "2025-05-16 09:54",
+          "2025-05-30 10:28"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0x1def309fa6c5b6ee7044b67154f15872af6c7e240f1e103f6a46cd82fb351688",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x5085dd6fad07c12e38fae01bc2a4938d2c08b1bc",
+        "window_utc": [
+          "2025-05-31 02:26",
+          "2025-06-09 12:52"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0x1def309fa6c5b6ee7044b67154f15872af6c7e240f1e103f6a46cd82fb351688",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x5085dd6fad07c12e38fae01bc2a4938d2c08b1bc",
+        "window_utc": [
+          "2025-11-14 22:39",
+          "2025-11-24 13:06"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "eUSDe",
+        "legacy_event": "E016",
+        "market_uid": "morpho:1:0x140fe48783fe88d2a52b31705577d917628caaf74ff79865b39d4c2aa6c2fd3c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x90d2af7d622ca3141efa4d8f1f24d86e5974cc8f",
+        "window_utc": [
+          "2025-03-05 09:20",
+          "2025-03-21 16:14"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcc39b6c92fd03ac608b9239618db8b80a4a2034b0450bdf47b404229571312da",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xd50da5f859811a91fd1876c9461fd39c23c747ad",
+        "window_utc": [
+          "2025-05-12 07:34",
+          "2025-05-21 22:45"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:1:0xcc39b6c92fd03ac608b9239618db8b80a4a2034b0450bdf47b404229571312da",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xd50da5f859811a91fd1876c9461fd39c23c747ad",
+        "window_utc": [
+          "2026-01-17 20:43",
+          "2026-01-27 18:05"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wUSDL",
+        "legacy_event": null,
+        "market_uid": "morpho:1:0x394494c539655eb489089b33eba5119ff7e322646cac3fa3e817814164bab094",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559",
+        "window_utc": [
+          "2025-10-27 21:45",
+          "2026-08-20 00:01"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "RLP",
+        "legacy_event": "E007",
+        "market_uid": "morpho:1:0x13dd22c3111106f703052d5f9166812f0bf1f4679f3db7dfd82037971ce5468f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+        "window_utc": [
+          "2025-08-01 15:21",
+          "2025-08-12 20:56"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "MUSD",
+        "legacy_event": "E003",
+        "market_uid": "morpho:1:0xac357133ae9d12a9507faeeeb5af0087cf83ad17732bdab2abf95781d3b130a9",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x52317a47585a6acdfbd7a29b494c3e2baae96abc",
+        "window_utc": [
+          "2026-04-06 22:34",
+          "2026-06-10 03:08"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "MUSD",
+        "legacy_event": "E004",
+        "market_uid": "morpho:1:0xac357133ae9d12a9507faeeeb5af0087cf83ad17732bdab2abf95781d3b130a9",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x52317a47585a6acdfbd7a29b494c3e2baae96abc",
+        "window_utc": [
+          "2026-06-18 21:36",
+          "2026-08-20 00:01"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "RLP",
+        "legacy_event": "E008",
+        "market_uid": "morpho:1:0x4b86442549b52826e0fc11770ec5154450cb3c5c14dc751a761d81dcfbe7a7b2",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+        "window_utc": [
+          "2026-01-10 07:58",
+          "2026-01-30 21:15"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "ynRWAx",
+        "legacy_event": "E051",
+        "market_uid": "morpho:1:0x9d582055d36f8d8b3b5924b9be6b8357fd766c635592a1ca8dac5f31c6acca04",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8",
+        "window_utc": [
+          "2025-12-19 14:57",
+          "2026-01-01 13:30"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "ynRWAx",
+        "legacy_event": "E052",
+        "market_uid": "morpho:1:0x9d582055d36f8d8b3b5924b9be6b8357fd766c635592a1ca8dac5f31c6acca04",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x01ba69727e2860b37bc1a2bd56999c1afb4c15d8",
+        "window_utc": [
+          "2026-04-26 12:25",
+          "2026-05-06 15:51"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E048",
+        "market_uid": "morpho:1:0xac5e7868966e4ba9173c691a8f7e94a9f5966815121a0493042fb341db8d2d3f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2026-01-27 15:36",
+          "2026-03-13 12:32"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "wstUSR",
+        "legacy_event": "E048",
+        "market_uid": "morpho:1:0x010e577cd5d40210ae600cd877710c252a26afd7b50b1280642c76c4612bd6df",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055",
+        "window_utc": [
+          "2026-01-27 15:39",
+          "2026-03-13 12:34"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "sUSDat",
+        "legacy_event": "E037",
+        "market_uid": "morpho:1:0x3c4a46caa1a56d375228b3bac4c744ff858e387c78e59c54ccfb32e251d00320",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xd166337499e176bbc38a1fbd113ab144e5bd2df7",
+        "window_utc": [
+          "2026-07-05 06:13",
+          "2026-07-16 12:25"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "RLP",
+        "legacy_event": "E007",
+        "market_uid": "silo:1:0x10930071079d2cfff317aba9d2dd997309dd9985",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+        "window_utc": [
+          "2025-08-19 16:00",
+          "2025-08-29 00:00"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "PT-sUSDf-25SEP2025",
+        "legacy_event": null,
+        "market_uid": "silo:1:0x376e74bc0575e032f28dfe612ee8533108c98f98",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xab365c0879024481e4ad3b47bd6fea9c10014fbc",
+        "window_utc": [
+          "2025-11-01 08:00",
+          "2026-01-17 12:00"
+        ]
+      },
+      {
+        "chain_id": "1",
+        "family_key": "yb-cbBTC",
+        "legacy_event": null,
+        "market_uid": "silo:1:0x3d554f79d82826a5440b910480299c4235d70c86",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xac0cfa7742069a8af0c63e14ffd0fe6b3e1bf8d2",
+        "window_utc": [
+          "2026-04-04 20:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "ezETH",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x5a7facb970d094b6c7ff1df0ea68d99e6e73cbff",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "WBTC",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x68f180fcce6836688e9084f035309e29bf0a2095",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "USDT",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "10",
+        "family_key": "rETH",
+        "legacy_event": null,
+        "market_uid": "compound:10:0xe36a30d249f7761327fd973001a32010b521b6fd",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+        "window_utc": [
+          "2026-05-05 16:00",
+          "2026-05-20 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "ezETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "window_utc": [
+          "2026-04-29 12:00",
+          "2026-05-11 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "ezETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "window_utc": [
+          "2026-07-21 16:00",
+          "2026-08-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+        "window_utc": [
+          "2026-04-29 12:00",
+          "2026-05-11 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+        "window_utc": [
+          "2026-07-21 16:00",
+          "2026-08-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "WBTC",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x927b51f251480a681271180da4de28d44ec4afb8",
+        "window_utc": [
+          "2026-04-29 12:00",
+          "2026-05-11 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "WBTC",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x927b51f251480a681271180da4de28d44ec4afb8",
+        "window_utc": [
+          "2026-07-21 16:00",
+          "2026-08-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xc02fe7317d4eb8753a02c35fe019786854a92001",
+        "window_utc": [
+          "2026-04-29 12:00",
+          "2026-05-11 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xc02fe7317d4eb8753a02c35fe019786854a92001",
+        "window_utc": [
+          "2026-07-21 16:00",
+          "2026-08-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "rsETH",
+        "legacy_event": "E032",
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+        "token": "0xc3eacf0612346366db554c991d7858716db09f58",
+        "window_utc": [
+          "2026-04-29 12:00",
+          "2026-05-11 08:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "rsETH",
+        "legacy_event": "E032",
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xc3eacf0612346366db554c991d7858716db09f58",
+        "window_utc": [
+          "2026-07-21 16:00",
+          "2026-08-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:130:0x6ed31ca6215391480422cda29a2a04408d155ec6c5ba866ab2676ea69b521d9c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x14d9143becc348920b68d123687045db49a016c6",
+        "window_utc": [
+          "2025-08-13 16:51",
+          "2025-08-26 05:34"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:130:0x6ed31ca6215391480422cda29a2a04408d155ec6c5ba866ab2676ea69b521d9c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x14d9143becc348920b68d123687045db49a016c6",
+        "window_utc": [
+          "2025-09-08 11:20",
+          "2025-09-18 23:11"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:130:0x6ed31ca6215391480422cda29a2a04408d155ec6c5ba866ab2676ea69b521d9c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x14d9143becc348920b68d123687045db49a016c6",
+        "window_utc": [
+          "2025-09-28 13:39",
+          "2025-10-15 15:01"
+        ]
+      },
+      {
+        "chain_id": "130",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "morpho:130:0x6ed31ca6215391480422cda29a2a04408d155ec6c5ba866ab2676ea69b521d9c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x14d9143becc348920b68d123687045db49a016c6",
+        "window_utc": [
+          "2025-10-27 23:01",
+          "2026-01-02 03:39"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0x0806af1762bdd85b167825ab1a64e31cf9497038:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-01 06:33",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0x196f3c7443e940911ee2bb88e019fd71400349d9:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-10-31 20:16",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "xUSD",
+        "legacy_event": "E050",
+        "market_uid": "euler:146:0x196f3c7443e940911ee2bb88e019fd71400349d9:0xdebdab749330bb976fd10dc52f9a452aaf029028",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x6202b9f02e30e5e1c62cc01e4305450e5d83b926",
+        "window_utc": [
+          "2025-10-31 20:16",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0x9144c0f0614dd0ace859c61cc37e5386d2ada43a:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-02 21:48",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0xa5cd24d9792f4f131f5976af935a505d19c8db2b:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-01 14:19",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0xb38d431e932fea77d1df0ae0dfe4400c97e597b8:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-10-31 12:17",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "xUSD",
+        "legacy_event": "E050",
+        "market_uid": "euler:146:0xb38d431e932fea77d1df0ae0dfe4400c97e597b8:0xdebdab749330bb976fd10dc52f9a452aaf029028",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x6202b9f02e30e5e1c62cc01e4305450e5d83b926",
+        "window_utc": [
+          "2025-10-31 12:17",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E039",
+        "market_uid": "euler:146:0xeeaab5c863f4b1c5356af138f384adc25cb70da6:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-05-01 10:35",
+          "2025-05-10 14:37"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "euler:146:0xeeaab5c863f4b1c5356af138f384adc25cb70da6:0x1cda7e7b2023c3f3c94aa1999937358fa9d01aab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-04 13:40",
+          "2026-08-14 07:06"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E040",
+        "market_uid": "silo:146:0xbc24c0f594eca381956895957c771437d61400d3",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-10-05 20:00",
+          "2025-10-16 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "silo:146:0xbc24c0f594eca381956895957c771437d61400d3",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-01 00:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "stkscUSD",
+        "legacy_event": "E041",
+        "market_uid": "silo:146:0x243d2d11fd323b929a2756c81afa455200134fca",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x9fb76f7ce5fceaa2c42887ff441d46095e494206",
+        "window_utc": [
+          "2025-11-01 00:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "silo:146:0x8cd31c996d51e37da7535bc28e0f8cf91555830e",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4772d2e014f9fc3a820c444e3313968e9a5c8121",
+        "window_utc": [
+          "2025-11-23 16:00",
+          "2025-12-05 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "USDC",
+        "legacy_event": null,
+        "market_uid": "silo:146:0x8cd31c996d51e37da7535bc28e0f8cf91555830e",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4772d2e014f9fc3a820c444e3313968e9a5c8121",
+        "window_utc": [
+          "2025-12-31 04:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "xUSD",
+        "legacy_event": "E050",
+        "market_uid": "silo:146:0x60109eab799ec246978a2ce89aa584e9190b71c8",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x6202b9f02e30e5e1c62cc01e4305450e5d83b926",
+        "window_utc": [
+          "2025-10-30 20:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "xUSD",
+        "legacy_event": "E050",
+        "market_uid": "silo:146:0x0f9341f6e8b9017bcb9c4c74187f3aa32fb1cb7d",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x6202b9f02e30e5e1c62cc01e4305450e5d83b926",
+        "window_utc": [
+          "2025-10-31 12:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "146",
+        "family_key": "msUSD",
+        "legacy_event": "E027",
+        "market_uid": "silo:146:0xe3d37b2d77f37ec479f1999a747b53cd6a53d2f4",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xc7990369da608c2f4903715e3bd22f2970536c29",
+        "window_utc": [
+          "2025-10-08 04:00",
+          "2026-08-20 00:00"
+        ]
+      },
+      {
+        "chain_id": "42161",
+        "family_key": "sUSDS",
+        "legacy_event": null,
+        "market_uid": "euler:42161:0xf2cf48e4932835c941cccd27e450c71138df81ca:0x7007415237e9b1c729404a3363293e0a44eaf585",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xddb46999f8891663a8f2828d25298f70416d7610",
+        "window_utc": [
+          "2026-04-09 14:31",
+          "2026-06-04 18:44"
+        ]
+      },
+      {
+        "chain_id": "42161",
+        "family_key": "rsETH",
+        "legacy_event": "E031",
+        "market_uid": "morpho:42161:0x9b1c003e526a51491480854a6ae79f6e66f6a5d6cc9d77cdd0976127af822089",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+        "window_utc": [
+          "2025-07-15 04:52",
+          "2025-07-28 21:23"
+        ]
+      },
+      {
+        "chain_id": "42161",
+        "family_key": "rsETH",
+        "legacy_event": "E032",
+        "market_uid": "morpho:42161:0x9b1c003e526a51491480854a6ae79f6e66f6a5d6cc9d77cdd0976127af822089",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+        "window_utc": [
+          "2026-04-10 22:37",
+          "2026-08-20 06:11"
+        ]
+      },
+      {
+        "chain_id": "42161",
+        "family_key": "rsETH",
+        "legacy_event": "E032",
+        "market_uid": "silo:42161:0xc88734b3d929bb9eac81f9eada48d6d330a3f37f",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+        "window_utc": [
+          "2026-04-15 20:00",
+          "2026-06-07 16:00"
+        ]
+      },
+      {
+        "chain_id": "43114",
+        "family_key": "xUSD",
+        "legacy_event": "E049",
+        "market_uid": "silo:43114:0x76a2c55b5aa5037a374d509651b51ba134a3e186",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x94f9bb5c972285728dcee7eaece48bec2ff341ce",
+        "window_utc": [
+          "2025-09-02 20:00",
+          "2025-09-19 00:00"
+        ]
+      },
+      {
+        "chain_id": "480",
+        "family_key": "deUSD",
+        "legacy_event": null,
+        "market_uid": "morpho:480:0x5a96ea60ddb8ece11b0dd1176f05bbc44ec92197ba206adb086db559146cc964",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x3f6c8f2efb8cc78c3bab5353e2ad5f19de56d856",
+        "window_utc": [
+          "2025-11-02 14:54",
+          "2026-08-20 01:16"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6",
+        "window_utc": [
+          "2026-04-24 04:00",
+          "2026-05-21 12:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6",
+        "window_utc": [
+          "2026-06-07 16:00",
+          "2026-07-12 16:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "ezETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "window_utc": [
+          "2026-04-24 04:00",
+          "2026-05-21 12:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "ezETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "window_utc": [
+          "2026-06-07 16:00",
+          "2026-07-12 16:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "WBTC",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
+        "window_utc": [
+          "2026-04-24 04:00",
+          "2026-05-21 12:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "WBTC",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
+        "window_utc": [
+          "2026-06-07 16:00",
+          "2026-07-12 16:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f",
+        "window_utc": [
+          "2026-04-24 04:00",
+          "2026-05-21 12:00"
+        ]
+      },
+      {
+        "chain_id": "59144",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f",
+        "window_utc": [
+          "2026-06-07 16:00",
+          "2026-07-12 16:00"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0xb95dd880d553f5d874534d66eb337a4811608331768c2b208440dfe0e6d901fa",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+        "window_utc": [
+          "2024-10-03 02:00",
+          "2024-10-26 11:11"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "wstETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0xb95dd880d553f5d874534d66eb337a4811608331768c2b208440dfe0e6d901fa",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+        "window_utc": [
+          "2025-05-22 19:58",
+          "2025-12-12 15:03"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "hyUSD",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+        "window_utc": [
+          "2025-11-03 04:08",
+          "2025-11-12 23:22"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "hyUSD",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+        "window_utc": [
+          "2025-12-08 20:24",
+          "2026-01-06 05:52"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "hyUSD",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+        "window_utc": [
+          "2026-02-11 15:11",
+          "2026-02-22 12:04"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "hyUSD",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0xcc7ff230365bd730ee4b352cc2492cedac49383e",
+        "window_utc": [
+          "2026-02-22 14:12",
+          "2026-03-13 20:13"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2024-09-06 00:34",
+          "2024-10-14 07:10"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2025-04-08 05:37",
+          "2025-04-18 23:03"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2025-05-05 17:11",
+          "2025-05-22 15:24"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2025-07-13 10:10",
+          "2025-07-23 18:36"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2025-08-10 11:00",
+          "2025-08-29 07:35"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2025-11-15 17:15",
+          "2025-12-02 15:58"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "weETH",
+        "legacy_event": null,
+        "market_uid": "morpho:8453:0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
+        "window_utc": [
+          "2026-06-20 18:21",
+          "2026-07-26 02:53"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E020",
+        "market_uid": "morpho:8453:0xb4a7c6d7c93e265a4f5b19282eca695815673b5e0b394b825f4208d3cd91a581",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-01-28 16:52",
+          "2025-03-19 20:24"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0xb4a7c6d7c93e265a4f5b19282eca695815673b5e0b394b825f4208d3cd91a581",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-05-27 16:21",
+          "2025-07-15 18:48"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E022",
+        "market_uid": "morpho:8453:0xb4a7c6d7c93e265a4f5b19282eca695815673b5e0b394b825f4208d3cd91a581",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-08-31 19:36",
+          "2025-09-13 08:48"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E026",
+        "market_uid": "morpho:8453:0xb4a7c6d7c93e265a4f5b19282eca695815673b5e0b394b825f4208d3cd91a581",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2026-07-21 15:34",
+          "2026-08-20 04:42"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E019",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2024-12-08 08:18",
+          "2024-12-23 07:30"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-04-24 17:43",
+          "2025-05-19 13:44"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-07-09 23:45",
+          "2025-07-20 10:07"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E022",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-09-01 09:27",
+          "2025-09-13 08:48"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E023",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-09-21 14:37",
+          "2025-10-08 17:53"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E023",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-10-09 21:35",
+          "2025-10-23 11:38"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E024",
+        "market_uid": "morpho:8453:0x24671820d07d04ec33698c12624be903bfc09e7c80f9e049d533d71cacf8798b",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-12-09 09:34",
+          "2025-12-20 21:40"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "wrsETH",
+        "legacy_event": "E042",
+        "market_uid": "morpho:8453:0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xedfa23602d0ec14714057867a78d01e94176bea0",
+        "window_utc": [
+          "2025-12-14 08:22",
+          "2025-12-24 01:37"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E019",
+        "market_uid": "morpho:8453:0x995caf6283977748ac3aebad52440a5561c8ade20cc63487c9fb38f0e053c9fe",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2024-12-06 21:52",
+          "2024-12-18 15:14"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E022",
+        "market_uid": "morpho:8453:0x995caf6283977748ac3aebad52440a5561c8ade20cc63487c9fb38f0e053c9fe",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-09-02 15:39",
+          "2025-09-12 17:27"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E024",
+        "market_uid": "morpho:8453:0x995caf6283977748ac3aebad52440a5561c8ade20cc63487c9fb38f0e053c9fe",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-12-09 09:34",
+          "2025-12-31 14:20"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E026",
+        "market_uid": "morpho:8453:0x995caf6283977748ac3aebad52440a5561c8ade20cc63487c9fb38f0e053c9fe",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2026-07-15 20:39",
+          "2026-08-20 04:42"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E018",
+        "market_uid": "morpho:8453:0xad2f9c623eda791625053a20ed3eb3365bfffca9e37674c82825faa518735ba6",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2024-11-07 09:00",
+          "2024-11-26 18:56"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0xad2f9c623eda791625053a20ed3eb3365bfffca9e37674c82825faa518735ba6",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-05-23 09:07",
+          "2025-06-02 16:34"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0xad2f9c623eda791625053a20ed3eb3365bfffca9e37674c82825faa518735ba6",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-06-11 11:15",
+          "2025-06-24 22:22"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E023",
+        "market_uid": "morpho:8453:0xad2f9c623eda791625053a20ed3eb3365bfffca9e37674c82825faa518735ba6",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-10-28 09:57",
+          "2025-11-07 22:30"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E025",
+        "market_uid": "morpho:8453:0xad2f9c623eda791625053a20ed3eb3365bfffca9e37674c82825faa518735ba6",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2026-01-12 22:39",
+          "2026-01-24 13:06"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E019",
+        "market_uid": "morpho:8453:0x842e13441248394cf66c5f67973d7feca59eca7458528f14690607c3a40f9b8c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2024-12-05 16:13",
+          "2024-12-24 13:42"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0x842e13441248394cf66c5f67973d7feca59eca7458528f14690607c3a40f9b8c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-05-31 13:49",
+          "2025-06-14 06:54"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E021",
+        "market_uid": "morpho:8453:0x842e13441248394cf66c5f67973d7feca59eca7458528f14690607c3a40f9b8c",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2025-07-26 09:44",
+          "2025-08-13 20:57"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "jEUR",
+        "legacy_event": "E026",
+        "market_uid": "morpho:8453:0x4f55f2f1a4bcb77aa6c84da2fde5641ef0baf8dee41015efbc8e606139d34fd3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x4154550f4db74dc38d1fe98e1f3f28ed6dad627d",
+        "window_utc": [
+          "2026-07-15 20:39",
+          "2026-08-20 04:42"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0xff0f2bd52ca786a4f8149f96622885e880222d8bed12bbbf5950296be8d03f89",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-10-01 14:18",
+          "2025-10-16 04:42"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x091e8908d5dc2916bc03c85ac72d6f9434c176b497532a94097101b0bec41cb7",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-02-25 10:28",
+          "2025-03-10 02:09"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x091e8908d5dc2916bc03c85ac72d6f9434c176b497532a94097101b0bec41cb7",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-04-21 06:58",
+          "2025-05-30 10:41"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x091e8908d5dc2916bc03c85ac72d6f9434c176b497532a94097101b0bec41cb7",
+        "reason": "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-06-02 19:41",
+          "2026-06-04 09:45"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-03-18 01:43",
+          "2025-03-28 12:05"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-05-30 03:56",
+          "2025-06-09 05:09"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-09-07 04:08",
+          "2025-09-18 17:49"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-11-10 19:04",
+          "2025-12-03 16:21"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0xf4d219ed36d38634f89c992a1bc50e73324f9c5c663d29d089d3f8aa74c700f3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xc484d83f667b779cc9907248101214235642258b",
+        "window_utc": [
+          "2025-02-20 22:36",
+          "2025-03-08 11:20"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0xf4d219ed36d38634f89c992a1bc50e73324f9c5c663d29d089d3f8aa74c700f3",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0xc484d83f667b779cc9907248101214235642258b",
+        "window_utc": [
+          "2025-03-08 18:51",
+          "2025-03-27 10:08"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x0df0f6ca33322cff4111c2b7ff9b267a71f9b63701c3cbdbbc61d054662b1d3f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-02-21 15:16",
+          "2025-03-10 00:21"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x0df0f6ca33322cff4111c2b7ff9b267a71f9b63701c3cbdbbc61d054662b1d3f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-04-23 06:25",
+          "2025-05-02 18:29"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x0df0f6ca33322cff4111c2b7ff9b267a71f9b63701c3cbdbbc61d054662b1d3f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-05-05 21:10",
+          "2025-05-16 10:33"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0x0df0f6ca33322cff4111c2b7ff9b267a71f9b63701c3cbdbbc61d054662b1d3f",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-05-17 10:55",
+          "2025-07-09 22:00"
+        ]
+      },
+      {
+        "chain_id": "8453",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:8453:0xad9a1896d6d8b07981f78601b2c91056658dc104c5f0b799dd52717704bd5221",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "window_utc": [
+          "2025-04-12 10:10",
+          "2025-04-25 20:01"
+        ]
+      },
+      {
+        "chain_id": "9745",
+        "family_key": "plUSD",
+        "legacy_event": "E029",
+        "market_uid": "euler:9745:0x27934d4879fc28a74703726edae15f757e45a48a:0x138c289bb8b855cf271305c8bcf91dc31ba30194",
+        "reason": "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+        "token": "0xf91c31299e998c5127bc5f11e4a657fc0cf358cd",
+        "window_utc": [
+          "2025-10-31 08:25",
+          "2026-08-19 07:55"
+        ]
+      },
+      {
+        "chain_id": "9745",
+        "family_key": "USDe",
+        "legacy_event": null,
+        "market_uid": "euler:9745:0xaba58b156154d6b3dee7a1c1f9aaf06c111f11ce:0xa486beea876d1d51ca2fe7c875145221bdfee684",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+        "window_utc": [
+          "2025-12-05 08:33",
+          "2026-08-19 07:55"
+        ]
+      },
+      {
+        "chain_id": "9745",
+        "family_key": "splUSD",
+        "legacy_event": null,
+        "market_uid": "euler:9745:0xb5526491742fee67e9e0d0d8c619a95d422fd398:0x93827c26602b0573500d2ec80db19d54eef76bab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x616185600989bf8339b58ac9e539d49536598343",
+        "window_utc": [
+          "2025-11-03 11:13",
+          "2025-11-23 21:08"
+        ]
+      },
+      {
+        "chain_id": "9745",
+        "family_key": "splUSD",
+        "legacy_event": null,
+        "market_uid": "euler:9745:0xb5526491742fee67e9e0d0d8c619a95d422fd398:0x93827c26602b0573500d2ec80db19d54eef76bab",
+        "reason": "pinned without a depeg: the price census cannot price the family, and no six-hour run of lending-census readings at or below 0.97 with $100 behind each fell from thirty days before the window to its end",
+        "token": "0x616185600989bf8339b58ac9e539d49536598343",
+        "window_utc": [
+          "2025-11-24 20:59",
+          "2025-12-04 09:19"
+        ]
+      },
+      {
+        "chain_id": "999",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:999:0xc59a3f8a3918d89ebef44ee1dcda435719f543cfd3f37ead7e74852ea5931581",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77",
+        "window_utc": [
+          "2025-11-01 20:01",
+          "2026-02-02 02:15"
+        ]
+      },
+      {
+        "chain_id": "999",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:999:0x1da89208e6cb5173e97a83461853b8400de4f7c37542cf010a10579a5f7ca451",
+        "reason": "pinned without a depeg: the family depegged in the span but I1 (the row's own mode) never held in it",
+        "token": "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77",
+        "window_utc": [
+          "2026-06-03 12:18",
+          "2026-08-17 19:20"
+        ]
+      },
+      {
+        "chain_id": "999",
+        "family_key": "USR",
+        "legacy_event": "E012",
+        "market_uid": "morpho:999:0xed00791e29eb08c9bc0d8b389fe1f00084699baf2a785ba2a42e915706b17b82",
+        "reason": "pinned without a depeg: no price-census depeg window of the family from thirty days before the window to its end",
+        "token": "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77",
+        "window_utc": [
+          "2025-07-25 13:24",
+          "2025-08-04 14:39"
+        ]
+      }
+    ],
+    "pinned_without_depeg_windows": 173,
+    "pinned_without_depeg_windows_in_r4_events": 109,
+    "rule": "hit rules R19"
+  },
+  "r4_drop_threshold": 0.97,
+  "rows": 15,
+  "written_utc": "2026-09-24T15:13:47+00:00"
+}

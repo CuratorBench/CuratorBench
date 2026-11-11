@@ -1,0 +1,19 @@
+{
+  "chain": "abstract",
+  "chain_id": 2741,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "AbstractMainnet",
+    "listed_by_api": false,
+    "morpho": "0xc85CE8ffdA27b646D269516B8d0Fa6ec2E958B55",
+    "vault_v1_factories": [
+      "0x83A7f60c9fc57cEf1e8001bda98783AA1A53E4b1"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 9,
+  "scanned_to_block": 86431014,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:46:05+00:00"
+}

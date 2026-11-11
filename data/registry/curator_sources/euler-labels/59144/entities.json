@@ -1,0 +1,91 @@
+{
+  "alphagrowth": {
+    "addresses": {
+      "0x4f894Bfc9481110278C356adE1473eBe2127Fd3C": "AlphaGrowth Multisig"
+    },
+    "description": "AlphaGrowth is a third-party curator using Euler infrastructure to configure lending markets and structured DeFi products. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "alphagrowth.svg",
+    "name": "AlphaGrowth",
+    "social": {
+      "twitter": "alphagrowth1"
+    },
+    "url": "https://alphagrowth.io/"
+  },
+  "edge-capital": {
+    "addresses": {
+      "0x1280e86Cd7787FfA55d37759C0342F8CD3c7594a": "Edge Capital Multisig"
+    },
+    "description": "Edge UltraYield is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "edge.png",
+    "name": "Edge UltraYield",
+    "social": {
+      "twitter": "EdgeCapitalMgmt"
+    },
+    "url": "https://edgecapital.xyz/"
+  },
+  "euler-dao": {
+    "addresses": {
+      "0x703AB67Cd644165503551Dfbf90727D3Bc47887D": "Euler Vault Access Control Governor",
+      "0x89Ad331C4B69d7b251C9937DD9A9CEA6E357997a": "Euler DAO Multisig"
+    },
+    "description": "Euler DAO is responsible for the governance of the Euler protocol.",
+    "logo": "euler.svg",
+    "name": "Euler DAO",
+    "social": {
+      "discord": "https://discord.euler.finance/",
+      "github": "euler-xyz",
+      "telegram": "eulerfinance_official",
+      "twitter": "eulerfinance",
+      "youtube": "EulerFinance"
+    },
+    "url": "https://euler.finance/"
+  },
+  "mev-capital": {
+    "addresses": {
+      "0xB672Ea44A1EC692A9Baf851dC90a1Ee3DB25F1C4": "MEV Capital Multisig"
+    },
+    "description": "MEV Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "mev-capital.svg",
+    "name": "MEV Capital",
+    "social": {
+      "twitter": "mevcapital"
+    },
+    "url": "https://mevcapital.com/"
+  },
+  "re7-labs": {
+    "addresses": {
+      "0xddedB1F2d1dd0b0455Fe5277632c84f57f894011": "Re7 Labs Euler Multisig"
+    },
+    "description": "Re7 Labs is a third-party curator using Euler infrastructure to configure onchain vaults and lending markets. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "re7labs.png",
+    "name": "Re7 Labs",
+    "social": {
+      "twitter": "Re7Labs"
+    },
+    "url": "https://www.re7labs.xyz/"
+  },
+  "tulipa-capital": {
+    "addresses": {
+      "0xF53eAeB7e6f15CBb6dB990eaf2A26702e1D986d8": "Tulipa Capital Multisig"
+    },
+    "description": "Tulipa Capital is a third-party curator using Euler infrastructure to configure vaults across selected DeFi strategies. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "tulipacapital.png",
+    "name": "Tulipa Capital",
+    "social": {
+      "twitter": "tulipacapital"
+    },
+    "url": "https://www.tulipa.capital/"
+  },
+  "zerolend": {
+    "addresses": {
+      "0x54061E18cd88D2de9af3D3D7FDF05472253B29E0": "ZeroLend Multisig"
+    },
+    "description": "ZeroLend is a third-party curator using Euler infrastructure to configure lending markets for selected asset categories. The curator is responsible for asset selection, vault parameter configuration, and management of the vaults it configures.",
+    "logo": "zerolend.jpg",
+    "name": "ZeroLend",
+    "social": {
+      "twitter": "zerolendxyz"
+    },
+    "url": "https://zerolend.xyz/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "aa70268e-4b52-42bf-a116-608b370f9501",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/aa70268e-4b52-42bf-a116-608b370f9501",
+ "symbol": "USDC",
+ "written_utc": "2026-10-25T20:02:24Z"
+}

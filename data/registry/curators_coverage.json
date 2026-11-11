@@ -1,0 +1,1930 @@
+{
+  "address_conflicts": [
+    {
+      "address": "0xdf758f044e3761ad52e1b96e1a468f03f565334b",
+      "chain_id": 1,
+      "entities": [
+        "mev-capital",
+        "rockawayx"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    },
+    {
+      "address": "0x7c615e12d1163fc0dddaa01b51922587034f5c93",
+      "chain_id": 1,
+      "entities": [
+        "9summits",
+        "tulipa-capital"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    },
+    {
+      "address": "0xdf758f044e3761ad52e1b96e1a468f03f565334b",
+      "chain_id": 42161,
+      "entities": [
+        "mev-capital",
+        "rockawayx"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    },
+    {
+      "address": "0xdf758f044e3761ad52e1b96e1a468f03f565334b",
+      "chain_id": 999,
+      "entities": [
+        "mev-capital",
+        "rockawayx"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    },
+    {
+      "address": "0x7c615e12d1163fc0dddaa01b51922587034f5c93",
+      "chain_id": 59144,
+      "entities": [
+        "9summits",
+        "tulipa-capital"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    },
+    {
+      "address": "0xdf758f044e3761ad52e1b96e1a468f03f565334b",
+      "chain_id": 56,
+      "entities": [
+        "mev-capital",
+        "rockawayx"
+      ],
+      "rule": "eoa_signs_entity_safe"
+    }
+  ],
+  "address_links_by_rule": {
+    "contract_controlled_by_entity": 19,
+    "eoa_signs_entity_safe": 85,
+    "euler_labels_entity_address": 854,
+    "hand_entity_address": 27,
+    "morpho_api_curator_address": 324,
+    "safe_shares_signers": 49,
+    "same_address_other_chain": 14,
+    "vault_listing_role_holder": 21
+  },
+  "groups": {
+    "all": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 109,
+          "peak_usd": 595140836,
+          "share_of_peak_usd": 0.0259
+        },
+        "hand": {
+          "objects": 48,
+          "peak_usd": 586692196,
+          "share_of_peak_usd": 0.0256
+        },
+        "name_only": {
+          "objects": 271,
+          "peak_usd": 82550633,
+          "share_of_peak_usd": 0.0036
+        },
+        "official": {
+          "objects": 1347,
+          "peak_usd": 21056145432,
+          "share_of_peak_usd": 0.9174
+        },
+        "unattributed": {
+          "objects": 5604,
+          "peak_usd": 632521076,
+          "share_of_peak_usd": 0.0276
+        }
+      },
+      "funded_objects": 3953,
+      "objects": 7379,
+      "peak_usd": 22953050173
+    },
+    "euler_v2": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 27,
+          "peak_usd": 15520040,
+          "share_of_peak_usd": 0.0042
+        },
+        "hand": {
+          "objects": 4,
+          "peak_usd": 234361,
+          "share_of_peak_usd": 0.0001
+        },
+        "name_only": {
+          "objects": 7,
+          "peak_usd": 100,
+          "share_of_peak_usd": 0.0
+        },
+        "official": {
+          "objects": 430,
+          "peak_usd": 3648968347,
+          "share_of_peak_usd": 0.9946
+        },
+        "unattributed": {
+          "objects": 184,
+          "peak_usd": 3993002,
+          "share_of_peak_usd": 0.0011
+        }
+      },
+      "funded_objects": 367,
+      "objects": 652,
+      "peak_usd": 3668715852
+    },
+    "euler_v2:euler_earn": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 3,
+          "peak_usd": 9782769,
+          "share_of_peak_usd": 0.0195
+        },
+        "name_only": {
+          "objects": 7,
+          "peak_usd": 100,
+          "share_of_peak_usd": 0.0
+        },
+        "official": {
+          "objects": 45,
+          "peak_usd": 486969589,
+          "share_of_peak_usd": 0.9725
+        },
+        "unattributed": {
+          "objects": 31,
+          "peak_usd": 3985761,
+          "share_of_peak_usd": 0.008
+        }
+      },
+      "funded_objects": 46,
+      "objects": 86,
+      "peak_usd": 500738218
+    },
+    "euler_v2:euler_lending": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 24,
+          "peak_usd": 5737272,
+          "share_of_peak_usd": 0.0018
+        },
+        "hand": {
+          "objects": 4,
+          "peak_usd": 234361,
+          "share_of_peak_usd": 0.0001
+        },
+        "official": {
+          "objects": 385,
+          "peak_usd": 3161998758,
+          "share_of_peak_usd": 0.9981
+        },
+        "unattributed": {
+          "objects": 153,
+          "peak_usd": 7242,
+          "share_of_peak_usd": 0.0
+        }
+      },
+      "funded_objects": 321,
+      "objects": 566,
+      "peak_usd": 3167977633
+    },
+    "moolah": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 4,
+          "peak_usd": 29201344,
+          "share_of_peak_usd": 0.0244
+        },
+        "name_only": {
+          "objects": 13,
+          "peak_usd": 59787,
+          "share_of_peak_usd": 0.0
+        },
+        "official": {
+          "objects": 34,
+          "peak_usd": 1167443237,
+          "share_of_peak_usd": 0.9755
+        },
+        "unattributed": {
+          "objects": 50,
+          "peak_usd": 123,
+          "share_of_peak_usd": 0.0
+        }
+      },
+      "funded_objects": 37,
+      "objects": 101,
+      "peak_usd": 1196704491
+    },
+    "moolah:moolah_vault": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 4,
+          "peak_usd": 29201344,
+          "share_of_peak_usd": 0.0244
+        },
+        "name_only": {
+          "objects": 13,
+          "peak_usd": 59787,
+          "share_of_peak_usd": 0.0
+        },
+        "official": {
+          "objects": 34,
+          "peak_usd": 1167443237,
+          "share_of_peak_usd": 0.9755
+        },
+        "unattributed": {
+          "objects": 50,
+          "peak_usd": 123,
+          "share_of_peak_usd": 0.0
+        }
+      },
+      "funded_objects": 37,
+      "objects": 101,
+      "peak_usd": 1196704491
+    },
+    "morpho": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 57,
+          "peak_usd": 429088054,
+          "share_of_peak_usd": 0.0241
+        },
+        "hand": {
+          "objects": 24,
+          "peak_usd": 513114576,
+          "share_of_peak_usd": 0.0288
+        },
+        "name_only": {
+          "objects": 234,
+          "peak_usd": 81763553,
+          "share_of_peak_usd": 0.0046
+        },
+        "official": {
+          "objects": 870,
+          "peak_usd": 16170499181,
+          "share_of_peak_usd": 0.9078
+        },
+        "unattributed": {
+          "objects": 5181,
+          "peak_usd": 618029139,
+          "share_of_peak_usd": 0.0347
+        }
+      },
+      "funded_objects": 3451,
+      "objects": 6366,
+      "peak_usd": 17812494503
+    },
+    "morpho:morpho_v1": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 25,
+          "peak_usd": 350195235,
+          "share_of_peak_usd": 0.0299
+        },
+        "hand": {
+          "objects": 15,
+          "peak_usd": 441659061,
+          "share_of_peak_usd": 0.0377
+        },
+        "name_only": {
+          "objects": 51,
+          "peak_usd": 14007990,
+          "share_of_peak_usd": 0.0012
+        },
+        "official": {
+          "objects": 371,
+          "peak_usd": 10565573095,
+          "share_of_peak_usd": 0.9028
+        },
+        "unattributed": {
+          "objects": 844,
+          "peak_usd": 332193604,
+          "share_of_peak_usd": 0.0284
+        }
+      },
+      "funded_objects": 717,
+      "objects": 1306,
+      "peak_usd": 11703628986
+    },
+    "morpho:morpho_v2": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 32,
+          "peak_usd": 78892819,
+          "share_of_peak_usd": 0.0129
+        },
+        "hand": {
+          "objects": 9,
+          "peak_usd": 71455514,
+          "share_of_peak_usd": 0.0117
+        },
+        "name_only": {
+          "objects": 183,
+          "peak_usd": 67755563,
+          "share_of_peak_usd": 0.0111
+        },
+        "official": {
+          "objects": 499,
+          "peak_usd": 5604926086,
+          "share_of_peak_usd": 0.9175
+        },
+        "unattributed": {
+          "objects": 4337,
+          "peak_usd": 285835534,
+          "share_of_peak_usd": 0.0468
+        }
+      },
+      "funded_objects": 2734,
+      "objects": 5060,
+      "peak_usd": 6108865517
+    },
+    "silo_v2": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 21,
+          "peak_usd": 121331397,
+          "share_of_peak_usd": 0.441
+        },
+        "hand": {
+          "objects": 20,
+          "peak_usd": 73343259,
+          "share_of_peak_usd": 0.2666
+        },
+        "name_only": {
+          "objects": 17,
+          "peak_usd": 727193,
+          "share_of_peak_usd": 0.0026
+        },
+        "official": {
+          "objects": 13,
+          "peak_usd": 69234667,
+          "share_of_peak_usd": 0.2516
+        },
+        "unattributed": {
+          "objects": 189,
+          "peak_usd": 10498812,
+          "share_of_peak_usd": 0.0382
+        }
+      },
+      "funded_objects": 98,
+      "objects": 260,
+      "peak_usd": 275135327
+    },
+    "silo_v2:silo_vault": {
+      "by_confidence": {
+        "cluster": {
+          "objects": 21,
+          "peak_usd": 121331397,
+          "share_of_peak_usd": 0.441
+        },
+        "hand": {
+          "objects": 20,
+          "peak_usd": 73343259,
+          "share_of_peak_usd": 0.2666
+        },
+        "name_only": {
+          "objects": 17,
+          "peak_usd": 727193,
+          "share_of_peak_usd": 0.0026
+        },
+        "official": {
+          "objects": 13,
+          "peak_usd": 69234667,
+          "share_of_peak_usd": 0.2516
+        },
+        "unattributed": {
+          "objects": 189,
+          "peak_usd": 10498812,
+          "share_of_peak_usd": 0.0382
+        }
+      },
+      "funded_objects": 98,
+      "objects": 260,
+      "peak_usd": 275135327
+    }
+  },
+  "largest_unattributed_or_name_only": [
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6708e21113922ed588bbccaa5ef756becbb2a7d1 unresolved; owner 0x6708e21113922ed588bbccaa5ef756becbb2a7d1 unresolved",
+      "kind": "morpho_v1",
+      "name": "King RSS USDC Vault",
+      "peak_usd": 196184677,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x5adcea5319ea9eac1241b95ca53690574cfa2357": {
+          "kind": "eoa"
+        },
+        "0x6708e21113922ed588bbccaa5ef756becbb2a7d1": {
+          "kind": "eoa"
+        },
+        "0xa090dd1a701408df1d4d0b85b716c87565f90467": {
+          "contract_name": "PublicAllocator",
+          "kind": "contract"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x5adcea5319ea9eac1241b95ca53690574cfa2357",
+          "0x6708e21113922ed588bbccaa5ef756becbb2a7d1",
+          "0xa090dd1a701408df1d4d0b85b716c87565f90467"
+        ],
+        "curator": [
+          "0x6708e21113922ed588bbccaa5ef756becbb2a7d1"
+        ],
+        "owner": [
+          "0x6708e21113922ed588bbccaa5ef756becbb2a7d1"
+        ]
+      },
+      "vault": "0xf80c0529bd94c773844e459853cd91b9263dd525"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934 unresolved; owner 0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934 unresolved",
+      "kind": "morpho_v2",
+      "name": "gtsy",
+      "peak_usd": 100086302,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ],
+        "curator": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ],
+        "owner": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ],
+        "sentinel": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ]
+      },
+      "vault": "0xa7a78e8e98c734f87a3b07d8db627c67001abd02"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934 unresolved; owner 0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934 unresolved",
+      "kind": "morpho_v2",
+      "name": "gtsy (usdt)",
+      "peak_usd": 78210583,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xd1fcd938008a582e5f356bfe0d92604ffb7d3171": {
+          "kind": "eoa"
+        },
+        "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xd1fcd938008a582e5f356bfe0d92604ffb7d3171",
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ],
+        "curator": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ],
+        "owner": [
+          "0xfe7be004ccaac2eaa7273f6c613e3e96b4b0b934"
+        ]
+      },
+      "vault": "0xa30d20cb10c869baf99ebeadfd79408fe7ad8faa"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "owner 0xe2321c8324c1da7b3ba790627d0e4ee444188a23 unresolved",
+      "kind": "morpho_v1",
+      "name": "Froge's USDC",
+      "peak_usd": 33523113,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xa090dd1a701408df1d4d0b85b716c87565f90467": {
+          "contract_name": "PublicAllocator",
+          "kind": "contract"
+        },
+        "0xe2321c8324c1da7b3ba790627d0e4ee444188a23": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xa090dd1a701408df1d4d0b85b716c87565f90467"
+        ],
+        "owner": [
+          "0xe2321c8324c1da7b3ba790627d0e4ee444188a23"
+        ]
+      },
+      "vault": "0x2c6d169782bf18cc634d076fe639092227b82fda"
+    },
+    {
+      "candidate_entity": "steakhouse-financial",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0xda9964eaf7a303bd493fa7a6f1593b544f0da80d unresolved; owner 0xda9964eaf7a303bd493fa7a6f1593b544f0da80d unresolved; candidate from vault name 'Trezor Steakhouse USDT Prime'",
+      "kind": "morpho_v2",
+      "name": "Trezor Steakhouse USDT Prime",
+      "peak_usd": 18766093,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x5a36fa87c50ad0e362428561522461f8a7e5f408": {
+          "kind": "safe",
+          "owners": [
+            "0x37206c37074edaabeb6e460892df4144b5149d75",
+            "0x7bfdbff5f1dfbdbe676e409f88fda448415d1760",
+            "0xb232d3318ef64287d8d36b74e167a303fe6e04d1",
+            "0xcfc46962a02acb5d6f5fd403ac6ff0dbac61029c",
+            "0xe3d571f5673371f7b3a9978129922a63fc1240b2"
+          ],
+          "threshold": 2
+        },
+        "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d": {
+          "kind": "safe",
+          "owners": [
+            "0x6afbd559a92c63ff3670cd6881ce705d101f7e99",
+            "0x8ce56428e1d0fd14db2773cbf5801f3235799461",
+            "0x8e7b4badce5c4782c3f32f155dcafaec7abaaef8"
+          ],
+          "threshold": 2
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "curator": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "owner": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "sentinel": [
+          "0x5a36fa87c50ad0e362428561522461f8a7e5f408"
+        ]
+      },
+      "vault": "0xe4db1c5a1b709ce4d2ada6985d9d506e58f73829"
+    },
+    {
+      "candidate_entity": "steakhouse-financial",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0xda9964eaf7a303bd493fa7a6f1593b544f0da80d unresolved; owner 0xda9964eaf7a303bd493fa7a6f1593b544f0da80d unresolved; candidate from vault name 'Trezor Steakhouse USDC Prime'",
+      "kind": "morpho_v2",
+      "name": "Trezor Steakhouse USDC Prime",
+      "peak_usd": 18075664,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x5a36fa87c50ad0e362428561522461f8a7e5f408": {
+          "kind": "safe",
+          "owners": [
+            "0x37206c37074edaabeb6e460892df4144b5149d75",
+            "0x7bfdbff5f1dfbdbe676e409f88fda448415d1760",
+            "0xb232d3318ef64287d8d36b74e167a303fe6e04d1",
+            "0xcfc46962a02acb5d6f5fd403ac6ff0dbac61029c",
+            "0xe3d571f5673371f7b3a9978129922a63fc1240b2"
+          ],
+          "threshold": 2
+        },
+        "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d": {
+          "kind": "safe",
+          "owners": [
+            "0x6afbd559a92c63ff3670cd6881ce705d101f7e99",
+            "0x8ce56428e1d0fd14db2773cbf5801f3235799461",
+            "0x8e7b4badce5c4782c3f32f155dcafaec7abaaef8"
+          ],
+          "threshold": 2
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "curator": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "owner": [
+          "0xda9964eaf7a303bd493fa7a6f1593b544f0da80d"
+        ],
+        "sentinel": [
+          "0x5a36fa87c50ad0e362428561522461f8a7e5f408"
+        ]
+      },
+      "vault": "0xde6c23e561f3e55846207ec45a91b777e0f7c889"
+    },
+    {
+      "candidate_entity": "ouroboros-capital",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0x4c5d2a0240b889f49e6a9e893d089933bd2802cd unresolved; owner 0x7c5805ff6f70265bcc4fc44be6a9db225a506bc8 unresolved; candidate from Morpho API description: 'Curated by Ouroboros Capital'; Morpho API description: 'Curated by Ouroboros Capital'",
+      "kind": "morpho_v1",
+      "name": "OpenEden USDC Vault",
+      "peak_usd": 13577362,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x4c5d2a0240b889f49e6a9e893d089933bd2802cd": {
+          "kind": "safe",
+          "owners": [
+            "0x38e9349fc72f106b886d92c67c638dc9a59b74f8",
+            "0x3c178f91c5e12c10a1e52a2ee94dd7e4164b0ca9",
+            "0x4b086f9d13ef45d6106b16f3c90ef22802841d4e",
+            "0xd91b074f5a4a821278e3a578e1053c249c546c84",
+            "0xe8c7f388dd34318409bd09d412c2c34d38c9b1ba"
+          ],
+          "threshold": 3
+        },
+        "0x7c5805ff6f70265bcc4fc44be6a9db225a506bc8": {
+          "kind": "safe",
+          "owners": [
+            "0x0b8e7f12fa9d2d1d5dd391f6c305017300ff1abd",
+            "0x377e4b8196f9e2d02a8465b0599bfe9a03d8225f",
+            "0x4ac67c0fb73337532cd8232470c2015128d1037b",
+            "0x6a38dbbb3a5fe04f4f7aea89f693cb2139303d47",
+            "0xbf1da0cbbb00ec22d6d75d6f49d471f848e8e278",
+            "0xc2d51b5d648052454b6c3538a2969d4d22e54fc0"
+          ],
+          "threshold": 4
+        }
+      },
+      "roles_at_peak": {
+        "curator": [
+          "0x4c5d2a0240b889f49e6a9e893d089933bd2802cd"
+        ],
+        "owner": [
+          "0x7c5805ff6f70265bcc4fc44be6a9db225a506bc8"
+        ]
+      },
+      "vault": "0x2f21c6499fa53a680120e654a27640fc8aa40bed"
+    },
+    {
+      "candidate_entity": "gauntlet",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; owner 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; candidate from vault name 'Gauntlet USDT Core'",
+      "kind": "morpho_v2",
+      "name": "Gauntlet USDT Core",
+      "peak_usd": 12498660,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "curator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "owner": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ]
+      },
+      "vault": "0x6ab8dd6124e5f5789b8b5074c5760b9917a2dfc6"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x944416e5df03ee4c14ec44c01495005564e6b07e unresolved; owner 0x4a9b24e6b0c1fe044d510dc327b66932a59b72df unresolved",
+      "kind": "morpho_v1",
+      "name": "ABRC",
+      "peak_usd": 12471490,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x41d71e8f45002a9f9315d5a4279cfc0f9047610b": {
+          "kind": "eoa"
+        },
+        "0x4a9b24e6b0c1fe044d510dc327b66932a59b72df": {
+          "kind": "eoa"
+        },
+        "0x944416e5df03ee4c14ec44c01495005564e6b07e": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x41d71e8f45002a9f9315d5a4279cfc0f9047610b",
+          "0x944416e5df03ee4c14ec44c01495005564e6b07e"
+        ],
+        "curator": [
+          "0x944416e5df03ee4c14ec44c01495005564e6b07e"
+        ],
+        "owner": [
+          "0x4a9b24e6b0c1fe044d510dc327b66932a59b72df"
+        ]
+      },
+      "vault": "0x0c36327e93f749a7eec04603410df776150f47de"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR",
+      "peak_usd": 11725276,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d": {
+          "kind": "eoa"
+        },
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xf28c7c96d7566807427f581a623c6b9290b54a6a": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xf28c7c96d7566807427f581a623c6b9290b54a6a"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+          "0xf28c7c96d7566807427f581a623c6b9290b54a6a"
+        ]
+      },
+      "vault": "0x061b3aff8e21a9d194ce43cefc20a0eff122ec69"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR (insured)",
+      "peak_usd": 10783550,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d": {
+          "kind": "eoa"
+        },
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xf28c7c96d7566807427f581a623c6b9290b54a6a": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+          "0xf28c7c96d7566807427f581a623c6b9290b54a6a"
+        ]
+      },
+      "vault": "0x3d6a627d992f717e11353f275a7970ad4af073ac"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 999,
+      "confidence": "unattributed",
+      "evidence": "curator 0xa4362c5f624f8f50db23e9fe99fdec2627cb36fd unresolved; owner 0x9afcbc4984562387ef01cd9b9fcf923177fcb354 unresolved",
+      "kind": "morpho_v1",
+      "name": "Gauntlent rUSDC Vault",
+      "peak_usd": 10032192,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x517505be22d9068687334e69ae7a02fc77edf4fc": {
+          "contract_name": "PublicAllocator",
+          "kind": "contract"
+        },
+        "0x77574f2b6bf03f1402d7b1adb32151973f1c97b6": {
+          "kind": "safe",
+          "owners": [
+            "0xf7d44d5a28d5af27a7f9c8fc6efe0129e554d7c4"
+          ],
+          "threshold": 1
+        },
+        "0x8f6d7a961534fbb2801ac36ac292104132e9dff8": {
+          "kind": "eoa"
+        },
+        "0x9afcbc4984562387ef01cd9b9fcf923177fcb354": {
+          "kind": "safe",
+          "owners": [
+            "0x4393e17ae0c8b9bcc7ca345d186c391f8c531989",
+            "0x81cce20506c13d68f33f1684d3d620422e4ae4d1"
+          ],
+          "threshold": 2
+        },
+        "0xa4362c5f624f8f50db23e9fe99fdec2627cb36fd": {
+          "kind": "safe",
+          "owners": [
+            "0x3a9b02c14d967333ce68e353a64653e258da2baa",
+            "0x8180a5ca4e3b94045e05a9313777955f7518d757",
+            "0x8a80ee3234ff0ba250b67398b994cd6c08da9c0e",
+            "0xc44910cd8820c5a91bdc55079353f30ea638fbc1",
+            "0xde014535b188d1685833b38323906e45b6ffa69d"
+          ],
+          "threshold": 3
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x517505be22d9068687334e69ae7a02fc77edf4fc",
+          "0x77574f2b6bf03f1402d7b1adb32151973f1c97b6",
+          "0x8f6d7a961534fbb2801ac36ac292104132e9dff8"
+        ],
+        "curator": [
+          "0xa4362c5f624f8f50db23e9fe99fdec2627cb36fd"
+        ],
+        "owner": [
+          "0x9afcbc4984562387ef01cd9b9fcf923177fcb354"
+        ]
+      },
+      "vault": "0x4346c98e690c17efbb999ae8e1da96b089be320b"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR",
+      "peak_usd": 8738325,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x641596935cc4045febffc43ab1f8468a44ad3b48": {
+          "kind": "eoa"
+        },
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xe5b709a14859edf820347d78e587b1634b0ec771": {
+          "kind": "eoa"
+        },
+        "0xf2d97fd005b3bab8d94bd1808604042e04773bd3": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x641596935cc4045febffc43ab1f8468a44ad3b48",
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771",
+          "0xf2d97fd005b3bab8d94bd1808604042e04773bd3"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ]
+      },
+      "vault": "0x2f99e35ea811f3cc230b26dff817604b5d4b6e38"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR (insured)",
+      "peak_usd": 6619240,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xe5b709a14859edf820347d78e587b1634b0ec771": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ]
+      },
+      "vault": "0xed7603df0d6d7387d42d05fac92cb42c4a275744"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x37f170e090b64bd277e604af359fb5b675ad10ce unresolved; owner 0x3e7b25304a7002e6eaf65b10717d0594ed2247ed unresolved",
+      "kind": "morpho_v1",
+      "name": "Lulo USDC",
+      "peak_usd": 6121664,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x37f170e090b64bd277e604af359fb5b675ad10ce": {
+          "kind": "eoa"
+        },
+        "0x3e7b25304a7002e6eaf65b10717d0594ed2247ed": {
+          "kind": "safe",
+          "owners": [
+            "0x37f170e090b64bd277e604af359fb5b675ad10ce",
+            "0x434dd715804c70fdc4dd84fa23152d85273cd501",
+            "0x506fbcff2a42d6452258cec063e0d1618c815870"
+          ],
+          "threshold": 2
+        },
+        "0x434dd715804c70fdc4dd84fa23152d85273cd501": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x37f170e090b64bd277e604af359fb5b675ad10ce",
+          "0x434dd715804c70fdc4dd84fa23152d85273cd501"
+        ],
+        "curator": [
+          "0x37f170e090b64bd277e604af359fb5b675ad10ce"
+        ],
+        "owner": [
+          "0x3e7b25304a7002e6eaf65b10717d0594ed2247ed"
+        ]
+      },
+      "vault": "0xf29ce940178c8794802fb48a6c1b2edddac96431"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x825214afa86f1f192f2fba98fcb530eadb473a5d unresolved; owner 0x54f90cbed0ba50fe7ee6113d8651ebdbf35938e2 unresolved",
+      "kind": "morpho_v1",
+      "name": "LeadBlock USDC RWA",
+      "peak_usd": 6033719,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x54f90cbed0ba50fe7ee6113d8651ebdbf35938e2": {
+          "kind": "safe",
+          "owners": [
+            "0x0c557b489a35ade1093ab2ce9ba2b6d7a478cf43",
+            "0x137f1b0720aaca88ba01b043f2f9f31841f64b96",
+            "0xe4a54d464e281d348360682d0eecb0bb529fc0c3"
+          ],
+          "threshold": 2
+        },
+        "0x825214afa86f1f192f2fba98fcb530eadb473a5d": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "curator": [
+          "0x825214afa86f1f192f2fba98fcb530eadb473a5d"
+        ],
+        "owner": [
+          "0x54f90cbed0ba50fe7ee6113d8651ebdbf35938e2"
+        ]
+      },
+      "vault": "0x4ca0e178c94f039d7f202e09d8d1a655ed3fb6b6"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "Fx Hedge Fee Vault",
+      "peak_usd": 5856577,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xe5b709a14859edf820347d78e587b1634b0ec771": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ]
+      },
+      "vault": "0xbff755fac5e2fadd58155982046b2ebc0746a97f"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x982032cd3c37f6733190db966db7db2e0d630715 unresolved; owner 0xb8a1df43c1c88b13937c0c5cebbad15830caec03 unresolved",
+      "kind": "morpho_v1",
+      "name": "Parity Core ETH",
+      "peak_usd": 5688298,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x7e94ec657bc7e4d410f559db4fbf9c14c978e278": {
+          "kind": "eoa"
+        },
+        "0x982032cd3c37f6733190db966db7db2e0d630715": {
+          "kind": "safe",
+          "owners": [
+            "0x3dfcb8ca9d086fd90e949743f06199db5abdd102",
+            "0x8939ccb67f75c0335a92413894c6943123bcdcf7",
+            "0xc7f0c20701e887fb3f3345dd0f8dd79cf40d57a4",
+            "0xc9c35a0d26da3781497e51acb22f3db26b6ec802",
+            "0xd3ab7136025f64a9811d1e70a6f59d8fbde084fb",
+            "0xfe6328525aa3db6a71c9958683bb9c73d5bf47a1"
+          ],
+          "threshold": 2
+        },
+        "0xb8a1df43c1c88b13937c0c5cebbad15830caec03": {
+          "kind": "safe",
+          "owners": [
+            "0x6eb0c274ec4b1d51152e45baed22f883b2a3bc60",
+            "0x89562fc5aef155481ae0c7dde1300110b4df2f1d",
+            "0x8ef485fd38b7b29a827938c9f00300eabf8e1710",
+            "0xb680373c50e9e877da7dcf9efcc0dfb234452ad3",
+            "0xbffcadcd5549cc378693108bcd4435776a6fa795",
+            "0xc1047a4d9f6071b55585523f7f659f39a1fba74b",
+            "0xdb97c377f23a9dc54c3d6f9df7bc0ca4cf7d5a81",
+            "0xe82183cfae1c24f044315c318fd97be7e47b31d2",
+            "0xeee661edcfe634dc0e29d62c26afd62c0843b817"
+          ],
+          "threshold": 9
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x7e94ec657bc7e4d410f559db4fbf9c14c978e278"
+        ],
+        "curator": [
+          "0x982032cd3c37f6733190db966db7db2e0d630715"
+        ],
+        "owner": [
+          "0xb8a1df43c1c88b13937c0c5cebbad15830caec03"
+        ]
+      },
+      "vault": "0xb7fc92b6ddc6612623812106e5b7532d3a48420b"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752 unresolved; owner 0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752 unresolved",
+      "kind": "morpho_v2",
+      "name": "Splits Earn USDC",
+      "peak_usd": 5225568,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752"
+        ],
+        "curator": [
+          "0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752"
+        ],
+        "owner": [
+          "0x5d8b947ce5853bd8e5caca8a7c39eaca452b6752"
+        ]
+      },
+      "vault": "0x189a1a23f46321a196646314e6a078a404513c8f"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 146,
+      "confidence": "unattributed",
+      "evidence": "curator 0x2b93eb843a54fa3ecacb5a72a69dcb666b262069 unresolved; owner 0xe2a7de3c3190afd79c49c8e8f2fa30ca78b97dfd unresolved",
+      "kind": "silo_vault",
+      "name": "Mithras",
+      "peak_usd": 5003696,
+      "protocol": "silo_v2",
+      "role_holders": {
+        "0x2b93eb843a54fa3ecacb5a72a69dcb666b262069": {
+          "kind": "safe",
+          "owners": [
+            "0x2d6dd8c92ba504a759503aea537aec3f9565935d",
+            "0x5ecbaf07907e0cd0f87317a331eea621d23db792",
+            "0x79603115df2ba00659adc63192325cf104ca529c",
+            "0x8a0146c1c32cf6b62f94e775cc878366fae6e2f6",
+            "0xf35dee924f483bc234f09cbfbc8b4488fd06be20"
+          ],
+          "threshold": 3
+        },
+        "0xe2a7de3c3190afd79c49c8e8f2fa30ca78b97dfd": {
+          "kind": "safe",
+          "owners": [
+            "0x3df8cc3923b55a92d992d9a3f119d3923f960986",
+            "0x99d865f14de5f43edd129a7cd9425c01518af2f2",
+            "0x9d2da9a98af5cbaed356e190c2e05dca21aba63e",
+            "0x9eb808da3f681cec9ab5b146a5315971fe4d5060",
+            "0xbd1a6c18f284a161efd3e01bd9e9b6e69c35b574",
+            "0xe9c9b648b899e1662fab21e983725ed3f299f4e9",
+            "0xf35dee924f483bc234f09cbfbc8b4488fd06be20"
+          ],
+          "threshold": 4
+        }
+      },
+      "roles_at_peak": {
+        "curator": [
+          "0x2b93eb843a54fa3ecacb5a72a69dcb666b262069"
+        ],
+        "owner": [
+          "0xe2a7de3c3190afd79c49c8e8f2fa30ca78b97dfd"
+        ]
+      },
+      "vault": "0x391b3f70e254d582588b27e97e48d1cfcdf0be7e"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 999,
+      "confidence": "unattributed",
+      "evidence": "curator 0x582195604f449df55219d707e0b4f9bdb3095b65 unresolved; owner 0x582195604f449df55219d707e0b4f9bdb3095b65 unresolved",
+      "kind": "morpho_v2",
+      "name": "Hyperbeat USDC Lending Optimizer",
+      "peak_usd": 4884891,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x2ab77da15980e37b1ad6b2f3625127a091a84cf6": {
+          "kind": "eoa"
+        },
+        "0x582195604f449df55219d707e0b4f9bdb3095b65": {
+          "kind": "safe",
+          "owners": [
+            "0x2efe068f1b0606c5d35647852a4723450538281b",
+            "0x43f17abc6fa021eaf607cbe39dc56dd208b67b7f",
+            "0xbeb7a26ebc333d4909d9261ddf8411f6becc6785",
+            "0xf790fea5b25d433c5077c57688b889ee7c0940a6",
+            "0xfed34139a3114291a80dd07d24cd518811442d5b"
+          ],
+          "threshold": 3
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x2ab77da15980e37b1ad6b2f3625127a091a84cf6"
+        ],
+        "curator": [
+          "0x582195604f449df55219d707e0b4f9bdb3095b65"
+        ],
+        "owner": [
+          "0x582195604f449df55219d707e0b4f9bdb3095b65"
+        ]
+      },
+      "vault": "0x818a0ee5165cbb011d6d537578744bc1e90bd433"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 42161,
+      "confidence": "unattributed",
+      "evidence": "curator 0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0 unresolved; owner 0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0 unresolved",
+      "kind": "morpho_v2",
+      "name": "Blend USDC",
+      "peak_usd": 4858713,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0": {
+          "kind": "safe",
+          "owners": [
+            "0x189d7ba0798b0822d8ffa48bc4ee2df9d3603c74",
+            "0x77115ba7974ecc44fd2c66d38913862558147684",
+            "0xc1e0c54f3c16792bac36efb7ad6a5dd0b0751f7d"
+          ],
+          "threshold": 2
+        },
+        "0x8af426bd9a6424aa992f12b79b229739cced66b9": {
+          "kind": "eoa"
+        },
+        "0xc1e0c54f3c16792bac36efb7ad6a5dd0b0751f7d": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0",
+          "0x8af426bd9a6424aa992f12b79b229739cced66b9",
+          "0xc1e0c54f3c16792bac36efb7ad6a5dd0b0751f7d"
+        ],
+        "curator": [
+          "0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0"
+        ],
+        "owner": [
+          "0x2789f4db2e4d3f0a080b0aa182f1ba23853f0ac0"
+        ]
+      },
+      "vault": "0x9ce8a73296704d4689586347ef6e2087c2128f45"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "owner 0xe952c988c46fe69105dfac99e420fe94a66b64f8 unresolved",
+      "kind": "morpho_v1",
+      "name": "High yield USDC",
+      "peak_usd": 4472736,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xe952c988c46fe69105dfac99e420fe94a66b64f8": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "owner": [
+          "0xe952c988c46fe69105dfac99e420fe94a66b64f8"
+        ]
+      },
+      "vault": "0xe01813b0a12b14cc13bd5e9f0e8a2aa7543617a1"
+    },
+    {
+      "candidate_entity": "gauntlet",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; owner 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; candidate from vault name 'Gauntlet USDC Core'",
+      "kind": "morpho_v2",
+      "name": "Gauntlet USDC Core",
+      "peak_usd": 4101697,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "curator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "owner": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ]
+      },
+      "vault": "0xe08145eb0132a219aad1b78a85bad8666a97cb94"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0xd4669fcee3be73b51438ad1f1debeb3505eab308 unresolved; owner 0x10b83c88e88910cd5293324800d1a6e751004be5 unresolved",
+      "kind": "morpho_v1",
+      "name": "Lunar Labs Treasury USDC Vault",
+      "peak_usd": 4067319,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x10b83c88e88910cd5293324800d1a6e751004be5": {
+          "kind": "eoa"
+        },
+        "0xd4669fcee3be73b51438ad1f1debeb3505eab308": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "curator": [
+          "0xd4669fcee3be73b51438ad1f1debeb3505eab308"
+        ],
+        "owner": [
+          "0x10b83c88e88910cd5293324800d1a6e751004be5"
+        ]
+      },
+      "vault": "0xf4d4fcdde388408c7a295e1c34c7b204bc0b4bac"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 9745,
+      "confidence": "unattributed",
+      "evidence": "owner 0x304d8977b5d29eeb3239859fb9a0d1d564621f73 unresolved",
+      "kind": "euler_earn",
+      "name": "Trevee plUSD",
+      "peak_usd": 3946986,
+      "protocol": "euler_v2",
+      "role_holders": {
+        "0x009d13e9bec94bf16791098ce4e5c168d27a9f07": {
+          "ens": "figue.eth",
+          "kind": "eoa"
+        },
+        "0x304d8977b5d29eeb3239859fb9a0d1d564621f73": {
+          "kind": "safe",
+          "owners": [
+            "0x009d13e9bec94bf16791098ce4e5c168d27a9f07",
+            "0x5ecbaf07907e0cd0f87317a331eea621d23db792",
+            "0x79603115df2ba00659adc63192325cf104ca529c"
+          ],
+          "threshold": 2
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x009d13e9bec94bf16791098ce4e5c168d27a9f07"
+        ],
+        "owner": [
+          "0x304d8977b5d29eeb3239859fb9a0d1d564621f73"
+        ]
+      },
+      "vault": "0x385021b412c9d2dd70823f8b5ff353028a039806"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "owner 0x7e246face452ac43f5dc60c41ee14c88c37951c6 unresolved",
+      "kind": "morpho_v1",
+      "name": "LlamaRisk crvUSD Vault",
+      "peak_usd": 3930209,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x7e246face452ac43f5dc60c41ee14c88c37951c6": {
+          "kind": "safe",
+          "owners": [
+            "0x0ed2fc947952896e6bf90001045f064fe5dbc344",
+            "0x0fb44352bcfe4c5a53a64dd0fad9a41184a1d609",
+            "0x462fcbb0581354263061e8dcf5e27c5b5e8ce3b3",
+            "0x49ce85e1c55cb5b41b8da2db85826e3b63a47e00"
+          ],
+          "threshold": 2
+        },
+        "0xfd32fa2ca22c76dd6e550706ad913fc6ce91c75d": {
+          "contract_name": "PublicAllocator",
+          "kind": "contract"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xfd32fa2ca22c76dd6e550706ad913fc6ce91c75d"
+        ],
+        "owner": [
+          "0x7e246face452ac43f5dc60c41ee14c88c37951c6"
+        ]
+      },
+      "vault": "0x67315dd969b8cd3a3520c245837bf71f54579c75"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 42161,
+      "confidence": "unattributed",
+      "evidence": "curator 0x41d71e8f45002a9f9315d5a4279cfc0f9047610b unresolved; owner 0x4a9b24e6b0c1fe044d510dc327b66932a59b72df unresolved",
+      "kind": "morpho_v1",
+      "name": "ABRC",
+      "peak_usd": 3682871,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x41d71e8f45002a9f9315d5a4279cfc0f9047610b": {
+          "kind": "eoa"
+        },
+        "0x4a9b24e6b0c1fe044d510dc327b66932a59b72df": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "curator": [
+          "0x41d71e8f45002a9f9315d5a4279cfc0f9047610b"
+        ],
+        "owner": [
+          "0x4a9b24e6b0c1fe044d510dc327b66932a59b72df"
+        ]
+      },
+      "vault": "0x6ed386ee386199d0e1d9d712ef2071be433844f4"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0xe5b709a14859edf820347d78e587b1634b0ec771 unresolved; owner 0xe5b709a14859edf820347d78e587b1634b0ec771 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR (insured)",
+      "peak_usd": 3409812,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xe5b709a14859edf820347d78e587b1634b0ec771": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "curator": [
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "owner": [
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "sentinel": [
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ]
+      },
+      "vault": "0x184ad7447d04aa8ce6f75f781bd00e37421b6eaf"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 42161,
+      "confidence": "unattributed",
+      "evidence": "curator 0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43 unresolved; owner 0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d unresolved",
+      "kind": "morpho_v1",
+      "name": "dForce USDC",
+      "peak_usd": 3372690,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d": {
+          "kind": "safe",
+          "owners": [
+            "0x9c7ba69a602979dd505fe8e12c6a0016e99fe7fd",
+            "0xf91ad216c256bd56c28bdff9f2924a46ec1c6d55",
+            "0xf9a8f243ce32d9d429bfd0483a5c3497c1694a95"
+          ],
+          "threshold": 2
+        },
+        "0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43": {
+          "kind": "safe",
+          "owners": [
+            "0x9c7ba69a602979dd505fe8e12c6a0016e99fe7fd",
+            "0xf91ad216c256bd56c28bdff9f2924a46ec1c6d55",
+            "0xf9a8f243ce32d9d429bfd0483a5c3497c1694a95"
+          ],
+          "threshold": 2
+        },
+        "0xd71f8cc322c8d7d193c3994e14e3bd2569ee7e8e": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xd71f8cc322c8d7d193c3994e14e3bd2569ee7e8e"
+        ],
+        "curator": [
+          "0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43"
+        ],
+        "owner": [
+          "0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d"
+        ]
+      },
+      "vault": "0x5579e27129110bbc9c0ec1388acbf7ad04771b76"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved; owner 0x6a85d9e2fec21f9c9452fc4022abf2a21a462851 unresolved",
+      "kind": "morpho_v2",
+      "name": "ByzPrime EUR (insured)",
+      "peak_usd": 3326262,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851": {
+          "kind": "safe",
+          "owners": [
+            "0x59ac9f88d73a0de4c123f92a25ea200e39c1057d",
+            "0x7daff7813defe60c77f43408ca51f2f52b839eda",
+            "0x8d0597e88d5524622d45ac12912973335c61692c",
+            "0xe7f1d20db742d605d7735846cbe6d3ed3e1eebc4"
+          ],
+          "threshold": 3
+        },
+        "0xe5b709a14859edf820347d78e587b1634b0ec771": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ],
+        "curator": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "owner": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851"
+        ],
+        "sentinel": [
+          "0x6a85d9e2fec21f9c9452fc4022abf2a21a462851",
+          "0xe5b709a14859edf820347d78e587b1634b0ec771"
+        ]
+      },
+      "vault": "0xcab87a163c99ae0bc91a41a2e1672b084483e591"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 999,
+      "confidence": "unattributed",
+      "evidence": "curator 0x582195604f449df55219d707e0b4f9bdb3095b65 unresolved; owner 0x582195604f449df55219d707e0b4f9bdb3095b65 unresolved",
+      "kind": "morpho_v2",
+      "name": "Hyperbeat USDT Lending Optimizer",
+      "peak_usd": 3140532,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x582195604f449df55219d707e0b4f9bdb3095b65": {
+          "kind": "safe",
+          "owners": [
+            "0x2efe068f1b0606c5d35647852a4723450538281b",
+            "0x43f17abc6fa021eaf607cbe39dc56dd208b67b7f",
+            "0xbeb7a26ebc333d4909d9261ddf8411f6becc6785",
+            "0xf790fea5b25d433c5077c57688b889ee7c0940a6",
+            "0xfed34139a3114291a80dd07d24cd518811442d5b"
+          ],
+          "threshold": 3
+        },
+        "0x7f9228e6750584f550502d874fccbdbf6be2c381": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x7f9228e6750584f550502d874fccbdbf6be2c381"
+        ],
+        "curator": [
+          "0x582195604f449df55219d707e0b4f9bdb3095b65"
+        ],
+        "owner": [
+          "0x582195604f449df55219d707e0b4f9bdb3095b65"
+        ]
+      },
+      "vault": "0x3cc295fc480afcc3642c5678f35a095a26b3f3bc"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0x982032cd3c37f6733190db966db7db2e0d630715 unresolved; owner 0xb8a1df43c1c88b13937c0c5cebbad15830caec03 unresolved",
+      "kind": "morpho_v1",
+      "name": "Parity High Yield USDC",
+      "peak_usd": 2806297,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x7e94ec657bc7e4d410f559db4fbf9c14c978e278": {
+          "kind": "eoa"
+        },
+        "0x982032cd3c37f6733190db966db7db2e0d630715": {
+          "kind": "safe",
+          "owners": [
+            "0x3dfcb8ca9d086fd90e949743f06199db5abdd102",
+            "0x8939ccb67f75c0335a92413894c6943123bcdcf7",
+            "0xc7f0c20701e887fb3f3345dd0f8dd79cf40d57a4",
+            "0xc9c35a0d26da3781497e51acb22f3db26b6ec802",
+            "0xd3ab7136025f64a9811d1e70a6f59d8fbde084fb",
+            "0xfe6328525aa3db6a71c9958683bb9c73d5bf47a1"
+          ],
+          "threshold": 2
+        },
+        "0xb8a1df43c1c88b13937c0c5cebbad15830caec03": {
+          "kind": "safe",
+          "owners": [
+            "0x6eb0c274ec4b1d51152e45baed22f883b2a3bc60",
+            "0x89562fc5aef155481ae0c7dde1300110b4df2f1d",
+            "0x8ef485fd38b7b29a827938c9f00300eabf8e1710",
+            "0xb680373c50e9e877da7dcf9efcc0dfb234452ad3",
+            "0xbffcadcd5549cc378693108bcd4435776a6fa795",
+            "0xc1047a4d9f6071b55585523f7f659f39a1fba74b",
+            "0xdb97c377f23a9dc54c3d6f9df7bc0ca4cf7d5a81",
+            "0xe82183cfae1c24f044315c318fd97be7e47b31d2",
+            "0xeee661edcfe634dc0e29d62c26afd62c0843b817"
+          ],
+          "threshold": 9
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x7e94ec657bc7e4d410f559db4fbf9c14c978e278"
+        ],
+        "curator": [
+          "0x982032cd3c37f6733190db966db7db2e0d630715"
+        ],
+        "owner": [
+          "0xb8a1df43c1c88b13937c0c5cebbad15830caec03"
+        ]
+      },
+      "vault": "0xf1cfaa17d21b399f122b8615fac12f95766ebed3"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "curator 0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43 unresolved; owner 0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d unresolved",
+      "kind": "morpho_v1",
+      "name": "dForce USDC",
+      "peak_usd": 2787869,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d": {
+          "kind": "safe",
+          "owners": [
+            "0x9c7ba69a602979dd505fe8e12c6a0016e99fe7fd",
+            "0xf91ad216c256bd56c28bdff9f2924a46ec1c6d55",
+            "0xf9a8f243ce32d9d429bfd0483a5c3497c1694a95"
+          ],
+          "threshold": 2
+        },
+        "0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43": {
+          "kind": "safe",
+          "owners": [
+            "0x9c7ba69a602979dd505fe8e12c6a0016e99fe7fd",
+            "0xf91ad216c256bd56c28bdff9f2924a46ec1c6d55",
+            "0xf9a8f243ce32d9d429bfd0483a5c3497c1694a95"
+          ],
+          "threshold": 2
+        },
+        "0xd71f8cc322c8d7d193c3994e14e3bd2569ee7e8e": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xd71f8cc322c8d7d193c3994e14e3bd2569ee7e8e"
+        ],
+        "curator": [
+          "0xc8f742c45c7fc91fa8627f3135986cbf48c4dd43"
+        ],
+        "owner": [
+          "0x9089ef7b48f3cdaec62ce83e05db15cce1dbee7d"
+        ]
+      },
+      "vault": "0xfc8a325a2403cd940649b48ffcdfc250e084a27c"
+    },
+    {
+      "candidate_entity": "gauntlet",
+      "chain_id": 1,
+      "confidence": "name_only",
+      "evidence": "curator 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; owner 0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4 unresolved; candidate from vault name 'Gauntlet USDT Prime'",
+      "kind": "morpho_v2",
+      "name": "Gauntlet USDT Prime",
+      "peak_usd": 2748881,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "curator": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ],
+        "owner": [
+          "0x1b0448bf6bd7ef8165a6350191d7338f5c2464f4"
+        ]
+      },
+      "vault": "0x43fb24ad02a101acc128eb2ad76a240245c2ad47"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0xda6b209d7619567cfdae61dabbfbac1c8a08f2bc unresolved; owner 0xda6b209d7619567cfdae61dabbfbac1c8a08f2bc unresolved",
+      "kind": "morpho_v2",
+      "name": "Etherealm USDC",
+      "peak_usd": 2693544,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x73e962b6d6ced1012fc0c2e62b937d97f2306f91": {
+          "kind": "eoa"
+        },
+        "0xda6b209d7619567cfdae61dabbfbac1c8a08f2bc": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x73e962b6d6ced1012fc0c2e62b937d97f2306f91"
+        ],
+        "curator": [
+          "0xda6b209d7619567cfdae61dabbfbac1c8a08f2bc"
+        ],
+        "owner": [
+          "0xda6b209d7619567cfdae61dabbfbac1c8a08f2bc"
+        ]
+      },
+      "vault": "0xb7305d968ecd8a23a13ec01927e3f9588c7653b5"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 8453,
+      "confidence": "unattributed",
+      "evidence": "owner 0x36a3a9ec1d253af1db332fe371200f5d2fdbb9a4 unresolved",
+      "kind": "morpho_v2",
+      "name": "Tenor cbETH/WETH Lending Vault",
+      "peak_usd": 2501482,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x36a3a9ec1d253af1db332fe371200f5d2fdbb9a4": {
+          "kind": "safe",
+          "owners": [
+            "0x75a989ebe508c4783f6fad518e07a8da7f41b92e",
+            "0xb39340c420e77d2a26173fbd224e872834a7e5e4",
+            "0xc32550c2445417dc237bcd7ad1a8360359f507a6"
+          ],
+          "threshold": 2
+        }
+      },
+      "roles_at_peak": {
+        "owner": [
+          "0x36a3a9ec1d253af1db332fe371200f5d2fdbb9a4"
+        ]
+      },
+      "vault": "0x29f5cd67e543db9ac652ef9327009db8df1fd943"
+    },
+    {
+      "candidate_entity": "steakhouse-financial",
+      "chain_id": 42161,
+      "confidence": "name_only",
+      "evidence": "curator 0xe8f1527089b595dbdd82cd21581d4fd20da30714 unresolved; owner 0xe8f1527089b595dbdd82cd21581d4fd20da30714 unresolved; candidate from vault name 'SteakHouse USDT High Yield'",
+      "kind": "morpho_v2",
+      "name": "SteakHouse USDT High Yield",
+      "peak_usd": 2449186,
+      "protocol": "morpho",
+      "role_holders": {
+        "0xe8f1527089b595dbdd82cd21581d4fd20da30714": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0xe8f1527089b595dbdd82cd21581d4fd20da30714"
+        ],
+        "curator": [
+          "0xe8f1527089b595dbdd82cd21581d4fd20da30714"
+        ],
+        "owner": [
+          "0xe8f1527089b595dbdd82cd21581d4fd20da30714"
+        ]
+      },
+      "vault": "0xd6498273ce6b14dc493cde520c67a6a69253c6d3"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 146,
+      "confidence": "unattributed",
+      "evidence": "owner 0x704663075dee671fd4ce24a8275f73ce7fdb01ca unresolved",
+      "kind": "silo_vault",
+      "name": "Braindead Digital USDC",
+      "peak_usd": 2434619,
+      "protocol": "silo_v2",
+      "role_holders": {
+        "0x56b48b1cd264f33b6a527a90643bf40813d92740": {
+          "contract_name": "ERC1967Proxy",
+          "kind": "contract"
+        },
+        "0x704663075dee671fd4ce24a8275f73ce7fdb01ca": {
+          "kind": "safe",
+          "owners": [
+            "0x01e40eb84405323fa61475a4f4bb566cd1c54420",
+            "0x2278a9463774fc0b538b7d52087a00405ca9e1ac",
+            "0x586bc70ce100d124b0dec8caf8fe5dc97a2bde14",
+            "0xb3bfb32977cfd6200ab9537e3703e501d8381c9b"
+          ],
+          "threshold": 3
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x56b48b1cd264f33b6a527a90643bf40813d92740"
+        ],
+        "owner": [
+          "0x704663075dee671fd4ce24a8275f73ce7fdb01ca"
+        ]
+      },
+      "vault": "0x3710b212b39477df2deaadcf16ef56c384a3d142"
+    },
+    {
+      "candidate_entity": null,
+      "chain_id": 1,
+      "confidence": "unattributed",
+      "evidence": "curator 0xf630d85a72628d73d7c7ffdf8fb4974c2b68a997 unresolved; owner 0xf630d85a72628d73d7c7ffdf8fb4974c2b68a997 unresolved",
+      "kind": "morpho_v1",
+      "name": "Adpend",
+      "peak_usd": 2313705,
+      "protocol": "morpho",
+      "role_holders": {
+        "0x22c512699fc71adc08596c6ab1c2a56bced36ff6": {
+          "kind": "eoa"
+        },
+        "0xf630d85a72628d73d7c7ffdf8fb4974c2b68a997": {
+          "kind": "eoa"
+        }
+      },
+      "roles_at_peak": {
+        "allocator": [
+          "0x22c512699fc71adc08596c6ab1c2a56bced36ff6"
+        ],
+        "curator": [
+          "0xf630d85a72628d73d7c7ffdf8fb4974c2b68a997"
+        ],
+        "owner": [
+          "0xf630d85a72628d73d7c7ffdf8fb4974c2b68a997"
+        ]
+      },
+      "vault": "0x55555815a5595991c3a0ff119b59aef6c8b55555"
+    }
+  ],
+  "objects_by_rule_at_peak": {
+    "contract_controlled_by_entity": {
+      "objects": 11,
+      "peak_usd": 4637420
+    },
+    "eoa_signs_entity_safe": {
+      "objects": 35,
+      "peak_usd": 276997246
+    },
+    "euler_labels_entity_address": {
+      "objects": 422,
+      "peak_usd": 3585134017
+    },
+    "hand_entity_address": {
+      "objects": 48,
+      "peak_usd": 586692196
+    },
+    "morpho_api_curator_address": {
+      "objects": 886,
+      "peak_usd": 16290740296
+    },
+    "name_candidate": {
+      "objects": 271,
+      "peak_usd": 82550633
+    },
+    "none": {
+      "objects": 5604,
+      "peak_usd": 632521076
+    },
+    "safe_shares_signers": {
+      "objects": 41,
+      "peak_usd": 184680070
+    },
+    "same_address_other_chain": {
+      "objects": 10,
+      "peak_usd": 65629474
+    },
+    "vault_listing_role_holder": {
+      "objects": 51,
+      "peak_usd": 1243467746
+    }
+  },
+  "rule": "confidence of the interval in force at the object's peak month of net AUM (vault_aum.jsonl usd minus held_by_vaults_usd)"
+}

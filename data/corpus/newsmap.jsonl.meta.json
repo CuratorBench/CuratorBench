@@ -1,0 +1,64 @@
+{
+  "candidates_before_cap": 0,
+  "cap": "tier A 60, tier B 15 per asset; risk-worded slugs first",
+  "generator": "code/corpus/crawl.py",
+  "rows": 897,
+  "sites": [
+    {
+      "hits": 0,
+      "site": "coindesk.com",
+      "sitemap_files": 60,
+      "urls": 8842
+    },
+    {
+      "hits": 0,
+      "site": "theblock.co",
+      "sitemap_files": 66,
+      "urls": 43749
+    },
+    {
+      "hits": 0,
+      "site": "decrypt.co",
+      "sitemap_files": 38,
+      "urls": 10813
+    },
+    {
+      "hits": 0,
+      "site": "cointelegraph.com",
+      "sitemap_files": 53,
+      "urls": 68197
+    },
+    {
+      "hits": 0,
+      "site": "thedefiant.io",
+      "sitemap_files": 19,
+      "urls": 15633
+    },
+    {
+      "hits": 0,
+      "site": "protos.com",
+      "sitemap_files": 9,
+      "urls": 5510
+    },
+    {
+      "hits": 0,
+      "site": "unchainedcrypto.com",
+      "sitemap_files": 15,
+      "urls": 6864
+    },
+    {
+      "hits": 0,
+      "site": "blockworks.co",
+      "sitemap_files": 125,
+      "urls": 12867
+    },
+    {
+      "hits": 0,
+      "site": "rekt.news",
+      "sitemap_files": 1,
+      "urls": 332
+    }
+  ],
+  "what": "news article URLs discovered from news-site sitemaps whose URL slug names a corpus asset",
+  "written_utc": "2026-10-09T13:27:29+00:00"
+}

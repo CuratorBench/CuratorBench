@@ -1,0 +1,15 @@
+{
+  "chain": "plasma",
+  "chain_id": 9745,
+  "generator": "code/data/enumerate.py",
+  "protocol": "euler_v2",
+  "registry_entry": {
+    "euler_earn_factory": "0xA3843A73e6a9F81309B931237Ca4759B3B02ff0E",
+    "evault_factory": "0x42388213C6F56D7E1477632b58Ae6Bba9adeEeA3",
+    "evc": "0x7bdbd0A7114aA42CA957F292145F6a931a345583"
+  },
+  "rows": 20,
+  "scanned_to_block": 33971564,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:43:03+00:00"
+}

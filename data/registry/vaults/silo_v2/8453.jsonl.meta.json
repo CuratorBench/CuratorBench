@@ -1,0 +1,15 @@
+{
+  "chain": "base",
+  "chain_id": 8453,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "base",
+    "silo_factory": "0xeB3C9fcE37A355df8f4a01CdaFA75b370607a21f",
+    "silo_vaults_factory": "0x2534b2e33076787142246750E9340696267B96be"
+  },
+  "rows": 0,
+  "scanned_to_block": 52061689,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:45:26+00:00"
+}

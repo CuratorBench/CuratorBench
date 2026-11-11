@@ -1,0 +1,1643 @@
+{
+  "archive_market_state_at_T": {
+    "identical": 39,
+    "rows": [
+      {
+        "block": 121066328,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 1833622527389121129392952,
+        "chain_id": 56,
+        "chain_shares": 1713914536656625817149687390211,
+        "chain_supply": 1833622527389121129392954,
+        "identical": true,
+        "market": "0x60e2142a6689170196ab9b6d477a44dc5ed9477957e1046da274edda8e778cd6",
+        "ok": true,
+        "panel_borrow": 1833622527389121129392952,
+        "panel_shares": 1713914536656625817149687390211,
+        "panel_supply": 1833622527389121129392954,
+        "protocol": "moolah"
+      },
+      {
+        "block": 121066328,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 0,
+        "chain_id": 56,
+        "chain_shares": 0,
+        "chain_supply": 1,
+        "identical": true,
+        "market": "0xcc31249ac8d2ccaa0950a812156d3aa0f06f0918ab5763d8b11a54711aac78ed",
+        "ok": true,
+        "panel_borrow": 0,
+        "panel_shares": 0,
+        "panel_supply": 1,
+        "protocol": "moolah"
+      },
+      {
+        "block": 121066328,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 8190404569924226623538853,
+        "chain_id": 56,
+        "chain_shares": 7261151015672149449960771400830,
+        "chain_supply": 8190404569924226623538853,
+        "identical": true,
+        "market": "0xe4f13e0f056e811b79ca4598bbf8756c7b5d5483e57373036674bc4d24b32a8d",
+        "ok": true,
+        "panel_borrow": 8190404569924226623538853,
+        "panel_shares": 7261151015672149449960771400830,
+        "panel_supply": 8190404569924226623538853,
+        "protocol": "moolah"
+      },
+      {
+        "block": 121066328,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 15983781741648702563,
+        "chain_id": 56,
+        "chain_shares": 19257976957854685640345759,
+        "chain_supply": 19487211754337589984,
+        "identical": true,
+        "market": "0xff66db2dcd564ed68063c779e018d25ad1a31af372bd85e4acd770d9b985f5d4",
+        "ok": true,
+        "panel_borrow": 15983781741648702563,
+        "panel_shares": 19257976957854685640345759,
+        "panel_supply": 19487211754337589984,
+        "protocol": "moolah"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1395123,
+        "chain_id": 1,
+        "chain_shares": 1001000000000,
+        "chain_supply": 1396521,
+        "identical": true,
+        "market": "0x010e577cd5d40210ae600cd877710c252a26afd7b50b1280642c76c4612bd6df",
+        "ok": true,
+        "panel_borrow": 1395123,
+        "panel_shares": 1001000000000,
+        "panel_supply": 1396521,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 12137828,
+        "chain_id": 1,
+        "chain_shares": 11616080390564,
+        "chain_supply": 12137828,
+        "identical": true,
+        "market": "0x0ec590b250f171c22d39958a55a0589091431fe90599d55409c39aeb01363cb0",
+        "ok": true,
+        "panel_borrow": 12137828,
+        "panel_shares": 11616080390564,
+        "panel_supply": 12137828,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 4339128990972897,
+        "chain_id": 1,
+        "chain_shares": 8218843741633836645,
+        "chain_supply": 4339128990972897,
+        "identical": true,
+        "market": "0x0f9563442d64ab3bd3bcb27058db0b0d4046a4c46f0acd811dacae9551d2b129",
+        "ok": true,
+        "panel_borrow": 4339128990972897,
+        "panel_shares": 8218843741633836645,
+        "panel_supply": 4339128990972897,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1939717161803525609,
+        "chain_id": 1,
+        "chain_shares": 1883331322584711277463925,
+        "chain_supply": 1939723185902327228,
+        "identical": true,
+        "market": "0x13dd22c3111106f703052d5f9166812f0bf1f4679f3db7dfd82037971ce5468f",
+        "ok": true,
+        "panel_borrow": 1939717161803525609,
+        "panel_shares": 1883331322584711277463925,
+        "panel_supply": 1939723185902327228,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 8584239077453,
+        "chain_id": 1,
+        "chain_shares": 425038584188681069,
+        "chain_supply": 8584419722008,
+        "identical": true,
+        "market": "0x1cfdc0154ae6b9f1887a8250f2582d55606e1a2008e65108fb83dd50a928593e",
+        "ok": true,
+        "panel_borrow": 8584239077453,
+        "panel_shares": 425038584188681069,
+        "panel_supply": 8584419722008,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 213756438801828617156168427,
+        "chain_id": 1,
+        "chain_shares": 213755234897411743251061338176482,
+        "chain_supply": 213756438801828617156168429,
+        "identical": true,
+        "market": "0x1dca6989b0d2b0a546530b3a739e91402eee2e1536a2d3ded4f5ce589a9cd1c2",
+        "ok": true,
+        "panel_borrow": 213756438801828617156168427,
+        "panel_shares": 213755234897411743251061338176482,
+        "panel_supply": 213756438801828617156168429,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 5692782,
+        "chain_id": 1,
+        "chain_shares": 5066507723758,
+        "chain_supply": 5692782,
+        "identical": true,
+        "market": "0x1def309fa6c5b6ee7044b67154f15872af6c7e240f1e103f6a46cd82fb351688",
+        "ok": true,
+        "panel_borrow": 5692782,
+        "panel_shares": 5066507723758,
+        "panel_supply": 5692782,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 95315650905060,
+        "chain_id": 1,
+        "chain_shares": 20293832059275482836,
+        "chain_supply": 95315650905060,
+        "identical": true,
+        "market": "0x23a7d0ff682b323363fb8ba58327ed87001f6306e09b7fd7413bbe4698e749c8",
+        "ok": true,
+        "panel_borrow": 95315650905060,
+        "panel_shares": 20293832059275482836,
+        "panel_supply": 95315650905060,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1318880849638628475,
+        "chain_id": 1,
+        "chain_shares": 5374758767526514878570038,
+        "chain_supply": 13650083739038628485,
+        "identical": true,
+        "market": "0x308cb8d01d8fe656ceaf4841abc62cee6587f9e46533622e30a0053337953432",
+        "ok": true,
+        "panel_borrow": 1318880849638628475,
+        "panel_shares": 5374758767526514878570038,
+        "panel_supply": 13650083739038628485,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 482958849147,
+        "chain_id": 1,
+        "chain_shares": 502646668292726082,
+        "chain_supply": 507327370408,
+        "identical": true,
+        "market": "0x41b12bac98fdc74ffeb513771b0bd341a14733f57072f7236cf3730af06d7fa2",
+        "ok": true,
+        "panel_borrow": 482958849147,
+        "panel_shares": 502646668292726082,
+        "panel_supply": 507327370408,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 680363985195,
+        "chain_id": 1,
+        "chain_shares": 314051887608681742,
+        "chain_supply": 680363985195,
+        "identical": true,
+        "market": "0x4b86442549b52826e0fc11770ec5154450cb3c5c14dc751a761d81dcfbe7a7b2",
+        "ok": true,
+        "panel_borrow": 680363985195,
+        "panel_shares": 314051887608681742,
+        "panel_supply": 680363985195,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 70628,
+        "chain_id": 1,
+        "chain_shares": 4944380281146,
+        "chain_supply": 4987574,
+        "identical": true,
+        "market": "0x64d6a777c466c2eb82a1efb4814aa2eab673a95e66fc229fea54125608e6f342",
+        "ok": true,
+        "panel_borrow": 70628,
+        "panel_shares": 4944380281146,
+        "panel_supply": 4987574,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 6740993276294,
+        "chain_id": 1,
+        "chain_shares": 257896113358071917,
+        "chain_supply": 6740993276294,
+        "identical": true,
+        "market": "0x8e7cc042d739a365c43d0a52d5f24160fa7ae9b7e7c9a479bd02a56041d4cf77",
+        "ok": true,
+        "panel_borrow": 6740993276294,
+        "panel_shares": 257896113358071917,
+        "panel_supply": 6740993276294,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1000000,
+        "chain_id": 1,
+        "chain_shares": 1000000000000,
+        "chain_supply": 1000000,
+        "identical": true,
+        "market": "0x9ba3a3d0ec2886d41f4c7c93c72aaa77b2454e4d3db3603e37797c429d048cfb",
+        "ok": true,
+        "panel_borrow": 1000000,
+        "panel_shares": 1000000000000,
+        "panel_supply": 1000000,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 2077672,
+        "chain_id": 1,
+        "chain_shares": 14481260315415,
+        "chain_supply": 17221296,
+        "identical": true,
+        "market": "0x9d582055d36f8d8b3b5924b9be6b8357fd766c635592a1ca8dac5f31c6acca04",
+        "ok": true,
+        "panel_borrow": 2077672,
+        "panel_shares": 14481260315415,
+        "panel_supply": 17221296,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1000000000000000,
+        "chain_id": 1,
+        "chain_shares": 1000000000000000000000,
+        "chain_supply": 1000000000000000,
+        "identical": true,
+        "market": "0xa4a856c3a52f426f59c3a29d0854af473e4d3df84718709ff25a36a1c9e3c0ac",
+        "ok": true,
+        "panel_borrow": 1000000000000000,
+        "panel_shares": 1000000000000000000000,
+        "panel_supply": 1000000000000000,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1394578,
+        "chain_id": 1,
+        "chain_shares": 1001000000000,
+        "chain_supply": 1395975,
+        "identical": true,
+        "market": "0xac5e7868966e4ba9173c691a8f7e94a9f5966815121a0493042fb341db8d2d3f",
+        "ok": true,
+        "panel_borrow": 1394578,
+        "panel_shares": 1001000000000,
+        "panel_supply": 1395975,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 3964813178039,
+        "chain_id": 1,
+        "chain_shares": 3843512921195930261,
+        "chain_supply": 3964813178039,
+        "identical": true,
+        "market": "0xb317d11c2bc2c0c8e6ea3c6517731cf667c86f2c716624be50319a6d32a97e8d",
+        "ok": true,
+        "panel_borrow": 3964813178039,
+        "panel_shares": 3843512921195930261,
+        "panel_supply": 3964813178039,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 71043740545926492103460,
+        "chain_id": 1,
+        "chain_shares": 80183444278410203333217808780,
+        "chain_supply": 81059770344161491714286,
+        "identical": true,
+        "market": "0xbec3a93801b559a8652552886481922e5676246b4e328788b2b53e13c21fd1c4",
+        "ok": true,
+        "panel_borrow": 71043740545926492103460,
+        "panel_shares": 80183444278410203333217808780,
+        "panel_supply": 81059770344161491714286,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 25867714778640977379918,
+        "chain_id": 1,
+        "chain_shares": 25395675891492639847311448308,
+        "chain_supply": 25867714778640977379918,
+        "identical": true,
+        "market": "0xcc39b6c92fd03ac608b9239618db8b80a4a2034b0450bdf47b404229571312da",
+        "ok": true,
+        "panel_borrow": 25867714778640977379918,
+        "panel_shares": 25395675891492639847311448308,
+        "panel_supply": 25867714778640977379918,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 245787249,
+        "chain_id": 1,
+        "chain_shares": 610715822280077011845555394,
+        "chain_supply": 680066115196943084253,
+        "identical": true,
+        "market": "0xcfe8238ad5567886652ced15ee29a431c161a5904e5a6f380baaa1b4fdc8e302",
+        "ok": true,
+        "panel_borrow": 245787249,
+        "panel_shares": 610715822280077011845555394,
+        "panel_supply": 680066115196943084253,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 580245838503124709092473,
+        "chain_id": 1,
+        "chain_shares": 644835172363888580194375031462,
+        "chain_supply": 651323290115106637979896,
+        "identical": true,
+        "market": "0xd86df29b48f2d88a0453027212247a29e68ff52c6589c46054f57285da2fa7e3",
+        "ok": true,
+        "panel_borrow": 580245838503124709092473,
+        "panel_shares": 644835172363888580194375031462,
+        "panel_supply": 651323290115106637979896,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 69334355379680,
+        "chain_id": 1,
+        "chain_shares": 5756786599124103875,
+        "chain_supply": 69334355379681,
+        "identical": true,
+        "market": "0xd9e34b1eed46d123ac1b69b224de1881dbc88798bc7b70f504920f62f58f28cc",
+        "ok": true,
+        "panel_borrow": 69334355379680,
+        "panel_shares": 5756786599124103875,
+        "panel_supply": 69334355379681,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 47057945504147,
+        "chain_id": 1,
+        "chain_shares": 2041460832261262886,
+        "chain_supply": 47057945504147,
+        "identical": true,
+        "market": "0xe1b65304edd8ceaea9b629df4c3c926a37d1216e27900505c04f14b2ed279f33",
+        "ok": true,
+        "panel_borrow": 47057945504147,
+        "panel_shares": 2041460832261262886,
+        "panel_supply": 47057945504147,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 6630117097011473949114317,
+        "chain_id": 1,
+        "chain_shares": 6858456929627803494169789034593,
+        "chain_supply": 6973601796409533628843737,
+        "identical": true,
+        "market": "0xebd23a871b52e0a8c92bd719f4413600101b69e946cb72923b3a33fb5bc6ec85",
+        "ok": true,
+        "panel_borrow": 6630117097011473949114317,
+        "panel_shares": 6858456929627803494169789034593,
+        "panel_supply": 6973601796409533628843737,
+        "protocol": "morpho"
+      },
+      {
+        "block": 25946847,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 50794319048630525,
+        "chain_id": 1,
+        "chain_shares": 54215849405985076476750,
+        "chain_supply": 60807103719349738,
+        "identical": true,
+        "market": "0xec97655fab06b53bfad9d8c2358768aed5a1c97b204d3e51e2a7cb0cb786a264",
+        "ok": true,
+        "panel_borrow": 50794319048630525,
+        "panel_shares": 54215849405985076476750,
+        "panel_supply": 60807103719349738,
+        "protocol": "morpho"
+      },
+      {
+        "block": 45531728,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 67785981072236137766619,
+        "chain_id": 999,
+        "chain_shares": 9457885684058675567153570731,
+        "chain_supply": 67785981072236137766619,
+        "identical": true,
+        "market": "0x1da89208e6cb5173e97a83461853b8400de4f7c37542cf010a10579a5f7ca451",
+        "ok": true,
+        "panel_borrow": 67785981072236137766619,
+        "panel_shares": 9457885684058675567153570731,
+        "panel_supply": 67785981072236137766619,
+        "protocol": "morpho"
+      },
+      {
+        "block": 45531728,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 4856600416984,
+        "chain_id": 999,
+        "chain_shares": 1116571480536178792,
+        "chain_supply": 4856600416984,
+        "identical": true,
+        "market": "0x8eecdd03f1e12e03c04abefdb3f536067e071ad2c3f63e7b04c9a034889d0ba5",
+        "ok": true,
+        "panel_borrow": 4856600416984,
+        "panel_shares": 1116571480536178792,
+        "panel_supply": 4856600416984,
+        "protocol": "morpho"
+      },
+      {
+        "block": 45531728,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 9463950,
+        "chain_id": 999,
+        "chain_shares": 5552718427958,
+        "chain_supply": 9463950,
+        "identical": true,
+        "market": "0xc59a3f8a3918d89ebef44ee1dcda435719f543cfd3f37ead7e74852ea5931581",
+        "ok": true,
+        "panel_borrow": 9463950,
+        "panel_shares": 5552718427958,
+        "panel_supply": 9463950,
+        "protocol": "morpho"
+      },
+      {
+        "block": 45531728,
+        "block_utc": "2026-09-10 12:00",
+        "chain_borrow": 17161295949992842524816,
+        "chain_id": 999,
+        "chain_shares": 5043947802973054036270613651,
+        "chain_supply": 17161295949992842524816,
+        "identical": true,
+        "market": "0xed00791e29eb08c9bc0d8b389fe1f00084699baf2a785ba2a42e915706b17b82",
+        "ok": true,
+        "panel_borrow": 17161295949992842524816,
+        "panel_shares": 5043947802973054036270613651,
+        "panel_supply": 17161295949992842524816,
+        "protocol": "morpho"
+      },
+      {
+        "block": 51126126,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1795679888186272978,
+        "chain_id": 8453,
+        "chain_shares": 1566513145983841932826184,
+        "chain_supply": 1795679888186272978,
+        "identical": true,
+        "market": "0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+        "ok": true,
+        "panel_borrow": 1795679888186272978,
+        "panel_shares": 1566513145983841932826184,
+        "panel_supply": 1795679888186272978,
+        "protocol": "morpho"
+      },
+      {
+        "block": 51126126,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 1073202,
+        "chain_id": 8453,
+        "chain_shares": 959891032622,
+        "chain_supply": 1073202,
+        "identical": true,
+        "market": "0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb",
+        "ok": true,
+        "panel_borrow": 1073202,
+        "panel_shares": 959891032622,
+        "panel_supply": 1073202,
+        "protocol": "morpho"
+      },
+      {
+        "block": 51126126,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 387735794417653015268,
+        "chain_id": 8453,
+        "chain_shares": 174571803343126448893043263,
+        "chain_supply": 466146571989306676774,
+        "identical": true,
+        "market": "0xad9a1896d6d8b07981f78601b2c91056658dc104c5f0b799dd52717704bd5221",
+        "ok": true,
+        "panel_borrow": 387735794417653015268,
+        "panel_shares": 174571803343126448893043263,
+        "panel_supply": 466146571989306676774,
+        "protocol": "morpho"
+      },
+      {
+        "block": 51126126,
+        "block_utc": "2026-09-10 11:59",
+        "chain_borrow": 15114963558960,
+        "chain_id": 8453,
+        "chain_shares": 1216638260805312858,
+        "chain_supply": 15114963558960,
+        "identical": true,
+        "market": "0xff0f2bd52ca786a4f8149f96622885e880222d8bed12bbbf5950296be8d03f89",
+        "ok": true,
+        "panel_borrow": 15114963558960,
+        "panel_shares": 1216638260805312858,
+        "panel_supply": 15114963558960,
+        "protocol": "morpho"
+      },
+      {
+        "block": 503701064,
+        "block_utc": "2026-09-10 11:56",
+        "chain_borrow": 2567774995100,
+        "chain_id": 42161,
+        "chain_shares": 694476065444268947,
+        "chain_supply": 2567774995100,
+        "identical": true,
+        "market": "0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709",
+        "ok": true,
+        "panel_borrow": 2567774995100,
+        "panel_shares": 694476065444268947,
+        "panel_supply": 2567774995100,
+        "protocol": "morpho"
+      }
+    ],
+    "rpc_calls": 10
+  },
+  "e2_consistency": {
+    "days_locked_equal": 231,
+    "differences": [
+      {
+        "chain_id": 1,
+        "e2": {
+          "days_locked": 12,
+          "days_locked_10pct": 12,
+          "days_locked_1pct": 12,
+          "exit_lead_days": 40.15,
+          "exposure_t0_usd": 1020777.4649815034,
+          "group": "exited_before_t0",
+          "position_t0_usd": 1020777.4649815034
+        },
+        "e2_rule": {
+          "days_locked": 12,
+          "days_locked_10pct": 12,
+          "days_locked_1pct": 12,
+          "exit_lead_days": 40.15,
+          "exposure_t0_usd": 1032282.5311726215,
+          "group": "exited_before_t0",
+          "in_e2": true,
+          "position_t0_usd": 1032282.5311726215,
+          "t0_utc": "2026-03-22 03:33"
+        },
+        "e5": {
+          "days_locked": 12,
+          "days_locked_10pct": 12,
+          "days_locked_1pct": 12,
+          "entered_after_t0": false,
+          "exit_lead_days": 40.15,
+          "exposure_t0_usd": 1032282.5311726215,
+          "group": "exited_before_t0",
+          "position_t0_usd": 1032282.5311726215
+        },
+        "event_id": "E2-040",
+        "found": true,
+        "kind": "morpho_v1",
+        "protocol": "morpho",
+        "t0_moved": false,
+        "vault": "0x132e6c9c33a62d7727cd359b1f51e5b566e485eb"
+      },
+      {
+        "chain_id": 1,
+        "e2": {
+          "days_locked": 0,
+          "days_locked_10pct": 0,
+          "days_locked_1pct": 0,
+          "exit_lead_days": 43.15,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0",
+          "position_t0_usd": 0.0
+        },
+        "e2_rule": {
+          "days_locked": 0,
+          "days_locked_10pct": 0,
+          "days_locked_1pct": 0,
+          "exit_lead_days": 28.15,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0",
+          "in_e2": true,
+          "position_t0_usd": 0.0,
+          "t0_utc": "2026-03-22 03:33"
+        },
+        "e5": {
+          "days_locked": 0,
+          "days_locked_10pct": 0,
+          "days_locked_1pct": 0,
+          "entered_after_t0": false,
+          "exit_lead_days": 28.15,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0",
+          "position_t0_usd": 0.0
+        },
+        "event_id": "E2-040",
+        "found": true,
+        "kind": "morpho_v1",
+        "protocol": "morpho",
+        "t0_moved": false,
+        "vault": "0x5b8b9fa8e4145ee06025f642cadb1b47e5f39f04"
+      },
+      {
+        "chain_id": 1,
+        "e2": {
+          "days_locked": 2,
+          "days_locked_10pct": 2,
+          "days_locked_1pct": 1,
+          "exit_lead_days": 39.15,
+          "exposure_t0_usd": 1792352.4164625967,
+          "group": "exited_before_t0",
+          "position_t0_usd": 1792352.4164625967
+        },
+        "e2_rule": {
+          "days_locked": 2,
+          "days_locked_10pct": 2,
+          "days_locked_1pct": 1,
+          "exit_lead_days": 39.15,
+          "exposure_t0_usd": 2274957.6934971693,
+          "group": "exited_before_t0",
+          "in_e2": true,
+          "position_t0_usd": 2274957.6934971693,
+          "t0_utc": "2026-03-22 03:33"
+        },
+        "e5": {
+          "days_locked": 2,
+          "days_locked_10pct": 2,
+          "days_locked_1pct": 1,
+          "entered_after_t0": false,
+          "exit_lead_days": 39.15,
+          "exposure_t0_usd": 2274957.6934971693,
+          "group": "exited_before_t0",
+          "position_t0_usd": 2274957.6934971693
+        },
+        "event_id": "E2-040",
+        "found": true,
+        "kind": "morpho_v1",
+        "protocol": "morpho",
+        "t0_moved": false,
+        "vault": "0xc582f04d8a82795aa2ff9c8bb4c1c889fe7b754e"
+      }
+    ],
+    "e2_rows": 231,
+    "e2_rule_group_and_lead_equal": 230,
+    "exposure_t0_equal": 229,
+    "found": 231,
+    "group_changes": [
+      {
+        "e2": "entered_after_t0",
+        "e5": "exited_before_t0",
+        "reason": "E5 has no entered-after group: no exposure in the 180 days before t0",
+        "rows": 1
+      },
+      {
+        "e2": "entered_after_t0",
+        "e5": "never_entered",
+        "reason": "E5 has no entered-after group: no exposure in the 180 days before t0",
+        "rows": 16
+      },
+      {
+        "e2": "present_at_t0",
+        "e5": "exited_before_t0",
+        "reason": "peak over 180 days instead of 90, or family weighting",
+        "rows": 7
+      },
+      {
+        "e2": "present_at_t0",
+        "e5": "never_entered",
+        "reason": "family-weighted exposure below 10k USD (Euler debt not backed by the family)",
+        "rows": 3
+      }
+    ],
+    "lead_changes": [
+      {
+        "e2": 74.85,
+        "e5": 75.85,
+        "event_id": "E2-026",
+        "vault": "0x3710b212b39477df2deaadcf16ef56c384a3d142"
+      },
+      {
+        "e2": 46.58,
+        "e5": 134.58,
+        "event_id": "E2-029",
+        "vault": "0x8eb67a509616cd6a7c1b3c8c21d48ff57df3d458"
+      },
+      {
+        "e2": 48.58,
+        "e5": 156.58,
+        "event_id": "E2-029",
+        "vault": "0xc582f04d8a82795aa2ff9c8bb4c1c889fe7b754e"
+      },
+      {
+        "e2": 76.95,
+        "e5": 81.95,
+        "event_id": "E2-031",
+        "vault": "0x3710b212b39477df2deaadcf16ef56c384a3d142"
+      },
+      {
+        "e2": 85.95,
+        "e5": 87.95,
+        "event_id": "E2-031",
+        "vault": "0xf6bc16b79c469b94cdd25f3e2334dd4fee47a581"
+      },
+      {
+        "e2": 86.95,
+        "e5": 130.95,
+        "event_id": "E2-031",
+        "vault": "0xf6f87073cf8929c206a77b0694619dc776f89885"
+      },
+      {
+        "e2": 22.15,
+        "e5": 144.15,
+        "event_id": "E2-040",
+        "vault": "0x3cd3718f8f047aa32f775e2cb4245a164e1c99fb"
+      },
+      {
+        "e2": 43.15,
+        "e5": 28.15,
+        "event_id": "E2-040",
+        "vault": "0x5b8b9fa8e4145ee06025f642cadb1b47e5f39f04"
+      },
+      {
+        "e2": 41.15,
+        "e5": 44.15,
+        "event_id": "E2-040",
+        "vault": "0x777791c4d6dc2ce140d00d2828a7c93503c67777"
+      },
+      {
+        "e2": 40.15,
+        "e5": 176.15,
+        "event_id": "E2-040",
+        "vault": "0xbeefff209270748ddd194831b3fa287a5386f5bc"
+      },
+      {
+        "e2": 48.15,
+        "e5": 94.15,
+        "event_id": "E2-040",
+        "vault": "0xd50da5f859811a91fd1876c9461fd39c23c747ad"
+      },
+      {
+        "e2": 45.15,
+        "e5": 128.15,
+        "event_id": "E2-040",
+        "vault": "0xed9278c5188f37670b33ef3b00729e38260cd5d5"
+      },
+      {
+        "e2": 69.77,
+        "e5": 75.77,
+        "event_id": "E2-048",
+        "vault": "0x47fe8ab9ee47dd65c24df52324181790b9f47efc"
+      },
+      {
+        "e2": 0.0,
+        "e5": 45.79,
+        "event_id": "E2-049",
+        "vault": "0x58efa4a930f06b04ea9b1f1cf6b7c620b5c93ea1"
+      },
+      {
+        "e2": 10.79,
+        "e5": 137.79,
+        "event_id": "E2-049",
+        "vault": "0x5a32099837d89e3a794a44fb131cbbad41f87a8c"
+      },
+      {
+        "e2": 31.82,
+        "e5": 56.82,
+        "event_id": "E2-050",
+        "vault": "0x4881ef0bf6d2365d3dd6499ccd7532bcdbce0658"
+      },
+      {
+        "e2": 34.82,
+        "e5": 41.82,
+        "event_id": "E2-050",
+        "vault": "0xbeef36a5c1372f8d7d211527fce9f83fe02d8a73"
+      },
+      {
+        "e2": 65.23,
+        "e5": 171.23,
+        "event_id": "E2-053",
+        "vault": "0x1445a01a57d7b7663cfd7b4ee0a8ec03b379aabd"
+      },
+      {
+        "e2": 39.62,
+        "e5": 140.62,
+        "event_id": "E2-054",
+        "vault": "0x1445a01a57d7b7663cfd7b4ee0a8ec03b379aabd"
+      }
+    ],
+    "missing": []
+  },
+  "exposure_rows": {
+    "identical": 20,
+    "n": 20,
+    "rows": [
+      {
+        "chain_id": 146,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 2443281.912071896,
+          "group": "present_at_t0"
+        },
+        "kind": "silo_vault",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 2443281.912071896,
+          "group": "present_at_t0"
+        },
+        "protocol": "silo_v2",
+        "vault": "0x391b3f70e254d582588b27e97e48d1cfcdf0be7e"
+      },
+      {
+        "chain_id": 8453,
+        "event_id": "E2-006",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 1486311.875914288,
+          "group": "present_at_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 1486311.875914288,
+          "group": "present_at_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0xbb819d845b573b5d7c538f5b85057160cfb5f313"
+      },
+      {
+        "chain_id": 146,
+        "event_id": "E2-031",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": 81.95,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "kind": "silo_vault",
+        "ours": {
+          "exit_lead_days": 81.95,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "protocol": "silo_v2",
+        "vault": "0x3710b212b39477df2deaadcf16ef56c384a3d142"
+      },
+      {
+        "chain_id": 9745,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": 26.85,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "kind": "euler_earn",
+        "ours": {
+          "exit_lead_days": 26.85,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "protocol": "euler_v2",
+        "vault": "0xa5eed1615cd883dd6883ca3a385f525e3beb4e79"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-069",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 1715650.1545792744,
+          "group": "present_at_t0"
+        },
+        "kind": "euler_lending",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 1715650.1545792744,
+          "group": "present_at_t0"
+        },
+        "protocol": "euler_v2",
+        "vault": "0x481d4909d7ca2eb27c4975f08dce07dbef0d3fa7"
+      },
+      {
+        "chain_id": 9745,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 3989916.567951131,
+          "group": "present_at_t0"
+        },
+        "kind": "euler_lending",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 3989916.567951131,
+          "group": "present_at_t0"
+        },
+        "protocol": "euler_v2",
+        "vault": "0x27934d4879fc28a74703726edae15f757e45a48a"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-012",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 822759.2303674814,
+          "group": "present_at_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 822759.2303674814,
+          "group": "present_at_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0xa02f5e93f783baf150aa1f8b341ae90fe0a772f7"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-040",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 2483.842267856133,
+          "group": "present_at_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 2483.842267856133,
+          "group": "present_at_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0x0b6c8ef0de1be5ed1b59e6e7a67fb9442fb9e49c"
+      },
+      {
+        "chain_id": 42161,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": 5.85,
+          "exposure_t0_usd": 9.333003339567968e-07,
+          "group": "exited_before_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": 5.85,
+          "exposure_t0_usd": 9.333003339567968e-07,
+          "group": "exited_before_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0x64ca76e2525fc6ab2179300c15e343d73e42f958"
+      },
+      {
+        "chain_id": 146,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 597420.265817767,
+          "group": "present_at_t0"
+        },
+        "kind": "silo_vault",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 597420.265817767,
+          "group": "present_at_t0"
+        },
+        "protocol": "silo_v2",
+        "vault": "0xf6bc16b79c469b94cdd25f3e2334dd4fee47a581"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-050",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 896906.5698039879,
+          "group": "present_at_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 896906.5698039879,
+          "group": "present_at_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0x78fc2c2ed1a4cdb5402365934ae5648adad094d0"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-040",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": 61.15,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": 61.15,
+          "exposure_t0_usd": 0.0,
+          "group": "exited_before_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0xb0f05e4de970a1aaf77f8c2f823953a367504ba9"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-040",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 17843.940227680276,
+          "group": "present_at_t0"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 17843.940227680276,
+          "group": "present_at_t0"
+        },
+        "protocol": "morpho",
+        "vault": "0x341193ed21711472e71aeca4a942123452bd0dda"
+      },
+      {
+        "chain_id": 43114,
+        "event_id": "E2-026",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": 11.85,
+          "exposure_t0_usd": 7.866874106581735e-07,
+          "group": "exited_before_t0"
+        },
+        "kind": "silo_vault",
+        "ours": {
+          "exit_lead_days": 11.85,
+          "exposure_t0_usd": 7.866874106581735e-07,
+          "group": "exited_before_t0"
+        },
+        "protocol": "silo_v2",
+        "vault": "0xf8c100ab4b2d416609b0ef18105ebf601b2ec84a"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-040",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "morpho",
+        "vault": "0xa0804346780b4c2e3be118ac957d1db82f9d7484"
+      },
+      {
+        "chain_id": 56,
+        "event_id": "E2-014",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "moolah_vault",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "moolah",
+        "vault": "0xab251dc87dc313649d024bd69b34c8e7690ce1fc"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-050",
+        "how": "positions file + panel CSVs + actions queue + distribution + prices (pandas)",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "morpho",
+        "vault": "0x47fe8ab9ee47dd65c24df52324181790b9f47efc"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-065",
+        "how": "no affected market id in the position file; E3 vault_daily.csv value 187822.63 on 2026-06-22",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "morpho",
+        "vault": "0x973f758aa6c15bafa8bbeffd4b9449f5b5885edd"
+      },
+      {
+        "chain_id": 1,
+        "event_id": "E2-056",
+        "how": "no affected market id in the position file; E3 lending_daily.csv value 153420707.73 on 2026-05-03",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "euler_lending",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "euler_v2",
+        "vault": "0xab2726daf820aa9270d14db9b18c8d187cbf2f30"
+      },
+      {
+        "chain_id": 8453,
+        "event_id": "E2-023",
+        "how": "no affected market id in the position file; E3 vault_daily.csv value 751437.05 on 2025-09-21",
+        "identical": true,
+        "independent": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "kind": "morpho_v1",
+        "ours": {
+          "exit_lead_days": null,
+          "exposure_t0_usd": 0.0,
+          "group": "never_entered"
+        },
+        "protocol": "morpho",
+        "vault": "0x68aa3790a192e46810a8b423980b96924662bba8"
+      }
+    ]
+  },
+  "stream_realized_loss": {
+    "event_id": "E2-026",
+    "market_loss_usd_sum": 151591592.29288644,
+    "markets": [
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 1,
+        "curated_allocator_vaults_loss_usd": 3085596.1567020244,
+        "difference_to_ref_usd": 43560.50809711404,
+        "lending_vault_direct_depositors_loss_usd": 10882542.281395089,
+        "loan": "USDC",
+        "market": "0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd",
+        "market_loss_usd": 13968138.438097114,
+        "ref_depositor_loss_usd": 13541277.356976993,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[eulervault:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd]",
+        "ref_market_total_usd": 13924577.93,
+        "ref_principal_shortfall_usd": 13541277.356976993,
+        "ref_principal_subtract_usd": 13538205.717732092,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 13968138.438097114,
+        "protocol": "euler_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 12718878.677182
+          },
+          {
+            "recovery_price_usd": 0.019830328954179993,
+            "recovery_source": "data/inputs/pt_markets.json pt.markets uid eulervault:1:0x01864ae3c7d5f507cc4c24ca67b4cabbdda37ecd val.pt_value_usd_per_pt",
+            "symbol": "PT-xUSD-18DEC2025",
+            "units": 462587.130746
+          }
+        ],
+        "reference_utc": "2025-11-03 06:32",
+        "shortfall_ratio": 0.9770221672446661
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 9745,
+        "curated_allocator_vaults_loss_usd": 2816138.5885644834,
+        "difference_to_ref_usd": 9924.88347431738,
+        "lending_vault_direct_depositors_loss_usd": 2553.0349098346196,
+        "loan": "plUSD",
+        "market": "0x27934d4879fc28a74703726edae15f757e45a48a",
+        "market_loss_usd": 2818691.6234743176,
+        "ref_depositor_loss_usd": 2808766.743104578,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[eulervault:9745:0x27934d4879fc28a74703726edae15f757e45a48a]",
+        "ref_market_total_usd": 2808766.74,
+        "ref_principal_shortfall_usd": 2808766.743104578,
+        "ref_principal_subtract_usd": 2808190.896997336,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 2818691.6234743176,
+        "protocol": "euler_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 2794071.556477
+          }
+        ],
+        "reference_utc": "2025-11-03 08:25",
+        "shortfall_ratio": 0.9757166711675921
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 9745,
+        "curated_allocator_vaults_loss_usd": 87527799.32035327,
+        "difference_to_ref_usd": 285333.2076252401,
+        "lending_vault_direct_depositors_loss_usd": 697187.0472719669,
+        "loan": "USDT0",
+        "market": "0x57c582346b7d49a46af3745a8278917d1c1311b8",
+        "market_loss_usd": 88224986.36762524,
+        "ref_depositor_loss_usd": 87939653.16372901,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[eulervault:9745:0x57c582346b7d49a46af3745a8278917d1c1311b8]",
+        "ref_market_total_usd": 87939653.16,
+        "ref_principal_shortfall_usd": 87939653.16372901,
+        "ref_principal_subtract_usd": 87919390.74071875,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 88224986.36762524,
+        "protocol": "euler_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 80701678.534516
+          }
+        ],
+        "reference_utc": "2025-11-03 08:43",
+        "shortfall_ratio": 0.9775495906963221
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 9745,
+        "curated_allocator_vaults_loss_usd": 2579223.5488775806,
+        "difference_to_ref_usd": 72101.2425727658,
+        "lending_vault_direct_depositors_loss_usd": 11294963.823695185,
+        "loan": "USDT0",
+        "market": "0xf675fbe777e992f5d5d84adf41161dc0f20104a6",
+        "market_loss_usd": 13874187.372572767,
+        "ref_depositor_loss_usd": 13802086.128946153,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[eulervault:9745:0xf675fbe777e992f5d5d84adf41161dc0f20104a6]",
+        "ref_market_total_usd": 13802086.13,
+        "ref_principal_shortfall_usd": 13802086.128946153,
+        "ref_principal_subtract_usd": 13798466.690651009,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 13874187.372572767,
+        "protocol": "euler_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 14180722.207026
+          }
+        ],
+        "reference_utc": "2025-11-03 01:32",
+        "shortfall_ratio": 0.974980354264
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 42161,
+        "curated_allocator_vaults_loss_usd": 648136.2414460377,
+        "difference_to_ref_usd": -2110.7538192375796,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDC",
+        "market": "0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709",
+        "market_loss_usd": 690063.8061807625,
+        "ref_depositor_loss_usd": 692174.56,
+        "ref_file": "data/inputs/case_summaries/stream.json",
+        "ref_key": "per_market[morpho:42161:0x9e90aec7d768403dacc9dd0d8320307fda3f980eed4df43e3e52168a1c667709]",
+        "ref_market_total_usd": 692174.56,
+        "ref_principal_shortfall_usd": 692174.56,
+        "ref_principal_subtract_usd": null,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 690063.8061807625,
+        "protocol": "morpho",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 644314.812208
+          }
+        ],
+        "reference_utc": "2025-11-02 20:24",
+        "shortfall_ratio": 0.9770944919774297
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 1,
+        "curated_allocator_vaults_loss_usd": 828255.8248641642,
+        "difference_to_ref_usd": -20991.06843405706,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDC",
+        "market": "0x1de3ba67da79a81bc0c3922689c98550e4bd9bc2",
+        "market_loss_usd": 1143530.781565943,
+        "ref_depositor_loss_usd": 1164521.8542816795,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:1:0xb0b37f551e18c540cf7748589d24589945fc1f61]",
+        "ref_market_total_usd": 1164521.85,
+        "ref_principal_shortfall_usd": 1164521.8542816795,
+        "ref_principal_subtract_usd": 1134536.9453875807,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 1143530.781565943,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 1194973.752053
+          }
+        ],
+        "reference_utc": "2025-11-03 23:11",
+        "shortfall_ratio": 0.9743581805563685
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 146,
+        "curated_allocator_vaults_loss_usd": 2079058.7744681889,
+        "difference_to_ref_usd": -87171.66377249127,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDC",
+        "market": "0xa1627a0e1d0ebca9326d2219b84df0c600bed4b1",
+        "market_loss_usd": 3611895.6162275085,
+        "ref_depositor_loss_usd": 3699067.280640655,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:146:0x60109eab799ec246978a2ce89aa584e9190b71c8]",
+        "ref_market_total_usd": 3699067.28,
+        "ref_principal_shortfall_usd": 3699067.280640655,
+        "ref_principal_subtract_usd": 3609340.300256078,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 3611895.6162275085,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 4108141.516526
+          }
+        ],
+        "reference_utc": "2025-11-03 08:42",
+        "shortfall_ratio": 0.9553648383112681
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 146,
+        "curated_allocator_vaults_loss_usd": 2265542.760887044,
+        "difference_to_ref_usd": 10459.91948148515,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "scUSD",
+        "market": "0xb1412442aa998950f2f652667d5eba35fe66e43f",
+        "market_loss_usd": 2266104.239481485,
+        "ref_depositor_loss_usd": 2255644.318717699,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:146:0x0f9341f6e8b9017bcb9c4c74187f3aa32fb1cb7d]",
+        "ref_market_total_usd": 2255644.32,
+        "ref_principal_shortfall_usd": 2255644.318717699,
+        "ref_principal_subtract_usd": 2202809.697376463,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 2266104.239481485,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 2112307.35996
+          }
+        ],
+        "reference_utc": "2025-11-03 11:51",
+        "shortfall_ratio": 0.9768378744456883
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 42161,
+        "curated_allocator_vaults_loss_usd": 12680090.011943977,
+        "difference_to_ref_usd": -426227.4896501228,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDC",
+        "market": "0xacb7432a4bb15402ce2afe0a7c9d5b738604f6f9",
+        "market_loss_usd": 13150872.930349877,
+        "ref_depositor_loss_usd": 13577100.424074035,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:42161:0x4ce914b0a176bb243f0fcf3799d687474d8c6d21]",
+        "ref_market_total_usd": 13577100.42,
+        "ref_principal_shortfall_usd": 13577100.424074035,
+        "ref_principal_subtract_usd": 13265818.786153082,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 13150872.930349877,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 12405178.888279
+          }
+        ],
+        "reference_utc": "2025-11-03 11:03",
+        "shortfall_ratio": 0.9599841962061899
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 43114,
+        "curated_allocator_vaults_loss_usd": 6644493.663325691,
+        "difference_to_ref_usd": -259802.00248611346,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDC",
+        "market": "0x672b77f0538b53dc117c9ddfeb7377a678d321a6",
+        "market_loss_usd": 8570112.107513886,
+        "ref_depositor_loss_usd": 8829914.114323232,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:43114:0x6b13d486027c1b645ad663ba9f9a28744d04b8f8]",
+        "ref_market_total_usd": 8829914.11,
+        "ref_principal_shortfall_usd": 8829914.114323232,
+        "ref_principal_subtract_usd": 8590098.192374127,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 8570112.107513886,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 9568340.319074
+          }
+        ],
+        "reference_utc": "2025-11-03 09:15",
+        "shortfall_ratio": 0.9612573855517885
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 43114,
+        "curated_allocator_vaults_loss_usd": 561394.2311477019,
+        "difference_to_ref_usd": -16054.12389244407,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "AUSD",
+        "market": "0x9c4d4800b489d217724155399cd64d07eae603f3",
+        "market_loss_usd": 796177.9861075559,
+        "ref_depositor_loss_usd": 812232.1147932005,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:43114:0x76a2c55b5aa5037a374d509651b51ba134a3e186]",
+        "ref_market_total_usd": 812232.11,
+        "ref_principal_shortfall_usd": 812232.1147932005,
+        "ref_principal_subtract_usd": 793388.6083401673,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 796177.9861075559,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 750923.0
+          }
+        ],
+        "reference_utc": "2025-11-03 11:52",
+        "shortfall_ratio": 0.9768228039441992
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 43114,
+        "curated_allocator_vaults_loss_usd": 1880958.5774743934,
+        "difference_to_ref_usd": -44220.397423836635,
+        "lending_vault_direct_depositors_loss_usd": null,
+        "loan": "USDt",
+        "market": "0xe0fc62e685e2b3183b4b88b1fe674cfec55a63f7",
+        "market_loss_usd": 1891436.7425761633,
+        "ref_depositor_loss_usd": 1935657.1389277708,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[silo:43114:0x1496796ab5a3ce7192b7cc2f852cbaf2927045ce]",
+        "ref_market_total_usd": 1935657.14,
+        "ref_principal_shortfall_usd": 1935657.1389277708,
+        "ref_principal_subtract_usd": 1886144.9487369945,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 1891436.7425761633,
+        "protocol": "silo_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 1973095.734322
+          }
+        ],
+        "reference_utc": "2025-11-04 00:00",
+        "shortfall_ratio": 0.9744145310541794
+      },
+      {
+        "bad_debt_usd": 0.0,
+        "chain_id": 9745,
+        "curated_allocator_vaults_loss_usd": 0.0,
+        "difference_to_ref_usd": 285.6211138338549,
+        "lending_vault_direct_depositors_loss_usd": 585394.2811138339,
+        "loan": "msUSD",
+        "market": "0xf90cf999de728a582e154f926876b70e93a747b7",
+        "market_loss_usd": 585394.2811138339,
+        "ref_depositor_loss_usd": 585108.6578917413,
+        "ref_file": "data/inputs/pt_markets.json",
+        "ref_key": "family_collateral.stream.markets[eulervault:9745:0xf90cf999de728a582e154f926876b70e93a747b7]",
+        "ref_market_total_usd": 585108.66,
+        "ref_principal_shortfall_usd": 585108.6578917413,
+        "ref_principal_subtract_usd": 585024.8174959319,
+        "ref_written_off_usd": 0.0,
+        "principal_shortfall_usd": 585394.2811138339,
+        "protocol": "euler_v2",
+        "recovery": [
+          {
+            "recovery_price_usd": 0.02510698118559775,
+            "recovery_source": "data/inputs/recovery_prices.json tokens['stream:xUSD'].chosen (single_pool_below_floor, tier 4, depth_usd 3529.14)",
+            "symbol": "xUSD",
+            "units": 829358.294014
+          }
+        ],
+        "reference_utc": "2025-11-02 20:24",
+        "shortfall_ratio": 0.9656514292118921
+      }
+    ],
+    "note": "market_loss_usd is the loss of all lenders of the market; the vault rows sum the curated vaults' shares (Euler lending vaults net of the listed Earn vaults, i.e. their direct depositors); the rest is uncurated lenders of the markets",
+    "ref_figure": "ref_market_total_usd: the depositor loss the input tables give for the market (R23 additions over its parts: family coin and PT collateral; Morpho: principal shortfall + bad debt written off)",
+    "ref_sum_same_markets_usd": 152026504.41,
+    "third_party_vault_rows_loss_usd_counted_sum": 147023598.48190504,
+    "valuation_utc": "2026-09-10 12:00",
+    "vault_rows_loss_usd_counted_sum": 147059328.16844046
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "chain_id": 1,
+  "etherscan_calls": 0,
+  "generator": "code/data/oracles.py",
+  "protocol": "silo_v2",
+  "rows": 252,
+  "rpc_calls": 589,
+  "trace_fallback": [
+    {
+      "command": "code/data/oracles.py --retrace silo_v2:1",
+      "rows_reclassified": 28,
+      "rpc_calls": 95,
+      "runtime_seconds": 9.116
+    },
+    {
+      "command": "code/data/oracles.py --retrace silo_v2:1 --historical --reverting",
+      "rows_reclassified": 4,
+      "rpc_calls": 11,
+      "runtime_seconds": 0.928
+    }
+  ],
+  "written_utc": "2026-10-16T01:17:56+00:00"
+}

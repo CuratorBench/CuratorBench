@@ -1,0 +1,22 @@
+{
+  "chain": "base",
+  "chain_id": 8453,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Base",
+    "listed_by_api": true,
+    "morpho": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+    "vault_v1_factories": [
+      "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+      "0xFf62A7c278C62eD665133147129245053Bbf5918"
+    ],
+    "vault_v2_factories": [
+      "0x4501125508079A99ebBebCE205DeC9593C2b5857"
+    ]
+  },
+  "rows": 4346,
+  "scanned_to_block": 52061709,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:48:21+00:00"
+}

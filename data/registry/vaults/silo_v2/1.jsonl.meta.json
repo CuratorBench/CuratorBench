@@ -1,0 +1,15 @@
+{
+  "chain": "eth",
+  "chain_id": 1,
+  "generator": "code/data/enumerate.py",
+  "protocol": "silo_v2",
+  "registry_entry": {
+    "chain_name": "mainnet",
+    "silo_factory": "0x1DAb4A310447185144467076b116DAC7aec3b48F",
+    "silo_vaults_factory": "0xFfD3cB64ec6Fb68432792e4E902F62192a420506"
+  },
+  "rows": 30,
+  "scanned_to_block": 26102035,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:45:25+00:00"
+}

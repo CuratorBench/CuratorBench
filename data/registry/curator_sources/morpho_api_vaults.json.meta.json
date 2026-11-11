@@ -1,0 +1,11 @@
+{
+  "generator": "code/analysis/curators.py",
+  "query": [
+    "query($skip: Int!) { vaults(first: 500, skip: $skip) {\n items { address chain { id } name symbol listed creatorAddress\n metadata { description }\n state { curator owner guardian curators { id name } } } } }",
+    "query($skip: Int!) { vaultV2s(first: 100, skip: $skip) {\n items { address chain { id } name symbol listed curator { address }\n owner { address } metadata { description } curators { items { id name } } } } }"
+  ],
+  "retrieved_at": "2026-10-08T17:27:05+00:00",
+  "url": "https://api.morpho.org/graphql",
+  "what": "Morpho API vault listings (V1 vaults and V2 vaultV2s) with the API's curator labels, current curator and owner, and listing descriptions; used to validate attribution",
+  "written_utc": "2026-10-08T17:27:05+00:00"
+}

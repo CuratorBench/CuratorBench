@@ -1,0 +1,3396 @@
+{
+  "aggregate": {
+    "abandoned_collateral_booked_usd": 0.29,
+    "abandoned_debt_principal_usd": 2.12,
+    "abandoned_equity_lost_snapshot_units_usd": 0.0,
+    "abandoned_equity_lost_usd": 0.0,
+    "abandoned_equity_par_minus_principal_usd": 0.0,
+    "abandoned_recovery_usd": 0.28,
+    "debt_socialized_usd": 323.44,
+    "extraction_collateral_usd": 222010708.72,
+    "extraction_loan_side_usd": 0.0,
+    "extraction_usd": 222010708.72,
+    "final_debt_usd": 6328210.56,
+    "lender_flight_usd": 9298288.23,
+    "loan_side_lender_exposure_snapshot_usd": 738.19,
+    "loan_side_lender_exposure_usd": 738.19,
+    "loan_side_lender_loss_snapshot_usd": 0.0,
+    "loan_side_lender_loss_usd": 0.0,
+    "loan_side_unverified_exposure_snapshot_usd": 378862.53,
+    "loan_side_unverified_exposure_usd": 2141173.03,
+    "position_shortfall_principal_est": 1.84,
+    "position_shortfall_usd": 1.84,
+    "recovery_usd": 4450.36,
+    "snapshot_upper_bound_usd": 65217.24,
+    "snapshot_upper_liquidity_usd": 71931.81,
+    "snapshot_upper_ltv_usd": 90956.91,
+    "true_loss_usd": 0.88,
+    "zombie_interest_usd": 39035.9
+  },
+  "aggregate_mainnet_morpho": {
+    "abandoned_collateral_booked_usd": 0.29,
+    "abandoned_debt_principal_usd": 1.24,
+    "abandoned_equity_lost_snapshot_units_usd": 0.0,
+    "abandoned_equity_lost_usd": 0.0,
+    "abandoned_equity_par_minus_principal_usd": 0.0,
+    "abandoned_recovery_usd": 0.28,
+    "extraction_collateral_usd": 0.0,
+    "extraction_loan_side_usd": 0.0,
+    "extraction_usd": 0.0,
+    "final_debt_usd": 3.49,
+    "lender_flight_usd": 1170570.9,
+    "position_shortfall_principal_est": 0.96,
+    "position_shortfall_usd": 0.96,
+    "recovery_usd": 3.26,
+    "snapshot_upper_bound_usd": 60653.49,
+    "snapshot_upper_liquidity_usd": 60663.43,
+    "snapshot_upper_ltv_usd": 81877.64,
+    "true_loss_usd": 0.0,
+    "zombie_interest_usd": 33306.48
+  },
+  "borrower_ledger": {
+    "note": "per chain and pledged token, from the Morpho replays: units pledged at that chain's snapshot block, the units behind positions abandoned by the end of the window, how much of those units was already pledged at the snapshot, and the borrowers' forfeited over-collateralization (collateral at the oracle's par value, less the recovery and less the depositors' principal shortfall on the same positions, floored at zero per position). The two variants credit the recovery to principal alone (par_minus_principal) and restrict the equity to the units pledged at the snapshot (snapshot_units).",
+    "rows": [
+      {
+        "abandoned_collateral_booked_usd": 0.2862394450706636,
+        "abandoned_debt_principal_usd": 1.24,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.28,
+        "abandoned_units_float": 0.000107070693647744,
+        "abandoned_units_pledged_at_snapshot": 0.000107070693647744,
+        "booked_par_usd_per_unit": 2673.368737,
+        "chain_id": "1",
+        "decimals": 18,
+        "n_markets": 5,
+        "pledged_units_snapshot": 491.71118366412577,
+        "symbol": "rsETH",
+        "token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7"
+      },
+      {
+        "abandoned_collateral_booked_usd": 0.0,
+        "abandoned_debt_principal_usd": 0.0,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.0,
+        "abandoned_units_float": 0.0,
+        "abandoned_units_pledged_at_snapshot": 0.0,
+        "booked_par_usd_per_unit": 2462.5982812969605,
+        "chain_id": "1",
+        "decimals": 18,
+        "n_markets": 1,
+        "pledged_units_snapshot": 0.002,
+        "symbol": "PT-rsETH-26JUN2025",
+        "token": "0xe08c45f3cfe70f4e03668dc6e84af842bee95a68"
+      },
+      {
+        "abandoned_collateral_booked_usd": 0.0,
+        "abandoned_debt_principal_usd": 0.88,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.0,
+        "abandoned_units_float": 1e-18,
+        "abandoned_units_pledged_at_snapshot": 1e-18,
+        "booked_par_usd_per_unit": 0.0,
+        "chain_id": "130",
+        "decimals": 18,
+        "n_markets": 3,
+        "pledged_units_snapshot": 12.01845553253334,
+        "symbol": "rsETH",
+        "token": "0xc3eacf0612346366db554c991d7858716db09f58"
+      },
+      {
+        "abandoned_collateral_booked_usd": 0.0,
+        "abandoned_debt_principal_usd": 0.0,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.0,
+        "abandoned_units_float": 0.0,
+        "abandoned_units_pledged_at_snapshot": 0.0,
+        "booked_par_usd_per_unit": 2633.1470855808775,
+        "chain_id": "42161",
+        "decimals": 18,
+        "n_markets": 2,
+        "pledged_units_snapshot": 0.00020712566420746502,
+        "symbol": "rsETH",
+        "token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f"
+      },
+      {
+        "abandoned_collateral_booked_usd": 0.0,
+        "abandoned_debt_principal_usd": 0.0,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.0,
+        "abandoned_units_float": 0.0,
+        "abandoned_units_pledged_at_snapshot": 0.0,
+        "booked_par_usd_per_unit": null,
+        "chain_id": "43111",
+        "decimals": 18,
+        "n_markets": 1,
+        "pledged_units_snapshot": 0.005101489283268018,
+        "symbol": "rsETH",
+        "token": "0xc3eacf0612346366db554c991d7858716db09f58"
+      },
+      {
+        "abandoned_collateral_booked_usd": 0.0,
+        "abandoned_debt_principal_usd": 0.0,
+        "abandoned_equity_lost_snapshot_units_usd": 0.0,
+        "abandoned_equity_lost_usd": 0.0,
+        "abandoned_equity_par_minus_principal_usd": 0.0,
+        "abandoned_recovery_usd": 0.0,
+        "abandoned_units_float": 0.0,
+        "abandoned_units_pledged_at_snapshot": 0.0,
+        "booked_par_usd_per_unit": 2633.8053015762607,
+        "chain_id": "8453",
+        "decimals": 18,
+        "n_markets": 1,
+        "pledged_units_snapshot": 35.680389956204756,
+        "symbol": "wrsETH",
+        "token": "0xedfa23602d0ec14714057867a78d01e94176bea0"
+      }
+    ],
+    "totals": {
+      "abandoned_collateral_booked_usd": 0.29,
+      "abandoned_debt_principal_usd": 2.12,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.28,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "pledged_units_snapshot": 539.42
+    }
+  },
+  "excluded_markets": [],
+  "excluded_totals": {
+    "issuers": [],
+    "n_lending_the_other_coin": 0,
+    "n_markets": 0,
+    "n_pledging_the_other_coin": 0,
+    "note": "markets of the surface whose family token matched by symbol only; not part of this case (hit rules R9)",
+    "other_coin_extracted_units": 0,
+    "other_coin_lent_at_snapshot_units": 0
+  },
+  "legacy_reconciliation": {
+    "extraction_usd": 189300000.0,
+    "note": "mainnet+Arbitrum, upper bound saturated"
+  },
+  "loan_side_basis": {
+    "claims_read_at": "price onset block per chain",
+    "onset_blocks": {
+      "1": 24914991,
+      "130": 45866041,
+      "42161": 454178316,
+      "43111": 4228974,
+      "59144": 30290621,
+      "8453": 44912526
+    },
+    "onset_ts": 1776614400,
+    "snapshot_fields": "*_snapshot_usd keep the t0 - 24h reading",
+    "valued_at": "recovery price at the valuation block"
+  },
+  "per_market": [
+    {
+      "abandoned_collateral_booked_usd": 0.2862394450706636,
+      "abandoned_collateral_units": "107070693647744",
+      "abandoned_debt_principal_usd": 1.24,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.28,
+      "abandoned_units_float": 0.000107070693647744,
+      "abandoned_units_pledged_at_snapshot": 0.000107070693647744,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2673.3687372230333,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1.254931554877592,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDA",
+      "market_uid": "morpho:1:0xa72f4af2570dca1b356aa6c1e6a804d0d3df5b23bb092189776d0dc652feabb4",
+      "pledged_units_snapshot": 0.001185099468836522,
+      "position_shortfall_principal_est": 0.96,
+      "position_shortfall_usd": 0.96,
+      "principal_ratio": 0.99631,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0143,
+      "recovery_price": {
+        "p": 2633.908053386743,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 1.254931554877592,
+      "snapshot_upper_bound_usd": 0.5343712453628587,
+      "snapshot_upper_liquidity_usd": 0.5343712453628587,
+      "snapshot_upper_ltv_usd": 1.1892191470381315,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.004630641640594406
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": null,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:1:0xb7aaedc202cc26f4d714507605efdd2d03cf9f4994a814cb19bb49a513a506a8",
+      "pledged_units_snapshot": 0.0,
+      "position_shortfall_principal_est": null,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2633.908053386743,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.0,
+      "snapshot_upper_bound_usd": null,
+      "snapshot_upper_liquidity_usd": 5.340366159916903,
+      "snapshot_upper_ltv_usd": null,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.904034481587817,
+      "booked_par_usd_per_unit": 2632.1694498134066,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.05015127436276375,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:1:0xeeabdcb98e9f7ec216d259a2c026bbb701971efae0b44eec79a86053f9b128b6",
+      "pledged_units_snapshot": 9.8266745216717e-05,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 1.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2633.908053386743,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.05015127436276375,
+      "snapshot_upper_bound_usd": 0.1722917888723876,
+      "snapshot_upper_liquidity_usd": 4.777215380213102,
+      "snapshot_upper_ltv_usd": 0.1722917888723876,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2632.940502648522,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "extraction_collateral_usd": 3.468937481868973e-05,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "14890765471",
+      "extraction_usd": 3.468937481868973e-05,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.8826620046689899,
+      "lender_flight_usd": 1170570.8968985677,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:1:0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+      "pledged_units_snapshot": 491.70792927863874,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 2.5171,
+      "recovery_price": {
+        "p": 2633.908053386743,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.8826620046689899,
+      "snapshot_upper_bound_usd": 60650.2417457864,
+      "snapshot_upper_liquidity_usd": 60650.2417457864,
+      "snapshot_upper_ltv_usd": 81868.13013303996,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 33306.47278556829
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2462.5982812969605,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "PT-rsETH-26JUN2025",
+      "collateral_token": "0xe08c45f3cfe70f4e03668dc6e84af842bee95a68",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "PT-rsETH-26JUN2025"
+      ],
+      "final_debt_usd": 0.225930311985704,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:1:0xc3250fa72657f5d956a55fd7febf5bf953c18aa04bff2e4088415b1e5c2923b0",
+      "pledged_units_snapshot": 0.002,
+      "position_shortfall_principal_est": null,
+      "position_shortfall_usd": null,
+      "principal_ratio": 1.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": null,
+        "src": "unpriced"
+      },
+      "recovery_usd": null,
+      "snapshot_upper_bound_usd": 0.02699830690668144,
+      "snapshot_upper_liquidity_usd": 0.02699830690668144,
+      "snapshot_upper_ltv_usd": 4.280624542787731,
+      "true_loss_usd": null,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2654.7155203715674,
+      "chain_id": "1",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1.0727682261748286,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "wstETH",
+      "market_uid": "morpho:1:0x0188775134d3541a13801c090658734743bcfe54662b045644f8e19d31958dfa",
+      "pledged_units_snapshot": 0.001971019272934358,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.999925,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0005,
+      "recovery_price": {
+        "p": 2633.908053386743,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 1.0727682261748286,
+      "snapshot_upper_bound_usd": 2.513978545785217,
+      "snapshot_upper_liquidity_usd": 2.513978545785217,
+      "snapshot_upper_ltv_usd": 3.8720207990654343,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 7.645521467273171e-05
+    },
+    {
+      "abandoned_collateral_booked_usd": 0.0,
+      "abandoned_collateral_units": "1",
+      "abandoned_debt_principal_usd": 0.88,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 1e-18,
+      "abandoned_units_pledged_at_snapshot": 1e-18,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2658.6698983446267,
+      "chain_id": "130",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xc3eacf0612346366db554c991d7858716db09f58",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.8833793468555747,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "wstETH",
+      "market_uid": "morpho:130:0x2174609f3cfb09992e1c83594bc28d343221be4539e8d88ca58371f92d3b884d",
+      "pledged_units_snapshot": 0.001472949286356071,
+      "position_shortfall_principal_est": 0.88,
+      "position_shortfall_usd": 0.88,
+      "principal_ratio": 0.999234,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2638.9233432853425,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 2.6389233432853427e-15,
+      "snapshot_upper_bound_usd": 0.09734900394596571,
+      "snapshot_upper_liquidity_usd": 0.09734900394596571,
+      "snapshot_upper_ltv_usd": 2.817998825514807,
+      "true_loss_usd": 0.8833793468555721,
+      "zombie_interest_usd": 0.0006393280549128018
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2638.903028306004,
+      "chain_id": "130",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xc3eacf0612346366db554c991d7858716db09f58",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:130:0x1b344b4d4ea64e1bf679c1417de9f2de6d10edc61af49bf18bd0b7a20f50447a",
+      "pledged_units_snapshot": 0.0,
+      "position_shortfall_principal_est": null,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2638.9233432853425,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.0,
+      "snapshot_upper_bound_usd": 0.0,
+      "snapshot_upper_liquidity_usd": 0.0,
+      "snapshot_upper_ltv_usd": 0.0,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2638.903028306004,
+      "chain_id": "130",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xc3eacf0612346366db554c991d7858716db09f58",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 22.76324710599534,
+      "lender_flight_usd": 24160.323751118405,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:130:0x5a2b9a157b1b212921845d53fa52ae828ad9bc240ebfc7d57addf7c8f4b4729a",
+      "pledged_units_snapshot": 12.016982583246984,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.294,
+      "recovery_price": {
+        "p": 2638.9233432853425,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 22.76324710599534,
+      "snapshot_upper_bound_usd": 558.2688665103893,
+      "snapshot_upper_liquidity_usd": 558.2688665103893,
+      "snapshot_upper_ltv_usd": 5071.058924388945,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 142.4405137095018
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2633.1470855808775,
+      "chain_id": "42161",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.24867255812298483,
+      "lender_flight_usd": 2.563437701628939,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:42161:0x9b1c003e526a51491480854a6ae79f6e66f6a5d6cc9d77cdd0976127af822089",
+      "pledged_units_snapshot": 0.0002,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.999811,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0079,
+      "recovery_price": {
+        "p": 2633.9853980139023,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.24867255812298483,
+      "snapshot_upper_bound_usd": 0.24903930303745214,
+      "snapshot_upper_liquidity_usd": 2.7083849761084324,
+      "snapshot_upper_ltv_usd": 0.24903930303745214,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 4.454332357767758e-05
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": 2355.847898,
+      "chain_id": "42161",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.007239,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "USDC",
+      "market_uid": "morpho:42161:0xd478de9c069f12759d3baed9ddd16fe8902128937821af3a3cf77eca1885c7fc",
+      "pledged_units_snapshot": 7.125664207465e-06,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 1.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2633.9853980139023,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 0.007239,
+      "snapshot_upper_bound_usd": 0.005686,
+      "snapshot_upper_liquidity_usd": 1.188505,
+      "snapshot_upper_ltv_usd": 0.005686,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 0.0,
+      "booked_par_usd_per_unit": null,
+      "chain_id": "43111",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "rsETH",
+      "collateral_token": "0xc3eacf0612346366db554c991d7858716db09f58",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "0",
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 5.788416135338289,
+      "lender_flight_usd": 0.0,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "msETH",
+      "market_uid": "morpho:43111:0x7bed4e4ac7b65e9c59011d7ed0d34d1d4ed7e16f578f97c3a3d2236c03c5c1a2",
+      "pledged_units_snapshot": 0.005101489283268018,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 1.0,
+      "protocol": "morpho",
+      "rate_peak_event": 0.0,
+      "recovery_price": {
+        "p": 2644.79794512759,
+        "src": "r11_ladder_a*ethusd"
+      },
+      "recovery_usd": 5.788416135338289,
+      "snapshot_upper_bound_usd": null,
+      "snapshot_upper_liquidity_usd": 0.011811833638219615,
+      "snapshot_upper_ltv_usd": null,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 0.0
+    },
+    {
+      "abandoned_collateral_booked_usd": null,
+      "abandoned_collateral_units": "0",
+      "abandoned_debt_principal_usd": 0.0,
+      "abandoned_equity_lost_snapshot_units_usd": 0.0,
+      "abandoned_equity_lost_usd": 0.0,
+      "abandoned_equity_par_minus_principal_usd": 0.0,
+      "abandoned_recovery_usd": 0.0,
+      "abandoned_units_float": 0.0,
+      "abandoned_units_pledged_at_snapshot": 0.0,
+      "bad_debt_written_off_usd": 350.76846397557676,
+      "booked_par_usd_per_unit": 2633.8053015762607,
+      "chain_id": "8453",
+      "channel": "collateral",
+      "collateral_decimals": 18,
+      "collateral_symbol": "wrsETH",
+      "collateral_token": "0xedfa23602d0ec14714057867a78d01e94176bea0",
+      "extraction_collateral_usd": 4.940768007842111,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_loan_units": "2119324686622718",
+      "extraction_usd": 4.940768007842111,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 4418.288331886392,
+      "lender_flight_usd": 90193.00798654601,
+      "loan_side_claims_block": null,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": null,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "WETH",
+      "market_uid": "morpho:8453:0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+      "pledged_units_snapshot": 35.680389956204756,
+      "position_shortfall_principal_est": 0.0,
+      "position_shortfall_usd": 0.0,
+      "principal_ratio": 0.0,
+      "protocol": "morpho",
+      "rate_peak_event": 5.4534,
+      "recovery_price": {
+        "p": 2633.281618776401,
+        "src": "r11_ladder_b*ethusd"
+      },
+      "recovery_usd": 4418.288331886392,
+      "snapshot_upper_bound_usd": 4005.13457214145,
+      "snapshot_upper_liquidity_usd": 10706.102390965638,
+      "snapshot_upper_ltv_usd": 4005.13457214145,
+      "true_loss_usd": 0.0,
+      "zombie_interest_usd": 5586.985452188223
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.13933005469344564,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.13933005469344564,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.14831597370670158,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:1:0x49fbc0f9711a0c0ed62a222ad725f61db15ba92e",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 952.570351722324,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 22493.75314201872,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:1:0xe2d6a2a16ff6d3bbc4c90736a7e6f7cc3c9b8fa9",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 9714.449960404902
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:1:0x03eed1586a9fdcc328b4fc4fbd222fbdd6506a64",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:1:0x41722452c0348501825c494ec6c1579e9c32d277",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDT",
+      "market_uid": "eulervault:1:0xf69ff7901e199ae4fc354048da09c23c7699716c",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "PYUSD",
+      "market_uid": "eulervault:1:0xed667e0de292c040cf2183302c8dbde1c06447d7",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDS",
+      "market_uid": "eulervault:1:0x28c6f8d44179ac93a5ebae24189d887eeef38cea",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "DAI",
+      "market_uid": "eulervault:1:0x8975da5fcbfa293adf29fe2a6485971419ae7182",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "AUSD",
+      "market_uid": "eulervault:1:0xb77e25555c2b3e6bce5329d83efd248534a907aa",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "EURC",
+      "market_uid": "eulervault:1:0x1987c2dcf5674cf90becebad502714c357ce126a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDe",
+      "market_uid": "eulervault:1:0x6fc6becae0ffaa08f699ec072f31983821a4d7ce",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "GHO",
+      "market_uid": "eulervault:1:0xae4d563fc348e0fc3697ed940b23a86779e095c8",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:1:0xb4f7761c459d09f414e1190df275be3e24535750",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WBTC",
+      "market_uid": "eulervault:1:0xd005125e525664fec9394cee5466da15262ffe01",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "PAXG",
+      "market_uid": "eulervault:1:0xa2f045ec60c624c46f1075fc589df0f936f822c2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "UNI",
+      "market_uid": "eulervault:1:0x9167ff08c18ea05d70d5cbf0c576a33dcee6de06",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "LINK",
+      "market_uid": "eulervault:1:0x25c538cc5c5b4cddf9a9a656f90d2d8129e841b2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "AAVE",
+      "market_uid": "eulervault:1:0xd1552d878fe4869539ba4d03d207b54913a5c273",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "GRT",
+      "market_uid": "eulervault:1:0xfc323c1727853872a85098ea89a6882853b708dd",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "SKY",
+      "market_uid": "eulervault:1:0xfc67343ac17b158deb69de67ba8a2ed7c47f0c74",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "ONDO",
+      "market_uid": "eulervault:1:0xd6506db835b465d5d823add8667362d7b86cfe5f",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "LDO",
+      "market_uid": "eulervault:1:0x5a0064007dddea2c8d6547a7b1e862c619500994",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 62898.92362677336,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 62898.92362677336,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1913961.2080236813,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 657800.478663981,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:1:0xd8b27cf359b7d15710a5be299af6e7bf904984c2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 1520558.764663756
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 3.0035292210573967,
+      "extraction_collateral_usd": 46.6579154993023,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 46.6579154993023,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 609564.7807607459,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 765567.7607415416,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:1:0xbc4b4ac47582c3e38ce5940b80da65401f4628f1",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 683498.2705520968
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "cbETH",
+      "market_uid": "eulervault:1:0x7338d86137052f0df6e9048d6d23e09735a99585",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.030233690982316257,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 472050.23372168944,
+      "loan_symbol": "weETH",
+      "market_uid": "eulervault:1:0xe846ca062ab869b66ae8dcd811973f628ba82eaf",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 16060.970032083733
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 378404.0085448095,
+      "loan_symbol": "ezETH",
+      "market_uid": "eulervault:1:0xe88e44c2c7dfc9bcb86e380d29375ccd6cd85406",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 35.72593529905284
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.3840682035357033,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "rETH",
+      "market_uid": "eulervault:1:0x0d1b386187be8e96680bbddbf7bc05fc737f81b8",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.46707501927685297
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "mETH",
+      "market_uid": "eulervault:1:0xddd082d01852efccec0db5477f41f530ecb0c136",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "loan_side_unverified",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "loan_side_claims_block": 24914991,
+      "loan_side_lender_exposure_snapshot_usd": null,
+      "loan_side_lender_exposure_usd": null,
+      "loan_side_lender_loss_snapshot_usd": null,
+      "loan_side_lender_loss_usd": null,
+      "loan_side_price_verified": false,
+      "loan_side_unverified_exposure_snapshot_usd": 378862.5338653707,
+      "loan_side_unverified_exposure_usd": 2141173.0309014968,
+      "loan_symbol": "rsETH",
+      "market_uid": "eulervault:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "ETHx",
+      "market_uid": "eulervault:1:0x9dfe12dbd94eb8294b047fabe3142c5d7178071b",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 41.247964,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1832731.097126,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 2832358.225852,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:1:0x797dd80692c3b2dadabce8e30c07fde5307d48a9",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 1844447.533924
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 247.168422,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 310802.649621,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 1889441.386332,
+      "loan_symbol": "USDT",
+      "market_uid": "eulervault:1:0x313603fa690301b0caeef8069c065862f9162162",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 703841.179128
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "wUSDM",
+      "market_uid": "eulervault:1:0x1d09693608c440205fd53d7062862cbf5a6ca69a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "wM",
+      "market_uid": "eulervault:1:0x9c6e67fa86138ab49359f595bfe4fb163d0f16cc",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDS",
+      "market_uid": "eulervault:1:0x07f9a54dc5135b9878d6745e267625bf0e206840",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "tBTC",
+      "market_uid": "eulervault:1:0x9e714434a1c94b842b75631a70e07d13f2575368",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WBTC",
+      "market_uid": "eulervault:1:0x998d761ec1badaceb064624cc3a1d37a46c88ba4",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "cbBTC",
+      "market_uid": "eulervault:1:0x056f3a2e41d2778d3a0c0714439c53af2987718e",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "LBTC",
+      "market_uid": "eulervault:1:0xbc35161043ee2d74816d421efd6a45fda73b050a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "eBTC",
+      "market_uid": "eulervault:1:0x34716b7026d9e6247d21e37da1f1b157b62a16e0",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "SolvBTC",
+      "market_uid": "eulervault:1:0xd27159604ae512c056cf282933b838a4d38b1d17",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 2.5687065419224373,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.5764153398389695,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 133091.2856699883,
+      "loan_symbol": "tETH",
+      "market_uid": "eulervault:1:0xa28c23a459ff8773eb4dbe0e7250d93f79f1fe2b",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 10.351323908399563
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0049676161507067485,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0049676161507067485,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 50779.47087181508,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 470600.59737609385,
+      "loan_symbol": "USDtb",
+      "market_uid": "eulervault:1:0x328646cdfbad730432620d845b8f5a2f7d786c01",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 249148.31820338292
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 2e-18,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 32.80013740104556,
+      "loan_symbol": "RLUSD",
+      "market_uid": "eulervault:1:0xc2d36f41841b420937643dcccbea8163d4f59b6c",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 2e-18
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDe",
+      "market_uid": "eulervault:1:0x22eed7c25a35d40255cd80d3b67a2f8742f94443",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "cbBTC",
+      "market_uid": "eulervault:1:0xdfff70138fc73f0d71045ab51335f8a33fed4467",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:1:0x2a68bf3ce9012be2574262df9b142f2be6b6e1c2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "RLUSD",
+      "market_uid": "eulervault:1:0x28420e3d8c6c4266c9d72ab75db78705832f9ea2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDT",
+      "market_uid": "eulervault:1:0x3d7f077e477a642d4e6801d7d9d65c5d5916fd0a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDe",
+      "market_uid": "eulervault:1:0x847a9317e8408933ea53ac5db672f5469a2d3c4a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WBTC",
+      "market_uid": "eulervault:1:0xe345971c89923a0b6b4119bb7d91315915d3318e",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:1:0x53dc8ea5eac30113c44a03153d7e987759b4c320",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "weETH",
+      "market_uid": "eulervault:1:0xc75d9591606f49a560a78ca1615179d9c3ae24c6",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "cbETH",
+      "market_uid": "eulervault:1:0x2e37454cf13e895254ce8fd6a3d35ffd71059bf2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:1:0x7c9f63720037d76fff1ccf917ce3a0915239b908",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 43901.724814,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 87139.603321,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:130:0x6eae95ee783e4d862867c4e0e4c3f4b95aa682ba",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 181759.292304
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.023599,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 67442.199505,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 34678.844954,
+      "loan_symbol": "USD\u20ae0",
+      "market_uid": "eulervault:130:0xd49181c522ecdb265f0d9c175cf26fface64ead3",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 86570.524187
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1093500.5326482255,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 15274.063887235898,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:130:0x1f3134c3f3f8add904b9635acbefc0ea0d0e1ffc",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 1813420.5565639322
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.7612801741790169,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.7612801741790169,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1325.0419209749095,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 2.144776657159885,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:130:0x54ff502df96cd9b9585094eacd86aafce902d06a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 1472.5503494594661
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 10734.238578967166,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 70040.19970218893,
+      "loan_symbol": "weETH",
+      "market_uid": "eulervault:130:0xe36da4ea4d07e54b1029ef26a896a656a3729f86",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 10733.601962543784
+    },
+    {
+      "chain_id": "130",
+      "channel": "loan_side",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "loan_side_claims_block": 45866041,
+      "loan_side_lender_exposure_snapshot_usd": 0.46581382948286754,
+      "loan_side_lender_exposure_usd": 0.46581382948286754,
+      "loan_side_lender_loss_snapshot_usd": 0.0,
+      "loan_side_lender_loss_usd": 0.0,
+      "loan_side_price_verified": true,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "rsETH",
+      "market_uid": "eulervault:130:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 108.33218796222027,
+      "loan_symbol": "ezETH",
+      "market_uid": "eulervault:130:0x45b41b20b11cd2e71a6bf3021bdbc3f8afea5538",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WBTC",
+      "market_uid": "eulervault:130:0xed6a6410b2b7cdcbb786bfa734a33d36b6e78206",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "UNI",
+      "market_uid": "eulervault:130:0x576f68b0395738aef01811b8f8eec25302829f1d",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 35.90090365028032,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 35.90090365028032,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 14708.082875693215,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 19896.043145518113,
+      "loan_symbol": "sUSDC",
+      "market_uid": "eulervault:130:0x7650d7ae1981f2189d352b0ec743b9099d24086f",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 16214.289453295396
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WBTC",
+      "market_uid": "eulervault:130:0x5d2511c1ebc795f4394f7f659f693f8c15796485",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:130:0xcf28a176021e6906c359d1777041245d9fda076d",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "130",
+      "channel": "loan_side",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "loan_side_claims_block": 45866041,
+      "loan_side_lender_exposure_snapshot_usd": 0.0002467287375993571,
+      "loan_side_lender_exposure_usd": 0.0002467287375993571,
+      "loan_side_lender_loss_snapshot_usd": 0.0,
+      "loan_side_lender_loss_usd": 0.0,
+      "loan_side_price_verified": true,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "rsETH",
+      "market_uid": "eulervault:130:0xe6806bea4ecde065bb757c35032f2c625848d8e8",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "130",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "ezETH",
+      "market_uid": "eulervault:130:0x25e2ef0f957b61cdd26bbe954afd5806a9dade49",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 29.427615407615168,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 218442.17968008865,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 124779.0191577878,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:42161:0x78e3e051d32157aacd550fbb78458762d8f7edff",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 227172.5506585036
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 1.4381850516017534,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 1.4381850516017534,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 1509.049941745785,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 12254.997304601844,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:42161:0xa8616e4d9f3f0aa01aff1d7c3b66249f8a5f1a58",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 721.1405469009615
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 43.12544043385844,
+      "loan_symbol": "weETH",
+      "market_uid": "eulervault:42161:0x5a8294ce02908b1da68c6c39695c9b0fbaf7675d",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "42161",
+      "channel": "loan_side",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "loan_side_claims_block": 454178316,
+      "loan_side_lender_exposure_snapshot_usd": 0.1782198453783579,
+      "loan_side_lender_exposure_usd": 0.1782198453783579,
+      "loan_side_lender_loss_snapshot_usd": 0.0,
+      "loan_side_lender_loss_usd": 0.0,
+      "loan_side_price_verified": true,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "rsETH",
+      "market_uid": "eulervault:42161:0xe96e07c16661744836a742ef2090f11e84a86f4f",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 1.0328055794619397,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 1.0328055794619397,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 3.5234799382802655,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 12820.139498112254,
+      "loan_symbol": "tETH",
+      "market_uid": "eulervault:42161:0xdbd974eb5360d053ea0c56b4dacf4a9d3e894ee2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 16.687668210735655
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "ezETH",
+      "market_uid": "eulervault:42161:0xaa525d3142a5bdd3e55e8e983d3789b88f2feb8f",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "rETH",
+      "market_uid": "eulervault:42161:0x1ed564cfc30b385c9c2b184f25602764dd6a16c9",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "43114",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "WETH.e",
+      "market_uid": "eulervault:43114:0x03ef14425cf0d7af62cdb8d6e0acb0b0512ae35c",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 81.84050192862382,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0x179dfd3ecdc6f5b8f8788584f3289d10c6f1afb8",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "loan_side",
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "loan_side_claims_block": 30290621,
+      "loan_side_lender_exposure_snapshot_usd": 737.5449301525574,
+      "loan_side_lender_exposure_usd": 737.5449301525574,
+      "loan_side_lender_loss_snapshot_usd": 0.0,
+      "loan_side_lender_loss_usd": 0.0,
+      "loan_side_price_verified": true,
+      "loan_side_unverified_exposure_snapshot_usd": null,
+      "loan_side_unverified_exposure_usd": null,
+      "loan_symbol": "wrsETH",
+      "market_uid": "eulervault:59144:0x5df4080d8d1a85457d699e6a85255fc4087b8abf",
+      "protocol": "euler_v2"
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0xf29ac58e23904ce3057afe2f9c430c87703da982",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0xd890507bb7f760294acc0d99ac7243144d6dc5d3",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 17244.440232347435,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 17244.440232347435,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 153399.60284587482,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 13765.533553517691,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0xb135dcf653dafb5ddaa93f926d7000aa3222efee",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 190139.53723566243
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 637.0252785922785,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0x4789d8066cac17fd24f24206a49abc72830604f1",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0x5f542a5fee3884b93f910511becd7ce5884ab70e",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0x7489d8a3c56e4f99402d6bb2d6fdbe43305b0e45",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0x344f23586d38b04ad9dcb6930049398fe236664f",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0xb21b86a7b7da3d57c4a16be84bd8b3b6332b6daf",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:59144:0xfd598df5050a4a4041c5a6d1cdb41244f3e33551",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "USDC",
+      "market_uid": "eulervault:8453:0x611745c9107d0197f161556691c5129fd9b898d1",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "WETH",
+      "market_uid": "eulervault:8453:0x614bd506051a8ccfcbc57c34aedcf6caffcd5d17",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "wstETH",
+      "market_uid": "eulervault:8453:0x1fd3a242a549d595431442f898fdbb374f15b885",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "ezETH",
+      "market_uid": "eulervault:8453:0xbc46393223990d024fcb2b0ff2f5a4cd52602ea2",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "cbBTC",
+      "market_uid": "eulervault:8453:0x78d6a3bc9d41b7c6fd52ff2e85a2df6d1f4f9b3a",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": null,
+      "extraction_collateral_usd": null,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": null,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": null,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": null,
+      "loan_symbol": "LBTC",
+      "market_uid": "eulervault:8453:0xa67a95971b8d010c16de4b33259d1c574d256121",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": null
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "debt_socialized_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "final_debt_usd": 0.0,
+      "flows_clamped_to_totals": false,
+      "lender_flight_usd": 0.0,
+      "loan_symbol": "weETH",
+      "market_uid": "eulervault:8453:0x85114a78c512872df273ca12f35fbe4cf0749616",
+      "protocol": "euler_v2",
+      "snapshot_debt_usd": 0.0
+    },
+    {
+      "chain_id": "42161",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 8781.08,
+      "extraction_collateral_usd": 71792741.12,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 71792741.12,
+      "family": [
+        "rsETH"
+      ],
+      "market_uid": "aave:aave_v3_Arbitrum",
+      "n_borrowers": 29,
+      "n_liquidations": 7,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "43114",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 49.65,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 49.65,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_Avalanche",
+      "n_borrowers": 4,
+      "n_liquidations": 0,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "8453",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 25351.91,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_Base",
+      "n_borrowers": 26,
+      "n_liquidations": 6,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 1218769.63,
+      "extraction_collateral_usd": 149874527.79,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 149874527.79,
+      "family": [
+        "rsETH"
+      ],
+      "market_uid": "aave:aave_v3_Ethereum",
+      "n_borrowers": 90,
+      "n_liquidations": 16,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 3
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "rsETH"
+      ],
+      "market_uid": "aave:aave_v3_EthereumLido",
+      "n_borrowers": 0,
+      "n_liquidations": 3,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "57073",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 236190.57,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 236190.57,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_InkWhitelabel",
+      "n_borrowers": 1,
+      "n_liquidations": 0,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "59144",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_Linea",
+      "n_borrowers": 2,
+      "n_liquidations": 2,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "5000",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 3951.17,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_Mantle",
+      "n_borrowers": 7,
+      "n_liquidations": 0,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "4326",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_MegaEth",
+      "n_borrowers": 0,
+      "n_liquidations": 0,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "9745",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_Plasma",
+      "n_borrowers": 0,
+      "n_liquidations": 0,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "324",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 0.0,
+      "extraction_collateral_usd": 0.0,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 0.0,
+      "family": [
+        "wrsETH"
+      ],
+      "market_uid": "aave:aave_v3_ZkSync",
+      "n_borrowers": 0,
+      "n_liquidations": 1,
+      "protocol": "aave_v3",
+      "unpriced_reserve_flows": 0
+    },
+    {
+      "chain_id": "1",
+      "channel": "collateral",
+      "excluded_no_family_collateral_usd": 73264587.94,
+      "extraction_collateral_usd": 26965.35,
+      "extraction_loan_side_usd": 0.0,
+      "extraction_usd": 26965.35,
+      "family": [
+        "rsETH"
+      ],
+      "market_uid": "aave:spark_ethereum",
+      "n_borrowers": 5,
+      "n_liquidations": 0,
+      "protocol": "spark",
+      "unpriced_reserve_flows": 0
+    }
+  ],
+  "recovery_prices": {
+    "rsETH@1": {
+      "depth_usd": 10390.19,
+      "price": 1.0695646437305073,
+      "source": "r11_ladder_a"
+    },
+    "rsETH@130": {
+      "depth_usd": 10390.19,
+      "price": 1.0695646437305073,
+      "source": "r11_ladder_a"
+    },
+    "rsETH@42161": {
+      "depth_usd": 10390.19,
+      "price": 1.0695646437305073,
+      "source": "r11_ladder_a"
+    },
+    "rsETH@43111": {
+      "depth_usd": 10390.19,
+      "price": 1.0695646437305073,
+      "source": "r11_ladder_a"
+    },
+    "rsETH@8453": {
+      "depth_usd": 10390.19,
+      "price": 1.0695646437305073,
+      "source": "r11_ladder_a"
+    },
+    "wrsETH@10": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@324": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@43114": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@4326": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@5000": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@57073": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@59144": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@8453": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    },
+    "wrsETH@9745": {
+      "depth_usd": 73729.29,
+      "price": 1.0693437464394526,
+      "source": "r11_ladder_b"
+    }
+  },
+  "valuation": {
+    "blocks": {
+      "1": 25946847,
+      "10": 156721411,
+      "130": 58293241,
+      "324": 71914274,
+      "42161": 503701939,
+      "43111": 5264574,
+      "43114": 94935393,
+      "4326": 26244589,
+      "5000": 100455644,
+      "57073": 55543189,
+      "59144": 31991738,
+      "8453": 51126126,
+      "9745": 32101033
+    },
+    "ts": 1789041600,
+    "utc": "2026-09-10 12:00"
+  },
+  "window": {
+    "depeg_onset": {
+      "baseline": 1.0,
+      "ts": 1776614400,
+      "utc": "2026-04-19 16:00"
+    },
+    "pre_case_signals": [
+      {
+        "first_pre": "2023-08-01",
+        "first_pre_ts": 1690876800,
+        "market_uid": "compound:1:0xc3d688b66703497daa19211eedff47f25384cdc3",
+        "n_pre_signals": 6
+      },
+      {
+        "first_pre": "2024-04-27",
+        "first_pre_ts": 1714200215,
+        "market_uid": "morpho:1:0xa72f4af2570dca1b356aa6c1e6a804d0d3df5b23bb092189776d0dc652feabb4",
+        "n_pre_signals": 34
+      },
+      {
+        "first_pre": "2024-05-09",
+        "first_pre_ts": 1715272007,
+        "market_uid": "morpho:1:0xeeabdcb98e9f7ec216d259a2c026bbb701971efae0b44eec79a86053f9b128b6",
+        "n_pre_signals": 222
+      },
+      {
+        "first_pre": "2024-07-03",
+        "first_pre_ts": 1720022400,
+        "market_uid": "compound:8453:0x46e6b214b524310239732d51387075e0e70970bf",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2024-09-23",
+        "first_pre_ts": 1727107200,
+        "market_uid": "gearbox:42161:0xcedaa4b4a42c0a771f6c24a3745c3ca3ed73f17a",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2024-09-23",
+        "first_pre_ts": 1727107200,
+        "market_uid": "gearbox:42161:0x3ab1d35500d2da4216f5863229a7b81e2f6ff976",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2024-10-02",
+        "first_pre_ts": 1727829299,
+        "market_uid": "morpho:1:0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+        "n_pre_signals": 4
+      },
+      {
+        "first_pre": "2024-10-19",
+        "first_pre_ts": 1729382175,
+        "market_uid": "morpho:8453:0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+        "n_pre_signals": 24
+      },
+      {
+        "first_pre": "2024-10-29",
+        "first_pre_ts": 1730212595,
+        "market_uid": "euler:1:0x313603fa690301b0caeef8069c065862f9162162:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 34
+      },
+      {
+        "first_pre": "2024-10-31",
+        "first_pre_ts": 1730412815,
+        "market_uid": "euler:1:0xe2d6a2a16ff6d3bbc4c90736a7e6f7cc3c9b8fa9:0x9913790dd5d3d8389f682a15e4fa90a22891ff49",
+        "n_pre_signals": 97
+      },
+      {
+        "first_pre": "2024-11-13",
+        "first_pre_ts": 1731533867,
+        "market_uid": "euler:1:0x998d761ec1badaceb064624cc3a1d37a46c88ba4:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 11
+      },
+      {
+        "first_pre": "2024-11-21",
+        "first_pre_ts": 1732225247,
+        "market_uid": "euler:1:0x07f9a54dc5135b9878d6745e267625bf0e206840:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2024-12-04",
+        "first_pre_ts": 1733347931,
+        "market_uid": "morpho:1:0xc3250fa72657f5d956a55fd7febf5bf953c18aa04bff2e4088415b1e5c2923b0",
+        "n_pre_signals": 6
+      },
+      {
+        "first_pre": "2024-12-20",
+        "first_pre_ts": 1734662039,
+        "market_uid": "euler:1:0x797dd80692c3b2dadabce8e30c07fde5307d48a9:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 31
+      },
+      {
+        "first_pre": "2024-12-20",
+        "first_pre_ts": 1734667139,
+        "market_uid": "euler:1:0x1987c2dcf5674cf90becebad502714c357ce126a:0xb0f18f0d4882416e7c77c0121ba86d8df0e8ef98",
+        "n_pre_signals": 47
+      },
+      {
+        "first_pre": "2024-12-25",
+        "first_pre_ts": 1735157411,
+        "market_uid": "euler:1:0xd8b27cf359b7d15710a5be299af6e7bf904984c2:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 8
+      },
+      {
+        "first_pre": "2024-12-27",
+        "first_pre_ts": 1735265171,
+        "market_uid": "euler:1:0x9c6e67fa86138ab49359f595bfe4fb163d0f16cc:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 16
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xd8b27cf359b7d15710a5be299af6e7bf904984c2",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xbc4b4ac47582c3e38ce5940b80da65401f4628f1",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x7338d86137052f0df6e9048d6d23e09735a99585",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xe846ca062ab869b66ae8dcd811973f628ba82eaf",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xe88e44c2c7dfc9bcb86e380d29375ccd6cd85406",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x0d1b386187be8e96680bbddbf7bc05fc737f81b8",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xddd082d01852efccec0db5477f41f530ecb0c136",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x9dfe12dbd94eb8294b047fabe3142c5d7178071b",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x797dd80692c3b2dadabce8e30c07fde5307d48a9",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x313603fa690301b0caeef8069c065862f9162162",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x1d09693608c440205fd53d7062862cbf5a6ca69a",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x9c6e67fa86138ab49359f595bfe4fb163d0f16cc",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x07f9a54dc5135b9878d6745e267625bf0e206840",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x9e714434a1c94b842b75631a70e07d13f2575368",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x998d761ec1badaceb064624cc3a1d37a46c88ba4",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x056f3a2e41d2778d3a0c0714439c53af2987718e",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xbc35161043ee2d74816d421efd6a45fda73b050a",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x34716b7026d9e6247d21e37da1f1b157b62a16e0",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xa28c23a459ff8773eb4dbe0e7250d93f79f1fe2b",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x328646cdfbad730432620d845b8f5a2f7d786c01",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xc2d36f41841b420937643dcccbea8163d4f59b6c",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0x22eed7c25a35d40255cd80d3b67a2f8742f94443",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-07",
+        "first_pre_ts": 1736226371,
+        "market_uid": "euler:1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9:0xee944c7dd107617550ec11afcf652e14e7670a37",
+        "n_pre_signals": 12
+      },
+      {
+        "first_pre": "2025-01-18",
+        "first_pre_ts": 1737161363,
+        "market_uid": "euler:1:0xd6506db835b465d5d823add8667362d7b86cfe5f:0xb0f18f0d4882416e7c77c0121ba86d8df0e8ef98",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2025-02-03",
+        "first_pre_ts": 1738546475,
+        "market_uid": "euler:1:0x1d09693608c440205fd53d7062862cbf5a6ca69a:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 40
+      },
+      {
+        "first_pre": "2025-02-27",
+        "first_pre_ts": 1740648767,
+        "market_uid": "morpho:1:0x0188775134d3541a13801c090658734743bcfe54662b045644f8e19d31958dfa",
+        "n_pre_signals": 6
+      },
+      {
+        "first_pre": "2025-03-05",
+        "first_pre_ts": 1741181963,
+        "market_uid": "euler:1:0x34716b7026d9e6247d21e37da1f1b157b62a16e0:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 5
+      },
+      {
+        "first_pre": "2025-03-25",
+        "first_pre_ts": 1742916563,
+        "market_uid": "euler:1:0x7338d86137052f0df6e9048d6d23e09735a99585:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 9
+      },
+      {
+        "first_pre": "2025-03-30",
+        "first_pre_ts": 1743301319,
+        "market_uid": "euler:1:0xd27159604ae512c056cf282933b838a4d38b1d17:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-04-30",
+        "first_pre_ts": 1746045691,
+        "market_uid": "euler:43114:0x03ef14425cf0d7af62cdb8d6e0acb0b0512ae35c:0x6e65eb6cac41a19e0b8bb16f3b5ad150f9124d3d",
+        "n_pre_signals": 55
+      },
+      {
+        "first_pre": "2025-05-11",
+        "first_pre_ts": 1746950400,
+        "market_uid": "compound:130:0x6c987dde50db1dcdd32cd4175778c2a291978e2a",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-05-13",
+        "first_pre_ts": 1747149595,
+        "market_uid": "euler:130:0xd49181c522ecdb265f0d9c175cf26fface64ead3:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 36
+      },
+      {
+        "first_pre": "2025-05-15",
+        "first_pre_ts": 1747338450,
+        "market_uid": "euler:130:0x6eae95ee783e4d862867c4e0e4c3f4b95aa682ba:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-05-23",
+        "first_pre_ts": 1748015193,
+        "market_uid": "euler:130:0x45b41b20b11cd2e71a6bf3021bdbc3f8afea5538:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 4
+      },
+      {
+        "first_pre": "2025-05-27",
+        "first_pre_ts": 1748358554,
+        "market_uid": "euler:130:0x1f3134c3f3f8add904b9635acbefc0ea0d0e1ffc:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 30
+      },
+      {
+        "first_pre": "2025-06-04",
+        "first_pre_ts": 1748997003,
+        "market_uid": "euler:130:0x54ff502df96cd9b9585094eacd86aafce902d06a:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 9
+      },
+      {
+        "first_pre": "2025-06-07",
+        "first_pre_ts": 1749288323,
+        "market_uid": "euler:1:0x056f3a2e41d2778d3a0c0714439c53af2987718e:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 15
+      },
+      {
+        "first_pre": "2025-06-11",
+        "first_pre_ts": 1749604457,
+        "market_uid": "euler:130:0x5d2511c1ebc795f4394f7f659f693f8c15796485:0x59215f65cb2f5ddf048efa8136fc2c19f9a6c416",
+        "n_pre_signals": 20
+      },
+      {
+        "first_pre": "2025-06-24",
+        "first_pre_ts": 1750767695,
+        "market_uid": "euler:1:0xbc4b4ac47582c3e38ce5940b80da65401f4628f1:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 59
+      },
+      {
+        "first_pre": "2025-07-18",
+        "first_pre_ts": 1752814320,
+        "market_uid": "morpho:42161:0x9b1c003e526a51491480854a6ae79f6e66f6a5d6cc9d77cdd0976127af822089",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-08-09",
+        "first_pre_ts": 1754702039,
+        "market_uid": "euler:1:0xe846ca062ab869b66ae8dcd811973f628ba82eaf:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 7
+      },
+      {
+        "first_pre": "2025-08-13",
+        "first_pre_ts": 1755099575,
+        "market_uid": "euler:1:0xe88e44c2c7dfc9bcb86e380d29375ccd6cd85406:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-08-15",
+        "first_pre_ts": 1755261870,
+        "market_uid": "morpho:130:0x5a2b9a157b1b212921845d53fa52ae828ad9bc240ebfc7d57addf7c8f4b4729a",
+        "n_pre_signals": 7
+      },
+      {
+        "first_pre": "2025-08-19",
+        "first_pre_ts": 1755565247,
+        "market_uid": "euler:1:0x0d1b386187be8e96680bbddbf7bc05fc737f81b8:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 2
+      },
+      {
+        "first_pre": "2025-08-19",
+        "first_pre_ts": 1755636959,
+        "market_uid": "euler:1:0xc2d36f41841b420937643dcccbea8163d4f59b6c:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 26
+      },
+      {
+        "first_pre": "2025-09-03",
+        "first_pre_ts": 1756911209,
+        "market_uid": "morpho:42161:0xd478de9c069f12759d3baed9ddd16fe8902128937821af3a3cf77eca1885c7fc",
+        "n_pre_signals": 23
+      },
+      {
+        "first_pre": "2025-09-29",
+        "first_pre_ts": 1759182388,
+        "market_uid": "euler:59144:0x4789d8066cac17fd24f24206a49abc72830604f1:0x140bd9a62ba84fbf78d9e3dd4a94fdafc999faf5",
+        "n_pre_signals": 8
+      },
+      {
+        "first_pre": "2025-10-22",
+        "first_pre_ts": 1761156443,
+        "market_uid": "morpho:43111:0x7bed4e4ac7b65e9c59011d7ed0d34d1d4ed7e16f578f97c3a3d2236c03c5c1a2",
+        "n_pre_signals": 3
+      },
+      {
+        "first_pre": "2025-10-30",
+        "first_pre_ts": 1761789167,
+        "market_uid": "euler:1:0x22eed7c25a35d40255cd80d3b67a2f8742f94443:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 5
+      },
+      {
+        "first_pre": "2025-11-11",
+        "first_pre_ts": 1762832831,
+        "market_uid": "euler:1:0xbc35161043ee2d74816d421efd6a45fda73b050a:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 10
+      },
+      {
+        "first_pre": "2025-11-12",
+        "first_pre_ts": 1762977600,
+        "market_uid": "compound:59144:0x60f2058379716a64a7a5d29219397e79bc552194",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-11-19",
+        "first_pre_ts": 1763581959,
+        "market_uid": "euler:42161:0x78e3e051d32157aacd550fbb78458762d8f7edff:0xe96e07c16661744836a742ef2090f11e84a86f4f",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-12-10",
+        "first_pre_ts": 1765339200,
+        "market_uid": "compound:42161:0x6f7d514bbd4aff3bcd1140b7344b32f063dee486",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2025-12-10",
+        "first_pre_ts": 1765363979,
+        "market_uid": "euler:1:0x328646cdfbad730432620d845b8f5a2f7d786c01:0x1924d7fab80d0623f0836cbf5258a7fa734ee9d9",
+        "n_pre_signals": 1
+      },
+      {
+        "first_pre": "2026-01-25",
+        "first_pre_ts": 1769371200,
+        "market_uid": "fluid:9745:0x6f72895cf6904489bcd862c941c3d02a3ee4f03e",
+        "n_pre_signals": 5
+      },
+      {
+        "first_pre": "2026-02-06",
+        "first_pre_ts": 1770408000,
+        "market_uid": "silo:42161:0xc88734b3d929bb9eac81f9eada48d6d330a3f37f",
+        "n_pre_signals": 1
+      }
+    ],
+    "snapshot_rule": "hit rules section 5: t0 - 24h, per chain",
+    "t0_per_chain": {
+      "1": {
+        "ts": 1776009959,
+        "utc": "2026-04-12 16:05"
+      },
+      "10": {
+        "ts": 1778083200,
+        "utc": "2026-05-06 16:00"
+      },
+      "130": {
+        "ts": 1776548572,
+        "utc": "2026-04-18 21:42"
+      },
+      "42161": {
+        "ts": 1776119825,
+        "utc": "2026-04-13 22:37"
+      },
+      "43114": {
+        "ts": 1778613563,
+        "utc": "2026-05-12 19:19"
+      },
+      "59144": {
+        "ts": 1777262400,
+        "utc": "2026-04-27 04:00"
+      },
+      "8453": {
+        "ts": 1776551709,
+        "utc": "2026-04-18 22:35"
+      },
+      "9745": {
+        "ts": 1776556800,
+        "utc": "2026-04-19 00:00"
+      }
+    }
+  }
+}

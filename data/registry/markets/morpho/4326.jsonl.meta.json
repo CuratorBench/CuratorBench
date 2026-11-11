@@ -1,0 +1,17 @@
+{
+  "chain": "megaeth",
+  "chain_id": 4326,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "MegaEthMainnet",
+    "listed_by_api": false,
+    "morpho": "0x18120312A7cf44DcfEc6dCe5632a431579ED9100",
+    "vault_v1_factories": [],
+    "vault_v2_factories": []
+  },
+  "rows": 5,
+  "scanned_to_block": 28112282,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:48:14+00:00"
+}

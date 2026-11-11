@@ -1,0 +1,21 @@
+{
+  "chain": "arbitrum",
+  "chain_id": 42161,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "Arbitrum One",
+    "listed_by_api": true,
+    "morpho": "0x6c247b1F6182318877311737BaC0844bAa518F5e",
+    "vault_v1_factories": [
+      "0x878988f5f561081deEa117717052164ea1Ef0c82"
+    ],
+    "vault_v2_factories": [
+      "0x6b46fa3cc9EBF8aB230aBAc664E37F2966Bf7971"
+    ]
+  },
+  "rows": 412,
+  "scanned_to_block": 510868030,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T03:47:14+00:00"
+}

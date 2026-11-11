@@ -1,0 +1,6 @@
+{
+  "generator": "code/analysis/e2_events.py",
+  "match": "an event with an episode of the case's collateral family whose onset falls in the case's month or the 7 days before it; related_events: same rule for the case's sibling families (RLP and wstUSR for USR, AVLT for msUSD)",
+  "what": "known events the rules must recover (docs/experiment.md E2)",
+  "written_utc": "2026-10-18T23:13:01+00:00"
+}

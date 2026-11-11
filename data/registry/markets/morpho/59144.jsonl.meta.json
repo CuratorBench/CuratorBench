@@ -1,0 +1,19 @@
+{
+  "chain": "linea",
+  "chain_id": 59144,
+  "generator": "code/data/enumerate.py",
+  "protocol": "morpho",
+  "registry_entry": {
+    "chain_name": "LineaMainnet",
+    "listed_by_api": false,
+    "morpho": "0x6B0D716aC0A45536172308e08fC2C40387262c9F",
+    "vault_v1_factories": [
+      "0xA148a8223B622A72dC36472DE1492aBb5c089BA7"
+    ],
+    "vault_v2_factories": []
+  },
+  "rows": 1,
+  "scanned_to_block": 32206609,
+  "source": "hypersync",
+  "written_utc": "2026-10-02T02:49:14+00:00"
+}

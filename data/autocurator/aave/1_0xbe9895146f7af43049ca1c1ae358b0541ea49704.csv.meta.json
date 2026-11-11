@@ -1,0 +1,9 @@
+{
+ "chain": "Ethereum",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "fdf02dc0-c38d-4850-8d61-74668d281325",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/fdf02dc0-c38d-4850-8d61-74668d281325",
+ "symbol": "CBETH",
+ "written_utc": "2026-10-25T19:58:24Z"
+}

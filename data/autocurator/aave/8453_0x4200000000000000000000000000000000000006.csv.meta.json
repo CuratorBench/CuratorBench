@@ -1,0 +1,9 @@
+{
+ "chain": "Base",
+ "generator": "code/autocurator/baselines.py",
+ "pool": "23405eee-97e7-4b8e-8625-19c3a36047e8",
+ "project": "aave-v3",
+ "source": "https://yields.llama.fi/chart/23405eee-97e7-4b8e-8625-19c3a36047e8",
+ "symbol": "WETH",
+ "written_utc": "2026-10-25T20:02:29Z"
+}
